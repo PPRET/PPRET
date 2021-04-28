@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building inscription concerning a restoration in Aquileia supervised by a praetorian prefect, likely Decimius Hilarianus Hesperius</title>
+                <editor role="edition">Andrea Bernier</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="rev" corresp="pp. 427-428, 433; PLRE II, pp. 561">69</idno>
+                <date when="2020-05-08"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person><persName ref="#Hesperius"><name type="gentilicium">Decimius</name> <name type="cognomen">Hilarianus</name> <name type="cognomen">Hesperius</name></persName></person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Aquileia">Aquileia, Museo Archeologico Nazionale (Gallerie GL10a)</repository>
+                        <idno type="invNo">Lapidario Inv. 178</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#building">building inscription</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#stone_slab">stone slab</objectType>
+                                    <dimensions>
+                                        <height>29</height>
+                                        <width>39</width>
+                                        <depth>9</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">no</rs>
+                                    <rs type="monument_reuse">yes; the fragment was built into the bell tower of the basilica</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#carved">carved</rs>
+                                    <rs type="preservation" ref="#fragmentary">Fragmentary.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <height>5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Aquileia</placeName>
+                                <placeName type="modern_city">Aquileia (Udine - Italy)</placeName>
+                                <placeName type="province">Venetia et Histria</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#public">public space</placeName>
+                            </origPlace>
+                            <origDate period="#p8" when="0379" precision="high">379 AD</origDate>
+                        </origin>
+                        <provenance type="found">found in 1877 in <placeName ref="#">Aquileia</placeName>, built into the bell tower of the Basilica patriarcale di Santa Maria Assunta</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                    <ab>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+                        <lb n="2"/><supplied reason="lost">et T</supplied>heodo<supplied reason="lost">sio</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="3"/><supplied reason="lost">Hi</supplied>larian<supplied reason="lost">us Hesperius <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan> prae</supplied><lb 
+                            break="no" n="4"/>fectus <expan><abbr>pr</abbr><supplied reason="lost"><abbr>aet</abbr><ex>orio</ex></supplied></expan> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="5"/>muros ac <unclear>t</unclear><supplied reason="lost">urres</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low">op</supplied><lb 
+                            break="no" n="6"/>tim<gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="7"/><gap reason="lost" extent="unknown" unit="line"/>
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on EDR except for line 3.</p>
+                <p>
+                    <app loc="1"><note>[d.n. Fl. T]heod[osii beatitudine, Gregorutti; Teodo[- - -], Maionica; [T]heod[osii], Pais, Calderini; [Salvis DDD nnn. Arcadio, Honorio, T]heodo[sio], Brusin</note></app>
+                    <app loc="2"><note>[Fl.] Arian[us v.c.]: Gregorutti; ḶARIAN, Maionica; ḶARIAN[us v.c. prae], Pais; [- - - F]l(avius) Arian[us v(ir) c(larissimus) vel inl(ustris)], Brusin; [- - -]ariam[- - -], Lettich; [Hi]larian[us], Alföldy see EDR; [F]l(avius) Arian[us v(ir) inl(ustris)] EDR</note></app>
+                    <app loc="3"><note>fectus pr[aetorio Italiae Illyrici et Africae], Gregorutti; FECTVS PR, Maionica; F̣ECTUS PṚ[aetorio], Pais; [prae]fectVs pr[aetorio - - -], Brusin; [- - - prae]fectus p[- - -], Lettich</note></app>
+                    <app loc="4"><note>muros ac [turres inclementia], Gregorutti; MVROS AC, Maionica;  muros ac [turres], Pais; [- - -] muros ac [- - -], Lettich; muros ac tu[rres instan], Alföldy see EDR</note></app>
+                    <app loc="5"><note>tia [temporis collabentes restituit], Gregorutti; TII, Maionica; TII[- - -], Pais; [- - -]tia vel [- - -]tim [- - - restituit], Brusin; tia [- - -] Alföldy see EDR</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“... and Theodosius ... Hilarianus Hesperius, of clarissimus rank, praetorian prefect ... walls and towers ... best (?) ...”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“... et Théodose ... Hilarianus clarissime préfet du prétoire ... les murs et les tours ... excellent (?) ...”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“... e Teodosio ... Hilarianus Hesperius chiarissimo prefetto del pretorio ... mura e torri ... ottimo (?) ...”</p>
+            </div>
+            <div type="commentary">
+                <p>This marble fragment was found in 1877 in the Italian town of Aquileia (Friuli-Venezia Giulia), built in the bell tower of the Basilica (Gregorutti 1877-1878, pp. 333-334, nr. 32). It is now stored in the archaeological museum of the city.</p>
+                <p>The fragmentary inscription refers to an emperor Theodosius and a praetorian prefect whose name is only partially preserved as [- - -]LARIAN[- - -].The identity and the chronology of this praetorian prefect are disputed. 
+                    Some scholars identified the emperor as Theodosius II (Augustus 402-450 AD) and the official as an otherwise unknown praetorian prefect, possibly named Fl(avius) Arianus, who was in office during the first half of the 5th Century (Brusin 1991, p. 206, nr. 451; cf. Calderini 1930, p. CI, nt. 6; PLRE II, Hilarianus 1, p. 561; Lettich 2003, nr. 73). 
+                    A different proposal can be found in PLRE I, p. 433, where Hilarianus 3 is considered to be an otherwise unknown praetorian prefect, who was hypothetically in office between 387 and 390 AD. C. Zaccaria, who has recently discussed the fragment (2017, pp. 647-650, bibliography at note 35) sees the remains of a separation point between the L and the A (l. 3), and he thinks the praetorian prefect was Flavius Arianus, who was perhaps involved in the restoration of the walls following Theodosius I’s campaigns against Maximus (388 AD) or Eugenius (394 AD), when Aquileia was a battlefield. 
+                    But the letters L and A seem to be part of the same diacritic. Furthermore the <foreign>cognomen</foreign> Arianus is very rare (no more than sixteen epigraphic attestations in Latin); no dignitary seems to have carried this name, and there is no place for a new praetorian prefect of Italy after 388 and 394 AD. 
+                    A better candidate can be found in the list of the praetorian prefects of the 4th century: Decimius Hilarianus Hesperius, the son of the poet Ausonius, who was praetorian prefect of Italy and Africa from late summer/autumn 378 AD to autumn 379 AD. 
+                    The emperor might therefore be identified as Theodosius I (Augustus from January 19th, 379 AD), and in the text his name would follow those of the other members of the imperial college, Gratian and Valentinian II. The inscription can thus be dated to 379 AD.</p>
+                <p>The fragment undoubtedly reveals the left margin of the epigraphic field. Considering layout of ll. 4-6, the reference to the prefect, starting on l. 3 was probably in this form: [Hi]larian[us Hesperius v(ir) c(larissimus) prae]/fectus pr[aet(orio)]. 
+                    In the several inscriptions which testify to his African proconsulate, the official is never recorded simply as Hilarianus; the names Decimius Hesperius prevail (see the list in PLRE I, pp. 427-428). 
+                    Possibly on l. 4 the office of Hesperius was followed by the indication of his areas of competence, Italy and Africa, while it is unclear whether western Illyricum was in this period under the control of Theodosius’ prefect Eutropius, or whether it was administered by the central prefect of Gratian, that is Hesperius (cf. Porena forthcoming(b), pp. 146, 162) (for the mention of the prefectural area in building inscription see <ref type="ppret" corresp="ppret33">PPRET 33</ref>; without mention see <ref type="ppret" corresp="ppret16">PPRET 16</ref>, <ref type="ppret" corresp="ppret33">33</ref>, <ref type="ppret" corresp="ppret68">68</ref>).</p>
+                <p>The inscription refers to restoration works on the walls of the ancient city, carried out under the direction of the praetorian prefect, whose name is given in the nominative case. After Mediolanum, Aquileia was the most important town of the region called Annonaria and because of its strategic position between Italy and Illyricum, the city often became an imperial residence in the 4th Century (cf. Bonfioli 1973, 125-149; Cracco Ruggini 1987, pp. 57-95; Marano 2009, pp. 23-33; Zaccaria 2010, pp. 13-20). 
+                    During the reign of Gratian, when the establishment of an autonomous prefecture of Illyricum (see <ref type="ppret" corresp="ppret70">PPRET 70</ref>) moved the center of gravity of the central prefecture towards the West, Aquileia also acquired relevance as one of the seats (the other being Mediolanum) of the praetorian prefect of Italy and Africa. 
+                    Our inscription shows the activity of Hilarianus Hesperius, whose presence in the city is also suggested by two imperial laws given at Mediolanum in the Summer of 379 AD and soon received by the praetorian prefect (<ref type="source">CTh 08, 18, 06</ref>: <foreign>accepta</foreign> after 29 days; <ref type="source">CTh 16, 05, 05</ref>: after 18 days); according to the <foreign>subscriptio</foreign> of another law, his successor Principius was in Aquileia in 386 AD (<ref type="source">CTh 02, 08, 18</ref> = <ref type="source">CTh 08, 08, 03</ref> = <ref type="source">CTh 11, 07, 13</ref>; cf. also <ref type="source">CTh 13, 05, 17</ref>, with Porena forthcoming(b), pp. 147-149, 156-157).</p>
+                <p>Although the inscription is fragmentary, the elegant shape and significant size of the surviving letters suggest that it commemorated a substantial intervention on the city walls, probably prompted by the need to strengthen the defensive system of Eastern Italy after the catastrophe of Adrianople (August 9th, 378 AD). 
+                    It was perhaps thanks to these works that the walls of Aquileia were in part renewed after the siege of Julian’s army in 361-362 AD, when a section of the Natisone River bordering the city was diverted and drained (<ref type="source">Amm. 21, 11-12</ref>). 
+                    Editing the inscription, E. Pais (1884, 178) suggested to read on l. 5 a reference to the t[urres] of the city, and some towers of the late-antique fortification system have been found just on what was the previous course of the river, in the area of the harbour (cf. Villa 2004, pp. 570-593; Bonetto 2009, pp. 87-90). 
+                    Their construction was therefore later than 361 AD and may be ascribed to Hesperius, whose supervision of the works is highlighted in this inscription.</p>
+                <p>Among the ancient authors praising the grandeur of the city walls, we also find Ausonius, who, a few years after the prefecture of his son, describes Aquileia as «higly famed for (its) walls and harbour» (<ref type="source">Aus., Ordo, v. 67</ref>: <foreign>moenibus et portu celeberrima</foreign>; for the chronology of this work see Di Salvo 2000, pp. 16-18). This praise, composed when Ausonius and probably also Hesperius were retired from political life, introduces us to the problem of the connections between their careers.</p>
+                <p><emph>The ascendancy of Ausonius’ family</emph></p>
+                <p>The career of Decimius Hilarianus Hesperius is strictly tied to the political influence of his father, Decimus Magnus Ausonius, at the court of the emperor Gratian in Trier. The Gallic grammarian and rhetorician, first summoned by Valentinian I as the tutor of his son Gratian and then promoted to the important office of quaestor in 375 AD, reached the peak of his power, after his pupil became senior Augustus of the Western part of the empire (Stroheker 1948, 150–152; PLRE I, pp. 140-142, with a misprinting corrected by Green 1978, p. 24; Olszaniec 2013, pp. 68-81; many proposals of Coşkun 2002 are problematic). 
+                    Ausonius was praetorian prefect of Gaul, and then also of Italy and Africa, before becoming <foreign>consul prior</foreign> in 379 AD. He provided important positions to many of his relatives (cf. Matthews 1975, pp. 69-87; Sivan 1993, pp. 131-141) and in the ascendancy of this “clan,” a special position was unsurprisingly granted to his son Hilarianus Hesperius.</p>
+                <p>The first attested public appointment of Hesperius is the proconsulship of Africa. His service in the proconsular province is recorded in many inscriptions, one referring to Hesperius’ intervention in the “Leptis scandal” that he investigated with the vicar of Africa, Virius Nicomachus Flavianus (<foreign>IRT</foreign> 526; cf. <ref type="source">Amm. 28, 06, 28</ref>; Tantillo-Bigi 2010, pp. 350-353). The (problematic) chronology of some imperial constitutions shows Hesperius proconsul of Africa from March 376 AD to July 377 AD (PLRE I, p. 428; cf. Barnes 1985a, pp. 144-153, 273-274).</p>
+                <p>After the proconsulship, Hesperius was promoted to the office of praetorian prefect. The nature of this position and its connections with the contemporary career of his father Ausonius have been much discussed in historiography (cf. Seeck 1919, pp. 147-149; Palanque 1933, pp. 48-60; Stein 1934, pp. 335-339). 
+                    In his fundamental study on 4th Century praetorian prefects, A.H.M. Jones (1964, pp. 78-89) suggested that Ausonius and Hesperius held a “collegiate prefecture” (that is, a single prefecture entrusted to two officials) that would have been at first limited to Gauls (378 AD) and then enlarged also to Italy and Africa (379 AD). 
+                    This exceptional situation would have come to an end with the retirement of Ausonius before December 379 AD and the return to the old system of two separate western prefectures. The experience of a “collegiate prefecture” was never replicated in Late Antiquity, nor did it have any previous example in the period following the Constantinian reform of the office. 
+                    Jones’ reconstruction, still dominant today, is grounded on the evidence provided by Ausonius himself in his works and by the Theodosian Code. Given the problematic nature of these testimonies, not to mention Jones’ exceptional stance regarding the history of the office, we will provide a brief discussion of the relevant documents.</p>
+                
+                <p><emph>The prefectures of Ausonius and Hesperius</emph></p>
+                <p>In his speech of thanks to the emperor Gratian for the consulship of 379 AD, Ausonius refers twice to an extraordinary honor granted to his family by the emperor: «the son paired to the father in the prefectorial college» (<ref type="source">Grat. Act. 07</ref>: <foreign>ad praefecturae collegium filius cum patre coniunctus</foreign>) and the prefecture itself «that doesn’t want to thank as a single one, that has been more generously divided than united, because two of us now possess it complete, neither desires it apart» (<ref type="source">Grat. Act. 11</ref>: <foreign>et tui tantum praefectura beneficii, quae et ipsa non vult vice simplici gratulari, liberalius divisa quam iuncta, cum teneamus duo integrum, neuter desiderat separatum</foreign>; while manuscripts have vice simplici, Pastorino 1995, p. 330 proposed <foreign>voce simplici</foreign>, the prefecture «that doesn’t want to thank with only one voice», that makes more sense and is recommended by the preceding sentence, where Ausonius says that all the <foreign>dignitates</foreign> conferred upon him burst out <foreign>in vocem gratulationis</foreign>). 
+                    These two passages of the <title>Gratiarum Actio</title> are the only evidence we have on a connection between the offices of Hesperius and Ausonius. 
+                    Another passage of the same speech shows that Ausonius was at that moment praetorian prefect of Gauls: «so also let (the) voices of all the Gauls render thanks on my behalf, since it is upon their prefect that you have bestowed this distinction» (i.e., the consulship; <ref type="source">Grat. Act. 40</ref>: <foreign>Agant et pro me gratias voces omnium Galliarum, quarum praefecto hanc honorificentiam detulisti</foreign>). Jones (1964, p. 78; PLRE I, p. 428) suggested that Ausonius and Hesperius ruled together over the prefecture of Gauls.</p>
+                <p>Describing his career in other poems, Ausonius writes that he held a «two-fold prefecture» (<ref type="source">Protr. 91</ref>: <foreign>praefecturam duplicem</foreign>) and that he was «<foreign>praefectus Gallis et Libyae et Latio</foreign>» (that is, prefect of Gauls, Africa and Italy: <ref type="source">Aus., Praef. 01, 35-36</ref>; <ref type="source">Epiced. 41-42</ref>). 
+                    In Jones’ words, «this should imply a second, even more extraordinary honour bestowed upon him: the combination of Gauls with Italy and Africa in one prefecture» (Jones 1964, p. 78). Ausonius would have held the prefecture again with his son Hesperius and the Theodosian Code gives ample evidence on his activities in this role. 
+                    The “collegiate prefecture” of Ausonius and Hesperius would, therefore, have been intially restricted to Gauls and then enlarged to Italy and Africa. Since in the speech of thanks, Ausonius does not seem to refer to this second privilege, Jones assumed that it only came after late Summer/Autumn 378 AD, when the emperor Gratian designated the consuls for the following year (Jones 1964, pp. 83-84). 
+                    However, despite the reference to the date of the consuls’ designation, the speech of thanks was not delivered by Ausonius until the second half of 379 AD (possibly in August: Green 1991, p. 537), when Gratian returned to Trier after more than a year away dealing with the Illyrian crisis. 
+                    It is doubtful that the rhetorician would have made any reference to this second honour if it had already been conferred and the Theodosian Code shows that by the end of 378 AD Hesperius was in service as praetorian prefect.</p>
+                <p>The Code is the other main evidence we possess concerning the prefectures of Ausonius and Hesperius and on the praetorian prefects under the reign of Gratian. The collection provides the name of only one western prefect in 376-377 AD, Fl. Claudius Antonius (PLRE I, p. 77): two imperial constitutions (<ref type="source">CTh 13, 03, 11</ref>; <ref type="source">CTh 09, 35, 02</ref>) cite him as the praetorian prefect of Gauls in May and September 376 AD. 
+                    Nevertheless, we do not know who was in charge of the prefecture of Italy and Africa at that time, while it is also possible that an autonomous prefecture was created in Illyricum and initially entrusted to the father of Ausonius (see <ref type="ppret" corresp="ppret70">PPRET 70</ref>). 
+                    Claudius Antonius is the addressee of two further laws (<ref type="source">CTh 01, 15, 07</ref> and <ref type="source">CTh 01, 16, 13</ref>, where he is simply styled <foreign>praefectus praetorio</foreign>) in January and July 377 AD, but the contents do not allow us to ascertain his area of competence. 
+                    However, a third law dated by O. Seeck to November 30th 377 AD and referring to Campania, shows Claudius Antonius ruling as praetorian prefect over Italy (<ref type="source">CTh 09, 40, 12</ref>; Seeck 1919, pp. 86, 248). 
+                    That is the <foreign>terminus ante quem</foreign> for the beginning of Ausonius’ prefecture in Gauls, which may have already taken place in an earlier period (<foreign>contra</foreign> Honoré 1986, pp. 203-210). 
+                    Ausonius received a constitution on the <foreign>cursus publicus</foreign> in April 378 AD (<ref type="source">CTh 08, 05, 35</ref>).</p>
+                <p>Another text (<ref type="source">CTh 01, 15, 08</ref>), addressed to Hesperius the praetorian prefect, has been considered evidence of the contemporary appointment of his son and proof of their “first” collegiate prefecture, the one limited to Gauls. 
+                    But the chronology of the constitution is problematic: while the content clearly fits a praetorian prefect as addressee, the <foreign>subscription</foreign> records  January 22th 377 AD as the date, when Hesperius was serving as proconsul of Africa. Seeck (1919, pp. 72, 248) suggested to add the reference to a post consulate, moving the issuing of the constitution to January 378 AD, but it is unlikely that the court at Trier did not know who the new consular pair were (emperors Valens and his younger nephew Valentinian II, who, as a matter of a fact, was then in Trier) which had been decided long ago (unlike their first joint consulate in 376 AD: Girardet 2004, pp. 109-144; Kelly 2013, pp. 360-374). 
+                    No better emendation can be proposed without completely altering the text. Nevertheless, we must keep in mind that the presence of Hesperius in Gauls at the side of Ausonius is grounded only on this problematic evidence (on this point cf. Olszaniec 2013, pp. 76-77). 
+                    No constitution records Ausonius and Hesperius together, nor is clear how this strange alternation of praetorian prefects could work in practice. Even the reference in the <title>Gratiarum Actio</title> to the «prefecture … more generously divided than united» testifies against a collegiate prefecture in Gauls, making the division of this prefecture into two parts highly improbable. 
+                    Unlikely in itself, this possibility is ruled out by the other relevant passage of the speech (<ref type="source">Grat. Act. 40</ref>): the consulship of Ausonius was praised by «the voices of all the Gauls» (<foreign>voces omnium Galliarum</foreign>) because he was their prefect. This means that no division of the prefecture was in place.</p>
+                <p>How long Claudius Antonius remained prefect of Italy (and Africa) is unclear: the last constitution addressed to him was apparently issued on August 18th 378 AD (<ref type="source">CI 02, 07, 02</ref>,) but its subscription records it as being emitted from Ravenna at a time when the emperor Gratian was in Illyricum; the date needs to be revised. In addition, Ravenna was not the seat of the prefect (at that time the prefect was resident in Mediolanum or Aquileia). 
+                    In order to retain this date, the word <foreign>data</foreign> («given») would have to be substituted with <foreign>accepta/proposita</foreign> («received/posted») in the subscription. If we do this, then we could argue that the text was  issued in an earlier period, perhaps in June 378 AD. 
+                    Some time after, Hesperius replaced Claudius Antonius. 
+                    The Theodosian Code contains ample evidence of his office: the son of Ausonius is the recipients of eight imperial constitutions (the list in PLRE I, p. 428; cf. Porena forthcoming(b), pp. 153-154) issued between December 378 AD and August 379 AD and these documents clearly show that Hesperius had competence over the central prefecture. 
+                    Moreover, he was in the annonarian vicariate: two laws of Gratian promulgated at Mediolanum in the Summer 379 AD were received by Hesperius after 29 and 18 days (<ref type="source">CTh 08, 18, 06</ref>; <ref type="source">CTh 16, 05, 05</ref>). These speedy receptions indicate that the prefect was close to the imperial <foreign>comitatus</foreign>. 
+                    As suggested above, he was probably in Aquileia, where our inscription shows he superivised the restoration of the city walls. While no constitution addressed to Ausonius in this period survives and it is also doubtful that he ever moved from Gauls (Sivan 1993, pp. 138-141; Salzman-Roberts 2011, p. 82), Hesperius was active in Italy. 
+                    His tenure as praetorian prefect came to an end in the Autumn of 379 AD, when he was replaced by Petronius Probus (see <ref type="ppret" corresp="ppret59">PPRET 59</ref>; Porena forthcoming(b), p. 154, revising Jones 1964, p. 84 and PLRE I, p. 428); more or less at the same time, Siburius appears as the new praetorian prefect of Gauls in substitution of Ausonius (<ref type="source">CTh 11, 31, 07</ref>, given on December 3rd, 379 AD; cf. PLRE I, p. 839).</p>
+                <p>In view of the evidence provided by the Theodosian Code and the <title>Gratiarum Actio</title>, one might be tempted to ask whether another interpretation of the “collegiate prefecture” of Ausonius and Hesperius is possible. Ausonius described the praetorian prefecture as the <foreign>culmen honorum</foreign> (<ref type="source">Aus., Praef. 01, 35-36</ref>; <ref type="source">Aus., Epiced. 41-42</ref>.) But precisely because this office was the summit of civil administration, it was put in charge of fundamental tasks that left little room for extemporaneous solutions. Even though Ausonius and Hesperius were father and son, we can hardly imagine a prefecture where it is not clear who was doing what and where. 
+                    The only constitution the Theodosian Code preserves that is addressed to Ausonius, reached him while he was prefect of Gauls in 378 AD. The <title>Gratiarum Actio</title> itself testifies that he was prefect of that region; ample evidence shows the position of Hesperius as praetorian prefect in Italy from, at least, December 378 AD to August 379 AD and the possibility he held a previous prefecture in Gauls is grounded only on an imperial constitution with an erroneous date. 
+                    The reference in the <title>Gratiarum Actio</title> to the «son paired to the father in the prefectorial college» can easily be understood as an allusion to the promotion of Hesperius to the praetorian prefecture of Italy and Africa in the Summer of 378 AD after the tenure of Claudius Antonius; in this way, both Ausonius and Hesperius held the same appointment and were part of the college of the prefects (all the prefects, not the college of the prefects of Gauls). The honour of a father and a son being in office at the same time in two different but bordering prefectures, had never been granted before and Ausonius rightly exalted it in his speech of thanks. 
+                    But it was the son who was paired to the father, that is to say, his promotion came later, while Ausonius was already praetorian prefect. Moreover, the second passage mentioned above would have us believe that another example of the emperor’s largesse was the division of the prefecture, and yet it is hardly credible that Gratian would have split the prefecture of Gauls for Ausonius’ family. 
+                    The true picture, in all likelihood, was that the prefecture at that time was held by father and son, but in two different seats (Ausonius in Trier and Hesperius in Mediolanum-Aquileia). This solution has the added advantage of avoiding any problems with the chronology of the composition of the <title>Gratiarum Actio</title> (that is to say when the consuls were actually designated and when they delivered the speech).</p>
+                <p>However, what this reconstruction leaves out is Ausonius’ reference to the <foreign>praefectura duplex</foreign> (<ref type="source">Aus., Protrept. 91</ref>) that he held over Italy and Africa (in addition to Gauls). If we consider the position of Ausonius in Italy and Africa as being distinct from the one in Gauls, many problems arise. We saw above that the Theodosian Code leaves a blank space for a prefect of Italy and Africa in 376 AD, before Claudius Antonius; but probably Ausonius was still the quaestor of Gratian at the time (Honoré 1986, pp. 203-210) and, anyway, he would not have missed a reference to this previous office in the <title>Gratiarum Actio</title>. 
+                    A later prefecture over Italy and Africa is equally unlikely. After Hesperius’ tenure, the seat was occupied by Petronius Probus until 382 AD (see Porena forthcoming(a), pp. 103-117); by that date Ausonius seems to have lost some of his influence over the imperial court, now permanently located in northern Italy and no longer in Gaul (Matthews 1975, pp. 183-211; Sivan 1993, pp. 138-141; Salzman-Roberts 2011, pp. 35-39; on the contrary, Hesperius was still active at court after the death of Gratian: Vera 1981, pp. 166-167). 
+                    Moreover, the chronology of the poems, where Ausonius refers to the honour, does not plead in favour of this solution (see Green 1991, pp. 233-234, 273-274, 287-288).</p>
+                <p>In order to explain Ausonius’ words, historians have had to resort to the thesis of a “collegiate prefecture,” the assumption being that Ausonius, in some way, had had a hand in the granting of the tenure of the central prefecture to his son Hesperius. As we have seen, this solution is - if not contradicted - at the very least unconfirmed by the Theodosian Code (that shows only Hesperius at the head of the central prefecture) and by the <title>Gratiarum Actio</title> (that explicitly testifies to the prefectures of father and son being divided, not united). 
+                    But, at the moment, it seems the only solution we have to explain the prefecture of Ausonius over Gauls, Africa and Italy. The evidence in support of a collegiate prefecture of this kind is thin to say the least - a law addressed to Hesperius in July 379 AD (<ref type="source">CTh 13, 01, 11</ref>) that communicates the different rates of the <foreign>collatio lustralis</foreign> for Italy, Illyricum and also Gauls: this might be an indication of responsibility over a wider area than the central prefecture, although, once again, this law records only Hesperius as the recipient (with, in addition, the problematic reference to Illyricum).</p>
+                <p>To sum up, while the evidence of Hesperius’ career suggests that he held a praetorian prefecture with responsibilities over Italy and Africa (and perhaps western Illyricum), Ausonius’ references make it necessary to assume that Hesperius’ office was somehow connected with that of his father in Gauls.</p>
+                <p>A.H.M. Jones wrote that “collegiate prefectures” are an invention of modern scholars, who have sought through them to solve the contradictions of the ancient evidence (Jones 1964, p. 78). 
+                    We can repeat these words also for the only “collegiate prefecture” left by Jones, that of Hesperius and Ausonius. If we can rule out the possibility of a first collegiate office in Gauls, we still need a collegiate prefecture with Ausonius responsible for Gauls and Hesperius for Italy and Africa. In spite of all our doubts about its real existence and how it may actually have worked in practise, we are not yet ready to discard it.</p>
+                
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Gregorutti 1877-1878, pp. 333-334, nr. 32</ref></bibl>
+                    <bibl><ref>Maionica 1878, p. 84, nr. 6</ref></bibl>
+                    <bibl><ref>Pais 1884, nr. 178</ref></bibl>
+                    <bibl><ref>Calderini 1930, p. CI, nt. 6, p. 82, nt. 6</ref></bibl>
+                    <bibl><ref>Brusin 1991, p. 206, nr. 451</ref> (with photo)</bibl>
+                    <bibl><ref>Lettich 2003, pp. 70-71, nr. 73</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR117562">EDR 117562</ref></bibl>
+                    <bibl><ref corresp="http://lupa.at/14420">Ubi erat Lupa 14420</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Barnes T.D., Proconsuls of Africa, 337-392, Phoenix, 39, 1985, 144-153 (Corrigenda, 273-274)</bibl>
+                    <bibl>Bonetto J., Le mura, in Ghedini F., Bueno M., Novello M. (edd. by), Moenibus et portu celeberrima. Aquileia: storia di una città, Roma 2009, 83-92</bibl>
+                    <bibl>Bonfioli M., Soggiorni imperiali a Milano e ad Aquileia da Diocleziano a Valentiniano III, AAAd, 4, 1973, 125-149</bibl>
+                    <bibl>Brusin G.B., Inscriptiones Aquileiae, I, Udine 1991</bibl>
+                    <bibl>Buora M., Le mura medievali di Aquileia, AAAd, 32, 1988, 335-361</bibl>
+                    <bibl>Calderini A., Aquileia romana. Ricerche di storia e di epigrafia, Milano 1930</bibl>
+                    <bibl>Coşkun A., Die gens Ausoniana an der Macht. Untersuchungen zu Decimius Magnus Ausonius und seiner Familie, Oxford 2002</bibl>
+                    <bibl>Cracco Ruggini L., Aquileia e Concordia: il duplice volto di una società urbana nel IV secolo d.C., AAAd, 29, 1987, 59-95</bibl>
+                    <bibl>Di Salvo L., Ordo urbium nobilium: introduzione, testo critico, traduzione e note di commento, Napoli 2000</bibl>
+                    <bibl>Girardet K., Die Erhebung Kaisers Valentinian II. Politische Umstände und Folgen (375/76), Chiron, 34, 2004, 109–14 (= Id., Kaisertum, Religionspolitik und das Recht von Staat und Kirche in der Spätantike, Bonn 2009, 345-386)</bibl>
+                    <bibl>Green R.P.H., Prosopographical Notes on the Family and Friends of Ausonius, BICS, 25, 1978, 19-27</bibl>
+                    <bibl>Green R.P.H. (ed. with intr. and comm. by), The Work of Ausonius, Oxford 1991</bibl>
+                    <bibl>Gregorutti C., Iscrizioni inedite aquileiesi, istriane e triestine, L’Archeografo triestino, III s., 5, 1877-1878, 331-347</bibl>
+                    <bibl>Honoré T., The Making of the Theodosian Code, ZRG, 103, 1986, 133-222</bibl>
+                    <bibl>Jones A.H.M., Collegiate Prefectures, JRS, 54, 1964, 78-89</bibl>
+                    <bibl>Kelly G., The Political Crisis of AD 375-376, Chiron, 43, 2013</bibl>
+                    <bibl>Lettich G., Itinerari Epigrafici Aquileiesi, Trieste 2003</bibl>
+                    <bibl>Maionica E., Epigraphische Bericht aus Österreich - Aquileia, Arch. Epigr. Mitt. Österr., 2, 1878, 82-89</bibl>
+                    <bibl>Maionica E., Ausgrabungen in Ronchi und Aquileja, Arch. Epigr. Mitt. Österr., 4, 1880, 82-97</bibl>
+                    <bibl>Marano Y., La città tardoantica, in Ghedini F., Bueno M., Novello M. (edd. by), Moenibus et portu celeberrima. Aquileia: storia di una città, Roma 2009, 23-33</bibl>
+                    <bibl>Matthews J., Western Aristocracies and Imperial Court, A.D. 364-425, Oxford 1975</bibl>
+                    <bibl>Olszaniec S., Prosopographical Studies on the Court Elite in the Roman Empire (4th Century AD), Toruń 2013</bibl>
+                    <bibl>Pais E., Corporis Inscriptionum Latinarum supplementa italica, I. Additamenta ad vol. V. Galliae Cisalpinae, Roma 1884</bibl>
+                    <bibl>Palanque J-R., Essai sur la préfecture du prétoire du bas-empire, Paris 1933</bibl>
+                    <bibl>Pastorino A. (ed. by), Decimo Magno Ausonio. Opere, Torino 1995 (first ed. 1971)</bibl>
+                    <bibl>Porena P., Le iscrizioni del Pretorio di Gortina e la carriera prefettizia di Sex. Petronius Probus, in Bigi F., Tantillo I. (edd. by), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, forthcoming(a), 87-141</bibl>
+                    <bibl>Porena P., Ipotesi sull’istituzione di una prefettura del pretorio autonoma d’Illirico nel decennio 378-387, in Bigi F., Tantillo I. (edd. by), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, forthcoming(b), 143-166</bibl>
+                    <bibl>Salzman M.R., Roberts M. (edd. by), The Letters of Symmachus. Book 1, Atlanta 2011</bibl>
+                    <bibl>Seeck O., Regesten der Kaiser und Paepste fuer die Jahre 311 bis 476 n. Chr.: Vorarbeit zu einer Prosopographie der christlichen Kaiserzeit, Stuttgart 1919</bibl>
+                    <bibl>Sivan H., Ausonius of Bordeaux. Genesis of a Gallic Aristocracy, London 1993</bibl>
+                    <bibl>Stein E., A propos d’un livre récent sur la liste des préfets du prétoire, Byzantion, 9, 1934, 327-353</bibl>
+                    <bibl>Stroheker K.F., Der senatorische Adel im spätantiken Gallien, Tübingen 1948</bibl>
+                    <bibl>Tantillo I., F. Bigi F. (edd.), Leptis Magna. Una città e le sue iscrizioni in epoca tardoromana, Cassino 2010</bibl>
+                    <bibl>Vera D., Commento storico alle Relationes di Quinto Aurelio Simmaco. Introduzione, commento, testo, traduzione, appendice sul libro X, 1-2, indici, Pisa 1981</bibl>
+                    <bibl>Villa L., Aquileia tra Goti, Bizantini e Longobardi: spunti per un’analisi delle trasformazioni urbane nella transizione fra Tarda Antichità e Alto Medioevo, AAAd, 59, 2004, 561-632</bibl>
+                    <bibl>Zaccaria C., Aquileia and its Territory in the Fourth Century AD, in Magrini C., Sbarra F. (edd by), Late Roman Glazed Pottery in Carlino and in Central-East Europe. Production, Function and Distribution (BAR Int. Series 2068), Oxford 2010, pp. 13-20</bibl>
+                    <bibl>Zaccaria C., Il consularis Venetiae et Histriae Valerius Adelfius Bassus e il rinnovamento edilizio ad Aquileia in età teodosiana, in Antolini S., Marengo S.M., Paci G. (eds), Colonie e municipi nell’era digitale. Documentazione epigrafica per la conoscenza delle città antiche. Atti del Convegno di studi (Macerata, 10-12 dicembre 2015), Roma 2017, 635-653</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="7">
+                    <p n="7.4"></p>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.2">[prae]fectus pr[aetorio]</p>
+                    <p n="8.5"></p>
+                    <p n="8.9"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

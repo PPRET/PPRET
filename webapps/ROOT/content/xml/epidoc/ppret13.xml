@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription (2) in honour of Constantine Aug. from Ancyra by his praet. prefect Fl. Constantius</title>
+                <editor role="edition">Eleonora Angius</editor>
+                <editor role="encoding">Eleonora Angius</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="new">13</idno>
+                <date when="2020-06-19"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person><persName ref="#Constantius"><name type="gentilicium">Flavius</name> <name type="cognomen">Constantius</name></persName></person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Ankara">Museum of the Roman Baths (C III) of Ankara</repository>
+                        <idno type="invNo">inv. 42.1.02</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the emperor Constantine by the only praet. prefect Fl. Constantius</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">hard, grey, white-veined marble</material>
+                                    <objectType ref="#base">large rectangular statue base</objectType>
+                                    <dimensions>
+                                        <height>126</height>
+                                        <width>92</width>
+                                        <depth>73,5</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">yes, the epigraphic field is rough and deep, especially in the lower part, because the inscription chiselled over and erased an earlier text</rs>
+                                    <rs type="monument_reuse">yes, cut in recent times on the top surface in order to form a grape-press</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#damaged">Damaged: the top right corner was cut in an irregular quadrangular shape in order to form an anchoring stone for the wooden beam of an olive oil-press. Also the bottom right corner has been cut back in a corresponding shape and there is a large trapezoidal slot cut into the top of the right-hand side of the block for attaching a press beam (see GLIA II, p. 72).</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#rustic_capitals">rustic capitals</term>
+                                <height>5.5 / 7</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Ancyra</placeName>
+                                <placeName type="modern_city">Ankara (Turkey)</placeName>
+                                <placeName type="province">Galatia</placeName>
+                                <placeName type="diocese">Pontica</placeName>
+                                <placeName type="prefecture">(not regional before 326 AD)</placeName>
+                                <placeName type="ancient_location" ref="#public">public space</placeName>
+                            </origPlace>
+                            <origDate period="#p4" notBefore="0324" notAfter="0327">324/327 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#">Ankara</placeName>, the base was found on August 16<hi rend="superscript">th</hi> 2002 in the garden of a Ilköğretim Okulu (primary school) of Ulus quarter</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                    <ab>
+                        <lb n="1"/>Aeternae Pietatis au<supplied reason="lost">ctori</supplied>
+                        <lb n="2"/><expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan>, Constantino Maxi<supplied reason="lost">mo</supplied>
+                        <lb n="3"/>Victori, semper Augusto,
+                        <lb n="4"/><expan><abbr>Fl</abbr><ex>avius</ex></expan> Constantius, <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan>, praefectus 
+                        <lb n="5"/>praetorio, numini eius semper
+                        <lb n="6"/><space extent="unknown" unit="character"/> dicatissimus <space extent="unknown" unit="character"/>.
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>This edition is based on GLIA II, 330, supplemented by a restitution of Feissel at line 1, who suggested au[ctori], avoiding a superfluous repetition.</p>
+                <p>
+                    <app loc="1"><note>Au[gusto]: French 2003, 8; Au[gusti]: Clauss-Slaby (EDCS 39800005)</note></app>
+                    <app loc="4"><note>the final letter S was squashed tightly against the V to fit the stone (GLIA II, p. 73)</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>(by GLIA II, p. 73)</p>
+                <p>“For the promoter of eternal piety, our master Constantinus, the greatest always victorious Augustus, Flavius Constantius, of clarissimus rank, praetorian prefect, everlastingly devoted to his divine numen.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“Au promoteur de la piété éternelle, notre seigneur Constantin, le plus grand, vainqueur, toujours Auguste, Flavius Constantius, clarissime préfet du prétoire, toujours très dévoué à sa divinité.”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“Al promotore dell’eterna pietà, il nostro signore Costantino, Massimo, Vincitore, sempre Augusto, Flavius Costantius, chiarissimo prefetto del pretorio, sempre devotissimo al suo nume.”</p>
+            </div>
+            <div type="commentary">
+                <p>Our second inscription from Ancyra, was chiselled on a grey rectangular marble base, was discovered on August 16<hi rend="superscript">th</hi> 2002 in the garden of the Ilköğretim Okulu primary school in the Ulus quarter. The base is now exhibited in Ankara’s Roman Baths open-air Museum.</p>
+                <p>The support is damaged: the top right corner was cut in an irregular quadrangular shape in order to form an anchoring stone for the wooden beam of an olive oil-press; also the bottom right corner has been cut back in a corresponding shape and there is a large trapezoidal slot cut into the top of the right-hand side of the block for attaching a press beam (see GLIA II, p. 72).</p>
+                <p>The editor also noted that the upper part of the inscription was chiselled on a flat surface, prepared with a claw-tooth chisel, while the lower part was roughly dressed: the inscription was cut over an earlier erased text (see GLIA II, p. 72).</p>
+                <p>This monument has the same dedicant, the praetorian prefect Flavius Constantius (PLRE I, p. 225, for his career see <ref type="ppret" corresp="ppret12">PPRET 12</ref>) and addresses the same figure, the emperor Constantine as on the very similar inscription found at Ankara in the second half of 19<hi rend="superscript">th</hi> century and available in <ref type="ppret" corresp="ppret12">PPRET 12</ref>. 
+                    The fact that two monuments for Constantine in Ancyra were made by his prefect between the end of 324 and 327 AD is supported not only by the use of the epithets Maximus and Augustus, but also by the sources.
+                    After this recent discovery, Mitchell and French were able to conjecture, through a comparison of the height of the letters on the monuments (the only measurement is recorded in <ref type="ppret" corresp="ppret12">PPRET 12</ref>), that these bases could have had the same dimensions (see <ref type="ppret" corresp="ppret12">PPRET 12</ref>). These monuments were also probably displayed in the same area of Ancyra. The analogous provenance, form and content might well therefore validate Porena’s assumption (Porena 2003, pp. 392-393) that these monuments are surviving examples of a series of dedications decreed by the prefect when he was the only member of the college, maybe in occasion of Constantine’s <foreign>Vicennalia</foreign> (cf. commentary in <ref type="ppret" corresp="ppret12">PPRET 12</ref>).</p>
+                <p>The prefect evidently wanted to promote the new emperor – the only ruler in the East – exalting not only to his conciliatory will, but also his <foreign>clementia</foreign> and <foreign>pietas</foreign>. 
+                    It is, therefore, no surprise that these attributes occur in both dedications (and probably in the whole series). The reference to <foreign>pietas</foreign> is particularly pertinent given its profound semantic value: it concerns the religious faith of the emperor, his reconciling policy and by extension his pity for his enemies, crucial for his military and political success (see GLIA II, p. 73).</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>French 2003, nr. 4</ref></bibl>
+                    <bibl><ref>AE 2006, 1473</ref></bibl> 
+                    <bibl><ref>GLIA II, 330</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p>
+                    <bibl><ref>French 2003, 4</ref> (photo p. 88)</bibl>
+                    <bibl><ref>GLIA II, 330</ref> (photo p. 73)</bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-39800005">EDCS 39800005</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>French D., Late roman and byzantine inscriptions of Ankara: a selection, Ankara 2003, 88, nr. 4</bibl>
+                    <bibl>Mitchell S., French D., The Greek and Latin Inscriptions of Ankara (Ancyra), Vol. II, München 2019, 72-74, nr. 330</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                <div type="commentary" n="7">
+                    <p n="7.2"></p>  
+                 </div>
+                <div type="commentary" n="8">
+                    <p n="8.1">v(ir) c(larissimus)</p>
+                    <p n="8.2">praefectus praetorio</p>
+                    <p n="8.5"></p>
+                    <p n="8.9"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

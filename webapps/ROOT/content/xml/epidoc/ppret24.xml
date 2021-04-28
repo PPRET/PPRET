@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bronze statue base in honour of the praet. prefect Domitius Leontius from Berytus decreed by the council of Phoenicia and made by the ordo of Berytus with imperial permission</title>
+                <editor role="edition">Eleonora Angius</editor>
+                <editor role="encoding">Eleonora Angius</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="p. 502">24</idno>
+                <date when="2020-06-13"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Leontius"><name type="praenomen">Flavius</name>
+                            <name type="gentilicium">Domitius</name>
+                            <name type="cognomen">Leontius</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Jerusalem">This inscription was brought to the Prussian consulate in Jerusalem before 1862 and built into the walls of the structure (see Waddington 1870, nr. 1847a). The inscription, believed lost, had been seen in the wall of an inhabitated building called “house Kamara” (the ancient French and then Prussian consulate) in Jerusalem between Aqabat el-Takiyeh street and Dolorosa Street (see Recio Veganzones 1970, p. 118). In the 1980’s this building became the property of the Custodia di Terra Santa and the inscription was detached from the wall and brought to the Convento della Flagellazione in the Private Archaeological Museum of the <foreign>Studium Biblicum Franciscanum</foreign>, where it is still exhibited today (seen by Fulvia Ciliberto)</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the praet. prefect Domitius Leontius by the <foreign>ordo</foreign> of Berytus</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">light grey marble</material>
+                                    <objectType ref="#stone_slab">slab joined to a statue base</objectType>
+                                    <dimensions>
+                                        <height>66</height>
+                                        <width>73</width>
+                                        <depth>6 / 7</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">unknown</rs>
+                                    <rs type="monument_reuse">uncertain. A hole in the middle of the last line was ignored by the stonecutter who separated HAB from ITO: perhaps evidence of reuse.</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#fragmentary">Fragmentary: broken into two unequals fragments and reduced in the middle part of the upper side</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#rustic_capitals">rustic capitals</term>
+                                <height>5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Berytus</placeName>
+                                <placeName type="modern_city">Beirut (Lebanon)</placeName>
+                                <placeName type="province">Phoenicia</placeName>
+                                <placeName type="diocese">Oriens</placeName>
+                                <placeName type="prefecture">Oriens</placeName>
+                                <placeName type="ancient_location" ref="#public">public place</placeName>
+                            </origPlace>
+                            <origDate period="#p5" when="0344" precision="high">344 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#">Beirut</placeName>, found in a garden (see Thomson, Woolsey 1848, p. 587)</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                <ab>
+                    <lb n="1"/><supplied reason="lost" cert="low">Flavio Domitio</supplied>                     
+                    <lb n="2"/>Leonti<supplied reason="lost">o <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> praefect</supplied>o   
+                    <lb n="3"/>praetorio adque o<supplied reason="lost">rd</supplied>i<unclear>n</unclear>ario consuli,
+                    <lb n="4"/>provocantibus eius meritis, quae per 
+                    <lb n="5"/><unclear>si</unclear>ngulos honorum grados ad hos
+                    <lb n="6"/><unclear>e</unclear>um dignitatum apices provexerunt, 
+                    <lb n="7"/>decretis provinciae Phoenices, senten<lb
+                        break="no" n="8"/>tia divina firmatis <expan><abbr>d</abbr><am>d</am><ex>ominorum</ex></expan> <expan><abbr>n</abbr><am>n</am><ex>ostrorum</ex></expan> Constantii e<unclear>t</unclear> 
+                    <lb n="9"/>Constantis, aeternorum princi<lb
+                        break="no" n="10"/>pum, ordo Berytiorum statuam   
+                    <lb n="11"/>sumptibus suis e<corr>x</corr> aere locatam 
+                    <lb n="12"/>civili <sic>hab<g ref="hole"/>ito</sic> dedicavit.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>This edition is based on Recio Veganzones 1970, the last one who saw the inscription, with an integration by Renan 1864, who restored (as Veganzones supposed) the first line reporting Leontius’complete and lost name.</p>
+                <p>
+                    <app loc="2-3"><note>praefecto Orientis]: Renan 1864, p. 346; adque o[rd]inario: Thomson, Woolsey 1848, p. 587, ILS 1234; Leonti <gap reason="lost" quantity="3" unit="character"/> / praetorio adque o[rd]inario: Waddington 1870, nr. 1847a, CIL III, 167, Hall 1999, p. 94, LSA 1190, EDCS 22300057</note></app>
+                    <app loc="5"><note>[e]um: Waddington 1870, nr. 1847a , CIL III, 167, ILS 1234, LSA 1190, EDCS 22300057</note></app>
+                    <app loc="9-10"><note> princi/rum: Thomson, Woolsey 1848, p. 587; Berytiorum: all the editors, but on the stone there is a horizontal stroke between Y and T.</note></app>
+                    <app loc="11"><note>e[x]: Waddington 1870, nr. 1847a, CIL III, 167, ILS 1234, LSA 1190, EDCS 22300057; but Waddington 1870 fac-simile read EA: possibly an engraving error due to the initial of the following word (aere).</note></app>
+                    <app loc="12"><note>a hole prior to letter chiselling HAB and ITO.</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“To [Flavius Domitius] Leontius, praetorian prefect of clarissimus rank and ordinary consul, prompted by his merits which carried him through the single grades of offices to these top heights of distinction, by decrees of the province of Phoenice having been confirmed by the divine decision of our masters, the eternal princes Constantius and Constans, the council of the Berytians dedicated at their own expense this bronze statue in civilian clothing.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“A [Flavius Domitius] Léontius, clarissime préfet du prétoire et consul ordinaire, promu par ses mérites, qui lui ont permis d’atteindre, à travers les différents rangs des charges, ces postes de très haut niveau, par décision de l’assemblée de la province de Phénicie, ratifiée par la divine sentence de nos seigneurs Constantius et Constans, princes éternels, le conseil de Bérytus a dédié à ses frais cette statue de bronze en tenue civile.”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“A [Flavius Domitius] Leontius, chiarissimo prefetto pretorio e console ordinario, promosso dai suoi meriti, che gli hanno permesso di raggiungere, attraverso i singoli gradi delle cariche, queste vette delle dignità, per decisione dell’assemblea della provincia della Fenicia, ratificata dalla divina decisione dei nostri signori Costante e Costanzo, eterni principi, il consiglio di Berytus ha dedicato a proprie spese questa statua in bronzo in abiti civili.”</p>
+            </div>
+            <div type="commentary">
+                <p>The monument was discovered by Thomson in 1848 and «was copied from a large stone which appears to have formed part of a pedestal of a statue found in one of the gardens of Beirut» (see Thomson, Woolsey 1848, p. 587), then before 1862, when Waddington saw our inscription (see Waddington 1870, p. 441), it was already taken from Beirut and brought to the Prussian consulate of Jerusalem in whose walls it was built. 
+                    The monument was believed lost, nor was there a photograph of it until 1970, when A. Recio Veganzones found and photographed the slab at Jerusalem, in the lower part of the wall of a inhabited building known as  the “Kamar house”, the ancient French and Prussian Consulate (part of a group of dwellings between Aqabat et-Takiyeh (Khaski sultan) street number 17 and Dolorosa street). In the 1980’s this building became the property of the Custodia di Terra Santa and our inscription was detached from the wall and brought to the Convento della Flagellazione in the Private Archaeological Museum of the <foreign>Studium Biblicum Franciscanum</foreign>, where it is still exhibited today (seen by Fulvia Ciliberto).</p>
+                <p>The inscription is chiselled on a rectangular grey marble slab broken into two unequal fragments and reduced on the upper middle and right side (it was already reduced when it was at Beirut, but not broken). We agree with Recio Veganzones (1970, 123) and Renan (1864, 346) who think there was a first lost line containing the entire onomastics of Leontius.</p>
+                <p>The inscription chiselled on this slab was attached to an honorific bronze statue base (as always the statue is now lost) and erected to Leontius when he was consul and praetorian prefect of the East. This monument was made by the council (<foreign>ordo</foreign>) of Berytus, which took charge of the execution of the decree by the provincial assembly of Phoenices for the casting of the bronze statue.
+                    In 341/342 AD, Flavius Domitius Leontius (PLRE I, 502, Leontius 20; Barnes 1992, pp. 253-254; Moser 2018, p. 95) was attested as praetorian prefect in the college of prefects on the inscription of Traiana, listed in second place after Antonius Marcellinus and before Fabius Titianus (<ref type="ppret" corresp="ppret22">PPRET 22</ref>).
+                    Then, in 343/344 AD, he appears in first place on the Greek inscription of Delphi, before Fabius Titianus and Baburius Placidus (<ref type="ppret" corresp="ppret23">PPRET 23</ref>).
+                    The Theodosian Code confirms that he was praetorian prefect from (at least) October 11<hi rend="superscript">th</hi> 340 AD (<ref type="source">CTh 07, 09, 02</ref>) to (at least) July 6<hi rend="superscript">th</hi> 344 AD (<ref type="source">CTh 13, 04, 03</ref>). 
+                    Then, he also became consul prior in 344 AD with Fl. Bonosus until April and with Fl. Sallustius (who maybe replaced Bonosus) from May until the end of the year (see CLRE, pp. 222-223). Leontius held both the praetorian prefecture and the consulate in 344 AD: the monument from Berytus, that records in full his consulate, has to date to the middle of 344 AD. 
+                    The text lauds the senator for his speedy rise to such lofty positions: <foreign>provocantibus eius meritis, quae per singulos honorum grados ad hos eum dignitatum apices provexerunt</foreign>. Unfortunately, we do not know of any office in his career prior to the praetorian prefecture. Since <ref type="source">CTh 09, 01, 07</ref> dated October 11<hi rend="superscript">th</hi> 338 AD, citing Leontius as praetorian prefect, overlaps with the prefectural mandate of its predecessor Septimius Acindynys (PLRE I, p. 11), the PLRE (I, p. 502) has supposed a possible vicariate of a diocese.</p>
+                <p>It is legitimate to question how Leontius’ glorious career might have been connected to the city of Berytus. The city appears quite willing to finance such an expensive monument to the prefect, while the <foreign>ordo</foreign> and not the κοινὸν of the province of Phoenices paid (<foreign>sumptibus suis</foreign>). Was Berytus the homeland of Leontius or was the senator a patron? Sadly, the epigraphic text does not say anything about these relations. 
+                   Since there is no reference to an origin or any form of patronage connected to Berytus, Moser suggested that the monument was the result of: a) a Leontius’ sojourn in Berytus; b) an assistance to the city during his prefecture (like that of the prefect Marcellinus, see <ref type="ppret" corresp="ppret21">PPRET 21</ref>); c) he had some properties at or near the city and retired there after the end of his prefecture in 344 AD (see Moser 2018, p. 96).</p>
+                <p>However Leontius’merits must have been of some note, since bronze statues were an outstanding honour in the mid 4th Century, requiring imperial permission (<foreign>sententia divina ﬁrmatis dd(ominorum) nn(ostrorum) Constantii et Constantis</foreign>) (see Feissel 1984, pp. 549-550). 
+                    It cannot be excluded that, perhaps, a special authorization was necessary because the monument was decreed during the year of the consulate of Leontius, before he was discharged from the praetorian prefecture. 
+                    On the other hand, since he shares the name of several citizens of Berytus who would be prominent after him, such as a governor of Phoenicia (PLRE I, p. 501, Leontius 14) and a law professor of the late 5th Century (PLRE II, p. 672, Leontius 20), L. J. Hall suggested that he came from a family that had gained a position of influence not only in Berytus, but also in Phoenicia (see Hall 2004, p. 105).</p>
+                <p>Our inscription is the last one known from Berytus in Latin. The city produced more Latin inscriptions than other city of the Greek East (at least 150 Latin inscriptions are found in the city).
+                    According to Feissel and also to Hall, this conservatorism is directly linked to the status of Berytus as a Roman colony of ancient foundation and as a seat of a distinguished school of Roman law. 
+                    This massive use of Latin «suggests an ‘audience’ of citizens who would identify with both the linguistic and political implications of ‘Roman’ city life rather than the ‘Greek’ urban structures of other Eastern cities» (see Hall 1999, p. 53).</p>
+                <p>In spite of his high civil functions, the late roman praetorian prefects were traditionally represented with military attributes (see Gehn 2012, pp. 143-144). The council of Berytus therefore specifies that the bronze <foreign>togatus</foreign> to be admired above the base is that of a praetorian prefect. 
+                    For inscriptions indicating that the prefect is to be dressed in civilian clothes cf. Maternus Cynegius (<ref type="ppret" corresp="ppret75">PPRET 75</ref>); as regards the clothing style, the inscription of the praetorian prefect of Marcus Aurelius and Commodus, M. Bassaeus Rufus, made in Rome in 179/180 is important (now CIL VI, 41141 = ILS 1326).</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Thomson, Woolsey 1848, p. 587</ref></bibl>
+                    <bibl><ref>Renan 1864, p. 346</ref></bibl>
+                    <bibl><ref>Waddington 1870, p. 441, nr. 1847a</ref></bibl>
+                    <bibl><ref>CIL III, 167</ref></bibl>
+                    <bibl><ref>ILS 1234</ref></bibl>
+                    <bibl><ref>Recio Veganzones 1970, pp. 124-125</ref></bibl>
+                    <bibl><ref>Hall 1999, p. 94</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p>
+                    <bibl><ref>Recio Veganzones 1970, pp. 121-122</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-22300057">EDCS 22300057</ref></bibl>
+                    <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail.php?record=1190">LSA 1190</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Barnes T. D., Praetorian prefects, 337-361, ZPE, 94, 1992), 253-254</bibl>
+                    <bibl>Ciliberto F., Ricci C., Da Beirut a Gerusalemme: un frammento di un sarcofago a ghirlande con tabula iscritta, in Tutela, studio, valorizzazione di un patrimonio museale (Museum 17), Milano 2013, 34-35; 45</bibl>
+                    <bibl>Feissel D., Les inscriptions dans l’Orient protobyzantin, in Acta Congressus Internationalis XIV Archaeologiae Christianae: Vindobonae 19-26.9.1999, Città del Vaticano 2006, 107</bibl>
+                    <bibl>Feissel D., Notes d’Épigraphie chrétienne VII, BCH, 108, 1984, 549-550</bibl>
+                    <bibl>Gehn U., Ehrenstatuen in der Spätantike. Chlamydati und Togati, Wiesbaden 2012, 143-144</bibl>
+                    <bibl>Hall L. J., Latinitas in the Late Antique Greek East: Cultural Assimilation and Ethnic Distinctions, Veritatis Amicitiaeque Causa: Essays in Honor of Anna Lydia Motto and John R. Clark, Wauconda 1999, 94-97</bibl>
+                    <bibl>Hall L. J., Roman Berytus: Beirut in Late Antiquity, London-New York 2004, 52-53</bibl>
+                    <bibl>Moser M., Emperor and senators in the reign of Constantius II: maintaining imperial rule between Rome and Constantinople in the fourth Century A. D., Cambridge 2018, 95-96</bibl>
+                    <bibl>Premerstein A., Griechisch-Römisches aus Arkadien, JÖAI 15, 1912, 215-218</bibl>
+                    <bibl>Recio Veganzones A., Dos inscripciones de Beyrout conservados en Jerusalén, Stud. Bib. Franc., 20, 1970, 118- 126 (photo 121-122)</bibl>
+                    <bibl>Renan E., Mission de Phénice, Paris 1864, 346</bibl>
+                    <bibl>Thomson M., Woolsey M., Remarks on inscriptions, Bibliotheca sacra and Theological review, 5, 1848, 587-592</bibl>
+                    <bibl>Waddington W. H., Inscriptiones grecques et latines de la Syrie, Paris 1870, 441, nr. 1847a</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.a"></p>
+                    <p n="2.1"></p>
+                    <p n="2.7">statuam ex aere locatam civili hab ito</p>
+                    <p n="2.8">senten/tia divina firmatis dd(ominorum)nn(ostrorum) Constantii et / Constantis, aeternorum princi/ pum</p>
+                    <p n="2.10">Provocantibus eius meritis, quae per / singulos honorum grados ad hos / eum dignitatum apices provexerunt</p>
+                    <list n="2.11">
+                        <item n="2.11.c"></item>
+                        <item n="2.11.d"></item>
+                    </list>
+                </div>
+                <div type="commentary" n="8">
+                    <p n="8.1">[v(ir) c(larissimus)]</p>
+                    <p n="8.2">[praefect]o praetorio</p>
+                    <p n="8.5"></p>
+                    <p n="8.9"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

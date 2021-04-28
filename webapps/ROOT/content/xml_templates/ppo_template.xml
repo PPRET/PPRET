@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iunius Bassus</title>
+                <author role="edition" xml:id="PP">Pierfrancesco Porena</author>
+                <author role="encoding" xml:id="IV">Irene Vagionakis</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename">PPO22</idno>
+                <date when="2020-03-14"/>
+                <availability><licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc><p>Born digital document.</p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="info">
+                    <listPerson>
+                        <person xml:id="ppo22">
+                            <idno type="PPO">PPO 22</idno>
+                            <persName>
+                                <name type="praenomen"></name>
+                                <name type="gentilicium">Iunius</name>
+                                <name type="cognomen">Bassus</name>
+                                <name type="agnomen"></name>
+                                <name type="signum"></name>
+                            </persName>
+                            <occupation>Prefetto del pretorio unico di Costantino: <date notBefore="0318" notAfter="0322">318/322 AD</date></occupation>
+                            <occupation>Prefetto del pretorio regionale di Costantino: <date notBefore="0326" notAfter="0334">326/334 AD</date></occupation>
+                            <occupation>Console ordinario (prior): <date when="0331">331 AD</date></occupation>
+                            <idno type="fasti">*rinvio ai Fasti*</idno>
+                            <idno type="graph">*rinvio al Grafico*</idno>
+                            <idno type="map">*rinvio alla Carta amministrativa*</idno>
+                            <idno type="PLRE">PLRE I, 154-155 (s.v. Iunius Bassus 14)</idno>
+                            <floruit period="#..." notBefore="0317" notAfter="0359">317/359 AD</floruit> <!-- @period: linked to authority list -->
+                            <!--<birth>
+                                <date when="0317">317 AD</date>,
+                                 <placeName ref="pleiades_url">place of birth</placeName>
+                            </birth>
+                            <death>
+                                <date when="0359">359 AD</date>,
+                                 <placeName ref="pleiades_url">place of death</placeName>
+                            </death>-->
+                        </person>
+                        <listRelation>
+                            <relation ref="#ppo02" type="son"/>
+                        </listRelation>
+                    </listPerson>
+            </div> 
+           
+            <div type="cursus">
+                <head><foreign>Cursus honorum</foreign></head>
+                <p>
+                    <table> <!-- NB: the use of tables is not recommended! These data should be encoded semantically instead. -->
+                        <row>
+                            <cell>n.°</cell>
+                            <cell>Rango</cell>
+                            <cell>Carica</cell>
+                            <cell>Periodo</cell>
+                            <cell>Note</cell>
+                        </row>
+                        <row>
+                            <cell>1</cell>
+                            <cell>v.p.</cell>
+                            <cell>corrector Lucaniae et Bruttiorum</cell>
+                            <cell>293/305</cell>
+                            <cell>non nella PLRE I</cell>
+                        </row>
+                        <row>
+                            <cell>2</cell>
+                            <cell>v.p. ?</cell>
+                            <cell>vicarius Italiae ?</cell>
+                            <cell>318</cell>
+                            <cell>non nella PLRE I</cell>
+                        </row>
+                        <row>
+                            <cell>3</cell>
+                            <cell></cell>
+                            <cell>PPO</cell>
+                            <cell>318-331</cell>
+                            <cell>PLRE I</cell>
+                        </row>
+                        <row>
+                            <cell>4</cell>
+                            <cell>v.em. ?</cell>
+                            <cell>PPO</cell>
+                            <cell>318-322</cell>
+                            <cell>diverso nella PLRE I</cell>
+                        </row>
+                        <row>
+                            <cell>5</cell>
+                            <cell>v.c.</cell>
+                            <cell>PPO reg.</cell>
+                            <cell>326-334</cell>
+                            <cell>diverso nella PLRE I</cell>
+                        </row>
+                        <row>
+                            <cell>6</cell>
+                            <cell>v.c.</cell>
+                            <cell>COS (prior)</cell>
+                            <cell>331</cell>
+                            <cell>uguale nella PLRE I</cell>
+                        </row>
+                    </table>
+                </p>
+            </div>
+            
+            <div type="commentary">
+                <div>
+                    <head>1. v.p. corrector Lucaniae et Bruttiorum 293/305</head>
+                    <p><ref type="source">Paestum 110</ref> = <ref type="source">AE 1975, 261a</ref> = <ref type="source" corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR076095">EDR076095</ref> = <ref type="source">LSA-1845</ref> = <ref type="source">Porena 2012</ref> [*link*].
+                        Nella PLRE I non si indica nulla del cursus honorum di I.B. anteriore alla prefettura del pretorio. Nel 2012 Porena ha proposto di identificare (dopo analisi autoptica) il vir perfectissimus corrector Lucaniae et Brittiorum destinatario di una grande base onoraria da Paestum [Paestum 110] con il nostro, all’inizio della carriera, probabilmente in età tetrarchica (Porena 2012). Se questa identificazione fosse esatta, sapremmo che I.B. era un cavaliere valorizzato da Massimiano Erculio come governatore di una provincia strategica per l’approvvigionamento di Roma.</p>
+                </div>
+                <div>
+                    <head>2. (v.p. ?) vicarius Italiae ? 318</head>
+                    <p>CTh 9, 8, 1 (4 aprile 318; MS 326)  [*link*].
+                        La tradizione della data consolare è turbata, cfr. CTh in apparato. Per la datazione dal 326 al 318 e per l’attribuzione a I.B. vicarius Italiae cfr. Porena 2005, 212 e 215; 2006, 1359-1361; 2012, 301-303. 
+                        Nel dossier delle costituzioni ad Bassum si segnala CTh IX, 8, 1 perché conserva la carica di vic(arius) Ital(iae) nell’inscriptio e il luogo di emissione in aprile ad Aquileia nella subscriptio. Questi due elementi invitano a ipotizzare che questa costituzione fu effettivamente emessa da Costantino durante il suo soggiorno ad Aquileia tra aprile e luglio 318 (non nel 326: ma quasi tutte le datazioni consolari del 318, con i due consoli condannati, Licinio A. V et Crispo C., sono interpolate); quello del 318 fu l’unico soggiorno prolungato di Costantino nella città (Porena 2005, 212 e 215; 2006, 1359-1361; 2012, 301-303), ed è verosimile che la costituzione fosse effettivamente indirizzata a un vicarius Italiae. Se l’ipotesi fosse esatta, I.B. avrebbe svolto almeno un mandato vicariale in Italia immediatamente prima della prefettura del pretorio. Durante quel mandato sarebbe nato suo figlio Theotecnius (giugno 317), il quale svolse una importante carriera a Roma, dove I.B. fece costruire la sontuosa domus sull’Esquilino, inaugurata prima nel 331 (Porena 2006, 338-343) [vd. sotto].</p>
+                </div>
+                <div>
+                    <head>3. PPO 318-331</head>
+                    <p>Evrard 1962 = AE 1964, 203 = AE 1975, 370 = Suppl. It. 1, Falerii Novi, n. 13 = EDR029806 = LSA-1628, linn. 10-12: praefecti praeto/rio per annos / XIIII. <ref type="ppret" corresp="ppret10">PPRET 10</ref> [*link*]. Nel 1962 fu pubblicata la base in onore di Theotecnius da Aqua Viva (AE 1964, 203), redatta nel 364 in onore del defunto figlio dell’a sua volta defunto prefetto del pretorio. L’iscrizione ricordava la fino ad allora ignota estensione della prefettura del pretorio di I.B. per 14 anni. La PLRE I interpretò questo dato cronologico come quattordici anni di mandato consecutivo, privo di interruzioni, di un’unica prefettura del pretorio estesa dal 318 al 331. La PLRE I ha attribuito una serie di 11 costituzioni del CTh e CI al prefetto. Questo impianto è stato recepito e conservato da Barnes 1982, 129, e 2011, 104, 158-159 (vd. Porena, Avant-propos). Le costituzioni dei Codici ad Bassum destinate al PPO, talvolta di attribuzione e di datazione incerta, nella PLRE I sono così presentate:</p>
+                   <p>
+                       <table> 
+                    <row><cell>costituz.</cell>	<cell>destinatario</cell>	<cell>data MS</cell>	<cell>data PLRE I</cell></row>
+                    <row><cell>CI 7, 57, 7</cell>	<cell>ad Bassum p(raefectum) p(raetorio)</cell>	<cell>18.03.320</cell>	<cell>18.03.320</cell></row>
+                    <row><cell>CTh 16, 2, 3</cell>	<cell>ad Bassum p(raefectum) p(raetorio)</cell>	<cell>18.03.320</cell>	<cell>18.07.320 / 326</cell></row>
+                    <row><cell>CI 1, 51, 2</cell>	<cell>ad Bassum p(raefectum) p(raetorio)</cell>	<cell>18.08.320</cell>	<cell>18.08.320</cell></row>
+                    <row><cell>CTh 2, 10, 4</cell>	<cell>ad Bassum p(raefectum) p(raetorio)</cell>	<cell>08.03.326</cell>	<cell>08.03.326</cell></row>
+                    <row><cell>CTh 9, 8, 1</cell>	<cell>ad Bassum vic(arium) Ital(iae)</cell>	<cell>04.04.326</cell>	<cell>04.04.326</cell></row>
+                    <row><cell>CTh 16, 5, 2</cell>	<cell>ad Bassum</cell>	<cell>25.09.326</cell>	<cell>25.09.326</cell></row>
+                    <row><cell>CI 1, 22, 3</cell>	<cell>ad Bassum (MS PP)</cell>	<cell>01.10.313/319</cell>	<cell>01.10.329</cell></row>
+                    <row><cell>CTh 2, 26, 2</cell>	<cell>ad Bassum p(raefectum) p(raetorio) / p(raefectum) u(rbi)</cell>	<cell>20.06.330</cell>	<cell>20.06.330</cell></row>
+                    <row><cell>CTh 1, 16, 2</cell>	<cell>ad Bassum</cell>	<cell>PP Karali 24.09.317</cell>	<cell>24.09.330</cell></row>
+                    <row><cell>CTh 4, 8, 7</cell>	<cell>ad Bassum p(raefectum) p(raetorio)</cell>	<cell>28.02.331</cell>	<cell>28.02.331</cell></row>
+                    <row><cell>CTh 1, 5, 3</cell>	<cell>ad Bassum p(raefectum) p(raetorio)</cell>	<cell>20.10.331</cell>	<cell>20.10.331</cell></row>
+                    </table>
+                   </p>
+                        
+                    <p>Nel 1980 i frammenti dell’iscrizione dell’arco di Aïn Rchine (Proconsolare) hanno restituito il nome di I.B. al secondo posto in un collegio prefettizio di 5 prefetti del pretorio in carica nel corso del 332: <ref type="ppret" corresp="ppret16">PPRET 16</ref>.
+                    L’iscrizione di Aïn Rchine, con I.B. in seconda posizione nel collegio prefettizio dimostra che nell’ordine sempre gerarchico di elencazione dei prefetti, imposto dalla data di nomina alla prefettura, I.B. non poté essere prefetto ininterrottamente dal 318/320, ma deve essere stato congedato e poi nominato di nuovo dopo Valerius Maximus. I due incarichi erano valutati come diversi perché il primo precedente e il secondo successivo alla riforma della prefettura del pretorio; i due mandati erano stati separati da un congedo e dunque I.B. era stato inserito in un collegio prefettizio poi in un successivo collegio prefettizio nel quale Maximus era stato nominato prima. Nel 2003 l’indagine sull’istituzione delle prefetture del pretorio regionali ha condotto P. Porena a ipotizzare che i 14 anni di durata della prefettura del pretorio di I.B., testimoniati nell’epigrafe del 364, siano il risultato della somma di due mandati distinti, il primo come prefetto del pretorio tradizionale e unico di Costantino (318-322), il secondo come prefetto del pretorio regionale di Costantino (326-334), forse con mandato sull’Illirico (analisi in Porena 2003, 342-354; 454-466; 482-487; 546-549; per la difficoltà di conciliare iterazione e durata di più incarichi cfr. Porena 2014). [*link*].</p>
+                </div>
+                
+                <div>
+                    <head>4. PPO 318-322</head>
+                    <p>
+                    <table>
+                        <row><cell>costituz.</cell>	<cell>destinatario</cell>	<cell>data MS</cell>	<cell>data</cell> </row>
+                    <row><cell>CI 1, 22, 3</cell>	<cell>ad Bassum (MS PP)</cell>	<cell>01.10.313/319</cell>	<cell>01.10.319</cell></row>
+                    <row><cell>CI 7, 57, 7</cell>	<cell>ad Bassum p(raefectum) p(raetorio)</cell>	<cell>18.03.320</cell>	<cell>18.03.320</cell></row>
+                    <row><cell>CI 1, 51, 2</cell>	<cell>ad Bassum p(raefectum) p(raetorio)</cell>	<cell>18.08.320</cell>	<cell>18.08.320</cell></row>
+                    <row><cell>CTh 2, 6, 3</cell>	<cell>ad Bassum p(raefectum) p(raetorio)</cell>	<cell>19/20.05.321</cell>	<cell>19/20.05.321</cell></row>
+                    <row><cell>CTh 11, 35, 1</cell>	<cell>ad Bassum p(raefectum) p(raetorio)</cell>	<cell>19/20.05.321</cell>	<cell>19/20.05.321</cell></row>
+                    <row><cell>CI 7, 66, 6</cell>	<cell>ad Bassum p(raefectum) p(raetorio)</cell>	<cell>20.05.321</cell>	<cell>20.05.321</cell></row>
+                    </table>
+                </p>
+                </div>
+                
+                <div>
+                    <head>5. PPO 326-334</head>
+                    <p>
+                    <table><row><cell>costituz.</cell>	<cell>destinatario</cell>	<cell>data MS</cell>	<cell>data</cell></row> 
+                    <row><cell>CTh 2, 10, 4</cell>	<cell>ad Bassum p(raefectum) p(raetorio)</cell>	<cell>08.03.326</cell>	<cell>18.03.326</cell></row>
+                    <row><cell>CTh 16, 2, 3</cell>	<cell>ad Bassum p(raefectum) p(raetorio)</cell>	<cell>17.07.320 / 326</cell>	<cell>17.07.320 / 326</cell></row>
+                    <row><cell>CTh 16, 5, 2</cell>	<cell>ad Bassum</cell>	<cell>25.09.326 D Spoleti</cell>	<cell>25.09.326</cell></row>
+                    <row><cell>CTh 2, 26, 2</cell>	<cell>ad Bassum p(raefectum) p(raetorio) / p(raefectum) u(rbi)</cell>	<cell>20.06.330</cell>	<cell>20.06.330</cell></row>
+                        <row><cell>CTh 4, 8, 7</cell>   <cell>ad Bassum p(raefectum) p(raetorio)</cell>	<cell>28.02.331</cell>	<cell>28.02.331</cell></row>
+                    <row><cell>CTh 1, 5, 3</cell>	<cell>ad Bassum p(raefectum) p(raetorio)</cell>	<cell>20.10.331</cell>	<cell>20.10.331</cell></row>
+                    <row><cell>CI 7, 19, 7</cell>	<cell>ad Bassum</cell>	<cell>s.d.</cell>	<cell>[331 cfr. CTh 4, 8, 7]</cell></row>
+                    </table>
+                </p>
+                </div>
+                
+                <div>
+                    <head>6. COS (prior) 331 (Iunius Bassus et Flavius Ablabius)</head>
+                    <p>CLRE, pp. 196-197; aggiornamenti: P. Col. X, 289 (27.03-25.04); P. Hamb. IV, 264 (a. 331); P. Heid. X, 452 (gen.-lug.); P. Kell. 1, 4 (29.12); P. Kell. 1, 57 (post cos: 26.02-26.03.332).
+                    I due consoli sono ricordati nei papiri come vv.cc. praefecti praetorio (ὑπατείας Ἰουνίου Βάσσου καὶ Φλαυίου Ἀβλαβίου τῶν λαμπροτάτων ἐπάρχων): i due prefetti restarono in carica per l’intero anno 331, come indica la composizione del collegio prefettizio nella dedica dell’arco di Aïn Rchine (AE 1981, 878); I.B. precede Ablabius perché entrato in carica come prefetto del pretorio prima del collega.  
+                    Il consolato ordinario è menzionato nell’iscrizione musiva monumentale, oggi perduta, di dedica dalla così detta ‘Basilica di I.B.’ sul Cispio a Roma, in realtà dell’aula absidata di rappresentanza della magnifica domus romana che il senatore inaugurò verosimilmente dopo la fine della prefettura del pretorio (Porena 2006, 337-341). [*link*]. 
+                    Nell’aula absidata di rappresentanza era la tarsia marmorea che mostra I.B. console in testa alla pompa circensis (Roma, Museo Naz. Rom. Palazzo Massimo alle Terme); si tratta di uno dei rarissimi ritratti di un prefetto del pretorio tardoantico (sulla domus e sulla decorazione sectile cfr. Machado 2019, 210-219; inoltre Guidobaldi 1995; Mathisen 2009; Sguaitamatti 2012, 167-168; Kalas 2013). La domus romana di I.B. alla metà del V secolo non apparteneva più alla famiglia, ma al comes et magister utriusque militiae goto Flavius Valila qui et Theodovius (PLRE II, 1147; PCBE II, 2247; Orlandi 2004, 513-516; sul seggio al Colosseo: CIL VI, 32169 = EDR166383, con Orlandi 2004, 319-321, nr. 17.11 [fr. a]; Orlandi 2017). Valila nel suo testamento donò la dimora alla Chiesa di Roma, e papa Simplicio, dopo il 471 e prima del 483, la trasformò nella chiesa di S. Andrea, come indica l’epigramma inserito nel nuovo mosaico cristiano composto nella semicupola dell’abside dell’aula, al di sopra dell’iscrizione dedicatoria di Iunius Bassus (CIL VI, 41402, con Mazzoleni 2002, 270; sulla vicenda cfr. Roberto 2013).
+                    </p>
+                </div>
+            </div>
+            
+            <div type="additional_info">
+                <head>Dati socio-biometrici</head> <!-- to be moved inside <person> -->
+                <p>DATI BIOMETRICI: I.B. potrebbe essere nato nel 275 ca.: avrebbe ottenuto la correttura italica tra i venti e i trenta anni (ca. 295-305); poi incarichi nelle Gallie tra i trenta e i quaranta anni d’età (306-ca. 315); il vicariato d’Italia a quaranta/quarantatré anni (315 ?-318), la prima prefettura del pretorio tra i quarantatré e i quarantotto anni (318-322), la seconda prefettura tra i cinquanta e i sessanta anni (326-334) e il consolato ordinario a ca. cinquantacinque anni (331). Sembra un cursus brillante e coerente per un dignitario di talento di rango equestre nel periodo a cavallo tra III e IV secolo.</p>
+                <p>ORIGINE: Etruria ? Proprietà ad Aqua Viva (Falerii Novi) e a Roselle; cfr. Torelli 2009.</p>
+                <p>STATUS: cavaliere v.p. (1); senatore v.c. e v.c. et inl. (3-6). Probabilmente divenne senatore per effetto della riforma costantiniana della prefettura del pretorio.</p>
+                <p>RELAZIONI FAMILIARI: non si conoscono i legami familiari di I.B. eccetto un figlio omonimo Iunius Bassus signo Theotecnius (PLRE I, 155; PCBE II, ***); nato nel giugno 317, ebbe una carriera romana propiziata dal prestigio del padre: questura, pretura, consolato suffecto, la comitiva primi ordinis, vicariato urbano (circa 350-357) e prefettura urbana (359); morì all’improvviso a 42 anni il 25 agosto 359, e fu sepolto a Roma nel sarcofago monumetale delle Grotte Vaticane (le iscrizioni del sarcofago: CIL VI, 41341a-b [altre edizioni e cospicua bibliografia da aggiungere]). Nessun dato su legami matrimoniali. Nessun dato su una discendenza diretta o indiretta nell’aristocrazia romana ulteriore.</p>
+                <p>FORMAZIONE: burocratica ? La raffinatezza delle decorazioni dell’aula absidata della domus suggerisce un individuo colto; all’opposto la dedica musiva della domus nel medesimo contesto, mescolando formulari arcaici e recenti (l’inutile a solo e il ‘moderno’ feliciter costituiscono un hapax), rivela una certa pesantezza.</p>
+                <p>RELIGIONE: controverso; le decorazioni mitologiche classiche dell’aula absidata della domus del prefetto contrastano con il sarcofago cristiano del figlio.</p>
+                <p>PATRONATI: nessuno certo. Il carme 21, 14 di Optatianus Porphyrius è dedicato a un Bassus che chiede versi al poeta; non ci sono elementi per l’identificazione con I.B.</p>
+            </div>
+            
+            <div type="bibliography">
+                <head>Bibliography</head>
+                    <listBibl>
+                        <bibl>Barnes 1982 : T.D. Barnes, <title>The New empire of Diocletian and Constantine</title>, Cambridge (Mass.)-London 1982</bibl>
+                        <bibl>Barnes 1992 : T.D. Barnes, Praetorian Prefects, 337-361, in «ZPE» 94 (1992), pp. *** (= From Eusebius to Augustine. Selected Papers 1982-1993, Aldershot 1994, XIII)</bibl>
+                        <bibl>Barnes 2011 : T.D. Barnes, Constantine. Dynasty, religion and power in the later Roman Empire, Oxford-Chichester-Malden (Mass.) 2011</bibl>
+                        <bibl>Chastagnol 1986 : A. Chastagnol, Les inscriptions africaines des préfets du prétoire de Constantin, in A. Mastino (a cura di), L’Africa Romana 3, Sassari 1986, pp. 263-273 = Aspects de l’Antiquité Tardive, Roma 1994, pp. 81-92</bibl>
+                        <bibl>Evrard 1962 : G. Evrard, Une inscription inédite d'Aqua Viva et la carrière des Iunii Bassi, in «MEFR» 74 (1962), pp. 607-647</bibl>
+                        <bibl>Ferchiou 1980 : N. Ferchiou, Préfets du prétoire et proconsul sous Constantin: une dédicace d'arc en Afrique, in «Echanges» II/3 (1980), pp. 307-312</bibl>
+                        <bibl>Giardina 1971/72 : A. Giardina, L’epigrafe di Iunius Bassus ad Aqua Viva e i criteri metodici di Godefroy, in «Helikon» 11-12 (1971-1972), pp. 253-278</bibl>
+                        <bibl>Grünewald  1990 : Th. Grünewald, Constantinus Maximus Augustus. Herrschaftspropaganda in der zeitgenössischen Überlieferung, Stuttgart 1990</bibl>
+                        <bibl>Guidobaldi 1995 : F. Guidobaldi, Domus: Iunius Bassus, in LTVR, II, Roma 1995, 69-70</bibl>
+                        <bibl>Kalas 2013 : G.. Kalas, Architecture and élite identity in late antique Rome: appropriating the past at Sant’Andrea Catabarbara, in «PBSR» 81 (2013), pp. 279-302</bibl>
+                        <bibl>Kleinwächter 2001 : C. Kleinwächter, Platzanlagen nordafrikanischer Städte. Untersuchungen zum sogenannten Polyzentrismus in der Urbanistik der römischen Kaiserzeit, Mainz 2001</bibl>
+                        <bibl>Machado 2019 : C. Machado, Urban space and aristocratic power in late antique Rome, AD 270-535, Oxford 2019</bibl>
+                        <bibl>Mazzoleni 2002 : D. Mazzoleni, Osservazioni su alcune epigrafi basilicali romane, in Ecclesiae Urbis. Atti del Congresso Internazionale di studi sulle chiese di Roma (IV-X secolo). Roma, 4-10 settembre 2000, a cura di F. Guidobaldi, A. Guiglia Guidobaldi, I, Città del Vaticano 2002, pp. 267-279</bibl>
+                        <bibl>Migl 1994 : J. Migl, Die Ordnung der Ämter. Prätorianerpräfektur und Vikariat in der Regionalverwaltung des Römischen Reiches von Konstantin bis zur Valentinianischen Dynastie, Frankfurt am Main 1994</bibl>
+                        <bibl>Mathisen 2009 : R. Mathisen, L’«adentus» consulaire pendant l’Antiquité Tardive, in Les Entrées royales et impériales. Histoire, représentation et diffusion d’une cérémonie publique, de l’Orient ancien à Byzance, éd. A. Bérenger, E. Perrin-Saminadayar, Paris 2009, 139-156</bibl>
+                        <bibl>Orlandi 2004 : S. Orlandi, Epigrafia anfiteatrale dell’Occidente Romano, VI. Roma. Anfiteatri e strutture annesse, con una nuova edizione e commento delle iscrizioni del Colosseo (Vetera, 15), Roma 2004</bibl>
+                        <bibl>Orlandi 2017 : S. Orlandi, I «loca senatorii» del Colosseo: novità e riletture, in Dinamiche politico-ecclesiastiche nel Mediterraneo cristiano tardoantico. Studi per Ramon Teja, a cura di S. Acerbi, G. Vespignani, Roma 2017, pp. 197-202</bibl>
+                        <bibl>Porena 2003 : P. Porena, Le origini della prefettura del pretorio tardoantica, Roma 2003</bibl>
+                        <bibl>Porena 2005: P. Porena, Problemi di cronologia costantiniana. L’imperatore, Vettius Rufinus e il senato, in «Antiquité Tardive» 13 (2005), pp. 205-246</bibl>
+                        <bibl>Porena 2006 : P. Porena, Trasformazioni istituzionali e assetti sociali: i prefetti del pretorio tra III e IV secolo, in Le trasformazioni delle élites in età tardoantica (Atti del Convegno Internazionale di Perugia, 15-16 marzo 2004), a cura di R. Lizzi Testa, Roma 2006, pp. 325-356</bibl>
+                        <bibl>Porena 2012 : P. Porena, I dignitari di Costantino: dinamiche di selezione e di ascesa durante la crisi del sistema tetrarchico, in Costantino prima e dopo Costantino. Constantine before and after Constantine, a cura di G. Bonamente, N. Lenski, R. Lizzi Testa, Bari 2012, pp. 293-320</bibl>
+                        <bibl>Porena 2014 : P. Porena, La scelta tra iterazione e durata delle cariche nei «cursus honorum» epigrafici dei senatori tardoromani in Occidente, in Epigrafia e ordine senatorio 30 anni dopo, a cura di M.L. Caldelli e G.L. Gregori, vol. I, Roma 2014, pp. 195-214</bibl>
+                        <bibl>Roberto 2013 : U. Roberto, Strategie di integrazione e lotta politica a Roma alla fine dell’impero: la carriera di Fl. Valila tra Ricimero e Odoacre, in Xenia. Studi in onore di Lia Marino, a cura di N. Cusumano, D. Motta, Caltanissetta-Roma 2013, pp. 247-261</bibl>
+                        <bibl>Salway 2007 : B. Salway, The praetorian prefecture of Africa under Constantine: a phantom ?, in M. Mayer i Olivé, G. Baratta, A. Guzmán Almagro (eds.), XII Congressus Internationalis Epigraphiae Graecae et Latinae: Provinciae Imperii Romani inscriptionibus descriptae: Barcelona, 3-8 Septembris 2002, Barcelona 2007, pp. 1281-1286</bibl>
+                        <bibl>Saastamoinen  2010 : A. Saastamoinen, The Phraseology and structure of Latin building inscriptions in Roman north Africa, Helsiniki 2010</bibl>
+                        <bibl>Sguaitamatti 2012 : L. Sguaitamatti, Der spätantike Konsulat, Fribourg 2012</bibl>
+                        <bibl>Torelli 2009 : M. Torelli, Gli Iunii Bassi a Rusellae ? A proposito della c.d. Basilica dei Bassi nel foro rusellano, in Etruria e Italia preromana. Studi in onore di Giovannangelo Camporeale, Pisa 2009, pp. 881-892</bibl>
+                    </listBibl>
+            </div>
+            <!-- To link to other prosopographical items: Cf. <ref type="ppo" corresp="ppo_template">PPO 22</ref>. -->
+            <!-- Cosa ricercare:
+            2) Cursus honorum: v.p. corrector Lucaniae et Bruttiorum; ? vicarius Italiae; consul ordinarius. 
+            3) Incarico prefettizio: 
+            - rango e titolatura del prefetto: v.c. / v.c. et inl.  
+            - prefettura del pretorio anteriore alla regionalizzazione: sì (318-322)
+            - prefetture del pretorio regionali amministrate: una (326-334), Illirico ?
+            - sedi prefettizie: nessuna individuata (? Illirico 318/334)
+            - durata dei singoli mandati prefettizi: 1°) 5 anni + 2°) 9 anni 
+            -  durata complessiva di mandati prefettizi: 14 anni
+            - iterazioni dei mandati prefettizi: sì, due mandati
+            - ipotesi circa l’età di nomina alla e di congedo dalla prefettura del pretorio: 1°) 43/48; 2°) 50/60 
+            - Augusti responsabili delle nomine: Costantino I
+            - sostituzioni, supplenze temporanee e avvicendamenti improvvisi: non documentati
+            - decesso del prefetto in servizio: non documentato 
+            - prefetto del pretorio processato, esiliato, giustiziato, con patrimonio confiscato (Augusti responsabili; dignitari coinvolti): no (suo figlio svolge una carriera amm.va fino al 359)
+            - prefetto del pretorio di un usurpatore: no
+            4) Dati biografici
+            - luoghi e date di nascita e di morte: ignoti (ca. 275/340)  
+            - durata della vita: almeno 60 anni 
+            - origine geografica : ? Italia ? Etruria 
+            - appartenenza sociale: orfine equestre, poi ordine senatorio
+            - relazioni parentali e matrimoniali (stemmi ♣):
+            figlio di *; nipote di *; marito di *; padre di Iunius Bassus Theotecnius; suocero di *; nonno di *.
+            - relazioni di amicizia: ignote
+            - formazione culturale / attività culturale: ignota
+            - religione : ignota (cristiano ?)
+            - ricchezza, evergesie a città, donazioni a chiese: ignote
+            - patronati: ignoti  -->
+        </body>
+    </text>
+</TEI>

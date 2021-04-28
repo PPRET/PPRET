@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bilingual epitaph in Latin (a) and Greek (b) hexameters of the praet. prefect Maiorinus from Buşr al-Hariri (Syria) by his nephew</title>
+                <editor role="edition">Eleonora Angius</editor>
+                <editor role="encoding">Eleonora Angius</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="pp. 537-538">26</idno>
+                <date when="2020-03-27"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Maiorinus"><name type="cognomen">Maiorinus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Buşr">the Latin one (a) is now lost, but was seen in the same building (see Waddington 1870, p. 566); the Greek one (b) has survived and is still today visible because it is chiselled on two blocks that are part of the external side wall of the building.</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#burial">Burial inscription for Maiorinus praet. prefect</term>
+                            <term type="rhythm" ref="#poetry">poetry (Latin and Greek hexameters)</term>
+                        </summary>
+                        <textLang mainLang="la" otherLangs="grc">Latin (a); Greek (b)</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#unknown #stone">unknown (a), basalt (b)</material>
+                                    <objectType ref="#stone_slab #block">slab (a), masonry blocks (b)</objectType>
+                                    <dimensions corresp="a">
+                                        <height>unknown</height>
+                                        <width>unknown</width>
+                                        <depth>unknown</depth>
+                                    </dimensions>
+                                    <dimensions corresp="b">
+                                        <height>108</height>
+                                        <width>block 1: 163 cm; block 2: 148</width>
+                                        <depth>unknown</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">unknown</rs>
+                                    <rs type="monument_reuse">no</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field for each inscription (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#undamaged">The Latin one (a) appears to be undamaged in Bankes’ reproduction (below in the commentary), but as previously states, it is now lost. This inscription was chiselled into a cartouche with a simple moulded frame above a vaulted apse in the same building where the Greek one is now found. The Greek one (b) is actually undamaged and its text is chiselled on two intact blocks (1 and 2) on top of each other (as it originally was), only the last part of the nineth line is on a third block on the right side of the block B.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#uncial">uncial (both a and b)</term>
+                                <height corresp="a">unknown</height>
+                                <height corresp="b">5 / 6</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city" ref="#Bosora">Bosora? (see Barrington Atlas, p. 1060 map 69 D4), between Agraena and Zorava (see Cugusi 2011, nr. 31)</placeName>
+                                <placeName type="modern_city">Buşr al-Hariri (Syria)</placeName>
+                                <placeName type="province">Arabia</placeName>
+                                <placeName type="diocese">Oriens</placeName>
+                                <placeName type="prefecture">Oriens</placeName>
+                                <placeName type="ancient_location" ref="#burial">burial building</placeName>
+                            </origPlace>
+                            <origDate period="#p5" notBefore="0346" notAfter="0365">346/365 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#">Buşr al-Hariri</placeName>, building of Ma’aref</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <div type="textpart" subtype="text" n="a" xml:lang="la">
+                    <ab>
+                        <lb n="1"/>Sede sub hac recubas clarus <sic>praetori<lb 
+                            break="no" n="2"/>que</sic> praefectus | Maiorinus virtu<lb 
+                            break="no" n="3"/>te <sic>caelebratus</sic> magna per orbem. |
+                        <lb n="4"/>Haec illi <expan><abbr>nu</abbr><ex>n</ex><abbr>c</abbr></expan> requies fati, haec <sic>sedis</sic>
+                        <lb n="5"/>aeterna, | Filippi extructa stu<lb 
+                            break="no" n="6"/>diis gratique nepotis. |
+                    </ab>
+                </div>
+                <div type="textpart" subtype="text" n="b" xml:lang="grc">
+                    <ab>
+                        <lb n="1"/>Τύμβος ὑπουδαίων μακάρων ὅδε· τῷ
+                        <lb n="2"/>ἐνὶ κεῖται | συνκλήτου φίλον ὄμμα,
+                        <lb n="3"/>σαόφρων Μαιουρῖνος | οὗ δύσις ἀν<lb 
+                            break="no" n="4"/>τολίη τε μεσεμβρίη τε καὶ ἄρκτοι | πισ<lb 
+                            break="no" n="5"/>τοτάτου βασ<supplied reason="lost">ι</supplied><unclear>λ</unclear>εῦσιν ἀμωμήτοιό τε κέρ<lb 
+                            break="no" n="6"/>του | εὐρύ τε καὶ μάλα καλὸν ἀεὶ κλέος 
+                        <lb n="7"/>ἀείδουσιν· | τεῦξε δέ μιν ὤριστος ἐν 
+                        <lb n="8"/>ἡμερίοισι Φίλιππος, | αὐτοκασιγνή<lb 
+                            break="no" n="9"/>της πινυτόφρονος ἔκγονος ἥρως, |
+                        <lb n="10"/>καὐτὸς ἐὼν βασιλῆος ἀμύμονος ἐσ<lb 
+                            break="no" n="11"/>λὸς ὀπάων, | καὶ κτίσε πύργον ὕπερ<lb 
+                            break="no" n="12"/>θεν ἐυπτερύγεσσι πελείαις, | λαοτύ<lb 
+                            break="no" n="13"/>πων παλάμῃσιν ἐς οὐρανὸν εὐρὺν ἀεί<lb 
+                            break="no" n="14"/>ρας. |
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p>The Latin text’s edition is based on Feissel 2006b, pp. 125-126, and IGLS XV／1, 242.</p>
+                <p>
+                    <app loc="a 1"><note>recuba[t]: W 2475, Cholodniak 1904, nr. 670, CLE 622, Robert 1960, p. 303, SGO IV, 22／15／01</note></app>
+                    <app loc="a 2"><note>Maiorinos: Cholodniak 1904, nr. 670, CLE 622; Robert 1960, p. 303, SGO IV, 22／15／01</note></app>
+                    <app loc="a 5"><note>aeter(n)a: W 2475, Cholodniak 1904, 670, Robert 1960, p. 303</note></app>
+                    <app loc="a 6"><note>Gratique: W 2475, CIL III, 124, Robert 1960, p. 303, PLRE I, p. 537,  SGO IV, 22／15／01</note></app>
+                </p>
+                <p>The Greek text’s edition is based on IGLS XV／1, 241.</p>
+                <p>
+                    <app loc="b 1"><note>τῷι: Cugusi 2011, nr. 31</note></app>
+                    <app loc="b 5"><note>ἐλέλευσιν: W 2474; ἐ[π]έλευσιν: Froehner 1873, p. 31</note></app>
+                    <app loc="b 5-6"><note>τ’ἐ[πά]ρ[χ]ου: Kaibel 1878, nr. 441, PLRE I, p. 537, SGO IV, 22／15／02, Cugusi 2011, nr. 31; τ’ἐ(ν) ἔρ(γῳ) or τ’ἐ(ν) ἔρ(γ)οῦ: Peek 1955, nr. 655; τ’ἐ(ν) ἔρ(γ)ο(ι)[ς]: Robert 1960, pp. 302-303</note></app>
+                    <app loc="b 10-11"><note>ἐσθλὸς: Cugusi 2011, nr. 31; Sartre-Fauriat 2001, p. 53</note></app>
+                    <app loc="b 13"><note>παλάμῃισιν: Cugusi 2011, nr. 31</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>a: “Inside this seat you sleep Maiorinus, shining praetorian prefect celebrated for your great virtue throughout the world. Now there is for him the fatal rest,  there is the eternal seat, built by the care of Philippus, grateful nephew.”</p>
+                <p>b: “Here lies the tomb of the blessed (lying) underground; in this one lies the wise Maiorinus, a figure dear to the Senate, the most faithful to the emperors and irreprehensible friend, whose favorable and always honorable fame the sunset, sunrise, noon, and the constellations of bears sing. Philippus built it, distinguished among mortals, noble progeny of his wise sister, and himself a noble companion of the blameless sovereign, he also built a tower for the fast winged pigeons, raising it up into the vast sky through the capable hands of the sculptors.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>a: (re-elaborated from Feissel 2006b, pp. 125-126)</p>
+                <p>“Sous ce siège tu es couché, Majorinus, brillant préfet du prétoire, célébré pour ta haute vertu à travers le monde. Voici maintenant pour lui le repos fatal, voici le siège éternel, édifié par les soins de Philippe, neveu reconnaissant.”</p>
+                <p>b: (by IGLS XV／1, 241)</p>
+                <p>“Voici le tombeau des bienheureux (qui séjournent) sous terre! Ici repose le sage Majourinos, chère figure du Sénat dont Couchant, Levant, Midi et les Ourses chantent l’éternelle renommée au loin répandue et absolument splendide, lui le plus fidèle aux empereurs, l’ami sûr irréprochable. L’a fait édifier Philippos, excellent parmi les mortels, le noble fils de sa propre seur à l’esprit avisé, et lui-même sage compagnon d’un empereur irréprochable, et il a fait bâtir la tour qui est au-dessus pour les pigeons aux ailes rapides, l’ayant fait élever par les mains des tailleurs de pierres jusque vers le vaste ciel.”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>a: “In questa sede tu giaci Maiorinus, luminoso prefetto del pretorio, celebrato per la tua grande virtù in tutto il mondo. Ecco ora per lui il fatale riposo, ecco l’eterna sede, costruita dalle cure di Filippo, nipote riconoscente.”</p>
+                <p>b: “Ecco la tomba dei beati (che giacciono) sottoterra; in questa giace il saggio Maiorinus, figura cara al Senato, il più fedele agli imperatori e irreprensibile amico, la cui favorevole e sempre onorevole fama cantano il tramonto, l’aurora, il mezzogiorno e le costellazioni delle Orse. La fece costruire Filippo, insigne tra i mortali, nobile progenie della saggia sorella, e lui stesso nobile compagno dell’irreprensibile sovrano, e costruì in alto una torre per i piccioni dalle ali veloci, sollevandola fino al vasto cielo attraverso le abili mani degli scultori.”</p>
+            </div>
+            <div type="commentary">
+                <p>Our Greek and Latin epitaphs most likely originate from the same building, the Ma’aref at Buşr al-Hariri, on the plateau of Trachôn (Syria), one of the many villages in this rural area. This elongated and polished building, now partially destroyed (only two corner and some other pieces survive; for more details see Sartre-Fauriat 2001, pp. 53-56) is made of basalt blocks. 
+                    The Latin epitaph is now lost but probably was on a cartouche above a vaulted apse (perhaps on the building’s gate); the Greek one is visible still today on two blocks on the top of each other in the middle of the external wall.</p>
+                <p>Some travellers and scholars saw these inscriptions during their journeys in the 19th Century. 
+                    William John Bankes (1786-1855), Egyptologist and collector of fine arts, visited Buşr al-Hariri in 1816 (Sartre-Fauriat 2004, 152-155) and only copied the Latin inscription, because he was interested in its particular paleographic shape (see IGLS XV.1, 242 for Bankes’ fac-simile). 
+                    The British antiquarian noted that it was chiselled in a cartouche above a vaulted apse with a simple moulded frame. Waddington in 1861 saw both inscriptions in the same building, a building he described as a “little church” (see Waddington 1870, p. 566). 
+                    Then Von Oppenheim copied only a part of the Greek inscription together with another one (W 2472; IGLS XV.1, 251) as if they were a whole. In his opinion these texts were on an external wall of a majestic building, “a castle” with pillars and arches (Von Oppenheim 1899, pp. 183-185). Thanks to Sartre-Fauriat we know that these two texts were on the same wall of our building, but mounted separately and at a distance (the second one – IGLS XV.1, 251 – is to the right of our Greek one, at the base of a pillar; see Sartre-Fauriat 2014, p. 305).</p>
+                <p>The nature of the building is unknown, but its architectonic style dates it to the 2nd-3rd Century AD, before the epitaphs were written. Sartre-Fauriat suggested that the building had been destroyed and rebuilt several times during the 19th Century and that the blocks were robbed from another building, which would help to explain the traveller’s contradictory versions about the building and the inscriptions within it (see Sartre-Fauriat 2001, p. 56; 2014, p. 308). 
+                    However, the hypothesis of repair with reused blocks is unlikely due to: a) the dating of the building (2nd-3rd Century AD) before the inscriptions were put up (4th Century AD); b) the position of the Greek inscription in the middle of the wall; c) the neat distribution of the text on several blocks: it is hard to believe that those basalt blocks were moved in order to be reused, preserving the integrity of the text. The building housing the inscriptions was almost certainly the same building where the epitaphs were originally engraved.</p>
+                <p>Indeed, in this area of the Hauran another twenty or so epigrams (all similar to ours) were discovered, all of them relating to monumental burials of wealthy local families. Maiorinus’ nephew Philippus composed these epitaphs. 
+                    He also constructed a majestic grave in a rural <foreign>praedium</foreign> in honour of his distinguished relative, a member of an aristocratic family tied to the Trachon plateau, no doubt through its origins and properties. This rural <foreign>praedium</foreign>, far from the city, could be an example of an isolated, abandoned necropolis: the perimeter walls of the building remained in place and the inscriptions on them survived until the modern age.</p>
+                <p>These two epitaphs are addressed to the same man, the praetorian prefect Maiorinus (PLRE I, pp. 537-538; Petit 1994, pp. 152-153), and put up by the same dedicant, his nephew Philippus. Maiorinus probably had aristocratic origins and would appear to originate from the eastern part of the empire (in Syria according to the epitaph and the correspondence of Libanius). He may have  held the praetorian prefecture (very probably of the East) between 344 and 346 AD. Nothing is known about his career. 
+                    No source allows to establish the chronology of his praetorian prefecture nor its administrative area. He is mentioned in Libanius’ letters, but his prefecture would appear to be already finished when these letters were written, at the latest in 357 AD. 
+                    By that time Maiorinus had held a series of unspecified offices (<ref type="source">Lib., Ep. 0560</ref> [357 AD], <ref type="source">Lib., Ep. 1510</ref> [365 AD]). 
+                    Ammianus’ narrative, which begins in 353 AD, does not mention him. Maiorinus’ son was a <foreign>protégée</foreign> of Libanius and in one of his letters, the author referred to his father’s high offices as μεγίστη ἀρχή, an expression always associated with the praetorian prefecture (<ref type="source">Lib., Ep. 0474</ref>; <ref type="source">Lib., Ep. 0560</ref>; see also Feissel 2006, p. 125, nt. 148 and Sartre-Fauriat 2014, p. 307). 
+                    The series of praetorian prefects for the years 337-357 AD has a gap for the holder of the Eastern prefecture between July 6<hi rend="superscript">th</hi> 344 AD, when the prefect Domitius Leontius (see <ref type="ppret" corresp="ppret22">PPRET 22</ref>, <ref type="ppret" corresp="ppret24">PPRET 24</ref>) is attested for the last time (<ref type="source">CTh 13, 04, 03</ref>), and July 28<hi rend="superscript">th</hi> 346 AD, when the prefect Flavius Philippus (see <ref type="ppret" corresp="ppret27">PPRET 27</ref>; <ref type="ppret" corresp="ppret28">PPRET 28</ref>; <ref type="ppret" corresp="ppret29">PPRET 29</ref>; <ref type="ppret" corresp="ppret31">PPRET 31</ref>) is attested for the first time (<ref type="source">CTh 11, 22, 01</ref>, on the constitution see Cuneo 1997, p. 146). 
+                    Since the praetorian prefects of the East in the decade running from 346 to 357 AD are known (Philippus, Thalassius, Domitianus, Musonianus), that is to say in the period before Libanius’ letters 560 and 1510, it seems possible that Maiorinus was prefect of the East in the two-year period 344-346 AD (see also Laniado 2018, pp. 416-417; otherwise T.D. Barnes 1992, p. 255 inclines for a later chronology: 351/354 AD).</p>
+                <p>Our two epigrams tell us that Maiorinus was buried on the plateau of Trachôn. The epigrams show that Maiorinus belonged to a small group of followers who were loyal to more than one emperor (ll. 5-6: πιστοτάτου βασιλ̣εῦσιν ἀμωμήτοιό τε κέρτου), and that his nephew Philippus continued this allegiance (ll. 10-11: καὐτὸς ἐὼν βασιλῆος ἀμύμονος ἐσλὸς ὀπάων). If its prefecture began in 344 AD, the emperors could be Constantine and Constantius II.</p>
+                <p>It is possible that two other Greek inscriptions reveal our prefect’s ties with this area:</p>
+                <p>(W 2476) + Χρ(ιστέ), βο(ήθει) Μαιουρίνῳ. (see IGLS XV／1, 243)</p>
+                <p>(W 2472) + Φλ(αούιος) Χρυσάφιος ἔκτισεν τὸν ναὸν τοῦ ἁγίου Σεργίου /
+                    ἐξ ὑποβωλῆς τοῦ τῆς μακαρίας μνήμης Ἠλία ἀδελφοῦ λογωθέτου /
+                    Εὐανγέλου δὲ πρεσβ(υτέρου) προσφέροντος τὸ πρὶν ἔνθα ἀπόθητον /
+                    μετὰ ἁψίδων καὶ πλακώσεως· διὸ ἐνθάδε κῖται· ἐξ ἐπιμελίας δὲ /
+                    Ἠλία ἀρχιδ(ιακόνου), γένους Μαιουρίνου· ἔτους υιβ’ τῆς ἐπαρχ(είας), χρόνον ια’ ἰνδικ(τιῶνος). (see IGLS XV／1, 235)</p>
+                <p>The last two inscriptions both came from the same building in Buşr al-Hariri, the great church of Saint Sergius. The first is roughly chiselled on a stone within, while the second sits upon the architrave of the church gate and could date to 517 AD. If Μαιουρῖνος is our Maiorinus or a relative of him, through the first inscription, we can deduce that he was probably christian (in fact many of the epigrams are addressed to christians in the Busr Al-Hariri area). The second shows that he belonged to a powerful senatorial family that was already well established in this area and that was still relevant in 517 AD, when the archdeacon Elia boasted of having γένους Mαιουρίνου (another fact that could demonstrate Maiorinus was christian, see Sartre-Fauriat 2014, p. 308).</p>
+                <p>These epitaphs were made by his nephew and not by his son. According to Sartre-Fauriat, this was because Maiorinus’ son became so familiar with a rhetorician rival to Libanius (<ref type="source">Lib., Ep. 1118</ref>; <ref type="source">Lib., Ep. 1285</ref>) that he was no longer considered part of the family (see Sartre-Fauriat 2014, p. 307). 
+                    Cugusi identified him as the praetorian prefect Flavius Philippus (PLRE I, p. 696; see Cugusi 2011, p. 208), since he too was of oriental origins, was prefect not long after Maiorinus (344-352 AD) and was much trusted by the emperors (ll. 10-11: καὐτὸς ἐὼν βασιλῆος ἀμύμονος ἐσλὸς ὀπάων). 
+                    If this identification is correct, then it would be plausible to assume that his nephew (and not his son) erected these monuments in order to celebrate their common prestigious careers. A much simpler hypothesis put foward by Feissel suggests that if the son of Maiorinus had happened to die before his father, then he would not have been able to make the tomb (see Feissel 2006, p. 125 nt. 149).</p>
+                <p>That said, the only way someone like Philippus was ever going to obtain such an important position, so close to the emporer, was by belonging to the generation following Maiorinus. He therefore had to be Maiorinus’ nephew and not his sister’s nephew, as Feissel suggests (see Feissel p. 125; Sartre-Fauriat 2014, p. 307). According to the reading of Waddington (1870), Robert and also more recently Merkelbach and Stauber, the word “<foreign>grati</foreign>” (l. 6) in the Latin text, is interpreted as the name of a second nephew “<foreign>Gratus</foreign>”, but Feissel rightly demonstrates through a comparison with the Greek text (ll. 7-10) that there was only one dedicant nephew, Philippus (see Feissel 2006, pp. 125-126): the Greek epigram does not mention any <foreign>Gratus</foreign>.</p>
+                <p>Both inscriptions are in dactylic hexameters (four in Latin and ten in Greek) but contain imprecisions (see Cugusi 2011, p. 207). They are evidently inspired by classical Greek and Latin literature and used stereotyped formulas, revealing a good knowledge of the classical authors. 
+                    Given the quality of the other epigrams found in and around Hauran, it is clear that this area had deep ties with classical culture. 
+                    There are, nevertheless, some formal differences between the two epigrams: the Latin text is sober and shorter than the Greek hexameters, that are numerous and more complex. 
+                    The praise of the deceased in the Greek text takes its inspiration from Homeric heroes, and the personification of the cardinal points is another Homeric reference (see Sartre Fauriat 2014, p. 307). This articulate metaphor describing the extension of his fame (Greek ll. 3-7) became the synthetic <foreign>per orbem</foreign> (Latin l. 3) in the Latin text. 
+                    Cugusi (2011, p. 208) also noticed that the Latin <foreign>formula iacendi</foreign> (l. 1) is inspired by a pseudo-Virgilian epigram. However, the epigram in Latin shows more serious metric, grammatical and orthographical problems than the Greek epigram. The dactylic metrics of Latin verses 1-3 is seriously incorrect. 
+                    Feissel (2006b, nt. 152) and Fauriat-Sartre (IGLS XV／1, 242) have tried to correct the meter of the second verse by attributing <foreign>magna(m)</foreign> to <foreign>orbem</foreign>, but such a solution is not entirely satisfactory. 
+                    As noted by Feissel (ibidem) «la deuxième personne est cependant embarrassante, en raison du passage à la troisième personne au vers 3 (où l’on attendrait <foreign>tibi</foreign> plutôt que <foreign>illi</foreign>)»; stylistically the Greek epigram is much better than the Latin one. 
+                    The author and the stone-cutter in Syria were not Latin-speaking: the orthographical variations in Latin are too many in only four verses, but they do not correct the metrics (<foreign>praetori</foreign> for <foreign>praetorio</foreign>, <foreign>caelebratus</foreign> for <foreign>celebratus</foreign>, <foreign>nuc</foreign> for <foreign>nunc</foreign> – a mistake –, <foreign>sedis</foreign> for <foreign>sedes</foreign>; the first enclitic <foreign>-que</foreign> is metrically useless without the desinence <foreign>-io</foreign>; the second one is useful for metrics but not for grammar).</p>
+                <p>Since our Latin epitaph is the only one found among all the Greek epigrams from the Hauran area, the choice of using Latin must be related to the high political role of the prefect. Indeed, a Latin epitaph in verse, in a Greek-speaking area was the exclusive prerogative of an elite, a privilege reserved for the highest offices of the Eastern empire (Feissel 2006, p. 126; Cugusi 2011, p. 208). In addition to the Latin epitaph, Philippus decided to be even more gushing in his praise of Maiorinus in Greek: the prefect’s epitaph had to be read and understood also by local people who passed in front of the tomb.</p>
+                <p>Furthermore, the oncial writing of the Latin text is also interesting. The stone-cutter copied the inscription using the same script as the draft. He was evidently accustomed to the oncial script, which was used for normative texts between the 3rd and 4th Centuries, even in the Greek-speaking area. To see a documentary style of writing in an epigraphic context is significant (see <ref type="ppret" corresp="ppret53">PPRET 53</ref>).</p>
+                <p>For other epitaphs of praetorian prefects see <ref type="ppret" corresp="ppret64">PPRET 64</ref> and<ref type="ppret" corresp="ppret71"> PPRET 71</ref>; maybe <ref type="ppret" corresp="ppret87">PPRET 87</ref>; for posthumous rehabilitations see <ref type="ppret" corresp="ppret91">PPRET 91</ref> and <ref type="ppret" corresp="ppret93">PPRET 93</ref>; epitaphs of prefects’ relatives see <ref type="ppret" corresp="ppret20">PPRET 20</ref> and <ref type="ppret" corresp="ppret55">PPRET 55</ref>.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Waddington 1870, nr. 2475</ref> [then W 2475] (a)</bibl>
+                    <bibl><ref>Cholodniak 1904, nr. 670</ref> (a)</bibl>
+                    <bibl><ref>CIL III, 124</ref> (p. 970) (a)</bibl>
+                    <bibl><ref>CLE 622</ref> (a)</bibl>
+                    <bibl><ref>Robert 1960, pp. 303-305</ref> (a)</bibl>
+                    <bibl><ref>PLRE I, p. 537</ref> (a)</bibl>
+                    <bibl><ref>SGO IV, 22／15／01</ref> (a)</bibl>
+                    <bibl><ref>Feissel 2006b, pp. 125-126</ref> = <bibl><ref>AE 2006, 1610</ref> (a)</bibl></bibl>
+                    <bibl><ref>Cugusi 2011, nr. 31</ref> (a)</bibl> 
+                    <bibl><ref>IGLS XV／1, 242</ref> (with fac-simile by W.J. Bankes) (a)</bibl>
+                    <bibl><ref>Waddington 1870, nr. 2474</ref> [then W 2474] (b)</bibl>
+                    <bibl><ref>Froehner 1873, p. 31, nr. 2474</ref> (b)</bibl>
+                    <bibl><ref>Kaibel 1878, nr. 441</ref> (b)</bibl>
+                    <bibl><ref>Von Oppenheim 1899, p. 185</ref> (b)</bibl>
+                    <bibl><ref>Peek 1955, nr. 655</ref> (b)</bibl>
+                    <bibl><ref>Robert 1960, pp. 302-305</ref> (b)</bibl>
+                    <bibl><ref>SEG 20 (1964), 393</ref> (b)</bibl>
+                    <bibl><ref>PLRE I, p. 537</ref> (b)</bibl>
+                    <bibl><ref>Sartre-Fauriat 2001, p. 53</ref> (b)</bibl>
+                    <bibl><ref>SGO IV, 22／15／02</ref> = <bibl><ref>BE 2003, 601</ref> (b)</bibl></bibl>
+                    <bibl><ref>SEG 48 (1998), 1914</ref> (b)</bibl>
+                    <bibl><ref>Cugusi 2011, nr. 31</ref> (b)</bibl>
+                    <bibl><ref>IGLS XV／1, 241</ref> = <bibl><ref>AE 2014, 1402</ref> (b)</bibl></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p>
+                    <bibl><ref>IGLS XV／1, 242</ref> (fac-simile by W.J. Bankes p. 304) (a)</bibl>
+                    <bibl><ref>IGLS XV／1, 241</ref> (p. 306) (b)</bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-65100041">EDCS 65100041</ref></bibl>
+                    <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD067825">HD 067825</ref></bibl>
+                    <bibl><ref corresp="http://mizar.unive.it/mqdq/public/ce/testo/codice/CE%7cce%7c0622">MQDQ 622</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Barnes T. D., Praetorian Prefects, 337-361, ZPE, 94, 1992, 249-260</bibl>
+                    <bibl>Bücheler F., Lommatzsch E., Carmina Latina Epigraphica, Leipzig 1930, 296, nr. 622</bibl>
+                    <bibl>Cholodniak I. I., Carmina sepulcralia latina epigraphica, Petropoli 1904, 275, nr. 670</bibl>
+                    <bibl>Cugusi P., Sblendorio Cugusi A. M., Carmina latina epigraphica delle province greco-orientali (CLEOr), Epigraphica, 73, 2011, 174-175, nr. 31</bibl>
+                    <bibl>Cuneo P. O., La legislazione di Costantino II, Costanzo II e Costante (337-361), Milano 1997</bibl>
+                    <bibl>Feissel D., Chroniques d’épigraphie byzantine 1987-2004, Paris 2006, 267, nr. 848</bibl>
+                    <bibl>Feissel D., Les inscriptions dans l’Orient protobyzantin, in Acta Congressus Internationalis XIV Archaeologiae Christianae: Vindobonae 19-26.9.1999, Città del Vaticano 2006, 125-126</bibl>
+                    <bibl>Froehner W., Mélanges d’epigraphie et d’archéologie, Paris 1873, 31</bibl>
+                    <bibl>Kaibel G., Epigrammata graeca ex lapidibus conlecta, Berlin 1878, 175-176, nr. 441</bibl>
+                    <bibl>Laniado A., L’aristocratie sénatoriale de Constantinople et la préfecture du prétoire d’Orient, in Constantinople réelle et imaginaire. Autour de l’oeuvre de Gilbert Dagron, éd. C. Morrisson, J.-P. Sodini, Paris 2018,  409-454</bibl>
+                    <bibl>Merkelbach R., Stauber J., Steinepigramme aus dem griechischen Osten, IV, München - Leipzig 2002, 385-386</bibl>
+                    <bibl>Peek W., Griechische Vers-Inschriften. Band I, Grab-Epigramme 1, Berlin 1955, 162-163, nr. 655</bibl>
+                    <bibl>Petit P., Les fonctionnaires dans l’oeuvre de Libanius. Analyse prosopographique, Paris 1994</bibl>
+                    <bibl>Rinaldi G., Antiochia nel secolo quarto : interazioni tra pagani e cristiani e note prosopografiche, Stud. Mat. Stor. Rel, 81, 2015, 29</bibl>
+                    <bibl>Robert L., Hellenica. Recueil d’épigraphie de numismatique et d’antiquités grecques, XI-XII, Paris 1960, 302-305</bibl>
+                    <bibl>Sartre-Fauriat A., Culture et société dans le Hauran (Syrie du Sud) d’après les épigrammes funéraires (IIIe-Ve siècles ap. J.-C), Syria, 75, 1998, 213-224</bibl>
+                    <bibl>Sartre-Fauriat A., Des tombeaux et des morts: monuments funéraires, société et culture en Syrie du Sud du Ier s. av. J.-C. au VIIe s. apr. J.-C., Beirut 2001, 53-56</bibl> 
+                    <bibl>Sartre-Fauriat A., Les voyages dans le Ḥawrān (Syrie du Sud) de William John Banks (1816 et 1818), Bordeaux-Beyrouth 2004, 152-155</bibl>
+                    <bibl>Sartre-Fauriat A., Sartre M., Le Plateau du Trachôn et ses bordures, IGLS XV／1, Beyrouth 2014, 304-308, nr. 241-242</bibl>
+                    <bibl>Von Oppenheim M. F., Vom Mittelmeer zum Persischen Golf durch den Haurän, die Syrische Wüste und Mesopotamien, Berlin 1899, 183-185</bibl> 
+                    <bibl>Waddington W. H., Inscriptions grecques et latines de la Syrie: recueillies et expliquées, Paris 1870, 566, nr. 2474-2475</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.a"></p>
+                    <p n="2.2"></p>
+                    <p n="2.10">(Lat.) virtute caelebratus magna per orbem; (Gr.) συνκλήτου φίλον ὄμμα, σαόφρων Μαιουρῖνος οὗ δύσις ἀντολίη τε μεσεμβρίη τε καὶ ἄρκτοι πιστοτάτου βασιλ̣εῦσιν ἀμωμήτοιό τε κέρτου εὐρύ τε καὶ μάλα καλὸν ἀεὶ κλέος ἀείδουσιν.</p>
+                    <list n="2.11">
+                        <item n="2.11.h"></item>
+                    </list>
+                </div>
+                <div type="commentary" n="8">
+                    <p n="8.1">clarus praetorique praefectus</p>
+                    <p n="8.2">clarus praetorique praefectus, συνκλήτου φίλον ὄμμα</p>
+                    <p n="8.10"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

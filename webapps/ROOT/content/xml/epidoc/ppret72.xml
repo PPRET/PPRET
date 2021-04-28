@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Another Opisthographic collar of a slave of Q. Clodius Hermogenianus Olybrius, praet. prefect, from one of his properties in Rome</title>
+                <editor role="edition">Andrea Bernier, Irene Vagionakis</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="pp. 640-642">72</idno>
+                <date when="2020-05-08"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person><persName ref="#Olybrius"><name type="praenomen">Quintus</name> <name type="gentilicium">Clodius</name> <name type="cognomen">Hermogenianus</name> <name type="cognomen">Olybrius</name></persName></person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Paris">Paris, Bibliothèque nationale de France, Département des Monnaies, médailles et antiques</repository>
+                        <idno type="invNo">inv. bronze.2316</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#instrumentum">instrumentum</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#bronze">bronze</material>
+                                    <objectType ref="#metal_plate">tag for a slave collar</objectType>
+                                    <dimensions>
+                                        <height>7.1</height>
+                                        <width>3.6</width>
+                                        <depth></depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">no</rs>
+                                    <rs type="monument_reuse">no</rs>
+                                    <rs type="opistographic">yes</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Two inscribed fields (frons and retro).</p>
+                                    <rs type="execution" ref="#engraved">engraved</rs>
+                                    <rs type="preservation" ref="#undamaged">Undamaged.</rs>
+                                    <p n="opistographic">Opistographic: the text is written both on the frons and on the retro of the plate.</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#square_capitals">capitals</term>
+                                <height>unknown</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Roma</placeName>
+                                <placeName type="modern_city">Rome (Italy)</placeName>
+                                <placeName type="province">Urbs</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#private">private space</placeName>
+                            </origPlace>
+                            <origDate period="#p8" notBefore="0377" notAfter="0379">377/379 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#Roma">Rome</placeName></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                <div type="textpart" subtype="face" n="frons">
+                    <ab>
+                        <lb n="1"/>Clodi <sic>He<lb 
+                            break="no" n="2"/>mogenia<lb 
+                            break="no" n="3"/>ni</sic> <expan><abbr>v</abbr><ex>iri</ex></expan> <expan><abbr>c</abbr><ex>larissimi</ex></expan> ex <sic>p<lb 
+                            break="no" n="4"/>refecto</sic>
+                        <lb n="5"/>urbi, de <sic>h<lb 
+                            break="no" n="6"/>ortum</sic> ip<lb 
+                            break="no" n="7"/>sius sum.
+                        <lb n="8"/><g ref="Olybri">Olybri</g>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="face" n="retro">
+                    <ab>
+                        <lb n="1"/>De <sic>hort<lb 
+                            break="no" n="2"/>u</sic> Olybri
+                        <lb n="3"/><expan><abbr>v</abbr><ex>iri</ex></expan> <expan><abbr>c</abbr><ex>larissimi</ex></expan> <sic>prefe<lb 
+                            break="no" n="4"/>cti</sic> <sic>pret<lb 
+                            break="no" n="5"/>ori</sic> sum;
+                        <lb n="6"/>noli me t<lb 
+                            break="no" n="7"/>enere, no<lb 
+                            break="no" n="8"/>n tibi <sic>ex<lb 
+                            break="no" n="9"/>peret</sic>.
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on CIL.</p>
+                <p>
+                    <app loc="frons 1-3"><note>Hermogeniani</note></app>
+                    <app loc="frons 3-4"><note>praefecto</note></app>
+                    <app loc="frons 5-6"><note>de horto</note></app>
+                    <app loc="frons 8"><note>Olybrius’ name name is narrowed down to a monogram</note></app>
+                    <app loc="retro 1-2"><note>de horto</note></app>
+                    <app loc="retro 3-5"><note>praefecti praetorio</note></app>
+                    <app loc="retro 8-9"><note>expediet</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“I belong to Clodius Hermogenianus, of clarissimus rank, former urban prefect, of his own garden. (I am a slave) of his own garden. ((ownership of Olybrius)).</p>
+                <p>I belong to the garden of Olybrius, of clarissimus rank, praetorian prefect; do not keep me, it is not to your advantage.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“J’appartiens à Clodius Hermogenianus, clarissime ancien préfet de ville, (je suis un serviteur) de son jardin. ((propriété d’Olybrius)).</p>
+                <p>Je suis du jardin d’Olybrius, clarissime préfet du prétoire; ne me retiens pas, ce n’est pas un avantage pour toi.”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“Sono di Clodius Hermogenianus, chiarissimo ex prefetto urbano, (sono un servo) del suo giardino. ((di proprietà di Olybrius)).</p>
+                <p>Sono del giardino di Olybrius, chiarissimo prefetto del pretorio; non tenermi, non ti conviene.”</p>
+            </div>
+            <div type="commentary">
+                <p>The inscriptions are on two bronze <foreign>laminae</foreign> of rectangular shape, both with a perforated <foreign>ansa</foreign> on the upper side, which were attached to (now lost) slave collars. The texts were engraved on both sides of a plate (<foreign>tabella</foreign>). They were engraved by the same hand and the letters are lightly incised (cf. CIL XV, 7199; Thurmond 1994, 483-484, nrr. 35-36). 
+                    Apart from minor spelling variations and a layout on a different number of lines (9 and 10 ll. on <ref type="ppret" corresp="ppret71">PPRET 71</ref>, 8 and 9 ll. on the slightly smaller <ref type="ppret" corresp="ppret72">PPRET 72</ref>), the two texts are identical. The provenance of these tags is unknown but the contents of the inscriptions clearly show that they were worn by slaves of the former prefect of Rome and praetorian prefect (Quintus) Clodius Hermogenianus Olybrius (cf. <ref type="ppret" corresp="ppret70">PPRET 70</ref>).</p>
+                <p>Within the category of (inscribed) slave collars one can distinguish two different types: type one consists of a text engraved directly on the collar itself, type two, similar to the one discussed here, has a text written on <foreign>laminae</foreign> (or <foreign>tabellae</foreign>) that come in various shapes and that would have been attached to a collar (all of which are now lost, with only one exception). 
+                   Currently this corpus includes thirty-eight items (seventeen collars, twenty <foreign>laminae</foreign> and one collar with its <foreign>lamina</foreign>) with forty-two inscriptions (adding AE 1993, 30 to the collection gathered and commented by Thurmond 1994; cf. Rivière 2002, pp. 193-196; see also the classical editions of G.B. de Rossi 1874, 1892 and de Rossi-Gatti 1887, H. Dressel on CIL XV, 7171-7199, Allard 1914; cf. Sotgiu 1973-1974). The most commonly used materials for making slave collars and <foreign>laminae</foreign> are bronze or copper, but one  also finds examples in iron, lead, bone or ivory. Many collars and <foreign>laminae</foreign> have similar inscriptions, with formulaic phrases such as «tene me quia fugi / ne fugiam» (“hold me because I have run away / so I don’t run away”), «revoca me ad/in …» (“return me to …”), followed by the indications of the owner and the place where the slave should be returned to. This corpus is quite homogeneous as far as the chronology and origin of the items are concerned. Although their precise provenance is rarely known, the topographic references in the inscriptions point almost exclusively to the city of Rome and its environs (see Hillner 2001). The exceptions include four examples discovered in Africa and one in Sardinia. As for the chronology, the majority of these items can be securely dated to the 4th Century, starting from the reign of Constantine (Rivière 2002, pp. 146-152).</p>
+                <p>Why such slave collars proliferate in the 4th Century has long been debated. Some scholars see a connection with a law of Constantine that had banned the facial tattooing of criminals who had  been convicted either to the arena or to the mines (<ref type="source">CTh 09, 40, 02</ref>, issued in 316 AD), suggesting that the same practice was also abandoned for fugitive slaves and replaced by collars (see Trimble 2016, p. 454; cf. Bellen 1971, pp. 000; Thurmond 1994, pp. 490-493; Harper 2011, pp. 257-259). 
+                    Another long standing idea, that the collars belonged to dogs not slaves, inferred by their petite dimensions, has been dismissed after new studies showed that their size was consistent with a human neck (Thurmond 1994, pp. 488-490). Even the presence of Christian symbols and references to Christian owners or buildings in several inscriptions is no longer an impediment to consider them all collars imposed on slaves (cf. Sotgiu 1973-1974, pp. 693-697; Rivière 2002, pp. 152-157; Trimble 2016, pp. 454-456). 
+                    Given the evidence currently available, what cannot be questioned is the close link between these items and the urban slavery of the capital. Noteworthy is the presence among the slave owners, beside some senators, of many officials from the lower-middle ranks of the bureaucracy and men working in commerce (see Hillner 2001, pp. 193-216; cf. Rivière 2002, pp. 160-161; Trimble 2016, pp. 455-456).</p>
+                <p>Despite doubts about the real effectiveness of these objects to prevent slaves absconding, the contents of the inscriptions clearly proves that this was the main purpose of many collars. In all likelihood the collars were imposed after an unsuccessful escape attempt, as a deterrent and a warning to other slaves. 
+                    However, scholars have recently argued that some collars should also be regarded as signs to indicate who the slave belonged to and to avoid the theft or mistreatment of their wearers (cf. Bellen 1971, pp. 000; Pani 1984, pp. 113-127; Rivière 2002, pp. 157-164; Trimble 2016, pp. 460-462). And this explanation fits well with the particular content of texts engraved on the <foreign>laminae</foreign> of Olybrius’ slaves.</p>
+                <p>Editing these items, G.B. de Rossi (1887, pp. 62-63) and H. Dressel (CIL XV, 7199) presented them as tags for dog collars and this label has long been retained in historiography, possibly because neither of the two inscriptions bear the word «<foreign>servus</foreign>»; but, as said above, no concrete reason exists to attribute any of these collars to animals rather than humans. Moreover, the remarkable dimensions of two tags (height 7,3 / 8,5 cm, width 3,6 / 4,3 cm, at least twice as big as many used  for dogs today) exclude that this is the case because they could hardly have been attached to an animal’s collar, much less remain there for any length of time.
+                    These tags were then intended to be placed on the slaves of Olybrius. Their peculiarity resides rather in the text: it starts with the statement of the belonging (of the slave) to the senator Clodius Hermogenianus, described as a former urban prefect. There then follows a reference to his property, the garden of Olybrius, succeeded by the monogram of the name Olybrius. The fact that the slave belongs to the garden of Olybrius is restated on the back, Olybrius is once more referred to as the praetorian prefect, while a threatening warning ends the text: «do not keep me, it is not to your advantage».
+                    No similar sentence occurs in any other slave collar or <foreign>lamina</foreign>. The text in CIL XV, 7171 recalls an imperial law forbidding anyone to take anybody else’s slave (possibly <ref type="source">CI 06, 01, 07</ref> or 8, that however concerns fiscal slaves; cf. Thurmond 1994, nr. 18), however, it lacks the threatening character of our inscriptions.
+                    Another particular feature of these <foreign>laminae</foreign> is that they were inscribed on both sides. Two other <foreign>laminae</foreign> survive with a double inscription (CIL XV, 7190 and 7192 = Thurmond 1994, nr. 28 and 30), but they derive from different periods and different owners, while the present inscriptions were engraved by the same hand, which means at the same time. If the front side simply recalls the high-standing of the owner, the back adds an explicit warning.</p>
+                <p>The <foreign>laminae</foreign> make reference to a property bearing the owner’s name, “the garden of Olybrius”, probably his main residence in Rome. No other reference to this <foreign>hortus Olybrii</foreign> is extant in the ancient sources. It has been suggested that it was located on the slopes of the Esquiline, because the pedestal dedicated to his wife Tyrannia Anicia Iuliana (<ref type="ppret" corresp="ppret70">PPRET 70</ref>) was discovered nearby and the hill boasted other aristocratic residences in Late Antiquity (see LTVR II, p. 148; III, p. 76; cf. Hillner 2001, p. 213).
+                    Large open spaces were rare in late antique Rome, so it is possible that this garden had previously borne another name, which was subsequently changed when the property was acquired by Olybrius in the 4th Century (cf. De Ruggiero 1922, 1026 oppure Diz.ep. III, 1026; Hillner 2001, p. 213).</p>
+                <p>D.L. Thurmond, who first rejected the theory of dog collars, suggested that the <foreign>laminae</foreign> were for <foreign>topiarii</foreign>, gardeners, serving in the urban estate of Olybrius (Thurmond 1994, 484: «garden slaves»). Some <foreign>topiarii</foreign> of the imperial and private estates of Rome are attested in the epigraphic records (cf. especially CIL VI, 6370, 9082, 33745; CIL X, 696, 1744; Camodeca 2007, pp. 152-153 = AE 2007, 412). 
+                    However, the words «(I belong to) the garden of Olybrius» may simply refer to the urban estate of the owner without implying their role as gardeners. Perhaps these slaves had to wear <foreign>laminae</foreign> because they were engaged in activities which took them well outside his urban estate, perhaps even outide the city, thus exposing them to the possibility of theft or mistreatment (cf. Pani 1984, pp. 122-126; Rivière 2002, pp. 157-164). 
+                    Like every prominent 4th Century Roman aristocrat, Olybrius had immense wealth. He was related by marriage to the Anician family and was the father-in-law of Petronius Probus (see <ref type="ppret" corresp="ppret70">PPRET 70</ref>).
+                    Not only did he have estates in and around Rome, but he possessed others elsewhere in the empire and his slaves played a key role in their administration (see Vera 1981, pp. 202-210; on senatorial slave bailiffs cf. Carlsen 1991, pp. 632-637; Carlsen 2001, pp. 41-55; Vera 2012). It is therefore possible that the slaves wearing these tags had been entrusted with important tasks.</p>
+                <p>Finally, we can look at the dating of these items. The inscriptions etched on the front side refer to  Olybrius the “former urban prefect,” on the back as “praetorian prefect”. The reference to the completion of the first office (<foreign>ex praefecto urbi</foreign>) suggests that the texts were engraved when the senator was holding the second one. 
+                    In the commentary to <ref type="ppret" corresp="ppret70">PPRET 70</ref>, we have seen how Olybrius held the praetorian prefectures of Illyricum and then that of the East in 377/8-379 AD and so it is in these years that the tags were inscribed. Probably we can exclude 379 AD and narrow the chronology down to 377/8 AD. In 379 AD Olybrius was <foreign>consul ordinarius</foreign> and, considering the ostentatious character of these inscriptions, a reference to the peak of his career would not have been missed if the inscription had been engraved in that year.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>De Rossi 1874, 62</ref></bibl>
+                    <bibl><ref>CIL XV, 7199 b</ref></bibl>
+                    <bibl><ref>Thurmond 1994, pp. 483-484, nr. 36</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR149774">EDR 149774</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Allard P., Colliers d’Esclaves, in Cabrol F., Leclercq (edd. by), Dictionnaire d’archéologie chrétienne et de liturgie, III,2, Paris 1914, 2140-2157</bibl>
+                    <bibl>Bellen H., Studien zur Sklavenflucht im römischen Kaiserreich, Wiesbaden 1971</bibl>
+                    <bibl>Camodeca G., Sulle proprietà imperiali in Campania, in Pupillo D. (ed. by), Le proprietà imperiali nell’Italia romana. Economia, produzione, amministrazione (Atti del Convegno Ferrara-Voghera, 3-4 giugno 2005), Firenze 2007, 143-167</bibl>
+                    <bibl>Carlsen J., Estate Management in Roman North Africa. Transformation or Continuity?, in Mastino A. (ed. by), L’Africa romana: atti dell’8. Convegno di studio, 14-16 dicembre 1990, Sassari 1991, 625-637 (= Carlsen J., Land and Labour. Studies in Roman Social and Economic History, Roma 2013, 177-192)</bibl>
+                    <bibl>Carlsen J., Landowners, Tenants and Estate Managers in Roman Italy. New Discoveries, in Herz P., Waldherr G. (edd. by), Landwirtschaft im Imperium Romanum, St. Katharinen 2001, 41-55 (= Carlsen J., Land and Labour. Studies in Roman Social and Economic History, Roma 2013, 55-71)</bibl>
+                    <bibl>De Rossi G.B., Dei collari dei servi fuggitivi e d’una piastra di bronzo opistografa che fu appesa ad un siffatto collare testé rinvenuta, Bullettino di Archeologia Cristiana, 2, 1874, 41–67</bibl>
+                    <bibl>De Rossi G.B., Collare di servo fuggitivo novellamente scoperto, BCAR, 20,1, 1892, 11-18</bibl>
+                    <bibl>De Rossi G.B., Gatti G., Collari dei servi fuggitivi con indicazioni topografiche delle regioni XII e XIII, BCAR, 15,9, 1877, 286-296</bibl>
+                    <bibl>De Ruggiero E. (ed.), Dizionario epigrafico di antichità romane, III, Roma 1922</bibl>
+                    <bibl>Harper K., Slavery in the Late Roman World, AD 275–425, Cambridge and New York 2011</bibl>
+                    <bibl>Hillner J., Die Berufsangaben und Adressen auf den stadtrömischen Sklavenhalsbändern, Historia, 50, 2001, 193-216</bibl>
+                    <bibl>Pani G.G., Note sul formulario dei testi epigrafici relativi ai ‘servi fugitivi’ (collari, placche e contrassegni), VetChr, 21, 1984, 113-127</bibl>
+                    <bibl>Rivière Y., Recherche et identification des esclaves fugitifs dans l’Empire romain, in Andreau J., Virlouvet C. (edd. by), L’information et la mer dans le monde antique, Rome 2002, 115–96</bibl>
+                    <bibl>Sotgiu G., Un collare di schiavo rinvenuto in Sardegna, ArchCl 25-26, 1973-1974, 688–97</bibl>
+                    <bibl>Thurmond D.L., Some Roman Slave Collars in CIL, Athenaeum, 82, 1994, 459-493</bibl>
+                    <bibl>Trimble J., The Zoninus collar and the archaeology of Roman slavery, AJA, 120,3, 2016, 447-472</bibl>
+                    <bibl>Vera D., Commento storico alle Relationes di Quinto Aurelio Simmaco. Introduzione, commento, testo, traduzione, appendice sul libro X, 1-2, indici, Pisa 1981</bibl>
+                    <bibl>Vera D., Questioni di storia agraria tardoromana: schiavi, coloni, villae, AntTard, 20, 2012, 115-122 (= Id., I doni di Cerere. Storie della terra nella tarda antichità. Strutture, società, economie, Turnhout 2020, 365-372)</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                    <p n="1.4"></p>
+                </div> 
+               
+                <div type="commentary" n="4">
+                    <p n="4"></p>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">v(iri) c(larissimi)</p>
+                    <p n="8.2">prefecti pretori</p>
+                    <p n="8.4"></p>
+                    <p n="8.9"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

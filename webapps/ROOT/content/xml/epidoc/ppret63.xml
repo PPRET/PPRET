@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription in honour of the praet. prefect Probus from Verona</title>
+                <editor role="edition">Pierfrancesco Porena, Irene Vagionakis</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="pp. 736-740">63</idno>
+                <date when="2020-06-23"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Probus"><name type="praenomen">Sextus</name>
+                        <name type="gentilicium">Claudius</name>
+                        <name type="gentilicium">Petronius</name>
+                        <name type="cognomen">Probus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#lost">lost (?)</repository>
+                        <idno type="invNo"/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect Probus</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#unknown">unknown</material>
+                                    <objectType ref="#base" cert="low">statue base (?)</objectType>
+                                    <dimensions>
+                                        <height>unknown</height>
+                                        <width>unknown</width>
+                                        <depth>unknown</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">no</rs>
+                                    <rs type="monument_reuse">yes: it was reused in a church, probably the Duomo of Verona</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#undamaged">At the time of its transcription, the inscription was undamaged. The inscription is known only from manuscripts (by Michele Fabrizio Ferrarini in 1477-1486 ca., and by Jacques Sirmond more than a Century later).</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#unknown">unknown (no images available)</term>
+                                <height>unknown</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Verona</placeName>
+                                <placeName type="modern_city">Verona (Italy)</placeName>
+                                <placeName type="province">Venetia et Histria</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#public" cert="low">public space (?)</placeName>
+                            </origPlace>
+                            <origDate period="#p8" notBefore="0384" notAfter="0389" cert="low">384/389 AD?</origDate>
+                        </origin>
+                        <provenance type="found">first recorded in a church in <placeName ref="#">Verona</placeName> at the end of the 15th Century</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                    <ab>
+                        <lb n="1"/>Petronio
+                        <lb n="2"/>Probo <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan>,
+                        <lb n="3"/>totius admira<lb break="no" 
+                            n="4"/>tionis viro, pro<lb break="no" 
+                            n="5"/><expan><abbr>cons</abbr><ex>uli</ex></expan> Africae, <expan><abbr>praef</abbr><ex>ecto</ex></expan>
+                        <lb n="6"/>praetorio Illyrici,
+                        <lb n="7"/><expan>praef<ex>ecto</ex></expan> <expan><abbr>praet</abbr><ex>orio</ex></expan> <expan><abbr>Gal<lb break="no" 
+                            n="8"/>liar</abbr><ex>um</ex></expan> II, <expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>praet</abbr><ex>orio</ex></expan>
+                        <lb n="9"/>Italiae atque Africae
+                        <lb n="10"/>III, <expan><abbr>cons</abbr><ex>uli</ex></expan> ordinario,
+                        <lb n="11"/>civi eximiae boni<lb break="no" 
+                            n="12"/>tatis, disertissimo
+                        <lb n="13"/>atque omnibus
+                        <lb n="14"/>rebus eruditissimo,
+                        <lb n="15"/>patrono,
+                        <lb n="16"/>nepoti Probiani,
+                        <lb n="17"/>filio Probini <expan><abbr>v</abbr><am>v</am><ex>irorum</ex></expan> <expan><abbr>c</abbr><am>c</am><ex>larissimorum</ex></expan>,
+                        <lb n="18"/><expan><abbr>praef</abbr><ex>ectorum</ex></expan> urbis et <expan><abbr>cons</abbr><am>s</am><ex>ulum</ex></expan>.
+                        <lb n="19"/>?
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on CIL.</p>
+                <p>
+                    <app loc="7-8"><note>praef(ecto) praet(orio) Gal/liar[u]<unclear>m</unclear>, praef(ecto) praet(orio): Porena forthcoming.</note></app>
+                </p>
+                <p>Ferrarini; Traiectinus (Utrecht, Universiteitsbibliotheek, HS. 765, f.° 19’) 1477: PETRONIO / PROBO VC / TOTIVS ADMIRA/TIONIS VIRO PRO/CONS AFRICAE PRAEF / PRAETORIO ILLYICI / PRAE ET / PRAEFEC <gap reason="illegible" quantity="2" unit="character"/> / GALLIAR II PRAEF PRAET / ITALIAE ATQ AFRICAE / IIII COS ORDINARIO / CIVI EXIMIAE BONI/TATIS DISERTISSIMO / ATQ OMNIB / REBVS ERVDITISSIM / PATRONO / NEPOTI PROBIANI / FILIO PROBINI VV CC / PRAEF VRBIS ET COSS</p>
+                <p>Id., Parisinus Lat. 6128 Bibl. Nat., f° 18’ (?): PETRONIO / PROBO VC / TOTIVS ADMIRA/TIONIS VIRO PRO/CONS AFRICAE / PRAEF / PRAETORIO ILLYRICI / PRAE ET PRAEFEC GAL/LIAR. II PRAEF PRAET / ITALIAE ATQ AFRICAE / III  CON ORDINARIO / CIVI EXIMIAE BONI/TATIS DISERTISSIMO / ATQ OMNIB / REBVS ERVDITISSIM / PATRONO / NEPOTI PROBIANI / FILIO PROBINI VV CC / PRAEF VRBIS ET CONSS</p>
+                <p>Id., Regiense C 398, f° 48 - 1486: PETRONIO / PROBO VC TOTIVS / ADMIRATIONIS VIRO PRO/CONS AFRICAE PRAEF / PRAETORIO ILLYRICI PRAE / ET PRAEFEC GALLIAR II PRAEF / PRAET ITALIAE ATQ AFRICAE / III  CON ORDINARIO CIVI EX/IMIAE BONITATIS DISERTISS / ATQ OMNIB REBVS ERVDITISS/MO PATRONO NEPOTI PRO/BIANI FILIO PROBINI VV CC / PRAEF VRBIS ET COSS <g ref="hedera"/></p>
+                <p>Sirmond, Paris Bibl. Nat. Lat. 9696 (già Suppl. Lat. 1417), p. 2 n. 13: PETRONIO / PROBO VC / TOTIVS ADMIRA’TIONIS VIRO / PRO’CONS AFRICAE PRAEF’ / PRAETORIO ILLYICI’ / PRAEF PRAET GAL’LIAR II / PRAEF PRAET’ ITALIAE / ATQ AFRICAE’ III / CONS ORDINARIO’ / CIVI  EXIMIAE BONI’TATIS DISERTISSIMO’ ATQVE / OMNIBVS’ REBVS ERVDITISSIMO’ / PATRONO / NEPOTI PROBIANI’ FILIO / PROBINI VV CC’ PRAEF VRBIS / ET CONSS</p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“To Petronius Probus, of clarissmus rank, man worthy of all admiration, proconsul of Africa, praetorian prefect of Illyricum, for the second time praetorian prefect of the Gauls, for the third time praetorian prefect of Italy and Africa, ordinary consul, citizen of extraordinary goodness, most eloquent and most learned in all things, patron, grandson of Probianus, son of Probinus, of clarissimus rank, urban prefects and consuls.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“...”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“A Petronius Probus, chiarissimo, uomo degno di ogni ammirazione, proconsole d’Africa, prefetto del pretorio dell’Illirico, per la seconda volta prefetto del pretorio delle Gallie, per la terza volta prefetto del pretorio d’Italia e d’Africa, console ordinario, cittadino dall’esimia bontà, eloquentissimo ed eruditissimo in ogni cosa, patrono, nipote di Probiano, figlio di Probino, chiarissimi, prefetti urbani e consoli.”</p>
+            </div>
+            <div type="commentary">
+                <p>...</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>CIL V, 3344</ref></bibl>
+                    <bibl><ref>ILS 1266</ref></bibl>
+                    <bibl><ref>Alföldy 1984, p. 131, nr. 211</ref></bibl> 
+                    <bibl><ref>Porena forthcoming, pp. 211-212, nr. 7</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-04202390">EDCS 04202390</ref></bibl>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR093813">EDR 093813</ref></bibl>
+                    <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD033485">HD 033485</ref></bibl>
+                    <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-1599">LSA 1599</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Alföldy G., Römische Statuen in Venetia et Histria: Epigraphische Quellen, Heidelberg 1984</bibl> 
+                    <bibl>Henning D., Messius Phoebus Severus und die Chronologie der praefecti Urbi unter Kaiser Anthenmius (467–472), ZPE 108, 1995, 145-158 (150 nt. 23)</bibl>
+                    <bibl>Layton R. A., Plagiarism and Lay Patronage of Ascetic Scholarship: Jerome, Ambrose, and Rufinus, JECS 10, 2002, 489-522 (496, nt. 24)</bibl> 
+                    <bibl>Porena P., Appendice. Selezione di fonti sulla carriera prefettizia di Sex. Petronius Probus, in Bigi F., Tantillo I. (edd.), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa forthcoming, 211-212</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.a"></p>
+                    <p n="2.2"></p>
+                    <p n="2.10">totius admirationis viro; civi eximiae bonitatis, disertissimo atque omnibus rebus eruditissimo</p>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">v(iro) c(larissimo)</p>
+                    <p n="8.2">praef(ecto) praetorio Illyrici, praef(ecto) praet(orio) Galliar(um) II, praef(ecto) praet(orio) Italiae atque Africae III</p>
+                    <p n="8.3"></p>
+                    <p n="8.6">II, III</p>
+                    <p n="8.12"></p>
+                    <p n="8.14"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

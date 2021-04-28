@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Greek inscription in honour of the praet. prefect Claudius Strategius Musonianus by the Council and the people of Hierapolis</title>
+                <editor role="edition">Eleonora Angius</editor>
+                <editor role="encoding">Eleonora Angius</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="new">43</idno>
+                <date when="2020-03-27"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Musonianus"><name type="praenomen">Claudius</name>
+                        <name type="gentilicium">Strategius</name>
+                        <name type="cognomen">Musonianus</name>
+                        </persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Hierapolis">Hierapolis, behind the <foreign>scaena</foreign> of the theatre</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary for the praet. prefect Claudius Strategius Musonianus</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="grc">Greek</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">white marble</material>
+                                    <objectType ref="#base">statue base</objectType>
+                                    <dimensions>
+                                        <height>70</height>
+                                        <width>68.5</width>
+                                        <depth>66.5</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">unknown</rs>
+                                    <rs type="monument_reuse">unknown</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#damaged">Damaged: the lower moulding is broken along all of its left side and the upper rim is chipped, causing the loss of some letters of the first and second line, but the epigraphic field is almost complete and legible.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#square_capitals">square capitals with buttonholes and serifs</term>
+                                <height>3.5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Hierapolis</placeName>
+                                <placeName type="modern_city">Pamukkale (Turkey)</placeName>
+                                <placeName type="province">Phrygia Pacatiana</placeName>
+                                <placeName type="diocese">Asiana</placeName>
+                                <placeName type="prefecture">Oriens</placeName>
+                                <placeName type="ancient_location" ref="#public">public space</placeName>
+                            </origPlace>
+                            <origDate period="#p5" notBefore="0354" notAfter="0358">354/358 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#">Hierapolis</placeName>, found in the orchestra of the theatre, among the blocks fallen from the <foreign>scaenae frons</foreign> and the <foreign>cavea</foreign></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                    <ab>
+                        <lb n="1"/><supplied reason="lost">Ἀγα</supplied>θῆι <supplied reason="lost">Τύχηι</supplied>. 
+                        <lb n="2"/><expan><abbr>Κλ</abbr><ex>αύδιον</ex></expan> <supplied reason="lost">Μ</supplied>ουσωνιαν<supplied reason="lost">όν</supplied>, τὸν <expan><abbr>λαμ</abbr><ex>πρότατον</ex></expan>
+                        <lb n="3"/>ἔπαρχον τοῦ ἱεροῦ πραι<lb 
+                         break="no" n="4"/>τωρίου ἡ βουλὴ καὶ ὁ δῆ<lb 
+                        break="no" n="5"/>μος τῆς Ἱεραπολιτῶν 
+                        <lb n="6"/>μητροπόλεως, τὸν ἑαυ<lb 
+                        break="no" n="7"/>τῶν εὐεργέτην καὶ   
+                        <lb n="8"/>κτίστην. εὐτυχῶς. 
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on Ritti 2017, p. 640 </p>
+                <p>
+                <app loc="2"><note><supplied reason="lost">Μ</supplied>ουσωνιανό<supplied reason="lost">όν</supplied>: AE 2011, 1340</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>(from LSA 2501)</p>
+                <p>“To Good Fortune. The council and the people of the metropolis of the Hierapolitans (honour) Claudius Musonianus, the prefect of the sacred praetorium of clarissimus rank, their benefactor and founder. With good fortune!”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>(from AE 2011, 1340)</p>
+                <p>“À la Bonne Fortune. Le Conseil et le Peuple de la métropole d’Hiérapolis (ont consacré la statue de) Cl(audius) Mousônianos, le clarissime préfet du sacré prétoire, leur bienfaiteur et fondateur. Heureux succès!”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“Alla Buona Fortuna. Il Consiglio e il popolo della metropoli degli Ierapoliti (onorano) Claudius Musonianus, il chiarissimo prefetto del sacro pretorio, loro benefattore e fondatore. Buona Fortuna!”</p>
+            </div>
+            <div type="commentary">
+<p>This cubic marble statue base still preserves the lower moulding (there was probably an identical one at the top with a plinth supporting the statue), but it is broken along the entirety of its left side, and the upper rim is chipped. Nevertheless, the inscribed field is almost complete (LSA 2501). The monument, published for the first time by Ritti in 2007 (Ritti 2007, p. 610; Ritti 2011, pp. 186-188) was found in the orchestra of the theatre of Hierapolis, among blocks that had fallen from the <foreign>scaenae frons</foreign> and the <foreign>cavea</foreign> (originating from the lower or middle diazoma). The monument is now exhibited behind the scene of the theatre.</p>  
+<p>On the inscription the Council and people of Hierapolis, which boasts the title of metropolis, honoured the praetorian prefect of clarissimus rank Claudius Musonianus as benefactor and founder (εὐεργέτην καὶ κτίστην, lines 7-8) (on his career, see <ref type="ppret" corresp="ppret42">PPRET 42</ref>). The <foreign>gentilicium</foreign> Strategius is omitted, but the <foreign>nomen</foreign> Claudius, already identified by Cayla in 1997 in the inscription of Paphos concerning the restoration of a burned building (<ref type="ppret" corresp="ppret42">PPRET 42</ref>), is attested here and again on the Dodekatheon inscription which is also in Hierapolis (<ref type="ppret" corresp="ppret44">PPRET 44</ref>).</p>  
+<p>The dedication consists of a few and brief lines of prose and, except for the initial and final formulas, it differs from the Greek epigraphic tendencies of the mid 4th Century, which generally tend to adopt poetic compositions with hyperbolic formulas and literary references to honour high imperial officials in the East (for example the coeval epigram for the vicar Magnus by the people of Hierapolis, see Ritti 2017, pp. 621-624; for Greek verse inscriptions to praetorian prefects see <ref type="ppret" corresp="ppret21">PPRET 21</ref>; <ref type="ppret" corresp="ppret26">PPRET 26</ref>; <ref type="ppret" corresp="ppret87">PPRET 87</ref>; <ref type="ppret" corresp="ppret91">PPRET 91</ref>; for Greek inscriptions by cities, see <ref type="ppret" corresp="ppret29">PPRET 29</ref>; <ref type="ppret" corresp="ppret52">PPRET 52</ref>; <ref type="ppret" corresp="ppret61">PPRET 61</ref>).</p>  
+<p>Furthermore the civil authorities did not express the reasons of their gratitude, which was probably related to the appreciation of the praetorian prefect’s good government or to some benefits obtained (maybe related to taxation, see LSA 2501). According to Ritti (2011, p. 188), the choice of conciseness might be connected to its proximity to a monumental inscription for the restoration of the Deodekatheon of Hierapolis, in which the praetorian prefect Musonianus was already extensively praised by the same civical authorities, expecially the βουλὴ, with longer eulogistic formulas (το[ῦ θαυ]μασιωτατου καὶ πάσης εὐφημ[ί]ας ἀξίου, τὴν μεγάλην ἐξου[σίαν ἐπαρχική]ν τοῦ ἱεριοῦ πραιτωρίου κατακοσμοῦντος, see <ref type="ppret" corresp="ppret44">PPRET 44</ref>). If the praetorian prefect received this statue base for the same work of restoration, perhaps they also wanted to honour such a benevolent official individually and in a more traditional way, whose statue already expressed his greatness its own right (see below). However, it is equally plausible that Musonianus won the praise of the city of Hierapolis for more specific reasons and not for the restoration project.</p>  
+<p>Ritti (2011, pp. 188-189) associated the marble statue base to a discovery made in 1975 of a portrait head found at the left side of theatre’s <foreign>scaenae frons</foreign>. The identification seems to be confirmed by the dating which was established even before the base had been discovered: Bejor (1991, pp. 34-36) dated the head stylistically to the 4th Century and surmised that it may well have been contemporary with the restoration of the theatre (352 AD, see <ref type="ppret" corresp="ppret30">PPRET 30</ref>). This portrait shows a mature jowly man with a clean-shaven face, short, curly hair, receding at the temples, a large hooked nose and a double chin (LSA 2502). If the head really does belong to the lost statue of Musonianus, then these physical features would, in effect, correspond to the age that he presumibly would have had during his praetorian prefecture (more than fifty years old). Such a lifelike representation might have been a deliberate choice, a ploy aimed at displaying the integrity and refined culture of a high imperial dignitary (Ritti 2017, p. 644, for the attestation of his high culture and bilinguism, see <ref type="ppret" corresp="ppret42">PPRET 42</ref>). Since the body of the statue, made separately from the head, is unfortunately lost, we do not know if he was represented in <foreign>civilis habitus</foreign> (see <ref type="ppret" corresp="ppret24">PPRET 24</ref>; <ref type="ppret" corresp="ppret75">PPRET 75</ref>) emphasizing his senatorial <foreign>dignitas</foreign> and apparently in line with the traits of his face, or in military garb (as occurred for Flavius Philippus in Chalcedon, see <ref type="source">Lyd., Mag., 02, 09, 06</ref>, <ref type="ppret" corresp="ppret27">PPRET 27</ref>), referring to the military nature of the office during which he won the gratitude of Hierapolis (Ritti 2011, p. 190).</p> 
+<p>Since his office is mentioned explicitly, the monument can be dated to between 354-358 AD, when Musonianus was praetorian prefect of the East (see <ref type="ppret" corresp="ppret42">PPRET 42</ref>). However, Ritti (2017, pp. 642-643) argued that the base and its statue were made immediately after the end of his office because, according to the instructions of Augustus (<ref type="source">Dio. 56, 25, 06</ref>) and to a constitution in the Justinian Code (<ref type="source">CI 01, 24, 01</ref>), officials were not allowed to receive honours during their mandate, only at its end and only after sixty days (unless the honour was granted by an imperial <foreign>beneficium</foreign>).</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Ritti 2007, p. 610</ref> = <bibl><ref>SEG 57, 1366</ref></bibl> = <bibl><ref>AE 2009, 1437</ref></bibl></bibl> 
+                    <bibl><ref>Ritti 2011, p. 186</ref> = <bibl><ref>AE 2011, 1340</ref></bibl> = <bibl><ref>BE 2012, 54</ref></bibl></bibl> 
+                    <bibl><ref>Ritti 2017, p. 640</ref></bibl>  
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p>
+                    <bibl><ref>Ritti 2011, p. 186 (fig. 11.12)</ref></bibl>
+                    <bibl><ref>Ritti 2017, p. 641 (fig. 22)</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail.php?record=2501">LSA 2501</ref></bibl> 
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+<bibl>Bejor G., Le statue. Hierapolis: scavi e ricerche 3, Roma 1991, 34-36, nr. 20</bibl>  
+<bibl>Ritti T., Miranda E., Guizzi F., D’Andria F., Caggia M. P., La ricerca epigrafica: risultati dell’ultimo quadriennio e prospettive future, Hierapolis di Frigia, I. Le attività delle campagne di scavo e restauro 2000-2003, Istanbul 2007, 610</bibl> 
+<bibl>Ritti T., Andriantes kai eikones ... met’epigraphes oikeias. Contributi dell’epigrafia ieropolitana di età imperiale alla conoscenza delle opere figurative, in Roman Sculpture in Asia Minor, eds F. D’Andria, I. Romeo, Portsmouth 2011 (JRA int ser 80), 186-190</bibl> 
+<bibl>Ritti T., Hierapolis di Frigia IX: Storia e istituzioni di Hierapolis, İstanbul 2017, 640-644</bibl> 
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.1"></p>
+                    <p n="2.6"></p>
+                    <p n="2.9">εὐεργέτην καὶ  κτίστην</p>
+                    <list n="2.11">
+                        <item n="2.11.b"></item>
+                        <item n="2.11.c"></item>
+                    </list>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">τὸν <expan><abbr>λαμ</abbr><ex>πρότατον</ex></expan></p>
+                    <p n="8.2">ἔπαρχον τοῦ ἱεροῦ πραιτωρίου</p>
+                    <p n="8.5"></p>
+                    <p n="8.9"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

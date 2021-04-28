@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Greek inscription in honour of the praet. prefect Flavius Philippus by the city of Perge</title>
+                <editor role="edition">Eleonora Angius</editor>
+                <editor role="encoding">Eleonora Angius</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="new">29</idno>
+                <date when="2020-03-27"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Philippus"><name type="gentilicium">Flavius</name>
+                            <name type="cognomen">Philippus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Antalya">Antalya Museum since 1970</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the praet. prefect Flavius Philippus by the city council of Perge</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="grc">Greek</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#stone_slab">slab</objectType>
+                                    <dimensions>
+                                        <height>29</height>
+                                        <width>67</width>
+                                        <depth>3</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">unknown</rs>
+                                    <rs type="monument_reuse">unknown</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#fragmentary">Fragmentary.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#unknown">unknown (no images available)</term>
+                                <height>4.5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Perge</placeName>
+                                <placeName type="modern_city">Antalya (Turkey)</placeName>
+                                <placeName type="province">Pamphylia</placeName>
+                                <placeName type="diocese">Asiana</placeName>
+                                <placeName type="prefecture">Oriens</placeName>
+                                <placeName type="ancient_location" ref="#public">public space</placeName>
+                            </origPlace>
+                            <origDate period="#p5" notBefore="0351" notAfter="0352">351/352 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#">Perge</placeName>, found by Jean Bean near the western pillar of the Hadrian’s Gate</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                <ab>
+                    <lb n="1"/><expan><abbr>Φλ</abbr><ex>άουιον</ex></expan> Φίλιππον τὸν <expan><abbr>λαμπρ</abbr><ex>ότατον</ex></expan> ἔπαρχον,
+                    <lb n="2"/>τὸν τῶν ὅλων εὐεργέτην καὶ τῶν ὅ<lb
+                        break="no" n="3"/>λων διορθωτὴν, ἡ Βουλὴ τῆς Περ<lb 
+                            break="no" n="4"/>γαίων λαμπρᾶς μητροπ<supplied reason="lost">ό</supplied>λεως.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>This edition is based on the text of Şahin 2015, pp. 177-178, nr. 1.</p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“To the praetorian prefect of clarissimus rank Flavius Philippus, benefactor in every respect and corrector of all things, the council of the splendid metropolis of the Pergeans.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“À Flavius Philippus, clarissime préfet du prétoire, munificent en tous points et correcteur de toutes choses, le conseil de la brillante métropole de Perge”.</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“Al chiarissimo prefetto del pretorio Flavius Philippus, munifico sotto ogni aspetto e correttore di ogni cosa, il consiglio della splendente metropoli di Perge.”</p>
+            </div>
+            <div type="commentary">
+                <p>This fragmentary marble slab was found at Perge by Jean Bean sometime before 1970, after which it was brought to the Antalya Museum. This large slab, bearing the inscription carved in honour of Flavius Philippus (for his career, see <ref type="ppret" corresp="ppret27">PPRET 27</ref>), was discovered on the western foot of Hadrian’s Gate, on its side facing the city. Şahin (2015, p. 177) assumed that this Greek inscription is flanked on the right and on the left by a long Latin inscription concerning Philippus (the name Philippus in the vocative case could be seen on the third to last line of the right-hand column; we are very grateful to Prof. D. Feissel for showing us an image of the blocks on which the inscription in Latin is carved). 
+                    The Latin text preserves an exceptional document: an <foreign>Oratio ad Senatum</foreign> (BE 2016, pp. 569-570), of whom which about fifty lines has survived (the text was longer than what can be seen today), by Constantius II addressed to the Senate of Constantinople, in which the emperor informed the senators of his wish to erect statues to his praetorian prefect Flavius Philippus (see <ref type="ppret" corresp="ppret31">PPRET 31</ref>).</p> 
+                <p>Even if we do not possess any photographic reproduction of these inscriptions, it is clear that in this city, near Hadrian’s Gate, a monument had been erected in honour of Flavius Philippus that included both texts and was composed as follows. The shorter Greek inscription was carved on a marble slab that was originally attached to the lower central housing between the two pillars, upon which the latin inscription, the <foreign>Oratio ad Senatum</foreign>, was placed. This long and still unpublished text is divided into two parts: it begins at the marble base on the left side and continues along the right one. The statue stood at the centre of the arrangement, on the top of the greek inscription (Onur 2017, p. 135).</p>  
+                <p>If this reconstruction is correct, this monument is the most complete epigraphic dossier in honour of Philippus (<ref type="ppret" corresp="ppret27">PPRET 27</ref>, <ref type="ppret" corresp="ppret28">PPRET 28</ref>, <ref type="ppret" corresp="ppret30">PPRET 30</ref>, <ref type="ppret" corresp="ppret31">PPRET 31</ref>). 
+                    Not only was the construction monumental, it was also bilingual, comprising a Latin copy of an imperial communication relating to the erection of the monument itself, and a Greek one celebrating the honoured personage. Our inscription is different from the Latin one of Chytri, dedicated by Constantius II Augustus and Gallus Caesar (see <ref type="ppret" corresp="ppret27">PPRET 27</ref>), since it was composed in Greek by the local city council, albeit by order of Constantius II.</p> 
+                <p>Maybe a copy of the communication to the Senate of Constantinople (<ref type="ppret" corresp="ppret31">PPRET 31</ref>) was sent to the provincial governors along with a copy of the imperial letter (<ref type="ppret" corresp="ppret28">PPRET 28</ref>), both ordering the erection of statues to Flavius Philippus. Once the provincial governor had chosen Perge among the <foreign>opimae urbes</foreign> (<ref type="ppret" corresp="ppret28">PPRET 28</ref>, l. 31) and <foreign>celeberrimi loci</foreign> (<ref type="ppret" corresp="ppret31">PPRET 31</ref>, ll. 3-4), these documents would have then be forwarded to the local city administration.</p> 
+                <p>In such a way the city council of Perge honoured Flavius Philippus as both benefactor and <foreign>corrector</foreign> in every respect since, as Constantius II claimed, “through his efforts he took care of almost every city and inhabitant” (<foreign>quia non minus eius laboribus omnium fere civitatum commodis populisque prospectum est</foreign>, <ref type="ppret" corresp="ppret31">PPRET 31</ref>).</p> 
+                <p>The monument from Perge is the consequence of the same decision that Constantius II took to honour his prefect Philippus, as also occured in Chytri and Ephesus (<ref type="ppret" corresp="ppret27">PPRET 27</ref> and <ref type="ppret" corresp="ppret28">PPRET 28</ref>); the inscriptions from Perge can be dated to the period 351/352 AD.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Şahin 2015, pp. 177-178, nr. 1</ref></bibl>
+                    <bibl><ref>BE 2016, 595</ref></bibl>
+                </p>
+            </div>
+            
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Moser M., Emperor and senators in the reign of Constantius II: maintaining imperial rule between Rome and Constantinople in the fourth Century AD, Cambridge 2018, 198-199</bibl> 
+                    <bibl>Onur F., The Anastasian Military Decree from Perge in Pamphylia: Revised 2nd Edition, Gephyra, 14, 2017, 134-135</bibl> 
+                    <bibl>Şahin S., Spätrömisch-frühbyzantinische Inschriften aus Perge in Pamphylien, Inscriptions in Byzantium and Beyond. Methods, Projects, Case Studies, Wien 2015, 177-178, nr. 1</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.1"></p>
+                    <p n="2.2"></p>
+                    <p n="2.9">τῶν ὅλων εὐεργέτην καὶ τῶν ὅλων διορθωτὴν</p>
+                    <list n="2.11">
+                        <item n="2.11.c"></item>
+                    </list>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">τὸν λαμπρ(ότατον)</p>
+                    <p n="8.2">ἔπαρχον</p>
+                    <p n="8.5"></p>
+                    <p n="8.9"></p>
+                    <p n="8.10"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

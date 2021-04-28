@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription in honour of Diocletian Aug. from Oescus by two praet. prefects Hannibalianus and Asclepiodotus</title>
+                <editor role="edition">Eleonora Angius</editor>
+                <editor role="encoding">Eleonora Angius</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="pp. 115, 407">01</idno>
+                <date when="2020-03-27"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Hannibalianus"><name type="gentilicium">Afranius</name>
+                            <name type="cognomen">Hannibalianus</name></persName>
+                    </person>
+                    <person>
+                        <persName ref="#Asclepiodotus"><name type="gentilicium">Iulius</name>
+                            <name type="cognomen">Asclepiodotus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Sofia">Museum of Sofia</repository>
+                        <idno type="invNo">phototeca inv. 85 CA</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the emperor Diocletian Augustus</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#base">statue base</objectType>
+                                    <dimensions>
+                                        <height>120</height>
+                                        <width>68</width>
+                                        <depth>56</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">yes, the inscribed field is rough and deep indicating reuse</rs>
+                                    <rs type="monument_reuse">none</rs>
+                                    <rs type="opistographic">yes, on the opposite field (about 75 years later)</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Two inscribed fields (frons+retro).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#damaged">Damaged: broken on the lower and upper right side.</rs>
+                                    <p n="opistographic">Opistographic: on the opposite field ILBulg I/2, 8b = AE 1927, 45 = AE 1995, 1328 = Lungarova 2012, 136b (discussion in LSA 2596). A dedication in honour of Liber Pater, Conservator of two unnamed Augusti (Valentinian I and Valens), made by Flavius Zosimus, <foreign>officialis</foreign> of the province of Asia, promoted <foreign>primipilarius</foreign> (see Kacarov 1926-1927, pp. 96-97 nr. 21; Bresson, Drew-Bear, Zuckemann 1995; Lungarova 2012, 136b). The monument for Diocletian made by the praetorian prefects in 289/290 AD was reused approximately 75 years later.</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <height corresp="frons">5 / 6</height>
+                                <height corresp="retro">4 / 6</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Oescus</placeName>
+                                <placeName type="modern_city">Guljanci (Bulgaria)</placeName>
+                                <placeName type="province">Dacia Ripensis</placeName>
+                                <placeName type="diocese">Moesia</placeName>
+                                <placeName type="prefecture">(not regional before 326 AD)</placeName>
+                                <placeName type="ancient_location" ref="#public">public space, military camp</placeName>
+                            </origPlace>
+                            <origDate period="#p1" notBefore="0289" notAfter="0291">289/291 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#">Oescus</placeName>, military camp, found during excavations in 1906</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                <ab>
+                    <lb n="1"/><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>C</abbr><ex>aio</ex></expan> <expan><abbr>Aurel</abbr><ex>io</ex></expan>
+                    <lb n="2"/><expan><abbr>Val</abbr><ex>erio</ex></expan> Diocletiano
+                    <lb n="3"/><expan><abbr>P</abbr><ex>io</ex></expan>, <expan><abbr>F</abbr><ex>elici</ex></expan>, <expan><abbr>Invic</abbr><ex>to</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan>, <expan><abbr>pont</abbr><ex>ifici</ex></expan>
+                    <lb n="4"/><expan><abbr>max</abbr><ex>imo</ex></expan>, Germanico 
+                    <lb n="5"/><expan><abbr>max</abbr><ex>imo</ex></expan>, <expan><abbr>trib</abbr><ex>uniciae</ex></expan> <expan><abbr>potest</abbr><ex>ate</ex></expan>,
+                    <lb n="6"/><expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan>, <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan>. 
+                    <lb n="7"/>Afranius Hanni<lb 
+                        break="no" n="7"/>balianus, <expan><abbr>Iul</abbr><ex>ius</ex></expan> As<lb 
+                            break="no" n="8"/>clepidotus, <expan><abbr>v</abbr><am><supplied reason="lost">v</supplied></am><supplied reason="lost"><ex>iri</ex></supplied></expan>
+                    <lb n="9"/><expan><abbr>e</abbr><am>e</am><abbr>m</abbr><am>m</am><ex>inentissimi</ex></expan>, <expan><abbr>prae<supplied reason="lost">f</supplied></abbr><supplied reason="lost"><am>f</am><ex>ecti</ex></supplied></expan> <supplied reason="lost"><expan><abbr>pr</abbr><ex>aetorio</ex></expan></supplied>, 
+                    <lb n="10"/><expan><abbr>d</abbr><ex>evoti</ex></expan> <expan><abbr>n</abbr><ex>umini</ex></expan> <expan><abbr>m</abbr><ex>aiestati</ex><abbr><supplied reason="lost">q</supplied></abbr><supplied reason="lost"><ex>ue</ex></supplied></expan> <supplied reason="lost">eius</supplied>.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>This edition follows the text Porena 2003, p. 107.</p>
+                <p>
+                    <app loc="5"><note>potest(atis): ILBulg. I.2, nr. 8a, Lungarova 2012, nr. 136a</note></app>
+                    <app loc="9-10"><note>v(iri) em(inentissimi): ILBulg. I.2, nr. 8a, Lungarova 2012, nr. 136a; prae[f(ecti) pr(aetorio)]: Lungarova 2012, nr. 136a</note></app>
+                    <app loc="11"><note>[m(aiestati)q(ue) eius]: ILS 8929</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>(from LSA 366)</p>
+                <p>“To the emperor Caesar Caius Aurelius Valerius Diocletianus, pious, fortunate, unconquered Augustus, highest priest, greatest victor over the Germans, holder of tribunician power, father of the fatherland, proconsul; Afranius Hannibalianus [and] Iulius Asclepiodotus, both of eminentissimus rank, praetorian prefects, devoted to his divine spirit and majesty.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“À l’empereur César Caius Aurelius Valerius Dioclétien, pieux, heureux, invincible Auguste, pontife suprême, le très grand Germanique, revêtu de la puissance tribunicienne, père de la patrie, proconsul, Afranius Hannibalianus et Julius Asclepiodotus, éminentissimes préfets du prétoire, dévoués à sa divinité et à sa majesté.”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“All’imperatore Cesare Gaius Aurelius Valerius Diocletianus, Pio, Felice Invitto Augusto, pontefice massimo, Germanico massimo, detentore della potestà tribunizia, padre della patria, proconsole, Afranius Hannibalianus, Iulius Asclepiodotus, eminentissimi prefetti del pretorio devoti al nume e alla maestà sue.”</p>
+            </div>
+            <div type="commentary">
+                <p>Our inscription is carved within a rectangular limestone block, visibly damaged in the upper right corner and also in the lower one, where the final part of the last three lines of writing are lost. The inscribed field is framed by a moulding, preserved only at top and decorated with a vine-leaf and a lizard (Gerov 1989, pp. 13-14). The roughness of our inscribed field suggests that it had been reused, on the opposite side of the block there is another inscription (ILBulg I/2 nr. 8b; see Lungarova 2012, nr. 136b) dedicated by Flavius Zosimus, <foreign>officialis</foreign> of the province of Asia and promoted <foreign>primipilarius</foreign>, to the deity <foreign>Liber Pater</foreign> ca. 75 years after our inscription was made.</p>
+                <p>This monument was found in 1906 in  the military city named Oescus, located 5 km South of the confluence of the Oescus river (from which the city takes its name, today Iskăr) on the Danube. Trajan raised Oescus to the rank of colonia in 106 AD and promoted a number of citizens to the order of equestrians, laying the premises for the development of an active local aristocracy. Oescus represented, from that moment on, an important centre for the roman military élite, as well as for the imperial cult (Ivanov 1998, pp. 205-208; Bottez 2006/2007, p. 134). The military camp of the <foreign>V Legio Macedonica</foreign> (already based at Oescus in the Augustan age but then transferred East) was set up here by Aurelianus in 271 AD and thereafter Oescus was fortified with high stone walls. This city was of great military importance along the lower Danubian <foreign>limes</foreign> and was connected with the main ancient roads of the province (Ivanov 1987, pp. 159-169).</p>
+                <p>The monument was decreed in honour of Diocletian by the two praetorian prefects in office at that time: Iulius Asclepiodotus, prefect of Maximianus, and Afranius Hannibalianus, prefect of Diocletian.</p>
+                <p>Afranius Hannibalianus (PLRE I, p. 407), probably of oriental origin (Chastagnol 1962, pp. 27-29), belonged to the equestrian order, like Asclepiodotus, and received the same military training of his colleague, consolidated in the military campaigns of Aurelianus, Probus and Carus (<ref type="source">SHA, Prob. 22, 03</ref>). The beginning of his military career has also recently been attested in an inscription (AE 2011, 990; see Kovács-Lőrincz 2011, pp. 259-261) found in Esztergom (Hungary):</p> 
+                <p><foreign>I(ovi) O(ptimo) M(aximo) / sac(rum). / M(arcus) A[fra]nius / Hannibal(ianus?) trib(unus) / coh(ortis) I Ulp(iae) / Pan(noniorum) vict(ricis) ter (sic) / v(otum) s(olvit) l(ibens) m(erito)</foreign>.</p>
+                <p>This text preserved not only his <foreign>praenomen</foreign> Marcus, unknown up until that point, but also shows that Hannibalianus completed its <foreign>militia secunda</foreign> as tribune of the first cohort of the <foreign>Ulpia Pannoniorum</foreign> at Solva (<foreign>Pannonia Inferior)</foreign>, maybe under Aurelianus or Probus.</p>  
+                <p>Hannibalianus then held the praetorian prefecture under Diocletian, probably from 286 until 293-296 AD: Chastagnol (1989, pp. 167-168) identified the two unnamed <foreign>clarissimi</foreign> praetorian prefects of a roman inscription (<ref type="inscription">CIL VI, 1125</ref> = ILS 619) with Hannibalianus and Asclepiodotus and since they became consuls and so <foreign>clarissimi</foreign> only in 292 AD (CLRE pp. 1118-119), it also means that Hannibalianus cumulated prefecture and consulate and that his prefectural office lasted until 293-296 AD. According to Porena (2003, p. 148) Hannibalianus was more probably dismissed around 296 AD, since he became urban prefect in 297 AD.</p> 
+                <p>According to Barnes (1982 pp. 33-34) and Vanderspoel (1999, pp. 404-407) Hannibalianus was very well connected to the imperial Tetrarchic family: his wife Eutropia later went on to marry Maximianus Herculius; Theodora, Eutropia’s and her first husband Hannibalianus’ daughter, married Constantius Caesar, Constantine’s father.</p>                
+                <p>Iulius Asclepiodotus (PLRE I, p. 115) most likely belonged to the equestrian order too and underwent a thorough military training, probably with his colleague Hannibalianus. Even if it is difficult to precisely date the beginning and the end of his prefectural mandate, we know that during this office, Asclepiodotus took part in the victorious campaign alongside Constantius Caesar against the usurper Allectus in Britannia in 296 AD (<ref type="source">Vict., Caes. 39, 42</ref>; <ref type="source">Eutr. 09, 22, 02</ref>; <ref type="source">Oros., Hist., 07, 25, 06</ref>). Asclepiodotus held the office up to that moment and was the praetorian prefect of Maximianus. The latter probably chose him for such a decisive military campaign likely because he was familiar not only with this territory, but also with the army itself. He also became ordinary consul with Hannibalianus in 292 AD.</p> 
+                <p>Several important textual elements allow us to refine, therefore, the chronological limits of our inscription. Porena (2003, pp. 112-120) analyzed the imperial names and titles of Diocletian in the text and noted that: 1) the emperor takes the <foreign>gentilicium</foreign> Aurelius, so the inscription must post date 286 AD (see also Stefan 2015 and 2019); 2) the omission of the imperial consulate, suggests that the Dalmatian emperor was probably not consul in office (as in 286, 288, 289, 291 AD) when the monument was built, otherwise the consulate would certainly have been mentioned.</p>
+                <p>Since the <foreign>terminus ante quem</foreign> of the monument has to be the consulate of the two prefects in 292 AD and taking into account the years in which Diocletian was not consul in charge, Porena (2003, pp. 121-133) suggested that the pretorian prefects celebrated the emperor’s <foreign>Quinquennalia</foreign> (November 20<hi rend="superscript">th</hi> 288 - November 20<hi rend="superscript">th</hi> 289 AD) (about Maximianus’ different anniversaries see Chastagnol 1967). The monument was probably executed in 289 AD, or less likely when Diocletian visited Oescus in 291 AD (Ivanov 1997, p. 553).</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>ILS 8929</ref></bibl>
+                    <bibl><ref>ILBulg. I.2, nr. 8a</ref></bibl>
+                    <bibl><ref>Porena 2003, p. 107</ref></bibl>
+                    <bibl><ref>Lungarova 2012, nr. 136a</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p>
+                    <bibl><ref>Lungarova 2012, nr. 136a</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-11301226">EDCS 11301226</ref></bibl>
+                    <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD024880">HD 024880</ref></bibl>
+                    <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail.php?record=366">LSA 366</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Aparaschivei D., Aspetti dell’evoluzione delle città romane del Danubio Inferiore nella situazione della crisi della seconda metà del III secolo P. Chr., Classica et Christiana, 4/1, 2009, 15-23</bibl>
+                    <bibl>Arnheim M. T. W., Third Century praetorian prefects of senatorial origin. Fact or fiction?, Athaeneum, 49, 1979, 84-86</bibl>
+                    <bibl>Barnes T. D., The new empire of Diocletian and Constantine, Cambridge 1982</bibl>
+                    <bibl>Bottez V., Emperor worship in latin settlements of lower Moesia (1<hi rend="superscript">st</hi> – 3<hi rend="superscript">rd</hi> C. AD), Acta Musei Napocensis, 43-44/1, 2006/2007, 134</bibl>
+                    <bibl>Bresson A., Drew-Bear Th., Zuckermann C., Une dédicace de primipilaires à Novae pour la victoire impériale, Ant. Tard. , 3, 1995, 139-146</bibl>
+                    <bibl>Chastagnol A., Les Fastes de la préfecture de Rome du Bas.Empire, Paris 1962, 27-29</bibl>
+                    <bibl>Chastagnol A., Les années régnales de Maximien Hercule en Egypte et les fêtes vicennales du 20 novembre 303, RN, 9, 1967, 54-81</bibl>
+                    <bibl>Chastagnol A., Le Bas-Empire. Textes choisis et présentés, Paris 1991</bibl> 
+                    <bibl>Gerov B., Inscriptiones Latinae in Bulgaria repertae, Sofija 1989, 13-14, nr. 8a</bibl>
+                    <bibl>Ivanov T., La città di Ulpia Oescus in epoca romana e nel primo periodo bizantino, Ratariensia, 3-4, 1987, 159-169</bibl>
+                    <bibl>Ivanov T., Das römische Verteidigungssystem an der unteren Donau zwischen Dorticum und Durostorum (Bulgarien) von Augustus bis Maurikios, BRGK, 78, 1997, 553</bibl>
+                    <bibl>Kacarov G., Epigraphisches aus Bulgarien, Philologische Wochenschrift, 46, 1926, 767-768</bibl>
+                    <bibl>Kacarov G., Антични паметници изъ България, Bull. Inst. Arch. Bulg., 4, 1926-1927, 96-97, nr. 21</bibl>
+                    <bibl>Kovács P., Lőrincz B., Altäre aus dem Auxiliarlager Solva Neue römische Inschriften aus Komitat Komárom-Esztergom II, ZPE, 179, 2011, 259-261</bibl>
+                    <bibl>Lungarova P. P., Rimskite kultove v provincija Dolna Mizija. Katalog na pametnicite, Veliko Tarnovo 2012, 75, nr. 136a</bibl>
+                    <bibl>Porena P., La prefettura del pretorio tardoantica, Roma 2003, 106-133</bibl>
+                    <bibl>Sarnowski T., Der Limes an der unteren Donau von Diokletian bis Heraklios. Vorträge der Internationalen Konferenz Svistov, Bulgarien (1.-5. September 1998), Sofija 1999, 61, nt. 35</bibl>
+                    <bibl>Stefan A., Caius Valerius Diocles. Le premier nom d’empereur de Dioclétien et la reconnaissance de son autorité en Egypte. A propos de P.Oxy. XLII 3055 et AE 1973, 540, AntTard, 23, 2015, 269-286</bibl>  
+                    <bibl>Stefan A., Caius Valerius Diocletianus. Le seul nom de Dioclétien en 285 - 286 d’après les inscriptions, les papyrus et les monnaies, ZPE, 209, 2019, 276-291</bibl>
+                    <bibl>Vanderspoel J., Correspondence and correspondents of Julius Julianus, Byzantion, 69, 1999, 404-407</bibl> 
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.3"></p>
+                </div>
+                <div type="commentary" n="7">
+                    <p n="7.1"></p>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">v[v(iri)] eemm(inentissimi)</p>
+                    <p n="8.2">prae[ff(ecti) pr(aetorio)]</p>
+                    <p n="8.5"></p>
+                    <p n="8.9"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

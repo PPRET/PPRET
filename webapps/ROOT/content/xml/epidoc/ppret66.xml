@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription in honour of the late praet. prefect Probus from Rome, made by his son Anicius Hermogenianus Olybrius and by his daughter-in-law Anicia Iuliana</title>
+                <editor role="edition">Pierfrancesco Porena, Irene Vagionakis</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="pp. 736-740">66</idno>
+                <date when="2020-06-23"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Probus"><name type="praenomen">Sextus</name>
+                        <name type="gentilicium">Claudius</name>
+                        <name type="gentilicium">Petronius</name>
+                        <name type="cognomen">Probus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Roma">Roma, Musei Capitolini</repository>
+                        <idno type="invNo">NCE 2499</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the late praetorian prefect Probus</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#base">statue base</objectType>
+                                    <dimensions>
+                                        <height>76</height>
+                                        <width>49</width>
+                                        <depth>unknown</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">unknown</rs>
+                                    <rs type="monument_reuse">yes: the inscription has been built into a wall</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#undamaged">The inscription is undamaged.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <height>3.5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Roma</placeName>
+                                <placeName type="modern_city">Rome (Italy)</placeName>
+                                <placeName type="province">Urbs</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#private" cert="low">private space (?)</placeName>
+                            </origPlace>
+                            <origDate period="#p8" notBefore="0395-01-01" notAfter="0406">post January 1<hi rend="superscript">st</hi>, 395 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#Roma">Rome</placeName>, Palazzo Cardinal Cesi</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                    <ab>
+                        <lb n="1"/>Sexto Petronio Probo,
+                        <lb n="2"/>Anicianae domus
+                        <lb n="3"/>culmini, proconsuli
+                        <lb n="4"/>Africae, praefecto
+                        <lb n="5"/>praetorio quater
+                        <lb n="6"/>Italiae, Illyrici, Afri<lb 
+                            break="no" n="7"/>cae, Galliarum, con<lb 
+                            break="no" n="8"/>suli ordinario, con<lb 
+                            break="no" n="9"/>sulum patri, Anicius
+                        <lb n="10"/>Hermogenianus
+                        <lb n="11"/>Olybrius <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan> consul
+                        <lb n="12"/>ordinarius, et Ani<lb 
+                            break="no" n="13"/>cia Iuliana <expan><abbr>c</abbr><ex>larissima</ex></expan> <expan><abbr>f</abbr><ex>emina</ex></expan>, eius
+                        <lb n="14"/>devotissimi filii,
+                        <lb n="15"/>dedicarunt.
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on CIL.</p>
+                <p></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“To Sextus Petronius Probus, summit of the Anicia family, proconsul of Africa, praetorian prefect for four times, of Italy, Illyricum, Africa, Gauls, ordinary consul, father of consuls, Anicius Hermogenianus Olybrius, of clarissimus rank, ordinary consul, and Anicia Iuliana, of clarissima rank, his most devote children, have dedicated.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“...”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“A Sextus Petronius Probus, culmine della casata Anicia, proconsole d’Africa, prefetto del pretorio quattro volte, d’Italia, d’Illirico, d’Africa, delle Gallie, console ordinario, padre di consoli, Anicius Hermogenianus Olybrius, chiarissimo, console ordinario, e Anicia Iuliana, chiarissima, suoi figli devotissimi, dedicarono.”</p>
+            </div>
+            <div type="commentary">
+                <p>...</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>CIL VI, 1753</ref> (cfr. pp. 3174, 3813, 4751-4752)</bibl>
+                    <bibl><ref>ILS 1267</ref></bibl>
+                    <bibl><ref>Porena forthcoming, pp. 211-212, nr. 10</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p>
+                    <bibl><ref>SupplIt Imagines - Roma I, 219</ref></bibl> 
+                </p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR122124">EDR 122124</ref></bibl>
+                    <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-1460">LSA 1460</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Porena P., Appendice. Selezione di fonti sulla carriera prefettizia di Sex. Petronius Probus, in Bigi F., Tantillo I. (edd.), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa forthcoming, 211-212</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.a"></p>
+                    <p n="2.3"></p>
+                    <p n="2.10">Anicianae domus culmini</p>
+                    <list n="2.11">
+                        <item n="2.11.h">his son Anicius Hermogenianus Olybrius and his daughter-in-law Anicia Iuliana</item>
+                    </list>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.2">praefecto praetorio quater Italiae, Illyrici, Africae, Galliarum</p>
+                    <p n="8.3"></p>
+                    <p n="8.6">quater</p>
+                    <p n="8.12"></p>
+                    <p n="8.14"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

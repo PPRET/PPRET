@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>PPRET: List of all the inscriptions</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+                <item n="01.xml"/>
+                <item n="02.xml"/>
+                <item n="03.xml"/>
+                <item n="04.xml"/>
+                <item n="05.xml"/>
+                <item n="06.xml"/>
+                <item n="07.xml"/>
+                <item n="08.xml"/>
+                <item n="09.xml"/>
+                <item n="10.xml"/>
+                <item n="11.xml"/>
+                <item n="12.xml"/>
+                <item n="13.xml"/>
+                <item n="14.xml"/>
+                <item n="15.xml"/>
+                <item n="16.xml"/>
+                <item n="17.xml"/>
+                <item n="18.xml"/>
+                <item n="19.xml"/>
+                <item n="20.xml"/>
+                <item n="21.xml"/>
+                <item n="22.xml"/>
+                <item n="23.xml"/>
+                <item n="24.xml"/>
+                <item n="25.xml"/>
+                <item n="26.xml"/>
+                <item n="27.xml"/>
+                <item n="28.xml"/>
+                <item n="29.xml"/>
+                <item n="30.xml"/>
+                <item n="31.xml"/>
+                <item n="32.xml"/>
+                <item n="33.xml"/>
+                <item n="34.xml"/>
+                <item n="35.xml"/>
+                <item n="36.xml"/>
+                <item n="37.xml"/>
+                <item n="38.xml"/>
+                <item n="39.xml"/>
+                <item n="40.xml"/>
+                <item n="41.xml"/>
+                <item n="42.xml"/>
+                <item n="43.xml"/>
+                <item n="44.xml"/>
+                <item n="45.xml"/>
+                <item n="46.xml"/>
+                <item n="47.xml"/>
+                <item n="48.xml"/>
+                <item n="49.xml"/>
+                <item n="50.xml"/>
+                <item n="51.xml"/>
+                <item n="52.xml"/>
+                <item n="53.xml"/>
+                <item n="54.xml"/>
+                <item n="55.xml"/>
+                <item n="56.xml"/>
+                <item n="57.xml"/>
+                <item n="58.xml"/>
+                <item n="59.xml"/>
+                <item n="60.xml"/>
+                <item n="61.xml"/>
+                <item n="62.xml"/>
+                <item n="63.xml"/>
+                <item n="64.xml"/>
+                <item n="65.xml"/>
+                <item n="66.xml"/>
+                <item n="67.xml"/>
+                <item n="68.xml"/>
+                <item n="69.xml"/>
+                <item n="70.xml"/>
+                <item n="71.xml"/>
+                <item n="72.xml"/>
+                <item n="73.xml"/>
+                <item n="74.xml"/>
+                <item n="75.xml"/>
+                <item n="76.xml"/>
+                <item n="77.xml"/>
+                <item n="78.xml"/>
+                <item n="79.xml"/>
+                <item n="80.xml"/>
+                <item n="81.xml"/>
+                <item n="82.xml"/>
+                <item n="83.xml"/>
+                <item n="84.xml"/>
+                <item n="85.xml"/>
+                <item n="86.xml"/>
+                <item n="87.xml"/>
+                <item n="88.xml"/>
+                <item n="89.xml"/>
+                <item n="90.xml"/>
+                <item n="91.xml"/>
+                <item n="92.xml"/>
+                <item n="93.xml"/>
+                <item n="94.xml"/>
+                <item n="95.xml"/>
+                <item n="96.xml"/>
+                <item n="97.xml"/>
+                <item n="98.xml"/>
+            </list>
+        </body>
+    </text>
+</TEI>

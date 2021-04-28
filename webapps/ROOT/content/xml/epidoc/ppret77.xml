@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Funerary altar of the praet. prefect Praetextatus and of his wife Aconia Paulina, from Rome</title>
+                <editor role="edition">Pierfrancesco Porena, Irene Vagionakis</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="pp. 722-724">77</idno>
+                <date when="2020-06-23"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Praetextatus"><name type="gentilicium">Vettius</name>
+                        <name type="gentilicium">Agorius</name>
+                        <name type="cognomen">Praetextatus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Roma">Musei Capitolini</repository>
+                        <idno type="invNo">inv. NCE 2543</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#burial">burial inscription</term>
+                            <term type="rhythm" ref="#poetry">poetry (vv. 1-40, 57-59: iambs; vv. 41-56: elegiac distichs)</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#funerary_altar">funerary altar</objectType>
+                                    <dimensions>
+                                        <height>127</height>
+                                        <width>73.5</width>
+                                        <depth>53</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">no</rs>
+                                    <rs type="monument_reuse">no</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Four inscribed fields (frons, retro, latus sin., latus dex.).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#damaged">The altar is broken in two fragments; some of the letters along the break line are not legible.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <height>1.5 / 3</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Roma</placeName>
+                                <placeName type="modern_city">Rome (Italy)</placeName>
+                                <placeName type="province">Urbs</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#burial" cert="low">burial space (?)</placeName>
+                            </origPlace>
+                            <origDate period="#p8" notBefore="0384" notAfter="0385">384/385 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#Roma">Rome</placeName></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                <div type="textpart" subtype="face" n="frons">
+                    <ab>
+                        <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>.
+                        <lb n="2"/>Vettius Agorius Praetextatus,
+                        <lb n="3"/>augur, p<supplied reason="lost">o</supplied>ntifex Vestae,
+                        <lb n="4"/>pontifex Sol<supplied reason="lost">is</supplied>, quindecemvir
+                        <lb n="5"/>curialis Herc<supplied reason="lost">u</supplied>lis, sacratus
+                        <lb n="6"/>Libero et Eleusi<unclear>nii</unclear>s hierophanta,
+                        <lb n="7"/>neocorus, tauroboliatus,
+                        <lb n="8"/>pater patrum; in <supplied reason="lost">r</supplied>e publica vero,
+                        <lb n="9"/>quaestor candidatus,
+                        <lb n="10"/><sic>pretor</sic> urbanus,
+                        <lb n="11"/>corrector Tusciae et Umbriae,
+                        <lb n="12"/>consularis Lusitaniae,
+                        <lb n="13"/>proconsule Achaiae,
+                        <lb n="14"/>praefectus urbi,
+                        <lb n="15"/>legatus a senatu missus V,
+                        <lb n="16"/>praefectus praetorio II Italiae
+                        <lb n="17"/>et Illyrici,
+                        <lb n="18"/>consul ordinarius
+                        <lb n="19"/>designatus,
+                        <lb n="20"/>et Aconia Fabia Paulina, <expan><abbr>c</abbr><ex>larissima</ex></expan> <expan><abbr>f</abbr><ex>emina</ex></expan>,
+                        <lb n="21"/>sacrata Cereri et Eleusiniis,
+                        <lb n="22"/>sacrata apud Eginam Hecatae,
+                        <lb n="23"/>tauroboliata, hierophantria,
+                        <lb n="24"/>hi coniuncti simul vixerunt <expan><abbr>ann</abbr><ex>is</ex></expan> XL.
+                    </ab>
+                </div>
+                <div type="textpart" subtype="face" n="retro">
+                    <ab>
+                        <lb n="1"/><supplied reason="lost">Sple</supplied>ndor parentum nil mihi maius dedit,
+                        <lb n="2"/><supplied reason="lost">quam</supplied> quod marito digna iam tum visa sum.
+                        <lb n="3"/><supplied reason="lost">Se</supplied>d lumen omne vel decus nomen viri,
+                        <lb n="4"/>Agori, superbo qui creatus germine
+                        <lb n="5"/>patriam, senatum <expan><abbr>coniugemq</abbr><ex>ue</ex></expan> inluminas
+                        <lb n="6"/>probitate mentis, moribus, studiis simul
+                        <lb n="7"/>virtutis apicem quis supremum nanctus es.
+                        <lb n="8"/>Tu namque quidquid lingua <expan><abbr>utraq</abbr><ex>ue</ex></expan> est proditum
+                        <lb n="9"/>cura <sic>soforum</sic>, porta quis caeli patet,
+                        <lb n="10"/>vel quae periti condidere carmina
+                        <lb n="11"/>vel quae solutis vocibus sunt edita,
+                        <lb n="12"/>meliora reddis quam legendo sumpseras;
+                        <lb n="13"/>sed ista parva: tu pius <sic>movestes</sic> sacris
+                        <lb n="14"/>teletis reperta mentis arcano premis
+                        <lb n="15"/>divumque numen multiplex doctus colis,
+                        <lb n="16"/>sociam benigne coniuge nectens sacris
+                        <lb n="17"/>hominum deumque consciam ac fidam tibi.
+                        <lb n="18"/>Quid nunc honores aut potestates loquar
+                        <lb n="19"/>hominumque votis adpetita gaudia?
+                        <lb n="20"/>Quae tu caduca ac parva semper autumans
+                        <lb n="21"/>divum sacerdos infulis celsus clues.
+                        <lb n="22"/>Tu me, marite, disciplinarum bono
+                        <lb n="23"/>puram ac pudicam sorte mortis eximens
+                        <lb n="24"/>in templa ducis ac famulam divis dicas.
+                        <lb n="25"/>Te teste cunctis imbuor mysteriis
+                        <lb n="26"/>tu Dindymenes <sic>Atteosqui</sic> antistitem
+                        <lb n="27"/>teletis honoras taureis consors pius.
+                        <lb n="28"/>Hecates ministram trina secreta edoces
+                        <lb n="29"/>Cererisque Graiae tu sacris dignam paras.
+                        <lb n="30"/>Te propter omnis me beatam, me piam
+                        <lb n="31"/>celebrant, quod ipse bonam disseminas,
+                        <lb n="32"/>totum per orbem ignota noscor omnibus.
+                        <lb n="33"/>Nam te marito cur placere non queam?
+                        <lb n="34"/>Exempla de me Romulae matres petunt
+                        <lb n="35"/>subolemque pulchram, si tuae similis, putant.
+                        <lb n="36"/>Optant probantque nunc viri nunc feminae
+                        <lb n="37"/>quae tu magister indidisti insignia.
+                        <lb n="38"/>His nunc ademptis maesta coniunx maceror,
+                        <lb n="39"/>felix, maritum si superstitem mihi
+                        <lb n="40"/>divi dedissent, sed tamen felix, tua
+                        <lb n="41"/>quia sum fuique postque mortem mox ero.
+                    </ab>
+                </div>
+                <div type="textpart" subtype="face" n="latus sin.">
+                    <ab>
+                        <lb n="1"/>Vettius Agorius Praetextatus
+                        <lb n="2"/>Paulinae coniugi.
+                        <lb n="3"/>Paulina nostri pectoris consortio,
+                        <lb n="4"/>fomes pudoris, castitatis vinculum
+                        <lb n="5"/>amorque purus et fides caelo sata,
+                        <lb n="6"/>arcana mentis cui reclusa credidi,
+                        <lb n="7"/>munus deorum qui maritalem torum
+                        <lb n="8"/>nectunt amicis et pudicis nexibus,
+                        <lb n="9"/>pietate matris, coniugali gratia,
+                        <lb n="10"/>nexu sororis, filiae modestia
+                        <lb n="11"/>et quanta amicis iungimur fiducia,
+                        <lb n="12"/>aetatis usu, consecrandi foedere,
+                        <lb n="13"/>iugi fideli simplici concordia
+                        <lb n="14"/>iuvans maritum, diligens ornans
+                        <lb n="15"/>colens.
+                    </ab>
+                </div>
+                <div type="textpart" subtype="face" n="latus dex.">
+                    <ab>
+                        <lb n="1"/>Vettius Agorius Praetextatus
+                        <lb n="2"/>Paulinae coniugi.
+                        <lb n="3"/>Paulina veri et castitatis conscia,
+                        <lb n="4"/>dicata templis <expan><abbr>atq</abbr><ex>ue</ex></expan> amica numinum,
+                        <lb n="5"/>sibi maritum praeferens, Romam viro,
+                        <lb n="6"/>pudens fidelis pura mente et corpore,
+                        <lb n="7"/>benigna cunctis, utilis penatibus
+                        <lb n="8"/>cae<supplied reason="lost">le</supplied>s<supplied reason="lost">tium iam sede semper mec</supplied>u<supplied reason="lost">m e</supplied>ri<supplied reason="lost">s</supplied>.
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on CIL.</p>
+                <p>
+                    <app loc="frons 10"><note>praetor</note></app>
+                    <app loc="retro 9"><note>sophorum</note></app>
+                    <app loc="retro 13"><note>mystes</note></app>
+                    <app loc="retro 26"><note>Atteosque</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“...”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“...”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“...”</p>
+            </div>
+            <div type="commentary">
+                <p>...</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>CIL VI, 1779</ref> (cfr. pp. 3174, 3814, 4757-4759)</bibl>
+                    <bibl><ref>ILS 1259</ref></bibl>
+                    <bibl><ref>CLE 111</ref></bibl>
+                    <bibl><ref>Lambrechts 1955, pp. 55-56</ref> = <bibl><ref>AE 1958, 152</ref></bibl></bibl> 
+                    <bibl><ref>Kahlos 1994</ref> = <bibl><ref>AE 1994, 107</ref></bibl></bibl>
+                    <bibl><ref>Niquet 2000, pp. 237–252</ref> = <bibl><ref>AE 2000, 102</ref></bibl></bibl>
+                    <bibl><ref>Ensoli, La Rocca 2000, pp. 507-508, nr. 130</ref> = <bibl><ref>AE 2000, 136</ref></bibl></bibl> 
+                    <bibl><ref>Polara 2000</ref> = <bibl><ref>AE 2000, 161</ref></bibl></bibl> 
+                    <bibl><ref>Martínez-Maza 2003, pp. 66-67</ref> = <bibl><ref>AE 2003, 151</ref></bibl></bibl>
+                    <bibl><ref>Henriksén 2008, pp. 723-724, nr. 5</ref> = <bibl><ref>AE 2008, 150</ref></bibl></bibl>
+                    <bibl><ref>Kolb, Fugmann 2008, pp. 66-70, nr. 14</ref>, with photo</bibl>
+                    <bibl><ref>La Rocca, Parisi Presicce 2010, pp. 344-347, nr. 2</ref> with photo</bibl> 
+                    <bibl><ref>Cugusi 2007, pp. 98, 152</ref></bibl> 
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p>
+                    <bibl><ref>SupplIt Imagines - Roma I, 36</ref></bibl> 
+                </p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-18100593">EDCS 18100593</ref></bibl>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR121930">EDR 121930</ref></bibl>
+                    <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD017684">HD 017684</ref></bibl>
+                    <bibl><ref corresp="mizar.unive.it/mqdq/public/ce/testo/codice/CE|ce|0111">MQDQ 111</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Cugusi P., Per un nuovo Corpus dei Carmina Latina Epigraphica. Materiali e discussioni, Roma 2007 (98, 152)</bibl> 
+                    <bibl>Ensoli S., La Rocca E. (edd.), Aurea Roma. Dalla città pagana alla città cristiana, Roma 2000 (507-508, nr. 130)</bibl> 
+                    <bibl>Henriksén C., «Dignus maiori quem coleret titulo»: «epigrammata longa» in the «Carmina Latina epigrafica», in Morelli A.M. (ed.), Epigramma longum. Da Marziale alla tarda antichità. From Martial to Late Antiquity. Atti del Convegno Internazionale: Cassino, 29-31 maggio 2006, Cassino 2008, 693-724</bibl>
+                    <bibl>Kahlos M., Fabia Aconia Paulina and the death of Praetextatus: rhetoric and ideals in late antiquity: (CIL VI 1779), in Arctos, 28, 1994, 13-25</bibl>
+                    <bibl>Kolb A., Fugmann B., Tod in Rom. Grabinschriften als Spiegel roemischen Lebens, Mainz am Rhein 2008 (66-70, nr. 14)</bibl> 
+                    <bibl>La Rocca E., Parisi Presicce C. (edd.), Le sculture del Palazzo Nuovo. Musei Capitolini. I, Roma 2010 (344-347, nr. 2)</bibl> 
+                    <bibl>Lambrechts P., Op de grens van heidendom en christendom. Het grafschrift van Vettius Agorius Praetextatus en Fabia Aconia Paulina, Bruxelles 1955 (55-56)</bibl> 
+                    <bibl>Martínez-Maza C., Devotas mistéricas en la Roma bajoimperial, in Aevum, 77.1, 2003, 53-68</bibl>
+                    <bibl>Niquet H., Monumenta virtutum titulique: senatorische Selbstdarstellung im spätantiken Rom im Spiegel der epigraphischen Denkmäler, Stuttgart 2000 (237–252)</bibl>
+                    <bibl>Pighi G.B., Commentariolus electorum, in Aevum, 18, 1944, 14-51 (23-24, nr. 3) = <ref>AE 1954, 2</ref></bibl>
+                    <bibl>Polara G., Iscrizioni e propaganda: il cippo tombale di Pretestato, in Consolino F.E. (ed.), Letteratura e propaganda nell’Occidente latino da Augusto ai regni romanobarbarici. Atti del Convegno Internazionale, Arcavacata di Rende 1998, Roma 2000, 107-126</bibl> 
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="3">
+                    <p n="3.a"></p>
+                    <p n="3.b">wife</p>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.2">praefectus praetorio II Italiae et Illyrici</p>
+                    <p n="8.3"></p>
+                    <p n="8.6"></p>
+                    <p n="8.10"></p>
+                    <p n="8.12"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Myra (Lycia) on weights and measures on the model established by Tatianus praet. prefect</title>
+                <editor role="edition">Giordana Franceschini</editor>
+                <editor role="encoding">Giordana Franceschini</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="p. 876">88</idno>
+                <date when="2020-03-27"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Tatianus"><name type="praenomen">Flavius</name>
+                            <name type="gentilicium">Eutolmius</name>
+                            <name type="cognomen">Tatianus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Myra">Findspot</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#instrumentum">Legislative inscription. Instrumentum: weights and measures on the model established by the praetorian prefect Flavius Eutolmius Tatianus</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="grc">Greek</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#block">masonry block</objectType>
+                                    <dimensions>
+                                        <height>59</height>
+                                        <width>134</width>
+                                        <depth>unknown</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">no</rs>
+                                    <rs type="monument_reuse">no</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>The block is inscribed on one field.</p>
+                                    <rs type="execution" ref="#chiselled">Chiselled</rs>
+                                    <rs type="preservation" ref="#undamaged">The inscription is complete and runs for 12 lines, of which the second contains an erasure. Although the name of the praetorian prefect has been deliberately erased, it can be restored.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#lunate">lunate letters</term>
+                                <height>3 / 4</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Myra</placeName>
+                                <placeName type="modern_city">Demre (Turkey)</placeName>
+                                <placeName type="province">Lycia</placeName>
+                                <placeName type="diocese">Asiana</placeName>
+                                <placeName type="prefecture">Oriens</placeName>
+                                <placeName type="ancient_location" ref="#public">Public space</placeName>
+                            </origPlace>
+                            <origDate period="#p8" notBefore="0388" notAfter="0392">388/392 AD</origDate>
+                        </origin>
+                        <provenance type="found">The inscription was found on a masonry block located in the front-wall of the Roman horrea of <placeName ref="#">Andriakè</placeName>, the port of the ancient town of Myra (Lycia) («à droite de la 4e porte, en partant de l’Est», Cavalier 2007, p. 56).</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                    <ab>
+                        <lb n="1"/>ἐπὶ τοῦ κυρίου μου καὶ τὰ πάντα θαυμασιωτάτου
+                        <lb n="2"/>τοῦ <expan><abbr>λαμ</abbr><ex>προτάτου</ex></expan> καὶ μεγαλοπρεπεστάτου <expan><abbr>Φλ</abbr><ex>αουίου</ex></expan> <del rend="erasure"><expan><abbr><unclear>Εὐτολ</unclear></abbr><ex>μίου</ex></expan> <supplied reason="lost">Τατιανοῦ</supplied></del>
+                        <lb n="3"/><del rend="erasure"><unclear>ἐ</unclear><supplied reason="lost">πάρχο</supplied>υ</del> τῶν ἱερῶν πραιτωρίων κατεσκευάσθη κατὰ τὰ
+                        <lb n="4"/>ἀποσταλέντα φραγέλλια σιδαρᾶ β̅ καὶ <expan><abbr>ξ</abbr><ex>έσται</ex></expan> χάλκεοι β̅ ἔχοντες
+                        <lb n="5"/>τρισαυγούστια καὶ μόδιοι <unclear>τρ</unclear>ῖς κατὰ τὴν ποιότητα τῶν ἀποσ<lb 
+                        break="no" n="6"/>ταλέντων παρὰ τῆς <unclear>μεγ</unclear>ίστης <unclear>ἐξ</unclear>ουσίας, ἀφ’ ὧν ἓν μὲν φρα<lb
+                        break="no" n="7"/>γέλλιον δέδοτε τῇ Μυρέων μητροπόλι, τὸ δὲ ἕτερον τῇ Ἀρναι<lb 
+                        break= "no" n="8"/>τῶν, ὁμοίως δὲ καὶ ξέστης εἷς τῇ Μυρέων καὶ ὁ ἕ<unclear>τ</unclear><supplied reason="lost">ερο</supplied>ς τῇ Ἀρναια<lb
+                        break= "no" n="9"/>τῶν, καὶ τῶν μοδίων, δύο μὲν Μυρεῦσιν καὶ ἡμιμόδια δύο, ἓν δὲ
+                        <lb n="10"/>Ἀρναιάτες καὶ ἡμιμόδιον ἕν, ἐπὶ τῷ φροντίδι τ<unclear>ῶ</unclear>ν κατὰ καιρὸν
+                        <lb n="11"/>πρεποσίτων φυλάττεσθαι τά τε μέτρα κ<unclear>αὶ</unclear> τὰ σταθμὰ
+                        <lb n="12"/>ἀνεπιβούλευτα τοῖς ὁρρίοις.
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>This edition follows the text edited by Cuvigny 2017, compared with the facsimile of Petersen - von Luschan 1889, and with the photo in Rizos 2015.</p>
+            <p>
+                    <app loc="2"><note>Φλ(αβίου): SEG 42 (1992), 1240; [Εὐτολμίου]: Manganaro 1992</note></app>
+                    <app loc="5"><note>τρία αὐγούστια: Manganaro 1992; SEG 42 (1992), 1240; Rizos 2015</note></app>
+                <app loc="8"><note>εἷς Μυρέων: Manganaro 1992; SEG 42 (1992), 1240; Rizos 2015</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“Sotto il mio signore e ammirabilissimo in tutte le cose, il chiarissimo e magnificentissimo Flavius Eutolmius Tatianus, prefetto dei sacri pretorii, sono stati realizzati, sul modello di quelli inviati, 2 righelli (per livellare) in ferro, 2 sestari in bronzo, accompagnati da (pesi) con l’effigie tre volte augusta e tre modii, secondo il campione di quelli inviati dalla suprema carica (la prefettura del pretorio). Di questi sono stati consegnati un righello alla metropoli dei Myrei e un altro a quella degli Arnaiati, e similmente anche un sestario a quella dei Myrei e l’altro a quella degli Arnaiati; due modii, con due mezzi modii, ai Myrei, e uno, con un mezzo modio, agli Arnaiati; a cura di quanti sono via via praepositi in carica sono da custodire le misure e i pesi indenni da frodi per l’utilizzo nei magazzini.”</p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“During the administration of my master and most admirable in all things, man of clarissimus and magnificentissimus rank, Flavius Eutolmius Tatianus, praefect of the sacred praetoria, (the following) have been made, according to the model of those that have been sent: 
+                    2 iron scrapers, 2 bronze sextarii, with (weights) having the image three times august and three bushels, conforming to the sample of those sent by the supreme authority (the praetorian prefecture). Of these a scraper was delivered to the metropolis of Myreis and another to (the metropolis) of the Arnaiatai; and similarly also a sextarius to (the metropolis) of the Myreis and the other to (the metropolis) of the Arnaiatai; and of the bushels, two with two half bushels to the Myreis, one, with a half bushel, to the Arnaiatai: by the person in charge, the measures and weights are kept free from fraud for use in warehouses.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“Sous monseigneur en tout très admirable, le clarissime et très magnificient Flavius Eutolmius Tatianus, préfet des prétoires sacrés, ont été confectionnés, sur le modèle de ceux qui avaient été envoyés, 2 racloires en fer, 2 setiers en bronze accompagnés de poids à triple image auguste, et trois modii, copies conformes des étalons qui avaient été envoyés par sa suprême autorité. Ils ont été ainsi répartis: une racloire a été donnée à la métropole des Myréens et l’autre à celle des Arnéates; pareillement un setier à celle des des Myréens et l’autre à celle des Arnéates; quant aux modii, deux ont été donnés aux Myréens ainsi que deux demi-modii, et un aux Arnéates ainsi qu’un demi-modius. Ces mesures et ces poids seront confiés aux soins des préposés successifs, qui veilleront à leur intégrité dans l’intérêt des greniers.”</p>
+            </div>
+            <div type="commentary">
+                <p>The inscription was executed between 388 and 392 AD on a masonry block near the entrance of the fourth door of the Roman <foreign>horrea</foreign> (warehouses) of Andriakè, the port of the ancient town of Myra (Lycia), today Demre (Turkey).</p> 
+                <p>The inscription contains a part of a regulation concerning the officially established weights and measures in use in Andriakè’s warehouses. The regulation involves the inhabitants of the metropolis of Myra and of the smaller town of Arnaia: Andriakè was the merchant port of the two communities (about the importance of Myra as a Lycian port and its structures cf. Cavalier 2007 and 2018; after the 4th Century Niewöhner 2012).</p> 
+                <p>The inscription does not state the name and the title of the authority that issued it. It only recalls that the weights and measures were made by copying exactly the models disseminated by the praetorian prefect of the East Flavius Eutolmius Tatianus (PLRE I, pp. 876-878; see <ref type="ppret" corresp="ppret87">PPRET 87</ref> and <ref type="ppret" corresp="ppret91">PPRET 91</ref>). 
+                    The prefect’s names have been deliberately erased, the second one in a more decisive way (the erasure of his name appears in other inscriptions, due to his <foreign>damnatio memoriae</foreign> in 392 AD; see PPRET <ref type="ppret" corresp="ppret82">82</ref>, <ref type="ppret" corresp="ppret83">83</ref>, <ref type="ppret" corresp="ppret84">84</ref>, <ref type="ppret" corresp="ppret85">85</ref>, <ref type="ppret" corresp="ppret86">86</ref>). 
+                    Nevertheless, the name Tatianus allows us to date the decree (388/392 AD). The praetorian prefect in office was obliged to supervise the weights and measures used in the provincial <foreign>horrea</foreign> (the urban prefect had the same task at Rome, see A. Chastagnol 1960, p. 330).</p> 
+                <p> Concerning the prefect’s involvement, we believe that models of standard weights and measures were sent from the bureau of the praetorian prefecture of the East in Constantinople to the seat of the provincial governor of Lycia. The prefect’s role as responsible for models of standard weights and measures is witnessed by the second book of Hero’s Stereometrica: after providing a list of weights and measures, informs us that “these were fixed under Modestus, who was praetorian prefect at the time” (<foreign>Stereometrica</foreign> II 54, <foreign>Geometricorum et Stereometricorum Reliquiae</foreign>, ed. F. Hultsch, Berlin 1864, p. 231). This Modestus must be Domitius Modestus, praetorian prefect of the East under Valens from 369 to 377 AD (see <ref type="ppret" corresp="ppret67">PPRET 67</ref> and <ref type="ppret" corresp="ppret68">68</ref>; see also Corcoran 1995, pp. 379-382). The control of public warehouses was the responsibility of the provincial governors. Finally, weights and measures were entrusted to the <foreign>praepositi horreorum</foreign> in Andriakè’s warehouses (on the <foreign>horrea</foreign>, their management and their staff cf. Vera 2008; Rizos 2015). 
+                    A constitution issued by the emperor Theodosius I to the praetorian prefect of the East Cynegius on November 28th 386 (<ref type="source">CTh 12, 06, 21</ref>) – just before the prefecture of Tatianus – obliged the keeping in every city and <foreign>mansio</foreign> of the stone and metal models of weights and measures: <foreign>modii</foreign>, <foreign>sextarii</foreign>, <foreign>pondera</foreign>, exactly as in our inscription. 
+                    The law aimed to avoid tax fraud in the storage facilities run by the <foreign>praepositi</foreign> or indeed in their export, overseen by the <foreign>susceptores</foreign> (for a similar regulation cf. <ref type="source">Cassiod., <title>Variae</title>, 11, 16</ref>, dated on 533/537 AD, through which the praetorian prefect regulates the tax collectors’ <foreign>ratiocinia</foreign> and obliges the restitution of any extorted sums). 
+                    We suppose that the weights and measures that arrived from Constantinople were then duplicated, probably by the staff of the governor of Lycia and sent to the magistrates of the cities responsible for the <foreign>horrea</foreign> of Andriakè. The inscription specifies in detail how many models in each category were delivered to the magistrates of the cities of Myra and Arnaia: our text contained a delivery report. 
+                    The task of the <foreign>praepositus horreorum</foreign> was a (compulsory) city service (liturgy), which was entrusted in turn to sufficiently wealthy citizens, chosen by the <foreign>curiae</foreign>; the expenses for the construction and restoration of the <foreign>horrea</foreign> were financed by the imperial fisc. 
+                    The fiscal <foreign>horrea</foreign> could, in fact, only be employed for goods enumerated in the tax registers, regularly reported to the governor of the province and by him to the praetorian prefect (see Tavola di Trinitapoli, <ref type="ppret" corresp="ppret56">PPRET 56</ref>. Reports from the <foreign>praepositi</foreign> were regularly sent by the <foreign>tabularii</foreign> of the city to the bureaux of the provincial governor). 
+                    Although the official weights and measures were probably used by <foreign>mensores</foreign> and <foreign>susceptores</foreign> in Andriakè (ll. 10-12), the <foreign>horrea</foreign> of that port were managed by <foreign>praepositi</foreign> chosen in Myra and Arnaia. They must preserve the official weights and measures.</p>
+                <p>At the beginning of the text, the anonymous author emphasizes that the praetorian prefect Tatianus is his powerful superior. The expression in l. 1, ἐπὶ τοῦ κυρίου μου, shows that the author of the text is an individual, directly subordinate to the praetorian prefect, not a collegial authority like the city magistrates, or the provincial council.
+                    He in turn seems to be the superior of the civic authorities of Myra and Arnaia. This ‘three-level’ relationship suggests that the inscription is part of an edict of the governor of the province of Lycia (governor and hierarchy see Slootjes 2006, pp. 39-45). The lack of a heading and of any opening formulas or epistolary details, not to mention the mandatory tone of the text and some syntactical inconsistencies, suggest that the text is part of a more extensive edict. Maybe it was an edict of the governor himself addressed to all the cities of Lycia concerning the delivery of weights and measures established by the praetorian prefecture. 
+                    It may have been intended to be temporary, but the carving of a part of it on stone suggests that this was not the work of the public authority that issued it (it would be difficult for a portion of the text to be engraved by explicit order of the praetorian prefect to the governor). Probably because of disputes over the measurements, the managers of Andriaké’s warehouses or the city authorities themselves wanted to permanently publish on stone the essential part of the edict (for edicts of the late roman governors between 324 and 602 AD see Feissel 2009, pp. 110[54]-111[55], documents nr. 2, 3, 5, 14, 38-41, 50.3, 51.3, 55, 73?, 74?, 93, 93bis, 94, 105bis, 106bis; Corcoran 2014, p. 175).</p>
+                <p>The imposition of standard weights and measures by the praetorian prefecture of the East suggests that the activity in the <foreign>horrea</foreign> concerned fiscal products of the <foreign>annona</foreign> destined for transport to Constantinople and the dioceses of Thrace and Dacia (so Rizos 2015, pp. 290-291; cf. Vera 2004). It is difficult to say whether Andriaké’s <foreign>horreas</foreign> had a fiscal function or an ‘annonarian’ function for the eastern capital, or both. Supervision by the praetorian prefecture ensured that the warehouses were public. It seems likely that these public warehouses could also be rented to private investors.</p>
+                <p>The text mentions the creation of weights and measures made from the standardized model sent by the eastern praetorian prefect Flavius Eutolmius Tatianus from Constantinople. Some nouns have a disputed meaning: φραγέλλια (l. 4), τρισαυγούστια (l. 5) linked to the interpretation of ἔχοντες; our analysis accepts the conclusions of Cuvigny (2017), who has reviewed the matter in detail. 
+                    She considers the traditional reading “τρία ἀυγούστια” incorrect and suggests reading it as a one word: “τρισαυγούστια”. The term, as a noun, is not attested elsewhere; however, in her opinion “τρίς” an adverb and “ἀυγούστια” an adjective. So, the adjective “τρισαύγουστος” is attested in the Byzantine Greek language, generally as an attribute for the Byzantine emperor, with the meaning of “three times august”, that is “very august”. In our inscription, the adjective should be attributed to the noun “σταθμὰ”, that is “weights”. 
+                    Therefore, lines 4/5 can be translated: “a (weight) three times august”. The meaning of this sentence can be clarified by comparing it with some standard monetary weights, used in the same period for the “<foreign>exagium solidi</foreign>”, a procedure for checking the weight of the coins: on these monetary weights marks with the image of three emperors were stamped on them (in this case Valentinian II, Theodosius I and Arcadius), to certify their authenticity and compliance with imperial directives (Cuvigny 2017). 
+                    The word φραγέλλια, according to Cuvigny, is a noun and the following σιδαρᾶ his adjective: φραγέλλια σιδαρᾶ are the “<foreign>regulae ferrae</foreign>”, i.e. flat instruments, generally made of wood or iron, used to level the grain in the containers before storage (cf. CIL III, 14165; ILS 6987; Corbier 2006). The purpose was to eliminate the grain in excess and make sure that all the containers had the same amount of grain inside them. On the transliteration into Greek of <foreign>horreum</foreign> (l. 12) see Geraci 2008, pp. 313-314; Vera 2008, p. 323, nt 1, p. 328).</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Petersen, von Luschan 1889, p. 42, nr. 77a</ref> (fac-simile)</bibl>
+                    <bibl><ref>Grégoire 1922, nr. 290</ref></bibl>
+                    <bibl><ref>Wörrle 1975, pp. 70-71</ref> (with photo)</bibl>
+                    <bibl><ref>SEG 42 (1992), 1240</ref></bibl>
+                    <bibl><ref>BE 2004, 1541</ref></bibl>
+                    <bibl><ref>SEG 62 (2012), 1473</ref></bibl>
+                    <bibl><ref>AE 2012, 1537</ref></bibl>
+                    <bibl><ref>BE 2013, 519</ref></bibl>
+                    <bibl><ref>Manganaro 1992, p. 283</ref></bibl>
+                    <bibl><ref>Rizos 2015, p. 289</ref> (with photo)</bibl>
+                    <bibl><ref>Cuvigny, 2017, p. 102</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Barnes T.D., The victims of Rufinus, CQ 34, 1984, 227-230</bibl>
+                    <bibl>Borchhardt J., Myra. Eine lykische Metropole in antiker und byzantinischer Zeit, Berlin 1975</bibl>
+                    <bibl>Cavalier L., Horrea d’Andriakè et Patara: un nouveau type d’édifice fonctionnel en Lycie à l’époque impériale, REA, 109, 2007, 61-65</bibl>
+                    <bibl>Cavalier L., Nouvelles observations sur les aménagements commerciaux du port d’Andriakè, in Entrepôts et circuits de distribution en Méditerranée antique, dir. V. Chankowski, X. Lafon, C. Virlouvet, Athènes 2018, 109-122</bibl>
+                    <bibl>Chastagnol A., Le préfecture urbaine a Rome sous le Bas-Empire, Paris 1960</bibl>
+                    <bibl>Corbier M., Les mesures et les hommes: les naviculaires d’Arles et leurs «règles de fer», in M. Corbier, Donner à voir, donner à lire. Mémoire et communication dans la Rome ancienne, Paris 2006, 233-256</bibl>
+                    <bibl>Corcoran S., State Correspondence in the Roman Empire: Imperial Communication from Augustus to Justinian, in State Correspondence in the Ancient World. From New Kingdom Egypt to the Roman Empire, Oxford 2014, 172-209</bibl>
+                    <bibl>Corcoran S., The Praetorian Prefect Modestus and Hero of Alexandria’s “Stereometrica”, Latomus, 54, 1995, 377-384</bibl>
+                    <bibl>Cuvigny H., Τρισαυγούστιον et φραγέλλιον. Contrôle de qualité et mesurage du grain fiscal au IVe s. apr. J.-C. à la lumière de P.Mich. XX 800 et de l’inscription tardive du grenier d’Andriakè, Chiron 47, 2017, 95-114</bibl>
+                    <bibl>Errington R., A note on the Augustal Prefect of Egypt, Tyche 17, 2002, 69-77</bibl>
+                    <bibl>Feissel D., Les actes de l’État impérial dans l’épigraphie tardive (324-610): prolégomènes à un inventaire, in Selbstdarstellung und Kommunikation. Die Veröffentlichung staatlicher Urkunden auf Stein und Bronze in der Römischen Welt, hrsg. R. Haensch, München 2009, 97-128 (then Documents, droit, diplomatique de l’Empire romain tardif, Paris 2010, 43-70)</bibl>
+                    <bibl>Geraci G., Granai nell’Egitto ellenistico e romano: problemi tipologici, lessicali, funzionali e metodologici, MEFRA, 120, 2008, 307-322</bibl>
+                    <bibl>Grégoire H., Miettes d’histoire byzantine (IV<hi rend="superscript">e</hi>-VI<hi rend="superscript">e</hi> siècle), Anatolian Studies presented to Sir William Mitchell Ramsay, Manchester-London-New York, 1923, 151-164</bibl>
+                    <bibl>Grégoire H., Quand est né l’empereur Théodose II ?, Byzantion 4, 1927-1928, 337-348</bibl>
+                    <bibl>Kubitschek W., Eine Inschrift des Speichers von Andriake (Lykien), NZ, 51, 63-72</bibl>
+                    <bibl>Livrea E., I due Taziani in un’iscrizione di Afrodisia, ZPE 119, 1997, 43-49</bibl>
+                    <bibl>Manganaro G., Due note tardoantiche, ZPE 94, 1992, 283-294</bibl>
+                    <bibl>Mecella M., L’amministrazione di Taziano e Proculo e il destino dei Lici tra Teodosio e Arcadio, in Governare e riformare l’impero al momento della sua divisione: Oriente, Occidente, Illirico Roma, 2015</bibl>
+                    <bibl>Niewöhner P., Andriake in byzantinischer Zeit, in 40 Jahre Grabung Limyra: Akten des internationalen Symposions, Wien, 3.-5. Dezember 2009, hrsg. M. Seyer, Wien 2012, 223-240</bibl>
+                    <bibl>Pellizzari A., «Salvare le città»: lessico e ideologia nell’opera di Libanio, Κοινωνία 35, 2011, 45-61</bibl>
+                    <bibl>Petersen E.A.H., von Luschan F., Reisen im südwestlichen Kleinasien, II, Reisen in Lykien, Milyas und Kibyratis, Wien 1889, 77a</bibl>
+                    <bibl>Petit P., Les fonctionnaires dans l’œuvre de Libanius. Analyse prosopographique, Besançon, 1994 </bibl>
+                    <bibl>Reinach T., Inscriptions d’Aphrodisias, REG 19, 1906, 79-150, 205-298</bibl>
+                    <bibl>Rizos E., Remarks on the logistics and infrastructure of the «annona militaris» in eastern Mediterranean and Aegean areas, Ant Tard 23, 2015, 287-302</bibl>
+                    <bibl>Scharf R., Die Familie des Fl. Eutolmius Tatianus, ZPE 85, 1991, 223-231</bibl>
+                    <bibl>Vera D., Giustiniano, Procopio e l’approvvigionamento frumentario di Costantinopoli, in Politica, retorica e simbolismo del primato: Roma e Costantinopoli (secoli IV-VII), II, Catania 2004, 9-44</bibl>
+                    <bibl>Vera D., Gli horrea frumentari dell’Italia tardoantica: tipi, funzioni, personale, MEFRA, 120, 2008, 323-336</bibl>
+                    <bibl>Woods D., Tatianus and the Basilica of Menas, Byzantion 65, 1995, 467-474</bibl>
+                    <bibl>Wörrle M., Eine lykische Metropole in antiker und byzantinischer Zeit, Myra, a cura di J. Borchhardt, Berlin 1975, 70-71; foto, Tav. 35 B</bibl>
+                </p>
+            </div>
+            
+                        <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                    <p n="1.4"></p>
+                </div>
+                            <div type="commentary" n="3">
+                    <p n="3"></p>
+                    <p n="3.b"></p>
+                </div>
+                <div type="commentary" n="6">
+                    <p n="6.a"></p>
+                </div>
+                <div type="commentary" n="8">
+                    <p n="8.1">λαμ(προτάτου)</p>
+                    <p n="8.2"><del rend="erasure"><unclear>ἐ</unclear><supplied reason="lost">πάρχο</supplied>υ</del> τῶν ἱερῶν πραιτωρίων</p>
+                    <p n="8.5"></p>
+                    <p n="8.9"></p>
+                    <p n="8.11"></p>
+                    </div>
+            </div>
+        </body>
+    </text>
+</TEI>

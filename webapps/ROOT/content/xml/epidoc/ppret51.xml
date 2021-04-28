@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription in honour of the praet. prefect Salutius from Rome by Valentinian I and Valens (gilded statue)</title>
+                <editor role="edition">Andrea Bernier, Irene Vagionakis</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="pp. 814-817">51</idno>
+                <date when="2020-05-08"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person><persName ref="#Salutius"><name type="cognomen">Saturninius</name> <name type="cognomen">Secundus</name> <name type="cognomen">Salutius</name></persName></person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#lost">lost</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect Salutius</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#base">gilded statue base</objectType>
+                                    <dimensions>
+                                        <height>178 / 182</height>
+                                        <width>unknown</width>
+                                        <depth>unknown</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">no</rs>
+                                    <rs type="monument_reuse">no</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#undamaged">Undamaged.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#unknown">unknown (no images available)</term>
+                                <height>unknown</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Roma</placeName>
+                                <placeName type="modern_city">Rome (Italy)</placeName>
+                                <placeName type="province">Urbs</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#public">public space: Trajan’s Forum</placeName>
+                            </origPlace>
+                            <origDate period="#p6" notBefore="0366" notAfter="0367">366/367 AD</origDate>
+                        </origin>
+                        <provenance type="found">found on August 8<hi rend="superscript">th</hi> 1564 close to <placeName ref="#TrajanForum">Trajan’s Forum</placeName></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                <ab>
+                    <lb n="1"/>Saturninio Secundo <w lemma="vir"><expan><abbr>v</abbr><ex>iro</ex></expan></w> <w lemma="clarissimus"><expan><abbr>c</abbr><ex>larissimo</ex></expan></w>,
+                    <lb n="2"/><w lemma="praeses">praesidi</w> <w lemma="provincia">provinciae</w> Aquitanicae,
+                    <lb n="3"/><w lemma="magister">magistro</w> <w lemma="memoria">memoriae</w>, <w lemma="comes">comiti</w> <w lemma="ordo">ordi<lb 
+                        break="no" n="4"/>nis</w> <w lemma="primus">primi</w>, <w lemma="proconsul">proconsuli</w> Africae, <w lemma="item">item</w>
+                    <lb n="5"/><w lemma="comes">comiti</w> <w lemma="ordo">ordinis</w> <w lemma="primus">primi</w> intra <w lemma="consistorium">con<lb 
+                        break="no" n="6"/>sistorium</w> et <w lemma="quaestor">quaestori</w>, <w lemma="praefectus"><expan><abbr>praef</abbr><ex>ecto</ex></expan></w>
+                    <lb n="7"/><w lemma="praetorium">praetorio</w> <w lemma="iterum">iterum</w>, ob <w lemma="egregius">egregia</w>
+                    <lb n="8"/>eius in <w lemma="res publica">rem publicam</w> <w lemma="meritum">merita</w>
+                    <lb n="9"/><w lemma="dominus"><expan><abbr>d</abbr><am>d</am><ex>omini</ex></expan></w> <w lemma="noster"><expan><abbr>n</abbr><am>n</am><ex>ostri</ex></expan></w> Valentinianus et
+                    <lb n="10"/>Valens, <w lemma="victor">Victores</w> ac <w lemma="triumphator">Triumfa<lb 
+                        break="no" n="11"/>tores</w> <w lemma="semper">semper</w> <w lemma="augustus">Augusti</w>,
+                    <lb n="12"/><w lemma="statua">statuam</w> sub <w lemma="aurus">auro</w> <w lemma="constituo">consti<lb 
+                        break="no" n="13"/>tui</w> <w lemma="loco">locarique</w> <w lemma="iubeo">iusserunt</w>.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on CIL VI 1764.</p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“To Saturninius Secundus, of clarissimus rank, praeses of the province of Aquitanica, master of memory, count of the first order, proconsul of Africa, count of the first order among the imperial concistory and at the same time quaestor, praetorian prefect for the second time, for his extraordinary services to the <foreign>res publica</foreign>, our masters Valentinian and Valens, Victorious and Triumphant, forever Augusti, ordered a gilded statue to be made and erected.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“À Saturninius Secundus, très clair, gouverneur de la province d’Aquitaine, maître de la mémoire, comte du premier ordre, proconsul d’Afrique, puis comte du premier ordre au consistoire impérial et en même temps questeur, préfet du prétoire pour la deuxième fois, pour ses mérites extraordinaires envers la res publica, nos seigneurs Valentinien et Valens, Vainqueurs et Triomphants, à jamais Augusti, ont ordonné qu’une statue en or soit faite et placée.”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“A Saturninius Secundus, chiarissimo, preside della provincia di Aquitanica, maestro della memoria, conte del primo ordine, proconsole d’Africa, indi conte del primo ordine nel consistorio imperiale e allo stesso tempo questore, prefetto del pretorio per la seconda volta, per i suoi straordinari meriti verso la <foreign>res publica</foreign>, i nostri signori Valentiniano e Valente, Vincitori e Trionfatori, per sempre Augusti, hanno ordinato che una statua dorata fosse realizzata e collocata.”</p>
+            </div>
+            <div type="commentary">
+                <p>The inscription was found close to Trajan’s Forum, on August 8<hi rend="superscript">th</hi> 1564, but is now lost (see Vagheneim 1987, pp. 221-225; 2008, p. 168). It celebrates the erection of a gilded statue of Saturninius Secundus (Salutius: for his name see <ref type="ppret" corresp="ppret52">PPRET 52</ref>), <foreign>praefectus praetorio iterum</foreign>, praetorian prefect for the second time. The monument in a public space was decreed by the emperors Valentinian and Valens in 366-367 AD (below). 
+                    The base is lost, but it was very high and maybe large, one of the highest found in public spaces in Rome (a very high statue base was put up in honour of Vulcacius Rufinus, but in his private domus, see <ref type="ppret" corresp="ppret32">PPRET 32</ref>). The monument was created by the Augusti in Trajan’s Forum, the most important public square in late antique Rome (for other monuments made by the emperors to their praetorian prefects in Rome in this very prestigious Forum see <ref type="ppret" corresp="ppret45">PPRET 45</ref>, <ref type="ppret" corresp="ppret48">48</ref>, <ref type="ppret" corresp="ppret54">54</ref>, <ref type="ppret" corresp="ppret62">62</ref>, <ref type="ppret" corresp="ppret93">93</ref>, <ref type="ppret" corresp="ppret98">98</ref>; 
+                    elsewhere see <ref type="ppret" corresp="ppret27">PPRET 27</ref>, <ref type="ppret" corresp="ppret28">28</ref>, <ref type="ppret" corresp="ppret75">75</ref>). The statue of our prefect was made of gilded bronze (probably larger than real size). In late antique Rome, emperors could dedicate such monuments to retired officials in public spaces. On the other hand, private individuals and communities tended to dedicate monuments to the prefects inside the private propertie of those being honoured, because metal statues in public spaces could only be placed with imperial permission (cf. Feissel 1984, pp. 548-550; Ward-Perkins 2016, p. 307; Machado 2019, pp. 143-145; imperial permission for metallic statues to praetorian prefects see <ref type="ppret" corresp="ppret24">PPRET 24</ref>, <ref type="ppret" corresp="ppret54">54</ref>, <ref type="ppret" corresp="ppret58">58</ref>). 
+                    In the 4th Century the honour of a gilded bronze statue for a praetorian prefect (<foreign>sub auro, inaurata, auro condecorata</foreign>) occurs five times, see also <ref type="ppret" corresp="ppret27">PPRET 27</ref>, <ref type="ppret" corresp="ppret28">28</ref>, <ref type="ppret" corresp="ppret46">46</ref>, <ref type="ppret" corresp="ppret48">48</ref> (about this high value material see <ref type="ppret" corresp="ppret46">PPRET 46</ref>).</p>
+                <p>The inscription records the <foreign>cursus</foreign> of this officer who arrived at the praetorian prefecture after a long career in provincial administration and palatine offices (PLRE I, pp. 814-817; De Bonfils 1981, pp. 164-190; Olszaniec 2013, pp. 356-372; Castello 2015, pp. 122-129).</p>
+                <p>He was <foreign>praeses Aquitanicae</foreign> at the beginning of his career (evidence of the reunification of the province, that was split into <foreign>Aquitanica Prima et Secunda</foreign> in the Verona List: see Chastagnol 1970; Christol 2010). 
+                    The location of the governorship has led to the hypothesis that Secundus Salutius was of Gallic origin. This hypothesis is confirmed by a reference in a work of the emperor Julian (<ref type="source">Or. 08, 252 A</ref>). We do not know when Salutius held this office, but given the length of his <foreign>cursus honorum</foreign> it was probably before the usurpation of Magnentius in 350 AD, perhaps around 340 AD. 
+                    Secundus Salutius was later <foreign>magister memoriae</foreign>, count of the first order and proconsul of Africa. The list of the proconsuls of Africa in the years 341-357 AD is dubious and we cannot date his period of service with certainty (cf. Barnes 1985). 
+                    Given the high standing of the office, perhaps it was a reward for the service of Salutius at the court of Constans. But a proconsulate under Constantius II between 353 and 357 AD cannot be ruled out. The sequence <foreign>proconsul – quaestor</foreign> (the following office held by Salutius) is also attested for Montius, another official sent by Constantius II to attend one of his Caesars, Gallus (cf. Olszaniec 2013, pp. 277-285). 
+                    In fact, after the proconsulate Secundus Salutius was count of the first order in the imperial consistory and at the same time quaestor, presumably at the court of Julian Caesar in Gaul (cf. Harries 1988, p. 156; Olszaniec 2013, pp. 359-362; Marcone 2019, p. 118; contra De Bonfils 1981, pp. 180-181).</p>
+                <p>After the death of Constantius II (November 3<hi rend="superscript">rd</hi> 361 AD), Salutius was immediately appointed praetorian prefect of the East by Julian (see <ref type="ppret" corresp="ppret50">PPRET 50</ref>). Among the emperor’s closest collaborators and confidants, he followed the Prince on the disastrous campaign against the Persians. 
+                    After Julian’s death, the army commanders offered the imperial purple to Salutius, who refused due to his advanced age (<ref type="source">Amm. 25, 05, 01-04</ref>, but <ref type="source">Zos. 02, 36</ref>, places the event after Jovian’s death: see Lenski 2000; Raimondi 2001, pp. 71-79). He kept the rank of prefect with Jovian and then with Valentinian and Valens (<ref type="source">Amm. 26, 05, 05</ref>) until the summer of 365 AD (Salutius was discharged after July 4t<hi rend="superscript">h</hi>, when <ref type="source">CTh 12, 06, 05</ref> was addressed to him: cf. Schmidt-Hofner 2008, pp. 558-559). 
+                    His first prefecture had lasted almost four years. He was replaced by Nebridius, previous praetorian prefect of Gaul of Constantius II (Olszaniec 2013, pp. 289-294), supported by the faction led by Petronius, father-in-law of Valens (Lenski 2002, pp. 45-67). But because of the uprising of Procopius and the capture of Nebridius in Constantinople, Valens was compelled to call Salutius back into service. At this time he received the codicils of his second praetorian prefecture, once again of the East, mentioned in our inscription from Trajan’s Forum (l. 7 <foreign>iterum</foreign>). 
+                    During, or maybe even at the end of this second prefecture, the statue was placed by the emperors in this public space (in the inscription Salutius is styled <foreign>praefectus praetorio iterum</foreign>, i.e. praetorian prefect for the second time): the monument was probably dedicated before the spring of 367 AD when Auxonius, the successor of Salutius, was in office (PLRE I, pp. 142-143; Lenski 2002, p. 127). 
+                    The <foreign>terminus post quem</foreign> is the beginning of Procopius’ uprising (September 28<hi rend="superscript">th</hi> 365 AD), and since the revolt was suppressed on May 27<hi rend="superscript">th</hi> 366 AD (Barnes 1998, pp. 247-254) the statue must have been dedicated after that date (about the inscription and its context see also Niquet 2000, pp. 231, 250, and 2001). It was the tribute of the emperors to an old and influential official who displayed his loyalty in the most critical moment for the new dynasty.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>CIL VI, 1764</ref> (cfr. pp. 3813, 4754)</bibl>
+                    <bibl><ref>ILS 1255</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR137773">EDR 137773</ref></bibl>
+                    <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-1408">LSA 1408</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Barnes T.D., Proconsuls of Africa, 337-392, Phoenix, 39.2, 1985, 144-153 (Corrigenda, Phoenix, 39.3, 1985, 273-274)</bibl>
+                    <bibl>Barnes T.D., Ammianus Marcellinus and the Representation of Historical Reality, Ithaca 1998</bibl>
+                    <bibl>Castello M.G., Le segrete stanze del potere. I comites consistoriani e l’imperatore tardoantico, Roma 2012, 122-129</bibl>
+                    <bibl>Chastagnol A., Le diocèse civil d’Aquitaine au Bas-Empire, BSNAF, 1970, 272-292</bibl>
+                    <bibl>Chenault R., Statues of Senators in the Forum of Trajan and the Roman Forum in Late Antiquity, JRS, 102, 2012, 103-132</bibl>
+                    <bibl>Christol M., Création de cités et réorganisations provinciales en Gaule méridionale au début de l’Antiquité tardive, CCG, 21, 2010, 89-107</bibl> 
+                    <bibl>Coşkun A., Die Praefecti praesent(al)es und die Regionalisierung der Praetorianerpraefecturen im vierten Jahrhundert, Millenium, 1, 2004, 279-328</bibl>
+                    <bibl>de Bonfils G., Il comes et quaestor nell’età della dinastia costantiniana, Napoli 1981, 164-190</bibl>
+                    <bibl>Desnier J.-L., Salutius – Salustius, REA, 85, 1983, 53-65</bibl>
+                    <bibl>Étienne R., Flavius Sallustius et Secundus Salutius, REA, 65, 1963, 104-113</bibl>
+                    <bibl>Feissel D., Notes d’épigraphie chrétienne (VII), BCH, 108, 1984, 545-579</bibl> 
+                    <bibl>Harries J., The Roman Imperial Quaestor from Constantine to Theodosius II, JRS, 78, 1988, 148-172</bibl>
+                    <bibl>Lenski N., The Election of Jovian and the Role of the Late Imperial Guards Lenski, Klio, 82, 2000, 492-515</bibl>
+                    <bibl>Lenski N., Failure of Empire. Valens and the Roman State in the Fourth Century A.D., Berkeley-Los Angeles-London 2002</bibl>
+                    <bibl>Machado C., Urban Space and Aristocratic Power in Late Antique Rome, AD 270-535, Oxford 2019</bibl> 
+                    <bibl>Marcone A., Giuliano, Roma 2019, 118-123</bibl>
+                    <bibl>Niquet H., «Monumenta virtutum titulique». Senatorische Selbstdarstellung im spätantiken Rom im Spiegel der epigraphischen Denkmäler, Stuttgart 2000</bibl> 
+                    <bibl>Niquet H., Die valentinianische Dynastie und Rom: das Selbstverständnis der Kaiser und ihre Haltung zur Senatsaristokratie im Licht von Bau- und Ehreninschriften, in Alföldy G., Panciera S. (Hg.), Inschriftliche Denkmäler als Medien der Selbstdarstellung in der römischen Welt, Stuttgart 2001, 125-147</bibl> 
+                    <bibl>Olszianec S., Prosopographical Studies on the Court Elite in the Roman Empire (4<hi rend="superscript">th</hi> Century AD), Toruń 2013</bibl>
+                    <bibl>Raimondi M., Valentiniano I e la scelta dell’Occidente, Alessandria 2001</bibl>
+                    <bibl>Rinaldi G., Sull’identificazione dell’autore del Περι θεῶν και κόσμου, Koinonia, 2, 1978, 117-152</bibl>
+                    <bibl>Scharf R., Comites und comitiva primi ordinis, Mainz 1994</bibl>
+                    <bibl>Schimdt-Hofner S., Die Regesten der Kaiser Valentinian und Valens in den Jahren 364 bis 375 n. Chr, ZRG, 125, 2008, 498-602</bibl>
+                    <bibl>Vagenheim G., Les inscriptions ligoriennes. Notes sur la tradition manuscrite, Italia medioevale e umanistica, 30, 1987, 199-309 (221-225)</bibl>
+                    <bibl>Vagenheim G., Un épisode inédit dans la genèse de l’épigraphie latine à la Renaissance: la collection d’inscriptions romaines de Nicolaus Florentius de Haarlem dans les manuscrits de Laevinus Torrentius à la Bibliothèque royale de Bruxelles (MS 4347-50), Monte Artium, 1, 2008, 153-183 (168, 182)</bibl>
+                    <bibl>Ward-Perkins B., The End of the Statue Habit, AD 284-620, in The Last Statues of Antiquity, eds. by R.R.R. Smith, B. Ward-Perkins, Oxford 2016, 295-308</bibl> 
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.a"></p>
+                    <p n="2.2"></p>
+                    <p n="2.7">statuam sub auro</p>
+                    <p n="2.9">ob egregia eius in rem publicam merita</p>
+                    <list n="2.11">
+                        <item n="2.11.g"></item>
+                    </list>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">v(ir) c(larissimus)</p>
+                    <p n="8.2">praef(ecto) praetorio iterum</p>
+                    <p n="8.3"></p>
+                    <p n="8.6"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorary inscription for an anonymous praet. prefect from Trajan’s Forum</title>
+                <editor role="edition">Irene Vagionakis</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="new">98</idno>
+                <date when="2020-06-09"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#anonymous">Anonymous praetorian prefect (of Italia Illyricum Africa?)</persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Roma">Roma, Trajan’s Forum, deposit of Basilica Ulpia</repository>
+                        <idno type="invNo">inv. FT14757</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#base">statue base</objectType>
+                                    <dimensions>
+                                        <height>47</height>
+                                        <width>19</width>
+                                        <depth>20</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">no</rs>
+                                    <rs type="monument_reuse">no</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#fragmentary">Fragmentary.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <height>2.5 / 3</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Roma</placeName>
+                                <placeName type="modern_city">Rome (Italy)</placeName>
+                                <placeName type="province">Urbs</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#public">public space: Trajan’s Forum</placeName>
+                            </origPlace>
+                            <origDate period="#p8" notBefore="0350" notAfter="0423">350/423 AD, possibly 399 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#TrajanForum">Rome, Trajan’s Forum</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                    <ab>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+                        <lb n="2"/>prae<supplied reason="lost" cert="low">sidi Tripolitanae</supplied><supplied reason="lost">, consulari Macedoniae</supplied>,
+                        <lb n="3"/>magi<supplied reason="lost">stro memoriae, comiti rerum privatarum</supplied>,
+                        <lb n="4"/>secun<supplied reason="lost">do <expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>praet</abbr><ex>orio</ex></expan> Galliarum Illyrici Italiae</supplied>
+                        <lb n="5"/>et Afr<supplied reason="lost" cert="low">icae, consuli ordinario <space extent="unknown" unit="character"/></supplied>.
+                        <lb n="6"/><expan><abbr>d</abbr><am>d</am><ex>omini</ex></expan> <expan><abbr>n</abbr><supplied reason="lost"><am>n</am><ex>ostri</ex></supplied></expan> <supplied reason="lost"><expan><abbr>F</abbr><am>F</am><abbr>l</abbr><am>l</am><ex>avii</ex></expan> Arcadius et Honorius</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="7"/>prin<supplied reason="lost">cipes semper Augusti</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="8"/>inn<supplied reason="lost">umerabil</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="9"/>sena<supplied reason="lost">tu</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="10"/><orig>met</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="11"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="12"/><gap reason="lost" extent="unknown" unit="line" cert="low"/>
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on CIL.</p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“... praeses of Tripolitania (?), consularis of Macedonia, magistro memoriae, comes of the imperial private property, for the second time praetorian prefect of the Galliae, Illyricum, Italy and Africa, ordinary consul, our masters Flavii Arcadius and Honorius ... princes always Augusti ... innumerable ... senate ...”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“...”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“... <foreign>praeses</foreign> della Tripolitania (?), <foreign>consularis</foreign> della Macedonia, <foreign>magister memoriae</foreign>, <foreign>comes</foreign> della proprietà privata imperiale, per la seconda volta prefetto del pretorio delle Gallie, dell’Illirico, dell’Italia e dell’Africa, console ordinario, i nostri signori Flavii Arcadio e Onorio ... principi sempre Augusti ... innumerabil- ... senato ...”</p>
+            </div>
+            <div type="commentary">
+                <p>The fragment belongs to an honorary inscription for a praetorian prefect whose name is now lost. The fragment, however, records part of his cursus honorum, which includes the praetorian prefecture of the Galliae and that of Illyricum, Italy and Africa: a possible identification of the honorand could be with Flavius Mallius Theodorus, praetorian prefect of Galliae in 382 AD, praetorian prefect of Illyricum, Italy and Africa from 397 to 399 AD and then consul in 399 AD (cfr. PLRE I, pp. 900-902). If this is correct, the two emperors who made the dedication apparently the involvement of the senate could be Honorius and Arcadius.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Fransoni 1982, pp. 657-658, nr. 37</ref>, with photo = <bibl><ref>AE 1985, 44</ref></bibl></bibl>
+                    <bibl><ref>CIL VI, 41380</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-01000514">EDCS 01000514</ref></bibl>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR079521">EDR 079521</ref></bibl>
+                    <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD002231">HD 002231</ref></bibl>
+                    <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-405">LSA 405</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>G. Fransoni, in Atti del Colloquio Internazionale AIEGL su Epigrafia e ordine senatorio, Roma, 14-20 maggio 1981, Vol. I. Tituli IV, Roma 1982, 657-658</bibl> 
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.a"></p>
+                    <p n="2.2"></p>
+                    <list n="2.11">
+                        <item n="2.11.g"></item>
+                    </list>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.2">secun[do praef(ecto) praet(orio) Galliarum Illyrici Italiae] et Afr[icae]</p>
+                    <p n="8.3"></p>
+                    <p n="8.4"></p>
+                    <p n="8.6">secun[do praef(ecto) praet(orio)]</p>
+                    <p n="8.10"></p>
+                    <p n="8.12"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

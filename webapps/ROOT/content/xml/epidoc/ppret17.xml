@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription in honour of Constantine II Caesar (in Latin) from Tubernuc by five praet. praefects (Antioch’s twin inscr.)</title>
+                <editor role="edition">Eleonora Angius</editor>
+                <editor role="encoding">Eleonora Angius</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="pp. 3, 331, 656, 911, 915">17</idno>
+                <date when="2020-03-27"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Pacatianus"><name type="gentilicium">Papius</name>
+                            <name type="cognomen">Pacatianus</name>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName ref="#Ablabius"><name type="gentilicium">Flavius</name>
+                            <name type="cognomen">Ablabius</name>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName ref="#Felix"><name type="gentilicium">Valerius</name>
+                            <name type="cognomen">Felix</name>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName ref="#Tiberianus"><name type="gentilicium">Annius</name>
+                            <name type="cognomen">Tiberianus</name>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName ref="#Timonianus"><name type="gentilicium">Nestorius</name>
+                            <name type="cognomen">Timonianus</name>
+                        </persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Tubernuc">Tubernuc archaeological site’s depository</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for Constantine II Caesar</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#limestone">limestone</material>
+                                    <objectType ref="#base">statue base</objectType>
+                                    <dimensions>
+                                        <height>46</height>
+                                        <width>58</width>
+                                        <depth>48</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">yes (on the opposite side the surface is rough)</rs>
+                                    <rs type="monument_reuse">none</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#damaged">Damaged: reduced on the lower and upper parts; at line 4 <foreign>nob(ilissimo) Caes(ari)</foreign> was erased and substituted for <foreign>Aug(usto)</foreign> and also at line 5-6 the name of the pretorian prefect Valerius Felix was chiselled away, probably suffering <foreign>damnatio memoriae</foreign>.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#rustic_capitals">rustic capitals</term>
+                                <height>unknown</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Tubernuc</placeName>
+                                <placeName type="modern_city">Aïn-Tebornock (Tunisia)</placeName>
+                                <placeName type="province">Africa Proconsularis</placeName>
+                                <placeName type="diocese" ref="#Africa">Africa (see below)</placeName>
+                                <placeName type="prefecture">Africa</placeName>
+                                <placeName type="ancient_location" ref="#public">public place</placeName>
+                            </origPlace>
+                            <origDate period="#p4" when="0336" precision="high">336 AD</origDate>
+                        </origin>
+                        <provenance type="found">thermal baths of <placeName ref="#">Tubernuc</placeName></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                <ab>
+                    <lb n="1"/>Virtute clementia m<supplied reason="lost">emor</supplied>ando, pie<lb
+                        break="no" n="2"/>tate omnes a<unclear>n</unclear><supplied reason="lost">tecellenti</supplied>, <expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> <expan><abbr>Fl</abbr><ex>avio</ex></expan> Clau<lb
+                        break="no" n="3"/>dio Consta<supplied reason="lost">n</supplied>t<supplied reason="lost">ino iu</supplied>niori 
+                    <lb n="4"/><add place="overstrike"><expan><abbr>Aug</abbr><ex>usto</ex></expan></add>,                                                                                           
+                    <lb n="5"/><expan><abbr>L</abbr><ex>ucius</ex></expan> <expan><abbr>Pap</abbr><ex>ius</ex></expan> Pacatianus, <expan><abbr>Fl</abbr><ex>avius</ex></expan> Ablabius, <del rend="erasure"><supplied reason="lost">Val(erius)</supplied></del>
+                    <lb n="6"/><del rend="erasure"><supplied reason="lost">Felix</supplied></del>, C. Annius Tiberianus, Nes<lb
+                        break="no" n="7"/><supplied reason="lost">to</supplied>ri<supplied reason="lost">u</supplied>s Timonianus, viri cla<lb
+                        break="no" n="8"/><supplied reason="lost">rissimi, p</supplied>raefecti <sic>pretorio</sic>.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>This edition is based on Feissel 1985.</p>
+                <p>
+                    <app loc="1"><note>[memor]ando: AE 1925, 72</note></app>
+                    <app loc="2"><note>[a[ntecedenti]: AE 1925, 72, a[ntecellenti]: Salway 2007, p. 1282</note></app>
+                    <app loc="4"><note>[nob(ilissimo) Caes(ari) was carefully obliterated and substituted for Aug(usto).</note></app>
+                    <app loc="5-6"><note>[[adfinis Caesaris] or [necessarius Caesaris]: Piganiol 1929, p. 142; [Valerius Maximus]: Barnes 1982, pp. 134-135</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“To our master Flavius Claudius Constantinus the young, Augustus, memorable for his virtue and clemency, who stands out among everyone for his devotion, Papius Pacatianus, Flavius Ablabius, Valerius Felix, Annius Tiberianus and Nestorius Timonianus praetorian prefects of clarissimus rank.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“A notre maître Flavius Claudius Constantinus le jeune, Auguste, mémorable pour sa vertu et sa clémence et qui se distingue parmi tous par son dévouement, les clarissimes préfets du prétoire, Papius Pacatianus, Flavius Ablabius, Valerius Felix, Annius Tiberianus et Nestorius Timonianus.”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“Al nostro signore Flavius Claudius Costantinus iuniore, Augusto, memorabile per la sua virtù e per la sua clemenza e che primeggia davanti a tutti per la sua devozione, i prefetti del pretorio chiarissimi, Papius Pacatianus, Flavius Ablabius, Valerius Felix, Annius Tiberianus e Nestorius Timonianus.”</p>
+            </div>
+            <div type="commentary">
+                <p>The inscription was found in 1924 near the thermal baths (not far from the spring) of Aïn-Tebornock in Tunisia (the ancient Roman <foreign>municipium</foreign> of Tubernuc).</p>
+                <p>This Roman <foreign>municipium</foreign> was a fertile, rich and strategic area later used and fortified by the Byzantines and Arabs. The monument in question was so probably preserved due to the byzantine fortification around the city and the restoration of the thermal baths during the Byzantine period. Indeed, the thermal baths had direct access to the forum and, given its civic nature, our monument may have come from there. Thereafter, the monument may have been reused in the restoration of the thermal baths, which was attested under Gratian and Valentinian (Ghalia-Mahfoudh 2003, pp. 784-786).</p>
+                <p>The inscription is a dedication solely in honour of Constantine II Caesar (altered to substitute the title Augustus), made by the college of praetorian prefects in 336 AD: only four prefects appear, but there is an evident erasure. 
+                    The recent exceptional discovery of another dedication in honour of Constantine II Caesar at Antioch (<ref type="ppret" corresp="ppret18">PPRET 18</ref>) made by the same prefects – the two inscriptions are in effect twins –  reveals that the prefectural college had five members and not four as suggested in the Tubernuc inscription. Apart from providing us with useful data concerning the Constantinian prefectural college between 335 and 336 AD, these monuments also show the multiplication of the number of praetorian prefects, all of whom were serving at the same time.</p>
+                <p>A comparison with the recent inscription of Antioch allows us to restore the gaps in the text of this African monument. Thus, the empty space between the fifth and sixth line that follows Ablabius’ name did not retain a phrase describing the prefect’s relation by marriage to the imperial family (<foreign>adfinis</foreign> or <foreign>necessarius Caesaris</foreign>, see Poinssot-Lantier 1924, p. 229). This can be explained by Ablabius’ fall from grace, after having been dismissed by Constantius after Constantine’s death. Upon this premise, Palanque identifies the four figures as the Caesars of 337 AD. According to him, the African inscription is one of four dedications, each one attributable to one of the four Caesars (see Palanque 1950, pp. 17-19).</p>
+                <p>In stark contrast, the Antioch dedication furnishes us with the name of another prefect, but not that of Valerius Maximus (PLRE I, p. 590) as Barnes claimes (Barnes 1982, pp. 134-135), but Valerius Felix (PLRE I, p. 331), praetorian prefect of Africa, as Chastagnol (1968, pp. 333-337) remarkably suggested (this was before the Antioch inscription had been discovered).</p>
+                <p>To resume, the prefectural college of Constantine between 335 and 336 AD consisted of Papius Pacatianus (PLRE I, p. 656), Flavius Ablabius (PLRE I, p. 3 ), Valerius Felix (PLRE I, p. 331 ), Annius Tiberianus (PLRE I, p. 911 ) and Nestorius Timorianus (PLRE I, p. 915, for their career see <ref type="ppret" corresp="ppret18">PPRET 18</ref>).</p>
+                <p>We do not know why the name of Felix was deleted in Africa, but not in Syria. After Constantine’s death his loyal prefects or ex-prefects were all removed or killed, as happened to Ablabius (PLRE I, p. 3, see <ref type="ppret" corresp="ppret18">PPRET 18</ref>), but the fate that befell Felix is unknown (Porena 2013, pp. 309-310).</p>
+                <p>The second deletion is nevertheless useful in dating this inscription: the imperial title <foreign>nobilissimus Caesar</foreign> (preserved in the Antioch inscription l. 3 as ἐπιφανέστατον Καίσαρα) was replaced with <foreign>Aug(usto)</foreign> probably at the time of the elevation of Constantine II to Augustus in September 337 AD, thus our monument must necessarily date before that time. 
+                    Already Feissel (1985, p. 435) and then Porena (2003, pp. 476-491) analysed the chronology of the five praetorian prefect’s mandates and placed a <foreign>terminus post quem</foreign> at July 15<hi rend="superscript">th</hi>, 335 AD, when Annius Tiberianus was still <foreign>vicarius Hispaniarum</foreign> (<ref type="source">CTh 03, 05, 06</ref>), and a <foreign>terminus ante quem</foreign> on July 21<hi rend="superscript">th</hi>, 336 AD, when Gregorius (Valerius Felix’s successor), was mentioned for the first time in office as praetorian prefect (<ref type="source">CTh 04, 06, 03</ref>). 
+                    During this time span, these two coeval inscriptions were made to celebrate the emperor for the <foreign>Vicennalia</foreign> of Constantine II on March 1<hi rend="superscript">st</hi>, 336 AD. 
+                    This would be a suitable occasion for the prefects to erect a series of identical monuments, of which only the ones in Tubernuc and Antioch survive. These two cities were politically and culturally different: Tubernuc was only a small Roman municipium, whereas Antioch was an important administrative centre, capital of the Eastern diocese (see also <ref type="ppret" corresp="ppret18">PPRET 18</ref>).</p>
+                <p>The discovery of the monuments in such diverse cities lends itself to the idea that these dedications may well have been quite widely spread over the whole empire. These monuments were built by the provincial governors in the different cities under the control of each prefect.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>ILTun 814</ref></bibl> 
+                    <bibl><ref>Poinssot, Lantier 1924 p. 230</ref> = <bibl><ref>AE 1925, 72</ref></bibl></bibl> 
+                    <bibl><ref>Piganiol 1929, p. 142</ref> = <bibl><ref>AE 1929, 172</ref></bibl></bibl> 
+                    <bibl>Barnes 1982, p. 134</bibl> 
+                    <bibl><ref>Feissel, Dagron 1985, p. 423</ref> = <bibl><ref>AE 1985, 869</ref></bibl></bibl>
+                    <bibl><ref>Di Maio 1992, p. 195</ref></bibl>
+                    <bibl><ref>Ghalia, Mahfoudh 2003, p. 786, nt. 11</ref></bibl> 
+                    <bibl><ref>Porena 2003, p. 467</ref> = <bibl><ref>AE 2003, 64</ref></bibl></bibl> 
+                    <bibl><ref>Salway 2007, p. 1282</ref></bibl>
+                    <bibl><ref>Olszaniec 2014, p. 20</ref> = <bibl><ref>AE 2014, 30</ref></bibl></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p>
+                    <bibl><ref>Ghalia, Mahfoudh 2003, p. 785</ref>, fig. 8</bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-08601024">EDCS 08601024</ref></bibl>
+                    <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD025753">HD 025753</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Barnes T. D., The new empire of Diocletian and Constantine, Cambridge 1982, 134-135</bibl>
+                    <bibl>Barnes T. D., Praetorian prefects, 337-361, ZPE, 94, 1992, 250</bibl>
+                    <bibl>Baynes N. H., The Pretorian Prefecture under Constantine the Great, JRS, 15, 1925, 204-208</bibl>
+                    <bibl>Chastagnol A., Les inscriptions africaines des préfets du prétoire de Constantin, L’Africa romana, 3, 1986, 263-273</bibl>
+                    <bibl>Chastagnol A., Les préfets du prétoire de Constantin, REA, 70, 1968, 321-352</bibl>
+                    <bibl>Coşkun A., Die Praefecti praesent(al)es und die Regionalisierung der Praetorianer-praefekturen im vierten Jahrhundert, Millennium, 1, 2004, 287-289</bibl>
+                    <bibl>Feissel D. (et Dagron G.), Inscriptions inédites du musée d’Antioche I, Une dédicace en honneur de Constantin II César et les préfets du prétoire de 336, TMByz, 9, 1985, 421-461 (= Documents, droit, diplomatique de l’Empire romain tardif, Paris 2010, 385-398)</bibl>
+                    <bibl>Ghalia T., Mahfoudh F., Aïn Tebournouk-Tubernuc et sa région de l’Antiquité tardive au Moyen Âge, in MEFRA, 115, 2003, 784-790</bibl>
+                    <bibl>Gkoutzioukostas A., The reforms of Constantine the Great in provincial administration: A critical approach to the conclusions of modern research, Byzantina, 34, 2016, 105-109</bibl>
+                    <bibl>Lensky N., The Cambridge companion to the Age of Constantine, Cambridge-New York 2006, 186-187</bibl>
+                    <bibl>Olszaniec S., Praefektura praetorio Italii, Illyrikum i Afryki (312–425 n.e.), Toruń 2014, 19-23</bibl>
+                    <bibl>Palanque J-R., Essai sur la préfecture du prétoire du bas-empire, Paris 1933, 18-19</bibl>
+                    <bibl>Piganiol A., Notes épigraphiques II. L’inscription de Aïn-Tebornok, REA, 31, 1929, 142-150</bibl>
+                    <bibl>Poinssot L., Lantier R., Quatre préfets du prétoire contemporains de Constantin, CRAI, 1924, 229-233</bibl>
+                    <bibl>Porena P., Le origini della prefettura del pretorio tardoantica, Roma 2003, 466-491</bibl>
+                    <bibl>Salway B., The Praetorian Prefecture of Africa under Constantine: a Phantom?, Acta XII Congressus internationalis epigraphiae Graecae et Latinae: Provinciae imperii Romani inscriptionibus descriptae, II, Barcelona 2007, 1281-1286</bibl> 
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.3"></p>
+                </div>             
+                <div type="commentary" n="7">
+                    <p n="7.1"></p>
+                    <p n="7.y"></p>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">viri cl[arissimi]</p>
+                    <p n="8.2">[p]raefecti pretorio</p>
+                    <p n="8.5"></p>
+                    <p n="8.9"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

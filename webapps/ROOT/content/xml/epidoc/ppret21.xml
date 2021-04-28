@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Greek inscription in elegiac distichs honouring the praet. prefect Antonius Marcellinus from Gortyna (Crete)</title>
+                <editor role="edition">Eleonora Angius</editor>
+                <editor role="encoding">Eleonora Angius</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="rev" corresp="p. 548">21</idno>
+                <date when="2020-06-13"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Marcellinus"><name type="gentilicium">Antonius</name>
+                            <name type="cognomen">Marcellinus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Gortyna">archaeological site of Gortyna</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect Antonius Marcellinus</term>
+                            <term type="rhythm" ref="#poetry">poetry (elegiac distichs)</term>
+                        </summary>
+                        <textLang mainLang="grc">Greek</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">local grey marble</material>
+                                    <objectType ref="#base">rectangular statue base</objectType>
+                                    <dimensions>
+                                        <height>117</height>
+                                        <width>80</width>
+                                        <depth>59</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">yes</rs>
+                                    <rs type="monument_reuse">yes, the support was reused in a byzantine church as building material</rs>
+                                    <rs type="opistographic">yes, the base was turned and reused on the opposite field (about 40 years later)</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Two inscribed fields (frons + retro).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#damaged">Reduced on the right upper and lateral side.</rs>
+                                    <p n="opistographic">On the opposite side there is ICret IV, 314 (discussion on <ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-775">LSA 775</ref>), an inscription in honour of Anicius Auchenius Bassus (PLRE I, 152-154), proconsul of Campania (379/382 AD) and prefect of Rome (382/383 AD); it was chiselled 40 years after Marcellinus’ inscription, and was included in a statuary group under the supervision of the governor of Crete Asclepiodotus in the renewed <foreign>Praetorium</foreign> of Gortyna in 382/383 AD.
+                                        See: Guarducci 1929, pp. 158-160, nr. 8; ICret IV, pp. 344-345, nr. 314; De Tommaso 2000, pp. 384-386; now Bigi, Tantillo 2020, p. 194, nr. 2.</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#uncial">uncial</term>
+                                <height>frons: 3.5 / 4</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Gortyna</placeName>
+                                <placeName type="modern_city">Gortyna, Crete (Greece)</placeName>
+                                <placeName type="province">Creta</placeName>
+                                <placeName type="diocese">Macedonia</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#public">public space, in front of the <foreign>Praetorium</foreign>’s door</placeName>
+                            </origPlace>
+                            <origDate period="#p5" notBefore="0340" notAfter="0341">340/341 AD </origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#">Gortyna</placeName>, near a byzantine church, where the support was reused</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                <ab>
+                    <lg>
+                        <lb n="1"/><l>Ἑσπερίης πάσ<unclear>η</unclear><supplied reason="lost">ς χθονὸς</supplied>  
+                        <lb n="2"/>ὄβριμον ἰθυντῆ<supplied reason="lost">ρα</supplied></l>
+                        <lb n="3"/><l>Μαρκελλῖνον ὁρᾶς ἡγ<unclear>ε</unclear><supplied reason="lost">μόνων</supplied>  
+                        <lb n="4"/>ταμίην,</l>
+                        <lb n="5"/><l>Ἑλλάδος ἀγλαὸν ἔρνος,
+                        <lb n="6"/>ὃς εὐδικίῃ καὶ ἀρωγῇ</l>
+                        <lb n="7"/><l>κουφίζων πόλιας θῆκεν
+                        <lb n="8"/>ἐλαφροτέρας·</l>
+                        <lb n="9"/><l>τοὔνεκα καὶ προθύροισι
+                        <lb n="10"/>Δίκης ἐπιμάρτυρα θεσμῶν</l>
+                        <lb n="11"/><l>βουλὴ καὶ Πύρρου στῆσεν        
+                        <lb n="12"/>φημοσύνη.</l>
+                    </lg>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>This inscription is based on Tantillo 2012.</p>
+                <p>
+                    <app loc="3"><note>θρα<gap reason="lost" extent="unknown" unit="character"/>: Pococke 1752, p. 43, nr. 3; ἅθρει, θαρραλέω[ς]: CIG 2589, Levi 1922, p. 360, nr. 3, IGR I, 972;  ἅθρει, θαρραλέ[ο]ν: Kaibel 905; ἠγε[μόνων]: Guarducci 1930, p. 88; ὁρᾶς ἡ - - - : Robert 1948, pp. 89-90; ὁρᾶς ἠδὲ [λόγων]: PLRE I, p. 545; ὁρᾶς [νόμων]: Puech 2002, pp. 432-433, nr. 232</note></app>
+                    <app loc="11"><note>βουλῆς: CIG 2589, Levi 1922, p. 360, nr. 3, Kaibel 905, IGR I, 972</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“You see the mighty ruler of the whole land Hesperia, Marcellinus, the giver of governors, the shining  offshoot of Hellas, who relieving them with his justice and his help unburdened the cities of their dues; for this reason, even in front of the doors of Dike, witness to the laws, the Council and the will of Pyrrhus set this up.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“Tu vois le puissant régissant de toute la terre d’Hesperie, Marcellinus, dispensateur des gouverneurs, splendide rejeton de l’Hellade, qui, soulageant les cites par sa bonne justice et son aide, les a allégées. Pour cette raison le Conseil et l’ordre de Pyrrhos ont érigé (ce monument) devant les Portes de la Justice comme témoin des Lois.”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>(Tantillo 2012, p. 421)</p>
+                <p>“Vedi qui il potente reggitore dell’intera terra Esperia, Marcellino, dispensatore di governatori, illustre germoglio dell’Ellade, il quale, alleviando le città colla sua rettitudine e con il suo soccorso, le ha alleggerite (del loro carico). Per tal ragione, anche di fronte alle porte della Giustizia, a testimonianza delle leggi, posero il Consiglio e l’ordine di Pirro.”</p>
+            </div>
+            <div type="commentary">
+                <p>Our rectangular base was found in the area of the <foreign>Praetorium</foreign> of Gortyna (Crete), in front of whose door it was probably placed with a statue on top of it. The elegant three elegiac distichs epigram is dedicated to the praetorian prefect Antonius Marcellinus. Four decades later this support was reused on its opposite side to engrave an inscription honoring Anicius Bassus (ICret IV, 314) as proconsul of Campania, an office he held between 379 and 382 AD. Later still, the base was re-employed once more, this time as building material for a Byzantine church, near which it was found.</p>
+                <p>The inscription is reduced on the upper right corner and as a result is missing the end of the first three lines. This loss probably occurred before 1740, because the priest Zacharias Skordylios, the Venetian Francesco Barozzi and Vicentine Onorio Belli provided a complete copy in the 16th Century, but when Pococke visited Crete between 1737 and 1742, the inscription was already damaged (see Tantillo 2012, pp. 409-410).</p>
+                <p>It was possible to restore most of this loss through these ancient copies, indeed the office of Marcellinus is perfectly legible (ἰθυντῆ[ρα]), as is the epithet that follows (ἡγε̣[μόνων] ταμίην). 
+                    However, the role of his appointment and the meaning of the epithet have been the subject of discussion. Levi supposed that Marcellinus was a <foreign>quaestor pro praetore</foreign> of Crete (but this office had no juridical duties; see Levi 1922, p. 360), then, according to Guarducci, he probably was <foreign>corrector totius Italiae</foreign> (translation of the first line that Kaibel already suggested) no later than the end of the 3rd Century (see ICret IV, 323). Instead, Robert translated ἰθυντήρ as regent or governor (as already Böckh thought in CIG 2589) and Ἑσπερίη as Crete, a more infrequent meaning, rather than Italy, at the end of the 4th Century (see Robert 1948, pp. 91-92).</p>
+                <p>This hypothesis was linked to the dedicator’s chronology (Pyrrhus), who was supposed to be the Sophist Pyrrhus living in the second half of the 3rd Century  (the same of ICret IV, 324), but Puech (2002, p. 433) and then Tantillo agreed that he could be an official with high powers: so our Pyrrhus was probably a governor and forefather of the sophist. Already De Tommaso, Puech and Coşkun supposed that Marcellinus could be identified with the praetorian prefect of Italy, Africa and Illyricum, but they restored the inscription’s text differently and, according to Tantillo, in unacceptable ways.</p>
+                <p>Tantillo rightly proposes to integrate in the third line the plural ἡγε̣μόνων, as confirmed by 16th Century autoptic copies, but with the meaning of “giver of governors”, in accordance with known  prefects’ duties in the East, between the 4th and 5th Century. So this is the first testimony for the diocese of Italy, Africa and Illyricum of the full praetorian prefect’s jurisdiction over the provincial governors, from designation to dismissal and also the appointment of a <foreign>vicar</foreign> (see Tantillo 2012, pp. 416-420). This assumption could therefore help us identify the dedicator Pyrrhus as the governor of Crete, who decreed this monument in honour of the prefect for having lightened the tax burden of the city. The scholar finally dated our inscription around 340 AD, a period coinciding with Marcellinus’s praetorian prefecture, maybe before his consulate in 341 AD, which is not mentioned in the inscription.</p>
+                <p>Gortyna’s dedications represent the earliest examples of honorary inscriptions in Greek verse for a praetorian prefect in a period when there was still a local variability in the choice between Latin and Greek. That said, we have to remember that the βουλὴ of Gortyna dedicated our monument to Marcellinus and the language of this institution was Greek.</p>
+                <p>Marcellinus probably was a member of a prominent Greek family (see <ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-785">LSA 785</ref>); his career likely began under Constantine in Gaul, where he became <foreign>praeses Lugdunensis primae</foreign> in 313 (<ref type="source">CTh 11, 03, 01</ref>), proconsul of Africa between 337 and 338 (CIL VIII, 25524), then praetorian prefect of Italy, Africa and Illyricum of Constans between 340 and 341 (<ref type="source">CTh 11, 12, 01</ref>; <ref type="source">CTh 06, 22, 03</ref>), finally consul in 341 (see Barnes 1992, p. 255; CLRE, 216-217).</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>CIG II, 2589</ref></bibl>
+                    <bibl><ref>Kaibel 905</ref></bibl>
+                    <bibl><ref>IGR I, 972</ref></bibl>
+                    <bibl><ref>Guarducci 1930, p. 88</ref></bibl>
+                    <bibl><ref>ICret IV, 323</ref></bibl>
+                    <bibl><ref>Robert 1948, pp. 89-90</ref></bibl>
+                    <bibl><ref>PLRE I, p. 545</ref> (Marcellinus 5)</bibl>
+                    <bibl><ref>SEG 15 (1958), 576</ref></bibl>
+                    <bibl><ref>Bile 2002, pp. 139-140</ref> = <bibl><ref>AE 2005, 1648</ref></bibl> = <bibl><ref>SEG 55 (2005), 992</ref></bibl></bibl>
+                    <bibl><ref>Puech 2002, pp. 432-433, nr. 232</ref></bibl>
+                    <bibl><ref>Tantillo 2012, p. 421</ref>= <bibl><ref>AE 2012, 1786</ref></bibl> [rev. <bibl><ref>AE 2005, 1648]</ref></bibl> = <bibl><ref>BE 2013, 512</ref></bibl></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p>
+                    <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-785">LSA 785</ref></bibl>
+                    <bibl><ref>Tantillo 2012, p. 408</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-785">LSA 785</ref></bibl>
+                    <bibl><ref corresp="https://inscriptions.packhum.org/text/200767?hs=107-118">PH 200767</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Barnes T. D., Praetorian prefects, 337–361, ZPE, 94, 1992, 255</bibl>
+                    <bibl>Bigi F., Tantillo, I. (a cura di), I senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e le scelte amministrative di Graziano dopo Adrianopoli, Pisa 2020</bibl>
+                    <bibl>Bile M., Quelques épigrammes crétoises (IIe s. av. – Ve s. ap. J.-C.), in L’épigramme de l’Antiquité au XVIIe siècle, Nancy 2002, 122-141</bibl>
+                    <bibl>Böckh A., Corpus inscriptionum graecarum (CIG), vol. II, Berlin 1843, 430, nr. 2589</bibl>
+                    <bibl>Cagnat R., Inscriptiones graecae ad res romanas pertinentes (IGR), vol. I, Paris 1911, 334, nr. 972</bibl>
+                    <bibl>Coşkun A., Die Praefecti praesent(al)es und die Regionalisierung der Praetorianer-praefekturen im vierten Jahrhundert, Millennium, 1, 2004, 292, nt. 27</bibl>
+                    <bibl>De Tommaso G., Il settore B: la del Pretorio, in Gortina V.1. Lo scavo del Pretorio (1989-1995), Padova 2000, 343, nr. 62</bibl>
+                    <bibl>De Tommaso G., Nota su alcune iscrizioni del Pretorio di Dositeo, in Gortina V.1. Lo scavo del Pretorio (1989-1995), Padova 2000, 384-388</bibl>
+                    <bibl>Guarducci M., Addenda alle iscrizioni del Pretorio, RIA, 2, 1930, 88-89</bibl>
+                    <bibl>Guarducci M., Inscriptiones Creticae. Vol IV. Tituli Gortynii, Roma 1950, 349-350, nr. 323, 344-345, nr. 314 (opistographic)</bibl>
+                    <bibl>Guarducci M., Le iscrizioni del Pretorio di Gortina, RIA, 1, 1929, 151, nr. 4, 158-160 nr. 8 (opistographic)</bibl>
+                    <bibl>Halbherr F., Iscrizioni Cretesi, Museo Italiano di Antichità classiche, 3, 1890, 708, nr. 503</bibl>
+                    <bibl>Kaibel G., Epigrammata Graeca ex lapidibus conlecta, Berlin 1878, 373, nr. 905</bibl>
+                    <bibl>Levi D., Silloge in corsivo delle iscrizioni metriche cretesi, SIFC, ns II, 4, 1922, 360, nr. 3</bibl>
+                    <bibl>Pococke R., Inscriptionum antiquarum Graecarum et Latinarum liber, I, London 1752, 43, nr. 3</bibl>
+                    <bibl>Puech B., Orateurs et sophistes grecs dans les inscriptions d’époque impériale, Paris 2002, 432-433, nr. 232</bibl>
+                    <bibl>Robert L., Hellenica: recueil d épigraphie, de numismatique et d’antiquités grecques. IV. Epigrammes du Bas-Empire, Paris 1948, 89-94</bibl>
+                    <bibl>Tantillo I., “Dispensatore di governatori”: a proposito di una dedica a un prefetto del pretorio di Gortina (IC IV 323), Riv. Filol. Istr. Class., 140, 2012, 407-424</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.a"></p>
+                    <p n="2.1"></p>
+                    <p n="2.9">εὐδικίῃ καὶ ἀρωγῇ κουφίζων πόλιας θῆκεν ἐλαφροτέρας</p>
+                    <p n="2.10">Ἑσπερίης πάση̣ς χθονὸς ὄβριμον ἰθυντῆρα, ἡγε̣μόνων ταμίην, Ἑλλάδος ἀγλαὸν ἔρνος</p>
+                    <list n="2.11">
+                        <item n="2.11.b"></item>
+                        <item n="2.11.c"></item>
+                        <item n="2.11.i"></item>
+                    </list>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.2">Ἑσπερίης πάσης χθονὸς ὄβριμον ἰθυντῆρα, ἡγε̣μόνων ταμίην</p>
+                    <p n="8.5"></p>
+                    <p n="8.9"></p>
+                    <p n="8.11"></p>
+                    <p n="8.15">Ἑλλάδος ἀγλαὸν ἔρνος</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

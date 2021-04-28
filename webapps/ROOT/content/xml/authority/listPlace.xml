@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Places</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <head>Collocazione antica / Ancient location</head>
+                <place xml:id="public">
+                    <placeName xml:lang="it">Spazio o edificio pubblico</placeName>
+                    <placeName xml:lang="en">Public space or building</placeName>
+                </place>
+                <place xml:id="private">
+                    <placeName xml:lang="it">Spazio o edificio privato</placeName>
+                    <placeName xml:lang="en">Private space or building</placeName>
+                </place>
+                <place xml:id="burial">
+                    <placeName xml:lang="it">Spazio o edificio sepolcrale</placeName>
+                    <placeName xml:lang="en">Burial space or building</placeName>
+                </place>
+            </listPlace>
+
+            <listPlace>
+                <head>Collocazione moderna / Current location</head>
+                <place xml:id="Alexandria">
+                    <placeName xml:lang="it">Alexandria</placeName>
+                    <placeName xml:lang="en">Alexandria</placeName>
+                </place>
+                <place xml:id="Ankara">
+                    <placeName xml:lang="it">Ankara</placeName>
+                    <placeName xml:lang="en">Ankara</placeName>
+                </place>
+                <place xml:id="Antakya">
+                    <placeName xml:lang="it">Antakya</placeName>
+                    <placeName xml:lang="en">Antakya</placeName>
+                </place>
+                <place xml:id="Antalya">
+                    <placeName xml:lang="it">Antalya</placeName>
+                    <placeName xml:lang="en">Antalya</placeName>
+                </place>
+                <place xml:id="Aphrodisias">
+                    <placeName xml:lang="it">Afrodisia</placeName>
+                    <placeName xml:lang="en">Aphrodisias</placeName>
+                </place>
+                <place xml:id="Aqaba">
+                    <placeName xml:lang="it">Aqaba</placeName>
+                    <placeName xml:lang="en">Aqaba</placeName>
+                </place>
+                <place xml:id="Aquileia">
+                    <placeName xml:lang="it">Aquileia</placeName>
+                    <placeName xml:lang="en">Aquileia</placeName>
+                </place>
+                <place xml:id="Athens">
+                    <placeName xml:lang="it">Atene</placeName>
+                    <placeName xml:lang="en">Athens</placeName>
+                </place>
+                <place xml:id="Brescia">
+                    <placeName xml:lang="it">Brescia</placeName>
+                    <placeName xml:lang="en">Brescia</placeName>
+                </place>
+                <place xml:id="Bucarest">
+                    <placeName xml:lang="it">Bucarest</placeName>
+                    <placeName xml:lang="en">Bucarest</placeName>
+                </place>
+                <place xml:id="Buşr">
+                    <placeName xml:lang="it">Buşr al-Hariri</placeName>
+                    <placeName xml:lang="en">Buşr al-Hariri</placeName>
+                </place>
+                <place xml:id="Capua">
+                    <placeName xml:lang="it">Capua</placeName>
+                    <placeName xml:lang="en">Capua</placeName>
+                </place>
+                <place xml:id="CivitaCastellana">
+                    <placeName xml:lang="it">Civita Castellana</placeName>
+                    <placeName xml:lang="en">Civita Castellana</placeName>
+                </place>
+                <place xml:id="Copenhagen">
+                    <placeName xml:lang="it">Copenhagen</placeName>
+                    <placeName xml:lang="en">Copenhagen</placeName>
+                </place>
+                <place xml:id="Delphi">
+                    <placeName xml:lang="it">Delfi</placeName>
+                    <placeName xml:lang="en">Delphi</placeName>
+                </place>
+                <place xml:id="Florence">
+                    <placeName xml:lang="it">Firenze</placeName>
+                    <placeName xml:lang="en">Florence</placeName>
+                </place>
+                <place xml:id="Gortyna">
+                    <placeName xml:lang="it">Gortyna</placeName>
+                    <placeName xml:lang="en">Gortyna</placeName>
+                </place>
+                <place xml:id="Hierapolis">
+                    <placeName xml:lang="it">Hierapolis</placeName>
+                    <placeName xml:lang="en">Hierapolis</placeName>
+                </place>
+                <place xml:id="Jerusalem">
+                    <placeName xml:lang="it">Gerusalemme</placeName>
+                    <placeName xml:lang="en">Jerusalem</placeName>
+                </place>
+                <place xml:id="Kherson">
+                    <placeName xml:lang="it">Kherson</placeName>
+                    <placeName xml:lang="en">Kherson</placeName>
+                </place>
+                <place xml:id="Leptis">
+                    <placeName xml:lang="it">Leptis Magna</placeName>
+                    <placeName xml:lang="en">Leptis Magna</placeName>
+                </place>
+                <place xml:id="Munich">
+                    <placeName xml:lang="it">Monaco</placeName>
+                    <placeName xml:lang="en">Munich</placeName>
+                </place>
+                <place xml:id="Myra">
+                    <placeName xml:lang="it">Myra</placeName>
+                    <placeName xml:lang="en">Myra</placeName>
+                </place>
+                <place xml:id="Novoselec">
+                    <placeName xml:lang="it">Novoselec</placeName>
+                    <placeName xml:lang="en">Novoselec</placeName>
+                </place>
+                <place xml:id="Ostia">
+                    <placeName xml:lang="it">Ostia</placeName>
+                    <placeName xml:lang="en">Ostia</placeName>
+                </place>
+                <place xml:id="Paphos">
+                    <placeName xml:lang="it">Paphos</placeName>
+                    <placeName xml:lang="en">Paphos</placeName>
+                </place>
+                <place xml:id="Paris">
+                    <placeName xml:lang="it">Parigi</placeName>
+                    <placeName xml:lang="en">Paris</placeName>
+                </place>
+                <place xml:id="Portogruaro">
+                    <placeName xml:lang="it">Portogruaro</placeName>
+                    <placeName xml:lang="en">Portogruaro</placeName>
+                </place>
+                <place xml:id="Roma">
+                    <placeName xml:lang="it">Roma</placeName>
+                    <placeName xml:lang="en">Roma</placeName>
+                </place>
+                <place xml:id="Sanamein">
+                    <placeName xml:lang="it">Al-Sanamein</placeName>
+                    <placeName xml:lang="en">Al-Sanamein</placeName>
+                </place>
+                <place xml:id="Selçuk">
+                    <placeName xml:lang="it">Selçuk</placeName>
+                    <placeName xml:lang="en">Selçuk</placeName>
+                </place>
+                <place xml:id="Sofia">
+                    <placeName xml:lang="it">Sofia</placeName>
+                    <placeName xml:lang="en">Sofia</placeName>
+                </place>
+                <place xml:id="Szombathely">
+                    <placeName xml:lang="it">Szombathely</placeName>
+                    <placeName xml:lang="en">Szombathely</placeName>
+                </place>
+                <place xml:id="Trinitapoli">
+                    <placeName xml:lang="it">Trinitapoli</placeName>
+                    <placeName xml:lang="en">Trinitapoli</placeName>
+                </place>
+                <place xml:id="Tubernuc">
+                    <placeName xml:lang="it">Tubernuc</placeName>
+                    <placeName xml:lang="en">Tubernuc</placeName>
+                </place>
+                <place xml:id="Vatican">
+                    <placeName xml:lang="it">Città del Vaticano</placeName>
+                    <placeName xml:lang="en">Vatican City</placeName>
+                </place>
+
+                <place xml:id="lost">
+                    <placeName xml:lang="it">Iscrizione perduta</placeName>
+                    <placeName xml:lang="en">Inscription lost</placeName>
+                </place>
+                <place xml:id="unknown">
+                    <placeName xml:lang="it">Luogo sconosciuto</placeName>
+                    <placeName xml:lang="en">Unknown</placeName>
+                </place>
+            </listPlace>
+
+
+            <listPlace>
+                <head>Località antica / Ancient place</head>
+                <place xml:id="Africa">
+                    <placeName xml:lang="it">Africa</placeName>
+                    <placeName xml:lang="en">Africa</placeName>
+                </place>
+                <place xml:id="Galliae">
+                    <placeName xml:lang="it">Galliae</placeName>
+                    <placeName xml:lang="en">Galliae</placeName>
+                </place>
+                <place xml:id="Illirycum">
+                    <placeName xml:lang="it">Illirycum</placeName>
+                    <placeName xml:lang="en">Illirycum</placeName>
+                </place>
+                <place xml:id="Italia_Illyricum_Africa">
+                    <placeName xml:lang="it">Italia Illyricum Africa</placeName>
+                    <placeName xml:lang="en">Italia Illyricum Africa</placeName>
+                </place>
+                <place xml:id="Oriens">
+                    <placeName xml:lang="it">Oriens</placeName>
+                    <placeName xml:lang="en">Oriens</placeName>
+                </place>
+
+
+                <place xml:id="Britanniae">
+                    <placeName xml:lang="it">Britanniae</placeName>
+                    <placeName xml:lang="en">Britanniae</placeName>
+                </place>
+                <place xml:id="Septem_Provinciae">
+                    <placeName xml:lang="it">Septem Provinciae</placeName>
+                    <placeName xml:lang="en">Septem Provinciae</placeName>
+                </place>
+                <place xml:id="Hispaniae">
+                    <placeName xml:lang="it">Hispaniae</placeName>
+                    <placeName xml:lang="en">Hispaniae</placeName>
+                </place>
+                <place xml:id="Italiciana">
+                    <placeName xml:lang="it">Italiciana</placeName>
+                    <placeName xml:lang="en">Italiciana</placeName>
+                </place>
+                <place xml:id="Pannoniae">
+                    <placeName xml:lang="it">Pannoniae</placeName>
+                    <placeName xml:lang="en">Pannoniae</placeName>
+                </place>
+                <place xml:id="Moesiae">
+                    <placeName xml:lang="it">Moesiae</placeName>
+                    <placeName xml:lang="en">Moesiae</placeName>
+                </place>
+                <place xml:id="Dacia">
+                    <placeName xml:lang="it">Dacia</placeName>
+                    <placeName xml:lang="en">Dacia</placeName>
+                </place>
+                <place xml:id="Latium">
+                    <placeName xml:lang="it">Latium</placeName>
+                    <placeName xml:lang="en">Latium</placeName>
+                </place>
+                <place xml:id="Macedonia">
+                    <placeName xml:lang="it">Macedonia</placeName>
+                    <placeName xml:lang="en">Macedonia</placeName>
+                </place>
+                <place xml:id="Thracia">
+                    <placeName xml:lang="it">Thracia</placeName>
+                    <placeName xml:lang="en">Thracia</placeName>
+                </place>
+                <place xml:id="Pontica">
+                    <placeName xml:lang="it">Pontica</placeName>
+                    <placeName xml:lang="en">Pontica</placeName>
+                </place>
+                <place xml:id="Asiana">
+                    <placeName xml:lang="it">Asiana</placeName>
+                    <placeName xml:lang="en">Asiana</placeName>
+                </place>
+                <place xml:id="Aegyptus">
+                    <placeName xml:lang="it">Aegyptus</placeName>
+                    <placeName xml:lang="en">Aegyptus</placeName>
+                </place>
+                <place xml:id="Urbs">
+                    <placeName xml:lang="it">Urbs</placeName>
+                    <placeName xml:lang="en">Urbs</placeName>
+                </place>
+
+
+                <place xml:id="Aradi">
+                    <placeName xml:lang="it">Aradi</placeName>
+                    <placeName xml:lang="en">Aradi</placeName>
+                </place>
+                <place xml:id="Byblos_Berytus">
+                    <placeName xml:lang="it">Tra Byblos e Berytus</placeName>
+                    <placeName xml:lang="en">Between Byblos and Berytus</placeName>
+                </place>
+                <place xml:id="Bosora">
+                    <placeName xml:lang="it">Bosora</placeName>
+                    <placeName xml:lang="en">Bosora</placeName>
+                </place>
+                <place xml:id="Cappadocia">
+                    <placeName xml:lang="it">Cappadocia</placeName>
+                    <placeName xml:lang="en">Cappadocia</placeName>
+                </place>
+                <place xml:id="FaleriiNovi">
+                    <placeName xml:lang="it">Falerii Novi</placeName>
+                    <placeName xml:lang="en">Falerii Novi</placeName>
+                </place>
+                <place xml:id="Nakida">
+                    <placeName xml:lang="it">Nakida</placeName>
+                    <placeName xml:lang="en">Nakida</placeName>
+                </place>
+                <place xml:id="RomanForum">
+                    <placeName xml:lang="it">Roma, Foro Romano</placeName>
+                    <placeName xml:lang="en">Roma, Roman Forum</placeName>
+                </place>
+                <place xml:id="TrajanForum">
+                    <placeName xml:lang="it">Roma, Foro di Traiano</placeName>
+                    <placeName xml:lang="en">Roma, Trajan’s Forum</placeName>
+                </place>
+            </listPlace>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription in honour of Crispus Caes. from Ephesus by the praet. prefects Petronius Annianus and Iulius Iulianus</title>
+                <editor role="edition">Eleonora Angius</editor>
+                <editor role="encoding">Eleonora Angius</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="pp. 68, 478">09</idno>
+                <date when="2020-03-27"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Annianus"><name type="gentilicium">Petronius</name>
+                            <name type="cognomen">Annianus</name></persName>
+                    </person>
+                    <person>
+                        <persName ref="#Iulianus"><name type="gentilicium">Iulius</name>
+                            <name type="cognomen">Iulianus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Selçuk">Selçuk Museum</repository>
+                        <idno type="invNo">inv. 2558</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the Caesar Crispus</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">blue-grey marble</material>
+                                    <objectType ref="#stone_slab">slab</objectType>
+                                    <dimensions>
+                                        <height>86</height>
+                                        <width>29</width>
+                                        <depth>11</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">none</rs>
+                                    <rs type="monument_reuse">unknown</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#damaged">Damaged: reduced on the upper and right side; the name of Crispus Caesar was erased in 326 AD and replaced with Constantius II Caesar.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#rustic_capitals">rustical capitals</term>
+                                <height>3.5 / 4.5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Ephesus</placeName>
+                                <placeName type="modern_city">Selçuk (Turkey)</placeName>
+                                <placeName type="province">Asia</placeName>
+                                <placeName type="diocese">Asiana</placeName>
+                                <placeName type="prefecture">(not regional before 326 AD)</placeName>
+                                <placeName type="ancient_location" ref="#public">public space</placeName>
+                            </origPlace>
+                            <origDate period="#p3" when="0317" precision="high">317 AD; amended in 326 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#">Ephesus</placeName>, precise findspot unknown</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                <ab>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="line" cert="low"/>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="3"/><supplied reason="lost">d</supplied>oc<unclear>t</unclear><supplied reason="lost" cert="low">rina aequita</supplied><lb 
+                        break="no" n="4"/><supplied reason="lost">t</supplied>e iudic<supplied reason="lost">io rei pu</supplied><lb 
+                        break="no" n="5"/><supplied reason="lost">b</supplied>l<supplied reason="lost">i</supplied>cae rec<supplied reason="lost">tori <expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan></supplied>
+                    <lb n="6"/><expan><abbr><supplied reason="lost">F</supplied>l</abbr><ex>avio</ex></expan> <expan><abbr>Iul</abbr><ex>io</ex></expan> Cri<supplied reason="lost">spo <expan><abbr>nob</abbr><ex>ilissimo</ex></expan></supplied> 
+                    <lb n="7"/>Caesari, 
+                    <lb n="8"/><expan><abbr>Petron</abbr><ex>ius</ex></expan> <supplied reason="lost">Annianus</supplied>
+                    <lb n="9"/><expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan> et <expan><abbr>Iu<supplied reason="lost">l</supplied></abbr><supplied reason="lost"><ex>ius</ex></supplied></expan> <supplied reason="lost">Iulianus</supplied>
+                    <lb n="10"/><expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>em</abbr><ex>inentissimus</ex></expan> <expan><abbr>prae<supplied reason="lost">ff</supplied></abbr><supplied reason="lost"><ex>ecti</ex></supplied></expan> <supplied reason="lost"><expan><abbr>praet</abbr><ex>orio</ex></expan> <expan><abbr>n</abbr><ex>umini</ex></expan></supplied> <expan><abbr><supplied reason="lost">e</supplied><lb 
+                        break="no" n="11"/>or</abbr><ex>um</ex></expan> sempe<supplied reason="lost">r devo</supplied><lb 
+                        break="no" n="12"/>tissi<supplied reason="lost">mi</supplied>.
+                </ab>   
+                <ab>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="line" cert="low"/>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="3"/><supplied reason="lost">d</supplied>oc<unclear>t</unclear><supplied reason="lost" cert="low">rina aequita</supplied><lb 
+                        break="no" n="4"/><supplied reason="lost">t</supplied>e iudic<supplied reason="lost">io rei pu</supplied><lb 
+                        break="no" n="5"/><supplied reason="lost">b</supplied>l<supplied reason="lost">i</supplied>cae rec<supplied reason="lost">tori</supplied>
+                    <lb n="6"/><expan><abbr><supplied reason="lost">F</supplied>l</abbr><ex>avio</ex></expan> <expan><abbr>Iul</abbr><ex>io</ex></expan> «Con<supplied reason="lost">stantio» <expan><abbr>nob</abbr><ex>ilissimo</ex></expan></supplied>
+                    <lb n="7"/>Caesari, 
+                    <lb n="8"/><expan><abbr>Petron</abbr><ex>ius</ex></expan> <supplied reason="lost">Annianus</supplied>
+                    <lb n="9"/><expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan> et <expan><abbr>Iu<supplied reason="lost">l</supplied></abbr><supplied reason="lost"><ex>ius</ex></supplied></expan> <supplied reason="lost">Iulianus</supplied>
+                    <lb n="10"/><expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>em</abbr><ex>inentissimus</ex></expan> <expan><abbr>prae<supplied reason="lost">ff</supplied></abbr><supplied reason="lost"><ex>ecti</ex></supplied></expan> <supplied reason="lost"><expan><abbr>praet</abbr><ex>orio</ex></expan> nu</supplied><lb 
+                        break="no" n="11"/><add place="above">m</add><add place="overstrike">ini eius</add> sempe<supplied reason="lost">r devo</supplied><lb 
+                        break="no" n="12"/>tissi<supplied reason="lost">mi</supplied>.
+                </ab>    
+            </div>
+            <div type="apparatus">
+                <p>The edition of 317 AD is based on Porena 2003, p. 327.</p>
+                <p>
+                    <app loc="3-4"><note>aequita]te: Grünewald 1990, nr. 444, Mc Cabe 1991, nr. 2987, HD 022125</note></app>
+                    <app loc="5"><note>re[ctori et: AE 1938, 85, IK 12 Ephesus, II, 312, Grünewald 1990, nr. 444, Mc Cabe 1991, nr. 2987</note></app>
+                    <app loc="6"><note>Cri[spo] was replaced by «Con[stantio»] after Crispus’ <foreign>damnatio memoriae</foreign> in 326 AD; n(obili): Mc Cabe 1991, nr. 2987</note></app>
+                    <app loc="7"><note>Caesar[i]: AE 1938, 85</note></app>
+                    <app loc="8"><note>Petron[ius Annianus]: AE 1938, 85, IK 12 Ephesus, II, 312, Grünewald 1990, nr. 444</note></app>
+                    <app loc="10-11"><note>n(umini) e]/or(um) was replaced with: nu]/<add place="above">m</add><add place="overstrike">ini eius</add> after Crispus’ <foreign>damnatio memoriae</foreign></note></app>
+                    <app loc="11-12"><note>dica]tissi[mi]: AE 1938, 85, IK 12 Ephesus, II, 312; Grünewald 1990, nr. 444, Mc Cabe 1991, nr. 2987, HD 022125</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“[- - -] guide of the res publica endowed with culture, moderation and common sense, our master Flavius Iulius Crispus, the most noble Caesar; the pretorian prefects Petronius Annianus, of clarissimus rank, and Iulius Iulianus, of eminentissimus rank, ever devoted to their divine spirit.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“[- - -] guide de la res publica en vertu de sa culture, de sa modération et de son jugement, notre  maître Flavius Iulius Crispus, très noble César, les préfets du praetoire Petronius Annianus, clarissime, et Iulius Iulianus, très éminent, toujours dévoués à leur divinité.”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“[- - -] guida della res publica in virtù della sua cultura, moderazione e giudizio, il nostro signore Flavius Iulius Crispus, nobilissimo Cesare, i prefetti del pretorio Petronius Annianus, chiarissimo, e Iulius Iulianus, eminentissimo, sempre devoti al loro nume.”</p>
+            </div>
+            <div type="commentary">
+                <p>The inscription is carved on a blue-grey marble slab that was originally joined to a statue base. Apart from the lower left hand corner, the slab has been irreparably reduced on all sides. Although most of the text is lost, where possible, it has been correctly restored by the editor (Keil 1937, nr. 12) wherever possible. 
+                    The precise findspot of the monument is unfortunately unknown, since the slab was already in the Selçuk Museum (Ephesus) when J. Keil first saw it in 1937 (see Keil 1937, nr. 12). Since the editor has furnished no photographic reproduction, the fragment cannot be analyzed satisfactorily.</p>
+                <p>This slab was joined to a monument decreed by the two prefects Petronius Annianus (PLRE I, p. 68) and Iulius Iulianus (PLRE I, p. 478, for their career see <ref type="ppret" corresp="ppret08">PPRET 08</ref>).</p>
+                <p>There are two evident alterations in the text. The first concerns Crispus Caesar, whose name suffered <foreign>damnatio memoriae</foreign> and was replaced with Constantius II Caesar after his death in 326 AD. It is clear that our inscription originally honoured Crispus (Caesar in 317 AD) and not Constantius II, who became Caesar in 324 AD when Petronius Annianus and Iulius Iulianus were no longer pretorian prefects. Indeed the monument can be dated to 317 AD (or shortly after).</p>
+                <p>Concerning the second alteration on line 7, there are conflicting opinions. Keil (1937, pp. 206-208) suggested restoring the lost incipit with Constantine Augustus’ name, as the first of two original dedicators (and to add a conjunction “<foreign>et</foreign>” near Crispus, line 5), because according to him, two dedicators originally featured. He argues that the wording <foreign>numinibus eorum</foreign> would have been replaced with <foreign>numini eius</foreign> when the plural was no longer necessary, due to the <foreign>damnatio</foreign> of Crispus. Only after some time, when Constantius II took the place of Crispus, the dedicators would be two again and it was simply forgotten to change the singular <foreign>numini eius</foreign>.</p>
+                <p>Porena (2003, pp. 222-333) rightly argued that a prefectural dedication placed in a public and visible context of a city like Ephesus, renowned for the abunance of its works of art, would have been unlikely to allow such a negligence. Indeed, the replacement with Constantius II must occurred simultaneously with the <foreign>damnatio memoriae</foreign> and not later, in order not to create such a confusion. In addition, both Caesar and Augustus’ celebration is unusual in a period of general concord. Not only that, but the position of Constantine’s name in the text supposed by Keil cannot be found in contemporary epigraphic <foreign>usus scribendi</foreign>. What prompted the stone-cutter to alter the final devotional formula after 326 AD, may have to remain mystery.</p>
+                <p>Therefore, the monument originally honoured only one Caesar (Crispus) and the previous wording <foreign>numinibus eorum</foreign> might perhaps express the prefects’ loyalty to the other rulers through a plural devotional formula or it might indicate other parallel monuments individually addressing all the Caesars in charge (but unfortunately lost). Since the other two Caesars, Licinius II and Constantine II, were only infants (they were two and one years old respectively), Porena (2003, pp. 330-331) hypothesized that it might have been too difficult to represent them with imperial attributes, so the pretorian prefects may have decided to erect monuments only to the adolescent Crispus, and to honour the other two through a plural devotional formula. These three Caesars had the same <foreign>dies imperii</foreign>.</p>
+                <p>Whatever the case may be, the discovery of a prefectural dedication at Ephesus, a politically and culturally distant urban center from the other findspots of these monuments (<ref type="ppret" corresp="ppret01">PPRET 01</ref>; <ref type="ppret" corresp="ppret02">PPRET 02</ref>; <ref type="ppret" corresp="ppret17">PPRET 17</ref>; <ref type="ppret" corresp="ppret18">PPRET 18</ref>), but still administratively relevant, inevitably suggests a wider diffusion of this type of monument.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Keil 1937, nr. 12</ref>= <bibl><ref>AE 1938, 85</ref></bibl></bibl>
+                    <bibl><ref>IK 12 Ephesus, II, 312</ref></bibl>
+                    <bibl><ref>Grünewald 1990, nr. 444</ref></bibl> 
+                    <bibl><ref>Mc Cabe 1991, nr. 2987</ref></bibl>
+                    <bibl><ref>Porena 2003, pp. 320-333</ref> = <bibl><ref>AE 2003, 1685</ref></bibl></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p>
+                    <bibl><ref>Keil 1937, nr. 12</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-30100022">EDCS 3010002</ref></bibl>
+                    <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD022125">HD 022125</ref></bibl>
+                    <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-241">LSA 241</ref></bibl>
+                    <bibl><ref corresp="https://inscriptions.packhum.org/text/250724?hs=79-108">PH 250724</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Börker C., Merkelbach R., Die Inschriften von Ephesos. 2. Nr. 101 - 599, Vol. II, Bonn 1979, 112-113, nr. 312</bibl> 
+                    <bibl>Grünewald Th., Constantinus, Maximus Augustus: Herrschaftspropaganda in der zeitgenössischen Überlieferung, Stuttgart 1990, 249, nr. 444</bibl>
+                    <bibl>Keil J.,  XIX Vorläufiger Bericht über die Ausgrabungen in Ephesos, JÖAI, 30, 1937, 206-208, nr. 12</bibl> 
+                    <bibl>Mc Cabe D. F., Elliot R. N., Kang M. A. H., Redmond C., Ephesos. Inscriptions, Princeton 1991, 275, nr. 2987</bibl>
+                    <bibl>Porena P., La prefettura del pretorio tardoantica, Roma 2003, 320-337</bibl> 
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.3"></p>
+                </div>
+                <div type="commentary" n="7">
+                    <p n="7.1"></p>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">v(ir) c(larissimus) et v(ir) em(inentissimus)</p>
+                    <p n="8.2">prae[ff(ecti) praet(orio)]</p>
+                    <p n="8.5"></p>
+                    <p n="8.9"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

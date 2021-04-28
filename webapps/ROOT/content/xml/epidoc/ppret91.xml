@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Greek verse inscription in honour of Tatianus praet. prefect from Aphrodisias by his descendant of the same name (rehabilitation)</title>
+                <editor role="edition">Giordana Franceschini</editor>
+                <editor role="encoding">Giordana Franceschini</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="p. 876">91</idno>
+                <date when="2020-03-27"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Tatianus"><name type="praenomen">Flavius</name>
+                            <name type="gentilicium">Eutolmius</name>
+                            <name type="cognomen">Tatianus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Aphrodisias">Findspot</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for Tatianus praetorian prefect</term>
+                            <term type="rhythm" ref="#poetry">poetry (nine hexameters)</term>
+                        </summary>
+                        <textLang mainLang="grc">Greek</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#base">statue base</objectType>
+                                    <dimensions>
+                                        <height>122</height>
+                                        <width>58</width>
+                                        <depth>49</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">no</rs>
+                                    <rs type="monument_reuse">no</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>The base was inscribed on one field. It has 16 lines.</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#undamaged">Undamaged.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#squared">squared letters with serifs</term>
+                                <height>3 / 4.5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Aphrodisias</placeName>
+                                <placeName type="modern_city">Geyre (Turkey)</placeName>
+                                <placeName type="province">Caria</placeName>
+                                <placeName type="diocese">Asiana</placeName>
+                                <placeName type="prefecture">Oriens</placeName>
+                                <placeName type="ancient_location" ref="#public">Public building (Hadrianic Baths)</placeName>
+                            </origPlace>
+                            <origDate period="#p8" notBefore="0400" notAfter="0450">400/450 AD</origDate>
+                        </origin>
+                        <provenance type="found">The inscription was found in <placeName ref="#">Aphrodisias</placeName>, in the East forecourt of the Hadrianic Baths, slightly North of the southern colonnade.</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                <ab>
+                    <lg>
+                            <lb n="1"/><l>τίς; πόθεν; ἐκ Λυκίης μέν,
+                            <lb n="2"/>ἀριστεύσας δ’ ἐνὶ θώκοις</l>
+                            <lb n="3"/><l>Τατιανὸς θεσμοῖς τε δίκης
+                            <lb n="4"/>πτολίεθρα σαώσας·</l>
+                            <lb n="5"/><l>ἀλλά με πανδαμάτωρ χρόνος
+                            <lb n="6"/>ὤλλυεν, εἰ μὴ ἐμὸς παῖς</l>
+                            <lb n="7"/><l>ἐξ ἐμέθεν τρίτατος καὶ
+                            <lb n="8"/>ὁμώνυμος ἔργα θ’ ὅμοιος</l>
+                            <lb n="9"/><l>ἐκ δαπέδων ἀνελὼν
+                            <lb n="10"/>στήλης ἔπι θῆκεν ὁρᾶσ<supplied reason="lost">θαι</supplied></l>
+                            <lb n="11"/><l>πᾶσιν ἀρίζηλον ναέταις
+                            <lb n="12"/><expan><abbr>ξ</abbr><ex>ε</ex><abbr>ίνοισει</abbr></expan> θ’ ὁμοίως</l>
+                            <lb n="13"/><l>Καρῶν ἐκ γέης ὃς ἀπήλασε
+                            <lb n="14"/>λοίγιον ἄτην</l>
+                            <lb n="15"/><l>τὴν δὲ δίκην <expan><abbr>μερόπε</abbr><ex>σ</ex><abbr>σιν</abbr></expan>
+                            <lb n="16"/>ὁμέστιον ὤπασ’ ἐπεῖναι</l>
+                            <lb n="17"/><l>πεμφθεὶς ἐκ βασιλῆος 
+                            <lb n="18"/>ἔθ’ ἁδομένοισιν ἀρωγός.</l>
+                    </lg>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on the text edited by Merkelbach, Stauber 1998, nr. 2-9-24.</p>
+                <p>
+                    <app loc="4"><note>ξαώσας: ALA; LSA </note></app>
+                    <app loc="8"><note>τ’ὅμοιος: Merkelbach</note></app>
+                    <app loc="10"><note>στήλαις: Livrea; στήλῃς: Merkelbach; ἐπέθηκεν: Livrea; ἐπίθηκεν: Robert; AE</note></app>
+                    <app loc="12"><note>ξίνοισει: Merkelbach; ξείνοισί: Livrea; ξίνοισει: Robert; AE</note></app>
+                    <app loc="13"><note>γαίης: Livrea</note></app>
+                    <app loc="15"><note>μερόπεσιν: Robert; AE</note></app>
+                    <app loc="16"><note>ὤπασε πείνᾳ: Robert; AE; Merkelbach; Livrea</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“Chi sono ? Da dove vengo ? Sono Tatianus, dalla Licia, che ha primeggiato sui seggi dei dignitari, e che ha salvato le città per mezzo delle leggi della Giustizia. Ma il tempo che domina tutte le cose mi avrebbe distrutto se il mio rampollo, la terza generazione dopo di me, che porta il mio nome e che mi è simile per i successi, non mi avesse sollevato da terra e non mi avesse posto su un monumento, in modo che potessi essere visto e ammirato da tutti, abitanti del luogo e stranieri allo stesso modo; egli che allontanò la rovina fatale dalla terra dei Cari e che ha portato la Giustizia a dimorare fra i mortali, quando fu inviato dall’imperatore come difensore alle persone che ancora gioiscono.”</p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“Who am I ? Where am I from ? I am Tatianus, from Lycia, who excelled in the seats of high officials, who saved cities through the laws of Justice. But the time which dominates all things would have destroyed me if my progeny, the third generation after me, who bears my name and who is similar to me in her achievements, had not lifted me up from the ground and placed me on a base, so that I might be seen and admired by all, local citizens and strangers alike; he who drove fatal decay away from the land of the Carians and who brought Justice to dwell among mortal men, when he was sent by the emperor as a protector to the people who still rejoice.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“Qui suis-je ? D’où est-ce que je viens ? Je suis Tatianus, de Lycie, qui excellait dans les sièges des dignitaires, et qui a sauvé des villes grâce aux lois de la Justice. Mais le temps qui domine toutes choses m’aurait détruit si mon descendant, la troisième génération après moi, qui porte mon nom et qui me ressemble par son succès, ne m’avait pas soulevé de terre et placé sur un monument, afin que je sois vu et admiré de tous, locaux et étrangers; lui qui a chassé les ruines fatales du pays des Cariens et qui a fait régner la Justice parmi les mortels, lorsqu’il a été envoyé par l’empereur comme défenseur du peuple qui se réjouit encore.”</p>
+            </div>
+            <div type="commentary">
+                <p>The inscribed verse is in honour of Flavius Eutolmius Tatianus (PLRE I, pp. 876-878), who held the post of eastern praetorian prefect from 388 AD and 392 AD (see also <ref type="ppret" corresp="ppret82">PPRET 82</ref>, <ref type="ppret" corresp="ppret83">83</ref>, <ref type="ppret" corresp="ppret84">84</ref>, <ref type="ppret" corresp="ppret85">85</ref>, <ref type="ppret" corresp="ppret86">86</ref>, <ref type="ppret" corresp="ppret87">87</ref>, <ref type="ppret" corresp="ppret88">88</ref> and <ref type="ppret" corresp="ppret90">90</ref>); for further information about the metric system adopted in this verse inscription see Agosti 2010.</p>
+                
+                <p>The monument</p>
+                <p>The rectangular statue-base, on which our inscription is chiselled on the central panel, was found in 1905 by G. Mendel in the East forecourt of the Hadrianic Baths, in the ancient city of Aphrodisias, Caria, near the modern village of Geyre, Turkey.</p>
+                <p>The first original monument – the base and its statue – had probably been set up while Flavius Eutolmius Tatianus was still in office. The monument was probably built by the will of the city or the governor and it had been removed or destroyed after Tatianus’ <foreign>damnatio memoriae</foreign> in the second half of 392 or during 393 AD: Tatianus was tried and sentenced to exile by Theodsius I at this moment (Rebenich 1989). 
+                    Therefore, the inscription we currently read is the result of a restoration made by Tatianus junior, the prefect’s grandson or great-grandson, after the rehabilitation of his ancestor (Livrea 1997). 
+                    The evidence adduced by Livrea that Tatianus junior should be considered the author of our poetic inscription is the mention that empress Eudocia makes of one of the (pagan) Tatiani in 450/452 AD in the preface to Patricius Bishop’s Ὁμηρόκεντρα / Homerocentones (Praef. p. 83 Ludwich = pp. 1-2 Usher), in which the author commends the poetic performances of Tatianus (he attributes four epigrams of the Anthologia Palatina to the older Tatianus: <ref type="source">AP 06, 86</ref>; <ref type="source">AP 07, 608</ref>; <ref type="source">AP 07, 611</ref>; <ref type="source">AP 09, 587</ref>; for the metric scheme of the inscription of Tatianus senior with <foreign>cursus honorum</foreign> from Sidyma see <ref type="ppret" corresp="ppret87">PPRET 87</ref>).</p>
+                <p>The base itself seems to be new and made for the purpose; the reference to “lifting up from the ground” (l. 9: ἐκ δαπέδων ἀνελὼν) must be taken notionally. The young Tatianus probably repaired the statue and mounted it on a new base.</p>
+                
+                <p>The text</p>
+                <p>M. A. Boulanger made a transcription of the text (notebook A, 59, nr. 17, whence B, 9, nr. 10) on which L. Robert based his edition, published in Hellenica IV (Robert 1948, pp. 47 ff).</p>
+                <p>In ll. 2-4, Tatianus is mentioned as a man who had held the highest offices and as savior of cities. This juxtaposition is the mirror of Libanius’ quote in decl. 38, 4: τοῖς ἀριστεύουσι, παρ’ὧν ἡ σωτηρία τῇ πόλει. Libanius speaks extensively in his letters of what he believes should be the goal of a good prefect, that is to be a savior for the cities he manages. The salvation of cities is the beneficial outcome of the government actions of prefects like Tatianus, which is expressed not only in the ability to choose the staff for the provincial administration, but also in its political activity (see <ref type="source">Lib., Ep. 0872</ref>, <ref type="source">Lib., Ep. 0990</ref> and <ref type="source">Lib., Ep. 0992</ref>; Pellizzari 2011).</p>
+                <p>A problem of reading and of interpretation in l. 16: Robert (1948) reads ὤπασε πείνᾳ, followed by Livrea (1997). The latter thinks that a reference to “hunger” recalls the topos of justice and privation: the absolute poverty of the administrator appears to guarantee his probity. Christian sources say that Tatianus ended his life whilst still in disfavor and in deprivation. Indeed, Photios writes that he spent his last years as a blind beggar (<ref type="source">Phot. Bibl. 258</ref>; cf. <ref type="source">Asterius, 04, 09, 03</ref> - <ref type="source">PG 40, 224-225</ref>). 
+                    Merkelbach (1970) suggested that πείνᾳ stood for ποινᾷ, with the meaning of punishment; following this interpretation the verse could be translated: “he gave justice to mortals, which is the companion of punishment”, because, according to Merkelbach, one of the most important virtues for a governor was the μισοπονηρία, i.e. hatred of evil. Peek (1954) conjectured ὤπασ’ ἐπεῖναι, which seems to be the most plausible hypothesis: “he gave justice to live among mortals”.</p>
+                
+                <p>Tatianus and his son Proculus</p>
+                <p>Tatianus was native of Lycia (<ref type="source">Athanasius, Ep. Fest., a. 367</ref>; <ref type="source">Lib., Or., 56, 16</ref>; <ref type="source">Eun., Fr. 57</ref>; <ref type="source">CTh 09, 38, 09</ref>; <ref type="source">Theoph., AM 5943</ref>; <ref type="source">Zon. 13, 24, 05</ref>; <ref type="source">Cedr., 01, 603</ref>; <ref type="source">Nic. Call., 15, 01</ref> see <ref type="ppret" corresp="ppret89">PPRET 89</ref>); his father, Antonius Tatianus, was governor of Caria and his mother was a daughter of Eutolmius, governor of one of the eastern provinces in 365 AD. 
+                    His whole career, conducted between 358 and 364 AD as a lawyer and counselor, and from around 364 to 392 AD as a dignitary, is recorded in ascending order of importance from <foreign>praeses</foreign> (ἡγεμών) to <foreign>praefectus praetorio</foreign> (ἔπαρχος) in a verse inscription from Sidyma in Lycia, his homeland <ref type="ppret" corresp="ppret87">(PPRET 87</ref>).</p>
+                <p>In 388 AD Tatianus already had held numerous offices when the emperor Theodosius I called him to court and appointed him praetorian prefect of the East (<ref type="source">Zos. 04, 45, 01</ref>). We are aware of the political choices made during Tatianus’ praetorian prefecture from no less than thirty-seven laws of the Theodosian Code and thanks to thirty references to him in letters and in speeches of Libanius (on the activity of Tatianus see Mecella 2015).</p>
+                <p>In 388 AD, shortly before leaving for the campaign against the usurper Magnus Maximus, the emperor appointed Tatianus’ son Proculus urban prefect of Constantinople (PLRE I, pp. 746-747 Proculus 6; see also <ref type="ppret" corresp="ppret89">PPRET 89</ref>).</p>
+                <p>By choosing such eminent figures to hold two high positions such as praetorian prefect of the East and prefect of Constantinople, Theodosius probably intended to quell the rumblings of the urban elites, that had been severely tested by the experience of Cynegius (the previous eastern praetorian prefect from 384 to 388 AD), whose policy against paganism and the increase in tax had caused discontent.</p>
+                <p>In 391 AD Tatianus received the highest honour, becoming consul while he was still in office as praetorian prefect (CLRE, pp. 316-317; <ref type="ppret" corresp="ppret87">PPRET 87</ref>), but only one year after Flavius Rufinus (PLRE I, pp. 778-781 Rufinus 18) used his influence at court to launch accusations against Tatianus and his son. 
+                    Proculus, fearing for his life, fled but Rufinus persuaded Tatianus into recalling his son from hiding, and imprisoned him immediately. As we know from Asterius of Amasea and Claudian (<ref type="source">Asterius, 04, 09, 03</ref>; <ref type="source">Claud., In Ruf., 01, 246-249</ref>), Proculus was executed in December 393 AD, and Tatianus was forced to attend. 
+                    Tatianus was also sentenced to death, but at the last minute his punishment was commuted to banishment, confiscation of his properties and <foreign>damnatio memoriae</foreign> (<ref type="source">Eun., Fr. 57</ref>; <ref type="source">Zos. 04, 52, 04</ref>; <ref type="source">Claud., In Ruf., 01, 246-249</ref>). 
+                    Theodosius also abolished most of the laws that had been promoted by the father and son and Tatianus ended his life still in disfavour. The removal of Tatianus and Proculus also meant removing the civil officers from Lycia and Caria from their positions in the administration of the Eastern Empire. Rufinus appears in his new post of praetorian prefect on August 26<hi rend="superscript">th</hi> 392 AD (<ref type="source">CTh 08, 06, 02</ref>). Only after his fall was Tatianus’ name rehabilitated (<ref type="source">CTh 09, 38, 09</ref>, August 31<hi rend="superscript">th</hi> 396 AD by Arcadius).</p>
+                
+                <p>Accusations against Tatianus and Proculus</p>
+                <p>What was the charge against father and son? Olszaniec (2013) suggests the charge of <foreign>crimen laesae maiestatis</foreign>, as Eunapius’ words seem to hint: it was the promise of the emperor forgetting about the past and giving both of them honours which persuaded Tatianus into calling Proculus back to court (<ref type="source">Eun., Fr. 57</ref> Blockley; <ref type="source">Zos. 03, 52, 03</ref>): “forgetting the past” seems to allude to an accusation of treason. 
+                    Another element that seems to confirm this hypothesis is the type of punishment imposed on Tatianus: exile and the confiscation of property are recurrent in the case of treason. Mecella (2015) conjectures a different accusation: to justify such a repression, the imperial chancellery could have accused the two prefects of embezzlement. The veracity of such an accusation could be endorsed by two constitutions of the Theodosian Code which testify to proscriptions followed by confiscations (<ref type="source">CTh 09, 42, 12-13</ref>, both of 393 AD) together with an ill-defined tax that Tatianus would have arbitrarily imposed on the provincials.</p>
+                <p>The father and son could also have taken advantage of their position to promote the careers of men belonging to their family and within their circle of patronage. Therefore, when the emperor, after three years of absence, returned in 391 AD, he found a deeply changed situation. The trust accorded to the eastern elites did not seem have been repaid: Tatianus had used his power against the Christian clergy and Proculus had attempted to strengthen his authority as urban prefect. This style of administration, including the protection of a cities’ autonomy and the respect for ancient cults, fits in well with the political traditions of the Hellenistic world, but it may have appeared dangerous for the imperial authority.</p>
+                <p>In order to understand the accusations against Tatianus and Proculus one has to place Rufinus’ accusations in their political setting. In the eyes of Theodosius, Tatianus and Proculus represented the expression of a more localized power and so had to be eliminated in order to prop up the centralized one (Mecella 2015).</p>
+                
+                <p>The awarder: Tatianus grandson?</p>
+                <p>Proculus wasn not the only child of Tatianus, since he also had a daughter and two grandsons: Tatianus (PLRE II, pp. 1053-1054 Tatianus 1) and Iulius (PLRE II, p. 642 Iulius 4), who also entered the career as civil officers. 
+                    Theophanes reports (<ref type="source">Theoph., AM 5943</ref>; see also <ref type="source">Zon., Epit. Hist., 13, 24, 04-08</ref> (Pinder 1897, pp. 113-114); <ref type="source">Cedr., 01, 603–604</ref>; <ref type="source">Nic. Call., 15, 01</ref> [PG, t. 147, 12]) an acceleration of their career after coming across Marcianus, a young officer at the time (420-422 AD), returning from the Persian campaign. 
+                    Marcianus fell ill in Sidyma (Lycia) and the two brothers took care of him and made a prediction: one day the young soldier would become emperor (<ref type="source">Theoph., AM 5943</ref>. See also <ref type="source">Zon., Epit. Hist., 13, 24, 04-08</ref> (Pinder 1897, pp. 113-114); <ref type="source">Cedr., 01, 603–604</ref>; <ref type="source">Nic. Call., 15, 01</ref> [PG, t. 147, 12]). 
+                    As soon as Marcianus ascended the imperial throne (by marrying Pulcheria after the death of Theodosius II in 450 AD), Tatianus was appointed urban prefect in Constantinople (up to at least August 452 AD). 
+                    450 AD is the <foreign>terminus ante quem</foreign> of our inscription. He should be the awarder of the inscription. Verse 7 supports this hypothesis: ἐξ ἐμέθεν τρίτατος καὶ ὁμώνυμος ἔργα θ’ ὅμοιος. Roueché (1989) takes this verse into consideration but highlights how it could have more than one meaning: it could refer to a third generation Tatianus (and therefore Tatianus’ grandson) or it could refer to a Tatianus who bears the family name (in this case he would be identified as Tatianus’ great-grandson, because the prefect’s son bears the name of Proclus). 
+                    The first hypothesis seems to be the most probable since ἐξ ἐμέθεν τρίτατος and ὁμώνυμος are separated by the conjunction καὶ: this would be superfluous if we accepted the second hypothesis. The two conjunctions therefore (καὶ and θ’, that is τε) are used to separate the three elements that would bring Tatianus grandfather closer to his grandson: the kinship, the shared name and the goals that both have achieved.</p>
+                <p>Not all scholars share this thesis. The advanced age of the grandson (about seventy years) at the time of the production of the rehabilitative inscription raises concerns. Seeck (1906) suggests that this Tatianus was the grandson of the praetorian prefect, a son of the Prefect’s daughter, who was sent to stay with his grandfather in 388 AD in order to complete his education, as we know from a letter of Libanius (<ref type="source">Lib., Ep. 0899</ref>).
+                    Robert (1949), too, suggested that he should be identified with Tatianus, the grandson of the PPO mentioned by Libanius. PLRE II shared this assessment identifying Tatianus 1 (PVC 450-452; cos. 466; patricius), grandson of Tatianus PPO by his daughter, both with the young man mentioned in Libanius’ letter and in our rehabilitative inscription.</p>
+                <p>Roueché (1989) had a different view: she conjectures that the praetorian prefect had another, younger son, who stayed in Lycia, and was probably not exterminated in 392 AD, but merely banned from public office with the other Lycians. This man’s son, also named Tatianus, need not have been born as early as 380 AD and he could have served as governor of Caria under Theodosius II, restoring his grandfather’s statue.</p>
+                <p>A third hypothesis is advanced by Scharf (1991) who, taking into consideration Tatianus’ family name, pointed out that our inscription shows four generations of the prefect’s family: that name was borne not only by his grandson, but also by his great-grandson.</p>
+                <p>Olszaniec (2013), agreeing with Scharf, assumes that the author of the rehabilitative inscription should be identified as the great-grandson of Tatianus PPO, the son of Tatianus <foreign>praefectus urbi</foreign> of Constantinople in 450 AD; the author became a governor of Caria bearing that name.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Robert 1948, pp. 47-50</ref> = <bibl><ref>AE 1949, 219</ref></bibl> = <bibl><ref>SEG 15 (1958), 661</ref></bibl> = <bibl><ref>BE 1949, 178</ref></bibl></bibl>
+                    <bibl><ref>Peek 1954, p. 528</ref></bibl>
+                    <bibl><ref>Merkelbach 1970, p. 132</ref> = <bibl><ref>BE 1971, 616</ref></bibl></bibl>
+                    <bibl><ref>Roueché 1989, nr. 37</ref></bibl>
+                    <bibl><ref>Livrea 1997, p. 43</ref> = <bibl><ref>BE 1998, 646</ref></bibl></bibl>
+                    <bibl><ref>Merkelbach, Stauber 1998, nr. 2-9-24</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://insaph.kcl.ac.uk/ala2004/inscription/eAla037.html">ALA 37</ref></bibl>
+                    <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail.php?record=193">LSA 193</ref></bibl>
+                    <bibl><ref corresp="https://inscriptions.packhum.org/text/257612?">PH 257612</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Agosti G., Eisthesis, divisione dei versi, percezione dei cola negli epigrammi epigrafici in età tardoantica, Segno e Testo, 8, 2010, 81-82</bibl>
+                    <bibl>Barnes T.D., The victims of Rufinus, CQ 34, 1984, 227-230</bibl>
+                    <bibl>Cassia M., Una città da “curare”. Antiochia nell’epistolario di Libanio, Historikà, 4, 2016, 243-266</bibl>
+                    <bibl>Collignon M., Notes sur les fouilles executées à Aphrodisias par M. Paul Gaudin, CRAI 1904, 703-711</bibl>
+                    <bibl>Cuvigny H., Τρισαυγούστιον et φραγέλλιον. Contrôle de qualité et mesurage du grain fiscal au IVe s. apr. J.-C. à la lumière de P.Mich. XX 800 et de l’inscription tardive du grenier d’Andriakè, Chiron 47, 2017, 95-114</bibl>
+                    <bibl>Errington R., A note on the Augustal Prefect of Egypt, Tyche 17, 2002, 69-77</bibl>
+                    <bibl>Grégoire H., Miettes d’histoire byzantine (IVe-VIe siècle), Anatolian Studies presented to Sir William Mitchell Ramsay, Manchester-London-New York, 1923, 151-164</bibl>
+                    <bibl>Grégoire H., Quand est né l’empereur Théodose II ?, Byzantion 4, 1927-1928, 337-348</bibl>
+                    <bibl>Hedrick C.W., History and Silence: Purge and Rehabilitation of Memory in Late Antiquity, Austin, 2000</bibl>
+                    <bibl>Kühn H., Topica epigrammatum dedicatorium Gracorum, Bratislava, 1906</bibl>
+                    <bibl>Liverani P., Chi parla a chi? Epigrafia monumentale e immagine pubblica in epoca tardoantica, Using Images in Late Antiquity, Oxford-Philadelphia 2014, 21</bibl>
+                    <bibl>Livrea E., I due Taziani in un’iscrizione di Afrodisia, ZPE 119, 1997, 43-49</bibl>
+                    <bibl>Ludwich A. (ed.), Eudocia Augusta, Procli Lycii, Claudiani Carminum Graecorum Reliquiae, Lipsiae (Teubner) 1897</bibl>
+                    <bibl>Manganaro G., Due note tardoantiche, ZPE 94, 1992, 283-294</bibl>
+                    <bibl>Mecella M., L’amministrazione di Taziano e Proculo e il destino dei Lici tra Teodosio e Arcadio, in Governare e riformare l’impero al momento della sua divisione: Oriente, Occidente, Illirico Roma, 2015</bibl>
+                    <bibl>Mendel G., Seconde note sur les fouilles executées à Aphrodisias par M. Paul Gaudin. Campagne de 1905, CRAI, 1906, 158-184</bibl>
+                    <bibl>Merkelbach R., Das Epigramm aus Sidyma auf Tatianus, ZPE, 30, 1978, 173-174</bibl>
+                    <bibl>Merkelbach R., Stauber J., Steinepigramme aus dem griechischen Osten, I, Die Westküste Kleinasiens von Knidos bis Ilion, Stuttgart-Leipzig 1998</bibl>
+                    <bibl>Nollé J., Side im Altertum: Geschichte und Zeugnisse, IK, 43, 1993, nr. 52</bibl>
+                    <bibl>Olszaniec S., Prosopographical Studies on the Court Elite in the Roman Empire (4<hi rend="superscript">th</hi> Century AD), Toruń, 2013</bibl>
+                    <bibl>Peek W., ΠΕΙΡΑΤΑ ΤΕΧΝΗΣ, Wiss. Univ. Halle 4, 1954-1955</bibl>
+                    <bibl>Pellizzari A., «Salvare le città»: lessico e ideologia nell’opera di Libanio, Κοινωνία 35, 2011, 45-61</bibl>
+                    <bibl>Petit P., Les fonctionnaires dans l’œuvre de Libanius. Analyse prosopographique, Besançon 1994</bibl>
+                    <bibl>Rebenich S., Beobachtungen zum Sturz des Tatianus und des Proculus, ZPE, 76, 1989, 153-165</bibl>
+                    <bibl>Reinach T., Inscriptions d’Aphrodisias, REG, 19, 1906, 79-150, 205-298</bibl>
+                    <bibl>Robert L., Hellenica. Recueil d’épigraphie, de numismatique et d’antiquités grecques, IV, Epigrammes du Bas-Empire, Paris 1948</bibl>
+                    <bibl>Scharf R., Die Familie des Fl. Eutolmius Tatianus, ZPE 85, 1991, 223-231</bibl>
+                    <bibl>Seeck O., Die Briefe des Libanius, Leipzig 1906</bibl>
+                    <bibl>Usher M.D. (ed.), Homerocentones Eudociae Augustae, Stuttgart (Teubner) 1999</bibl>
+                    <bibl>Whelan R., Mirrors for Bureaucrats: Expectations of Christian Officials in the Theodosian Empire, JRS, 108, 2018, 74-98</bibl>
+                    <bibl>Woods D., Tatianus and the Basilica of Menas, Byzantion 65, 1995, 467-474</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.a"></p>
+                    <p n="2.2"></p>
+                    <p n="2.3"></p>
+                    <p n="2.5"></p>
+                    <p n="2.9"></p>
+                    <p n="2.10">ἀριστεύσας δ’ ἐνὶ θώκοις Τατιανὸς θεσμοῖς τε δίκης πτολίεθρα ξαώσας</p>
+                    <list n="2.11">
+                        <item n="2.11.h"></item>
+                    </list>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.5"></p>
+                    <p n="8.15"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

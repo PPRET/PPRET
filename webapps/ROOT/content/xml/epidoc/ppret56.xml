@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Valentinian I’s constitution addressed to the praet. prefect Probus from Trinitapoli</title>
+                <editor role="edition">Pierfrancesco Porena, Irene Vagionakis</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="new">56</idno>
+                <date when="2020-06-23"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Probus"><name type="praenomen">Sextus</name>
+                        <name type="gentilicium">Claudius</name>
+                        <name type="gentilicium">Petronius</name>
+                        <name type="cognomen">Probus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Trinitapoli">Museo di Trinitapoli</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#normative">legislative inscription</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">Proconnesian marble</material>
+                                    <objectType ref="#stone_slab">stone slab</objectType>
+                                    <dimensions>
+                                        <height>120 / 140</height>
+                                        <width>72</width>
+                                        <depth>2.5 / 5</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">no</rs>
+                                    <rs type="monument_reuse">yes: reused in a later tomb</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#fragmentary">Fragmentary: the inscription consists of four rejoined fragments.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <height>2</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Canusium</placeName>
+                                <placeName type="modern_city">Trinitapoli, Canosa di Puglia (Italy)</placeName>
+                                <placeName type="province">Apulia et Calabria</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#public" cert="low">public space (?)</placeName>
+                            </origPlace>
+                            <origDate period="#p7" when="0369" precision="high">369 AD</origDate>
+                        </origin>
+                        <provenance type="found">found in 1968 at <placeName ref="#">Trinitapoli</placeName>, locality of Chiavicella Grande, close to Candida station</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                    <ab>
+                        <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>rum s<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>n</orig> et num ager <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ae invidia reos indiv<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="4" unit="character"/>
+                        <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>us s<supplied reason="omitted">a</supplied>nctione ut intra provin<supplied reason="lost" cert="low">cias</supplied>
+                        <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>rnatim exponantur omnem <sic>riliquam</sic> <gap reason="lost" quantity="2" unit="character"/>
+                        <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">dei</supplied>nceps a<surplus>d</surplus> praepositis pagorum, vel ab his quos
+                        <lb n="7"/><supplied reason="lost" cert="low">horreorum maxim</supplied> <supplied reason="lost" cert="low">reliquorum maxim</supplied>e cura conplectitur, <expan><abbr>me</abbr><ex>n</ex><abbr>strui</abbr></expan><surplus>s</surplus> breves fideliter <expan><abbr>deligenterq</abbr><ex>ue</ex></expan>
+                        <lb n="8"/><supplied reason="lost" cert="low">subdantur</supplied><supplied reason="lost">, et offi</supplied>cio conpetenti a <expan><abbr>p</abbr><ex>rae</ex><abbr>f</abbr><ex cert="low">ato</ex></expan> tabulario civitatis scribtura tradatur qua praes<supplied reason="lost" cert="low">to</supplied> que<lb
+                        break="no" n="9"/><supplied reason="lost">atur cog</supplied>nosci quantum et in qua specie diebus singulis singuli <expan><abbr>quiq</abbr><ex>ue</ex></expan> dissolverin<supplied reason="omitted">t</supplied>, quid<lb
+                        break="no" n="10"/>ve ab <expan><abbr>unoquoq</abbr><ex>ue</ex></expan> trahatur in reliquis. Tum <expan><abbr>vi</abbr><ex>iri</ex></expan> <expan><abbr>il</abbr><ex>lustres</ex></expan> rectores provinciarum, quibus forma
+                        <lb n="11"/><expan><abbr>studioq</abbr><ex>ue</ex></expan> <supplied reason="lost">p</supplied>ostuletur nullus honerosus videri pro<supplied reason="lost">u</supplied>t (?) excurs<surplus>s</surplus>us, ac instructione percepta,
+                        <lb n="12"/>ad certum <supplied reason="lost">al</supplied>iquem locum, per litteras super adventus VI <gap reason="lost" quantity="6" unit="character"/> premiss<corr>a</corr>s possesori<lb
+                        break="no" n="13"/>bus exvo<supplied reason="lost">c</supplied>atis, eant ultro <expan><abbr>citroq</abbr><ex>ue</ex></expan> per pagos et via<supplied reason="lost">s</supplied> vel de<supplied reason="lost">gen</supplied>s. Rerum cum adnotatione
+                        <lb n="14"/>concord<supplied reason="lost">e</supplied>s adpareant, viritim unumquemque super ratiocin<supplied reason="lost" cert="low">iis</supplied> <gap reason="lost" quantity="3" unit="character"/> consulant <gap reason="illegible" quantity="4" unit="character"/>
+                        <lb n="15"/>securita<supplied reason="lost">te</supplied>m ab universis <expan><abbr>adq</abbr><ex>ue</ex></expan> indicia functionis efflagitent, deinde ut, postquam
+                        <lb n="16"/>praesente <supplied reason="lost">in</supplied>quisitione conperere quid ab <expan><abbr>unoquoq</abbr><ex>ue</ex></expan> fuerit exolutum, adtentissime
+                        <lb n="17"/>mox requ<supplied reason="lost">ira</supplied>nt utrum nulla<surplus>m</surplus> summa specie<supplied reason="omitted">r</supplied>um recondeta sit; quid avers<surplus>s</surplus>o<corr>r</corr>um fuerit
+                        <lb n="18"/>supputent <supplied reason="lost">ex</supplied>aminibus, Probe parens carissime <expan><abbr>adq</abbr><ex>ue</ex></expan> amantissime. Igitur praecelsa
+                        <lb n="19"/>sublim<supplied reason="lost">itas t</supplied>ua continuo innotescere omnibus faciat tam salutare decretum
+                        <lb n="20"/>quip<supplied reason="lost">pe c</supplied>um ad perpetuitatem provisionis et gratiae celeberrimis <supplied reason="lost">in</supplied>
+                        <lb n="21"/>locis u<supplied reason="lost">rbiu</supplied>m singularum tabulis id eris incidat. Hoc <supplied reason="lost">t</supplied>a<supplied reason="lost">nt</supplied>um enim remedio provi<lb
+                        break="no" n="22"/>debitur <supplied reason="lost">ill</supplied>arum fraudium quae adtenus conpulsoribu<surplus>i</surplus>s perfidis <expan><abbr>officiisq</abbr><ex>ue</ex></expan> p<supplied reason="lost">er</supplied><lb
+                        break="no" n="23"/>versis ube<supplied reason="lost">r</supplied>rime profuerunt. Collubione submota, <orig>e</orig><gap reason="illegible" quantity="1" unit="character"/><orig>s</orig><gap reason="illegible" quantity="3" unit="character"/>tanter accedat quidquid <supplied reason="lost">publi</supplied><lb
+                        break="no" n="24"/><supplied reason="lost" cert="low">cis</supplied> horrei<supplied reason="lost">s p</supplied>ossessor invexerit; nulla umqua<supplied reason="omitted">m</supplied> reliqua subtraha<supplied reason="lost">n</supplied>tur; nemini <supplied reason="lost" cert="low">ne</supplied>
+                        <lb n="25"/>adeiciat gr<supplied reason="lost">ava</supplied>men alienum, sub nomine autem quid per singulos <expan><abbr>quosq</abbr><ex>ue</ex></expan> veter<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="6" unit="character"/>
+                        <lb n="26"/><orig>in</orig><gap reason="lost" quantity="4" unit="character"/>ionis <supplied reason="lost">per</supplied>solutum sit, nominatori breves mera luce significent. Nullum
+                        <lb n="27"/><gap reason="illegible" quantity="1" unit="character"/><orig>x</orig><gap reason="lost" quantity="6" unit="character"/><orig>em</orig><gap reason="illegible" quantity="1" unit="character"/><orig>s</orig><gap reason="lost" quantity="4" unit="character"/>gere quod non inultum <supplied reason="lost">sit</supplied>, iudex autem concordiam habitet
+                        <lb n="28"/><supplied reason="lost">et</supplied> gratiam <gap reason="illegible" quantity="3" unit="character"/> post hanc nostrae mansuetudinis legem, publicis <expan><abbr>adq</abbr><ex>ue</ex></expan> privatis fo<gap reason="illegible" quantity="2" unit="character"/>
+                        <lb n="29"/><gap reason="illegible" quantity="3" unit="character"/> consulen<supplied reason="lost">t</supplied>em, et <gap reason="illegible" quantity="2" unit="character"/>va<gap reason="illegible" quantity="1" unit="character"/>ibus <expan><abbr>quoq</abbr><ex>ue</ex></expan> titulis consecratam, vel cohibent <gap reason="illegible" quantity="3" unit="character"/>
+                        <lb n="30"/><gap reason="illegible" quantity="1" unit="character"/><orig>a</orig><gap reason="lost" quantity="9" unit="character"/>daverit, vel cum aliqua ex his <gap reason="illegible" quantity="2" unit="character"/> inprobabimus fuerint <gap reason="illegible" quantity="4" unit="character"/> prae<lb
+                        break="no" n="31"/><gap reason="illegible" quantity="2" unit="character"/>ens <gap reason="lost" quantity="7" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> sed nihilominus denuntiamus <expan><abbr>adq</abbr><ex>ue</ex></expan> p<supplied reason="lost" cert="low">ersequimur</supplied>. Ultima (maxima ?)
+                        <lb n="32"/>eum severitate <supplied reason="lost">in</supplied>pl<supplied reason="lost">e</supplied>ctendum (est) qui vel <orig>erretam</orig> vel his pl<gap reason="lost" quantity="13" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>to</orig><gap reason="illegible" quantity="1" unit="character"/>
+                        <lb n="33"/><orig>m</orig><gap reason="illegible" quantity="5" unit="character"/>. Adm<supplied reason="omitted">o</supplied>nien<supplied reason="lost">d</supplied>a damnatione dignissimus est qui <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="34"/>nec posse publi<supplied reason="lost">c</supplied>am admonitionem de<supplied reason="lost">fer</supplied>en<supplied reason="lost">d</supplied>am <gap reason="lost" extent="unknown" unit="character"/>. 
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition by Pierfrancesco Porena.</p>
+                <p>
+                    <app loc="4"><note>s&lt;a&gt;ncito ne: Ruggeri</note></app>
+                    <app loc="6-7"><note>ab his quos / <supplied reason="lost">horreorum maxim</supplied>e cura conplectitur: già ipotesi in Giardina-Grelle</note></app>
+                    <app loc="7"><note><gap reason="lost" quantity="14" unit="character"/>e cura: Giardina-Grelle; mestrui<surplus>s</surplus>: Giardina-Grelle</note></app>
+                    <app loc="8"><note><gap reason="lost" quantity="10" unit="character"/> <supplied reason="lost">offi</supplied>cio: Giardina-Grelle; a <gap reason="illegible" quantity="2" unit="character"/> tabulario: Giardina-Grelle; praes<gap reason="illegible" quantity="2" unit="character"/>que / <gap reason="lost" quantity="4" unit="character"/> <supplied reason="lost">cog</supplied>nosci: Giardina-Grelle</note></app>
+                    <app loc="10"><note>V<gap reason="lost" quantity="4" unit="character"/>S<gap reason="illegible" quantity="1" unit="character"/>: Giardina-Grelle</note></app>
+                    <app loc="11"><note>videri <gap reason="lost" quantity="6" unit="character"/> excurssus: Giardina-Grelle</note></app>
+                    <app loc="12"><note>aliquem: Giardina-Grelle; super adventus s&gt;ui <supplied reason="lost">tempore</supplied> premiss<corr>a</corr>s: Giardina-Grelle, litteras super adventus VI <gap reason="lost" quantity="6" unit="character"/> premiss<corr>a</corr>s, Ruggeri, litteras super adventus VI <supplied reason="lost">die ante ?</supplied> premiss<corr>a</corr>s (Porena)</note></app>
+                    <app loc="13"><note>via<supplied reason="lost">s</supplied><gap reason="illegible" quantity="2" unit="character"/>DE<gap reason="illegible" quantity="2" unit="character"/>S rerum: Giardina-Grelle, vel DE<gap reason="illegible" quantity="3" unit="character"/>S rerum: Ruggeri, vel de<supplied reason="lost">gen</supplied>s. Rerum (Porena)</note></app>
+                    <app loc="16"><note>praesentes <supplied reason="lost">in</supplied>quisitione: Giardina-Grelle</note></app>
+                    <app loc="17"><note>req<supplied reason="lost">uira</supplied>nt utrumnam summa: Ruggeri; Quid aversorum fuerit: Ruggeri</note></app>
+                    <app loc="22"><note><supplied reason="lost">frau</supplied>deum: Ruggeri; eatenus: Giardina-Grelle; conpulso<supplied reason="lost">ribus</supplied>: Giardina-Grelle</note></app>
+                    <app loc="23"><note>quid: Giardina-Grelle</note></app>
+                    <app loc="24"><note>quid <supplied reason="lost">publi/cis</supplied> horreis: Giardina-Grelle, quidquid / horreis: Ruggeri; nemini super / 25 adeiciat: Giardina-Grelle, nemini super / 25 adeiciat: Ruggeri (dov’è super sulla pietra ? meglio nemini <supplied reason="lost">ne</supplied> / adeiciat)</note></app>
+                    <app loc="25"><note>adeiciat = adiciat</note></app>
+                    <app loc="26"><note><gap reason="lost" quantity="6" unit="character"/>ionis <supplied reason="lost">per</supplied>solutum sit nominat<corr>o</corr>ri: Giardina-Grelle (forse: vetere <supplied reason="lost">modo</supplied> / in<supplied reason="lost">lat</supplied>ionis)</note></app>
+                    <app loc="28-29"><note>privatis fo<supplied reason="lost">rt/unis</supplied> consulen<supplied reason="lost">t</supplied>em: Giardina-Grelle</note></app>
+                    <app loc="29"><note>et <gap reason="illegible" quantity="2" unit="character"/>va<gap reason="illegible" quantity="1" unit="character"/>ibus quoq(ue) titulis consecratam, forse et divalibus quoq(ue) titulis: Giardina-Grelle</note></app>
+                    <app loc="30"><note>inproba <gap reason="illegible" quantity="5" unit="character"/>s: Giardina-Grelle, inprobabimus: Ruggeri; fuerint <gap reason="illegible" quantity="4" unit="character"/> prae/<gap reason="illegible" quantity="2" unit="character"/>ens: Giardina-Grelle, fuerint <gap reason="illegible" quantity="4" unit="character"/>prae/<gap reason="lost" extent="unknown" unit="character"/> sed: Ruggeri, fuerint <gap reason="illegible" quantity="3" unit="character"/>AE / N<gap reason="lost" quantity="12" unit="character"/>: lapis</note></app>
+                    <app loc="32-33"><note>vel <gap reason="illegible" quantity="2" unit="character"/>R<gap reason="illegible" quantity="1" unit="character"/>tum vel his pl<gap reason="lost" extent="unknown" unit="character"/> / M<gap reason="illegible" quantity="5" unit="character"/>EN<gap reason="illegible" quantity="2" unit="character"/>: Giardina-Grelle, vel ER<gap reason="lost" extent="unknown" unit="character"/>etam vel his pl<gap reason="lost" extent="unknown" unit="character"/> / M<gap reason="illegible" quantity="5" unit="character"/>AO<gap reason="illegible" quantity="3" unit="character"/>EN<gap reason="illegible" quantity="2" unit="character"/>: Ruggeri, forse: qui vel spretam vel his pl<gap reason="lost" quantity="13" unit="character"/> <supplied reason="lost">costitu ?</supplied>tion<supplied reason="lost">e</supplied>/m violet (Porena)</note></app>
+                    <app loc="33-34"><note>M<gap reason="illegible" quantity="5" unit="character"/>AO<gap reason="illegible" quantity="3" unit="character"/>EN<gap reason="illegible" quantity="2" unit="character"/> damnatione dignissimus est qui <gap reason="lost" extent="unknown" unit="character"/> / nec posse publicam admonitionem DE<gap reason="illegible" quantity="4" unit="character"/>E<gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>: Ruggeri, Adm&lt;o&gt;nien<supplied reason="lost">d</supplied>a damnatione dignissimus est qui <gap reason="lost" extent="unknown" unit="character"/> / nec posse publi<supplied reason="lost">c</supplied>am admonitionem de<supplied reason="lost">fer</supplied>en<supplied reason="lost">d</supplied>am <gap reason="lost" extent="unknown" unit="character"/> (Porena)</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“...”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“...”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“... affinché nelle province sia esposto tutto il conto degli arretrati. ... Successivamente i rendiconti mensili siano trasmessi fedelmente e scrupolosamente dai preposti dei pagi, o da quanti si curano principalmente del controllo sui versamenti arretrati / del controllo dei magazzini, e all’ufficio di pertinenza si trasmetta la relazione da parte del suddetto archivista della città, in base alla quale si possa sapere quanto e in quale forma e a chi ogni giorno i contribuenti abbiano versato, o che cosa da chiunque altro sia incassato in arretrati. Allora gli illustri governatori delle province, ai quali si richiede che nessuna visita risulti onerosa per apparato e per zelo, dopo aver dato disposizioni, convocati i possessori in un luogo predeterminato attraverso lettere di convocazione sul suo arrivo inviate sei giorni prima (?), viaggino al di qua e al di là del luogo d’incontro per i pagi e lungo le vie, anche sostando. Perché le dichiarazioni delle specie versate appaiano concordanti con la registrazione, (i governatori) sentano ciascuno individualmente circa i calcoli, ... e sollecitino vivamente le prove del pagamento delle imposte, anche allo scopo – dopo che dalla presente verifica sia stato chiarito che cosa da ciascuno sia stato versato – di esaminare con estremo scrupolo e immediatamente se nessun quantitativo di imposte in natura sia stato occultato; e (i governatori) calcolino attraverso controlli che cosa sia stato sottratto, o Probo padre carissimo e amatissimo. Pertanto la tua eccelsa altezza renda noto a tutti subito un decreto così favorevole, facendolo incidere su tavole di bronzo nei luoghi più celebri delle singole città a garanzia di durata perenne del provvedimento e della sua grazia. Soltanto con questo rimedio si potranno infatti prevenire quelle frodi che fino ad ora hanno arricchito abbondantemente perfidi esattori e funzionari perversi. Eliminata tale sconcezza, entri nei (pubblici) granai ciò che il possessore vi ha portato; non venga mai più sottratto ad alcuno quanto ha versato per arretrati; non sia addizionato a nessun titolo un gravame aggiuntivo, ma quanto nominalmente da ciascuno sia stato versato singolarmente secondo la regola antica (?) indichino chiaramente ‘comunicazioni brevi nominatorie’. Nessuno ... perché non rimanga impunito, e il giudice usi concordia e grazia, affinché (?) dopo questa legge, espressione della nostra benignità, che viene in soccorso dei patrimoni pubblici e privati, e consacrata anche dai precetti imperiali (?), e impediscano ..., e con una di queste disapproveremo sarano state ..., ma non di meno intimiamo e perseguiamo (?). Con massima severità sia bloccato chi o ..., o ..., &lt;violerà questa costituzione imperiale&gt;. Sia del tutto degno di essere minacciato di condanna chi ... né poter ..., la pubblica denunzia deve essere sottoposta ...”</p>
+            </div>
+            <div type="commentary">
+                <p>The inscription dates back to Probus’s first appointment as praetorian prefect.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Giardina, Grelle 1983, pp. 249-303</ref>, with photo = <bibl><ref>AE 1984, 250</ref></bibl></bibl>
+                    <bibl><ref>Chelotti et al., pp. 12-17, nr. 11</ref>, with photo</bibl> 
+                    <bibl><ref>Ruggeri 2003</ref>, with photo = <bibl><ref>AE 2003, 359</ref></bibl></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-12800113">EDCS 12800113</ref></bibl>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR079338">EDR 079338</ref></bibl>
+                    <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD003043">HD 003043</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Chelotti M., Gaeta R., Morizio V., Silvestrini M., Grelle F., Pani M., Le epigrafi romane di Canosa, I. Documenti e Studi, Bari 1985</bibl> 
+                    <bibl>Giardina A., Grelle F., La Tavola di Trinitapoli. Una nuova costituzione di Valentiniano I, in MEFRA, 95, 1983, 249-303</bibl>
+                    <bibl>Ruggeri P., L’organizzazione paganica nel basso impero in Occidente: contributo per una rilettura della Tavola di Trinitapoli, in Corda A. M. (ed.), Cultus splendore. Studi in onore di Giovanna Sotgiu, 2, Senorbì 2003, 801-834</bibl>
+                    <bibl>Schmidt-Hofner S., Regieren und Gestalten. Der Regierungsstil des spätrömischen Kaisers am Beispiel der Gesetzgebung Valentinians I, Munich 2008, 64-71 = AE 2008, 417</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="5">
+                    <p n="5"></p>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.5"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

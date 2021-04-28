@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription in honour of the praet. prefect Probus from Capua made by the city <foreign>regiones</foreign> and <foreign>collegia</foreign></title>
+                <editor role="edition">Pierfrancesco Porena, Irene Vagionakis</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="rev" corresp="pp. 736-740">60</idno>
+                <date when="2020-06-23"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Probus"><name type="praenomen">Sextus</name>
+                        <name type="gentilicium">Claudius</name>
+                        <name type="gentilicium">Petronius</name>
+                        <name type="cognomen">Probus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Capua">Museo Nazionale Campano di Capua</repository>
+                        <idno type="invNo">inv. 5</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect Probus</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#limestone">limestone</material>
+                                    <objectType ref="#base">statue base</objectType>
+                                    <dimensions>
+                                        <height>111</height>
+                                        <width>65</width>
+                                        <depth>67</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">no</rs>
+                                    <rs type="monument_reuse">no</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#fragmentary">Fragmentary: the inscription is partially broken on the right.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <height>5 / 5.3</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Capua</placeName>
+                                <placeName type="modern_city">Capua (Italy)</placeName>
+                                <placeName type="province">Campania</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#public" cert="low">public space (?)</placeName>
+                            </origPlace>
+                            <origDate period="#p8" notBefore="0381" notAfter="0383">381/383 AD</origDate>
+                        </origin>
+                        <provenance type="found">found in 1955 in <placeName ref="#">Capua</placeName> along with the base for Anicius Paulinus</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                    <ab>
+                        <lb n="1"/>Claudio Petronio Probo <expan><abbr>v</abbr><ex>iro</ex></expan> <supplied reason="lost"><expan><abbr>c</abbr><ex>larissimo</ex></expan></supplied>
+                        <lb n="2"/>proconsuli Africae et <expan><abbr>s</abbr><ex>acra</ex></expan> <supplied reason="lost"><expan><abbr>v</abbr><ex>ice</ex></expan> <expan><abbr>i</abbr><ex>udicanti</ex></expan></supplied>,
+                        <lb n="3"/>uno eodemque tempore <hi rend="supraline">I<unclear>I</unclear></hi> <supplied reason="lost">et <hi rend="supraline">III</hi></supplied>
+                        <lb n="4"/>praetorio <sic>prefectura</sic> <expan><abbr>pol<supplied reason="lost">lent</supplied></abbr><supplied reason="lost"><ex>i</ex></supplied></expan>,
+                        <lb n="5"/>consuli ordinario, nobilita<supplied reason="lost">te</supplied>
+                        <lb n="6"/>munificentiaque <sic>praestante</sic>,
+                        <lb n="7"/>originali patrono, regiones
+                        <lb n="8"/><gap reason="lost" quantity="6" unit="character" precision="low"/> collegia posuerunt.
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on Chioffi 2005, with some original suggestions by Porena.</p>
+                <p>
+                    <app loc="2"><note>et s<gap reason="lost" extent="unknown" unit="character"/>: Chioffi 2005</note></app>
+                    <app loc="2-5"><note>proconsuli Africae et s[imul] / uno eodemque tempor(e) et[iam] / praetorio prefectura pol[lenti], / consuli ordinario: Barbieri 1971; proconsuli Africae et s(acra) [v(ice) iud(icanti)], / uno eodemque tempore (e)t [inde ?] / praetorio prefectura pol[lenti], / consuli ordinario: Mazzarino 1974, p. 335, Giardina 1983, p. 171; proconsuli Africae et s(acra) [v(ice) iud(icanti)], / uno eodemque tempore et [in] / praetorio pr(a)efectura polle[nti et] / consuli ordinario: Chastagnol 1982; proconsuli Africae et s(acra) [v(ice) iud(icanti)], / uno eodemque tempore et[iam] / praetorio prefectura pol[lenti], / consuli ordinario: Cameron 1985</note></app>
+                    <app loc="3"><note>tempor(e) et <gap reason="lost" extent="unknown" unit="character"/>: Chioffi 2005</note></app>
+                    <app loc="4"><note>pr(a)efectura pol[lenti]: Chioffi 2005</note></app>
+                    <app loc="6"><note>praestanti: Chioffi 2005</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“To Claudius Petronius Probus, of clarissimus rank, proconsul of Africa and with jurisdiction on behalf of the emperor, at the same time in charge of his second and third praetorian prefecture, ordinary consul, superior for nobility and munificence, patron by origo, the regions and the colleges set up.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“...”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“Al chiarissimo Claudius Petronius Probus, proconsole d’Africa con giurisdizione in vece dell’imperatore, che si fregia nel medesimo periodo della seconda e terza prefettura del pretorio, console ordinario, superiore per nobiltà e per munificenza, patrono legato dall’<foreign>origo</foreign>, le regioni ... i collegi posero.”</p>
+            </div>
+            <div type="commentary">
+                <p>...</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Barbieri 1971, p. 298</ref>, with photo = <bibl><ref>AE 1972, 76</ref></bibl></bibl>
+                    <bibl><ref>Mazzarino 1974, p. 335</ref></bibl>
+                    <bibl><ref>Chastagnol 1982, p. 549</ref></bibl>
+                    <bibl><ref>Giardina 1983, p. 171</ref></bibl>
+                    <bibl><ref>Cameron 1985, p. 164</ref> = <bibl><ref>AE 1985, 76</ref></bibl>= <bibl><ref>AE 1985, 273</ref></bibl></bibl>
+                    <bibl><ref>Chioffi 2005, nr. 111a</ref></bibl> 
+                    <bibl><ref>Porena forthcoming, pp. 211-212, nr. 5</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-09700055">EDCS 09700055</ref></bibl>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR079706">EDR 079706</ref></bibl>
+                    <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD007080">HD 007080</ref></bibl>
+                    <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-1936">LSA 1936</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Barbieri G., Nuove iscrizioni di Capua, in Terza Miscellanea greca e romana, Roma 1971, 291-305</bibl>
+                    <bibl>Cameron A., Polyonomy in the Late Roman Aristocracy: the Case of Petronius Probus, JRS, 75, 1985, 164-182</bibl>
+                    <bibl>Chastagnol A., L’iscription de Petronius Probus à Capoue, in Epigrafia e ordine senatorio, I (Tituli 4), Roma 1982, 547-551</bibl>
+                    <bibl>Chioffi L., Museo provinciale Campano di Capua. La raccolta epigrafica, Capua 2005, nr. 111a</bibl> 
+                    <bibl>Giardina A., Lettura epigrafica e carriere aristocratiche. Il caso di Petronio Probo, RFIC, 111, 1983, 170-182</bibl>
+                    <bibl>Mazzarino S., Sulla carriera prefettizia di Sex. Petronio Probo, in Id. Antico, tardoantico ed èra costantiniana, I, Bari 1974, 328-332</bibl>
+                    <bibl>Porena P., Appendice. Selezione di fonti sulla carriera prefettizia di Sex. Petronius Probus, in Bigi F., Tantillo I. (edd.), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa forthcoming, 211-212</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.a"></p>
+                    <p n="2.1"></p>
+                    <p n="2.10">nobilita[te] munificentiaque praestante</p>
+                    <list n="2.11">
+                        <item n="2.11.e"></item>
+                    </list>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">v(iro) [c(larissimo)]</p>
+                    <p n="8.2">II [et III] praetorio prefectura pol[lent(i)]</p>
+                    <p n="8.3"></p>
+                    <p n="8.4"></p>
+                    <p n="8.6">II [et III]</p>
+                    <p n="8.11"></p>
+                    <p n="8.13"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

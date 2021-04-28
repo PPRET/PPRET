@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedication of an altar for the Magna Mater and Attis in Rome by the son of the praet. prefect C. Ceionius Rufius Volusianus <foreign>signo</foreign> Lampadius</title>
+                <editor role="edition">Eleonora Angius</editor>
+                <editor role="encoding">Eleonora Angius</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="pp. 978-980">36</idno>
+                <date when="2020-03-27"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Lampadius"><name type="praenomen">Caius</name>
+                        <name type="gentilicium">Ceionius Rufius</name>
+                        <name type="cognomen">Volusianus</name>
+                        <name type="signum">Lampadius</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#lost">currently lost</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#religious">Religious inscription</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#funerary_altar">altar</objectType>
+                                    <dimensions>
+                                        <height>unknown</height>
+                                        <width>unknown</width>
+                                        <depth>unknown</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">unknown</rs>
+                                    <rs type="monument_reuse">unknown</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field.</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#damaged">Damaged: the restorations of the text suggest that the altar was damaged both at the top and on the right side.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <height>unknown</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Roma</placeName>
+                                <placeName type="modern_city">Rome (Italy)</placeName>
+                                <placeName type="province">Urbs</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#public">public space</placeName>
+                            </origPlace>
+                            <origDate period="#p8" when="0390-05-23" precision="high">23<hi rend="superscript">th</hi> May 390 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#Roma">Rome</placeName>, no data about the exact provenance, but some scholars report that the altar was kept either in Castel S. Angelo or in the church of S. Michele in the Vatican. Other sites have also been suggested (see critical commentary).</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                    <ab>
+                        <lb n="1"/><supplied reason="lost"><expan><abbr>M</abbr><ex>atri</ex></expan> <expan><abbr>d</abbr><ex>eum</ex></expan> <expan><abbr>M</abbr><ex>agnae</ex></expan> <expan><abbr>I</abbr><ex>daeae</ex></expan> et Attidi Menotyranno dis magnis e</supplied>t 
+                        <lb n="2"/><supplied reason="lost">t</supplied>u<supplied reason="lost">t</supplied>atoribus suis 
+                        <lb n="3"/>Ceionius Rufius Volu<supplied reason="lost">si</supplied><lb 
+                        break="no" n="4"/>anus, <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan> et inlustr<supplied reason="lost">is</supplied>, 
+                        <lb n="5"/>ex vicario <sic>Asie</sic> et Ceio<lb 
+                        break="no" n="6"/>ni Rufi Volusiani, <expan><abbr>v</abbr><ex>iri</ex></expan> <expan><abbr>c</abbr><ex>larissimi</ex></expan> 
+                        <lb n="7"/>et inlustris, ex <sic>prefecto</sic> <supplied reason="lost">pre</supplied><lb 
+                        break="no" n="8"/>torio et ex <sic>prefecto</sic> ur<supplied reason="lost">bi</supplied> 
+                        <lb n="9"/>et <sic>Cecine</sic> <sic>Lolliane</sic>, <sic>clar<supplied reason="lost">issi</supplied><lb 
+                        break="no" n="10"/>me</sic> et inlustris <sic>femin<supplied reason="lost">e</supplied></sic>, 
+                        <lb n="11"/>deae Isidis sacerdotis fi<supplied reason="lost">lius</supplied>, 
+                        <lb n="12"/>iterato viginti annis exp<supplied reason="lost">le</supplied><lb 
+                         break="no" n="13"/>tis <sic>taurobolii</sic> <sic>sui</sic>, aram constitu<supplied reason="lost">it</supplied> 
+                        <lb n="14"/>et consecravit X <expan><abbr>kal</abbr><ex>endas</ex></expan> <expan><abbr>Iun</abbr><ex>ias</ex></expan> <expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> Va<supplied reason="lost">len</supplied><lb 
+                        break="no" n="15"/>tiniano <expan><abbr>Aug</abbr><ex>usto</ex></expan> IIII et Neoterio <expan><abbr>c</abbr><supplied reason="lost"><abbr>o</abbr><ex>n</ex><abbr>s</abbr><ex>ulibu</ex><abbr>s</abbr></supplied></expan>. 
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on CIL VI, 512.</p>
+                <p>
+                    <app loc="1-2"><note><expan><abbr>D</abbr><am>d</am><ex>omini</ex></expan> <expan><abbr>n</abbr><am>n</am><ex>ostri</ex></expan> <expan><abbr>Fl</abbr><ex>avio</ex></expan> Valentiniano et Gratiano ratoribus: Smetius 1588, XX, 2; <expan><abbr>D</abbr><am>d</am><ex>omini</ex></expan> <expan><abbr>n</abbr><am>n</am><ex>ostri</ex></expan> Valente et Valentiniano <expan><abbr>Aug</abbr><am>g</am><ex>usti</ex></expan>, oratoribus suis: Pirrus Ligorius (Cod. Neap. XIII B 7), Mandowsky-Mitchell 1963, p. 66, nr. 25</note></app>
+                    <app loc="11"><note>filie: Mandowsky-Mitchell 1963, p. 66, nr. 25; fi<supplied reason="lost">lia</supplied>: Schraudolph 1993, p. 244, nr. L195</note></app>
+                    <app loc="12-13"><note>iterato <supplied reason="lost" cert="low">sacro</supplied> viginti: Dubusson 2018, p. 503, nr. 105; viginti anni ex ps/ bis taurabolii: Pirrus Ligorius (Cod. Neap. XIII B 7), Mandowsky-Mitchell 1963, p. 66, nr. 25</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“To the Great Mother of gods Isis and to Attis Menotyrannus, to the great gods and their protectors, Ceionius Rufius Volusianus, illustrious man of clarissimus rank, ex vicar of Asia, son of Ceionius Rufius Volusianus, illustrious man of clarissimus rank, ex praetorian prefect, ex urban prefect, and of Caecina Lolliana, illustrious woman of clarissimus rank, priestess of the goddess Isis, after repeating the ceremony of taurobolium twenty years later, he raised up and consecrated this altar ten days before the calends of June under the consulship of our master Valentinianus Augustus, for the fourth time, and of Neoterius.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>(from Dubosson-Sbriglione 2018, p. 503, nr. 105)</p>
+                <p>“A la grande Mère des dieux Idéenne et à Attis Menotyrannus, les grands dieux et ses protecteurs, Ceionius Rufius Volusianus, homme clarissime et illustre, ancien vicaire d’Asie, et fils de Ceionius Rufius Volusianus, homme clarissime et illustre, ancien préfet du prétoire et ancien préfet de la ville de Rome, et (fils) de Caecina Lolliana, femme clarissime et illustre, prêtresse de la déesse Isis, (la cérémonie) de son taurobole ayant été répétée après vingt ans écoulés, a dressé et consacré l’autel le 10eme jour avant les calendes de juin, sous le consulat de notre maître Valentinien Auguste, pour la quatrième fois, et de (FI.) Neoterius.”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“Alla Grande Madre degli dei Iside e Attis Menotyrannus, ai grandi dei e ai loro protettori, Ceionius Rufius Volusianus, chiarissimo e illustre, ex vicario d’Asia, figlio di Ceionius Volusianus, ex prefetto del pretorio ed ex prefetto urbano, e di Caecina Lolliana chiarissima ed illustre, sacerdotessa della dea Iside, dopo aver ripetuto, trascorsi vent’anni, la cerimonia del taurobolium, eresse e consacrò quest’altare dieci giorni prima delle calende di giugno durante il consolato del nostro sovrano Valentiniano Augusto, per la quarta volta, e di Neoterius.”</p>
+            </div>
+            <div type="commentary">
+                <p>As can be deduced from the textual restorations, this altar, unfortunately lost, was damaged both on the top and on its right side. The stone, which bore a religious inscription, dated to May 23<hi rend="superscript">th</hi>, 390 AD, was made by Ceionius Rufius Volusianus (PLRE I, p. 976), son of the former praetorian prefect and urban prefect C. Ceionius Rufius Volusianus <foreign>signo</foreign> Lampadius (PLRE I, pp. 978-980) and Caecina Lolliana (PLRE I, p. 511). Volusianus performed the ceremony of the <foreign>taurabolium</foreign>, a ritual related to the worship of the Magna Mater and Attis (about this pagan rite and its late antique evolution, see <ref type="ppret" corresp="ppret40">PPRET 40</ref>), after a lapse of twenty years. Since the efficaciousness of the <foreign>taurobolium</foreign> was considered to last only twenty years, it thus had to be repeated (see also CIL VI, 504 = CLE 264 = ILS 4153 = CIMRM I, 514 = SIRIS 457 = RICIS II, 501/208 = CCCA III, 233 = Dubosson-Sbriglione 2018, 97 = EDR151218, dated 376 AD).</p>
+                <p>The inscription was last seen in the 16<hi rend="superscript">th</hi> Century and its text was copied by two humanists: Martinus Smetius (1525-1578), at Rome between 1545 and 1551 (Bibl. Naz. Napoli MS. V.E.4 [Fondo Farnese], p. 83, 20, 2, then Smetius 1588, XX, 2), and Pirrus Ligorius (1513-1583) (Cod. Neap. XIII B 7, p. 55, cf. Orlandi 2008, p. 54), whose readings slightly differ (see critical edition). According to the description of Smetius, the altar had many decorative elements that emphasized the religious nature of the monument. Five slaughtered rams lie at the top, there is also a ram on each corner and one at the front. On the right hand side, a ram stands under a pine tree with a tympanum, a syrinx and a pair of cymbals hanging down from the branches. On the left side, a bull standing under a pine tree can be seen with a <foreign>pedum</foreign> and a double-flute hanging down from the branches; the back is decorated with two crossed torches, while the front carries the inscription (CCCA III, 244). The description concords with that of Ligorius, although the latter records four rams instead of five and a vase, a bowl and <foreign>lituus</foreign> on the rear face (Mandowsky-Mitchell 1963, p. 66, nr. 25).</p>
+                <p>The precise findspot of the altar is unknown (see CIL VI, 512). In all likelihood, the monument was originally situated in the Vatican Phrygianum in Rome, a large sanctuary of the Magna Mater in the campo Vaticano, next to the old basilica of St. Peter (Liverani 2008; for new religious inscriptions from this sanctuary cf. Carbonell Manils 2015). A remarkable proportion of these pagan archaeological finds, all attributable to the period during which the Phrygian cult was revived (370-377 AD), belongs to members of the powerful aristocratic family of the <foreign>Ceionii</foreign> (Chastagnol 1956; Sbriglione 2010; Olariu 2013; stemma PLRE I, p. 1138, nr. 13; Chausson 2007, p. 130, fig. 10; Sbriglione 2010, pp. 156-157). The prevalence of the <foreign>gens Ceionia</foreign> suggests a deep family connection with the sanctuary and identifies them as strong upper class supporters of the pagan religion. Their most representative member is our former praetorian prefect C. Ceionius Rufius Volusianus <foreign>signo</foreign> Lampadius (below). Although he does not explicitly appear upon any preserved inscription from the Vatican Phrygianum, the dedication on a statue at Ostia (see <ref type="ppret" corresp="ppret40">PPRET 40</ref>), indirectly attesting his <foreign>taurobolium</foreign>, and the presence of three of his children (Rufia Volusiana, on CIL VI, 509 = EDR106599; Sabina, on CIL VI, 30966 = EDR107605; Rufius Ceionius Volusianus, on the present inscription) in the sacred area on the Vatican hill, suggests that his involvement in the roman cult of the Magna Mater was highly significant (McLynn 1996, p. 327; Cameron 2011, pp. 132-172; for the context Machado 2019, pp. 178-181; for the pagan attitude in inscriptions cf. Bodnaruk 2019, pp. 49, 505-510).</p>
+                <p>C. Ceionius Rufius Volusianus <foreign>signo</foreign> Lampadius (PLRE I, pp. 978-980), was born around 315 AD and was a noble descendant of the powerful <foreign>gens Ceionia</foreign> (Chastagnol 1961; Olariu 2013). He was the son of Caeionius Rufius Albinus, who was ordinary consul in 335 AD and urban prefect in 336-337 AD (PLRE I, p. 37). He was also the grandson of Gaius Caeionius Rufius Volusianus, praetorian prefect, urban prefect and ordinary consul of the usurper Maxentius and later consul and urban prefect of Constantine (PLRE I, pp. 976-978). Al. Cameron (2011, p. 147) suggests that since an inscription found on the Aventine hill (CIL VI, 846) begins with his senatorial rank and ends with a single state priesthood, Volusianus was involved in several pagan cults early in his career: even before holding his first governorship, Volusianus would most likely have been <foreign>pater</foreign>, hierophant, prophet of Isis and <foreign>pontifex Solis</foreign> (for priesthoods in late inscriptions of Rome cf. Orlandi 2011).</p> 
+<p>Lampadius’ first attested office is the <foreign>praetura</foreign> of Rome, which he presumably held late in the reign of Constantine when he was quite young, perhaps coinciding with the urban prefecture of his father (335-340 AD, see Chastagnol 1962, p. 166; Barnes 1998, p. 116). An episode during Lampadius’ praetorian games concerns the Vatican, where our inscription comes from. According to Ammianus (<ref type="source">Amm. 27, 03, 06</ref>) when Volusianus was giving his magnificent and costly <foreign>ludi praetorii</foreign>, the spectators by way of <foreign>acclamationes</foreign>, pressed him to better reward the performers (or the citizens themselves according to Neri 1998, p. 65). In order to prove that he was not afraid to stand up to the plebs, the praetor reacted by summoning instead a group of nameless beggars from the Vatican. This event has been interpreted in many different ways. Assuming that the summoned <foreign>egentes</foreign> were Christians, a connection based on the mention of the Vatican, many scholars see the praetor’s invitation to the poor as a provocatory act aimed at emulating or outdoing the Christian <foreign>caritas</foreign>, rather than as an act of benevolence in itself (Matthews 1989, p. 417; Colombo 2008, p. 200). Barnes (1998, p. 116) argues that Lampadius could have been a Christian of convenience, who later reverted to paganism, and that the beggars of the Vatican were Christian clerics. Nevertheless, the Vatican was not yet a symbol of Christianity in that period and there is no evidence to demonstrate that the <foreign>egentes</foreign> belonged to the Christian faith. On the contrary, the epigraphic and literary sources make it clear that Volusianus <foreign>signo</foreign> Lampadius remained pagan for life. Moreover, the Phrygianum was located on the Vatican hill, to which the praetor was related as we have already said. Perhaps the <foreign>quosdam egentes</foreign> summoned from there by Lampadius were pagans themselves (McLynn 1996, p. 329; Lizzi 2004, pp. 76-82). However, even if the identification of this group and the religious’ slant of Lampadius act remains conjectural, Volusianus reaction may well have been nothing more than an attempt to nip a potential insurrection in the bud, an act that had more to do with pagan εὐεργεσία than Christian <foreign>caritas</foreign> (Boeft, Drijvers 2009, p. 56).</p>
+                <p>Therefore, if the identification is correct (see Camodeca 2014, pp. 105-106), an african fragmentary inscription of a Volusianus <foreign>v(ir) c(larissimus)</foreign> (CIL VIII, 11334; ILAfr. 116) could attest to Volusianus <foreign>signo</foreign> Lampadius being the <foreign>consularis</foreign> of the province of Byzacena before 354 AD. That said, Chastagnol (1967) does not list him among the <foreign>consulares Byzacenae</foreign>, and Duval (1989, p. 427, nr. 45) considered this proposal “aventureuse.” Nevertheless, it would be not so unlikely, even if this office is not attested anywhere else, given the African origins of his family and the african properties, that he shared with his wife Caecina Lolliana and their four children, as an inscription found near Thougga clearly records (CIL VIII, 25990 see <ref corresp="http://rusafricum.org/en/thuggasurvey/DU388/DU388EP003/">DU388EP003 </ref>).</p> 
+<p>Later, Lampadius became <foreign>praefectus praetorio</foreign>: in all the inscriptions (<ref type="ppret" corresp="ppret36">PPRET 36</ref>; <ref type="ppret" corresp="ppret37">PPRET 37</ref>; <ref type="ppret" corresp="ppret38">PPRET 38</ref>; <ref type="ppret" corresp="ppret39">PPRET 39</ref>; <ref type="ppret" corresp="ppret40">PPRET 40</ref>; <ref type="ppret" corresp="ppret41">PPRET 41</ref>) mentioning this office, Lampadius is cited as a former praetorian prefect (<foreign>ex praefecto praetorio</foreign>), a wording employed in the literary sources, but never used epigraphically until this moment. The evidence concerning this post is both meagre and conflicting. All the constitutions place his praetorian prefecture in Italy in the first half of 355 AD (<ref type="source">CTh 11, 34, 02</ref>; <ref type="source">CI 06, 22, 06</ref>; <ref type="source">CTh 03, 12, 02</ref>; <ref type="source">CTh 11, 30, 26</ref>; <ref type="source">CTh 11, 36, 12</ref>) (so Vogler 1979, p. 129; Migl 1994, p. 131-132; Delmaire 2003, pp. 167-168; Colombo 2008, p. 199, Moser 2018, p. 283), but Zosimus (<ref type="source">Zos. 02, 55, 03</ref>) and Ammianus associate his tenure with Gaul (Jones 1964, p. 82; PLRE I, pp. 978-980; Cameron 1985, p. 179; Barnes 1992, p. 256; Lizzi 2004, p. 76; Poglio 2007, p. 32) as early as 354 AD. The literary sources record that Lampadius was one of those who persuaded Constantius II to recall and execute Gallus during the Summer of 354 (<ref type="source">Zos. 02, 55, 03</ref>), and, thus, that the prefect conspired with some others against Silvanus, <foreign>magister peditum per Gallias</foreign>, forging letters to incriminate him (<ref type="source">Amm. 15, 05, 04-05</ref>). As a result, the emperor Constantius had him dismissed; he was placed on trial, but was later acquitted (<ref type="source">Amm. 15, 05, 13</ref>). However, the fact that so many constitutions concord with each other in their account cannot be disregarded. Indeed, there is no evidence to suggest that Volusianus was stationed in Gaul. He may well have accompanied the emperor there during his visit in the Summer 354 AD, but nothing more. On the contrary, Delmaire (2003, pp. 167-168) noted that Constantius II had returned to the court at Milan, when he decided to recall Gallus and discharge Silvanus (before August 355 AD), so it is plausible that the praetorian prefect could have influenced Constantius’s policy in Italy (so also Moser 2018, p. 283). This shady incident may have damaged his political reputation. Perhaps it is no accident that Volusianus had to wait another ten years before holding another position.</p>
+                <p>Lampadius is attested as urban prefect (Chastagnol 1962, pp. 164-169) after 10<hi rend="superscript">th</hi> March 365 AD (<ref type="source">CTh 01, 06, 04</ref>, the last constitution addressed to his predecessor Avianius Symmachus [PLRE I, pp. 863-865]) and February 366 AD (<ref type="source">CTh 08, 05, 22</ref>). Ammianus Marcellinus gives an unfavorable account of his tenure, describing him as vain, arrogant and opposed by riots. According to the historian (<ref type="source">Amm. 27, 03, 07</ref>), he had his name inscribed on buildings throughout the city, claiming to have built them rather than restore them (<foreign>non ut veterum instaurator sed conditor</foreign>). Since he made it a habit of neglecting to pay for the materials he used in his building projects, Lampadius became a victim of the urban mob, which, infuriated by his requisitions, tried to burn down his house near the Baths of Constantine (<ref type="source">Amm. 27, 03, 08</ref>). Lampadius was forced to retreat to the Milvian bridge until the riot had subsided, waiting while his household slaves and other inhabitants of the locality repelled the demonstrators by climbing to the rooftops and pelting them with stones and tiles (<ref type="source">Amm. 27, 03, 09</ref>; cf. Matthews 1989, p. 417). The picture painted is by no means a pretty one and conforms in large part to the caricatural stereotype of the roman aristocrat (Lizzi 2004, p. 63). Nevertheless, some points ought to be reconsidered.</p>
+                <p>The possibility that Lampadius initiated the construction of new buildings, as Ammianus claims, cannot be ruled out and is supported by an imperial law of the previous year (<ref type="source">CTh 15, 01, 11</ref>; the following laws are similar: <ref type="source">CTh 15, 01, 16</ref>; <ref type="source">CTh 15, 01, 17</ref>; <ref type="source">CTh 15, 01, 19</ref>) that prevented officials from undertaking any new constructions that would have required the employment of more public funds, recommending instead to restore the pre-existing structures. The problem was such that by the 4th Century, many venerable public buildings and monuments were urgently in need of restoration and the presiding urban prefect was responsible for their maintenance. It is nonetheless true that, during his two year tenure, Lampadius sponsored more restorations than any other prefect we know of: he restored a <foreign>castellum</foreign> of the Aqua Claudia (<ref type="ppret" corresp="ppret39">PPRET 39</ref>), intervened in the baths of Caracalla, where he erected or moved a number of statues (<ref type="ppret" corresp="ppret37">PPRET 37</ref>), and repaired thirteen bridges over the Tiber (<ref type="ppret" corresp="ppret41">PPRET 41</ref>). After a period in the political wilderness, he was evidently keen to restore his esteem by increasing his building activity (Colombo 2008, p. 203). However, it seems unlikely that Lampadius would have confiscated materials without paying for them, earning him the enmity of the people, when he could have relied on his funds, as was his right as the urban prefect. Indeed, this would have meant defrauding the State and, if Lampadius had been tried, Ammianus would surely not have omitted it. Thus it remains to understand what the urban prefect might have done to produce such a riot.</p> 
+<p>Colombo (2008, pp. 205-206) suggests that Lampadius may have imposed exceptional contributions <foreign>in speciebus</foreign> (materials’ furniture) that did not feature among the fiscal <foreign>tituli</foreign>, a fact that might explain their missing payment. Not by chance, many imperial constitutions (<ref type="source">CTh 15, 01, 11</ref>; <ref type="source">CTh 11, 01, 08</ref>; <ref type="source">CTh 11, 02, 01</ref>; <ref type="source">CTh 11, 02, 02</ref>) set out clear rules concerning the building’s policy so as to avoid misappropriations from the Roman administration. Since the word <foreign>pauperes</foreign> (<ref type="source">Amm. 27, 03, 10</ref>) often corresponds to the profitable part of the lower class (see also Cracco Ruggini 1997, p. 179), Lizzi (2004, pp. 61-75) identified those who may have been more economically damaged by the prefect‘s impositions with the <foreign>collegia fabrorum tignariorum</foreign>, a corporation that dealt with the making of the materials employed in the restorations. Therefore, the scholar attributed to Lampadius a controversal constitution (<ref type="source">CTh 14, 06, 03</ref>: 6<hi rend="superscript">th</hi> August 365 AD, also Chastagnol 1962, p. 168, contra Seeck argued he was an homonym), even if he features as <foreign>vicarius</foreign> – <foreign>ad Volusianum v(irum) c(larissimum) vic(arium)</foreign> – concerning a tax lightening for the <foreign>calcis coctores vecturarii</foreign>, who handled the lime and its transport, a crucial supply for building (for the content of the law see also Machado 2019, pp. 80-84). If so, although these measures were not illegal, such inequality would have provoked discontent among the <foreign>collegia</foreign> that would have been more heavily burdened by the exceptional contributions.</p> 
+<p>There is no agreement as to when his urban prefecture ended and the prefecture of his successor Viventius (PLRE I, p. 972) began. According to some scholars (PLRE I, pp. 978-980; Lizzi 2004, p. 75), who follow Seeck’s dating (1919, pp. 31-35, 70), this was shortly after the 17<hi rend="superscript">th</hi>: September 365 AD (<ref type="source">CI 01, 19, 05</ref>), corresponding to the insurrection after which he would have been dismissed. On the other hand Chastagnol (1962, p. 168) argues for February 18<hi rend="superscript">th</hi>: 366 AD as <foreign>terminus post quem</foreign> referring to <ref type="source">CTh 08, 05, 22</ref> (differently dated to 365 AD by Seeck 1919, pp. 118-119; Pergami 1993, pp. 318-320; Lizzi 2004, pp. 74-75, nt. 184). After that Volusianus disappears from the literary and epigraphic sources. It is however noteworthy that on our inscription, dated 390 AD, twenty-five years after the urban prefecture of Lampadius, his son Ceionius Rufius Volusianus, who cites just one office, presumably his only major administrative post, took up more than half of his dedication by naming both his father’s and mother’s complete name with titles as a symbol of distinction.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>CIL VI, 512</ref></bibl>  
+                    <bibl><ref>CLE 264</ref></bibl> 
+                    <bibl><ref>ILS 4154</ref></bibl> 
+                    <bibl><ref>Mandowsky-Mitchell 1963, p. 66, nr. 25</ref></bibl> 
+                    <bibl><ref>Rutter 1968, p. 244, nr. 21</ref></bibl>  
+                    <bibl><ref>Duthoy 1969, p. 19, nr. 25</ref></bibl> 
+                    <bibl><ref>SIRIS 447</ref></bibl>  
+                    <bibl><ref>Malaise 1972, p. 119, nr. 22</ref></bibl> 
+                    <bibl><ref>CMRDM II, p. 178, nr. AD4</ref></bibl>  
+                    <bibl><ref>CCCA III, 244</ref></bibl>  
+                    <bibl><ref>Schraudolph 1993, p. 244, nr. L195</ref></bibl> 
+                    <bibl><ref>Martinez-Maza 2003, p. 62, nr. 2</ref></bibl> 
+                    <bibl><ref>RICIS II, 501/0212</ref></bibl> 
+                    <bibl><ref>Dubosson-Sbriglione 2018, p. 503, nr. 105</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p>
+                    <bibl><ref>Smetius 1588, XX, 2</ref></bibl>
+                    <bibl><ref>Orlandi 2008, p. 54</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                   <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-17300660">EDCS 17300660</ref></bibl>  
+                   <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR144484">EDR 144484</ref></bibl> 
+                   <bibl><ref corresp="https://census.bbaw.de/jumpto/CS_MonumentSearch/161709?select_id=161709">Census 161709</ref></bibl> 
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+<bibl>Barnes T. D., Praetorian Prefects, 337-361, ZPE, 94, 1992, 256</bibl>  
+<bibl>Barnes T. D., Ammianus Marcellinus and the representation of historical reality, London 1998, 116</bibl> 
+<bibl>Bodnaruk M., Production of distinction: the representation of senatorial elites in the Later Roman Empire, 306-395 (PhD Dissertation), Budapest 2019</bibl> 
+<bibl>Boeft J., Drijvers J. W., Hengst D., Teitler H. C., Philological and historical commentary on Ammianus Marcellinus XXVII, Leiden-Boston 2009</bibl>  
+<bibl>Bricault L., Receuil des inscriptions concernant les cultes isiaques (RICIS), supplément II, Bibliotheca Isiaca, Paris 2011, 565, nr. 2/501/0212</bibl>  
+<bibl>Bücheler F., Lommatzsch E., Carmina Latina Epigraphica, Leipzig 1930, 127, nr. 264</bibl>  
+<bibl>Cameron A., Polyonomy in the late Roman aristocracy. The case of Petronius Probus, JRS, 75, 1985, 172-179</bibl> 
+<bibl>Cameron A., The last pagans of Rome, Oxford-New York 2011, 49-50, 144, 147, 154, 157, 224-225</bibl>  
+<bibl>Camodeca G., Un nuovo consularis Byzacenae di tardo IV secolo e i Tannonii di Puteoli, Arctos, 48, 2014, 105-106</bibl>  
+<bibl>Carbonell Manils J., Inscripciones inéditas del Phrygianum y de las necrópolis Vaticanas (Girona, Arxiu de la catedra, MS. 69 de pere Miquel Carbonell), ZPE, 194, 2015, 259-270</bibl> 
+<bibl>Castagnoli F., Il Vaticano nell’antichità classica, Città del Vaticano 1992, p. 74, nr. 9</bibl>  
+<bibl>Chastagnol A., Le sénateur Volusien et la conversion d’une famille de l’aristocratie romaine au Bas-Empire, REA, 58, 1956, 241-253</bibl> 
+<bibl>Chastagnol A., La famille de Caecinia Lolliana grande dame païenne du IVe siècle après J.C., Latomus, 20, 1961, 744-758</bibl> 
+<bibl>Chastagnol A., Les fastes de la préfecture de Rome au Bas-Empire, Paris 1962, 164-169</bibl>  
+<bibl>Chastagnol A., Les gouverneurs de Byzacène et de Tripolitaine, AntAfr, 1, 1967, 119-134</bibl>  
+<bibl>Chausson F., Stemmata Aurea. Constantin, Justine, Théodose: revendications généalogiques et idéologie impériale au IVe siècle ap. J.-C., Roma 2007</bibl> 
+<bibl>Chenault R. R., Rome Without Emperors: The Revival of a Senatorial City in the Fourth Century CE, Michigan 2008 (PhD dissertation)</bibl>  
+<bibl>Colombo M., Annotazioni esegetiche ad Amm. 27, 3, Wiener Studien, 121, 2008, 189-225</bibl>  
+<bibl>Cracco Ruggini L., Spazi urbani clientelari e caritativi, in C. Virlouvet (eds), La Rome impériale: démographie et logistique (Actes de la table ronde, Rome, 25 mars 1994, CÈFR, 230), Roma 1997, 157-191</bibl> 
+<bibl>Delmaire R., Aspects normatifs de la politique monétaire du Bas-Empire: une nouvelle lecture de CTh IX, 23, 1, RN, 159, 2003, 166-168</bibl>  
+<bibl>Dubosson-Sbriglione L., Le culte de la Mère des dieux dans l’Empire romain, Stuttgart 2018, 503, nr. 105</bibl>  
+<bibl>Duthoy R., The taurobolium. Its evolution and terminology, Leiden 1969, 19, nr. 25</bibl>  
+<bibl>Duval N., Inventaire des inscriptions latines païennes de Sbeitla, MEFRA, 101, 1989, 427, nr. 45</bibl>  
+<bibl>Jones A. H. M., Collegiate Prefecture, JRS, 54, 1964, 82-83</bibl>  
+<bibl>Lane E., Corpus monumentorum religionis dei Menis, Vol. II, Leiden 1975, 177-178, nr. AD 4</bibl>   
+<bibl>Liverani P., Il Phrygianum Vaticano, in B. Palma Venetucci (a cura di), Culti orientali tra scavo e collezionismo (Atti del Convegno Roma, 23-24 marzo 2006), Roma 2008, 40-48</bibl> 
+<bibl>Lizzi Testa R., Senatori, popolo, papi. Il governo di Roma al tempo dei Valentiniani, Bari 2004, 61-89</bibl>  
+<bibl>Machado C., Urban Space and Aristocratic Power in Late Antique Rome, AD 270-535, Oxford 2019</bibl> 
+<bibl>Malaise M., Inventaire préliminaire des documents égyptiens découverts en Italie, Leiden 1972, 119, nr. 22</bibl>  
+<bibl>Mandowsky E., Mitchell C., Pirro Ligorio’s Roman Antiquities, London 1963, 66, nr. 25</bibl>  
+<bibl>Martinez-Maza C., Devotas mistéricas en la Roma bajoimperial, Aevum, 77, 2003, 53-68</bibl>  
+<bibl>Matthews J., The Roman empire of Ammianus, London 1989, 417</bibl>  
+<bibl>McLynn N., The Fourth-Century "taurobolium”, Pheonix, 50, 1996, 312-330</bibl>  
+<bibl>Migl J., Die Ordnung der Ämter. Prätorianerpräfektur und Vikariat in der Regionalverwaltung des Römischen Reiches von Konstantin bis zur Valentinianischen Dynastie, Frankfurt 1994, 108-132</bibl>  
+<bibl>Moser M., Emperor and senators in the reign of Constantius II: maintaining imperial rule between Rome and Constantinople in the fourth century AD, Cambridge 2018, 283</bibl>  
+<bibl>Neri V., I marginali nell’Occidente tardoantico: poveri, "infames" e criminali nella nascente società cristiana, Bari 1998, 65</bibl>  
+<bibl>Olariu C., The senatorial aristocracy in the fourth century. A case study. The Ceionii Rufii, ClChr, 8, 2013, 271-285</bibl> 
+<bibl>Orlandi S. (a cura di), Pirro Ligorio, Libri delle iscrizioni latine e greche (Napoli, Volume 7), Roma 2008, 54</bibl>  
+<bibl>Orlandi S., Gli ultimi sacerdoti pagani di Roma: analisi della documentazione epigrafica, in P. Brown, R. Lizzi Testa (eds), Pagans and Christians in the Roman Epire: the breaking of a dialogue (IVth-VIth century A. D.) (Conference at the Monastery of Bose, October 2008), Wien 2011, 425-466</bibl> 
+<bibl>Pergami F., La legislazione di Valentiniano e Valente (364-375), Milano 1993, 318-320</bibl>  
+<bibl>Poglio F. A., Gruppi di potere nella Roma tardoantica (350-395 d.C.), Torino 2007, 9-13, 31-50</bibl>  
+<bibl>Rutter J. B., The Three Phases of the Taurobolium, Phoenix, 22/3, 1968, 244, nr. 21</bibl>  
+<bibl>Sbriglione L., La “gens” Caeionia: étude prosopographique et réflexions sur la conversion d’une famille aristocratique, Anc Soc, 40, 2010, 153-196</bibl> 
+<bibl>Schraudolph E., Römische Götterweihungen mit Reliefschmuck aus Italien: Altäre, Basen und Reliefs, Heidelberg 1993, 244, nr. L195</bibl>  
+<bibl>Seeck O., Regesten der Kaiser und Päpste für die Jahre 311 bis 476 n. Chr.: Vorarbeit zu einer Prosopographie der christlichen Kaiserzeit, Stuttgart 1919, 31-35, 70, 118-119</bibl>  
+<bibl>Smetius M., Inscriptionum antiquarum quae passim per Europam, liber, Lugduni Batavorum (Leiden) ex off. Plantiniana apud Fr. Raphelengium 1588, XX, 2</bibl> 
+<bibl>Vermaseren M. J., Corpus cultus Cybelae Attidisque (CCCA), Vol. III, Leiden 1977, 60-61, nr. 244</bibl>  
+<bibl>Vidman L., Sylloge inscriptionum religionis Isiacae et Sarapiacae, Berlin 1969, 215, nr. 447</bibl>  
+<bibl>Vogler C., Constance II et l’administration impériale, Strasbourg 1979, 129</bibl> 
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                    <p n="1.4">father of the dedicant</p>
+                </div>
+                
+                <div type="commentary" n="6">
+                    <p n="6.a"></p>
+                    <p n="6.b"></p>
+                </div>
+                
+                <div type="commentary" n="7">
+                    <p n="7.8"></p>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">viri clarissimi</p>
+                    <p n="8.2">ex praefecto praetorio</p>
+                    <p n="8.4"></p>
+                    <p n="8.10"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

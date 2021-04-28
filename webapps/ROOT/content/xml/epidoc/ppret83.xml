@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription in honour of Arcadius from Aphrodisias by Tatianus praet. praefect</title>
+                <editor role="edition">Giordana Franceschini</editor>
+                <editor role="encoding">Giordana Franceschini</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="p. 876">83</idno>
+                <date when="2020-03-27"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Tatianus"><name type="praenomen">Flavius</name>
+                            <name type="gentilicium">Eutolmius</name>
+                            <name type="cognomen">Tatianus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Aphrodisias">Aphrodisias Museum</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription to the emperor Arcadius</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="grc">Greek</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">White marble</material>
+                                    <objectType ref="#column_base">column base</objectType>
+                                    <dimensions>
+                                        <height>66</height>
+                                        <dim type="diameter">56.5</dim>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">no</rs>
+                                    <rs type="monument_reuse">yes</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field.</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#fragmentary">Fragmentary. Five lines of the inscription have been deliberately effaced.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#lunate">lunate letters with serifs</term>
+                                <height>3 / 10 </height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Aphrodisias</placeName>
+                                <placeName type="modern_city">Geyre (Turkey)</placeName>
+                                <placeName type="province">Caria</placeName>
+                                <placeName type="diocese">Asiana</placeName>
+                                <placeName type="prefecture">Oriens</placeName>
+                                <placeName type="ancient_location" ref="#public">Public building (South Agora)</placeName>
+                            </origPlace>
+                            <origDate period="#p8" notBefore="0388" notAfter="0392">388/392 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#">Aphrodisias</placeName>, South Agora, center of the West stoa (in front of entrance to the courtyard of the Hadrianic Baths)</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                    <ab>
+                        <lb n="1"/>ἀ<supplied reason="lost">γαθῆι</supplied> τύχηι·
+                        <lb n="2"/>τὸν τῆς ὑφ’ ἡλίῳ γῆς αὐτοκράτορα
+                        <lb n="3"/>καὶ τροπεοῦχον δεσπότην  ἡμῶν
+                        <lb n="4"/><expan><abbr>Φλ</abbr><ex>άουιον</ex></expan> Ἀρκάδιον τὸν αἰώνιον Αὔγουστον,
+                        <lb n="5"/><del rend="erasure"><expan><abbr><unclear>Φλ</unclear></abbr><ex>άουιος</ex></expan> <unclear>Εὐτό</unclear>λ<supplied reason="lost">μιος Τατιανὸς ὀ <expan><abbr>λαμπρ</abbr><ex>ότατος</ex></expan> ἔπ</supplied><unclear>αρ</unclear><supplied reason="lost">χος</supplied></del>
+                        <lb n="6"/><del rend="erasure"><supplied reason="lost">το</supplied><unclear>ῦ</unclear> <supplied reason="lost">ἱερ</supplied><unclear>ου</unclear> π<supplied reason="lost">ρε</supplied><unclear>τ</unclear><supplied reason="lost">ωρίου τῇ συνήθει</supplied></del>
+                        <lb n="7"/><del rend="erasure"><supplied reason="lost">καθοσιώσει ἀφιέρω</supplied>σε<supplied reason="lost">ν</supplied></del>,
+                        <lb n="8"/><space quantity="1" unit="line"/>
+                        <lb n="9"/><del rend="erasure"><supplied reason="lost">ἐπὶ Ἀντωνίου Πρίσκου</supplied></del>
+                        <lb n="10"/><del rend="erasure"><supplied reason="lost">τοῦ <expan><abbr>λαμπρ</abbr><ex>οτάτου</ex></expan> ἡγεμόνος</supplied></del>.
+                        </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on LSA.</p>
+            <p>
+                <app loc="1"><note>[Ἀγαθῆι] Mendel; line omitted by Grégoire; Ἀ[γαθῇ] Boulanger, Robert.</note></app>
+                <app loc="2"><note>[αὐτοκράτορα] Grégoire</note></app>
+                <app loc="5"><note>ff. Grégoire was unaware of this erasure. Mendel saw three erased lines, followed by another two, as did Roueché; Boulanger recorded three erased lines, and read ΟΣ at the end of l.5.</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“Alla Sorte propizia! All’imperatore della Terra sotto il sole, e nostro vittorioso signore, Flavius Arcadius l’eterno Augusto, Flavius Eutolmius Tatianus, il chiarissimo prefetto del sacro pretorio con la consueta devozione consacrò (la statua), mentre era chiarissimo governatore Antonius Priscus.”</p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“May Fortune be propitious! To the emperor of (all) the earth under the sun, and our victorious master, Flavius Arcadius the eternal Augustus, Flavius Eutolmius Tatianus, of clarissimus rank, prefect of the sacred praetorium, dedicated (this statue) with the customary devotion, in the time of Antonius Priscus, governor of clarissimus rank.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“Que la Fortune soit favorable! À l’empereur de la Terre sous le soleil, et notre seigneur victorieux, Flavius Arcadius l’éternel Auguste, Flavius Eutolmius Tatianus, le clarissime préfet du prétoire sacré, avec la dévotion habituelle a consacré (la statue), alors qu’il était gouverneur clarissime Antonius Priscus.”</p>
+            </div>
+            <div type="commentary">
+                <p>The column on which the inscription is engraved was found in 1905 by G. Mendel, in the context of the NYU excavations. It was in the West stoa of the South agora and originally located on the South side of the steps that led from the West stoa of the agora to the forecourt of the Hadrianic Baths. Two clamp holes indicate that the column has been repaired. Three further cuttings for clamps suggest the reuse of the monument as a statue base.</p>
+                <p>The inscription was published for the first time by Mendel in <title>Catalogue des sculptures greques, romaines et byzantines</title> in 1912; then by H. Grégoire in <title>Recueil des inscriptions Grecques Chrétiennes d’Asie Mineure</title>, from Mendel’s copy. L. Robert published the inscription in <title>Hellenica</title> IV, 50-51, whence BE 1949, 178; by Roueché, <title>Aphrodisias in Late Antiquity</title>, nr. 26, and Plate VII, whence PHI 661, which has provided the most detailed recent examination of the support and the inscription.</p> 
+                <p>The honorary inscription for the emperor Arcadius was one of a group dedicated to the Theodosian imperial family (see also <ref type="ppret" corresp="ppret82">PPRET 82</ref>, <ref type="ppret" corresp="ppret83">83</ref>, <ref type="ppret" corresp="ppret84">84</ref>) and erected by Flavius Eutolmius Tatianus, whose name was erased. 
+                    The career of this distinguished figure is fully recorded in an inscription from Sidyma in Lycia (<ref type="ppret" corresp="ppret87">PPRET 87</ref>). He was made praetorian prefect in the East in 388 AD and fell from power in 392 AD. He suffered <foreign>damnatio memoriae</foreign> and banishment to Lycia, but he was rehabilitated posthumously by his grandson with an inscription in Aphrodisia (<ref type="ppret" corresp="ppret91">PPRET 91</ref>).
+                Antonius Priscus, governor of the Caria (PLRE I, p. 730), is known only by the series of the three inscriptions dedicated by Tatianus at Aphrodisias (<ref type="ppret" corresp="ppret82">PPRET 82</ref>-<ref type="ppret" corresp="ppret84">84</ref>).</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Grégoire 1922, nr. 275 </ref></bibl>
+                    <bibl><ref>Robert 1948, pp. 50 sg.</ref> = <ref>AE 1949, 220 </ref> = <ref>BE 1949, 178</ref></bibl>
+                    <bibl><ref>Roueché 1989, nr. 26</ref></bibl>
+                    <bibl><ref>McCabe, Aphrodisias, nr. 661</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://insaph.kcl.ac.uk/iaph2007/iAph040010.html">IAph 4.10</ref></bibl>
+                    <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail.php?record=164">LSA 164</ref></bibl>
+                    <bibl><ref corresp="http://insaph.kcl.ac.uk/ala2004/inscription/eAla026.html">ALA 26</ref></bibl>
+                    <bibl><ref corresp="https://inscriptions.packhum.org/text/257544">PH 257544</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Barnes T.D., The victims of Rufinus, CQ 34, 1984, 227-230</bibl>
+                    <bibl>Collignon M., Notes sur les fouilles executées à Aphrodisias par M. Paul Gaudin, CRAI 1904, 703-711</bibl>
+                    <bibl>Cuvigny H., Τρισαυγούστιον et φραγέλλιον. Contrôle de qualité et mesurage du grain fiscal au IVe s. apr. J.-C. à la lumière de P.Mich. XX 800 et de l’inscription tardive du grenier d’Andriakè, Chiron 47, 2017, 95-114</bibl>
+                    <bibl>Errington R., A note on the Augustal Prefect of Egypt, Tyche 17, 2002, 69-77</bibl>
+                    <bibl>Grégoire H., Miettes d’histoire byzantine (IVe-VIe siècle), Anatolian Studies presented to Sir William Mitchell Ramsay, Manchester-London-New York, 1923, 151-164</bibl>
+                    <bibl>Grégoire H., Quand est né l’empereur Théodose II ?, Byzantion 4, 1927-1928, 337-348</bibl>
+                    <bibl>Livrea E., I due Taziani in un’iscrizione di Afrodisia, ZPE 119, 1997, 43-49</bibl>
+                    <bibl>Manganaro G., Due note tardoantiche, ZPE 94, 1992, 283-294</bibl>
+                    <bibl>Mecella M., L’amministrazione di Taziano e Proculo e il destino dei Lici tra Teodosio e Arcadio, in Governare e riformare l’impero al momento della sua divisione: Oriente, Occidente, Illirico Roma, 2015</bibl>
+                    <bibl>Pellizzari A., «Salvare le città»: lessico e ideologia nell’opera di Libanio, Κοινωνία 35, 2011, 45-61</bibl>
+                    <bibl>Petit P., Les fonctionnaires dans l’œuvre de Libanius. Analyse prosopographique, Besançon 1994</bibl>
+                    <bibl>Robert L., Hellenica. Recueil d’épigraphie, de numismatique et d’antiquités grecques, IV, Epigrammes du Bas-Empire, Paris 1948</bibl>
+                    <bibl>Scharf R., Die Familie des Fl. Eutolmius Tatianus, ZPE 85, 1991, 223-231</bibl>
+                    <bibl>Woods D., Tatianus and the Basilica of Menas, Byzantion 65, 1995, 467-474</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                <div type="commentary" n="7">
+                    <p n="7.2"></p>
+                    <p n="7.y"></p>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">λαμπρότατος</p>
+                    <p n="8.2">ὁ λαμπρότατος ἔπαρχος τοῦ ἱεροῦ πραιτωρίου</p>
+                    <p n="8.5"></p>
+                    <p n="8.9"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

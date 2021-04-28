@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription in honour of the praet. prefect Sallustius from Rome by the provincials of Hispaniae</title>
+                <editor role="edition">Andrea Bernier, Irene Vagionakis</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="pp. 797-798">54</idno>
+                <date when="2020-05-08"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person><persName ref="#Sallustius"><name type="gentilicium">Flavius</name> <name type="cognomen">Sallustius</name></persName></person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Roma">Rome, Trajan’s Forum, reserve of the Basilica Ulpia</repository>
+                        <idno type="invNo">inv. 3435 (F.T. 77; then 14452)</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect Sallustius</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">white marble</material>
+                                    <objectType ref="#base">statue base, with top and bottom mouldings on three sides</objectType>
+                                    <dimensions>
+                                        <height>138.5</height>
+                                        <width>67</width>
+                                        <depth>64</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">yes; the text on the front face is inscribed over an older inscription; also the right side is roughly chiselled.</rs>
+                                    <rs type="monument_reuse">no</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Two inscribed fields (frons and latus sin.).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#damaged">The inscribed field on the left side of the base is slightly damaged.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <height>3.5 / 5.5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Roma</placeName>
+                                <placeName type="modern_city">Rome (Italy)</placeName>
+                                <placeName type="province">Urbs</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#public">public space: Trajan’s Forum</placeName>
+                            </origPlace>
+                            <origDate period="#p6" when="0364-05-28" precision="high">May 28<hi rend="superscript">th</hi>, 364 AD</origDate>
+                        </origin>
+                        <provenance type="found">found in 1849 during excavations in the western part of <placeName ref="#TrajanForum">Trajan’s Forum</placeName></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                <div type="textpart" subtype="face" n="frons">
+                    <ab>
+                        <lb n="1"/><expan><abbr>Fl</abbr><ex>avio</ex></expan> Sallustio, <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan>,
+                        <lb n="2"/><expan><abbr>cons</abbr><ex>uli</ex></expan> ordinario,
+                        <lb n="3"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>praet</abbr><ex>orio</ex></expan>, comiti
+                        <lb n="4"/>consistorii, vicario
+                        <lb n="5"/><expan><abbr>urbi</abbr><ex>s</ex></expan> Romae, vicario
+                        <lb n="6"/>Hispaniarum, vicario
+                        <lb n="7"/><expan><abbr>Quinq</abbr><ex>ue</ex></expan> Provinciarum,
+                        <lb n="8"/>pleno aequitatis
+                        <lb n="9"/>ac fidei ob virtutis
+                        <lb n="10"/><expan><abbr>meritorumq</abbr><ex>ue</ex></expan> gloriam,
+                        <lb n="11"/>missis <expan><abbr>legat</abbr><ex>is</ex></expan>, <expan><abbr>ius</abbr><ex>sione</ex></expan> <expan><abbr>sac</abbr><ex>ra</ex></expan>,
+                        <lb n="12"/>Hispaniae dicaverunt.
+                    </ab>
+                </div>
+                <div type="textpart" subtype="face" n="latus sin.">
+                    <ab>
+                        <lb n="1"/>Dedicata V <expan><abbr>kal</abbr><ex>endas</ex></expan> <expan><abbr>Iun</abbr><ex>ias</ex></expan>
+                        <lb n="2"/>Divo Ioviano <expan><abbr>Aug</abbr><ex>usto</ex></expan> et Varronian<supplied reason="lost">o</supplied>
+                        <lb n="3"/><expan><abbr>co</abbr><ex>n</ex><abbr>ss</abbr><ex>ulibus</ex></expan> <g ref="hedera"/>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on CIL and photos C. Machado (LSA 323).</p>
+                <p>
+                    <app loc="frons 5"><note>urbi ILS 1254, De Bonfils, LSA 323</note></app>
+                    <app loc="frons 9"><note>fide, De Bonfils 1981</note></app>
+                    <app loc="latus sin. 2"><note>Augusto EDR Gregori, Almagno 2019</note></app>
+                    <app loc="latus sin. 3"><note>co(n)s. Cantarelli 1903; conss. EDR; cons. Gregori, Almagno 2019</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“To Flavius Sallustius, of clarissimus rank, ordinary consul, praetorian prefect, count of the consistory, vicar of the city of Rome, vicar of the Spains, vicar of the Five Provinces, rich in justice and trustworthiness, for the glory of his virtue and merits, the Spains dedicated (this monument), having been sent the legates and thanks to a sacred order.</p>
+                <p>Dedicated on the fifth day before the kalends of June (May 28<hi rend="superscript">th</hi>) in the consulship of Divus Jovian Augustus and Varronianus (364 AD).”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“À Flavius Sallustius, clarissime consul ordinaire, préfet du prétoire, comte du consistoire, vicaire de la ville de Rome, vicaire des Espagnes, vicaire des Cinq Provinces, plein d’équité et de fiabilité, pour la gloire de sa vertu et de ses mérites, les Espagnes ont consacré, en ayant envoyé les légats et pour un commandement sacré.</p>
+                <p>Dédié le cinquième jour avant les kalendes de Juin (28 mai) sous le consulat du Divus Jovien Auguste et de Varronien (364 ap. J.-C.).”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“A Flavius Sallustius, chiarissimo console ordinario, prefetto del pretorio, conte del concistoro, vicario della città di Roma, vicario delle Spagne, vicario delle Cinque Province, pieno di equità e di affidabilità, per la gloria della sua virtù e dei suoi meriti, le Spagne hanno dedicato, inviati i legati e grazie a un sacro ordine.</p>
+                <p>Dedicata il quinto giorno prima delle calende di giugno (28 maggio) durante il consolato del Divo Gioviano Augusto e di Varroniano (364 d.C.).”</p>
+            </div>
+            <div type="commentary">
+                <p>The inscription celebrates the dedication of a monument to Flavius Sallustius in the Forum of Trajan on May 28<hi rend="superscript">th</hi> 364 AD. The monument (perhaps a bronze statue) was decreed by the Council of the diocese of the Spains who sent their legates to the imperial court and obtained imperial permission: <foreign>missis legat(is) ius(sione) sac(ra) Hispaniae dedicaverunt</foreign> (ll. 11-12). 
+                    G. Alföldy and F. Mitthof (CIL VI, p. 7445) believe that the remains of the holes in the upper surface of the base were cut to hold a bronze statue; Niquet 2000, p. 65, and C. Machado (LSA 323) are unsure of the type of statue (on metal statue housings above lithic bases cf. Willer 1996). The imperial grant probably came in the form of an authorization, adressed to the urban prefect, allowing him to erect a statue in the Forum of Trajan, the most prestigious public space in the capital, in honour of  a senator who was no longer serving in the bureaucracy (cf. Bauer 1996, pp. 93-97, 124-128; Chenault 2012; a list of statue bases from this Forum can be found in Bauer 1996, pp. 409-412; Niquet 2000, pp. 264-269). 
+                    In Rome the emperors usually put up monuments to their praetorian prefects in Trajan’s Forum (see <ref type="ppret" corresp="ppret45">PPRET 45</ref>, <ref type="ppret" corresp="ppret48">48</ref>, <ref type="ppret" corresp="ppret51">51</ref>, <ref type="ppret" corresp="ppret62">62</ref>, <ref type="ppret" corresp="ppret93">93</ref>, <ref type="ppret" corresp="ppret98">98</ref>). 
+                    In late antique Rome, emperors might offer such monuments to retired officials in public spaces. Since metal statues could only be put up in public spaces with imperial permission, private individuals and communities tended to dedicate monuments to the prefects inside the latter’s private property (cf. Feissel 1984, pp. 548-550; Ward-Perkins 2016, p. 307; Machado 2019, pp. 143-145; regarding imperial permission for metallic statues to praetorian prefects see <ref type="ppret" corresp="ppret24">PPRET 24</ref>, <ref type="ppret" corresp="ppret54">54</ref>, <ref type="ppret" corresp="ppret58">58</ref>). 
+                    This dynamic is confirmed by the text of our inscription: the ambassadors of the Council of Spains had special permission to place the statue of Sallustius in Trajan’s Forum. The same procedure is recalled in the inscription of the legates of Africa who celebrated the erection of two gilded statues (one in Rome, also Trajan’s Forum, the other in Carthage) of Hymetius, proconsul in 366-368 AD, after obtaining imperial permission in 376 or 378 AD (CIL VI, 1736 = ILS 1256, ll. 16-17: <foreign>provincia Africa decretis ad divinos principes / dominos nostros missis</foreign>).</p>
+                <p>Flavius Sallustius was a supporter of Julian and his praetorian prefect of Gaul (361-363 AD). The inscription records his <foreign>cursus honorum</foreign> in descending order. The oldest offices listed are three vicariates that were held by Sallustius in the following order: vicariate of the Five Provinces, vicariate of the Spains and vicariate of the city of Rome. The sequence of three vicariates indicates that Sallustius was probably a new man, someone who had made his way through the ranks of the bureaucracy, after holding minor positions (possibly provincial governorships) that the inscription does not record (see PLRE I, pp. 797-798). 
+                    We can only hasard a guess at the dates of his Roman appointment: the title <foreign>vicarius urbis Romae</foreign> is related to the reform of Constantius II in 357 AD (cf. Chastagnol 1960, pp. 36-42, 464), while the following position of praetorian prefect was held from 361 AD.</p>
+                <p>After the last vicariate Sallustius became part of the consistory of Julian (<foreign>comes consistorii</foreign>). He established relations of friendship and trust with the young emperor who promoted Sallustius <foreign>praefectus praetorio</foreign> of Gaul in the Spring of 361 AD, before leaving the West for the expected clash with Constantius II (<ref type="source">Amm. 21, 08, 01</ref>). He was, therefore, the first prefect appointed by Julian. In 363 AD Sallustius was granted the exceptional honour of holding the consulate together with the emperor himself (<foreign>consul ordinarius</foreign>: CLRE, pp. 260-261, for the sources; cf. Daris 1991; Hagedorn 2014). As is pointed out by Ammianus (<ref type="source">Amm. 23, 01, 01</ref>), it was from the time of Diocletian (in the years 285 and 288 AD) that private citizens were no longer appointed colleagues of an emperor in the consulate.</p>
+                <p>Ammianus also recalls (<ref type="source">Amm. 23, 05, 04</ref>) that at the beginning of the Persian expedition, Julian received a letter from Sallustius, imploring him to desist from his undertaking “without having yet secured the favour of the gods”. Evidence that Sallustius too was pagan. Some scholars have identified Fl. Sallustius as the author of the short treatise “On the Gods and the World” (Etienne 1963; PLRE), but the most recent critics prefer the Prefect of the East Saturninus Secundus Salutius (Rinaldi 1978; Desnier 1983; Clarke 1998; Marcone 2019; see also <ref type="ppret" corresp="ppret52">PPRET 52</ref>).</p>
+                <p>Flavius Sallustius left the prefecture shortly after Julian’s death: a law of the Theodosian Code may attest to his successor, Decimius Germanianus, in office in December 363 AD (<ref type="source">CTh 11, 30, 30</ref> but the dating of the text is problematic: cf. PLRE I, p. 392). 
+                    If the death of Julian brought about the end of his prefecture through the loss of imperial favour, there is no evidence to suggest it. On May 28<hi rend="superscript">th</hi> 364 AD, the monument in Trajan’s Forum was dedicated and permission for it came from one of Julian’s successors, perhaps Jovian (who died in Dadastana, in Bithynia, on February 17<hi rend="superscript">th</hi> 364 AD) less likely Valentinian (Augustus from February 25<hi rend="superscript">th</hi>) and Valens (from March 28<hi rend="superscript">th</hi>), considering that the imperial court had by then transferred to the East. 
+                    Moreover, Mamertinus and Salutius, Julian’s prefects, remained in office until 365 AD (see <ref type="ppret" corresp="ppret49">PPRET 49</ref> and <ref type="ppret" corresp="ppret51">51</ref>), while Decimius Germanianus himself had been among the supporters of the Apostate in Gaul. 
+                    It was probably Sallustius himself who chose to retire, perhaps because of his old age, or perhaps because he was honorably discharged by Jovian. In view of the end of the career of the prefect who also administered the Spains, the diocesan Council’s embassy wanted to ask the emperor for permission to make an honorary monument in the most prestigious forum in Rome. Possibly Fl. Sallustius, who governed that diocese as vicar, was a Spaniard (Chastagnol 1965 = 1994). The Sallustius who was Prefect of Rome in 386 AD and who owned horse farms in Spain, could be his son (<ref type="source">Symm., Ep. 05, 56</ref>: Chastagnol 1962, pp. 216-218; cf. Vera 1978; Rivolta Tiberga 1992, pp. 166-170).</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>CIL VI, 1729</ref> (cfr. pp. 3813, 4745-4746)</bibl>
+                    <bibl><ref>ILS 1254</ref></bibl>
+                    <bibl><ref>Cantarelli 1903, pp. 78-79, nr. 5</ref></bibl>
+                    <bibl><ref>Lugli 1965, p. 66, nr. 387</ref></bibl>
+                    <bibl><ref>De Bonfils 1981, pp. 178-180</ref></bibl>
+                    <bibl><ref>Scharf 1994, p. 21, nt. 56</ref></bibl>
+                    <bibl><ref>Gregori, Almagno 2019, p. 141, nr. 18</ref></bibl> 
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR134902">EDR 134902</ref></bibl>
+                    <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-323">LSA 323</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Bauer F.A., Stadt, Platz und Denkmal in der Spätantike. Untersuchungen zur Ausstattung des öffentlichen Raums in den spätantiken Städten Rom, Konstantinopel und Ephesos, Mainz am Rhein 1996</bibl>
+                    <bibl>Caltabiano M., La comunità degli Elleni: cultura e potere alla corte dell’imperatore Giuliano, AntTard, 17, 2009, 137-149
+                    </bibl>
+                    <bibl>Cantarelli L., La diocesi italiciana da Diocleziano alla fine dell’impero occidentale, Roma 1964 (rist. anastatica ed. 1903), 79-80</bibl>
+                    <bibl>Chastagnol A., La préfecture urbaine à Rome sous le Bas-empire, Paris 1960</bibl>
+                    <bibl>Chastagnol A., Les fastes de la préfecture de Rome au Bas-empire, Paris 1962, 216-218</bibl>
+                    <bibl>Chastagnol A., Les espagnols dans l’aristocratie gouvernementale à l’époque de Théodose, in Les empereurs romains d’Espagne, Paris 1965, 269-292 (= Chastagnol A., Aspects de l’antiquité tardive, Roma 1994, 11-42)</bibl>
+                    <bibl>Chenault R., Statues of Senators in the Forum of Trajan and the Roman Forum in Late Antiquity, JRS, 102, 2012, 103-132</bibl>
+                    <bibl>Clarke E. C., Communication, Human and Divine: Saloustious Reconsidered, Phronesis, 43, 1998, 326-350 </bibl>
+                    <bibl>Daris S., Spigolature documentarie 24-28, ZPE, 85, 1991, 271-275</bibl>
+                    <bibl>de Bonfils G., Il comes et quaestor nell’età della dinastia costantiniana, Napoli 1981, 164-190</bibl>
+                    <bibl>Desnier J.-L., Salutius – Salustius, REA, 85, 1983, 53-65</bibl>
+                    <bibl>Étienne R., Flavius Sallustius et Secundus Salutius, REA, 65, 1963, 104-113</bibl>
+                    <bibl>Feissel D., Notes d’épigraphie chrétienne (VII), BCH, 108, 1984, 545-579 </bibl>
+                    <bibl>Gregori G.L., Almagno G., Roman Calendars: Imperial Birthdays Victories and Triumphs, Beau Bassin 2019, 133, 141 nr. 18</bibl>
+                    <bibl>Hagedorn D., Bemerkungen zu Urkunden, ZPE, 189, 2014, 194-198</bibl>
+                    <bibl>Lanciani R., Storia degli scavi di Roma e notizie intorno le collezioni romane di antichità. Vol. 6 (1700-1878), Roma 2000, 378 </bibl>
+                    <bibl>Lugli G. (ed.), Fontes ad topographiam veteris Urbis Romae pertinentes, VI,1: Liber XVI: Fora imperatorum (Regio VIII), Roma 1965 </bibl>
+                    <bibl>Machado C., Urban Space and Aristocratic Power in Late Antique Rome, AD 270-535, Oxford 2019 </bibl>
+                    <bibl>Marcone A., Giuliano, Roma 2019, 118-123</bibl>
+                    <bibl>Niquet H., Monumenta virtutum titulique. Senatorische Selbstdarstellung im spätantiken Rom im Spiegel der epigraphischen Denkmäler, Stuttgart 2000 </bibl>
+                    <bibl>Rinaldi G., Sull’identificazione dell’autore del Περι θεῶν και κόσμου, Koinonia, 2, 1978, 117-152</bibl>
+                    <bibl>Rivolta Tiberga P., Commento storico al libro V dell’epistolario di Q. Aurelio Simmaco, Pisa 1992</bibl>
+                    <bibl>Schimdt-Hofner S., Die Regesten der Kaiser Valentinian und Valens in den Jahren 364 bis 375 n. Chr, ZRG, 125, 2008, 511</bibl>
+                    <bibl>Scharf R., Comites und comitiva primi ordinis, Stuttgart 1994 (21)</bibl>
+                    <bibl>Vera D., Lo scandalo edilizio di Cyriades e Auxentius e i titolari della ‘praefectura urbis’ dal 383 al 387. Opere pubbliche e corruzione in Roma alla fine del IV secolo d.C., SDHI, 44, 1978, 45-94</bibl>
+                    <bibl>Willer F., Beobachtungen zur Sockelung von bronzenen Statuen und Statuetten, BJ, 196, 1996, 337-370</bibl> 
+                    <bibl>Ward-Perkins B., The End of the Statue Habit, AD 284-620, in The Last Statues of Antiquity, eds. by R.R.R. Smith, B. Ward-Perkins, Oxford 2016, 295-308</bibl> 
+                    
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.a"></p>
+                    <p n="2.2"></p>
+                    <p n="2.8">missis legat(is) ius(sione) sac(ra)</p>
+                    <p n="2.9">pleno aequitatis ac fidei ob virtutis meritorumq(ue) gloriam</p>
+                    <p n="2.10">pleno aequitatis ac fidei ob virtutis meritorumq(ue) gloriam</p>
+                    <list n="2.11">
+                        <item n="2.11.d"></item>
+                    </list>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">v(ir) c(larissimus)</p>
+                    <p n="8.2">praef(ecto) praet(orio)</p>
+                    <p n="8.3"></p>
+                    <p n="8.10"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

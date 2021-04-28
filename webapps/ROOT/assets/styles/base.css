@@ -1,0 +1,235 @@
+ul.index-instances { }
+
+.index-instance-file {
+    font-weight: bolder;
+}
+
+.index-instance-text-parts { }
+
+.index-instance-line { }
+
+#name-header {
+    font-weight: lighter;
+    font-family: Papyrus, "Palatino Linotype", serif; 
+    color: #F8F8F8;
+    font-size: 25px;
+    letter-spacing: 0.05em;
+    background-color: black;
+    height: 80px;
+    margin-top: -1px;
+    margin-bottom: -25px;
+    padding-top: 30px;
+}
+
+#name-header a:link, #name-header a:visited, #name-header a:active, #name-header a:hover {color: #F8F8F8;}
+
+footer {
+    background: none repeat scroll 0 0 #fafafa;
+    background-color: black;
+    color: #777777;
+    font-size: 80%;
+    padding: 22px;
+    height: 110px;
+}
+
+footer p {
+    text-align: center;
+}
+
+div, p, h1, h2, h3, h4, h5, h6, li, ul {
+    font-family: "Palatino", Calibri, serif;
+}
+
+h1 {
+    font-size: 24px;
+    text-align:center;
+    }
+    
+    
+h2 {
+    font-size: 20px;
+    padding-top: 20px;
+    }
+    
+h3 {
+    font-size: 16px;
+    padding-top: 10px;
+    }
+
+div {
+    padding-bottom: 1.5em;
+}
+
+span.bibl {
+    font-variant: small-caps;
+}
+
+div #id {
+    margin-top: -50px;
+}
+
+p {
+    margin-bottom: 0.5em;
+    }
+    
+p, li, ul {
+    text-align: justify;
+}
+
+ul {
+    margin-bottom: 0.6em;
+    list-style-type: none;
+}
+
+ul.info {
+    margin-left: 0.5em;
+    margin-bottom: 0.1em;
+}
+
+li.n {
+    margin-left: 1.2em;
+    list-style-type: square;
+}
+
+body {
+    min-height: 100%;
+    min-width: 100%;
+    background-color: #F5F5F5;
+}
+
+html {
+  height: 100%;
+  min-width: 100%;
+}
+a, a:link, a:visited, a:active, a:hover { color: #3c7e8e; }
+
+#banner {
+    padding-top: 20px;
+}
+
+.box {
+    position: relative;
+    text-align: center;
+}
+
+.imagebox {
+    opacity: 0.8;
+}
+
+.textbox {
+    position: absolute;
+    /*background-color: #99937F;*/
+    padding: 1em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#site_name {
+    font-family: Papyrus, "Palatino Linotype", serif; 
+    font-size: 45px;
+    color: white; 
+    text-shadow: 2px 2px black;
+}
+
+.site_name_subheading {
+    font-family: "Palatino Linotype", serif; 
+    font-size: 22px;
+    color: white; 
+     text-shadow: 2px 2px black;
+}
+
+div.edition_part {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    margin-bottom: 1em;
+    border: 1px solid #A9A9A9;
+}
+
+div.edition_subpart {
+    border-top: 1px solid #A9A9A9;
+}
+
+h3#date {
+    padding-top: 0;
+}
+
+span.highlight {
+    color: red;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+#navigation {
+    padding-bottom:0;
+    margin-bottom:-20px;
+    margin-top:-60px;
+}
+
+#navigation ul {
+    text-align:center;
+}
+
+li.arrow a {
+    font-size: 20px;
+}
+
+
+/*Keyboard*/
+#keyboard_box {
+    display:none;
+    margin-top: 1em;
+    margin-right: 1em;
+    margin-bottom: 4em;
+    float: none;
+    width: 300px;
+    height: 250px;
+}
+#keyboard li {
+    font-size: 18px;
+    list-style: none;
+    float: left;
+    margin: 0 5px 5px 0;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+}
+#keyboard li:hover {
+    border: none;
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: "New Athena Unicode";
+    src: url('fonts/nau.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "New Athena Unicode";
+    src: url('fonts/nauBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "New Athena Unicode";
+    src: url('fonts/nauItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "New Athena Unicode";
+    src: url('fonts/nauBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}

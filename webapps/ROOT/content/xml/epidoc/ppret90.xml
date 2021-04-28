@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription commemorating the works in the Canopus canal (Egypt) carried out by the will of Tatianus praet. prefect</title>
+                <editor role="edition">Giordana Franceschini</editor>
+                <editor role="encoding">Giordana Franceschini</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="p. 876">90</idno>
+                <date when="2020-03-27"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Tatianus"><name type="praenomen">Flavius</name>
+                            <name type="gentilicium">Eutolmius</name>
+                            <name type="cognomen">Tatianus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#unknown">Unknown</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#building">Building inscription, commemorating the works carried out by the will of the praetorian prefect Flavius Eutolmius Tatianus on the Canopus canal</term>
+                            <term type="rhythm" ref="#prose">Prose</term>
+                        </summary>
+                        <textLang mainLang="grc">Greek</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#stone_slab">Stone slab</objectType>
+                                    <dimensions>
+                                        <height>59.55</height>
+                                        <width>13.31</width>
+                                        <depth>11.02</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">no</rs>
+                                    <rs type="monument_reuse">yes (pavement of a muslim tomb)</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>The inscription is carved on one field. It consists of 9 lines and is fragmentary; the right side of the epigraphic field is lost.</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#fragmentary">The name of the awarder, partially illegible, was restored by C. Wescher on the basis of the legibility of some of the letters and through a comparison of this inscription with another in Egypt, that was similar and featured Fl. Eutolmius Tatianus (<ref type="ppret" corresp="ppret86">PPRET 86</ref>). The inscribed slab was reused in the floor of a muslim saint’s tomb (Sonnini 1799).</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#unknown">Unknown</term>
+                                <height>unknown</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Canopus</placeName>
+                                <placeName type="modern_city">Abukir (Egypt)</placeName>
+                                <placeName type="province">Aegyptus</placeName>
+                                <placeName type="diocese">Aegyptus</placeName>
+                                <placeName type="prefecture">Oriens</placeName>
+                                <placeName type="ancient_location" ref="#public">Public space</placeName>
+                            </origPlace>
+                            <origDate period="#p8" notBefore="0388" notAfter="0390">388/390 AD</origDate>
+                        </origin>
+                        <provenance type="found">Near <placeName ref="#">Aboukir (Egypt)</placeName>, embedded in the stone floor of a Muslim saint’s tomb (Sonnini 1799)</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                 <div type="textpart" subtype="face" n="frons">
+                <ab>
+                    <lb n="1"/><supplied reason="lost">Σπουδῇ</supplied> <expan><abbr>Φλ</abbr><ex>αύιου</ex></expan> Εὐτολ<supplied reason="lost">μίου Τατιανοῦ τοῦ <expan><abbr>λαμ</abbr><ex>προτάτου</ex></expan> καὶ ὑπάρχον</supplied><lb break="no" 
+                        n="2"/> τος <expan><abbr>ἐπάρχ</abbr><ex>ου</ex></expan> τοῦ ἱε<supplied reason="lost">ροῦ πραιτωρίου, ἀπὸ ἐπάρχων τῆς</supplied>
+                        <lb n="3"/>Αἰγυπτιακῆς διοι<supplied reason="lost">κήσεως, ὁ ποταμὸς</supplied> <expan><abbr><supplied reason="lost">ἐκκεκάθα</supplied></abbr><lb break="no" 
+                            n="4"/><ex>ρ</ex><abbr>ται</abbr></expan> ἀπὸ θεμελί<supplied reason="lost">ων ἐπὶ τὰ γʹ στερεά</supplied>,
+                        <lb n="5"/>βάθους <expan><abbr>πήχ</abbr><ex>εων</ex></expan> δέκα, <supplied reason="lost">πλάτους <expan><abbr>πήχ</abbr><ex>εων</ex></expan> ἐννέ</supplied><lb break="no" 
+                            n="6"/>α, μήκους <expan><abbr>πήχ</abbr><ex>εων</ex></expan> δι<supplied reason="lost">σχιλίων, τουτῷ τῷ ἔργῳ ἐπικείμενου</supplied>
+                        <lb n="7"/><expan><abbr>Π</abbr><ex>ουβλίου</ex></expan> <expan><abbr>Ἀρρ</abbr><ex>ίου</ex></expan> Ἀλεξάνδρου, <supplied reason="lost">τοῦ <expan><abbr>περι</abbr><ex>βλέπτου</ex></expan> κόμητος πρώ</supplied><lb break="no" 
+                            n="8"/> του τάγματος καὶ <supplied reason="lost">αὐγουσταλίου πάσης τῆς Αἰ</supplied><lb break="no" 
+                            n="9"/> γυπτιακῆς διοι<supplied reason="lost">κήσεως</supplied>.
+                </ab>
+                 </div>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on Bernand (1970).</p>
+                <p>
+                    <app loc="1"><note>[ἐπί…] CIG; SB</note></app>
+                    <app loc="2"><note>ἱθ: Sonnini; CIG; SB; [τάγματος τῆς]: CIG; SB</note></app>
+                    <app loc="3"><note>[τὸ τεῖχος ? οἱ]: CIG; SB</note></app>
+                    <app loc="4"><note>αγαι: Sonnini; αται: CIG; SB; [ῷκοδόμησαν]: CIG; SB</note></app>
+                    <app loc="5"><note>δεκλ: Sonnini; [ὕψους πηχ(εων)]: CIG; SB</note></app>
+                    <app loc="6"><note> δι[ακουςίων ?]: CIG; SB</note></app>
+                    <app loc="7"><note>[τοῦ αὐ]τοῦ τάγματος καὶ: CIG; SB</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“Grazie allo zelo di Flavius Eutolmius Tatianus, chiarissimo prefetto del sacro pretorio, ex prefetto della diocesi d’Egitto, il canale è stato ripulito fin dalle fondazioni, nelle tre dimensioni, per dieci cubiti in profondità (m. 5,25), per nove cubiti in larghezza (m. 4,72), per duemila cubiti in lunghezza (m. 1.040), sotto la supervisione di Publius Arrius Alexander, spettabile conte del primo ordine e prefetto Augustale dell’intera diocesi di Egitto.”</p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“Thanks to the zeal of Flavius Eutolmius Tatianus, of clarissimus rank, prefect of the sacred praetorium, ex prefect of the diocese of Egypt, the canal has been cleaned from the foundations, in three dimensions, for ten cubits in depth (m. 5.25), for nine cubits in width (4.72 m), for two thousand cubits in length (1.040 m), under the supervision of Publius Arrius Alexander, respectable/admired count of the first order and prefect Augustalis of the entire diocese of Egypt.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“Par la bienveillance de Flavius Eutolmius Tatianus, le clarissime, qui est préfet du saint prétoire, ex-gouverneur du diocèse d’Égypte, le canal se trouve curé depuis les fondations, dans les trois dimensions, sur dix coudée (= 5 m., 25) de profondeur, neuf coudées (= 4 m., 72) de largeur, deux mille coudées (=1040 m.) de longueur, sous de Publius Arrius Alexander, illustre comte du premier rang et préfet augustal de tout le diocèse d’Égypte.”</p>
+            </div>
+            <div type="commentary">
+                <p>This Greek inscription commemorates the repairs carried out on the Canopus canal between 388 and 390 AD. For centuries the canal had supplied the city and other nearby agglomerations (Taposiris Magna, Plinthine) with water and goods, and favoured the agricultural developments in these territories (see Blouin 2014). The works were supervised by Fl. Eutolmius Tatianus, the praetorian prefect of the East between 388 and 392 AD (cf. <ref type="ppret" corresp="ppret82">PPRET 82</ref>, <ref type="ppret" corresp="ppret83">83</ref>, <ref type="ppret" corresp="ppret84">84</ref>, <ref type="ppret" corresp="ppret85">85</ref>, <ref type="ppret" corresp="ppret86">86</ref>).</p>
+<p>The text was engraved on a fragment of a white marble slab, which was found near Aboukir (Egypt) by the French naturalist Charles-Nicolas-Sigisbert Sonnini de Manoncourt in 1778 (Hairy, Sennoune 2006). The slab was reused as a part of the pavement of a muslim saint’s tomb, whose precise location is no longer known. Bernand (1970) believes that the tomb may have been located on the road connecting Aboukir to Chereum, by following the indications provided by the discoverer in <foreign>Voyage dans la Haute et la Basse Egypte</foreign> 2 (Sonnini 1799, p. 112-116). Sonnini (1799) also relates that his companion, a Bedouin sheikh named Hussein, felt no scruple about pulling the inscription up from the tomb’s pavement, nor selling it to him. Sonnini (1799) informs us that the slab was stolen, so we have no information about its current location. He provides the reader with a description of the slab, which appears to be missing of all its right side, and also a transcription, French translation and notes, for which he thanks J.B. Gail, professor of Greek literature in the ‘College de France’ from 1792.</p>
+<p>The inscription shows a five-letters gap in the first line, as described by Sonnini (1799): «La moitié de la première ligne était effacée; le reste était bien conservé, mais les caractères en étaient assez mal formés». In fact, the text is fragmentary and numerous attempts have been made to re-establish the missing part. After Sonnini’s transcription, the text was published in 1853 by J. Franz in CIG III, 4693, with a capitalized transcription, a lower case transcription and a small Latin commentary. Then C. Wescher (1866) has reconstructed the first two lines, on the base of the text chiselled on the statue base from Antinoupolis (<ref type="ppret" corresp="ppret86">PPRET 86</ref>), on which also Tatianus was mentioned. W. Kubitschek (1918), through the comparison with the inscription from Myra (<ref type="ppret" corresp="ppret88">PPRET 88</ref>), also mentioning the prefect Fl. Eutolmius Tatianus, tried to integrate almost all of the missing part of the Canopos inscription. In 1950 E. Kiessling (SB V, 8295) published Franz’s 1853 text, without taking into account the restorations of Wescher and Kubischek and without having read the studies of Robert (1939), much to Robert’s chagrin (Robert 1952).</p>
+<p>The inscription can be dated through a reference to Publius Arrius Alexander, prefect of Egypt under Theodosius I, from the Autumn of 388 to February 18th 390 AD (cf. PLRE I, p. 42; Seeck 1906, p. 54; Vandersleyen 1962, nr. 57; Lallemand 1964, p. 70). The time span overlaps with Eutolmius Tatianus’ prefectural career (see <ref type="ppret" corresp="ppret87">PPRET 87</ref>), who was praetorian prefect of the East from 388 to 392 AD. In that year Tatianus was relieved of office and sentenced to death with his son Proculus (cf. PLRE I, pp.746-747; see <ref type="ppret" corresp="ppret89">PPRET 89</ref>), who was executed in December 393 AD. In the end, Tatianus’ punishment was commuted to banishement, confiscation of his properties and the <foreign>damnatio memoriae</foreign> (<ref type="source">Eun., Fr. 57</ref>; <ref type="source">Zos. 04, 52, 04</ref>; <ref type="source">Claud., In Ruf., 01, 246-249</ref>; see <ref type="ppret" corresp="ppret91">PPRET 91</ref>).</p>
+<p>The text observed by Sonnini does not clarify the specific type of work the prefect was meant to supervising. Franz (1853) imagines that it could be the construction of walls or fortifications and that the missing part of the text might have referred of a τεῖχος (l. 3). Kubitschek (1918) believes it could have been the construction of a pier and Lallemand (1964) a building. However, Bernand (1970) is inclined to consider the possibility of hydraulic works upon a canal, for three reasons: 1) we are not aware of fortification works or walls in the area from which the inscription comes; 2) the dimensions provided by the inscription are not compatible with those of walls or buildings; 3) P. Arrius Alexander appears in an honorary epigram on a white marble stone found in 1897 near Hagar el Nawatieh (cf. Bernand 1970, pp. 335-336, nr. 5; already Botti 1901, p. 540, nr. 11; cf. Hairy, Sennoune 2006, p. 262), which commemorates his responsability for the Alexandrian canal. The same Fl. Eutolmius Tatianus wwas the supervisor for the <foreign> fluvius Tatianus </foreign>, as we learn from the ‘Excerpta Latina Barbari’ (<ref type="source">MGH AA 09, Chron. Min. 01, p. 296</ref>; discussion on this and other sources by Olszaniec 2013, pp. 395-398 and below), when he was prefect of Egypt in 367-370 AD.  </p>
+<p>Bernand (1970) also states that ἀπὸ θεμελίων (l. 4), which generally indicates the foundations of a building, takes up the final lines of the inscription from the Alexandria’s port town on the Canopian Nile of Schèdia (cf. Bernand 1970, pp. 334-335; on the excavation at Schèdia, under the direction of M. Bergmann and M. Heinzelmann, see http://www.schedia.de). Two inscriptions from Schèdia mention the works carried out on the Philagrianos river under the reign of Titus and Domitian (OGIS 672-673 = IGR I, 1098-1099 = SB V, 8902-8903, cf. Hairy, Sennoune 2006, p. 263). Bernand (1970, pp. 332-333) also points out that canal bottoms were generally covered with stone slabs. In the Schèdia inscription a further distinction is made between the slabs covering the backdrop and those covering and supporting the walls. The fragment on which Tatianus’ inscription from Canopus was engraved could therefore be one of the stone slabs mentioned by the steles of Schèdia, the use of which may have continued until the fourth Century and could have had the purpose of commemorating the works carried out in the canal. Finally, Bernand (1970) concludes by assuming that the inscription of Hagar el-Nawatieh, mentioning the supervision P. Arrius Alexander (above) and Tatianus’ inscription mark the beginning and the end of the works undertaken on the Canopus canal in 388-390 AD.</p>
+<p>The attention paid to the Nile and its floods by the Roman administration is, as pointed out by Pellacani (2012), a phenomenon closely connected with the fertility of the Nile valley. The visible traces of the canal’s old course are no longer visible, but our inscription constitutes an important testimony to it and on the maintenance works financed by the Empire.</p>
+<p>In the Canopus inscription, Fl. Eutolmius Tatianus is referred to as [ἀπὸ ἐπάρχων τῆς] Αἰγυπτιακῆς διοι[κήσεως] (ll. 2-3), i.e. former prefect of the diocese of Egypt. The office held by Tatianus in Egypt has been the focus of a debate. For a long time Tatianus was considered the first <foreign> praefectus Augustalis </foreign> of the new diocese of Egypt (inaugurated between March 17th 380 and July 11th 381 AD), according to the information in ‘Excerpta Latina Barbari’ (MGH AA IX, Chron. Min. 1, p. 295). But, as Mratschek (2012) explains, Tatianus was only the first <foreign>praefectus Aegypti</foreign> of the enlarged province of Egypt: on 371-374 AD, the eastern sector of the Nile delta and the Heptonomia had been added while Aelius Palladius (PLRE I, p. 661) held that office. Several transformations culminated in the creation of Egypt as a diocese in its own right, requiring a diocesan governor (<foreign>praefectus Augustalis</foreign>) who was endowed with higher rank than the <foreign>praesides</foreign>. A constitution issued on March 8th 383 AD (<ref type="source">CTh 12, 01, 097</ref>) is the first explicit evidence of the existence of the diocese of Egypt, created as an administrative area separated from the diocese of Oriens. But what we still do not know is the exact date of the creation of the diocese. The canons of the Council of Constantinople, promulgated on July 11th 381 AD, suggest that this date may be the <foreign>terminus ante quem</foreign> for the inauguration of the diocese, so the transformation must have taken place between March 17th 380 AD (<ref type="source">CTh 12, 01, 080</ref>) and July 11th 381 AD. Palladius, the earliest <foreign>Augustalis</foreign> attested in the Theodosian Code (<ref type="source">CTh 08, 05, 37</ref>), is mentioned on May 14th 382. The early eighth Century ‘Excerpta Latina Barbari,’ in which Tatianus is referred to as <foreign>Augustalis</foreign> (<foreign>eo anno introvit Tatianus in Alexandria primus Augustalius VI kal. Februarias</foreign>), is a Latin translation of a Greek fifth Century world chronicle. From this perspective, as Mratschek (2012) thinks, the title used for Tatianus in the ‘Excerpta Latina Barbari’ must be anachronistic, made at a time whe the office was already well known (cf. Errington 2002).</p>
+<p>In conclusion, according to Mratschek (2012) and Olszaniek (2013), in the Canopus inscription, Tatianus defined as [ἀπὸ ἐπάρχων τῆς] Αἰγυπτιακῆς διοι[κήσεως] (ll. 2-3) was only the former prefect of Egypt, the enlarged province, while P. Arrius Alexander referred to as [αὐγουσταλίου πάσης τῆς Αἰ]γυπτιακῆς διοι[κήσεως] (ll. 8-9) was the actual <foreign> praefectus Augustalis </foreign> of the new diocese.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Sonnini 1799, pp. 112-116</ref></bibl>
+                    <bibl><ref>CIG III, 4693</ref></bibl>
+                    <bibl><ref>SB V (1950), 8295</ref></bibl>
+                    <bibl><ref>Bernand 1970, nr. 341</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="https://epigraphy.packhum.org/text/228282">PHI 228282</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Agostini G., La chronologie des préfets d’Égypte à la lumière des dernières sources: une comparaison entre les sources papyrologiques et chronographiques, Porphyra, 2020, 59-72</bibl>
+                    <bibl>Barnes T.D., The victims of Rufinus, CQ, 34, 1984, 227-230</bibl>
+                    <bibl>Bernand A., Le Delta Égyptien d’après les textes grecs, Les confins lybiques, Le Caire 1970</bibl>
+                    <bibl>Blouin K., Triangular landscapes: environment, society, and the state in the Nile Delta under Roman rule, Oxford-New York 2014</bibl>
+                    <bibl>Botti G., Catalogue du Musée d’Alexandrie, Alexandrie 1901, 540, nr. 11</bibl>
+                    <bibl>Collignon M., Notes sur les fouilles executées à Aphrodisias par M. Paul Gaudin, CRAI, 1904, 703-711</bibl>
+                    <bibl>Cuvigny H., Τρισαυγούστιον et φραγέλλιον. Contrôle de qualité et mesurage du grain fiscal au IVe s. apr. J.-C. à la lumière de P.Mich. XX 800 et de l’inscription tardive du grenier d’Andriakè (Grégoire, Recueil 290), Chiron, 47, 2017, 95-114</bibl>
+                    <bibl>Errington R., A note on the Augustal Prefect of Egypt, Tyche, 17, 2002, 69-77</bibl>
+                    <bibl>Grégoire H., Miettes d’histoire byzantine (IVe-VIe siècle), Anatolian Studies presented to Sir William Mitchell Ramsay, Manchester-London-New York 1923, 151-164</bibl>
+                    <bibl>Grégoire H., Quand est né l’empereur Théodose II ?, Byzantion, 4, 1927-1928, 337-348</bibl>
+                    <bibl>Hairy, I., and Sennoune, O. Géographie historique du canal d’Alexandrie, Annales Islamologiques, 40, 2006, 247-287</bibl>
+                    <bibl>Kubitschek W., Eine Inschrift des Speichers von Andriake (Lykien), Numismatiche Zeitschrift, 51, 1918, 66-70</bibl>
+                    <bibl>Lallemand J., Administration civile de l’Egypte de l’avènement de Dioclétian à la création du diocèse (284-382), Contribution à l’étude des rapport entre l’Egypte et l’Empire à la fin du IIIe au IVe siècle, Bruxelles, 1964</bibl>
+                    <bibl>Livrea E., I due Taziani in un’iscrizione di Afrodisia, ZPE, 119, 1997, 43-49</bibl>
+                    <bibl>Manganaro G., Due note tardoantiche, ZPE, 94, 1992, 283-294</bibl>
+                    <bibl>McCormick M., What climate science, Ausonius, Nile floods, rye, and thatch tell us about the environmental history of the Roman Empire, The ancient Mediterranean environment between science and history, Columbia Studies in the Classical Tradition, 39, 2013, 61-88</bibl>
+                    <bibl>Mecella M., L’amministrazione di Taziano e Proculo e il destino dei Lici tra Teodosio e Arcadio, Governare e riformare l’impero al momento della sua divisione: Oriente, Occidente, Illirico, Roma 2015</bibl>
+                    <bibl>Mratschek S., Melania and the Unknown Governor of Palestine, Journal of Late Antiquity, 5, 2012, 250-268</bibl>
+                    <bibl>Nollé J., Side im Altertum: Geschichte und Zeugnisse, IK, 43, 1993, nr. 52</bibl>
+                    <bibl>Parcak S., The physical context of ancient Egypt, A Companion to Ancient Egypt, 2010, 3-22  </bibl>
+                    <bibl>Pellacani D., Le piene del Nilo: nota bibliografica, in Seneca e le scienze naturali, 2012, 81-92</bibl>
+                    <bibl>Pellizzari A., «Salvare le città»: lessico e ideologia nell’opera di Libanio, Κοινωνία, 35, 2011, 45-61</bibl>
+                    <bibl>Petit P., Les fonctionnaires dans l’œuvre de Libanius. Analyse prosopographique, Besançon 1994</bibl>
+                    <bibl>Reinach T., Inscriptions d’Aphrodisias, REG, 19, 1906, 79-150, 205-298</bibl>
+                    <bibl>Robert L., L’épigraphie grecque au Collège de France, Leçon d’ouverture donnée le 25 Avril 1939, Opera minora selecta III, Amsterdam 1969</bibl>
+                    <bibl>Scharf R., Die Familie des Fl. Eutolmius Tatianus, ZPE, 85, 1991, 223-231</bibl>
+                    <bibl>Seeck O., Die Briefe des Libanius, Leipzig, 1906</bibl>
+                    <bibl>Sonnini de Manoncourt, Ch. N. S., Voyage dans la haute et basse Egypte: fait par ordre de l’ancien gouvernement et contenant des observations de tous genres, Paris 1799</bibl>
+                    <bibl>Vandersleyen Cl., Chronologie des préfets d’Egypte de 284 à 395, Bruxelles, 1962, nr. 57</bibl>
+                    <bibl>Wescher C., Bullettino dell’Instituto di Corrispondenza Archeologica, Roma 1866, 155</bibl>
+                    <bibl>Woods D., Tatianus and the Basilica of Menas, Byzantion, 65, 1995, 467-474</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="7">
+                    <p n="7.3">Canopus canal</p>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">τοῦ λαμπροτάτου</p>
+                    <p n="8.2">τοῦ λαμπροτάτου καὶ ὑπάρχοντος ἐπάρχου τοῦ ἱεροῦ πραιτωρίου</p>
+                    <p n="8.4"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

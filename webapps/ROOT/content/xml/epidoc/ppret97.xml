@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorary inscription for an anonymous praet. prefect from Leptis Magna</title>
+                <editor role="edition">Irene Vagionakis</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="new">97</idno>
+                <date when="2020-06-09"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#anonymous">Anonymous praetorian prefect (of Italia Illyricum Africa?)</persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Leptis">Leptis Magna, Forum Severianum, at findspot</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#base">statue base</objectType>
+                                    <dimensions>
+                                        <height>157</height>
+                                        <width>130</width>
+                                        <depth>130</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">yes: the text has been erased</rs>
+                                    <rs type="monument_reuse">no</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#damaged">Damaged: the upper part of the base is ruined.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <height>6</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Leptis Magna</placeName>
+                                <placeName type="modern_city">Al Khums (Libya)</placeName>
+                                <placeName type="province">Tripolitania</placeName>
+                                <placeName type="diocese">Africa</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#public">public space: Forum Severianum</placeName>
+                            </origPlace>
+                            <origDate period="#p8" notBefore="0350" notAfter="0400">350/400 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#">Leptis Magna</placeName>, Forum Severianum, West side, at foot of the steps of the temple</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                    <ab>
+                        <lb n="1"/><del rend="erasure"><gap reason="lost" quantity="5" unit="character" cert="low"/><orig>f</orig><gap reason="lost" quantity="4" unit="character" cert="low"/></del> <space quantity="2" unit="character" precision="low"/> <del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>
+                        <lb n="2"/><del rend="erasure">Praecipuae nobilitatis ac virtu<unclear>tum</unclear></del>
+                        <lb n="3"/><del rend="erasure"><supplied reason="lost">o</supplied>mnium sed et perpensae iustitiae</del>
+                        <lb n="4"/><del rend="erasure"><gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="4" unit="character"/>daeque sinceritatis adque</del>
+                        <lb n="5"/><del rend="erasure"><unclear>i</unclear><supplied reason="lost">nc</supplied>omparabil<supplied reason="lost">i</supplied>s prudentiae viro</del>
+                        <lb n="6"/><del rend="erasure"><gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" quantity="6" unit="character" cert="low"/> pr<unclear>a</unclear>efe<supplied reason="lost">c</supplied><unclear>t</unclear><supplied reason="lost">o</supplied> <unclear>praet</unclear>or<supplied reason="lost">i</supplied>o</del>
+                        <lb n="7"/><del rend="erasure">patrono ob plurim<unclear>a</unclear> <unclear>i</unclear><supplied reason="lost">n</supplied> se pro</del><lb 
+                            break="no" n="8"/><del rend="erasure">v<unclear>i</unclear>sio<supplied reason="lost">ne eius con</supplied>la<unclear>ta</unclear> beneficia</del>
+                        <lb n="9"/><del rend="erasure"><gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>o</orig> L<unclear>ep</unclear><supplied reason="lost">cimagnen</supplied>s<supplied reason="lost">e</supplied>s</del>
+                        <lb n="10"/><del rend="erasure">p<supplied reason="lost">ub</supplied>lic<unclear>e</unclear></del>.
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on LeptisMagna.</p>
+                <p>
+                    <app loc="2"><note>virtut(is): IRT</note></app>
+                    <app loc="3"><note><gap reason="lost" quantity="13" unit="character" precision="low"/> perpensae: IRT</note></app>
+                    <app loc="4"><note>aeque: IRT</note></app>
+                    <app loc="6"><note><del rend="erasure"><gap reason="lost" extent="unknown" unit="character" cert="low"/></del>: IRT</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“... to a man of a peculiar nobility and of all virtues but also of mindful justice ... and sincerity, and incomparable prudence ... praetorian prefect, patron, for the very many benefits brought to them by his foresight ... the people of Lepcis Magna, at public expense.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“...”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“... a un uomo di peculiare nobilità e di ogni virtù ma anche di ponderata giustizia ... e sincerità e incomparabile prudenza ... prefetto del pretorio, patrono, per i plurimi benefici addotti loro dalla sua previdenza ... gli abitanti di Lepcis Magna, a spese pubbliche.”</p>
+            </div>
+            <div type="commentary">
+                <p>The text of the inscription, still in situ, has been erased so carefully that the name of the honorand is now completely illegible. The honorand, apparently victim of the damnatio memoriae, was praetorian prefect twice, probably (at least the second time) of Italy, Illyricum and Africa. The honorand was also the patron of Leptis Magna, whose people promoted the setting up of the base and of the relative statue.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>IRT 611</ref></bibl> 
+                    <bibl><ref>Tantillo, Bigi 2010, nr. 21</ref>, with photo</bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-49100325">EDCS 49100325</ref></bibl>
+                    <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059465">HD 059465</ref></bibl>
+                    <bibl><ref corresp="http://inslib.kcl.ac.uk/irt2009/IRT611.html">IRT 2009, 611</ref></bibl>
+                    <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-2167">LSA 2167</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                        <bibl>Tantillo I., F. Bigi F. (edd.), Leptis Magna. Una città e le sue iscrizioni in epoca tardoromana, Cassino 2010</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.a"></p>
+                    <p n="2.1"></p>
+                    <p n="2.4"></p>
+                    <p n="2.9">praecipuae nobilitatis ac virtutum [o]mnium sed et perpensae iustitiae; sinceritatis adque i[nc]omparabil[i]s prudentiae viro; patrono ob plurima i[n] se provisio[ne eius con]lata beneficia</p>
+                    <p n="2.10">praecipuae nobilitatis ac virtutum [o]mnium sed et perpensae iustitiae; sinceritatis adque i[nc]omparabil[i]s prudentiae viro; patrono ob plurima i[n] se provisio[ne eius con]lata beneficia</p>
+                    <list n="2.11">
+                        <item n="2.11.b"></item>
+                    </list>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.2">praefe[c]t[o] praetor[i]o</p>
+                    <p n="8.5"></p>
+                    <p n="8.9"></p>
+                    <p n="8.11"></p>
+                    <p n="8.13"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

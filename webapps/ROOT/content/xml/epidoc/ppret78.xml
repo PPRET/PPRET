@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription in honour of the praet. prefect Praetextatus, from Rome</title>
+                <editor role="edition">Pierfrancesco Porena, Irene Vagionakis</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="pp. 722-724">78</idno>
+                <date when="2020-06-23"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Praetextatus"><name type="gentilicium">Vettius</name>
+                        <name type="gentilicium">Agorius</name>
+                        <name type="cognomen">Praetextatus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Roma">Roma, Lapidario Forense</repository>
+                        <idno type="invNo">inv. 5133</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect Praetextatus</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#base">statue base</objectType>
+                                    <dimensions>
+                                        <height>16.5</height>
+                                        <width>27.5</width>
+                                        <depth>17</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">yes</rs>
+                                    <rs type="monument_reuse">uncertain: the monument was cut, possibly for a later reuse.</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#fragmentary">Fragmentary.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#rustic_capitals">rustic capitals</term>
+                                <height>2.5 / 3.5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Roma</placeName>
+                                <placeName type="modern_city">Rome (Italy)</placeName>
+                                <placeName type="province">Urbs</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#public">public space: Roman Forum</placeName>
+                            </origPlace>
+                            <origDate period="#p8" when="0384" precision="high">384 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#RomanForum">Rome, Roman Forum</placeName>, close to the column of Phocas</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                    <ab>
+                        <lb n="1"/><supplied reason="lost">Vettio Agorio Praet</supplied>extato,
+                        <lb n="2"/><supplied reason="lost"><expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan>, correctori Tusciae et U</supplied>mbriae,
+                        <lb n="3"/><supplied reason="lost">consulari Lusitaniae, proc</supplied>onsuli Achaiae,
+                        <lb n="4"/><supplied reason="lost"><expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>urb</abbr><ex>i</ex></expan>, <expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>praet</abbr><ex>orio</ex></expan> Il</supplied><unclear>lyr</unclear><supplied reason="lost">i</supplied><unclear>ci</unclear> <unclear>et</unclear> <unclear>Italia</unclear><supplied reason="lost">e</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="5"/><gap reason="lost" extent="unknown" unit="line"/>
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on CIL.</p>
+                <p></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“To Vettius Agorius Praetextatus, of clarissimus rank, corrector of Tuscia and Umbria, consular of Lusitania, proconsul of Achaia, urban prefect, praetorian prefect of Illyricum and Italy ...”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“...”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“A Vettius Agorius Praetextatus, chiarissimo, correttore di Tuscia e Umbria, consolare della Lusitania, proconsole d’Acaia, prefetto urbano, prefetto del pretorio dell’Illirico e d’Italia...”</p>
+            </div>
+            <div type="commentary">
+                <p>...</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>CIL VI, 1779a</ref> (cfr. p. 4759)</bibl>
+                    <bibl><ref>CIL VI, 31929</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR128719">EDR 128719</ref></bibl>
+                    <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-1409">LSA 1409</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Niquet H., Monumenta virtutum titulique: senatorische Selbstdarstellung im spätantiken Rom im Spiegel der epigraphischen Denkmäler, Stuttgart 2000 (262)</bibl>
+                    <bibl>Rüpke J., Fasti sacerdotum: die Mitglieder der Priesterschaften und das sakrale Funktionspersonal römischer, griechischer, orientalischer und jüdisch-christlicher Kulte in der Stadt Rom von 300 v. Chr. bis 499 n. Chr., Stuttgart 2005 (1363-1364, nr. 3468)</bibl> 
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.a"></p>
+                    <p n="2.1"></p>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">[v(iro) c(larissimo)]</p>
+                    <p n="8.2">[praef(ecto) praet(orio) Il]lyr[i]ci et Italia[e]</p>
+                    <p n="8.3"></p>
+                    <p n="8.4"></p>
+                    <p n="8.6"></p>
+                    <p n="8.10"></p>
+                    <p n="8.12"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

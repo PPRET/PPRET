@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription in honour of the praet. prefect Salutius from Pisidian Antioch by the boule</title>
+                <editor role="edition">Irene Vagionakis</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="pp. 814-817">52</idno>
+                <date when="2020-05-08"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person><persName ref="#Salutius"><name type="cognomen">Saturninius</name> <name type="cognomen">Secundus</name> <name type="cognomen">Salutius</name></persName></person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#unknown">unknown</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect Salutius</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="grc">Greek</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#stone">brownish stone</material>
+                                    <objectType ref="#base">statue base</objectType>
+                                    <dimensions>
+                                        <height>unknown</height>
+                                        <width>unknown</width>
+                                        <depth>unknown</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">no</rs>
+                                    <rs type="monument_reuse">yes; built in the wall of the mosque of Kizildja mahalle</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#undamaged">Undamaged.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#unknown">unknown (no images available)</term>
+                                <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Antiochia Pisidiae</placeName>
+                                <placeName type="modern_city">Yalvaç (Turkey)</placeName>
+                                <placeName type="province">Pisidia</placeName>
+                                <placeName type="diocese">Asiana</placeName>
+                                <placeName type="prefecture">Oriens</placeName>
+                                <placeName type="ancient_location" ref="#public">public space</placeName>
+                            </origPlace>
+                            <origDate period="#p6" notBefore="0367" notAfter="0368">367/368 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#">Yalowadj</placeName>, in the wall of the mosque of Kizildja mahalle</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                    <ab>
+                        <lb n="1"/><expan><abbr>Σατορν</abbr><ex>εῖνον</ex></expan> Σεκοῦνδον
+                        <lb n="2"/>τὸν <expan><abbr>λαμπρ</abbr><ex>ότατον</ex></expan> ἀπὸ ἐπάρχων
+                        <lb n="3"/>κοινὸν ἁπάντων τῶν ὑπη<lb 
+                            break="no" n="4"/>κόων σωτῆρα καὶ εὐεργέτην
+                        <lb n="5"/>ἡ τῆς λαμπρᾶς Ἀντιοχέων
+                        <lb n="6"/>μητροπόλεως <space quantity="1" unit="character"/> βουλή. <g ref="hedera"/>
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on Calder 1912.</p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“For Saturninus Secundus, of clarissimus rank, former prefect one of the prefects, common saviour and benefactor of all the subjects, the boule of the illustrious metropolis of the Antiocheians.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“A Saturninus Secundus, le clarissime ancien préfet, sauveur commun et bienfaiteur de tous les sujets, la boulè de l’illustre métropole des Antiochens.”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“A Saturninus Secundus, chiarissimo, ex prefetto, comune salvatore e benefattore di tutti i sudditi, la <foreign>boulè</foreign> dell’illustre metropoli degli Antiocheni.”</p>
+            </div>
+            <div type="commentary">
+                <p>Saturninus Secundus Salutius was praetorian prefect of Oriens twice, between 361 and 365 AD, under the emperors Julian, Jovian, Valentinian I and Valens. On his career cfr. Olszianec 2013, 356-372.
+                The inscription records the awarding of honours to Salutius by the city of Antiochia in Pisidia during the period of his office.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Calder 1912, pp. 86-87, nr. 5</ref> = <bibl><ref>AE 1914, 125</ref></bibl></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="https://inscriptions.packhum.org/text/281767">PH 281767</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Byrne M., Labarre G., Inschriften griechischer Städte aus Kleinasien. 67: Nouvelles inscriptions d’Antioche de Pisidie: d’après les Note-books de W. M. Ramsay, Bonn 2006</bibl> 
+                    <bibl>Calder W.M., Colonia Caesareia Antiocheia, JRS, 2, 1912, 78-109</bibl>
+                    <bibl>Mitchell S., Pisidian Antioch. The site and its monuments, London-Swansea 1998</bibl>
+                    <bibl>Olszianec S., Prosopographical Studies on the Court Elite in the Roman Empire (4<hi rend="superscript">th</hi> Century AD), Toruń 2013</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.a"></p>
+                    <p n="2.2"></p>
+                    <p n="2.9">σωτῆρα καὶ εὐεργέτην</p>
+                    <list n="2.11">
+                        <item n="2.11.c"></item>
+                    </list>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">λαμπρ(ότατον)</p>
+                    <p n="8.2">ἀπὸ ἐπάρχων</p>
+                    <p n="8.5"></p>
+                    <p n="8.10"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

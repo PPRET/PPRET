@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription in honour of the late praet. prefect Praetextatus, from Rome</title>
+                <editor role="edition">Pierfrancesco Porena, Irene Vagionakis</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="pp. 722-724">79</idno>
+                <date when="2020-06-23"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Praetextatus"><name type="gentilicium">Vettius</name>
+                        <name type="gentilicium">Agorius</name>
+                        <name type="cognomen">Praetextatus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Roma">Roma, Museo Nazionale Romano, Palazzo Altemps</repository>
+                        <idno type="invNo">inv. 80733</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect Praetextatus</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#limestone">limestone</material>
+                                    <objectType ref="#base">statue base</objectType>
+                                    <dimensions>
+                                        <height>141</height>
+                                        <width>94</width>
+                                        <depth>65</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">yes</rs>
+                                    <rs type="monument_reuse">no</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Two inscribed fields (frons: cymatium and two columns; latus dex.).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#undamaged">Undamaged.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <height>1.4 / 5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Roma</placeName>
+                                <placeName type="modern_city">Rome (Italy)</placeName>
+                                <placeName type="province">Urbs</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#public" cert="low">public space (?)</placeName>
+                            </origPlace>
+                            <origDate period="#p8" when="0387-02-01" precision="high">1<hi rend="superscript">st</hi> February 387 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#Roma">Rome</placeName></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                <div type="textpart" subtype="part" n="cymatium">
+                    <ab>
+                        <lb n="1"/>Agorii.
+                    </ab>
+                </div>
+                <div type="textpart" subtype="face" n="frons">
+                    <div type="textpart" subtype="column" n="I-II">
+                        <ab>
+                            <lb n="1"/>Vettio Agorio Praetextato, <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan>
+                        </ab>
+                    </div>
+                    <div type="textpart" subtype="column" n="I">
+                        <ab>
+                            <lb n="1"/>pontifici Vestae,
+                            <lb n="2"/>pontifici <expan><abbr>Soli</abbr><ex>s</ex></expan>,
+                            <lb n="3"/>quindecemviro,
+                            <lb n="4"/>auguri,
+                            <lb n="5"/>tauroboliato,
+                            <lb n="6"/>curiali,
+                            <lb n="7"/>neocoro,
+                            <lb n="8"/>hierofantae,
+                            <lb n="9"/>patri sacrorum.
+                        </ab>
+                    </div>
+                    <div type="textpart" subtype="column" n="II">
+                        <ab>
+                            <lb n="1"/>quaestori
+                            <lb n="2"/>candidato,
+                            <lb n="3"/>praetori urbano,
+                            <lb n="4"/>correctori Tus<lb 
+                                break="no" n="5"/>ciae et Umbriae,
+                            <lb n="6"/>consulari
+                            <lb n="7"/>Lusitaniae,
+                            <lb n="8"/>proconsuli
+                            <lb n="9"/>Achaiae,
+                            <lb n="10"/>praefecto urbi,
+                            <lb n="11"/><sic><expan><abbr>praee</abbr><ex>ecto</ex></expan></sic> <expan><abbr>praet</abbr><ex>orio</ex></expan> II
+                            <lb n="12"/>Italiae et Illyrici,
+                            <lb n="13"/>consuli
+                            <lb n="14"/>designato.
+                        </ab>
+                    </div>
+                </div>
+                <div type="textpart" subtype="face" n="latus dex.">
+                    <ab>
+                        <lb n="1"/>Dedicata <expan><abbr>Kal</abbr><ex>endis</ex></expan> <expan><abbr>Febr</abbr><ex>uariis</ex></expan>
+                        <lb n="2"/><expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> <expan><abbr>Fl</abbr><ex>avio</ex></expan> Valentiniano <expan><abbr>Aug</abbr><ex>usto</ex></expan> III
+                        <lb n="3"/>et Eutropio <expan><abbr>cons</abbr><ex>ulibu</ex><abbr>s</abbr></expan>.
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on CIL.</p>
+                <p>
+                    <app loc="11"><note>praef(ecto)</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“Agorius’s (statue).</p>
+                <p>To Vettius Agorius Praetextatus, of clarissimus rank, pontifex of Vesta, pontifex of the Sun, quindecemvir, augur, tauroboliate, curialis, neocorus, hierophant, father of the sacred rites, candidate quaestor, urban praetor, corrector of Tuscia et Umbria, consularis of Lusitania, proconsul of Achaia, urban prefect, praetorian prefect twice of Italy and Illyricum, designated consul.</p>
+                <p>Dedicated on the Kalends of February, during the consulship of our master Flavius Valentinianus Augustus for the third time and of Eutropius.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“...”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“(Statua) di Agorius.</p>
+                <p>A Vettius Agorius Praetextatus, chiarissimo, pontefice di Vesta, pontefice del Sole, quindecemviro, augure, tauroboliato, curiale, neocoro, ierofante, padre dei sacri riti, questore candidato, pretore urbano, correttore di Tuscia ed Umbria, consolare della Lusitania, proconsole d’Acaia, prefetto urbano, prefetto del pretorio due volte II, dell’Italia e dell’Illirico, console designato.</p>
+                <p>Dedicata alle Calende di febbraio durante il consolato del nostro signore Flavius Valentinianus Augustus per la terza volta e di Eutropio.”</p>
+            </div>
+            <div type="commentary">
+                <p>...</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>CIL VI, 1778</ref> (cfr. pp. 3174, 4757)</bibl>
+                    <bibl><ref>RICIS II, 501／181</ref></bibl> 
+                    <bibl><ref>CCCA III, 263</ref></bibl> 
+                    <bibl><ref>CIMRM I, 420</ref></bibl> 
+                    <bibl><ref>CIMRM II, p. 28</ref></bibl> 
+                    <bibl><ref>Niquet 2000, pp. 241-224</ref>, with photo (tav. II)</bibl>
+                    <bibl><ref>Rüpke 2005, pp. 1363-1364, nr. 3468</ref></bibl> 
+                    <bibl><ref>Dubosson 2018, p. 107</ref></bibl> 
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR126995">EDR 126995</ref></bibl>
+                    <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-1473">LSA 1473</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Dubosson L., Le culte de la Mère des dieux dans l’Empire romain, Stuttgart 2018 (107)</bibl> 
+                    <bibl>Niquet H., Monumenta virtutum titulique: senatorische Selbstdarstellung im spätantiken Rom im Spiegel der epigraphischen Denkmäler, Stuttgart 2000 (241-224, tav. II)</bibl>
+                    <bibl>Rüpke J., Fasti sacerdotum: die Mitglieder der Priesterschaften und das sakrale Funktionspersonal römischer, griechischer, orientalischer und jüdisch-christlicher Kulte in der Stadt Rom von 300 v. Chr. bis 499 n. Chr., Stuttgart 2005 (1363-1364, nr. 3468)</bibl> 
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.a"></p>
+                    <p n="2.3"></p>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">v(iro) c(larissimo)</p>
+                    <p n="8.2">praef(ecto) praet(orio) II Italiae et Illyrici</p>
+                    <p n="8.3"></p>
+                    <p n="8.6"></p>
+                    <p n="8.10"></p>
+                    <p n="8.12"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

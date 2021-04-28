@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Constantine’s Quinquennalia medallion possibly engraved by his praet. prefect</title>
+                <editor role="edition">Pierfrancesco Porena</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="new">07</idno>
+                <date when="2020-08-22"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Vitalianus"><name type="cognomen">Vitalianus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#unknown">Antiquities Market or private collection</repository>
+                        <idno type="invNo"/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#instrumentum">instrumentum</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#gold">gold</material>
+                                    <objectType ref="#medallion">gold medallion (multiple of nine solidi)</objectType>
+                                    <dimensions>
+                                        <dim type="diameter">4</dim>
+                                        <dim type="weight">40.26</dim>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">yes</rs>
+                                    <rs type="monument_reuse">no</rs>
+                                    <rs type="opistographic">yes</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Two inscribed fields (graffiti on recto, graffiti on verso).</p>
+                                    <rs type="execution" ref="#engraved">engraved (graffiti)</rs>
+                                    <rs type="preservation" ref="#undamaged">Undamaged.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#cursive">cursive</term>
+                                <height>0.2 / 0.7</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Nemetacum</placeName>
+                                <placeName type="modern_city">Beaurains (Arras – Pas-de-Calais, France)</placeName>
+                                <placeName type="province">Belgica Secunda</placeName>
+                                <placeName type="diocese">Galliae</placeName>
+                                <placeName type="prefecture">Galliae</placeName>
+                                <placeName type="ancient_location" ref="#private">private building</placeName>
+                            </origPlace>
+                            <origDate period="#p2" when="0310" precision="high">310 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#">Beaurains</placeName> Treasure or Arras Treasure, found in 1922, but dispersed and sold on the antiquities market.</provenance>
+                        <provenance type="observed"/>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                <div type="textpart" subtype="edition">
+                    <head>a) Edition based on Hostein 2008</head>
+                    <div type="textpart" subtype="face" n="recto">
+                    <ab>
+                        <lb n="1"/><hi rend="supraline">XII</hi>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="face" n="verso">
+                    <ab>
+                        <lb n="1"/>Vitaliani <expan><abbr>p</abbr><ex>raefecto</ex></expan> <expan><abbr>p</abbr><ex>raetori</ex><abbr>o</abbr></expan>
+                    </ab>
+                </div>
+                </div>
+            
+                <div type="textpart" subtype="edition">
+                    <head>b) Edition based on on Emion 2017</head>
+                    <div type="textpart" subtype="face" n="recto">
+                    <ab>
+                        <lb n="1"/><hi rend="supraline">XII</hi>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="face" n="verso">
+                    <ab>
+                        <lb n="1"/>Vitaliani pro-tictoris
+                    </ab>
+                </div>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on Hostein 2008 (a) and on Emion 2017 (b).</p>
+                <p>
+                    <app loc="1"><note><hi rend="underline">IIX</hi> = octava pars librae Weiser 2006</note></app>
+                    <app loc="1"><note><hi rend="supraline">XII</hi> = denarii duo milia Casey 2000</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“12.000 (denarii)” – “belonging to Vitalianus praetorian prefect” (Hostein)</p>
+                <p>“12.000 (denarii)” – “belonging to Vitalianus protector” (Emion)</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“12.000 (déniers)” – “appartenant à Vitalianus préfet du prétoire” (Hostein)</p>
+                <p>“12.000 (déniers)” – “appartenant à Vitalianus protecteur” (Emion)</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“12.000 (denarii)” – “di Vitalianus prefetto del pretorio” (Hostein)</p>
+                <p>“12.000 (denarii)” – “di Vitalianus protettore” (Emion)</p>
+            </div>
+            <div type="commentary">
+                <p>In 2008 A. Hostein re-examined a gold medallion from the treasury of Beaurains near Arras (Bastien, Metzger 1977), a multiple (a coin representing the equivalent) of 9 gold solidi that has featured in several auction house catalogues since 1990 (Weiser 2006, pp. 224-226). The medallion was minted in Trier for Constantine’s <foreign>Quinquennalia</foreign>, which began on July 25<hi rend="superscript">th</hi> 310 AD and ended on July 25<hi rend="superscript">th</hi> 311 AD (type: RIC VI, Trier 801; <foreign>recto</foreign>: bust of Constantine wearing lorica and paludamentum, head with laurel wreath turned to the right; legend IMP CONSTANTINVS PIVS FELIX AVG; <foreign>verso</foreign>: the emperor Constantine in military dress standing on the right, holds in his right hand a spear pointed in front of him and a globe in his left hand; legend PRINCIPI IVENTVTIS; exergue PTR). 
+                    On the two sides of the gold medallion, two graffiti in italicised Latin are engraved: on the <foreign>recto</foreign>, the number twelve surmounted by a horizontal line; on the <foreign>verso</foreign>, Hostein read Vitaliani <foreign>p</foreign>(<foreign>raefecto</foreign>) <foreign>p</foreign>(<foreign>raetori</foreign>)<foreign>o</foreign>.</p>
+                <p>Graffiti on <foreign>recto</foreign>: Hostein (2008) interprets the numeral as a number XII (twelve) surmounted by a line as the currency, which indicates 12,000 denarii (an eighth of a pound of gold: 322,10 gr. for 96.000 denarii). Casey (2000) interprets the numeral as a currency, but he distinguishes the number X from the number II surmounted by a line, and considers the X a denarii symbol, followed by the number 2,000; the medaillon is equivalent of 7.5 aurei, but 3.18 gr. of gold would have to be added to reach the weight of 40.3 gr., that is 2,000 denarii. Weiser (2006) reads the numeral backwards (<hi rend="underline">IIX</hi>) and interprets it as the weight: II minus X = eight, i.e. an eighth of a gold pound, about 40.20 grams of gold of our medallion.</p>
+                <p>Graffiti on <foreign>verso</foreign>: According to Hostein, Vitalianus would have been the praetorian prefect of the emperor Constantine in 310 AD (so before also Weiser 2006, who considers him the owner of Beaurains’ treasure). His prefecture is identified by the abbreviation of the charge, the same abbreviation used by the compilers of the Theodosian Code: <foreign>P</foreign>(<foreign>raefecto</foreign>) <foreign>P</foreign>(<foreign>raetori</foreign>)<foreign>O</foreign>. Vitalianus could either have been the owner of the medallion or of the whole treasure in which it was found; Hostein states on p. 250: «Le multiple a été en possession d’un certain Vitalianus, dont le titre était celui de PPO entre le 25 juillet 310, date probable de l’émission de la monnaie et 315, terminus ante quem de l’enfouissement du trésor». 
+                    He proposes that Vitalianus was the Anonymous praetorian prefect of Constantine in Aquileia in 312 AD (Pan. Lat. 9 [12], 11, 4 Lassandro Micunco), with an extension of his mandate up to 315 AD, when Petronius Annianus would have been confirmed in office (<ref type="ppret" corresp="ppret08">PPRET 08</ref>, <ref type="ppret" corresp="ppret09">09</ref>; Porena 2003, 292-296); in fact the consulate of Annianus of 314 AD should have been conferred during his prefecture (CLRE, 162-163). Hostein thinks that the gold medallion could be a gift from Constantine to Vitalianus, praetorian prefect, who then passed it on to one of his relatives, maybe a Paternus Valerianus, an high dignitary of the Constantinian age (PLRE I, p. 939) (see below).</p>
+                <p>A. Gutsfeld (2016, p. 239, note 117) doubted this reading: the letters engraved on the <foreign>verso</foreign> side of the medallion after the name <foreign>Vitaliani</foreign>, are disputed (below); it is not clear why a high dignitary would have signed the medallion with his own name. M. Emion (2017) is strongly opposed to Hostein’s reading: following on from the studies of Casey 2000, he considers the reading anachronistic, i.e. too early, the abbreviation PPO, <foreign>P</foreign>(<foreign>raefecto</foreign>) <foreign>P</foreign>(<foreign>raetori</foreign>)<foreign>O</foreign>, in the Constantinian age.
+                    He also believes that the hypthesis of such an important dignitary, fighting alongside Constantine Augustus against Maxentius in 312 AD and then maybe up to 315 AD, burying treasure as untenable. 
+                   Moving from the reading of the graffiti proposed by Abdy (2006) and Tomlin (2006), and from the interpretation by Casey (2000), Emion believes that on the <foreign>verso</foreign> of our medallion is engraved: VITALIANI PRO-TICTORIS. In his opinion, Vitalianus is a <foreign>protector</foreign> and and although he is the owner or the heir of the treasure, he is not a praetorian prefect.</p>
+                <p>Porena: the medallion needs to be examined with the aid of high powered optical instruments. The presence of the name of a praetorian prefect on a gold medallion for the <foreign>Quinquennalia</foreign> of Constantine cannot be excluded. It is possible that it does not indicate the ownership of the entire treasure, but that it is the gift of a dignitary to an officer, one of his clients, who had contact with the <foreign>comitatus</foreign> of the Augustus. Emion (2017, p. 668) thinks that Vitalianus <foreign>protector</foreign> is the son of the owners of the treasure, Paterna and Valerianus, whose names are engraved on a gold wedding ring found among the precious objects of the Beaurains’ treasure (Bastien, Metzger 1977, pp. 171-172; <ref corresp="https://www.britishmuseum.org/collection/object/G_1924-0514-3">https://www.britishmuseum.org/collection/object/G_1924-0514-3</ref>). Also Porena (2012, pp. 315-316) proposed to interpret Paterna and Valerianus as the owners of the treasure, while identifying Paternus Valerianus (PLRE I, p. 939), as probably one of the diocesan vicars of Constantine (317/330 AD ?), the son of the owners of the treasure, established by his father Valerianus, a high officer in Constantine’s army. Could Vitalianus <foreign>protector</foreign>, the man whose father guided him into a military career, be the brother of Paternus Valerianus? Could Vitalianus be both a praetorian prefect and friend of Valerianus, the owner of the treasure?</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Hostein 2008, 248-249</ref></bibl>
+                    <bibl><ref>Emion 2017, 667-668</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Abdy R., In the pay of the Emperor: coins from the Beaurains (Arras) treasure, in Constantine the Great. York’s Roman Emperor, eds. J. Hawkes, E. Hartley, M. Henig, F. Mee, York 2006, 52-58</bibl>
+                    <bibl>Bastien P., Metzger C., Le trésor de Beaurains (dit d’Arras), Wetteren 1977</bibl>
+                    <bibl>Casey P.J. LIBERALITAS AVGVSTI: Military Donatives and the Arras Hoard, in Kaiser, Heer und Gesellschaft in der römischen Kaiserzeit. Gedenkschrift für Eric Birley, hrsg. G. Alföldy, B. Dobson, W. Eck, Stuttgart 2000, 445-458</bibl>
+                    <bibl>CLRE: BAGNALL R.S., Cameron Al., Schwartz S.R., Worp K.A., Consuls of the Later Roman Empire, Atlanta 1987</bibl>
+                    <bibl>Emion M., Des soldats de l’armée romaine tardive: les protectores (IIIe-VIe siècles ap. J.-C.), Thèse de Doctorat en Histoire, Rouen, Normandie Université, 2017, vol. 2, Prosopographie et annexes (s.v. 060 - Vitalianus), 667-668</bibl>
+                    <bibl>Gutsfeld A. Les préfets du prétoire en Gaule sous Constantin Ier (306-337), in Constantin et la Gaule. Autour de la vision de Grand, éd. L. Guichard, A. Gutsfeld, F. Richard, Nancy-Paris 2016, 217-243</bibl> 
+                    <bibl>Hostein A., Le préfet du prétoire Vitalianus et le tarif de la livre d’or, AntTard 16, 2008, 247-253</bibl>
+                    <bibl>Porena P., Le origini della prefettura del prtorio tardoantica, Roma 2003</bibl>
+                    <bibl>Porena P., I dignitari di Costantino: dinamiche di selezione e di ascesa durante la crisi del sistema tetrarchico, in Costantino prima e dopo Costantino. Constantine before and after Constantine, a cura di G. Bonamente, N. Lenski, R. Lizzi Testa, Bari 2012, 293-320</bibl>
+                    <bibl>Tomlin R., The owners of the Beaurains (Arras) treasure, in Constantine the Great. York’s Roman Emperor, eds. J. Hawkes, E. Hartley, M. Henig, F. Mee, York 2006, 59-64</bibl>
+<bibl>Weiser W., Mediale Präsentation auf Münzen und Medaillons, in Die Tetrarchie. Ein neues Regierungssystem und seine Mediale Präsentation, hrsg. D. Boschung, W. Eck, Wiesbaden 2006, 205-227</bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

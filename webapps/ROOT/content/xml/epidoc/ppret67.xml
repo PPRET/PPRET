@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription in honour of Valentinian I, Valens and Gratian from Cherson by the praet. prefect Modestus</title>
+                <editor role="edition">Irene Vagionakis</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="pp. 605-608">67</idno>
+                <date when="2020-05-08"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person><persName ref="#Modestus"><name type="gentilicium">Domitius</name> <name type="cognomen">Modestus</name></persName></person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Kherson">Museum of Kherson</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the emperors Valentinian I, Valens and Gratian</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#base">statue base</objectType>
+                                    <dimensions>
+                                        <height>118</height>
+                                        <width>50</width>
+                                        <depth>47.9</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">no</rs>
+                                    <rs type="monument_reuse">yes; the base is built in a Byzantine wall</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#damaged">Damaged.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#unknown">unknown (no images available)</term>
+                                <height>4.8 / 5.4</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Cherson</placeName>
+                                <placeName type="modern_city">Kherson (Ukraine)</placeName>
+                                <placeName type="province">not a Roman province (Chersonesus Taurica)</placeName>
+                                <placeName type="diocese">not a Roman diocese</placeName>
+                                <placeName type="prefecture">not a Roman prefecture</placeName>
+                                <placeName type="ancient_location" ref="#public">public space</placeName>
+                            </origPlace>
+                            <origDate period="#p7" notBefore="0370" notAfter="0375">370/375 AD</origDate>
+                        </origin>
+                        <provenance type="found">found in 1905 in <placeName ref="#">Kherson</placeName>, built in a Byzantine wall</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                    <ab>
+                        <lb n="1"/><supplied reason="lost">Triumphato</supplied><unclear>r</unclear>ib<supplied reason="lost">u</supplied>s <unclear>f</unclear><supplied reason="lost">o</supplied>r<unclear>ti</unclear><supplied reason="lost">ssi</supplied><lb 
+                            break="no" n="2"/><supplied reason="lost">mis ac glorio</supplied>sissimis princip<supplied reason="lost">i</supplied><lb 
+                            break="no" n="3"/><supplied reason="lost">bus Valentini</supplied>ano victorios<supplied reason="lost">is</supplied><lb 
+                            break="no" n="4"/><supplied reason="lost">simo domino et Va</supplied>lentem fratre<supplied reason="lost">m</supplied>
+                        <lb n="5"/><supplied reason="lost">eius <expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan></supplied> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>maxim</abbr><ex>o</ex></expan> et Grati<supplied reason="lost">a</supplied><lb 
+                            break="no" n="6"/><supplied reason="lost">no</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><expan><abbr>d</abbr><ex>omino</ex></expan></supplied> <expan><abbr>n</abbr><ex>ostro</ex></expan> nepoti Valenti<supplied reason="lost">s</supplied>
+                        <lb n="7"/><supplied reason="lost">semper Augustis,</supplied> <expan><abbr>Dom</abbr><ex>itius</ex></expan> <unclear>M</unclear><supplied reason="lost">o</supplied>destus vir
+                        <lb n="8"/><supplied reason="lost" cert="low">clarissimus</supplied><supplied reason="lost">, praef</supplied><unclear>ect</unclear>us <sic>pretorio</sic>
+                        <lb n="9"/><supplied reason="lost">et</supplied> <gap reason="lost" extent="unknown" unit="character"/> vi<supplied reason="lost">r</supplied> <sic>clarssimus</sic>, co<lb 
+                            break="no" n="10"/><supplied reason="lost">mes et magister n</supplied><unclear>um</unclear>ini magistatiqu<unclear>e</unclear>
+                        <lb n="11"/><supplied reason="lost">eorum devoti</supplied> <gap reason="lost" extent="unknown" unit="character"/>xante disponent<supplied reason="lost">e</supplied>
+                        <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/>m decemprimo
+                        <lb n="13"/><supplied reason="lost">praeposito</supplied> <gap reason="lost" extent="unknown" unit="character"/>n<gap reason="lost" quantity="1" unit="character"/>orum <orig>stv</orig> bal<lb 
+                            break="no" n="14"/><supplied reason="lost">listariorum per</supplied> <gap reason="lost" extent="unknown" unit="character"/>m <expan><abbr>v</abbr><ex>irum</ex></expan> <expan><abbr>p</abbr><ex>erfectissimum</ex></expan> <expan><abbr>pat</abbr><ex>ronum</ex></expan> removi<supplied reason="lost">t</supplied>
+                        <lb n="15"/><supplied reason="lost">et</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on AE 1984, 804.</p>
+                <p>
+                    <app loc="4"><note>Valenti fratri</note></app>
+                    <app loc="8"><note>praetorio</note></app>
+                    <app loc="9"><note>clarissimus</note></app>
+                    <app loc="10"><note>maiestatique</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“To the very strong and very glorious triumpher Princes Valentinian, very victorious master, and his brother Valens, our master ... maximus and Gratian ... our master Valens’s nephew, always Augusti, Domitius Modestus, of clarissimus rank (?), praetorian prefect and ... of clarissimus rank, comes and magister devoted to their divine spirit and majesty ... disposing ... decemprimus appointed ... of the ballistae makers through ... removed the perfectissimus patron and ...”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“...”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“Ai Principi trionfatori fortissimi e gloriosissimi Valentiniano signore vittoriosissimo e suo fratello Valente, nostro signore ... massimo e Graziano ... nostro signore nipote di Valente sempre Augusti, Domitius Modestus, chiarissimo (?), prefetto del pretorio e ... chiarissimo, <foreign>comes</foreign> e <foreign>magister</foreign>, devoti al nume e alla maestà loro ... disponendo ... decemprimo preposto ... dei costruttori di balliste per ... ha rimosso il patrono perfettissimo e ...”</p>
+            </div>
+            <div type="commentary">
+                <p>Domitius Modestus was praetorian prefect of Oriens from 369 to 377 AD under the emperor Valens. On his career cfr. Vogler 1992, pp. 450, 453-454, 458-460.
+                The inscription is a dedication made by Modestus to all the emperors, both of the Eastern and the Western part of the empire, that is Valens in the East and Valentinian I in the West together with his son Gratian.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Rostovzev 1907, p. 6</ref> = <bibl><ref>AE 1907, 164</ref></bibl> = <bibl><ref>AE 1908, 178</ref></bibl> </bibl> 
+                    <bibl><ref>Solomonik 1983, pp. 28-30, nr. 3</ref>, with photo = <bibl><ref>AE 1984, 804</ref></bibl></bibl> 
+                    <bibl><ref>IosPE I² 449</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-12700195">EDCS 12700195</ref></bibl>
+                    <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD002734">HD 002734</ref></bibl> 
+                    <bibl><ref corresp="https://inscriptions.packhum.org/text/208334">PH 208334</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Alföldy G., Review of Latinskie nadpisi Chersonesa tavriceskogo. Latin inscriptions of Chersonesus Tauric, Gnomon, 56, 1984, 784-786 (786)</bibl>
+                    <bibl>Brauch T., Notes on the prefects of Constantinople AD 366-369, Byzantion, 72, 2002, 42-104</bibl>
+                    <bibl>Rostovzev M., Novye latinskije nadpisy iz Chersonesa, Izvestija Imperatorskoj Arheologičeskoj Komissii, 23, 1907, 1-20</bibl> 
+                    <bibl>Solomonik, Latinskie nadpisi Chersonesa tavriceskogo, Moskva 1983</bibl> 
+                    <bibl>Vogler C., L’administration impériale dans la correspondance de saint Basile et saint Grégoire de Naziance, in Chistol M., Demougin S., Duval Y. (éds.), Institutions, société et vie politique dans l’Empire romain au IVe siècle ap. J.-C. Actes de la table ronde autour de l’oeuvre d’André Chastagnol (Paris, 20-21 janvier 1989), Paris–Rome 1992, 447-464</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="7">
+                    <p n="7.2"></p>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">vir [clarissimus?]</p>
+                    <p n="8.2">[praef]ẹc̣ṭus pretorio</p>
+                    <p n="8.5"></p>
+                    <p n="8.9"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

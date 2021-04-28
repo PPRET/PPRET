@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Statue base in honour of the praet. prefect Q. Fl. Maesius Egnatius Lollianus <foreign>signo</foreign> Mavortius by his son Pacidus Severus and his daughter-in-law Antonia Marcianilla from his <foreign>domus</foreign> on the Aventine hill (Rome)</title>
+                <editor role="edition">Eleonora Angius</editor>
+                <editor role="encoding">Eleonora Angius</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="pp. 512-514">45</idno>
+                <date when="2020-03-27"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Lollianus"><name type="praenomen">Quintus</name>
+                        <name type="gentilicium">Maesius Egnatius</name>
+                        <name type="cognomen">Lollianus</name>
+                        <name type="signum">Mavortius</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Roma">(fr. a) lost; (fr. b) Musei Capitolini</repository>
+                        <idno type="invNo">NCE 2473 (ground room on the right)</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect by his relatives (son and daughter in-law)</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#stone_slab">slab joined to a statue base</objectType>
+                                    <dimensions>
+                                        <height>38</height>
+                                        <width>74</width>
+                                        <depth>unknown</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">unknown</rs>
+                                    <rs type="monument_reuse">unknown</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#fragmentary">Fragmentary: the slab was broken into two fragments of which only the lower half survives (CIL VI, 1757). This lower fragment is damaged on the upper side and it is likely that its edges were cut, but the epigraphic field is complete and readable.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#square_capitals">late roman monumental capitals</term>
+                                <height>4 / 2.9</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Roma</placeName>
+                                <placeName type="modern_city">Rome (Italy)</placeName>
+                                <placeName type="province">Urbs</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#private">private building (family house on the Aventine hill)</placeName>
+                            </origPlace>
+                            <origDate period="#p5" notBefore="0355" notAfter="0356">355/356 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#Roma">Rome</placeName>, near the church of S. Alessio on the Aventine hill</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                <div type="textpart" subtype="fragment" n="fr. a">
+                    <ab>
+                        <lb n="1"/><supplied reason="lost" evidence="previouseditor">Mavortii</supplied>, 
+                        <lb n="2"/><supplied reason="lost" evidence="previouseditor"><expan><abbr>Fl</abbr><ex>avio</ex></expan> Lolliano <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan>, <expan><abbr>q</abbr><ex>uaestori</ex></expan> <expan><abbr>k</abbr><ex>andidato</ex></expan>, <expan><abbr>praet</abbr><ex>ori</ex></expan> <expan><abbr>urb</abbr><ex>is</ex></expan></supplied>, 
+                        <lb n="3"/><supplied reason="lost" evidence="previouseditor"><expan><abbr>curat</abbr><ex>ori</ex></expan> alvei Tiberis et operum</supplied> 
+                        <lb n="4"/><supplied reason="lost" evidence="previouseditor">maximorum et aquarum, <expan><abbr>cons</abbr><ex>ulari</ex></expan></supplied> 
+                        <lb n="5"/><supplied reason="lost" evidence="previouseditor"><expan><abbr>Camp</abbr><ex>aniae</ex></expan>, comiti intra Pal<supplied reason="lost">atium</supplied> et</supplied> 
+                        <lb n="6"/><supplied reason="lost" evidence="previouseditor"><supplied reason="lost">v</supplied>ice sa<supplied reason="lost">cra iudicanti, comiti</supplied> Ori</supplied><lb 
+                            break="no" n="7"/><supplied reason="lost" evidence="previouseditor">entis <expan><abbr>v</abbr><ex>ice</ex></expan> <expan><abbr>s</abbr><ex>acra</ex></expan> iudicanti, <expan><abbr>procons</abbr><ex>uli</ex></expan></supplied> 
+                    </ab>
+                </div>
+                <div type="textpart" subtype="fragment" n="fr. b">
+                    <ab>
+                        <lb n="8"/><expan><abbr>prov</abbr><ex>inciae</ex></expan> Africae et <expan><abbr>v</abbr><ex>ice</ex></expan> <expan><abbr>s</abbr><ex>acra</ex></expan> iudicanti, 
+                        <lb n="9"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> urbis et <expan><abbr>v</abbr><ex>ice</ex></expan> <expan><abbr>s</abbr><ex>acra</ex></expan> iudicanti, ite<lb 
+                            break="no" n="10"/>rum comiti <expan><abbr>ord</abbr><ex>inis</ex></expan> primi intra Pa<lb  
+                                break="no" n="11"/>latium, <expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>praet</abbr><ex>orio</ex></expan>, consuli <expan><abbr>ord</abbr><ex>inario</ex></expan> 
+                        <lb n="12"/>Placidus Severus <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan> filius patri religioso 
+                        <lb n="13"/>et Antonia Marcianilla <expan><abbr>c</abbr><ex>larissima</ex></expan> <expan><abbr>f</abbr><ex>emina</ex></expan> nurus 
+                        <lb n="14"/>socero sanctissimo. <g ref="hedera"/>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p>This edition is based on CIL VI, 37112.</p>
+                <p>
+                    <app loc="4-5"><note><expan><abbr>Camp</abbr><ex>aniae</ex></expan> comiti intra palatii et iu/dice sacr. cognitione tribuno: Ligorius Taur. 15, fol.  54r; comiti intra Pal<supplied reason="lost">atium</supplied> <supplied reason="omitted">or</supplied>/<supplied reason="lost">d</supplied>i<supplied reason="omitted">ni</supplied>s <supplied reason="omitted">s</supplied><supplied reason="lost">ecundi</supplied>: Weiss 1975, pp. 19-20; <expan><abbr>Camp</abbr><ex>aniae</ex></expan> comiti intra pal<supplied reason="lost">atium</supplied> <supplied reason="omitted">or</supplied>/<supplied reason="lost">d</supplied>i<supplied reason="omitted">ni</supplied>s p<supplied reason="lost">rimi comiti</supplied>: Scharf 1994, p. 13 </note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“(Statue) of Mavortius. To Fl(avius) Lollianus, of clarissimus rank, quaestor canditate (by the emperor), urban praetor, superintendent of the Tiber and its course, of the major works and aqueducts, consularis of Campania, count inside the imperial Palace and judge with the power to institute sacred trials, count of the East and judge with the power to institute sacred trials, proconsul of the province of Africa and judge with the power to institute sacred trials, prefect of the City and judge with the power to institute sacred trials, for the second time count of the first order in the imperial Palace, praetorian prefect, ordinary consul, his son Placidus Severus, of clarissimus rank, to his father worshipper of the gods, and his daughter-in-law Antonia Marcianilla, woman of clarissimus rank, to her extremely virtuous father-in-law.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“(Statue) de Mavortius. Au clarissime Fl(avius) Lollianus, questeur candidat, préteur urbain, surintendant du cours du Tibre, des grandes œuvres et des aqueducs, consulaire de Campanie, comte dans le Palais impérial et juge avec la faculté d’instituer des procès sacrés, comte d’Orient et juge avec la faculté d’instituer des procès sacrés, proconsul de la province d’Afrique et juge avec la faculté d’instituer des procès sacrés, préfet de Rome et juge avec la faculté d’instituer des procès sacrés, pour la deuxième fois comte de premier ordre au Palais impérial, préfet du prétoire, consul, son fils, le clarissime Placidus Severus, à son père dévoué des dieux, et sa belle-fille, la clarissime Antonia Marcianilla, au beau-père très vertueux.”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“(Statua) di Mavortius. Al chiarissimo Fl(avius) Lollianus, questore candidato, pretore urbano, sovrintendente del corso del Tevere, delle grandi opere e degli acquedotti, consolare della Campania, conte all’interno del palazzo imperiale e giudice con la facoltà di istituire sacri processi, conte d’Oriente e giudice con la facoltà di istituire sacri processi, proconsole della provincia d’Africa e giudice con la facoltà di istituire sacri processi, prefetto di Roma e giudice con la facoltà di istituire sacri processi, per la seconda volta conte del primo ordine all’interno del palazzo imperiale, prefetto del pretorio, console ordinario, suo figlio, il chiarissimo Placidus Severus, al padre devoto agli dèi, e sua nuora, la chiarissima Antonia Marcianilla, al suocero particolarmente virtuoso.”</p>
+            </div>
+            <div type="commentary">
+                <p>The inscription is chiselled on a fragmentary plaque that had originally been joined to a statue base and broken into two parts (CIL VI, 1723 + CIL VI, 1757). The two fragments fit together perfectly, but only the lower half has survived. This fragmentary plaque preserves an honorific inscription to Quintus Flavius Maesius Egnatius Lollianus <foreign>signo</foreign> Mavortius (PLRE I, pp. 512-514) awarded by his son, Severus Placidus (PLRE I, pp. 836-837), and his daughter-in-law Antonia Marcianilla (PLRE I, p. 553).</p> 
+                <p>The exact findspot of the upper fragment, now lost and only preserved by its transcription in some 15th Century manuscripts, is not clear: Justus Lipsius records that it was found in “Piazza dei Comi” (see CIL VI, 1723), but more probably, as Pirrus Ligorius stated (Taur. 15, fol. 54r), it came from the Aventine hill, near the church of S. Alessio where the lower half was unearthed in 1880 (see CIL VI, 1757).</p> 
+                <p>These fragments were found at different times, and they were only considered part of the same monument in 1905. The acephalous base, without the name of the dedicatee and referring only to the last part of a <foreign>cursus honorum</foreign>, was already supposed to belong to Lollianus signo Mavortius by B. Borghesi (1872, pp. 261-262) and A.C. Pallu De Lessert (1901, pp. 138-140), even if they had still not made the connection between this fragment and the other that was lost (CIL VI, 1723). 
+                    In 1905 O. Seeck noted that these two fragments matched perfectly (CIL VI, 1723 ends with <foreign>Ori-</foreign> and CIL VI, 1757 begins with <foreign>-entis</foreign>) and that the resulting career coincided with that of Lollianus <foreign>signo</foreign> Mavortius; so he put them together (CIL VI, 37112). The familial character of this honorific text suggests that the statue base was erected in a domestic space, most probably within the <foreign>domus</foreign> of Mavortius himself or, failing that, in the house of his son Placidus, both of which may well have been located on the Aventine hill, coinciding where the inscription was found (Guidobaldi 1995, p. 132).</p> 
+                <p>Quintus Flavius Maesius Egnatius Lollianus <foreign>signo</foreign> Mavortius descended from an ancient italic senatorial family, the <foreign>Caecina Sabini</foreign> (on his family, see Chastagnol 1961, pp. 749-751), but was also kin to the <foreign>Egnatii Proculi</foreign> (Camodeca 2018, p. 396, nt. 145), the <foreign>Fabii Maesii Tatiani</foreign> and other nobles (Chausson 1997, pp. 295-297). This highly esteemed representative of the roman aristocracy is not only commemorated in numerous inscriptions, he also features in many literary sources. Combined they offer, quite exceptionally, every detail of his long and distinguished <foreign>cursus honorum</foreign>.</p>  
+                <p>A group of five Campanian inscriptions (CIL X, 1695 = ILS 1224a  = LSA 332 = EDR108156; CIL X, 1696 = ILS 1224c = LSA 43 = EDR155039; ILS 1224b = AE 1977, 199 = LSA 1909 =  EDR076735; AE 1977, 198 = <ref corresp="http://laststatues.classics.ox.ac.uk/database/detail.php?record=47">LSA 47</ref> = EDR076734; CIL X, 4752 = ILS 1223 = LSA 1970 = EDR115525), that Lollianus received as patron by the <foreign>Regiones Puteolanae</foreign> and of <foreign>Suessa Aurunca</foreign> (the last one), and a dedication to Constantine by him in Rome that was fortunately dated (CIL VI, 36951 = LSA1366 = EDR071805), quote the first part of his career up to 337 AD.</p>  
+                <p>Q. Fl. Maesius Egnatius Lollianus <foreign>signo</foreign> Mavortius was <foreign>quaestor candidatus</foreign> at a very young age, as was probably the case for his son Placidus Severus when he was made <foreign>clarissimus puer</foreign> (see CIL X, 1697); <foreign>praetor candidatus</foreign> (in 319/320 AD, according to Lonardi 2013, p. 154); <foreign>comes dominorum nostrorum Augustorum et Caesarum</foreign> (attested only in CIL X, 4752), that De Bonfils (1981, p. 9) and Scharf (1994, p. 70) date after 324 AD, in order to explain the grant of such an important honour at such a young age due to the political crisis, following Licinius’ defeat, but Lonardi (2013, p. 154) suggests before 324 AD. 
+                    Almost simultaneously, he held a priestly office as <foreign>augur publicus</foreign>, in 320/325 AD (Chastagnol 1962, p. 120), which is recorded in all the inscriptions concerning him except for the later Roman one examined above (Arnheim 1972, pp. 80-82; Cameron 2011, p. 159). Later, Lollianus was entrusted with three urban curatorships: <foreign>consularis alvei tiberis et cloacarum</foreign> (in 321/323 AD), <foreign>consularis operum publicorum maximorum</foreign> (in 325/327 AD, cf. Lonardi 2013, p. 154) and <foreign>consularis aquarum et Miniciae</foreign>, an old senatorial curatela, the tenure of which can be precisely dated to 328 AD, thanks to a monument that Lollianus dedicated to Costantine when he was holding this office (CIL VI, 36951 above).</p> 
+                <p>Between 329-333 AD Mavortius became <foreign>consularis Campaniae</foreign> (Cecconi 1994, p. 214), during which time Mavortius strengthened important relationships of patronage, something that can be inferred from the extraordinary number of statues (see above) that the <foreign>Regiones Puteolanae</foreign> elevated to their powerful patron no later than 337 AD (dated by his African proconsulate, below). Camodeca (2018, p. 369) states that the establishment of the free <foreign>frumentationes</foreign> and the reform of the annona under Constantine were introduced while Mavortius was working as an intermediary between the campanian cities and the state.</p> 
+                <p>His next post as <foreign>comes Flavialis</foreign> is worthy of mention. The appointment appears in almost all the campanian inscriptions and, since the position is epigraphically rarely attested, it was frequently associated to other <foreign>comitivae</foreign>, like that of <foreign>dominorum nostrorum Augustorum</foreign> (Seeck 1900, p. 630) or <foreign>primi ordinis</foreign> (De Bonfils 1981, p. 13). Nevertheless the <foreign>comitiva Flavialis</foreign> of Lollianus <foreign>signo</foreign> Mavortius, that he held in all likelihood around 333-334 AD, cannot coincide with the <foreign>comitiva dominorum nostrorum Augustorum</foreign>, that is clearly listed chronologically before, that is to say between the praetura and auguratus (see CIL X, 4752). 
+                    Furthermore, the <foreign>comitiva Flavialis</foreign> appears  to be clearly distinct from the <foreign>comitiva primi ordinis</foreign> in more than one inscription (see CIL X, 1695; CIL X, 1696; ILS 1224b; AE 1977, 198). This special appointment was introduced around 333 AD by Constantine and is no longer attested after the emperor’s death (Scharf 1994, p. 67; De Bonfils 1981, pp. 11-17, Moser 2018, p. 77). Its nature is hard to understand: Scharf (1994, pp. 65-70) supposed this <foreign>comitiva</foreign> consisted of an entourage, that was not only at the personal service of Constantine, but also of all the Caesars and thus free of any regional interference.
+                    Therefore, the recently created <foreign>comitiva Flavialis</foreign> appears in all the campanian inscriptions of 337 AD (see above) but, after that date, the title fell gradually into disuse, leaving in its wake a variation in the terminology that perhaps corresponds to the <foreign>comes intra Palatium</foreign> that features in our later inscription in Rome.</p>  
+                <p>Around 335 AD Lollianus was elevated to <foreign>comes Orientis</foreign> and as such was probably one of the first dignitaries to attain this office (Downey 1939, p. 12; Moser 2018, p. 21). At this point, a <foreign>comitiva ordinis primi</foreign>, likely dating to 336 AD, is attested in four campanian inscriptions, but not in the later one from the Aventine hill (Scharf 1994, pp. 11-14, who attributed such discrepances to mistakes of the stone-cutter or errors in the manuscript tradition). The following position of <foreign>proconsulatus Africae</foreign> could be dated to 337/338 AD thanks to a key piece of literary evidence (Chastagnol 1962, p. 119; Barnes 1985, p. 145). Indeed, Lollianus had an important book of astrology dedicated to him. 
+                    The “Mathesis,” written by Firmicus Maternus, refers not only to Lollianus' career, but to his ardent pagan beliefs as well. In all likelihood, the “Mathesis” was composed in 337 AD (Sogno 2005, p. 167), which was when Lollianus was addressed as <foreign>proconsuli</foreign> (i. e. <foreign>Africae</foreign>) <foreign>itaque tibi et ordinario consuli designato promissa reddimus</foreign> (<ref type="source">Math. 01, praef. 08</ref>), when Constantine was still alive. Shortly after the emperor died and throughout the book he is referred to as <foreign>divus</foreign> (<ref type="source">Math. 01, 10, 13</ref>). Therefore, in addition to being <foreign>proconsul Africae</foreign>, Lollianus also received in the same period a formal designation to become ordinary consulate (338 AD).
+                    However, since his name does not appear in the consular fasti, perhaps Constantine's death interrupted his career and prevented Lollianus from attaining the consulship the following year. 
+                    Lollianus had to wait eighteen years before becoming consul (355 AD, see below), perhaps because he did not enjoy the favour of Constantine’s heirs (Sogno 2005, p. 167), or simply because his son Constans revoked the designation of his father (Chastagnol 1962, p. 119; CLRE, p. 19), but it seems implausible that «Lollianus fell from imperial favour owing to the dedication to him of this work on astrology» (PLRE I, p. 513).</p> 
+                <p>Our last Roman dedication from the family house on the Aventine hill recorded also, in addition to the posts previously mentioned, the last part of his <foreign>cursus honorum</foreign> after 337 AD. Lollianus gained the <foreign>praefectura urbis</foreign> from April 1<hi rend="superscript">st</hi> to July 6<hi rend="superscript">th</hi> 342 AD (<ref type="source">MGH AA 09, Chron. Min. 01, p. 68</ref>; Chastagnol 1962, p. 119) and then the <foreign>comitiva ordinis primi intra palatium</foreign>, living at the court of Milan for a period (Chastagnol 1962, p. 119). 
+                    Nevertheless, his career appears to have been interrupted for some time, before resuming again as <foreign>praefectus praetorio</foreign> under Constantius II in 355-356 AD (<ref type="source">CTh 06, 29, 01</ref>; <ref type="source">CTh 11, 30, 25</ref>; <ref type="source">CTh 11, 36, 11</ref>; <ref type="source">Amm. 15, 03, 08</ref>; <ref type="source">CTh 15, 08, 05-07</ref>), when the emperor regained control over the western prefectures after the final defeat of the usurper Magnentius. Ammianus (<ref type="source">Amm. 16, 08, 05-07</ref>) places his prefectural mandate in Illyricum in 356 AD (PLRE I, pp. 513-514; Vogler 1979, p. 122; Barnes 1992, p. 259). 
+                    On the other hand, Palanque (1955, p. 261) suggested that he succeed Vulcacius Rufinus (see <ref type="ppret" corresp="ppret32">PPRET 32</ref>) as praetorian prefect of Gauls before 356 AD, instead Stein (1934, p. 332) and Esslin argued that during his praefecture Lollianus was transferred from Gauls to Italy between 355 and 356 AD. 
+                    It seems very likely that in 355-356 AD Mavortius was praetorian prefect of Illyricum, while Volusianus Lampadius was praetorian prefect of Italy (see <ref type="ppret" corresp="ppret36">PPRET 36</ref>, <ref type="ppret" corresp="ppret37">PPRET 37</ref>, <ref type="ppret" corresp="ppret38">PPRET 38</ref>, <ref type="ppret" corresp="ppret39">PPRET 39</ref>, <ref type="ppret" corresp="ppret40">PPRET 40</ref>, <ref type="ppret" corresp="ppret41">PPRET 41</ref>) and Flavius Taurus was praetorian prefect of Africa (see <ref type="ppret" corresp="ppret46">PPRET 46</ref>). 
+                    After the trial against Rufinus, princeps of the bureau of the praetorian prefect in Sirmium, which ended in 356 and was described by Ammianus (above), the sources fall silent. Mavortius' successor in the prefecture of Illyricum could be Anatolius (see <ref type="ppret" corresp="ppret47">PPRET 47</ref>). He finally became consul in 355 AD (CLRE, pp. 244-245). As was often the case in the later Roman Empire, a praetorian prefect held the prestigious ordinary consulship during his prefecture.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>CIL VI, 1723</ref></bibl> 
+                    <bibl><ref>CIL VI, 1757</ref></bibl>  
+                    <bibl><ref>ILS 1225</ref></bibl> 
+                    <bibl><ref>ILS 1232</ref></bibl>   
+                    <bibl><ref>Pallu de Lessert 1901, p. 138</ref></bibl> 
+                    <bibl><ref>Seeck 1905, p. 284</ref></bibl> 
+                    <bibl><ref>Cantarelli 1906, p. 16</ref></bibl> 
+                    <bibl><ref>CIL VI, 37112</ref> (pp. 3174, 3813, 4743, 4819)</bibl> 
+                    <bibl><ref>Lugli 1953, p. 93, nr. 150</ref></bibl> 
+                    <bibl><ref>Lugli 1955, p. 213, nr. 521</ref></bibl> 
+                    <bibl><ref>Chastagnol 1962, p. 116</ref></bibl> 
+                    <bibl><ref>Arnheim 1972, pp. 80-81</ref></bibl> 
+                    <bibl><ref>Scharf 1994, pp. 11-12</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p>
+                    <bibl><ref>Gregori G, Mattei M., Panciera S., Alfiero M., Roma (CIL, VI): Musei capitolini, Supplementa Italica, Imagines, Roma 1999, nr. 218</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR114651">EDR 114651</ref></bibl> 
+                    <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail.php?record=1426">LSA 1426</ref></bibl>  
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Arnheim M. T. W., The senatorial aristocracy in the later Roman empire, Oxford 1972, 58, 79-82, 122-136</bibl>  
+                    <bibl>Barnes T. D., Praetorian prefects, 337-361, ZPE, 94, 1992, 259</bibl>  
+                    <bibl>Barnes T. D., Proconsuls of Africa, 337 – 392, Phoenix, 39, 1985, 145</bibl>  
+                    <bibl>Barnes T. D., Two senators under Constantine, JRS, 65, 1975, 40</bibl>  
+                    <bibl>Borghesi B., Oeuvres complètes de Bartolomeo Borghesi, VIII, Paris 1872, 261-262</bibl>  
+                    <bibl>Cameron A., The last pagans of Rome, Oxford-New York 2011, 159</bibl>  
+                    <bibl>Camodeca G., Puteoli romana: Istituzioni e società. Saggi, Napoli 2018, 369, 396-397</bibl>  
+                    <bibl>Cantarelli L., La iscrizione di Lolliano Mavorzio, BCAR, 34, 1906, 15-17</bibl>  
+                    <bibl>Cecconi G. A., Governo imperiale e élites dirigenti nell'Italia tardoantica. Problemi di storia politico-amministrativa (270 - 476 d.C.), Como 1994, 214</bibl>  
+                    <bibl>Chastagnol A., La famille de Caecinia Lolliana grande dame païenne du IVe siècle après J.C., Latomus, 20, 1961, 749-751</bibl>  
+                    <bibl>Chastagnol A., Les fastes de la préfecture de Rome au Bas-Empire, Paris 1962, 114-121</bibl>  
+                    <bibl>Chausson F., Les Egnatii et l'aristocratie italienne des IIe - IVe siècles, JS, 1997, 295-297</bibl>  
+                    <bibl>De Bonfils G., Il comes et quaestor nell'età della dinastia costantiniana, Napoli 1981, 9-17</bibl>  
+                    <bibl>Downey G., A study of the Comites Orientis and the Consulares Syriae, Princeton 1939, 12</bibl>  
+                    <bibl>Gregori G, Mattei M., Panciera S., Alfiero M., Roma (CIL, VI): Musei capitolini, Supplementa Italica, Imagines, Roma 1999, nr. 218</bibl>  
+                    <bibl>Guidobaldi F., Domus: Q. Flavius Maesius Egnatius Lollianus s. Mavortius, LTUR, II, Roma 1995, 132</bibl>  
+                    <bibl>Lonardi A., La cura riparum et alvei Tiberis: storiografia, prosopografia e fonti epigrafiche, Oxford 2013, 153-155, 184, nr. 53a</bibl>  
+                    <bibl>Lugli G., Fontes ad topographiam veteris urbis Romae pertinentes, Roma 1953, II, 93 nr. 150</bibl>  
+                    <bibl>Lugli G., Fontes ad topographiam veteris urbis Romae pertinentes, Roma 1955, III, 213, nr. 521</bibl>  
+                    <bibl>Moser M., Emperor and senators in the reign of Constantius II. Maintaining imperial rule between Rome and Constantinople in the fourth century AD, Cambridge 2018, 21, 77</bibl>  
+                    <bibl>Palanque J-R., Essai sur la préfecture du prétoire du bas-empire, Paris 1933, 32-35</bibl>  
+                    <bibl>Palanque J-R., Les préfets du prétoire sous les fils de Constantin, Historia, 2/3, 1955, 261</bibl> 
+                    <bibl>Pallu de Lessert A. C., Fastes de provinces Africaines (Proconsulaire, Numidie, Maurétanies) sous la domination romaine, Paris 1901, 47-50, 138-140</bibl>  
+                    <bibl>Palma B., Baldassarri P., Pirro Ligorio e le erme di Roma, Roma 1998, 268-269</bibl>  
+                    <bibl>Scharf R., Comites und comitiva primi ordinis, Stuttgart 1994, 11-14</bibl>   
+                    <bibl>Scharf R., Zur Comitiva Flavialis, ZPE, 114, 1996, 151-152</bibl>  
+                    <bibl>Seeck O., Comites, RE, IV, 1, 1900, 630-633</bibl>  
+                    <bibl>Seeck O., Inschrift des Lollianus Mavortius, MDAI (R), 20, 1905, 283-285</bibl>  
+                    <bibl>Sogno C., Astrology, Morality, the Emperor, and the Law in Firmicus Maternus' Mathesis, ICS, 30, 2005, 167-176</bibl>  
+                    <bibl>Vogler Ch., Constance II et l’administration impériale, Strasbourg 1979</bibl> 
+                    <bibl>Weiss P. B., Consistorium und comites consistoriani, Würzburg 1975, 19-20</bibl> 
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.1"></p>
+                    <p n="2.9"></p>
+                    <list n="2.11">
+                        <item n="2.11.h"></item>
+                    </list>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">v(iro) c(larissimo)</p>
+                    <p n="8.2">praef(ecto) praet(orio)</p>
+                    <p n="8.3"></p>
+                    <p n="8.9"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

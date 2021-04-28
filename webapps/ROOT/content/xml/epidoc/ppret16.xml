@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building inscription of the Aïn Rchine arch under the supervision of five praet. prefects</title>
+                <editor role="edition">Eleonora Angius</editor>
+                <editor role="encoding">Eleonora Angius</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="new">16</idno>
+                <date when="2020-03-27"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Maximus"><name type="gentilicium">Valerius</name>
+                            <name type="cognomen">Maximus</name>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName ref="#Bassus"><name type="gentilicium">Iunius</name>
+                            <name type="cognomen">Bassus</name>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName ref="#Pacatianus"><name type="gentilicium">Papius</name>
+                            <name type="cognomen">Pacatianus</name>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName ref="#Ablabius"><name type="gentilicium">Flavius</name>
+                            <name type="cognomen">Ablabius</name>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName ref="#Felix"><name type="gentilicium">Valerius</name>
+                            <name type="cognomen">Felix</name>
+                        </persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#unknown">unknown</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#building">Building inscription</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#limestone">local limestone</material>
+                                    <objectType ref="#architectural_element">architectural element (blocks from the attic of a triumphal arch)</objectType>
+                                    <dimensions>
+                                        <height>ca 160 / 180 cm: each block 45 / 50</height>
+                                        <width>ca 740</width>
+                                        <depth>unknown</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">none</rs>
+                                    <rs type="monument_reuse">none</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#fragmentary">Fragmentary: only six fragments of the arch have survived. Chipped and corroded by lichen, they probably correspond to the left and right areas of the inscribed field.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <height>unknown</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city" ref="#Aradi">near Aradi</placeName>
+                                <placeName type="modern_city">Aïn Rchine (Tunisia)</placeName>
+                                <placeName type="province">Africa Proconsularis</placeName>
+                                <placeName type="diocese" ref="#Africa">Africa (see below)</placeName>
+                                <placeName type="prefecture">Africa</placeName>
+                                <placeName type="ancient_location" ref="#public">public space, the arch was the forum gate</placeName>
+                            </origPlace>
+                            <origDate period="#p4" when="0332" precision="high">332 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#">Aïn Rchine</placeName>, the fragments were discovered by Naïdé Ferchiou during a survey in the Fahs Valley in the late seventies</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                <ab>
+                    <lb n="1"/><supplied reason="lost"><expan><abbr>D</abbr><am>d</am><ex>omini</ex></expan> <expan><abbr>n</abbr><am>n</am><ex>ostri</ex></expan> <expan><abbr>Fl</abbr><ex>avius</ex></expan> Valerius Constantinus Maximus Victor semper <expan><abbr>Aug</abbr><ex>ustus</ex></expan> et <expan><abbr>Fl</abbr><ex>avius</ex></expan> Claudius Constantinus et <expan><abbr>Fl</abbr><ex>avius</ex></expan> Iulius Constantius nob</supplied>ilissimi Caesares <supplied reason="lost">et <expan><abbr>Fl</abbr><ex>avius</ex></expan> Const</supplied>ans <expan><abbr>nob</abbr><ex>ilissimus</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> 
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> is sui consi<supplied reason="lost" cert="low">li</supplied> <gap reason="lost" extent="unknown" unit="character"/>ino <gap reason="lost" quantity="5" unit="character"/>uno <gap reason="lost" extent="unknown" unit="character"/>a utriusque fori ac pu<gap reason="lost" extent="unknown" unit="character"/> faciem 
+                    <lb n="3"/><supplied reason="lost">vi</supplied>amque port<supplied reason="lost" cert="low">icatam</supplied> <gap reason="lost" extent="unknown" unit="character"/>ibri<gap reason="lost" extent="unknown" unit="character"/> praefectura praeto<supplied reason="lost">ri</supplied>o Valeri Maximi, Iu<supplied reason="lost">ni Bassi, Papi Pacatiani</supplied>, 
+                    <lb n="4"/><supplied reason="lost">Flav</supplied>i Ablabi, Va<supplied reason="lost">leri Felici</supplied> <expan><abbr>c</abbr><am>cccc</am><ex>larissimorum</ex></expan> et i<supplied reason="lost">llus</supplied>trium <expan><abbr>v</abbr><am>vvv<supplied reason="lost">v</supplied></am><supplied reason="lost"><ex>irorum quinque</ex></supplied></expan> <supplied reason="lost">per instantiam</supplied> Domiti Zenofili <expan><abbr>v</abbr><ex>iri</ex></expan> <expan><abbr>c</abbr><ex>larissimi</ex></expan> proconsulis, inchoant<supplied reason="lost">e</supplied>
+                    <lb n="5"/>novam <gap reason="lost" quantity="2" unit="character"/><orig>vi</orig><gap reason="lost" quantity="2" unit="character"/><orig>io</orig><gap reason="lost" quantity="1" unit="character"/><orig>vo</orig> <gap reason="lost" extent="unknown" unit="character"/>iano <gap reason="lost" quantity="2" unit="character"/><supplied reason="lost">, <expan><abbr>d</abbr><ex>ecreto</ex></expan></supplied> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>, <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>p</abbr><ex>ublica</ex></expan>.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>This edition in based on AE 1981, 878 supplied by Porena 2003, p. 450 at lines 3-4.</p>
+                <p>
+                    <app loc="1"><note>DN all the editors, but most likely the abbreviation d(omini) n(ostri) was triple.</note></app>
+                    <app loc="2"><note>ad pu[lchriorem] faciem: Salway 2007, p. 1283; Conti<supplied reason="lost">lii?</supplied> <gap reason="lost" extent="unknown" unit="character"/> Olszaniec 2014, p. 20</note></app>
+                    <app loc="3"><note>ibri<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">restitui iusserunt? curante?</supplied>: Salway 2007, p. 1283</note></app>
+                    <app loc="3-4"><note>Valeri(i) Maximi, Iu[nii Bassi, F]l(avii) Ablabi(i), Va<gap reason="lost" extent="unknown" unit="character"/>trium: AE 1981, 878, Grünewald 1990, nr. 133; Val<supplied reason="lost">eri Evagri?</supplied> <gap reason="lost" extent="unknown" unit="character"/> or Pap<supplied reason="lost">i Pacatiani?</supplied> <gap reason="lost" extent="unknown" unit="character"/>: Salway 2007, p. 1283; Iu[ni Bassi II, Papi Pacatiani], [Flav]i Ablabi, Va[leri Felicis]: Saastamoinen 2010, nr. 690</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“[Our master Flavius Valerius Constantinus, the greatest winner, always Augustus, the most noble] Caesars Flavius Claudius Constantinus and Flavius Iulius Constantius and the most noble Caesar Flavius Costans [---] of both the squares [---] the facade and the porticoed street [---] under the praetorian prefecture of the five illustrious members of clarissimus rank, Valerius Maximus, Iunius Bassus, Papius Pacatianus, Flavius Ablabius, Valerius Felix,  by means of the Proconsul’s of clarissimus rank Domitius Zenofilus  intensive control, while [---]iano undertook a new [---] by decree of the decurions with public subsidies.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“[Notre maître Flavius Valerius Constantinus, le plus grand victorieux, toujours Auguste, les très nobles] Césars Flavius Claudius Constantinus et Flavius Iulius Constantius et le très noble César Flavius Costans [---]de l’une et l’autre place [---] la façade et la rue à portique [---] sous la préfecture du prétoire des cinq illustres clarissimes Claudius Valerius Maximus, Iunius Bassus, Papius Pacatianus, Flavius Ablabius, Valerius Felix, à la demande du clarissime proconsul Domitius Zenofilus, tandis que [---]iano a entrepris une nouvelle [---] par décret des décurions avec des subventions publiques.”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“[Il nostro signore Flavius Valerius Constantinus, Massimo Vincitore, sempre Augusto, i nob]ilissimi Cesari Flavius Claudius Costantinus e Flavius Iulius Constantius e il nobilissimo Cesare Flavius Costans [---] dell’una e dell’altra piazza [---] la facciata e la via porticata  [---] sotto la prefettura del pretorio dei cinque illustri chiarissimi Valerius Maximus, Iunius Bassus, Papius Pacatianus, Flavius Ablabius, Valerius Felix, su istanza del proconsole chiarissimo Domitius Zenofilus, mentre [---]iano intraprendeva una nuova [---] per decreto dei decurioni con pubbliche sovvenzioni.”</p>
+            </div>
+            <div type="commentary">
+                <p>During an archaeological survey in Tunisia, conducted before in 1980, in the valley of the Kebir River, about eighty kilometres south of Carthage, Naïdé Ferchiou found seven fragments (one of which remained <foreign>in situ</foreign>) of an inscription carved on the front face of blocks of a partially destroyed monumental arch.</p>
+                <p>This arch was discovered in the current site of Aïn Rchine, an ancient Roman settlement. The text is incomplete and even today it is still hard to restore because the only six surviving blocks probably corresponded to the left and right side of the inscribed field, while the central part of the arch’s keystone is lost. Unfortunately Ferchiou did not publish photos or reliefs of all the blocks, all we have are images of three, all of which are difficult to interpret.</p>
+                <p>The fragments of this building inscription preserved only three of the five’s prefects’ names: Valerius Maximus, Iunius Bassus and Flavius Ablabius. Despite this lacuna, the fivefold abbreviation of the prefects’ rank is a clear indicator of the number of collegial members (AE 1981, 878).</p>
+                <p>Concerning the two missing prefects, Chastagnol (1986, pp. 81-92) proposed L. Papius Pacatianus as the first listed prefect; then Barnes (1992, p. 249 nt. 2) identified the fifth prefect as Evagrius, but Grünewald (1990, p. 202), Migl (1994, pp. 38-39) and finally Porena identified the last one as Valerius Felix, who was listed after Flavius Ablabius. The last two also listed together in the Tubernuc and Antioch inscriptions (<ref type="ppret" corresp="ppret17">PPRET 17</ref>-<ref type="ppret" corresp="ppret18">18</ref>). Indeed, a comparison with the twin dedications, in particular the recent discovery of the last, whose text is complete, allows us to restore with certainty the prefect’s names, since they were listed in chronological order of appointment.</p>
+                <p>Our inscription is of extraordinary historical value: it testifies to the existence of five praetorian prefects at a time when Constantine was sole ruler and reveals how the five were all in office at the time of the monument’s construction dated around 332 AD. Indeed, it is clear, through a chronological analysis of these prefects’ appointments, that this prefectural college preceded by few years the other college referred in the Tubernuc and Antioch inscriptions (<ref type="ppret" corresp="ppret17">PPRET 17</ref>, <ref type="ppret" corresp="ppret18">18</ref>).</p>
+                <p>Iunius Bassus’ (PLRE I, p. 154, see <ref type="ppret" corresp="ppret10">PPRET 10</ref>; <ref type="ppret" corresp="ppret11">PPRET 11</ref>) geographical and social origins are unknown since we know little about him before he became pretorian prefect. A recent reinterpretation of an inscription of Paestum (ILPaestum 110 = AE 1975, 261) by Porena (2012, pp. 293-303) is worth mentioning. Through a paleographically plausible integration, the scholar makes Bassus the dedicator of this monument and therefore a <foreign>vir perfectissimus corrector Lucaniae et Bruttiorum</foreign>. He probably held this office likely under Maximian Herculius between 293 and 305 AD, who chose him for his administrative skills. Indeed, it was not his first appointment. Bassus continued his career probably with other important offices in Gaul. Furthermore, Godefroy (1738, pp. 75-76) in his comment in the <ref type="source">CTh 09, 08, 01</ref> suggests that Bassus was probably <foreign>vicarius Italiae</foreign> between 325-318 AD, immediately before the pretorian prefecture: such a key appointment was a stepping stone to the higher office of the pretorian prefect.</p>
+                <p>Iunius Bassus held the pretorian prefecture for about fourteen years between 318 and 334 (as the inscription of Aquaviva records, see <ref type="ppret" corresp="ppret10">PPRET 10</ref>) and most likely, according to Porena, in two mandates: the first of five consular years (318-322) as sole prefect of Constantine, the second, after the Constantinian administrative reforms, as a regional mandate (perhaps in Illyricum) of nine consular years (326-334) (see Porena 2003, pp. 342-356). It is one of the longest assignments ever recorded in the history of the prefecture, the reward for the loyalty of a faithful official. Finally, he gained the ordinary consulate in 331 AD together with Flavius Ablabius (CLRE pp. 196-197).</p>
+                <p>Valerius Maximus (PLRE I, p. 590) became <foreign>vicarius Orientis</foreign> in 325 AD, which, after the Constantinian victory over Licinius, was an extremely delicate area to govern (Porena 2012, pp. 308-308). He gained the pretorian prefecture, probably over Gaul, between 326-333 AD, adding to this the ordinary consulate in 327 AD with Flavius Constantius (CLRE pp. 188-189).</p>
+                <p>For the career of Papius Pacatianus, Flavius Ablabius and Valerius Felix see <ref type="ppret" corresp="ppret18">PPRET 18</ref>.</p>
+                <p>The Aïn Rchine inscription records an involvement, in association with the proconsul of Africa Domitius Zenophilus (PLRE I, p. 993), of the college of praetorian prefects in a imperialy sponsored local building activity. The order of enumeration of the five prefects on the Aïn Rchine inscription (Porena 2003, pp. 448-466) and the mention of the proconsul of Africa Zenophilus, in office in 330/332 AD, lead to the inscription being dated to the year 332 AD.</p>
+                <p>Indeed, Porena (2003, pp. 398-405) supposed that this arch, which was probably the gate of the forum, represented one of a series of works aimed at restoring or extending the public and monumental area of the city (a project that probably went well beyond the small city of Aïn Rchine). 
+                    Kleinwächter (2001, pp. 207-208) recently argued, from the expression <foreign>utriusque fori</foreign> (l. 2) that there could be two <foreign>fora</foreign> at Aïn Rchine and so there could be another arch similar to ours, celebrating the same restoration project.</p>
+                <p>Since it involved the entire prefectural college, it could therefore be a project for the restoration of the public spaces throughout the empire, carried out under the supervision of the prefects.</p>
+                <p>These works, celebrated by the inscription, were therefore undertaken at the initiative of Constantine and his sons and carried out under the supervision of the proconsul of Africa Domitius Zenofilus, who applied directives expressed by the <foreign>Augusti</foreign> through his praetorian prefects.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Ferchiou 1980, p. 309</ref> = <bibl><ref>AE 1981, 878</ref></bibl></bibl> 
+                    <bibl><ref>Grünewald 1990, nr. 133</ref></bibl>
+                    <bibl><ref>Porena 2003, pp. 399, 450</ref> = <bibl><ref>AE 2003, 1988</ref></bibl></bibl>
+                    <bibl><ref>Salway 2007, p. 1283</ref></bibl>
+                    <bibl><ref>Saastamoinen 2010, nr. 690</ref></bibl> 
+                    <bibl><ref>Olszaniec 2014, p. 20</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p>
+                    <bibl><ref>Ferchiou 1980, p. 309</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-09001583">EDCS 09001583</ref></bibl>
+                    <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD005156">HD 005156</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Barnes T. D., Constantine: Dynasty, Religion and Power in the Later Roman Empire, Chichester- Malden 2011, 160-163</bibl>
+                    <bibl>Barnes T. D., Praetorian Prefects, 337-361, ZPE, 94, 1992, 249, nt. 2</bibl>
+                    <bibl>Chastagnol A., Les inscriptions africaines des préfets du prétoire de Constantin, L’Africa romana, 3, 1986, 263-273 (= Chastagnol, A., Aspects de l’Antiquite Tardive, Roma 1994, 81-92)</bibl>
+                    <bibl>Coşkun A., Die Praefecti praesent(al)es und die Regionalisierung der Praetorianer-praefekturen im vierten Jahrhundert, Millennium, 1, 2004, 279-328</bibl>
+                    <bibl>Ferchiou N., Préfets du prétoire et proconsul sous Constantin: une dédicace d’arc en Afrique, Echanges, II/3, 1980, 307-312</bibl>
+                    <bibl>Ferchiou N., Une cité antique de la Dorsale tunisienne, aux confins de la Fossa Regia: Aïn Rchine et ses environs, AntAfr, 15, 1980, 249-253</bibl>
+                    <bibl>Gkoutzioukostas A., The reforms of Constantine the Great in provincial administration: a critical approach to the conclusions of modern research, Byzantina, 34, 2016, 105-109</bibl>
+                    <bibl>Grünewald T., Constantinus Maximus Augustus: Herrschaftspropaganda in der Zeitgenössischen Überlieferung, Stuttgart 1990, 202 nr 133</bibl>
+                    <bibl>Kleinwächter C., Platzanlagen nordafrikanischer Städte. Untersuchungen zum sogenannten Polyzentrismus in der Urbanistik der römischen Kaiserzeit, Mainz 2001, 207-208</bibl>
+                    <bibl>Lenski N., The Cambridge Companion to the Age of Constantine, Cambridge 2007, 186-188</bibl>
+                    <bibl>Migl J., Die Ordnung der Ämter: Prätorianerpräfektur und Vikariat in der Regionalverwaltung des Römischen Reiches von Konstantin bis zur Valentinianischen Dynastie, Frankfurt am Main 1994, 33-38</bibl>
+                    <bibl>Olszaniec S., Praefektura praetorio Italii, Illyrikum i Afryki (312–425 n.e.), Toruń 2014, 19-23</bibl>
+                    <bibl>Porena P., Le origini della prefettura del pretorio tardoantica, Roma 2003, 448- 466</bibl>
+                    <bibl>Saastamoinen A., The phraseology and structure of Latin building inscriptions in Roman north Africa, Helsiniki 2010, 502 nr. 690</bibl>
+                    <bibl>Salway B., The Praetorian Prefecture of Africa under Constantine: a Phantom?, in Acta XII Congressus internationalis epigraphiae Graecae et Latinae: Provinciae imperii Romani inscriptionibus descriptae, II, Barcelona 2007, 1281-1286</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.3"></p>
+                </div>
+                
+                <div type="commentary" n="7">
+                    <p n="7.3"></p>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">ccccc(larissimorum) et i[llus]trium vvvv[v(irorum quinque)</p>
+                    <p n="8.2">praefectura praeto[ri]o</p>
+                    <p n="8.5"></p>
+                    <p n="8.9"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

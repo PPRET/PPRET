@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building inscription celebrating a construction in the Aila harbour, undertaken by Constantine and the Caesars and supervised by their praetorian prefect</title>
+                <editor role="edition">Eleonora Angius</editor>
+                <editor role="encoding">Eleonora Angius</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="new">14</idno>
+                <date when="2020-06-23"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Constantius"><name type="gentilicium">Flavius</name>
+                            <name type="cognomen">Constantius</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Aqaba">Aqaba Museum</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#building">Building inscription</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#stone_slab">slab</objectType>
+                                    <dimensions>
+                                        <height>54</height>
+                                        <width>77</width>
+                                        <depth>2.7 / 2.9</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">none</rs>
+                                    <rs type="monument_reuse">none</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#fragmentary">Fragmentary: only six fragments of the inscribed field have survived; the second line shows an accurate erasure, instigated by the <foreign>damnatio</foreign> of Crispus Caesar in 326 AD.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#rustic_capitals">rustic capitals</term>
+                                <height>9 / 12</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Aila</placeName>
+                                <placeName type="modern_city">Aqaba (Jordan)</placeName>
+                                <placeName type="province">Palaestina</placeName>
+                                <placeName type="diocese">Oriens</placeName>
+                                <placeName type="prefecture">(not regional before 326 AD)</placeName>
+                                <placeName type="ancient_location" ref="#public">public place</placeName>
+                            </origPlace>
+                            <origDate period="#p4" notBefore="0324" notAfter="0326">324/326 AD</origDate>
+                        </origin>
+                        <provenance type="found">This inscription was found in the port city of <placeName ref="#">Aqaba</placeName> during the spring of 1987. The discovery was made during clearance of the surface debris in front of, and within a tower beside, the northwest gate of the medieval city (Ayla, 7th-12th Century). The six fragments were found directly in front of the gate (see McAdam 1989, p. 163).</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                <ab>
+                    <lb n="1"/><supplied reason="lost"><expan><abbr>D</abbr><am>d</am><ex>omini</ex></expan> <expan><abbr>n</abbr><am>n</am><ex>ostri</ex></expan> <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>Fl</abbr><ex>avius</ex></expan> <expan><abbr>Val</abbr><ex>erius</ex></expan> Constanti</supplied>nus semper <supplied reason="lost">Augustus</supplied>
+                    <lb n="2"/><supplied reason="lost">pontifex maximus, pater patriae</supplied>, <del rend="erasure"><supplied reason="lost">et <expan><abbr>Fl</abbr><ex>avius</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> Crispus</supplied></del> <supplied reason="lost">et <expan><abbr>Fl</abbr><ex>avius</ex></expan> <expan><abbr>Cl</abbr><ex>audius</ex></expan> Consta</supplied><lb
+                        break="no" n="3"/><supplied reason="lost">ntinus, et <expan><abbr>Fl</abbr><ex>avius</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> Constantius,</supplied> <expan><abbr><supplied reason="lost">no</supplied>biliss</abbr><ex>imi</ex></expan> <expan><abbr><unclear>Caes</unclear></abbr><am><unclear>s</unclear></am><ex>ares</ex></expan>, <expan><abbr><unclear>Fl</unclear></abbr><ex>avio</ex></expan> Con<supplied reason="lost">stantio</supplied>
+                    <lb n="4"/><supplied reason="lost"><expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex cert="low">larissimo</ex></expan>, <expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>praet</abbr><ex>orio</ex></expan> inchoante et curante,</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low">perfici</supplied> <expan><abbr><supplied reason="lost" cert="low">refici</supplied>q</abbr><ex>ue</ex></expan> iuss<supplied reason="lost">erunt</supplied>.
+                    <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low"><expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>p</abbr><ex>erfectissimus</ex></expan> <expan><abbr>p</abbr><ex>raeses</ex></expan> <expan><abbr>p</abbr><ex>rovinciae</ex></expan> <expan><abbr>P</abbr><ex>alaestinae</ex></expan></supplied> <supplied reason="lost">de</supplied>dicav<supplied reason="lost" cert="low">it</supplied>.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>This edition is based on Porena (AE 2003, 1832).</p>
+                <p>
+                    <app loc="1"><note>D(ominus) N(oster): AE 1989, 750; IGLS XXI 4, 150 </note></app>
+                    <app loc="2-3"><note>pater patriae], <del rend="erasure">[Fl(avius) Iul(ius) Crispus]</del>, [Fl(avius)  Cl(audius) Consta/ntinus, Fl(avius) Iul(ius) Constantius: AE 1989, 750; et Val(erius) Licinianus Licinius iun(ior)]]: IGLS XXI 4, 150</note></app>
+                    <app loc="3"><note>Fl(avius) Con[stantius ?]: AE 1989, 750, IGLS XXI 4, 150</note></app>
+                    <app loc="5"><note>et de]dicav[erunt]: IGLS XXI 4, 150</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“Our masters, the Emperor Caesar Flavius Valerius Constantinus, always Augustus, pontifex maximus, father of the fatherland, Flavius Iulius Crispus, Flavius Claudius Constantinus and Flavius Iulius Constantius, very noble Caesars, ordered  that it was built (the building) under the supervision and care of Flavius Constantius, of clarissimus rank, pretorian prefect; [- - -] of perfectissimus rank, governor of the province of Palestine dedicated it.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“Nos seigneurs, l’Empereur César Flavius Valerius Constantinus, toujours Auguste, pontife suprême, père de la patrie, et Flavius Iulius Crispus, Flavius Claudius Constantinus et Flavius Iulius Costantius, très nobles Césars, ont ordonné qu’il soit construit / reconstruit (le bâtiment ?) sous la supervision et les soins de Flavius Constantius, clarissime préfet du prétoire. [- - -] perfectissime gouverneur de la province de Palestine a consacré.”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“I nostri signori, l’Imperatore Cesare Flavius Valerius Costantinus, sempre Augusto, pontefice massimo, padre della patria, e Flavius Iulius Crispus e Flavius Claudius Costantinus e Flavius Iulius Costantius, nobilissimi Cesari, ordinarono che fosse costruito / ricostruito (l’edificio ?) sotto la supervisione e la cura di Flavius Constantius, chiarissimo prefetto del pretorio. [- - -] il perfettissimo governatore della provincia di Palestina dedicò.”</p>
+            </div>
+            <div type="commentary">
+                <p>The six fragments were discovered during the spring of 1987 in front of the northwest gate of the medieval site (Aila) in the port city of Aqaba (Jordan), halfway between the Roman-Byzantine city and the Mamluko-Ottoman castle (see McAdam 1989, p. 163). A seventh fragment was also found within a tower there, but it cannot be joined with any of the others (although the shape and height of the letters closely matches those of the other fragments): it is clearly out of context, so this fragment had to be part of a second similar inscription with some variations (see McAdam 1989, p. 164).</p>
+                <p>This monumental inscription celebrates a military construction and was probably mounted upon it. It was removed no later than the during the Arab conquest, after which it was reused in the medieval town, situated near the ancient Roman centre.</p>
+                <p>The fragmentary slab had large letters that were accurately and tidily carved with visible rubric traces; the original text was arranged in no more than five lines.</p>
+                <p>McAdam noted that a name on the second line was chiselled away, probably a Caesar: McAdam righly assumed that Crispus’ name was erased after he was executed in May 326 AD. He then restored a gap on the third line with the name of the praetorian prefect Flavius Constantius (PLRE I, p. 225, see <ref type="ppret" corresp="ppret12">PPRET 12</ref>, <ref type="ppret" corresp="ppret13">13</ref>). 
+                    Flavius Constantius held the praetorian prefecture between 324 and 327 AD (for his career see <ref type="ppret" corresp="ppret12">PPRET 12</ref>) and during this period (November 324 - May 326 AD), Constantine, who was the only ruler, was associated with three Caesares (Crispus, Constantine II and Constantius) all of whom were mentioned in the first half of our inscription. After Crispus’name was deleted, our inscription continued to celebrate two of them with the plural “<foreign>nobilissimi Caesari</foreign>” (l. 5).</p>
+                <p>If the identification with the praetorian prefect Flavius Constantius is correct, the monument could confirm his ties with the East and his important role in the Constantinian building policy (see <ref type="ppret" corresp="ppret15">PPRET 15</ref>) and in the reorganization of the East, subtracted from Licinius by its new master (see <ref type="ppret" corresp="ppret12">PPRET 12</ref>, <ref type="ppret" corresp="ppret13">13</ref>). The emperors’ name in the nominative case, the monumental dimensions of the epigraphic field, the use of Latin in a Greek-speaking area, shows that the construction was ordered and financed by Constantine and his sons. 
+                    In this inscription our praetorian prefect was mentioned possibly as the supervisor of the military building’s construction. According to Porena (2003, p. 395) the military nature of the building can be deduced from the strategic position of the port on the Red Sea, making it a natural military base. 
+                    In effect, Aila lies at the north-eastern corner of an arm of the Red Sea, the Gulf of Aqaba and was a port providing access to the Red Sea and the Indian Ocean beyond (Kennedy 2004, p. 206). Aila was a Nabatean city and Strabo (<ref type="source">Strab., Geog., 16, 02, 30</ref>; <ref type="source">Strab., Geog., 16, 04, 04</ref>) described it as a port of little importance during the Augustan period. 
+                    When the Nabatean kingdom was annexed to the Roman Empire (106 AD), Aila became the southern <foreign>terminus</foreign> of the Via Nova Traiana. According to Eusebius (<ref type="source">Eus., Onom., 06, 17-21</ref>; <ref type="source">Eus., Onom., 07, 25-28</ref>) Diocletian moved the <foreign>Legio X Fretensis</foreign> from Jerusalem to Aila around 290 AD and here he built the section of the Diocletian Strata connecting with the Via Nova Traiana: the two formed a single road running along the entire Roman-Persian boundary. The city therefore became an important strategic location and experienced significant commercial growth. The <foreign>Notitia Dignitatum</foreign> (<ref type="source">Or. 34, 30</ref>) attests to the legion remaining in Aila at least until 400 AD (see Nappo 2018, pp. 118-123).</p>
+                <p>The identity of our anonymous dedicant (l. 5), could be related to Aila’s military and strategic role. Porena (2003, p. 395, nt. 83) cautiously suggested the dedicant was the <foreign>Praeses Palaestinae</foreign>, but it might be a military local official such as a <foreign>Praefectus legionis X Fretensis</foreign> stationed in the city, or the <foreign>Dux Palaestinae</foreign>, or a <foreign>praepositus</foreign> of that area.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>MacAdam 1989, pp. 164-169</ref> =<bibl><ref> AE 1989, 750</ref></bibl></bibl>
+                    <bibl><ref>IGLS XXI 4, 150</ref> = <bibl><ref>AE 1992, 750</ref></bibl></bibl>
+                    <bibl><ref>Porena 2003, pp. 393-395</ref> = <bibl><ref>AE 2003, 1832</ref></bibl></bibl>
+                    <bibl><ref>Kennedy 2004, pp. 207-209</ref></bibl>   
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p>
+                    <bibl><ref>MacAdam 1989, p. 164</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-06100518">EDCS 06100518</ref></bibl>
+                    <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD018465">HD 018465</ref></bibl>
+                    <bibl><ref corresp="https://inscriptions.packhum.org/text/246371?">PH 246371</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Kennedy D., The Roman Army in Jordan, 2, London 2004, 207-209</bibl>
+                    <bibl>Macadam H. I., Fragments of a Latin Building inscription from Aqaba, Jordan, ZPE, 79, 1989, 163-172</bibl>
+                    <bibl>Nappo D., I porti romani nel Mar Rosso da Augusto al Tardoantico, Napoli 2018, 118-123</bibl>
+                    <bibl>Parker S. T., Roman legionary fortresses in the East, London 2000, 133</bibl>
+                    <bibl>Porena P., Le origini della prefettura del pretorio tardoantica, Roma 2003, 393-395</bibl>
+                    <bibl>Sartre M., Inscriptions grecques et latines de la Syrie, XXI. Inscriptions de la Jordanie, 4. Pétra et la Nabatène méridionale du wadi al-Hasa au golfe de ’Aqaba, Paris 1993, 186-187, nr. 150</bibl>
+                    <bibl>Whitcomb D., Medieval Aqaba. A brief report on the 1986 and 1987 seasons, ʿAmman 1987, 2</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.4">the praetorian prefect probably was a supervisor of the military building’s construction</p>
+                </div>
+                
+                <div type="commentary" n="7">
+                    <p n="7.4"></p>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">[v(iro) c(larissimo)]</p>
+                    <p n="8.2">[praef(ecto) praet(orio)]</p>
+                    <p n="8.5"></p>
+                    <p n="8.9"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription of the emperor Julian on the <foreign>cursus publicus</foreign> from Iulia Concordia made by the praet. prefect Mamertinus</title>
+                <editor role="edition">Andrea Bernier, Irene Vagionakis</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="pp. 540-541">49</idno>
+                <date when="2020-05-08"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person><persName ref="#Mamertinus"><name type="gentilicium">Claudius</name> <name type="cognomen">Mamertinus</name></persName></person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Portogruaro">Portogruaro (Venezia), Museo Nazionale Concordiese</repository>
+                        <idno type="invNo">inv. 15</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the emperor Julian</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#limestone">limestone</material>
+                                    <objectType ref="#stone_slab">stone slab</objectType>
+                                    <dimensions>
+                                        <height>125.5</height>
+                                        <width>61.5</width>
+                                        <depth>unknown</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">no</rs>
+                                    <rs type="monument_reuse">yes; the slab has been reused as a tomb lid.</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#fragmentary">Rejoined fragments.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <height>3 / 5.4</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Iulia Concordia</placeName>
+                                <placeName type="modern_city">Concordia Sagittaria (Italy)</placeName>
+                                <placeName type="province">Venetia et Histria</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#public">public space</placeName>
+                            </origPlace>
+                            <origDate period="#p6" notBefore="0362" notAfter="0363">362/363 AD</origDate>
+                        </origin>
+                        <provenance type="found">found in 1873 at <placeName ref="#">Concordia Sagittaria (Venezia)</placeName>, Levante necropolis</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                <ab>
+                    <lb n="1"/><sic>Ab</sic> insignem singula<lb 
+                        break="no" n="2"/>remque erga rem publicam
+                    <lb n="3"/>suam <sic>faborem</sic>
+                    <lb n="4"/><expan><abbr>d</abbr><ex>ominus</ex></expan> <expan><abbr>n</abbr><ex>oster</ex></expan> Iulianus Invictissimus Prin<lb 
+                        break="no" n="5"/>ceps remota provincialibus cura
+                    <lb n="6"/>cursum fiscalem breviatis mutationum spa<lb 
+                        break="no" n="7"/>tiis fieri iussit,
+                    <lb n="8"/>disponente Claud<supplied reason="lost">i</supplied>o Mamertino <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> per Ita<lb 
+                        break="no" n="9"/>liam et Inlyricum praefecto praetorio,
+                    <lb n="10"/>curante Vetulenio Praenestio <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>p</abbr><ex>erfectissimo</ex></expan> <expan><abbr>corr</abbr><ex>ectore</ex></expan>
+                    <lb n="11"/><expan><abbr>Venet</abbr><ex>iae</ex></expan> et <expan><abbr>Hist</abbr><ex>riae</ex></expan>.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on CIL V, 8987.</p>
+                <p><app loc="1"><note>Ob</note></app></p>
+                <p><app loc="3"><note>favorem</note></app></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“Because of the outstanding and unique good-will towards his <foreign>res publica</foreign>, 
+                    our master Julian, Undefeated Prince, relieving the provincials of such a burden, 
+                    ordered that a postal service with shortened distances between the relay stations be established, 
+                    according to the plan of Claudius Mamertinus, of clarissimus rank, for Italy and Illyricum praetorian prefect, 
+                    under the execution of Vetulenius Praenestius, of perfectissimus rank, corrector of Venetia and Histria.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“Pour la bienveillance distinguée et insupérable envers sa res publica, notre seigneur Julien Prince jamais vaincus, éloignant cette préoccupation des provinciaux, ordonna que le service postal avec des distances réduites entre les stations d’échange soit établi, selon la disposition de Claudius Mamertinus, pour l’Italie et l’Illyricum préfet du prétoire clarissime, sous les soins de Vetulenius Praenestius, le perfectissime correcteur de Venetia et Histria.”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“Per la insigne ed ineguagliabile benevolenza nei confronti della <foreign>res publica</foreign> sua, 
+                    il nostro signore Giuliano Principe Invittissimo, togliendo tale preoccupazione ai provinciali, 
+                    ordinò che fosse istituito un servizio postale con ridotte distanze fra le stazioni di scambio,
+                    secondo la disposizione di Claudius Mamertinus, per l’Italia e l’Illirico prefetto del pretorio chiarissimo, 
+                    sotto la cura di Vetulenius Praenestius, perfettissimo, correttore di Venetia e Histria.”</p>
+            </div>
+            <div type="commentary">
+                <p>The inscription came from the site of ancient Iulia Concordia. A first fragment (CIL V, 8658), which had been reused as a tomb lid, was found during the excavations of the ancient cemetery in 1873. Two years later, a second fragment appeared that perfectly joins the first and allows us to reconstruct the entire inscription (CIL V, 8987; see Bertolini 1875, p. 115; Bertolini 1877, pp. 44-48).</p>
+                <p>The text records an improvement of the public post undertaken by the emperor Julian that was carried out by the governor of Venetia and Histria Vetulenius Praenestius, according to a plan devised by the praetorian prefect Claudius Mamertinus. The emperor is praised for having shortened the distances between the relay stations (<foreign>mutationes</foreign>: on these structures Corsi 2000, pp. 40-43, 51-52; Crogiez-Pétrequin 2016; Di Paola 2016; Zanini 2016), relieving the provincials of that burden. The shortening of the distances probably meant that new stations were created, improving the public postal system in this area with resources from the fisc (Kolb 1995; Kolb 2000, pp. 142-144; Lemcke 2016, pp. 73-74).</p>
+                <p>The care of the emperor Julian for the <foreign>cursus publicus</foreign> is documented by several sources (cf. Arce 1984, pp. 128-132; Kolb 1998; Lemcke 2016, pp. 100-102; Marcone 2019, pp. 170-176; Schmidt-Hofner 2020, pp. 146-148). Four of his laws in the section on the public post in the Theodosian Code are addressed to the same prefect Mamertinus and two of them make explicit reference to Italy (<ref type="source">CTh 08, 05, 12</ref>, received at Syracuse; <ref type="source">CTh 08, 05, 16</ref>, on the reduction of service in Sardinia; addressed to Mamertinus also <ref type="source">CTh 08, 05, 13-14</ref>: on these texts see Olszaniec 2013b; Brendel 2017, pp. 347-348). 
+                    However, it is not possible to link these laws with our inscription because the constitutions deal with other things, in particular the limitations regarding the issue of post warrants and the reduction of service in some provinces, while the text of Concordia records an increase in the number of relay stations. The common theme, however, is a desire to relieve the provincial population of the expenses of the <foreign>cursus publicus</foreign> through the intervention of the fisc. Perhaps the new system also provided more protection for the animals that were now deployed over shorter distances (on this issue see Kolb 2000, pp. 210-220).</p>
+                <p>According to A. Kolb (1995; 1998; 2000, pp. 142-144), the initiative of Julian was limited to the province of Venetia and Histria, and perhaps, just to a short segment of the <foreign>cursus</foreign> near Concordia. 
+                    But the indication <foreign>per Italiam et Inlyricum</foreign> in Mamertinus’ title could refer to an area that went well beyond the regional domain of the prefect, since the zone of imperial intervention also included Africa (see below); that would explain why the inscription also mentions Mamertinus and not just the provincial governor (for a <foreign>statio</foreign> built in 340/350 AD only by two consulares Siciliae outside of the extensive interventions coordinated by the praetorian prefecture see CIL X, 7200 = ILS 5905 with Silvestrini 2014).</p>
+                <p>While Vetulenius Praenestius, <foreign>corrector Venetiae et Histriae</foreign> (a list of the governors of this province can be found in Cecconi 1994, pp. 211-212; Cecconi 1998, p. 177), is otherwise unknown, Claudius Mamertinus is well documented in the ancient sources (see PLRE I, pp. 540-541; Delmaire 1989, pp. 36-38; Wirbelauer-Fleer 1995; Olszaniec 2013a, pp. 259-267). He was probably of Gallic origin and Ammianus lists him among the first supporters of Julian (cf. Mazzarino 1971; Caltabiano 2009, pp. 141-142). 
+                    Mamertinus was already an old man when Julian was proclaimed Augustus, but his rise in the bureaucracy was outstanding: at the beginning of his march eastwards in the spring of 361 AD, Julian appointed him count of the sacred imperial largesses (<ref type="source">Amm. 21, 08, 01</ref>). A few months later, Mamertinus was promoted praetorian prefect of Illyricum (Constantius’ prefect, Florentius, had fled to the eastern court before the arrival of Julian’s army: <ref type="source">Amm. 21, 09, 04</ref>; <ref type="source">Amm. 21, 12, 25</ref>); then, Mamertinus was designated consul for the following year with a colleague, the <foreign>magister equitum</foreign> Nevitta (<ref type="source">Amm. 21, 10, 08</ref>; <ref type="source">Amm. 21, 12, 25</ref>; cf. CLRE, pp. 258-259). 
+                    On January 1<hi rend="superscript">st</hi> 362 AD in Constantinople he gave a speech of thanks to the emperor Julian on the occasion of his elevation to the consulate (on this important document, preserved in the collection of Latin panegyrics, see Blockley 1972; Lieu 1989, pp. 3-38; Nixon-Rodgers 1994, pp. 386-436, 629-646; Marcone 2019, pp. 124-129).</p>
+                <p>Initially, the prefecture of Mamertinus was at first limited to Illyricum, but soon after the death of Constantius II it was extended to Italy and Africa. He took part in the Commission of Chalcedon and was appointed to try the decurions of Aquileia who had led the resistance against Julian’s army in 361 AD. 
+                    Like Saturninus Secundus Salutius (see <ref type="ppret" corresp="ppret51">PPRET 51</ref>), Mamertinus succeeded in retaining his office under Julian’s successors. The Theodosian Code contains more than forty laws that were addressed to him between 362 and 365 AD (see Schmidt-Hofner 2008a e 2008b; Brendel 2017). 
+                    Finally, Mamertinus was accused of peculation by the ex-vicarius of Africa Avitianus (PLRE I, pp. 126-127). Dismissed by Valentinian in May-June 365 AD, he was replaced with Vulcacius Rufinus (<ref type="source">Amm. 26 07, 01-02</ref>; for the chronology of the episode cf. den Boeft et alii 2009, pp. 162-164; Schmidt-Hofner 2008b, pp. 525-526; on Vulcacius Rufinus, see <ref type="ppret" corresp="ppret32">PPRET 32</ref>-<ref type="ppret" corresp="ppret33">33</ref>). His prefecture had lasted almost four years.</p>
+                <p>There is some debate around the borders of this prefecture. According to some scholars, Africa was outside the control of Mamertinus during the reign of Julian (cf. Migl 1994, pp. 141-142; Olszaniec 2013a, p. 262). Furthermore, even Illyricum would have been separated for few months by the prefecture of Mamertinus at the very beginning of the reign of Valentinian and entrusted to Petronius Probus (Jones 1964, pp. 85-87; Cameron 1985, pp. 178-182; for the career of Probus see <ref type="ppret" corresp="ppret59">PPRET 59</ref>). However, neither of these assumptions are supported by our sources: in the last years of Constantius’ reign there were, in addition to the prefectures of Gaul and the East, a prefecture of Italy and Africa and an autonomous prefecture of Illyricum. 
+                    This system was changed by Julian, who returned to a single large prefecture of Italy, Africa and Illyricum that was entrusted to Mamertinus after Constantius’ death (November 3<hi rend="superscript">rd</hi> 361 AD). Ammianus clearly testifies that the same system was still in force in 364 AD when «the East was governed by Salutius with the rank of prefect, Italy with Africa and Illyricum by Mamertinus, and the Gallic provinces by Germanianus» (<ref type="source">Amm. 26 05, 05</ref>; cf. Lizzi Testa 2006, pp. 258-260). 
+                    There is no room for more prefects of Africa or Illyricum in these years. The inscription of Concordia does not mention Africa, but the theory of J. Migl that under Julian this region was independent from the power of the prefect can hardly be accepted. There is no evidence of any administrative autonomy in Africa and the circumstances of Mamertinus’ fall suggest that his accuser Avitianus, <foreign>vicarius Africae</foreign> under Julian, was a subordinate of the prefect in 362-363 AD (cf. den Boeft et alii 2009, p. 162). 
+                    The missing reference to Africa in the Concordia inscription must therefore be explained in another way. This is one of the first texts where the title of prefect is completed by a geographical indication: <foreign>per Italiam et Inlyricum praefectus praetorio</foreign> (cf. Barnes 1987, p. 15; cf. <ref type="ppret" corresp="ppret46">PPRET 46</ref>). Perhaps Africa was simply omitted at a time when territorial attribution was still to be solidified in the titulature of the prefects. Another possibility is to consider, as suggested above, the indication of Italy and Illyricum as a reference to the area where Julian’s intervention on the cursus publicus was carried out rather than to the regions under the jurisdiction of Mamertinus. This would explain the omission of Africa and also why the indication of these territories precedes and does not follow the title of praetorian prefect, as we can see in later inscriptions and in the same titulature of Vetulenius Prenestius who, responsible for the drafting of this text, styled himself <foreign>corrector Venetiae et Histriae</foreign>.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Bertolini 1875, p. 115</ref></bibl>
+                    <bibl><ref>Bertolini 1877, pp. 44-48, nr. 70</ref> (fac-simile p. 45)</bibl>
+                    <bibl><ref>CIL V, 8658</ref></bibl> 
+                    <bibl><ref>CIL V, 8987</ref></bibl> 
+                    <bibl><ref>ILS 755</ref></bibl>
+                    <bibl><ref>Arce 1984, p. 104, nrr. 38-39</ref></bibl> 
+                    <bibl><ref>Kolb 1995</ref> (with photo) = <bibl><ref>AE 1995, 583</ref></bibl></bibl>
+                    <bibl><ref>Conti 2004, nr. 87</ref></bibl>
+                    <bibl><ref>Brendel 2017, pp. 347-348</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-05401458">EDCS 05401458</ref></bibl>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR097709">EDR 097709</ref></bibl>
+                    <bibl><ref corresp="http://lupa.at/29400">Ubi erat Lupa 29400</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Arce J., Estudios sobre el emperador Fl. Cl. Juliano. Fuentes literarias. Epigrafía. Numismática, Madrid 1984, 104, 128-132</bibl>
+                        <bibl>Barnes T.D., Regional Prefectures, in Straub J. (ed.), Bonner Historia Augusta Colloquium 1984-1985, Bonn 1987, 13-23</bibl>
+                        <bibl>Bertolini D., Iul. Concordia Col. III. La fabbrica d’armi, Archivio Veneto, 10, 1875, 97-125</bibl>
+                        <bibl>Bertolini D., Sepolcreto di Concordia, NSA, 1877, 21-48</bibl>
+                        <bibl>Blockley R.C., The Panegyric of Claudius Mamertinus on the Emperor Julian, AJPh, 93, 1972, 437-450</bibl>
+                        <bibl>Brendel R., Kaiser Julians Gesetzgebungswerk und Reichsverwaltung, Hamburg 2017</bibl>
+                        <bibl>Caltabiano M., La comunità degli Elleni: cultura e potere alla corte dell’imperatore Giuliano, AntTard, 17, 2009, 137-149</bibl>
+                        <bibl>Cameron A., Polyonomy in the Late Roman Aristocracy: The Case of Petronius Probus, JRS, 75, 1985, 164-182</bibl>
+                        <bibl>Cecconi G.A., Governo imperiale e élites dirigenti nell’Italia tardoantica. Problemi di storia politico-amministrativa (270-476 d.C.), Como 1994</bibl>
+                        <bibl>Cecconi G.A., I governatori delle province italiche, AntTard, 6, 1998, 149-179</bibl>
+                        <bibl>Conti S., Die Inschriften Kaiser Julians, Stuttgart 2004, 119-120</bibl>
+                        <bibl>Corsi C., Le strutture di servizio del cursus publicus in Italia: ricerche topografiche ed evidenze archeologiche, Oxford 2000</bibl>
+                        <bibl>Crogiez-Pétrequin S., Les mansiones et mutationes dans les textes juridiques de l’Antiquité et du Haut Moyen Âge, in Basso P., Zanini E. (2016), Statio Amoena. Sostare e vivere lungo le strade romane, Oxford 2016, 19-26</bibl>
+                        <bibl>Delmaire R., Les responsables des finances impériales au Bas-Empire romain (IVe-VIe s.): études prosopographiques, Bruxelles 1989, 36-38</bibl>
+                        <bibl>Den Boeft J., Drijvers J.W., den Hengst D., Teitler H.C., Philological and Historical Commentary on Ammianus Marcellinus XXII, Leiden – Boston 2009, 161-180</bibl>
+                        <bibl>Di Paola L., Mansiones e stathmoi nelle fonti letterarie tardoantiche: destinazione d’uso, equipaggiamento, immagini, in Basso P., Zanini E. (2016), Statio Amoena. Sostare e vivere lungo le strade romane, Oxford 2016, 9-18</bibl>
+                        <bibl>Impallomeni G., Una epigrafe concordiese in tema di ‘cursus publicus’ in probabile relazione con C.Th. 8, 5, 12, in Atti dell’Accademia Romanistica Costantiniana. V Convegno Internazionale (Spello – Perugia – Bevagna – Sansepolcro, 14-17 ottobre 1981), Rimini 1983, 329-334</bibl>
+                        <bibl>Jones A.H.M., Collegiate Prefectures, JRS, 54, 1964, 78-89</bibl>
+                        <bibl>Kolb A., Cursus fiscalis: eine Inschrift aus Concordia in der Tradition kaiserlicher Politik, in Frei-Stolba R., Speidel, M.A. (eds.), Römische Inschriften - Neufunde, Neulesungen und Neuinterpretationen: Festschrift für Hans Lieb; zum 65. Geburtstag dargebracht von seinen Freunden und Kollegen, Basel 1995, 191-204</bibl>
+                        <bibl>Kolb A., Kaiser Julians Innenpolitik: grundlegende Reformen oder traditionelle Verwaltung ? Das Beispiel des "cursus publicus", Historia, 47, 1998, 342-359</bibl>
+                        <bibl>Kolb A., Transport und Nachrichtentransfer im Römischen Reich, Berlin 2000</bibl>
+                        <bibl>Lemcke L., Imperial Transportation and Communication from the Third to the Late Fourth Century: The Golden Age of the “cursus publicus”, Bruxelles 2016</bibl>
+                        <bibl>Lieu S.N.C. (ed.), The Emperor Julian. Panegyric and Polemic, Liverpool 1989 (2<hi rend="superscript">nd</hi> ed.), 3-38</bibl>
+                        <bibl>Lizzi Testa R., Quando nella curia furono viste fiorire le scope: il senato di Valentiniano I, in Lizzi Testa R. (ed.), Le trasformazioni delle élites in età tardoantica, Roma 2006, 239-276</bibl>
+                        <bibl>Marcone A., Giuliano, Roma 2019</bibl>
+                        <bibl>Mazzarino S., Il De rebus bellicis e la Gratiarum Actio di Claudio Mamertino, in Studi di storiografia antica in memoria di Leonardo Ferrero, Torino 1971, 209-214 (= Id., Il basso impero. Antico, tardoantico ed èra costantiniana, Bari 1974, 221-228)</bibl>
+                        <bibl>Migl J., Die Ordnung der Ämter: Prätorianerpräfektur und Vikariat in der Regionalverwaltung des Römischen Reiches von Konstantin bis zur Valentinianischen Dynastie, Frankfurt am Main 1994</bibl>
+                        <bibl>Nixon C.E.V., Rodgers B.S., In Praise of Later Roman Emperors: the Panegyrici Latini. Introduction, Translation, and Historical Commentary with the Latin Text of R. A. B. Mynors, Berkeley-Los Angeles-Oxford 1994, 386-436, 629-646</bibl>
+                        <bibl>Olszianec S., Prosopographical Studies on the Court Elite in the Roman Empire (4th Century AD), Toruń 2013a, 259-267</bibl>
+                        <bibl>Olszaniec S., Praetorian prefects of Italy and Africa as administrators of cursus publicus in the Theodosian Code (until 425 AD), in The Roman Empire in the light of epigraphical and normative sources, Torun 2013b, 31-56</bibl>
+                        <bibl>Pflaum H.-G., Essai sur le cursus publicus dans le Haut-Empire, in Mémoires présentés par divers savants à l’Académie des inscriptions et belles-lettres de l’Institut de France. Première série, Sujets divers d’érudition, 14-1, 1940, 282-283</bibl>
+                        <bibl>Salway B., Words and Deeds: Julian in the Epigraphic Records, in Baker-Brian N. Tougher S. (eds.), Emperor and Author: The Writings of Julian the Apostate, Swansea 2012, 137-157</bibl>
+                        <bibl>Schmidt-Hofner S., Reagieren und Gestalten. Der Regierungsstil des spätrömischen Kaisers am Beispiel der Gesetzgebung Valentinians I, München 2008</bibl>
+                        <bibl>Schmidt-Hofner S., Die Regesten der Kaiser Valentinian und Valens in den Jahren 364 bis 375 n. Chr, ZRG, 125, 2008, 498-602</bibl>
+                        <bibl>Schmidt-Hofner S., Reform, Routine, and Propaganda: Julian the Lawgiver, in Rebenich S., Wiemer H.-U. (eds.), A Companion to Julian the Apostate, Leiden – Boston 2020, 124-171</bibl>
+                        <bibl>Seston W., Notes critiques sur l’Histoire Auguste, REA, 45, 1943, 52-60 (= Id., Scripta varia. Mélanges d’histoire romaine, de droit, d’épigraphie et d’histoire du christianisme, Rome 1980, 522-530)</bibl>
+                        <bibl>Silvestrini M., Una nuova attestazione del cursus publicus dalla Sicilia tardoantica, in Demougin S., Navarro Caballero M. (eds.), Se déplacer dans l’Empire romain: approches épigraphiques, Bordeaux 2014, 123-133</bibl>
+                        <bibl>Vogler C., Constance II et l’administration impériale, Strasbourg 1979, 127-129</bibl>
+                        <bibl>Wirbelauer E., Fleer C., Totius urbis Augustus: Claudius Mamertinus als praefectus praetorio der Kaiser Julian und Valentinian, in Historische Interpretationen. Gerold Walser zum 75. Geburtstag dargebracht von Freunden, Kollegen und Schülern, Stuttgart 1995, 191-201</bibl>
+                        <bibl>Zanini E., I luoghi di sosta: funzioni, spazi, contesti, Antiquité Tardive, 24, 2016, 81-90</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="7">
+                    <p n="7.2"></p>
+                    <p n="7.6">stationes / mutationes / stations / relay stations of the cursus publicus</p>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">v(ir) c(larissimus)</p>
+                    <p n="8.2">per Italiam et Inlyricum praefecto praetorio</p>
+                    <p n="8.5"></p>
+                    <p n="8.9"></p>
+                    <p n="8.12"></p>
+                    <p n="8.14"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription for the restoration of the Baths of Caracalla supervised by the former praet. prefect C. Ceionius Rufius Volusianus <foreign>signo</foreign> Lampadius</title>
+                <editor role="edition">Eleonora Angius</editor>
+                <editor role="encoding">Eleonora Angius</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="pp. 978-980">37</idno>
+                <date when="2020-03-27"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Lampadius"><name type="praenomen">Caius</name>
+                        <name type="gentilicium">Ceionius Rufius</name>
+                        <name type="cognomen">Volusianus</name>
+                        <name type="signum">Lampadius</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Roma">Capitoline Museum, ground floor, II room on the right</repository>
+                        <idno type="invNo">NCE 2472</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#building">Building inscription</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#stone_slab">slab</objectType>
+                                    <dimensions>
+                                        <height>41</height>
+                                        <width>39.5</width>
+                                        <depth>unknown</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">yes, the present inscription was carved above an earlier, erased, text</rs>
+                                    <rs type="monument_reuse">unknown</rs>
+                                    <rs type="opistographic">yes, originally the statue base (today lost) preserved on its right and left side traces of an earlier incomplete inscription dating to 248 AD</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Three inscribed fields (latus+frons+latus).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#fragmentary">Fragmentary: broken into two contiguous fragments, the epigraphic field is eroded and chipped, but overall readable.</rs>
+                                    <p n="opistographic">Opisthographic: traces of an earlier incomplete dedication were found on the left and right side of the statue base (today lost) to which the slab was joined (CIL VI, 1170b, see also EDR 121815, now lost) dated to 248 AD, that, as Géza Alföldy and Andrea Scheithauer states (CIL VI, p. 4332), was reasonably a continuation of the underlying erased text of the front side.</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#square_capitals">late Roman monumental capitals </term>
+                                <height>2/3</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Roma</placeName>
+                                <placeName type="modern_city">Rome (Italy)</placeName>
+                                <placeName type="province">Urbs</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#public">public space</placeName>
+                            </origPlace>
+                            <origDate period="#p7" when="0365" precision="high">365 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#Roma">Rome</placeName>, found in 1546 during the excavations convened by the Pope Paul III in the Baths of Caracalla</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                    <ab>
+                        <lb n="1"/><supplied reason="lost"><expan><abbr>D</abbr><am>d</am><ex>omini</ex></expan></supplied> <expan><abbr>n</abbr><am>n</am><ex>ostri</ex></expan> Valentinianus 
+                        <lb n="2"/>et Valens Augusti 
+                        <lb n="3"/>ornatui publico 
+                        <lb n="4"/>constitui locarique 
+                        <lb n="5"/>iusserunt, 
+                        <lb n="6"/>administrante Rufio 
+                        <lb n="7"/>Volusiano, <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan>, ex <expan><abbr>praef</abbr><ex>ecto</ex></expan> 
+                        <lb n="8"/><expan><abbr>p<supplied reason="lost">rae</supplied>t</abbr><ex>orio</ex></expan>, <expan><abbr>praef</abbr><ex>ecto</ex></expan> urbi, <expan><abbr>iud</abbr><ex>ice</ex></expan> 
+                        <lb n="9"/>iterum <expan><abbr>sacrar</abbr><ex>um</ex></expan> <expan><abbr>co<unclear>g</unclear><supplied reason="lost">nit</supplied></abbr><supplied reason="lost"><ex>ionum</ex></supplied></expan>.  
+ 
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on EDR 121816.</p>
+                <p>
+                    <app loc="1"><note><expan><abbr>D</abbr><am>d</am><ex>omini</ex></expan> <expan><abbr>n</abbr><am>n</am><ex>ostri</ex></expan>: CIL VI, 1170; Valentin<supplied reason="lost">ianus</supplied>: Ferrua 1975, p. 168</note></app>
+                    <app loc="2"><note><supplied reason="lost">et</supplied>: Ferrua 1975, p. 168; Au<supplied reason="lost">gusti</supplied>: Ferrua 1975, p. 168</note></app>
+                    <app loc="3"><note><supplied reason="lost">or</supplied>natui: Ferrua 1975, p. 168</note></app>
+                    <app loc="4"><note>co<supplied reason="lost">nstitui</supplied> <supplied reason="lost">l</supplied>ocarique: Ferrua 1975, p. 168</note></app>
+                    <app loc="5"><note>iusseru<supplied reason="lost">nt</supplied>: Ferrua 1975, p. 168</note></app>
+                    <app loc="6"><note>Ru<supplied reason="lost">fio</supplied>: Ferrua 1975, p. 168</note></app>
+                    <app loc="7"><note><expan><abbr>pra<supplied reason="lost">ef</supplied></abbr><supplied reason="lost"><ex>ecto</ex></supplied></expan>: Ferrua 1975, p. 168</note></app>
+                    <app loc="8"><note><expan><abbr><supplied reason="lost">prae</supplied>t</abbr><ex>orio</ex></expan>: CIL VI, 1170a; <expan><abbr>iu<supplied reason="lost">d</supplied></abbr><supplied reason="lost"><ex>ice</ex></supplied></expan>: Ferrua 1975, p. 168</note></app>
+                    <app loc="9"><note><supplied reason="lost">i</supplied>terum <expan><abbr>s<supplied reason="lost">acrar</supplied></abbr><supplied reason="lost"><ex>um</ex></supplied></expan>: CIL VI, 1170a; <expan><abbr>cogn<supplied reason="lost">it</supplied></abbr><supplied reason="lost"><ex>ionum</ex></supplied></expan>: Ferrua 1975, p. 168</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“Our masters Valentinian and Valens ordered that (this statue) was placed and set up for the public embellishment under the supervision of Rufius Volusianus, man of clarissimus rank, former praetorian prefect, urban prefect, judge with the faculty to institute sacred trials for the second time”.</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“Nos seigneurs, Valentinien et Valens Augustes, ont ordonné que (cette statue) soit élevée et disposée pour le décor publique, sous le contrôle du clarissime Rufius Volusianus, ancien préfet du prétoire, préfet urbain, juge avec pouvoir d’instituer des procès à la place de l’empereur pour la deuxième fois”.</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“I nostri signori, Valentiniano e Valente Augusti, ordinarono che (questa statua) fosse innalzata e disposta per il pubblico decoro, sotto la supervisione del chiarissimo Rufius Volusianus, ex prefetto del pretorio, prefetto urbano, giudice con la facoltà di istituire processi in vece dell’imperatore per la seconda volta.” </p>
+            </div>
+            <div type="commentary">
+<p>This marble slab, originally joined to a statue base, is broken into two contiguous fragments with a flat listel moulding. Its epigraphic field, rough and irregular, evidently bore an earlier inscription that was erased in order to receive the present text. During the 17th Century the historians and collectors Macquard Gude, Raffaele Fabretti and Francesco Bianchini noted that on the right and left side (the left one appears only in Gude’s manuscript) of the statue base, currently lost, traces of an incomplete dedication dating to 248 AD could be discerned (see CIL VI, 1170b and <ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR121816">EDR 121816</ref>: (righ side) <foreign>[Imp(eratore) M(arco) Iulio Philippo Aug]usto I̅I̅I̅, / [Imp(eratore) M(arco) Iulio Philippo Au]g(usti) f(ilio) iterum co(n)s(ulibus)/ [--- dedica]vit / [---]LET</foreign>; (left side) <foreign>[---]N / ------ / Sex(tus) M[---]/ pri[---])</foreign>. E. Bormann and W. Henzen in CIL VI, 1170, then G. Alföldy and A. Scheithauer (CIL VI, p. 4332) have argued that these excerpts carved on both sides of the base belong to the earlier erased inscription on the front and are a continuation of it.</p>  
+<p>The monument was found in 1546 in the Baths of Caracalla (where other dedications by Volusianus also come: CIL VI, 794; CIL VI, 1171; CIL VI, 1172; CIL VI, 1173a, see <ref type="ppret" corresp="ppret38">PPRET 38</ref>) during some excavations convened by Pope Paul III (Lanciani 1903, pp. 180-181, rist. 1990, p. 197). Later it was moved to the Gregorian chapel of Saint Peter’s in Rome, where Francesco Maria Torrigio and Giovanni Battista Doni recorded it in 1626 (Ferrua 1975, p. 168). Currently, the marble slab, the only part which has survived, is exhibited at the Capitoline Museum.</p>  
+<p>The roughly carved inscription preserves the dedication of a statue to an unknown personage that was moved and re-employed as part of the ornamental restoration of the Baths of Caracalla commissioned by the emperors Valentinianus I and Valens.</p>  
+<p>During the 4th Century the maintenance of crumbling public monuments and spaces was so urgent that it took priority over any new building project (for other restorations, see <ref type="ppret" corresp="ppret30">PPRET 30</ref>, <ref type="ppret" corresp="ppret42">PPRET 42</ref>, <ref type="ppret" corresp="ppret44">PPRET 44</ref>, by Lampadius see <ref type="ppret" corresp="ppret39">PPRET 39</ref>, <ref type="ppret" corresp="ppret41">PPRET 41</ref>, <ref type="ppret" corresp="ppret69">PPRET 69</ref>). Thus Valentinian and Valens did not build their own <foreign>thermae</foreign>, which would have been a colossal undertaking, but instead made their own personal contribution to the Baths of Caracalla on the Aventine, embellishing it with a number of recycled statues. The latter consisted perhaps of honorary portraits lacking the usual inscription or, more likely, ancient works brought from earlier locations and re-erected (Marvin 1983, p. 369).</p> 
+<p>In this context, the spoliation of the architectural and sculptural decorations from older abandoned structures in order to reuse the building material for spaces still in use, became a widespread operation requiring central planning. Indeed, more than one imperial law (<ref type="source">CTh 15, 01, 01</ref>: 357 AD; <ref type="source">CTh 15, 01, 14</ref>: 365 AD; <ref type="source">CTh 15, 01, 19</ref>: 376 AD) reveals concerns over the increasing pillage and condemned the officials who took it upon themselves to move columns or other architectural elements from crumbling buildings or began new building projects without imperial permission (Chastagnol, 1960, p. 347; Thomas 1998; Marano 2020). The aim of such measures was to better control the expenses and prevent embezzlement, particularly with regard to the urban prefects, who were often responsible for urban building projects. All too often the latter were able to exploit the renovation of monuments and spaces, for which the state made funds and materials available, in order to improve their own standing at the expense of the city itself. These works indeed offered to the officials the opportunity to advertise their association with the monuments of the city as a personal instrument of propaganda (Colombo 2008, p. 203, Machado 2019, p. 75).</p> 
+<p>The case of the urban prefect Ceionius Rufius Volusianus <foreign>signo</foreign> Lampadius, under whose supervision the works in the Baths of Caracalla were carried out, is a good example. During his tenure of office in 365 AD (see <ref type="ppret" corresp="ppret36">PPRET 36</ref>) Volusianus handled the highest number of renovations of which records have been kept (see also <ref type="ppret" corresp="ppret39">PPRET 39</ref> and <ref type="ppret" corresp="ppret41">PPRET 41</ref>); even Ammianus remarked upon his intense building activity, albeit disparagingly (<ref type="source">Amm. 27, 03, 07-09</ref>). The historian informs us that his ambitious and incessant yearning to build, earned him the enmity of the plebs, most likely those providing the construction materials, who Volusianus enraged with unpaid requisitions, so much so that he caused an insurrection (<ref type="source">Amm. 27, 03, 07-09</ref>, see <ref type="ppret" corresp="ppret36">PPRET 36</ref>). Indeed, for inscribing his name on buildings not as their restorer but as their founder (<foreign>non ut veterum instaurator sed conditor</foreign>), the urban prefect received the nickname <foreign>herba parientina</foreign> (<ref type="source">Amm. 27, 03, 07</ref>), “parasitic plant” (for a deeper study on this wording cf. Colombo 2008, pp. 201-203, Borft-Drijvers 2009, p. 57). Volusianus certainly could not present himself as <foreign>conditor</foreign>, since he did not erect any new buildings, in adherence to the law of the emperor Valentinian, issued in May 365 AD (<ref type="source">CTh 15, 01, 01</ref>) that expressly forbade it.</p> 
+<p>More likely, as the epigraphic evidence suggests, the urban prefect took full advantage of the prominence that such building activity provided him with, almost as if he really was the founder. Indeed, he intentionally made this the key note of his career (<foreign>ex praefecto praetorio</foreign>) even though it had nothing to do with his role in the building works as <foreign>praefectus urbi</foreign>, exhibiting his own standing in the city even in the context of an imperial dedication, despite the emperor’s attempt to limit investments in public structures (Matthews 1975, p. 22; Machado 2019, pp. 130-131), a fact that can also be observed in the inscription for the restoration of the <foreign>Castellum</foreign> of the Aqua Claudia (<ref type="ppret" corresp="ppret39">PPRET 39</ref>) and for the maintenance of the thirteen bridges at Ostia (<ref type="ppret" corresp="ppret41">PPRET 41</ref>).</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>CIL VI, 1170a</ref> (p. 4332)</bibl>  
+                    <bibl><ref>Ferrua 1975, p. 168</ref> = <bibl><ref>AE 1976, 102</ref></bibl></bibl> 
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p>
+                    <bibl><ref>Gregori G., Mattei M., Panciera S., Alfiero M., Roma (CIL, VI): Musei capitolini, Supplementa Italica, Imagines, Roma 1999, nr. 200</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR121816">EDR 121816</ref></bibl> 
+                    <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD004683">HD 004683</ref></bibl> 
+                    <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail.php?record=1285">LSA 1285</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+<bibl>Boeft J., Drijvers J. W., Hengst D., Teitler H. C., Philological and historical commentary on Ammianus Marcellinus XXVII, Leiden-Boston 2009</bibl>  
+<bibl>Chastagnol A., La préfecture urbaine à Rome sous le Bas-Empire, Paris 1960</bibl> 
+<bibl>Chastagnol A., Les fastes de la préfecture de Rome au Bas-Empire, Paris 1962, 164-169</bibl> 
+<bibl>Colombo M., Annotazioni esegetiche ad Amm. 27, 3, Wiener Studien, 121, 2008, 189-225</bibl>  
+<bibl>Ferrua A., Iscrizioni antiche viste dal Torrigio, RSA, 5, 1975, 168</bibl> 
+<bibl>Gregori G., Mattei M., Panciera S., Alfiero M., Roma (CIL, VI): Musei capitolini, Supplementa Italica, Imagines, Roma 1999, nr. 200</bibl> 
+<bibl>Lanciani R., Storia degli scavi di Roma e notizie intorno le collezioni romane di antichità, II. Gli ultimi anni di Clemente VII e il pontificato di Paolo III (A. 1531-1549), Roma 1903, 180-181</bibl> (rist. Roma 1990, 197) 
+<bibl>Machado C., Urban Space and Aristocratic Power in Late Antique Rome, AD 270-535, Oxford 2019</bibl> 
+<bibl>Marano Y. A., Teoria e pratica del reimpiego in età romana. Fonti scritte ed evidenza archeologica, in La seconda vita delle iscrizioni e molte altre ancora, Alessandria 2020, 107-132</bibl> 
+<bibl>Marvin M., Freestanding Sculptures from the Baths of Caracalla, AJA, 83, 3, 1983, 347-384</bibl> 
+<bibl>Matthews J., Western Aristocracies and Imperial Court A.D. 364-425, Oxford 1975</bibl> 
+<bibl>Thomas Y., Les ornements, la cité, le patrimoine, in Images romaines (Actes de la table ronde, Paris, École normale supérieure 24-26 octobre 1996), Paris 1998, 263-284</bibl> 
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                    <p n="1.4">superintendent of the building works</p>
+                </div>
+                
+                <div type="commentary" n="7">
+                    <p n="7.3">Baths of Caracalla</p>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">v(iro) c(larissimo)</p>
+                    <p n="8.2">ex praef(ecto) praet(orio)</p>
+                    <p n="8.4"></p>
+                    <p n="8.10"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

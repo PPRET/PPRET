@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription relating to building works in Portus made by the praet. prefect and urban prefect Ulpius Limenius</title>
+                <editor role="edition">Pierfrancesco Porena, Irene Vagionakis</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="new">34</idno>
+                <date when="2020-06-23"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Limenius"><name type="gentilicium">Ulpius</name>
+                        <name type="cognomen">Limenius</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#unknown">unknown</repository>
+                        <idno type="invNo"/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#building">building inscription</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">Luni marble</material>
+                                    <objectType ref="#stone_slab">stone slab</objectType>
+                                    <dimensions>
+                                        <height>34.5</height>
+                                        <width>43</width>
+                                        <depth>4.5</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">no</rs>
+                                    <rs type="monument_reuse">yes: reused during the Middle Ages</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#fragmentary">Fragmentary: five fragments.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#unknown">unknown (no images available)</term>
+                                <height>7</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Portus</placeName>
+                                <placeName type="modern_city">Porto (Italy)</placeName>
+                                <placeName type="province">Latium</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#public" cert="low">public space (?)</placeName>
+                            </origPlace>
+                            <origDate period="#p5" notBefore="0347" notAfter="0349">347/349 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#">Porto</placeName>, Paleochristian basilica in the harbour</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                    <ab>
+                        <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                        <lb n="1"/>restau<unclear>r</unclear><supplied reason="lost">a</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/>Ulpio Li<gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="1"/>curante <gap reason="lost" extent="unknown" unit="character"/>.
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on AE.</p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“... restore- ... Ulpius Li- ... took care ...”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“... restaur- ... Ulpius Li- ... a soigné ...”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“... restaur- ... Ulpius Li- ... ha curato ...”</p>
+            </div>
+            <div type="commentary">
+                <p>...</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Nuzzo 2013, pp. 498-499, nr. EP1</ref>, with photo = <bibl><ref>AE 2014, 275</ref></bibl></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Nuzzo D., in Maiorano M., Paroli L. (edd.), La Basilica Portuense. Scavi 1991-2007. II, Borgo San Lorenzo 2013, 493-520</bibl> 
+                </p>
+            </div>
+
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+
+                <div type="commentary" n="7">
+                    <p n="7.3"></p>
+                    <p n="7.4"></p>
+                    <p n="7.5"></p>
+                </div>
+
+                <div type="commentary" n="8">
+                    <p n="8.5"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kiln:root xmlns:i18n="http://apache.org/cocoon/i18n/2.1"
+           xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
+           xmlns:xi="http://www.w3.org/2001/XInclude"
+           xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <kiln:parent>
+    <xi:include href="base.xml" />
+  </kiln:parent>
+
+  <kiln:child>
+    <kiln:block name="title">
+      <i18n:text>PPRET Inscriptions</i18n:text>
+    </kiln:block>
+
+    <kiln:block name="page-header">
+      <div class="row">
+        <div class="small-8 large-centered columns">
+          <p><br/></p>
+        </div>
+        <div class="large-12 columns text-center" id="banner">
+          <span class="box"><a href="{kiln:url-for-match('local-epidoc-index-display', ($language), 0)}"><img class="imagebox" src="{$kiln:assets-path}/images/CIL_XIII_001807_.jpg" alt="CIL XIII 001807. Arnaud Fafournoux / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0). https://commons.wikimedia.org/wiki/File:CIL_XIII_001807_(1).jpg" style="width:100%" /><span class="textbox">
+          <h3 class="site_name_subheading">Projet<br/>Les Préfets du Prétoire de l’Empire Tardif</h3>
+          <br/><br/><br/>
+          <h1 id="site_name"><i18n:text i18n:key="home-title">PPRET INSCRIPTIONS</i18n:text></h1>
+          <h3 class="site_name_subheading"><i18n:text i18n:key="description">A Collection of Inscriptions Pertaining to the Praetorian Prefects from 284 to 395 AD</i18n:text></h3>
+            </span></a></span>
+        </div>
+      </div>
+    </kiln:block>
+
+    <kiln:block name="content-section">
+      <main>
+        <div class="row">
+          <div class="small-8 large-centered columns">
+            <p><br/><br/></p>
+          </div>
+        </div>
+      </main>
+    </kiln:block>
+  </kiln:child>
+</kiln:root>

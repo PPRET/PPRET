@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription in honour of Honorius Caesar from Aphrodisias by Tatianus praet. prefect </title>
+                <editor role="edition">Giordana Franceschini</editor>
+                <editor role="encoding">Giordana Franceschini</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="p.876">82</idno>
+                <date when="2020-03-27"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Tatianus"><name type="praenomen">Flavius</name>
+                            <name type="gentilicium">Eutolmius</name>
+                            <name type="cognomen">Tatianus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Aphrodisias">Aphrodisias, Hadrianic baths, North-Eastern corner of the East forecourt colonnade</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription to the emperor Honorius</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="grc">Greek</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">white marble</material>
+                                    <objectType ref="#column_base">column base</objectType>
+                                    <dimensions>
+                                        <height>131</height>
+                                        <dim type="diameter">59</dim>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">no</rs>
+                                    <rs type="monument_reuse">unknown</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>The text is inscribed on the face. Letters are clear and irregular.</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#undamaged">The inscription is complete, but most of lines 5 and 6 of the inscription have been deliberately erased. The upper edge of the column is broken.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#lunate">lunate letters with serifs</term>
+                                <height>3 / 6.5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Aphrodisias</placeName>
+                                <placeName type="modern_city">Geyre (Turkey)</placeName>
+                                <placeName type="province">Caria</placeName>
+                                <placeName type="diocese">Asiana</placeName>
+                                <placeName type="prefecture">Oriens</placeName>
+                                <placeName type="ancient_location" ref="#public">Public building</placeName>
+                            </origPlace>
+                            <origDate period="#p8" notBefore="0388" notAfter="0392">388/392 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#">Aphrodisias</placeName>, Hadrianic baths (“Les Thermes”), North side of the East forecourt</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                    <ab>
+                        <lb n="1"/>τὸν ἐκ τῆς θείας γονῆς
+                        <lb n="2"/>θεοφιλέστατον
+                        <lb n="3"/>Φλ(άουιον) Ὁνώριον
+                        <lb n="4"/>τὸν ἐπιφανέστατον <g ref="hedera"/>
+                        <lb n="5"/><del rend="erasure"><supplied reason="lost"><expan><abbr><unclear>Φλ</unclear></abbr><ex>άουιος</ex></expan> <unclear>Εὐτόλμι</unclear><supplied reason="lost">ο</supplied><unclear>ς</unclear> <supplied reason="lost">Τ</supplied><unclear>α</unclear>τ<unclear>ι</unclear><supplied reason="lost">α</supplied><unclear>νὸς</unclear> <supplied reason="lost">ὁ λ</supplied><unclear>αμ</unclear><supplied reason="lost">πρότα</supplied>τος</supplied></del>
+                        <lb n="6"/><del rend="erasure"><supplied reason="lost"><unclear>ἔπαρχ</unclear><supplied reason="lost">ο</supplied><unclear>ς</unclear> <supplied reason="lost">τοῦ ἱεροῦ π</supplied><unclear>ρα</unclear><supplied reason="lost">ιτ</supplied><unclear>ωρ</unclear><supplied reason="lost">ί</supplied>ου</supplied></del>
+                        <lb n="7"/>τῇ συνήθει καθοσιώσει
+                        <lb n="8"/>ἀφιέρωσεν
+                        <lb n="9"/><space quantity="1" unit="line"/>
+                        <lb n="10"/>ἐπὶ Ἀντωνίου Πρίσκου τοῦ <expan><abbr>λαμπρ</abbr><ex>οτάτου</ex></expan> ἡγεμόνος.
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>This edition follows the text edited by Roueché 1989, nr. 25.</p>
+            <p>
+                    <app loc="5"><note>Reinach read nothing; Robert 1948 read Φλ Εὐτόλμιος Τατια<gap reason="lost" quantity="3" unit="character"/></note></app>
+                    <app loc="6"><note>Reinach read nothing</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“A Flavius Honorius, progenie imperiale (= porfirogenito), carissimo a Dio, nobilissimo (fanciullo), Flavius Eutolmius Tatianus, chiarissimo prefetto del sacro pretorio consacrò (la statua) con la consueta devozione, mentre era chiarissimo governatore Antonius Priscus.”</p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“To Flavius Honorius, of divine descent, most dear to God, the most noble, Flavius Eutolmius Tatianus, prefect of the sacred praetorium man of clarissimus rank, dedicated (this statue) with the customary devotion, in the time of Antonius Priscus, the governor, man of clarissimus rank.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“À Flavius Honorius, progéniture impériale (= porphyrogenitus), très cher à Dieu, très noble (enfant), Flavius Eutolmius Tatianus, le clarissime préfet du sacré prétoire, a consacré (la statue) avec la dévotion habituelle, alors qu’il était gouverneur clarissime Antonius Priscus.”</p>
+            </div>
+            <div type="commentary">
+                <p>The column base was found at Aphrodisias in 1904 by Paul Gaudin in the northern side of the east forecourt of the Hadrianic Bath. It is currently located on the south side of the northern pedestals in the north-eastern corner of the forecourt. The upper edge of the inscribed monument has been cut off and, on the left upper edge, there are traces left by a clamp probably when the inscribed monument was reused.</p>
+                <p>The honorary inscription for the emperor Honorius was one of a group of statues honouring the members of Theodosian imperial family at Aphrodisias (see also <ref type="ppret" corresp="ppret83">PPRET 83</ref>, Arcadius, <ref type="ppret" corresp="ppret84">84</ref>, Valentinianus II; other statues were erected by Tatianus honouring the whole imperial college at Side, <ref type="ppret" corresp="ppret85">85</ref>, and at Antinoupolis, <ref type="ppret" corresp="ppret86">86</ref>).</p> 
+                <p>Most of lines 5 and 6 of the inscription have been erased but can be restored. The legibility of some of the erased letters, together with comparison between this inscription and similar honours awarded to Flavius Eutolmius Tatianus, allow us to restore the text.</p> 
+                <p>Flavius Eutolmius Tatianus (see PLRE I Tatianus 5) was a notable pagan. He was made praetorian prefect in the East in 388 AD and fell from power in 392 AD. 
+                    After suffering <foreign>damnatio memoriae</foreign> he was banished to Lycia. He was rehabilitated posthumously by a descendant in Aphrodisias (<ref type="ppret" corresp="ppret91">PPRET 91</ref>). His whole career is recorded in ascending order of importance from <foreign>praeses</foreign> (ἡγεμών) to <foreign>praefectus</foreign> (ἔπαρχος) in the inscription from Sidyma (see <ref type="ppret" corresp="ppret87">PPRET 87</ref>).</p>
+                <p>Antonius Priscus, governor of the Caria (PLRE I, p. 730), is known only by the series of the three inscriptions dedicated by Tatianus at Aphrodisias (<ref type="ppret" corresp="ppret82">PPRET 82</ref>-<ref type="ppret" corresp="ppret84">84</ref>). In the inscription in honour of Honorius Caesar his name is preserved, but in the two inscriptions in honour of Arcadius and Valentiniaus II his name has been erased. Priscus was probably a client of the powerful praetorian prefect. Tatianus ordered the governor of the province to follow the realization of the monuments.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Reinach 1906, 111, nr. 31</ref> = <bibl><ref>AE 1907, 32</ref></bibl></bibl>
+                    <bibl><ref>Grégoire 1922, nr. 281</ref></bibl>
+                    <bibl><ref>Grégoire 1923, 151-154</ref> = <bibl><ref>SEG 4 (1929), 398</ref></bibl></bibl>
+                    <bibl><ref>Grégoire 1927-1928, 342</ref></bibl>
+                    <bibl><ref>Robert 1948, 49-50 </ref> = <bibl><ref>BE 1949, 178 </ref></bibl></bibl>
+                    <bibl><ref>Roueché 1989, nr. 25</ref> = <bibl><ref>SEG 39 (1989), 1099</ref></bibl></bibl>
+                    <bibl><ref>McCabe, Aphrodisias, nr. 660</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail.php?record=167">LSA 167</ref></bibl>
+                    <bibl><ref corresp="http://insaph.kcl.ac.uk/ala2004/inscription/eAla025.html">ALA 25</ref></bibl>
+                    <bibl><ref corresp="https://inscriptions.packhum.org/text/257543">PH 257543</ref></bibl>
+                    <bibl><ref corresp="http://insaph.kcl.ac.uk/iaph2007/iAph040010.html">IAph 4. 10</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Barnes T.D., The victims of Rufinus, CQ 34, 1984, 227-230</bibl>
+                    <bibl>Collignon M., Notes sur les fouilles executées à Aphrodisias par M. Paul Gaudin, CRAI 1904, 703-711</bibl>
+                    <bibl>Cuvigny H., Τρισαυγούστιον et φραγέλλιον. Contrôle de qualité et mesurage du grain fiscal au IVe s. apr. J.-C. à la lumière de P.Mich. XX 800 et de l’inscription tardive du grenier d’Andriakè, Chiron 47, 2017, 95-114</bibl>
+                    <bibl>Errington R., A note on the Augustal Prefect of Egypt, Tyche 17, 2002, 69-77</bibl>
+                    <bibl>Grégoire H., Miettes d’histoire byzantine (IVe-VIe siècle), Anatolian Studies presented to Sir William Mitchell Ramsay, Manchester-London-New York, 1923, 151-164</bibl>
+                    <bibl>Grégoire H., Quand est né l’empereur Théodose II ?, Byzantion 4, 1927-1928, 337-348</bibl>
+                    <bibl>Livrea E., I due Taziani in un’iscrizione di Afrodisia, ZPE 119, 1997, 43-49</bibl>
+                    <bibl>Manganaro G., Due note tardoantiche, ZPE 94, 1992, 283-294</bibl>
+                    <bibl>Mecella M., L’amministrazione di Taziano e Proculo e il destino dei Lici tra Teodosio e Arcadio, in Governare e riformare l’impero al momento della sua divisione: Oriente, Occidente, Illirico Roma, 2015</bibl>
+                    <bibl>Pellizzari A., «Salvare le città»: lessico e ideologia nell’opera di Libanio, Κοινωνία 35, 2011, 45-61</bibl>
+                    <bibl>Petit P., Les fonctionnaires dans l’œuvre de Libanius. Analyse prosopographique, Besançon 1994</bibl>
+                    <bibl>Robert L., Hellenica. Recueil d’épigraphie, de numismatique et d’antiquités grecques, IV, Epigrammes du Bas-Empire, Paris 1948</bibl>
+                    <bibl>Scharf R., Die Familie des Fl. Eutolmius Tatianus, ZPE 85, 1991, 223-231</bibl>
+                    <bibl>Woods D., Tatianus and the Basilica of Menas, Byzantion 65, 1995, 467-474</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                    </div>
+                 
+                <div type="commentary" n="7">
+                    <p n="7.2"></p>
+                    <p n="7.y"></p>
+                </div>
+                
+                   <div type="commentary" n="8">
+                    <p n="8.1">λαμπρότατος</p>
+                    <p n="8.2">ὁ λαμπρότατος ἔπαρχος τοῦ ἱεροῦ πραιτωρίου</p>
+                    <p n="8.5"></p>
+                    <p n="8.9"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

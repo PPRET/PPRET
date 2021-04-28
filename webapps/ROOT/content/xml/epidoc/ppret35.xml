@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription in honour of the praet. prefect Hermogenes (?), from Aire, by the Batanaea</title>
+                <editor role="edition">Pierfrancesco Porena, Irene Vagionakis</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="new">35</idno>
+                <date when="2020-06-23"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Hermogenes" cert="low"><name type="cognomen">Hermogenes</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Sanamein">in the garden of a house near the Tycheion of Al-Sanamein</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect Hermogenes (?)</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="grc">Greek</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#limestone">limestone</material>
+                                    <objectType ref="#base">statue base</objectType>
+                                    <dimensions>
+                                        <height>29</height>
+                                        <width>95</width>
+                                        <depth>92</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">yes</rs>
+                                    <rs type="monument_reuse">no</rs>
+                                    <rs type="opistographic">yes</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons); the back and left faces bear a different inscription.</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#damaged">The first line of the inscription is ruined.</rs>
+                                    <p n="opistographic">Two other faces of the base bear a previous inscription, the dedication IGLS XIV, 556a.</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <height>3.5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Aire</placeName>
+                                <placeName type="modern_city">Al-Sanamein (Syria)</placeName>
+                                <placeName type="province">Phoenicia Libanensis</placeName>
+                                <placeName type="diocese">Oriens</placeName>
+                                <placeName type="prefecture">Oriens</placeName>
+                                <placeName type="ancient_location" ref="#public" cert="low">public space (?)</placeName>
+                            </origPlace>
+                            <origDate period="#p5" notBefore="0358" notAfter="0360">358/360 AD</origDate>
+                        </origin>
+                        <provenance type="found">found in 1997 in the road to the west of the Tycheion of <placeName ref="#">Al-Sanamein</placeName></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                    <ab>
+                        <lb n="1"/><unclear>Τ</unclear>ὸν λ<supplied reason="lost">α</supplied><unclear>μ</unclear>πρό<unclear>τ</unclear>α<unclear>τ</unclear>ο<supplied reason="lost">ν</supplied> <gap reason="lost" extent="unknown" unit="character"/><unclear>ω</unclear>ι
+                        <lb n="2"/>τὸν τοῦ ἱεροῦ <sic>πρετωρίου</sic> ἔπαρχον τοῦ δεσποτοῦ ἡμῶν
+                        <lb n="3"/>Κωνσταντίου τοῦ Αὐγούστου καὶ Νικήτου καὶ τοῦ ἐπι<lb 
+                            break="no" n="4"/>φανεστάτου Καίσαρος Ἰουλιανοῦ διʹ οὗ <sic>ἰρήνη</sic> καὶ ἀμεριμνία
+                        <lb n="5"/>ὕπηρξεν ἡ Βατανέα τὸν εὐεργετὴν καὶ σωτήρα ἀνέστησεν,
+                        <lb n="6"/>ἐπὶ <expan><abbr>Φλ</abbr><ex>αουίου</ex></expan> Μαξίμου τοῦ διασημοτάτου δουκηναρίου τοῦ σάλτου.
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on IGLS.</p>
+                <p>
+                    <app loc="2"><note>πραιτωρίου</note></app>
+                    <app loc="4"><note>ἐιρήνη</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“Of clarissimus rank, ..., the prefect of the sacred praetorium of our master Constantius Augustus and Conqueror and of the most illustrious Caesar Julian, thanks to whom the peace and the security have existed, the Batanaea has erected (the statue of) the benefactor and saviour, under Flavius Maximus, the most eminent ducenarius of the saltus.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“Le clarissime ... préfet du prétoire sacré de notre seigneur Constance Auguste et Vainqueur et du très illustre César Julien, par lequel paix et sérénité ont existé, la Batanée a érigé (la statue de) le bienfaiteur et sauveur, sous Flavius Maximus, le très éminent ducénaire du saltus.”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“Il chiarissimo ..., prefetto del sacro pretorio di nostro signore Costanzo Augusto e Conquistatore e dell’illustrissimo Cesare Giuliano, grazie al quale la pace e la sicurezza sono esistite, la Batanea ha eretto (la statua del) benefattore e salvatore, sotto Flavius Maximus, l’eminentissimo ducenario del <foreign>saltus</foreign>.”</p>
+            </div>
+            <div type="commentary">
+                <p>...</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>IGLS XIV, 555a</ref>, with photo</bibl>
+                    <bibl><ref>Sartre 1999, pp. 219-221</ref>, with photo = <bibl><ref>AE 1999, 1699</ref></bibl> = <bibl><ref>SEG 49 (1999), 2105</ref></bibl> = <bibl><ref>BE 2001, 507</ref></bibl></bibl>
+                    <bibl><ref>Sartre in Yon, Gatier 2009, pp. 102‐105, nr. 23</ref></bibl> 
+                    <bibl>Sartre 2014, pp. 277‐278</bibl> 
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Sartre M., Les metrokomiai de Syrie du Sud, Syria, 76, 1999, 197-222</bibl>
+                    <bibl>Sartre M., L’historien et ses territoires. Choix d’articles, textes réunis par P. Brun, Bordeaux 2014, 277‐278</bibl> 
+                    <bibl>Yon J.-B., Gatier P.-L. (éds.), Choix d’inscriptions grecques et latines de la Syrie, Amman - Beyrouth - Damas - Alep 2009, 102-105, nr. 23</bibl> 
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.a"></p>
+                    <p n="2.1"></p>
+                    <p n="2.9">διʹ οὗ ἰρήνη καὶ ἀμεριμνία ὕπηρξεν (?)</p>
+                    <p n="2.10">εὐεργετὴν καὶ σωτήρα</p>
+                    <list n="2.11">
+                        <item n="2.11.b"></item>
+                        <item n="2.11.c"></item>
+                        <item n="2.11.d"></item>
+                    </list>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">λ[α]μ̣πρότ̣ατ̣ο[ν]</p>
+                    <p n="8.2">τὸν τοῦ ἱεροῦ πρετωρίου ἔπαρχον</p>
+                    <p n="8.5"></p>
+                    <p n="8.9"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

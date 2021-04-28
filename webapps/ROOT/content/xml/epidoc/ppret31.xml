@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Speech of Constantius II Aug. to the Senate of Constantinople instructing them to erect a series of statues in honour of the praet. prefect Flavius Philippus</title>
+                <editor role="edition">Eleonora Angius</editor>
+                <editor role="encoding">Eleonora Angius</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="new">31</idno>
+                <date when="2020-03-27"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Philippus"><name type="gentilicium">Flavius</name>
+                            <name type="cognomen">Philippus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#unknown">unknown</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#normative">Legislative inscription (<foreign>Oratio ad Senatum Constantinopolitanum</foreign>)</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#base">two pillar's bases</objectType>
+                                    <dimensions>
+                                        <height>unknown</height>
+                                        <width>unknown</width>
+                                        <depth>unknown</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">unknown</rs>
+                                    <rs type="monument_reuse">unknown</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Two inscribed fields (frons+frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#damaged">Damaged.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#unknown">unknown (no images available)</term>
+                                <height>unknown</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Perge</placeName>
+                                <placeName type="modern_city">Antalya (Turkey)</placeName>
+                                <placeName type="province">Pamphylia</placeName>
+                                <placeName type="diocese">Asiana</placeName>
+                                <placeName type="prefecture">Oriens</placeName>
+                                <placeName type="ancient_location" ref="#public">public space</placeName>
+                            </origPlace>
+                            <origDate period="#p5" notBefore="0351" notAfter="0352">351/352 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#">Unknown</placeName></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                <ab>
+                    <lb n="1"/>Ob ha<supplied reason="lost">s igitur</supplied>
+                    <lb n="2"/><supplied reason="lost">causas, patres con</supplied><sic>scribti</sic>, quae aeternae memoriae mandanda sunt memorabili s<supplied reason="lost">tudio ce</supplied><lb
+                        break="no" n="3"/><supplied reason="lost">lebrantes tam proba</supplied>tam fidem inauratae statuae praemiis muneramur quam cele<supplied reason="lost">berrimis</supplied> 
+                    <lb n="4"/><supplied reason="lost">locis illi dedica</supplied>ndam constituendamque decernimus uti eius nomen inscribt<supplied reason="lost"><sic>um</sic> monu</supplied><lb
+                        break="no" n="5"/><supplied reason="lost">mentis non minus qu</supplied>am ipsiu<supplied reason="lost">s for</supplied>ma dignationis nostrae gratum favorem vestri<supplied reason="lost">ique</supplied>
+                    <lb n="6"/><supplied reason="lost">amplissimi coetus</supplied> inlustre st<supplied reason="lost">ud</supplied>ium perenni commemoratione designet, ut h<supplied reason="lost">ac pri</supplied><lb
+                        break="no" n="7"/><supplied reason="lost">mum in urbe dignis</supplied> virtutis praemiis donatus merito iudicetur in qua familiae suae fundata <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">a</supplied>dfectu nostri nominis consecravit. Et quia non minus eius laboribus o<supplied reason="lost">mni</supplied><lb 
+                        break="no" n="9"/><supplied reason="lost">um fere civitatum</supplied> commodis <expan><abbr>populisq</abbr><ex>ue</ex></expan> prospectum <expan><abbr>e</abbr><ex>st</ex></expan> quam patriae nominis nostri, in singu<supplied reason="lost">ulis ur</supplied><lb 
+                            break="no" n="10"/><supplied reason="lost">bibus</supplied><gap reason="lost" extent="unknown" unit="character"/>nsui cura <expan><abbr>obsequioq</abbr><ex>ue</ex></expan> rectorum statuas mirabili viro erigi a<gap reason="lost" extent="unknown" unit="character"/> 
+                    <lb n="11"/><supplied reason="lost">placuit, ut huius</supplied> effigies omnium semper oculis occurrat cuius devota officia cunctoru<supplied reason="lost">m</supplied>
+                    <lb n="12"/><supplied reason="lost">semper mentibus</supplied> <sic>revolbuntur</sic>.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>The text is not yet edited. Thanks to the generous permission of Denis Feissel, who is working upon it, this excerpt is published by Moser 2018, p. 190.</p>
+                <p>
+                <app loc="2-3"><note>(maybe): s<supplied reason="lost">igno ce/lebramus atque proba</supplied>tam</note></app>
+                <app loc="7-8"><note>(maybe): in qua, familiae suae fundata <supplied reason="lost">domu,</supplied> <gap reason="lost" extent="unknown" unit="character"/>/<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Laribus suis sedem</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">a</supplied>dfectu nostri nominis consecravit</note></app>
+                <app loc="10"><note>(maybe): <supplied reason="lost">bibus</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">nome</supplied>n sui</note></app>
+                    </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>by Moser 2018, p. 190</p>
+                <p>“It is hence for these reasons, Conscript Fathers, namely honouring with a memorable marker that which is necessary to be celebrated in eternal memory, we recompense his proven fidelity with the reward of gilded statues, which we order to be dedicated and erected to him in the most prominent locations, so that his name inscribed on the monuments will not least by its representation reveal in eternal commemoration the thankful grace of our esteem and of the illustrious attention of your very distinguished assembly, so that it will be judged that he has deserved the worthy rewards of his virtues he received first in the city in which he has consecrated the seat of his family on account of his attachment to our name. And because through his labours he has cared for almost all the cities and people no less than he cared for the home city that carries our name, we rule that in all cities [- - -] statues are to be erected through the care and attention of the governors to this admirable individual [- - -] and we order that the images of him whose loyal services are always brought back to the memory of all men present themselves always to everyone’s eyes.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“C'est pourquoi, pères conscrits, célébrons les choses qui doivent être confiées à la mémoire éternelle par une œuvre mémorable, et récompensons la fidélité prouvée par la remise d'une statue en or, que nous ordonnons de lui dédier et de construire dans les lieux les plus célèbres, afin que son nom, gravé sur les monuments, tout comme sa représentation, révèle par une commémoration qui dépasse le temps la gratitude de notre estime et l'illustre zèle de votre très noble assemblée, afin que, comme on le croit à juste titre, il soit accordé les dignes récompenses de sa vertu d'abord dans cette ville où, ayant établi le siège de sa famille [- - -] il a consacré par affection à notre nom. Et puisque par son travail il a veillé aux intérêts et aux habitants de presque toutes les villes, pas moins que la ville qui porte notre nom, nous établissons que dans toutes les villes [- - -] des statues soient élevées, par le soin et l'obéissance des gouverneurs, à cet individu admirable [- - -] afin que l'image de cet homme, dont les services fidèles seront toujours rappelés dans l'esprit de tous, soit toujours présente aux yeux de chaque personne.”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“Dunque per questi motivi, padri coscritti, celebriamo le cose che devono essere affidate a eterna memoria con un’opera memorabile, e ripaghiamo la fedeltà provata con la ricompensa di una statua dorata, che ordiniamo debba essere a lui dedicata e costruita nei luoghi più celebri, in modo che il suo nome inciso sui monumenti, non meno della sua rappresentazione, riveli attraverso una commemorazione che vince il tempo la gratitudine della nostra stima e l’illustre zelo della nobilissima assemblea vostra, affinché come è giusto si ritenga che gli siano state concesse le degne ricompense della sua virtù prima in questa città in cui, fissata la sede della sua famiglia [- - -] consacrò per l’affetto verso il nostro nome. E poiché attraverso le sue fatiche ha avuto cura degli interessi e degli abitanti di quasi tutte le città non meno della città che porta il nostro nome, stabiliamo che in tutte le città [- - -] siano innalzate, per mezzo della cura e dell’obbedienza dei governatori, statue a questo ammirevole individuo [- - -] affinché l’immagine di quest’uomo, i cui fedeli servizi saranno sempre rievocati nelle menti di tutti, si presenti sempre agli occhi di ognuno.”</p>
+            </div>
+            <div type="commentary">
+                <p>This abstract is part of a lenghty and fragmentary Latin inscription from Perge bearing a copy of an imperial communication (<foreign>Oratio ad Senatum</foreign>), written by Constantius II himself and issued to the Senate of Constantinople. There is no edition of this text and until Denis Feissel finishes it, we can only provide the abstract that was kindly furnished by Feissel himself and that was published in the monography of Muriel Moser (2018, p. 190). Since this inscription of Philippus is probably the most important and complete in our possession, we deemed it pertinent to reproduce that part of it that has been published.</p>  
+                <p>Thanks to the unpublished image provided by prof. Denis Feissel, we can see that the text was carved on two separate rectangular bases, beginning on the left hand base and continuing onto the right. According to Şahin (2015, pp. 178-179), between the two rectangular bases was a statue base to which it was originally attached the slab bearing the smaller Greek inscription (see <ref type="ppret" corresp="ppret29">PPRET 29</ref>) in honour of Flavius Philippus by the council of Perge. Together they formed a bilingual monument, that is to say, two flanking Latin inscriptions, preserving the Emperor’s speech (disseminated in the provinces) in reply to which this monument in Perge was made, and the Greek central inscription made by the local administration, on whose top the statue of Philippus stood. It is clear that this document was part of the dossier accompanying the dedication and statue of Philippus: presumably a copy of it was sent to the provinces in the East to be carved on or near each statue of the prefect.</p>  
+                <p>Because of erosion, only fifty lines of the text survive, so it was longer than it actually appears. In the ten lines presented here, which in all likelihood represents the last part of the document containing the invocation to the addressee and the imperial orders, Constantius explicitly requested to grant a series of statues in the most prestigious places (<foreign>quam celeberrimis locis</foreign>) in order to preserve the memory of Flavius Philippus and of his exemplary service (for his career see <ref type="ppret" corresp="ppret27">PPRET 27</ref>), in the same way that other inscriptions did (<ref type="ppret" corresp="ppret27">PPRET 27</ref>; <ref type="ppret" corresp="ppret28">PPRET 28</ref>; <ref type="ppret" corresp="ppret29">PPRET 29</ref>; <ref type="ppret" corresp="ppret30">PPRET 30</ref>).</p>  
+                <p>It seems probable that the order to make golden statues for Philippus in all the eastern cities is preserved in the letter to Marinus that was chiselled on the slab in Ephesus (<ref type="ppret" corresp="ppret28">PPRET 28</ref>). 
+                    But it is also possible that the epistle to Marinus concerns the statues dedicated by Constantius II (and Gallus Caesar) – as at Chytri (<ref type="ppret" corresp="ppret27">PPRET 27</ref>) – and that the <foreign>Oratio ad Senatum</foreign> concerns the statues dedicated in Constantinople by the senate and in the eastern cities by the individual cities. In the letter of Ephesus (<ref type="ppret" corresp="ppret28">PPRET 28</ref>) the emperor instructs Marinus to make golden statues for Philippus in the richest cities (in the provincial area of his jurisdiction).</p>  
+                <p>The letter does not specify who the dedicator of those statues is, whether it was the emperor or the individual cities. It seems therefore that the emperor Constantius II took (at least) two simultaneous but separate decisions, both aimed at having golden statues made in the cities of the East. Firstly, a series of gilded statues to Philippus was commissioned and financed directly by Constantius II (with Gallus) to be made probably by the provincial governors and at the expense of Augustus (<ref type="ppret" corresp="ppret27">PPRET 27</ref> Chytri), which may be linked to the letter of Ephesus (<ref type="ppret" corresp="ppret28">PPRET 28</ref>) if the commissioner of the statues was the emperor.
+                    Secondly, a series of gilded statues to Philippus was decreed by Constantius II and made directly by the senate of Constantinople and by the the cities, probably at the expense of the civic coffers, as seems to be deduced from the <foreign>Oratio ad Senatum</foreign> and from the Greek inscription from Perge, both dedicated to the senator on behalf of the individual cities (<ref type="ppret" corresp="ppret29">PPRET 29</ref> and this present one).</p> 
+                <p>New important information contained within the unpublished imperial speech from Perge allows us to securely date the entire epigraphic dossier of Philippus to the immediate aftermath of the battle of Mursa (September 28<hi rend="superscript">th</hi> 351 AD).
+                    This previously unpublished part represents a panegyric of Philippus similar to that found in the letter of Ephesus (<ref type="ppret" corresp="ppret28">PPRET 28</ref>), but, it is much more detailed. In effect, Constantius places the beginning of the senator’s career under Constantine I as <foreign>curator palatii</foreign> in the service of Constantius Caesar.
+                    It also cites his role during the succession of Constantine in 337 AD, thus praising his service and loyalty in the face of the <foreign>hostis publicus</foreign> Magnentius (Feissel 2016, p. 1124). Feissel confirms that the risks Philippus incurred (mentioned in the letter of Ephesus, <foreign>si nobis serviret periculis suis</foreign>, <ref type="ppret" corresp="ppret28">PPRET 28</ref> l. 12) are related to his corageous role in the Illyrian war against the usurper and to his embassy at the camp of Magnentius (<ref type="source">Zos. 02, 46-47</ref>), that was “plus glorieux pour le préfet que ne donnaient à croire les sources littéraires” (Feissel 2007, p. 149). 
+                    It was because of this that Constantius II decreed the exceptional privilege of a series of gilded statues in honour of his praetorian prefect. The epigraphic evidence thus reveals that these monuments were never, in fact, intended to restore Philippus’ reputation. Nor do they imply that he suffered any misfortune, as Athanasius (<ref type="source">Athan., Hist. Ar. 07</ref>) suggests, reporting that Philippus was deposed and died far from his country after having exiled and killed Paul the Bishop of Constantinople, facts that occurred respectively in 350 and 351 AD (see <ref type="ppret" corresp="ppret27">PPRET 27</ref>).</p>  
+                <p>Going back to the text, Constantius II claimed that the city where the Senate (<foreign>patres conscribti</foreign>) resided had to be the first city to receive a statue for Philippus (<foreign>ut hac primum in urbe dignis virtutis praemiis donatus merito iudicetur in qua familiae suae fundata</foreign>). This city must be Constantinople, <foreign>patriae nominis nostri</foreign>, since the <foreign>oratio</foreign> was composed at a time (351/352 AD, see above) when Constantius II had no authority over Rome (there were only two senates) or the western provinces, because after his usurpation Magnentius barred Constantius from access to Rome and its senate (Moser 2018, pp. 189-191). 
+                    Indeed, all the epigraphic evidence concerning Philippus belongs to the eastern provinces and it is concievable that Constantinople, capital of the East and seat of the Senate, was to be the first city to recieve a gilded monument in honour of Philippus.</p>  
+                <p>The creation of the Senate of Constantinople is attributed by many literary sources to Constantine (<ref type="source">Origo Const. 06, 30</ref>; <ref type="source">Philost. 02, 09</ref>; <ref type="source">Soz. 02, 03, 06</ref>; <ref type="source">Soz. 03, 34, 04</ref>) but Dagron (1991, pp. 118-122) assumed that it was still similar to a local <foreign>curia</foreign> formed by the <foreign>clarissimi</foreign> who followed the emperor in the East. 
+                    Only Constantius II gradually transformed this pre-existing organism into a Senate comparable to that of Rome (see Heather 1994; Skinner 2008). Feissel (2016, p. 1124) and Moser (2018, pp. 189-191) stated that this letter is the oldest attestation of the Constantinopolitan Senate (351/352 AD), preceding by few years the other <foreign>Oratio ad Senatum</foreign> of Constantius II, concerning the <foreign>adlectio</foreign> of the <foreign>rhetor</foreign> Themistius in 355 AD (<foreign>Constantii oratio pro Themistii adlectione</foreign>, on September 1st 355 AD, Maisano 1995, pp. 155-167).</p> 
+                <p>Finally, the document provides another piece of important information: Philippus established his residence with his family at Constantinople on account of his loyalty to the name of the emperor (<foreign>adfectu nostri nominis</foreign>). 
+                    According to Moser (2018, pp. 195-196) his relocation is not related to his seat of office, but came as a result of Philippus becoming a member of the eastern senate in order to support Constantius and his policy. His presence at the senate is also attested by Libanius (<ref type="source">Lib., Or., 42, 24-25</ref>), who listed the lower class members of the Senate and among them Philippus, the son of a sausage-maker (Rendina 2020, pp. 45-48, for the origins of the prefect, see <ref type="ppret" corresp="ppret27">PPRET 27</ref>).</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Moser 2018, p. 190</ref></bibl>
+                </p>
+            </div>
+            
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Dagron G., Costantinopoli: nascita di una capitale (330-451), Torino 1991, 118-122 [trad.: Naissance d’une capitale. Constantinople et ses institutions de 330 à 451, Paris 1974]</bibl> 
+                    <bibl>Feissel D., Sources documentaires et histoire administrative de l'Orient romain tardif, IVe-VIIe siècles, École pratique des hautes études. Section des sciences historiques et philologiques, Livret-Annuaire 21 (2005-2006), 2007, 149-151</bibl>  
+                    <bibl>Feissel D., Les actes de l’État impérial dans l’épigraphie tardive (324-610): prolégomènes à un inventaire, in Selbstdarstellung und Kommunikation. Die Veröffentlichung staatlicher Urkunden auf Stein und Bronze in der Römischen Welt, ed. R. Haensch, München 2009, 123 nr. 60 (97-128) (then Documents, droits, diplomatique de l’empire romain tardif, Paris 2010, 66, nr. 60)</bibl>
+                    <bibl>Feissel D., L'épigraphie d'Orient, témoin des mutations de l'empire constantinien, Acta XVI congressus internationalis archaeologiae christianae, Romae 22-28.9.2013, II, Città del Vaticano 2016, 1224-1225</bibl> 
+                    <bibl>Heather P., New Men for New Constantines? Creating an imperial elite in the eastern Mediterranean, in New Constantines. The Rhythm of Imperial Renewal in Byzantium, 4th-13th Centuries, ed. P. Magdalino, Aldershot 1994, 11-33</bibl> 
+                    <bibl>Maisano R., Discorsi, Torino 1995, 155-167</bibl> 
+                    <bibl>Moser M., Emperor and senators in the reign of Constantius II. Maintaining imperial rule between Rome and Constantinople in the fourth Century AD, Cambridge 2018, 189-207</bibl> 
+                    <bibl>Rendina S., L'inarrestabile ascesa di una famiglia orientale, in Procopio Antemio imperatore di Roma, ed. F. Oppedisano, Bari 2020, 45-71</bibl> 
+                    <bibl>Şahin S., Spätrömisch-frühbyzantinische Inschriften aus Perge in Pamphylien, in Inscriptions in Byzantium and beyond, Wien 2015, 177-178, nr. 1</bibl> 
+                    <bibl>Skinner A., The early development of the senate of Constantinople, Byzantine and Modern Greek Studies 32, 2008, 128-148</bibl> 
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.8"></p>
+                    <p n="2.9">non minus eius laboribus omnium fere civitatum commodis populisq(ue) prospectum e(st) quam patriae nominis nostri </p>
+                    <list n="2.11">
+                        <item n="2.11.g"></item>
+                    </list>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.5"></p>
+                    <p n="8.10"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

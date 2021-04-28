@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Burial inscription of the praet. prefect Probus from Rome</title>
+                <editor role="edition">Pierfrancesco Porena, Irene Vagionakis</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="pp. 736-740">64</idno>
+                <date when="2020-06-23"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Probus"><name type="praenomen">Sextus</name>
+                        <name type="gentilicium">Claudius</name>
+                        <name type="gentilicium">Petronius</name>
+                        <name type="cognomen">Probus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#lost">lost; the inscription was destoyed during the reconstruction works of St. Peter’s Basilica</repository>
+                        <idno type="invNo"/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#burial">burial inscription</term>
+                            <term type="rhythm" ref="#poetry">poetry (elegiac distichs)</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#architectural_element">architectural element: epistyle of the Probii funerary monument</objectType>
+                                    <dimensions>
+                                        <height>unknown</height>
+                                        <width>unknown</width>
+                                        <depth>unknown</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">no</rs>
+                                    <rs type="monument_reuse">uncertain</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons of the epistyle), in two columns.</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#undamaged">The text, at the time of its transcription, was almost undamaged.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#unknown">unknown (no images available)</term>
+                                <height>unknown</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Roma</placeName>
+                                <placeName type="modern_city">Rome (Italy)</placeName>
+                                <placeName type="province">Urbs</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#burial">burial space: Mausoleo dei Probi in Vaticano</placeName>
+                            </origPlace>
+                            <origDate period="#p8" notBefore="0390" notAfter="0394">390/394 AD</origDate>
+                        </origin>
+                        <provenance type="found">found in 1452 near the transept of St. Peter’s Basilica in <placeName ref="#Vatican">Vatican City</placeName>; copied only by Maffeo Vegio</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                <div type="textpart" subtype="column" n="a">
+                    <ab>
+                        <lb n="1"/>Sublimis quisquis tumuli miraberis arces,
+                        <lb n="2"/>dicis: quantus erat qui Probus hic situs est,
+                        <lb n="3"/>consulibus proavis socerisque et consule maior,
+                        <lb n="4"/>quod geminas consul reddidit ipse domos;
+                        <lb n="5"/>praefectus quarto, totum dilectus in orbem,
+                        <lb n="6"/>sed fama emensus quicquid in orbe hominum est.
+                        <lb n="7"/>Aeternos heu, Roma, tibi qui posceret annos,
+                        <lb n="8"/>cur non vota tui vixit adusque boni?
+                        <lb n="9"/>Nam cum sex denos mensis suspenderet annos,
+                        <lb n="10"/>dilectae gremio raptus in aethra Probae.
+                        <lb n="11"/>Sed periisse Probum meritis pro talibus absit
+                        <lb n="12"/>credas, Roma, tuum: vivit et astra tenet,
+                        <lb n="13"/>virtutis, fidei, pietatis, honoris amicus,
+                        <lb n="14"/>parcus opum nulli, largus at ipse fuit.
+                        <lb n="15"/>Solamen tanti coniux tamen optima luctus
+                        <lb n="16"/>hoc Proba sortita est, iungat et urna pares.
+                        <lb n="17"/>Felix, heu nimium felix, dum vita maneret,
+                        <lb n="18"/>digno iuncta viro, digna simul tumulo.
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="b">
+                    <ab>
+                        <lb n="1"/>Ex<supplied reason="lost">uv</supplied>iis resolutus, in aetheris aequore tutum
+                        <lb n="2"/>curris iter cunctis integer a vitiis,
+                        <lb n="3"/>nomine quod resonas, imitatus moribus, aeque
+                        <lb n="4"/>Iordane ablutus, nunc Probus es melior.
+                        <lb n="5"/>Dives opum clarusque genus, praecelsus honore,
+                        <lb n="6"/>fascibus inlustris, consule dignus avo,
+                        <lb n="7"/>Bconsis gemina populos praefectus sede gubernans,
+                        <lb n="8"/>has mundi phaleras, hos procerum titulos
+                        <lb n="9"/>transcendis senior donatus munere Christi:
+                        <lb n="10"/>hic est verus honos, haec tua nobilitas.
+                        <lb n="11"/>Laetabare prius mensae regalis honore,
+                        <lb n="12"/>principis alloquio, regis amicitia:
+                        <lb n="13"/>nunc propior Christo sanctorum sede potitus,
+                        <lb n="14"/>luce nova frueris, lux tibi Christus adest.
+                        <lb n="15"/>O numquam deflende tuis, cum vita maneret
+                        <lb n="16"/>corporis atque artus spiritus hos regeret,
+                        <lb n="17"/>primus eras nullique patrum virtute secundus,
+                        <lb n="18"/>nunc renovatus habes perpetuam requiem,
+                        <lb n="19"/>candida fuscatus nulla velamina culpa
+                        <lb n="20"/>et novus insuetis incola liminibus.
+                        <lb n="21"/>His solare tuos, quamquam sola<supplied reason="lost">c</supplied>ia m<supplied reason="lost">o</supplied>esta (?)
+                        <lb n="22"/>gratia non quaerat, gratia, Christe, tua.
+                        <lb n="23"/>Vivit in aeterna paradisi sede beatus,
+                        <lb n="24"/>qui nova decedens muneris aetherii
+                        <lb n="25"/>vestimenta tulit, quo denigrante Belial
+                        <lb n="26"/>cessit et ingemuit hic nihil esse suum.
+                        <lb n="27"/>Hunc tu, Christe, choris iungas c<supplied reason="lost">o</supplied>elestibus oro,
+                        <lb n="28"/>te canat et placidum iugiter aspiciat,
+                        <lb n="29"/>eque tuo semper dilectus pendeat ore,
+                        <lb n="30"/>auxilium s<supplied reason="lost">u</supplied>boli coniugioque fer<supplied reason="lost">en</supplied>s.
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on CIL.</p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“...”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“...”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“Chiunque tu sia che ammiri le sommità della tomba che svetta verso il cielo, puoi dire: quanto era grande quel Probo che è sepolto qui, più grande dei suoi antenati consoli, del suocero (console) e di qualunque console, perché egli, console a sua volta, restaurò due casate. Prefetto (del pretorio) per quattro volte, amato in tutto il mondo, ma smisurato nella fama ovunque vi sia nel mondo un essere umano. Ah, perché, o Roma, colui che pregò per la tua eternità non visse quanto i voti impetrati per il tuo bene ? Quando giunse alla misura di sei volte dieci anni, fu rapito verso i cieli dal grembo della diletta Proba. Ma non sia mai che tu creda, Roma, che il tuo Probo, ricolmo di tali meriti, sia morto: vive e ha raggiunto gli astri, lui, l’amico della virtù, della fede, della pietà, dell’onore, non fu mai avaro verso alcuno, ma fu generoso anche di se stesso. L’ottima moglie Proba ha ottenuto questo sollievo per tanto profondo lutto, che una sola urna li unisca alla pari. Felice, sì davvero felice, finché egli restava in vita, legata a un uomo degno di lei, degna lei di condividere insieme la tomba.</p>
+                <p>Liberato dalle tue spoglie, nella distesa dell’etere tu percorri, libero da tutti i vizi, un cammino sicuro; quanto celebri con il tuo nome hai imitato con i tuoi costumi, e ugualmente lavato dal Giordano, sei adesso un Probo migliore. Ricco di beni, luminoso per nascita, primo fra tutti per la carriera, reso illustre dai fasci (consolari), degno dell’avo console; prefetto (del pretorio) che governò due volte popoli in una duplice sede, questi ornamenti mondani, questi titoli aristocratici tu, maturo, oltrepassi, ricolmo dei beni di Cristo: questo è vero onore, questa la tua nobiltà. Ti allietavi un tempo del privilegio di cenare con l’imperatore, della conversazione con il principe, dell’amicizia del sovrano: ora davvero vicino a Cristo, insediato nella dimora dei santi, godi di una luce nuova, luce per Te è il Cristo che ti sta accanto. Oh Tu, che mai i Tuoi devono piangere, finché c’era vita nel corpo e lo spirito governava quelle membra, eri il primo, e non fosti secondo a nessuno dei padri per virtù; ora, rigenerato, sei nella pace perpetua, e nessuna colpa imbratta le tue candide vesti, e sei un neo-cittadino sulle soglie di dimore inconsuete.  (Al Cristo) Con queste (certezze) consola i Tuoi, benché la Grazia, la Tua Grazia, o Cristo, non cerca tristi consolazioni. Egli vive, beato, nella sede eterna del Paradiso, lui che lasciando il mondo indossò le vesti nuove del dono celeste; lui al cui passaggio Belial si è scansato e ha rimpianto che nulla lì fosse suo. Ti prego, o Cristo, di unirlo ai cori celesti, che egli canti Te e Ti contempli in eterno nella Tua serenità, e sempre da Te prediletto, sia appeso alle tue labbra, mentre Tu sostieni la sua discendenza e la sua sposa.”</p>
+            </div>
+            <div type="commentary">
+                <p>...</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>CIL VI, 1756a-b</ref> (pp. 855, 389, 4752-4753)</bibl>
+                    <bibl><ref>CLE 1347a-b</ref></bibl>
+                    <bibl><ref>ILCV 63a-b</ref></bibl>
+                    <bibl><ref>ICUR n.s., II, 4219a-b</ref></bibl> 
+                    <bibl><ref>Janssens 1981, p. 30</ref></bibl> 
+                    <bibl><ref>Schmidt 1999</ref> = <bibl><ref>AE 1999, 198</ref></bibl></bibl>
+                    <bibl><ref>Trout 2001</ref></bibl>
+                    <bibl><ref>Bruggisser 2003</ref> = <bibl><ref>AE 2004, 192</ref></bibl></bibl>
+                    <bibl><ref>Cugusi 2007, p. 123</ref></bibl> 
+                    <bibl><ref>Colafrancesco 2008a</ref></bibl> 
+                    <bibl><ref>Porena forthcoming, pp. 211-212, nr. 8</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://www.edb.uniba.it/epigraph/17058">EDB 17058</ref></bibl>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR118258">EDR 118258</ref></bibl>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR118260">EDR 118260</ref></bibl>
+                    <bibl><ref corresp="http://www.mqdq.it/textsce/CE|ce|1347a">MQDQ 1347a</ref></bibl>
+                    <bibl><ref corresp="http://www.mqdq.it/textsce/CE|ce|1347b">MQDQ 1347b</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Bruggisser P., Ambroise lapicide: l’évêque de Milan a-t-il composé le second poème de l’épitaphe de Probus et Proba ?, in Guillaumin J.-Y., Ratti S. (éds.), Autour de Lactance. Hommages à Pierre Monat, Paris 2003, 79-97</bibl>
+                    <bibl>Colafrancesco P., L’epitaffio di Sesto Petronio Probo (ICUR II 4219 a): un manifesto ideologico, in Literatura epigráfica. Estudios dedicados a Gabriel Sanders. Actas de la III Reunión Internacional de Poesìa Epigráfica Latina, Zaragoza 2008, 37-52 (Colafrancesco 2008a)</bibl> 
+                    <bibl>Colafrancesco P., Un caso editoriale: il cosiddetto «ciclo dei Probi» (ICUR II 4220-4221-4222), in Studia Philologica Valentina, 11, 2008, 27-42 (Colafrancesco 2008b)</bibl>
+                    <bibl>Cugusi P., Per un nuovo Corpus dei Carmina Latina Epigraphica. Materiali e discussioni, Roma 2007 (123)</bibl>
+                    <bibl>Dresken-Weiland J., Sarkophagbestattungen des 4.–6. Jahrhunderts im Westen des römischen Reiches, Rom Freiburg Wien 2003 (118-121)</bibl>
+                    <bibl>Dresken-Weiland J., Angerstorfer A., Merkt A., Himmel, Paradies, Schalom: Tod und Jenseits in antiken christlichen und jüdischen Grabinschriften, Regensburg 2012 (119-126, nr. I.17)</bibl> 
+                    <bibl>Dunn G.D., Anicius Hermogenianus Olybrius, in Deroux C. (ed.), Studies in Latin literature and Roman history. 14, Bruxelles 2008, 429-444 = <bibl><ref>AE 2008, 91</ref></bibl></bibl>
+                    <bibl>Janssens J., Vita e morte del cristiano negli epitaffi di Roma anteriori al sec. VII, Roma 1981 (30)</bibl> 
+                    <bibl>Piccioni F., Qualche osservazione sulla struttura del CLE 1347, in BSL 36, 2006, 489-496</bibl>
+                    <bibl>Porena P., Appendice. Selezione di fonti sulla carriera prefettizia di Sex. Petronius Probus, in Bigi F., Tantillo I. (edd.), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa forthcoming, 211-212</bibl>
+                    <bibl>Schmidt M.G., Ambrosii carmen de obitu Probi: ein Gedicht des Mailänder Bischofs in epigraphischer Überlieferung, in Hermes, 127.1, 1999, 99-116</bibl>
+                    <bibl>Trout D., The verse epitaph(s) of Petronius Probus. Competitive commemoration in late-fourth-Century Rome, NECJ 28, 2001, 157-176</bibl>
+                </p>
+            </div>
+
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+
+                <div type="commentary" n="3">
+                    <p n="3.a"></p>
+                </div>
+
+                <div type="commentary" n="8">
+                    <p n="8.2">praefectus quarto; bis gemina populos praefectus sede gubernans</p>
+                    <p n="8.4"></p>
+                    <p n="8.6">quarto</p>
+                    <p n="8.11"></p>
+                    <p n="8.13"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

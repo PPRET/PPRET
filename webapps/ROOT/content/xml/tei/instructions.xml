@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <seg xml:lang="en">Instructions</seg>
+                    <seg xml:lang="fr">Instructions</seg>
+                    <seg xml:lang="it">Istruzioni</seg>
+                </title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename">Instructions</idno>
+                <availability><licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc><p>Born digital document.</p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="commentary">
+                <div type="section" xml:lang="it">
+                    <div type="section">
+                        <head>A) Inscriptions</head>
+                        <div type="section">
+                            <p>
+                                Nella schermata di apertura compaiono le schede, che sono elencate in ordine cronologico. Esse sono indicate nell’ordine: da un numero progressivo, da un titolo che ne descrive il contenuto, dal nome del prefetto o dai nomi dei del prefetti del pretorio che compare/compaiono nell’iscrizione, dalla presenza dell’iscrizione nella <foreign>Prosopography of the Later Roman Empire</foreign>, dal collegio imperiale in carica all’epoca della realizzazione dell’iscrizione, dalla datazione dell’iscrizione.</p>
+                            <p>Dalla schermata principale è possibile accedere alla singola scheda cliccando sul numero posto nella colonna a sinistra (N. PPRET).</p>
+                        </div>
+                        <div type="section">
+                            <p>Ogni scheda si divide in 4 sezioni:</p>
+                        </div>
+                        <div type="section">
+                            <p>A) PARTE IDENTIFICATIVA DELL’ISCRIZIONE E DEL/DEI PREFETTO/I</p>
+                            <p>1° quadro: contiene numero e titolo dell’iscrizione, elenco delle edizioni del testo con i link a edizioni digitali, il nome del prefetto del pretorio o dei prefetti del pretorio presenti nell’iscrizione, la data dell’iscrizione.</p>
+                        </div>
+                        <div type="section">
+                            <p>B) L’ISCRIZIONE - STRUTTURA MATERIALE</p>
+                            <p>2° quadro: Provenienza e collocazione dell’iscrizione (contesto antico e moderno).</p>
+                            <p>3° quadro: Tipo di supporto, materiale del supporto, eventuale reimpiego, misure del supporto, misure delle lettere, specchio epigrafico, tecnica di scrittura, lingua, ritmo, paleografia.</p>
+                            <p>4° quadro: Categoria di iscrizione.</p>
+                        </div>
+                        <div type="section">
+                            <p>C) L’ISCRIZIONE - TESTO</p>
+                            <p>5° quadro: testo latino o greco dell’iscrizione, apparato critico.</p>
+                            <p>6° quadro: traduzione dell’iscrizione in inglese, francese, italiano.</p>
+                            <p>7° quadro: commento critico con aggiornamenti sull’iscrizione e sui prefetti del pretorio in tutti i loro aspetti (come supporto, come testo latino o greco, come categoria di testo e di monumento, come profilo dei prefetti del pretorio e di altri personaggi, con messa a punto sulla cronologia, la carriera, le relazioni con i sovrani, i contenuti specifici, ecc.).</p>
+                            <p>8° quadro: bibliografia citata nella scheda.</p>
+                        </div>
+                        <div type="section">
+                            <p>D) L’EPIGRAFIA E I PREFETTI DEL PRETORIO</p>
+                            <p>9° quadro: relazioni tra il testo e la tipologia dell’iscrizione e i prefetti del pretorio (dedicanti / destinatari / menzionati), la loro titolatura, il loro mandato, le loro competenze, la loro carriera.</p>
+                        </div>
+                    </div>
+                    
+                    <div type="section">
+                        <head>B) Search</head>
+                        <div type="section">
+                            <p>La schermata della ricerca si articola in due colonne verticali parallele.</p>
+                        </div>
+                        <div type="section">
+                            <p>La colonna di sinistra ospita nell’ordine le seguenti sezioni:</p>
+                            <list>
+                                <item>- <emph>Text search</emph>: consente di effettuare ricerche testuali sia nelle intere schede PPRET Inscriptions che limitatamente ai testi epigrafici.</item>
+                                <item>- <emph>Date</emph>: consente di selezionare le schede PPRET Inscriptions per archi cronologici.</item>
+                                <item>- <emph>Filters</emph>: consente di interrogare le schede PPRET Inscriptions relativamente alla parte identificativa dell’iscrizione e del prefetto del pretorio, alla struttura materiale dell’iscrizione e alla sua ubicazione antica e moderna, alla relazione tra l’epigrafe e i prefetti del pretorio menzionati.</item>
+                            </list>
+                            <p>Tutti i filtri delle tre sezioni possono interagire tra loro.</p>
+                        </div>
+                        <div type="section">
+                            <p>La colonna di destra ospita l’elenco delle schede interessate dai risultati della ricerca effettuata (<emph>Results</emph>); per visualizzare i singoli risultati della ricerca è necessario cliccare sulle schede che compaiono in questa colonna. All’apertura della pagina ‘Search’, quando ancora nessun filtro è stato selezionato, l’elenco include la totalità delle schede PPRET Inscriptions in ordine numerico/cronologico.</p>
+                        </div>
+                        <div type="section">
+                            <head type="subheading">Sezione Text search</head>
+                            <div type="section">
+                                <!--<head>a) Come eseguire ricerche testuali nel database: Text search</head>-->
+                                <p>Se si desidera effettuare una ricerca testuale specifica (sia nei testi antichi che nelle restanti parti della scheda), è possibile digitare il testo nella casella ‘Text search’ e poi premere ‘Invio’. Le schede PPRET Inscriptions che includono la parola o le parole che avete cercato (nome antico, autore moderno, luogo, fonte, data, e così via) verranno visualizzate nella lista dei risultati nella colonna di destra. Le ricerche testuali non distinguono fra maiuscole e minuscole.</p>
+                                <p>Selezionando la casella ‘<emph>Search only in the inscription text</emph>’ è possibile limitare la ricerca al solo testo latino o greco delle epigrafi. La ricerca ignora le convenzioni epigrafiche (come ad esempio le parentesi tonde e quadre).</p>
+                                <p>È possibile utilizzare il carattere jolly * per la ricerca di segmenti di parole: ad esempio, una ricerca di <foreign>nobilita</foreign>* restituirà <foreign>nobilitas</foreign>, <foreign>nobilitatis</foreign>, <foreign>nobilitate</foreign> e così via.</p>
+                                <p>Se la ricerca comprende una sequenza di più parole, occorre circondarle con doppie virgolette (" "): ad esempio, per cercare <foreign>viro</foreign> seguito da <foreign>clarissimo</foreign>, occorre digitare "<foreign>viro clarissimo</foreign>". Attenzione: quando si esegue una ricerca precisa di una sequenza di più parole non è possibile utilizzare il carattere jolly *.</p>
+                                <p>Se la ricerca comprende più parole non consecutive, occorre digitare l’operatore boolerano AND fra i termini da cercare (che non devono in questo caso essere circondati dalle doppie virgolette " ") affinché la lista dei risultati includa le schede epigrafiche in cui sono menzionati tutti i termini digitati: ad esempio, digitando <foreign>viro</foreign> AND <foreign>clarissimo</foreign> si otterrà una lista delle schede in cui compaiono entrambi i termini.
+                                    Digitando invece <foreign>viro clarissimo</foreign> (oppure <foreign>viro</foreign> OR <foreign>clarissimo</foreign>) si otterrà una lista delle schede in cui compare almeno uno dei termini cercati.</p>
+                                <p>Per digitare testo in greco è possibile utilizzare la tastiera virtuale che compare sotto la casella di ricerca cliccando su ‘Greek keyboard’. Nella tastiera si trovano in basso a destra anche il carattere jolly *, le doppie virgolette "<!--, il tasto Maiuscolo ⇪ --> e il tasto Cancella ⇐. Per nascondere la tastiera occorre cliccare nuovamente su ‘Greek keyboard’.</p>
+                                <p>Se volete reimpostare la vostra ricerca, cliccate su ‘Reset search’.</p>
+                                <p>Attenzione: le seguenti sezioni ‘Date’ e ‘Filters’ consentono di impostare numerosi filtri di ricerca, i quali condizionano la ricerca testuale. Quando uno o più filtri selezionati dalle suddette sezioni sono attivi, al di sopra della sezione ‘Filters’ compare la dicitura ‘Current filters’. Se volete rimuovere i filtri di ricerca specifici che avete selezionato, cliccate sulla 'x' a destra del relativo filtro nella sezione ‘Current filters’.</p>
+                                
+                                <!--                                <p><emph>- Search only in the inscription text</emph>. Se volete cercare una o più parole comprese all’interno del testo latino o greco delle singole epigrafi, selezionate la casella ‘Search only in the inscription text’. Anche in questo caso nella lista dei risultati verrà visualizzato l'elenco delle schede PPRET Inscriptions che includono la parola o le parole che avete cercato. Attenzione: se l’opzione ‘Search only lemmatized text’, l’opzione ‘Search only in the inscription text’ non può essere selezionata.</p>
+                                    
+                                    <p><emph>- Search only lemmatised text</emph>. Se volete cercare una o più parole comprese all’interno del testo latino o greco delle singole epigrafi, selezionate la casella ‘Search only lemmatized text’. In questo caso, dovete digitare la forma base del termine (che per i nomi e per gli aggettivi è la forma al nominativo singolare e per i verbi la prima persona singolare del presente indicativo). Anche in questo caso nella lista dei risultati verrà visualizzato l'elenco delle schede PPRET Inscriptions che includono la parola o le parole che avete cercato. Attenzione: se l’opzione ‘Search only in the inscription text’, l’opzione ‘Search only lemmatized text’ non può essere selezionata.</p>-->
+                            </div>
+                            <!--<div type="section">
+                                <head>b) Come eseguire ricerche testuali nel database: Word index</head>
+                                <p>Se siete interessati a vedere quali parole greche e latine compaiono nei singoli testi antichi in latino e in greco delle PPRET Inscriptions, potete anche consultare la pagina dell'indice delle parole: <ref corresp="../indices/epidoc/lemma.html">Word index</ref>. In essa compare (a sinistra = Lemma) l’elenco in ordine alfabetico di sostantivi, aggettivi, verbi, avverbi, preposizioni, congiunzioni, seguito (a destra = References) dal riferimento alla scheda e alla linea del testo nel quale la parola compare. In questo lemmario sono stati esclusi i nomi propri e i nomi di luogo, che sono ricercabili da specifici campi di ricerca nella sezione Search / Filters.</p>
+                                </div>-->
+                        </div> 
+                        <div type="section">
+                            <head type="subheading">Sezione Date</head>
+                            <div type="section">
+                                <p>Per selezionare le schede PPRET Inscriptions comprese in un breve o lungo arco cronologico tra il 284 e il 450 AD (da un anno a 156 anni) spostare i cursori posti ai lati sinistro e destro della barra orizzontale. Nella colonna di destra compare l’elenco delle schede interessate dai risultati della ricerca, cioè comprese nell’arco cronologico scelto.</p>
+                            </div>
+                        </div>
+                        <div type="section">
+                            <head type="subheading">Sezione Filters</head>
+                            <div type="section">
+                                <p>Questa sezione permette di avere informazioni in diversi ambiti. Per visualizzare la lista di tutti i valori possibili per ciascun filtro, cliccare sul nome del filtro; per nasconderla, cliccare una seconda volta sul nome del filtro.</p>
+                                <p>Nella colonna di destra compare l’elenco delle schede interessate dai risultati della ricerca.</p>
+                            </div>
+                            <div type="section">
+                                <p>ONOMASTICA DEI PREFETTI DEL PRETORIO MENZIONATI</p>
+                                <p><emph>Prefect name</emph>: cliccando si apre l’elenco alfabetico di tutti i prefetti del pretorio ‘titolari’ di una scheda PPRET Inscritpion. Il numero tra parentesi indica di quante schede ciascuno è titolare.</p>
+                                <p><emph>Prefect gentilicium</emph>: cliccando si apre l’elenco alfabetico di tutti i gentilizi dei prefetti del pretorio ‘titolari’ di una scheda PPRET Inscritpion.</p>
+                                <p><emph>Prefect cognomen</emph>: cliccando si apre l’elenco alfabetico di tutti i cognomi dei prefetti del pretorio ‘titolari’ di una scheda PPRET Inscritpion.</p>
+                                <p><emph>Prefect signum</emph>: cliccando si apre l’elenco alfabetico di tutti i signa dei prefetti del pretorio ‘titolari’ di una scheda PPRET Inscritpion.</p>
+                            </div>
+                            <div type="section">
+                                <p>EDIZIONI</p>
+                                <p><emph>Edition</emph>: cliccando si apre l’elenco completo in ordine alfabetico di sigla dei corpora, delle sillogi, delle riviste, o in ordine alfabetico di cognome dell’autore delle monografie e dei contributi che contengono una edizione o una riedizione di una iscrizione pubblicata in PPRET Inscriptions. L’elenco costituisce una lista completa di tutte le edizioni delle iscrizioni esaminate nel database.</p>
+                                <p><emph>PLRE</emph>: cliccando si accede a tre voci: NEW indica le iscrizioni ignote alla PLRE I (1971); PLRE I indica le iscrizioni già lemmatizzate in PLRE I (1971); REV indica le iscrizioni note alla PLRE I, ma profondamente riesaminate.</p>
+                            </div>
+                            <div type="section">
+                                <p>CRONOLOGIA</p>
+                                <p><emph>Emperors</emph>: cliccando sui singoli periodi, compaiono le iscrizioni raccolte per periodi corrispondenti ad anni coerenti di regno:</p>
+                                
+                                <list>
+                                    <item>1. Diocletian and the Tetrarchy (284-305 AD)</item>
+                                    <item>2. The Crisis of the Tetrarchy (306-312 AD)</item>
+                                    <item>3. Constantine and Licinius AA. (313-324 AD)</item>
+                                    <item>4. Constantine sole A. (324-337 AD)</item>
+                                    <item>5. Constantine’s sons (337-361 AD)</item>
+                                    <item>6. Julian A. (361-363 AD)</item>
+                                    <item>7. Valentinian I and Valens AA. (364-378 AD)</item>
+                                    <item>8. Gratian, Valentinian II, Theodosius I &lt;Maximus, Eugenius&gt; AAA. (379-395 AD)</item>
+                                </list>
+                                
+                                <p>Fra parentesi il numero delle PPRET Inscriptions di ogni fase.</p>
+                                
+                                <div type="section">
+                                    <p><emph>Precise date</emph>: cliccando su una data, compaiono i singoli anni delle PPRET Inscriptions datate a un anno preciso. Fra parentesi il numero delle PPRET Inscriptions attestate in quell’anno.</p>
+                                </div>
+                            </div>
+                            <div type="section">
+                                <p>UBICAZIONE</p>
+                                <p><emph>Findspot</emph>: cliccando, si apre l’elenco delle località di rinvenimento delle iscrizioni.</p>
+                                <p><emph>Ancient city</emph>: cliccando, si apre l’elenco delle località antiche di provenienza delle iscrizioni.</p>
+                                <p><emph>Modern city</emph>: cliccando, si apre l’elenco delle località moderne di provenienza delle iscrizioni.</p>
+                                <p><emph>Province</emph>: cliccando, si apre l’elenco delle province di provenienza delle iscrizioni. La denominazione ‘Urbs’ è una convenzione per indicare l’area urbana sottoposta al controllo del prefetto di Roma.</p>
+                                <p><emph>Diocese</emph>: cliccando, si apre l’elenco delle diocesi civili di provenienza delle iscrizioni.</p>
+                                <p><emph>Regional prefecture</emph>: cliccando, si apre l’elenco delle prefetture del pretorio regionali di provenienza delle iscrizioni.</p>
+                                <p><emph>Ancient location</emph>: cliccando si apre l’elenco delle tipologie di spazio pubblico o privato nelle quali l’iscrizione si trovava in antico.</p>
+                                <p><emph>Current location</emph>: cliccando si apre l’elenco delle sedi moderne nelle quali l’iscrizione si trova oggi.</p>
+                            </div>
+                            <div type="section">
+                                <p>SUPPORTO E TESTO</p>
+                                <p><emph>Text category</emph>: cliccando si apre l’elenco delle tipologie di iscrizioni.</p>
+                                <p><emph>Monument type</emph>: cliccando si apre l’elenco delle tipologie di monumento iscritto.</p>
+                                <p><emph>Material</emph>: cliccando si apre l’elenco delle tipologie di materiali del supporto.</p>
+                                <p><emph>Technique</emph>: cliccando si apre l’elenco delle tecniche di scrittura epigrafica.</p>
+                                <p><emph>Epigraphic field preservation</emph>: cliccando si apre l’elenco dello stato di conservazione dello specchio epigrafico.</p>
+                                <p><emph>Inscribed field reuse</emph>: cliccando si apre l’opzione che segnala iscrizioni incise su specchi non reimpiegati (No), reimpiegati (Yes), ovvero casi privi di informazioni certe.</p>
+                                <p><emph>Monument reuse</emph>: cliccando si apre l’opzione che segnala iscrizioni prefettizie incise su supporti non reimpiegati (No), reimpiegati (Yes), ovvero casi privi di informazioni certe.</p>
+                                <p><emph>Opistographic</emph>: cliccando si apre l’opzione che segnala iscrizioni incise su due lati del supporto (Yes), incise su un solo lato (No), ovvero casi privi di informazioni certe.</p>
+                                <p><emph>Palaeography</emph>: cliccando si apre l’elenco degli stili di scrittura epigrafica, che per semplificare sono stati ridotti a tre categorie: capitale monumentale, capitale rustica, onciale, ovvero casi privi di informazioni certe.</p>
+                                <p><emph>Language</emph>: cliccando si possono selezionare le iscrizioni in latino o in greco.</p>
+                                <p><emph>Rhythm</emph>: cliccando si possono selezionare le iscrizioni in prosa o in poesia.</p>
+                            </div>
+                            <div type="section">
+                                <p>ISCRIZIONE E PREFETTI DEL PRETORIO</p>
+                                <p><emph>Number of praetorian prefects</emph>: cliccando, è possibile selezionare le iscrizioni che contengono il nome di un solo prefetto o i nomi di più o di tutti i prefetti del pretorio e la loro relazione con il monumento.</p>
+                                <p><emph>Inscriprions in honour of praetorian prefects</emph>: cliccando, è possibile selezionare le iscrizioni in onore di un prefetto del pretorio vivente o defunto, realizzate durante o dopo la sua prefettura, celebrato, colpito da damnatio o riabilitato, con le motivazioni della dedica e le formule panegiriche.</p>
+                                <p><emph>Awarder of monuments to praetorian prefects</emph>: cliccando, è possibile selezionare le iscrizioni in base ai dedicanti delle iscrizioni: dai loro clienti / amministrati; città; senati cittadini (<foreign>ordo</foreign> / βουλῆ); province (<foreign>concilia</foreign> / κοινά); collegi e corporazioni; individui; imperatori; familiari).</p>
+                                <p><emph>Epitaph of a praetorian prefect</emph>: cliccando, è possibile selezionare le iscrizioni funerarie in memoria di un determinato prefetto del pretorio.</p>
+                                <p><emph>Inscriptions Identifying a property of a praetorian prefect</emph>: cliccando, è possibile selezionare le iscrizioni che ricordano le proprietà di un determinato prefetto del pretorio.</p>
+                                <p><emph>Inscription containing legal acts sent to praetorian prefects</emph>: cliccando, è possibile selezionare le iscrizioni che contengono costituzioni imperiali ecc. indirizzate a un prefetto.</p>
+                                <p><emph>Inscription containing legal acts issued by praetorian prefects</emph>: cliccando, è possibile selezionare le iscrizioni che contengono editti o epistole emessi dai prefetti del pretorio.</p>
+                                <p><emph>Inscribed monuments made by the praetorian prefects</emph>: cliccando, è possibile selezionare le seguenti categorie di iscrizioni: Iscrizioni ad Augusti/Cesari fatte da un singolo prefetto o da tutti i prefetti del pretorio; iscrizioni con prefetto del pretorio dedicante colpito da <foreign>damnatio</foreign> (eraso) o ufficialmente riabilitato; costruzioni / restauri in edilizia civile, militare, religiosa; altre categorie di iscrizioni pubbliche, private, religiose.</p>
+                                <p><emph>The praetorian prefecture in inscriptions</emph>: cliccando, è possibile trovare informazioni contenute nelle singole iscrizioni relative alla prefettura del pretorio, cioè alla carica:</p>
+                                
+                                <list>
+                                    <item>- iscrizioni con <foreign>cursus honorum</foreign> completo o parziale del prefetto ovvero senza <foreign>cursus honorum</foreign>;</item>
+                                    <item>- iscrizioni che ricordano le iterazioni della prefettura, o la durata complessiva di un mandato prefettizio, di più mandati o di tutti i mandati prefettizi;</item>
+                                    <item>- iscrizioni che ricordano la sola prefettura in corso o appena conclusa;</item> 
+                                    <item>- iscrizioni che contengono o che non contengono l’indicazione regionale della prefettura;</item>
+                                    <item>- iscrizioni che ricordano il numero delle prefetture rivestite dal dignitario senza indicazione regionale;</item>
+                                    <item>- iscrizioni che ricordano le prefetture rivestite dal dignitario con indicazione regionale;</item>
+                                    <item>- iscrizioni che ricordano l’origine geografica del prefetto.</item>
+                                </list>
+                                
+                                <p><emph>The rank of the praetorian prefects</emph>: cliccando è possibile visualizzare un elenco che contiene il rango del prefetto o dei prefetti, in latino e in greco, esattamente come compare scritto per esteso o abbreviato nel testo epigrafico delle singole iscrizioni.</p>
+                                <p><emph>Latin or Greek titulature of the office</emph>: cliccando è possibile visualizzare un elenco che contiene la titolatura della carica del prefetto o dei prefetti, in latino e in greco, esattamente come compare scritto per esteso o abbreviato nel testo epigrafico delle singole iscrizioni.</p>
+                            </div>
+                            <div type="section">
+                                <p>FONTI</p>
+                                <p><emph>Source mentioned in the commentary</emph>: cliccando, è possibile visualizzare un elenco che contiene le sigle di singoli passi di fonti letterarie, normative, epigrafiche, citate nel solo commento alla singola iscrizione; selezionando l’iscrizione è possibile individuare nel relativo commento la fonte indicizzata. L’elenco è consultabile come indice delle fonti citate nei commenti alle iscrizioni.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div type="section" xml:lang="en">
+                    <div type="section">
+                        <head>Text search</head>
+                        <p>If you want to perform a specific textual search (both in the ancient texts and in the rest of the editions, that is metadata, translations, commentary and bibliography), you can type your text in the ‘<emph>Text search</emph>’ box in the ‘Search’ page and then press ‘Enter’.</p>
+                        <p>If you want to search one or more words only in the Latin or Greek text, select the ‘<emph>Search only in the inscription text</emph>’ box.</p>
+                        <p>You can use the wildcard character * for looking for segments of words: for example, a search of <foreign>nobilita*</foreign> will return <foreign>nobilitas</foreign>, <foreign>nobilitatis</foreign>, <foreign>nobilitate</foreign> and so on.</p>
+                        <p>If your search includes a sequence of more words, surround them with double quotes (" "): for example, if you want to search <foreign>viro</foreign> followed by <foreign>clarissimo</foreign>, you have to type "<foreign>viro clarissimo</foreign>". Please note that if you want to perform a precise search of a sequence of more words, you cannot use the wildcard character *.</p>
+                        <p>If your search includes Greek text, you can type in Greek by using the virtual keyboard that appears below the search box after clicking on ‘Greek keyboard’.</p>
+                        <p>The results list will display the list of the PPRET inscriptions that include the word(s) that you have searched.</p>
+                        <p>If you want to reset your search, click on ‘Reset search’.</p>
+                        <p>If you want to remove specific search filters that you have selected, click on the ‘x’ on the right of the relevant filter in the ‘Current filters’ section.</p>
+                    </div>
+                </div>
+                
+                <div type="section" xml:lang="fr">
+                    <p>...</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

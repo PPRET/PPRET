@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription in honour of the former praet. prefect Flavius Eugenius, repositioned in Rome by Constantius II and Julian</title>
+                <editor role="edition">Pierfrancesco Porena, Irene Vagionakis</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="p. 292">48</idno>
+                <date when="2020-06-23"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Eugenius"><name type="gentilicium">Flavius</name>
+                        <name type="cognomen">Eugenius</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Roma">Roma, Trajan’s Forum, deposit of Basilica Ulpia</repository>
+                        <idno type="invNo">inv. FT 14454</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the former praetorian prefect Flavius Eugenius</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#base">gilded statue base</objectType>
+                                    <dimensions>
+                                        <height>141</height>
+                                        <width>90</width>
+                                        <depth>80</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">no</rs>
+                                    <rs type="monument_reuse">yes: the monument was re-dedicated by Constantius II and Julian</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#undamaged">Undamaged.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <height>3 / 3.5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Roma</placeName>
+                                <placeName type="modern_city">Rome (Italy)</placeName>
+                                <placeName type="province">Urbs</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#public">public space: Trajan’s Forum</placeName>
+                            </origPlace>
+                            <origDate period="#p5" notBefore="0346" notAfter="0360">355/360 AD (relocation); 346/349 AD (original date)</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#TrajanForum">Rome, Trajan’s Forum</placeName> (close to)</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                    <ab>
+                        <lb n="1"/><expan><abbr>Fl</abbr><ex>avio</ex></expan> Eugenio, <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan>, ex praefecto praetorio,
+                        <lb n="2"/>consuli ordinario designato, magistro
+                        <lb n="3"/>officiorum omnium, comiti domestico
+                        <lb n="4"/>ordinis primi omnibusque Palatinis
+                        <lb n="5"/>dignitatibus functo, ob <sic>egraegia</sic> eius
+                        <lb n="6"/>in rem publicam merita, huic
+                        <lb n="7"/><expan><abbr>d</abbr><am>d</am><ex>omini</ex></expan> <expan><abbr>n</abbr><am>n</am><ex>ostri</ex></expan> Constantius victor ac
+                        <lb n="8"/><sic>triumfator</sic> semper Augustus et
+                        <lb n="9"/>Iulianus nobilissimus Caesar
+                        <lb n="10"/>statuam sub auro in foro divi
+                        <lb n="11"/>Traiani, quam ante sub divo
+                        <lb n="12"/>Constante vitae et fidelissimae
+                        <lb n="13"/>devotionis gratia meruit,
+                        <lb n="14"/>adprobante amplissimo senatu,
+                        <lb n="15"/>sumptu publico loco suo
+                        <lb n="16"/>restituendam censuerunt.
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on CIL.</p>
+                <p>
+                    <app loc="5"><note>egregia</note></app>
+                    <app loc="8"><note>triumphator</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“To Flavius Eugenius, of clarissimus rank, former praetorian prefect, designated ordinary consul, master of all offices, domestic count of the first order and having served all dignities in the Palatinum, for his distinguished public merits, our masters Constantius, always victorious and triumphant Augustus, and Julian the most noble Caesar, decided the restitution in its (original) place of the gilded statue in the Forum of the deified Trajan that he had deserved before, under the reign of the divine Constans, in gratitude for his life and loyalest devotion, with the approval of the greatest senate, at public expenses.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“...”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“A Flavius Eugenius, chiarissimo, ex prefetto del pretorio, designato console ordinario, maestro di tutti gli uffici, conte domestico del primo ordine e che ha svolto tutte le dignità del Palatino, per i suoi meriti egregi verso lo stato, a cui i nostri Signori Costanzo, Augusto sempre vincitore e trionfatore, e Giuliano Cesare nobilissimo, decisero di restituire la statua dorata al suo luogo (originale) nel foro del divo Traiano, che in precedenza aveva meritato sotto il divo Costante per la sua vita e fedelissima devozione, con l’approvazione del grandissimo senato, a spese pubbliche.”</p>
+            </div>
+            <div type="commentary">
+                <p>The inscription records a dedication made to Flavius Eugenius, praetorian prefect under the reign of Constans. The original dedication (which is lost) was made by Constans; the statue was later re-dedicated by Constantius II and Julian.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>ILS 1244</ref></bibl>
+                    <bibl><ref>CIL VI, 1721</ref> (cfr. p. 3173)</bibl>
+                    <bibl><ref>Conti 2004, nr. 114</ref></bibl> 
+                    <bibl><ref>Lassère 2007, pp. 729-730, nr. 412</ref></bibl> 
+                    <bibl><ref>Castello 2010, pp. 333 nt. 18, 339</ref></bibl>
+                    <bibl><ref>Bruggisser 2014, pp. 97-98, nr. 3</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR137679">EDR 137679</ref></bibl>
+                    <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-314">LSA 314</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Bruggisser P., Senatus Amplissimus. Étude de terminologie institutionnelle, in Bertrand-Dagenbach C., Chausson F. (éds.), Historiae Augustae colloquium nanceiense. Atti dei Convegni sulla Historia Augusta XII, Bari 2014, 93-110</bibl>
+                    <bibl>Castello M. G., Costantino tra continuità e innovazione. Amministrazione palatina e magister officiorum, in Carlà F., Castello M. G., Questioni tardoantiche. Storia e mito della “svolta costantiniana”, Roma 2010, 327-364</bibl>
+                    <bibl>Conti S., Die Inschriften Kaiser Julians, Stuttgart 2004</bibl>
+                    <bibl>Lassère J.-M., Manuel d’épigraphie romaine, Paris 2007 (729-730)</bibl> 
+                    <bibl>Orlandi S. (ed.), Edizione Nazionale delle Opere di Pirro Ligorio. Libri delle iscrizioni latine e greche. Napoli. Vol. 7, Roma 2008, 143</bibl> 
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.a"></p>
+                    <p n="2.2"></p>
+                    <p n="2.7">statuam sub auro</p>
+                    <p n="2.9">ob egraegia eius in rem publicam merita</p>
+                    <p n="2.10">vitae et fidelissimae devotionis gratia</p>
+                    <list n="2.11">
+                        <item n="2.11.g"></item>
+                    </list>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">v(iro) c(larissimo)</p>
+                    <p n="8.2">ex praefecto praetorio</p>
+                    <p n="8.3"></p>
+                    <p n="8.4"></p>
+                    <p n="8.10"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

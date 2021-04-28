@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Document types</title>
+            </titleStmt>
+            <publicationStmt><p/></publicationStmt>
+            <sourceDesc><p/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+                <head>Tipologia documentaria / Document type</head>
+                <item xml:id="honorary">
+                    <term xml:lang="it">Iscrizione onoraria</term>
+                    <term xml:lang="en">Honorary inscription</term>
+                </item>
+                <item xml:id="building">
+                    <term xml:lang="it">Iscrizione edilizia</term>
+                    <term xml:lang="en">Building inscription</term>
+                </item>
+                <item xml:id="normative">
+                    <term xml:lang="it">Iscrizione normativa</term>
+                    <term xml:lang="en">Legislative inscription</term>
+                </item>
+                <item xml:id="religious">
+                    <term xml:lang="it">Iscrizione religiosa</term>
+                    <term xml:lang="en">Religious inscription</term>
+                </item>
+                <item xml:id="burial">
+                    <term xml:lang="it">Iscrizione funeraria</term>
+                    <term xml:lang="en">Burial inscription</term>
+                </item>
+                <item xml:id="ownership">
+                    <term xml:lang="it">Possesso</term>
+                    <term xml:lang="en">Ownership</term>
+                </item>
+                <item xml:id="instrumentum">
+                    <term xml:lang="it">Instrumentum</term>
+                    <term xml:lang="en">Instrumentum</term>
+                </item>
+                <item xml:id="unknown">
+                    <term xml:lang="it">Iscrizione di tipologia sconosciuta</term>
+                    <term xml:lang="en">Unknown</term>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>

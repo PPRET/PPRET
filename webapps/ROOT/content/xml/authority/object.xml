@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Object types</title>
+            </titleStmt>
+            <publicationStmt><p/></publicationStmt>
+            <sourceDesc><p/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+                <head>Oggetto / Object</head>
+                <item xml:id="base">
+                    <term xml:lang="it">Base di statua</term>
+                    <term xml:lang="en">Statue base</term>
+                </item>
+                <item xml:id="stone_slab">
+                    <term xml:lang="it">Lastra litica</term>
+                    <term xml:lang="en">Stone slab</term>
+                </item>
+                <item xml:id="metal_plate">
+                    <term xml:lang="it">Lastra metallica</term>
+                    <term xml:lang="en">Metal plate</term>
+                </item>
+                <item xml:id="architectural_element">
+                    <term xml:lang="it">Elemento architettonico</term>
+                    <term xml:lang="en">Architectural element</term>
+                </item>
+                <item xml:id="pillar">
+                    <term xml:lang="it">Pilastro</term>
+                    <term xml:lang="en">Pillar</term>
+                </item>
+                <item xml:id="block">
+                    <term xml:lang="it">Blocchi muratura</term>
+                    <term xml:lang="en">Masonry blocks</term>
+                </item>
+                <item xml:id="instrumentum">
+                    <term xml:lang="it">Instrumentum</term>
+                    <term xml:lang="en">Instrumentum</term>
+                </item>
+                <item xml:id="sarcophagus">
+                    <term xml:lang="it">Sarcofago</term>
+                    <term xml:lang="en">Sarcophagus</term>
+                </item>
+                <item xml:id="column">
+                    <term xml:lang="it">Colonna</term>
+                    <term xml:lang="en">Column</term>
+                </item>
+                <item xml:id="column_base">
+                    <term xml:lang="it">Base ricavata da colonna</term>
+                    <term xml:lang="en">Column base</term>
+                </item>
+                <item xml:id="column_imoscapus">
+                    <term xml:lang="it">Parte inferiore del fusto di colonna</term>
+                    <term xml:lang="en">Column imoscapus</term>
+                </item>
+                <item xml:id="column_scapus">
+                    <term xml:lang="it">Fusto di colonna</term>
+                    <term xml:lang="en">Column scapus</term>
+                </item>
+                <item xml:id="column_summoscapus">
+                    <term xml:lang="it">Parte superiore di fusto di colonna</term>
+                    <term xml:lang="en">Column summoscapus</term>
+                </item>
+                <item xml:id="column_half-column">
+                    <term xml:lang="it">Semicolonna</term>
+                    <term xml:lang="en">Half-column</term>
+                </item>
+                <item xml:id="step">
+                    <term xml:lang="it">Gradino anfiteatrale</term>
+                    <term xml:lang="en">Amphitheatrical step</term>
+                </item>
+                <item xml:id="flooring">
+                    <term xml:lang="it">Pavimento</term>
+                    <term xml:lang="en">Floor</term>
+                </item>
+                <item xml:id="coin">
+                    <term xml:lang="it">Moneta</term>
+                    <term xml:lang="en">Coin</term>
+                </item>
+                <item xml:id="rock">
+                    <term xml:lang="it">Roccia viva</term>
+                    <term xml:lang="en">Rock</term>
+                </item>
+                <item xml:id="unknown">
+                    <term xml:lang="it">Sconosciuto</term>
+                    <term xml:lang="en">Unknown</term>
+                </item>
+                <item xml:id="funerary_altar">
+                    <term xml:lang="it">Altare sepolcrale</term>
+                    <term xml:lang="en">Funerary altar</term>
+                </item>
+                <item xml:id="medallion">
+                    <term xml:lang="it">Medaglione</term>
+                    <term xml:lang="en">Medallion</term>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>

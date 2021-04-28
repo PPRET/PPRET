@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Concordia Sagittaria recording an anonymous praet. prefect of Illyricum</title>
+                <editor role="edition">Irene Vagionakis</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="p. 1006">95</idno>
+                <date when="2020-06-09"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#anonymous">Anonymous praetorian prefect of Illyricum</persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Portogruaro">Portogruaro (Venezia), Museo Nazionale Concordiese</repository>
+                        <idno type="invNo">inv. 246</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#burial">burial inscription</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#limestone">limestone</material>
+                                    <objectType ref="#sarcophagus">sarcophagus</objectType>
+                                    <dimensions>
+                                        <height>43</height>
+                                        <width>88</width>
+                                        <depth>unknown</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">no</rs>
+                                    <rs type="monument_reuse">no</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#damaged">Damaged: some letters are ruined.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <height>unknown</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Iulia Concordia</placeName>
+                                <placeName type="modern_city">Concordia Sagittaria (Italy)</placeName>
+                                <placeName type="province">Venetia et Histria</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#burial">burial space: Levante necropolis</placeName>
+                            </origPlace>
+                            <origDate period="#p8" notBefore="0392" notAfter="0396">392/396 AD</origDate>
+                        </origin>
+                        <provenance type="found">found in 1873 at <placeName ref="#">Concordia Sagittaria (Venezia)</placeName>, Levante necropolis</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                    <ab>
+                        <lb n="1"/>Saturninus <expan><abbr>centen<lb 
+                            break="no" n="2"/>ar</abbr><ex>ius</ex></expan> ex <expan><abbr>off</abbr><ex>icio</ex></expan> <expan><abbr>praef</abbr><ex>ecti</ex></expan> <expan><abbr>Illir</abbr><ex>ici</ex></expan>
+                        <lb n="3"/><expan><abbr>Dac</abbr><ex>iae</ex></expan> <expan><abbr>Rip</abbr><ex>ensis</ex></expan>; amici hore (?) sep<lb 
+                            break="no" n="4"/>ultus.
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on Hoffmann 1963.</p>
+                <p>
+                <app loc="2"><note>Illyr(ici)</note></app>
+                <app loc="3"><note>amici cura / opera: CIL in comm.</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“Saturninus centenarius, member of the officium of the praetorian prefect of Illyricum of the Dacia Ripensis, buried by a friend.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“...”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“Saturninus <foreign>centenarius</foreign>, membro dell’<foreign>officium</foreign> del prefetto pretorio dell’Illirico della Dacia Ripensis, sepolto da un amico.”</p>
+            </div>
+            <div type="commentary">
+                <p>The inscription records an unmentioned praetorian prefect of Illyricum relatively to the province of Dacia Ripensis. The man for which the epitaph was placed, the centenarius Saturninus, was a member of his officium.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>CIL V, 8771</ref></bibl>
+                    <bibl><ref>ILCV 509</ref></bibl>
+                    <bibl><ref>ILS 1962</ref></bibl>
+                    <bibl><ref>Lettich 1983, nr. 11</ref></bibl> 
+                    <bibl><ref>Hoffmann 1963, p. 56, nr. 38</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-05401570">EDCS 05401570</ref></bibl>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR097919">EDR 097919</ref></bibl>
+                    <bibl><ref corresp="http://lupa.at/29308">Ubi erat Lupa 29308</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Hoffmann D., Die spätrömische Soldatengrabinschriften von Concordia, MH, 20, 1963, 22-57</bibl>
+                    <bibl>Lettich G., Le iscrizioni sepolcrali tardoantiche di Concordia, Trieste 1983</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                    <p n="1.4"></p>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.2">praef(ecti) Illir(ici)</p>
+                    <p n="8.5"></p>
+                    <p n="8.9"></p>
+                    <p n="8.12"></p>
+                    <p n="8.14"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

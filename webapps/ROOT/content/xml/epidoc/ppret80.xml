@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription in honour of the late praet. prefect Praetextatus, from Rome</title>
+                <editor role="edition">Pierfrancesco Porena, Irene Vagionakis</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="pp. 722-724">80</idno>
+                <date when="2020-06-23"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Praetextatus"><name type="gentilicium">Vettius</name>
+                        <name type="gentilicium">Agorius</name>
+                        <name type="cognomen">Praetextatus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Roma">Roma, Palazzo Massimo alle Colonne</repository>
+                        <idno type="invNo"/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect Praetextatus</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#base">statue base</objectType>
+                                    <dimensions>
+                                        <height>79</height>
+                                        <width>61</width>
+                                        <depth>unknown</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">no</rs>
+                                    <rs type="monument_reuse">no</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#undamaged">Undamaged.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <height>2.5 / 3</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Roma</placeName>
+                                <placeName type="modern_city">Rome (Italy)</placeName>
+                                <placeName type="province">Urbs</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#private">private building: Pretextatus’s <foreign>domus</foreign></placeName>
+                            </origPlace>
+                            <origDate period="#p8" notBefore="0384" notAfter="0400">384 AD or later?</origDate>
+                        </origin>
+                        <provenance type="found">found in the 16th Century in <placeName ref="#Roma">Rome</placeName> on the Aventine, near the church of S. Alessio</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                    <ab>
+                        <lb n="1"/>Vettio Agorio Praetextato, <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> et <expan><abbr>inl</abbr><ex>ustri</ex></expan>,
+                        <lb n="2"/>correctori Tusciae et Umbriae,
+                        <lb n="3"/>consulari Lusitaniae, proconsuli
+                        <lb n="4"/>Achaiae, <expan><abbr><hi rend="supraline">praef</hi></abbr><ex>ecto</ex></expan> <expan><abbr><hi rend="supraline">urb</hi></abbr><ex>i</ex></expan>, <expan><abbr><hi rend="supraline">praef</hi></abbr><ex>ecto</ex></expan> praetorii
+                        <lb n="5"/>Illyrici Italiae et Africae, <expan><abbr><hi rend="supraline">cons</hi></abbr><ex>uli</ex></expan> designato,
+                        <lb n="6"/>legato amplissimi ordinis septies
+                        <lb n="7"/>et ad impetrandum <expan><abbr>reb</abbr><ex>us</ex></expan> arduis
+                        <lb n="8"/>semper opposito
+                        <lb n="9"/>parenti publice <expan><abbr>privatimq</abbr><ex>ue</ex></expan> reverendo,
+                        <lb n="10"/>ut etiam <sic>statuae</sic> ipsius domus
+                        <lb n="11"/>honoraret, insignia constitui
+                        <lb n="12"/>locarique curavit.
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on CIL.</p>
+                <p>
+                    <app loc="10"><note>statua</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“To Vettius Agorius Praetextatus, of clarissimus and most illustrious rank, corrector of Tuscia and Umbria, consular of Lusitania, proconsul of Achaia, urban prefect, praetorian prefect of Illyricum, Italy and Africa, designated consul, legate of the widest rank seven times and always opposed to causing adversities, a parent revered publicly and privately, in order to honour his own <foreign>domus</foreign> also with a statue, he (?) took care that (this) honour were set up and placed.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“...”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“A Vettius Agorius Praetextatus, chiarissimo e illustrissimo, correttore della Tuscia e dell’Umbria, consulare della Lusitania, proconsole d’Acaia, prefetto urbano, prefetto del pretorio dell’Illirico, d’Italia e d’Africa, console designato, legato della classe più ampia per sette volte e sempre contrario al causare avversità, un genitore riverito pubblicamente e privatamente, al fine di onorare la sua <foreign>domus</foreign> anche con una statua, ha curato che (questo) onore fosse realizzato e posto.”</p>
+            </div>
+            <div type="commentary">
+                <p>...</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>CIL VI, 1777</ref> (pp. 855, 3174, 3814, 4757)</bibl>
+                    <bibl><ref>ILS 1258</ref></bibl>
+                    <bibl><ref>Niquet 2000, pp. 247-252 </ref>= <bibl><ref>AE 2000, 102</ref></bibl></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p>
+                    <bibl><ref>SupplIt Imagines - Roma V, 5349</ref></bibl> 
+                </p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR128718">EDR 128718</ref></bibl>
+                    <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-1472">LSA 1472</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Niquet H., Monumenta virtutum titulique: senatorische Selbstdarstellung im spätantiken Rom im Spiegel der epigraphischen Denkmäler, Stuttgart 2000 (247-252)</bibl>
+                    <bibl>Rüpke J., Fasti sacerdotum: die Mitglieder der Priesterschaften und das sakrale Funktionspersonal römischer, griechischer, orientalischer und jüdisch-christlicher Kulte in der Stadt Rom von 300 v. Chr. bis 499 n. Chr., Stuttgart 2005 (1363-1364, nr. 3468)</bibl> 
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.a"></p>
+                    <p n="2.3"></p>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">v(iro) c(larissimo) et inl(ustri)</p>
+                    <p n="8.2">praef(ecto) praetorii Illyrici Italiae et Africae</p>
+                    <p n="8.3"></p>
+                    <p n="8.6"></p>
+                    <p n="8.12"></p>
+                    <p n="8.14"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

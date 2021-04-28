@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Greek dedicatory epigram of the Great Church of Antioch built by Constantine under the supervision of his praet. prefect Fl. Constantius</title>
+                <editor role="edition">Eleonora Angius</editor>
+                <editor role="encoding">Eleonora Angius</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="new">15</idno>
+                <date when="2020-03-27"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Constantius"><name type="gentilicium">Flavius</name>
+                        <name type="cognomen">Constantius</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#lost">now lost</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#building">Building inscription</term>
+                            <term type="rhythm" ref="#poetry">poetry, (four dactylic hexameters)</term>
+                        </summary>
+                        <textLang mainLang="grc">Greek</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#unknown">unknown</material>
+                                    <objectType ref="#unknown">unknown, probably a slab</objectType>
+                                    <dimensions>
+                                        <height>unknown</height>
+                                        <width>unknown</width>
+                                        <depth>unknown</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">unknown</rs>
+                                    <rs type="monument_reuse">unknown</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Unknown.</p>
+                                    <rs type="execution" ref="#unknown">unknown</rs>
+                                    <rs type="preservation" ref="#unknown">Unknown.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#unknown">unknown (no images available)</term>
+                                <height>unknown</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Antiochiae Syriae</placeName>
+                                <placeName type="modern_city">Antioch (Turkey)</placeName>
+                                <placeName type="province">Syria Coele</placeName>
+                                <placeName type="diocese">Oriens</placeName>
+                                <placeName type="prefecture">(not regional before 326 AD)</placeName>
+                                <placeName type="ancient_location" ref="#public">public place, perhaps adjoining the wall of the Great Church</placeName>
+                            </origPlace>
+                            <origDate period="#p4" notBefore="0325" notAfter="0327">325/327 AD</origDate>
+                        </origin>
+                        <provenance type="found">The inscription was preserved by Malalas (<ref type="source">Mal., Chron., 13, 17</ref>) and lost when the <placeName ref="#Antakya">Church</placeName> was destroyed by an earthquake in 526 AD</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                <ab>
+                    <lb n="1"/>Χριστῷ Κωνσταντῖνος ἐπήπατα οἱκί’ ἔτευξεν
+                    <lb n="2"/>Οὐρανίαις ἀψῖσι πανείκελα παμφανοῶντα,
+                    <lb n="3"/>Κονσταντίου ἄνακτος ὑποδρήσοντος ἐφετμαῖς,
+                    <lb n="4"/>Γοργόνιος δὲ κόμης θαλαμηπόλος ἔργον ὕφανε.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>This epigram is preserved by the manuscript MS O: Cod. Bodleianus Baroccianus 182 (f. 1-321); the edition and interpretation of the text is based on Mitchell 2019, p. 181.</p>
+                <p>
+                    <app loc="1"><note>Κωνστάντιος: IGLSyr. III／1, nr. 832, Thurn 2000, p. 250, Woods 2005, p. 55, Agusta-Boularot 2006, p. 127; Κωνστάντειος: Agosti 2005, p. 23; ἐπήρατα: O, Müller 1839, p. 104, Preger 1891, nr. 111, SGO IV 20／03／03, Agosti 2005, p. 23; ἐπέραιστον οἶκον: IGLSyr. III／1, nr. 832; ἐπέραστον οἶκον: Thurn 2000, p. 250, Woods 2005, p. 55, Agusta-Boularot 2006, p. 127; ἐπήρατον οἶκον: Feissel 2016, p. 1229.</note></app>
+                    <app loc="3"><note>Κωνσταντείου: O, Müller 1839, p. 104, Preger 1891, nr. 111, SGO IV 20／03／03, Agosti 2005, p. 23; Κωνσταντίου: Thurn 2000, p. 250, Woods 2005, p. 55, Agusta-Boularot 2006, p. 127, Feissel 2016, p. 1229; ὑποδρήσσοντος: Müller 1838, p. 104, Preger 1891, nr. 111, SGO IV 20／03／03, Thurn 2000, p. 250, Woods 2005, p. 55, Agosti 2005, p. 23, Agusta-Boularot 2006, p. 127.</note></app>
+                    <app loc="4"><note>θαλαμηπόλον: Müller 1839, p. 104, Preger 1891, nr. 111, IGLSyr. III／1, nr. 832, SGO IV 20／03／03, Thurn 2000, p. 250, Woods 2005, p. 55, Agosti 2005, p. 23, Agusta-Boularot 2006, p. 127.</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>(by Mitchell 2019, p. 181)</p>
+                <p>“Constantine constructed the lovely dwellings for Christ, resembling in every way the vaults of heaven, resplendently gleaming; Constantius acted according to the commands of the ruler; Gorgonius, the comes and cubicularius, accomplished the work.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“Constantin construisit pour le Christ de splendides salles, qui brillent sous tous les aspects comme les voûtes célestes; tandis que Flavius Constantius travailla selon les ordres de son seigneur, Gorgonius, comte e cubiculaire, acheva les travaux.”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“Costantino costruì per Cristo splendidi ambienti, che risplendono simili in ogni aspetto alle volte celesti; mentre Flavius Constantius operava secondo gli ordini del suo signore, Gorgonius, comes e cubicularius, realizzava l’opera.”</p>
+            </div>
+            <div type="commentary">
+                <p>This famous epigram has been preserved by Malalas (<ref type="source">Mal., Chron., 13, 17</ref>). The historian transcribed these verses from an inscription that, according to him, was related to the conclusion of the Great Church of Antioch building works by Constantius II but begun by Constantine in 325 AD. So Malalas – or possibly his source – must have copied the inscription before 526 AD, when the Great Church was destroyed by an earthquake.</p>
+                <p>Therefore our small composition was originally chiselled on a monumental slab, perhaps joined to the wall or close to the gate of Antioch’s Great Church. The habit of recording epigraphic texts is typical of late antiquity historians and Byzantine chroniclers; in particular they transcribed compositions which they deemed to be of literary value. Malalas collected 25 epigrams, making an “epigraphic anthology” of inscriptions now lost, some of which were only mentioned through a summary of the contents without any text.
+                    Even the transcription of the texts was not always autoptic, so they are frequently approximate and are often without precise information about the buildings or the subjects mentioned. For these reasons our epigram presents a series of philological problems, upon which many scholars have expressed their opinions. An overview of the most significant interpretations follows.</p>
+                <p>A recent study by David Woods radically questioned previous editions (see Woods 2005, pp. 54-62). According to him, the two “Constantians” of verse 1 and 3 should be identified respectively with Constantius II and Constantius Gallus, Caesar from 351 to 354 AD, because: a) often literary sources refer to Gallus by calling him only Costantius; b) the <foreign>Comes</foreign> Gorgonius (v. 4) could be identified with the homonymous <foreign>praepositus sacri cubiculi</foreign> mentioned by Ammianus (<ref type="source">Amm. 15, 02, 10</ref>), who had great influence during Gallus’ reign; 
+                    c) the subordinate relationship between two “Constantians” looks like that between an Augustus and a Caesar, rather than between Constantine and his legitimate son. Woods, therefore, did not translate θαλαμηπόλος (v. 4) as the more common <foreign>praepositus sacri cubiculi</foreign> (i.e. Gorgonios’ office), but as a “chapel” donated by him in a church identified by Woods with the martyrium of St. Babila in Daphne, built by Constantius Gallus on Constantius II’s request. The scholar, therefore, dated the epigram between August 350 and May 352 AD.</p>
+                <p>Agosti (2005, pp. 26-28) prefers the traditional interpretation of θαλαμηπόλος as a <foreign>praepositus sacri cubiculi</foreign> due to the lack of attestations of it in the Christian world, confirming its meaning as “chapel”. Indeed, he argued that this word would have been more correct in the nominative, excluding that ἔργον could refer to the adjective, because it is linked to the verb in a stylema (ἔργον ὕφανε, synonym of ἑργάζεσθαι) which was only common from the period after that.</p>
+                <p>Feissel (2016, pp. 1229-1230) agreed in replacing the first one with Constantine, but identified the second one with Constantius II, explaining that the subordination of his son is also attested by Sozomen (<ref type="source">Soz. 03, 05</ref>). He suggested that Woods’s identification with Constantius Gallus was in contrast to the dating of the Great Church of Antioch. Indeed, according to Feissel, Constantine started working on the church in 327 AD, leaving it to be inaugurated by Constantius II in 341 AD, so the inscription has to post date Constantine’s death, between 333 and 337 AD.</p>
+                <p>Finally, Mitchell’s recent contribution and philological reconstruction (2019, pp. 180-184) has led him to add these verses to the catalogue of inscriptions concerning praetorian prefects. Like Müller and more recently Merkelbach and Stauber, Mitchell restored the first verse with Κωνσταντῖνος and with ἐπήπατα (considering ἐπέραιστον metrically in contrast, without attestations and likely corrupted). 
+                    According to Mitchell, the first two verses described the sumptuously decorated spaces of the church of Antioch, whose comparison with the heavenly vault served to evoke its greatness. The scholar excludes the possibility that Constantius at v. 3 could be Constantius II, a fully-fledged regent subordinated to another regent, indeed he suggests this figure could be a high-ranking official, higher than the <foreign>cubicularius</foreign> Gorgonius. 
+                    This high official can be identified as the pretorian prefect of Constantine, Flavius Constantius (PLRE I, p. 225, for his career see <ref type="ppret" corresp="ppret12">PPRET 12</ref>). He was in office from 324 to 327 AD at the same time that the construction of the Great Church of Antioch began. 
+                    During the work, Constantius must have had a significant role: Constantine, probably absent, entrusted supervision to his powerful prefect, as already occured for other military structures in Aila (<ref type="ppret" corresp="ppret14">PPRET 14</ref>). This duty confirms the prefects involvement in all kinds of building programs, military or religious. This epigram, therefore, attests to Flavius Constantius’ ties with Constantine and his legal, administrative and political duties throughout the eastern provinces.</p>
+                <p>According to this last interpretation, our epigram ought to be dated between 325 AD, when work on the Great Church began, and 327 AD, when Flavius Constantius’ mandate as praetorian prefect ended.</p>
+                <p>As regards Gorgonius’ office, Mitchell finally restores θαλαμηπόλος (in the nominative case) since it specifically refers to Gorgonius’ rank. Not only can the latter be identified both with the <foreign>praepositus sacri cubiculi</foreign>, attested when the Church of Antioch’s building began (PLRE I, p. 398 Gorgonius 2), but also with the <foreign>cubicularius</foreign> mentioned by Ammianus (<ref type="source">Amm. 15, 02, 10</ref>) and related to Constantius Gallus (PLRE I, p. 398 Gorgonius 3). 
+                    He assumes that this official had a long term office that probably began under Constantine and lasted until the reign of Constantius Gallus. The structure of the epigram also lends itself to a slightly different interpretation: Flavius Constantius could be the praetorian prefect who started the building following the orders of Constantine in the years 325/327 AD; Gorgonius would be the <foreign>praepositus</foreign>, still active according to Ammianus Marcellinus in 353 AD (<ref type="source">Amm. 15, 02, 10</ref>), who completed the work in 341/342 AD (<ref type="source">Hier., Chron., p. 325, Helm.</ref>); the latter had the inscription drawn up.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Müller 1839, p. 104</ref></bibl>
+                    <bibl><ref>Preger 1891, nr. 111</ref></bibl>
+                    <bibl><ref>IGLS III／1, 832</ref></bibl>
+                    <bibl><ref>Thurn 2000, p. 250</ref></bibl>
+                    <bibl><ref>SGO IV 20／03／03</ref></bibl>
+                    <bibl><ref>Woods 2005, p. 55</ref></bibl>
+                    <bibl><ref>Agosti 2005, p. 23</ref></bibl>
+                    <bibl><ref>Agusta-Boularot 2006, pp. 127-129</ref></bibl>
+                    <bibl><ref>Feissel 2016, p. 1229</ref></bibl>
+                    <bibl><ref>Mitchell 2019, p. 181</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="https://inscriptions.packhum.org/text/242914?hs=233-244">PH 242914</ref></bibl>            
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Agosti G., Miscellanea epigrafica I. Note letterarie a carmi epigrafici tardoantichi, MEG 5, 2005, 23-29</bibl>
+                    <bibl>Agusta-Boularot S., Malalas épigraphiste? Nature et fonction des citations épigraphiques dans la Chronique, in Recherches sur la Chronique de Jean Malalas, Actes II, Actes du colloque “Jean Malalas et l’histoire” organisé les 21 et 22 octobre 2005 à Aix-en-Provence, Paris 2006, 127-129</bibl> 
+                    <bibl>Chilmeadus E., Johannis Antiocheni cognomento Malalae Historia Chronica, Oxonii 1691</bibl>
+                    <bibl>Downey R. G. E., References to Inscriptions in the Chronicle of Malalas, Trans. Am. Philos. Soc., 66, 1935, 57-59, nr. 17</bibl>
+                    <bibl>Feissel D., L’épigraphie d’Orient, témoin des mutations de l’empire constantinien, in Acta XVI congressus internationalis archaeologiae christianae, Romae 22-28.9.2013, Città del Vaticano 2016, 1229-1230</bibl>
+                    <bibl>Jalabert L., Mouterde R., Inscriptions grecques et latines de la Syrie, Vol. III/ 1, Paris 1950, nr. 832</bibl>
+                    <bibl>Merkelbach R., Stauber J., Steinepigramme aus dem griechischen Osten, Band 4: Die Südküste Kleinasiens, Syrien und Palaestina, München-Leipzig 2002, 243-244</bibl>
+                    <bibl>Mitchell S., Constantine, Flavius Constantius praef. praet., and the Great Church at Antioch, ZPE, 210, 2019, 180-184</bibl>
+                    <bibl>Müller K. O., Antiquitates Antiochenae: commentationes duae, Göttingen 1839, 104, nt. 18</bibl>
+                    <bibl>Preger T., Inscriptiones Graecae metricae ex scriptoribus praeter Anthologiam collectae, Lipsia 1891, 91-92</bibl>
+                    <bibl>Thurn H., Ioannis Malalae Chronographia, Berlin 2000, 250</bibl>
+                    <bibl>Woods D., Malalas, “Constantius”, and a Church-Inscription from Antioch, Vig. Chr., 59, 2005, 54-62</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.4">The praetorian prefect was a supervisor of the construction of the Great Church of Antioch.</p>
+                </div>
+                
+                <div type="commentary" n="7">
+                    <p n="7.5"></p>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.5"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

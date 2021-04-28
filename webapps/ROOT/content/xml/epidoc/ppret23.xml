@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Two fragments of prefectural letters from Delphi to the Apollo’s priest Felicianus by three praet. prefects</title>
+                <editor role="edition">Eleonora Angius</editor>
+                <editor role="encoding">Eleonora Angius</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="new">23</idno>
+                <date when="2020-06-12"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Leontius"><name type="praenomen">Flavius</name>
+                            <name type="gentilicium">Domitius</name>
+                            <name type="cognomen">Leontius</name></persName>
+                    </person>
+                    <person>
+                        <persName ref="#Titianus"><name type="gentilicium">Flavius</name>
+                            <name type="cognomen">Titianus</name></persName>
+                    </person>
+                    <person>
+                        <persName ref="#Placidus"><name type="praenomen">Marcus</name>
+                            <name type="gentilicium">Maecius</name>
+                            <name type="gentilicium">Memmius</name>
+                            <name type="gentilicium">Furius</name>
+                            <name type="cognomen">Baburius</name>
+                            <name type="cognomen">Caecilianus</name>
+                            <name type="cognomen">Placidus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Delphi">Museum of Delphi</repository>
+                        <idno type="invNo">inv. 1647, inv. 4077</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#normative">Legislative inscription (two official letters from praet. prefects to a priest)</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="grc">Greek</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">white marble</material>
+                                    <objectType ref="#stone_slab">slab</objectType>
+                                    <dimensions corresp="inv. 1647">
+                                        <height>40</height>
+                                        <width>24</width>
+                                        <depth>7</depth>
+                                    </dimensions>
+                                    <dimensions corresp="inv. 4077">
+                                        <height>17</height>
+                                        <width>15</width>
+                                        <depth>7</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">unknown</rs>
+                                    <rs type="monument_reuse">unknown</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#fragmentary">Fragmentary: the first fragment (the bigger one, inv.1647) preserves the right side of the slab, the second one is a part of the left side (see Vatin 1965, p. 258).</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#unknown">unknown (no images available)</term>
+                                <height>1</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Delphi</placeName>
+                                <placeName type="modern_city">Delphi (Greece)</placeName>
+                                <placeName type="province">Achaia</placeName>
+                                <placeName type="diocese">Macedonia</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#public">public space (public archive of Delphi)</placeName>
+                            </origPlace>
+                            <origDate period="#p5" notBefore="0342" notAfter="0344">342/344 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#">Delphi</placeName>, but the specific provenance is unknown</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                <div type="textpart" subtype="letter" n="1">      
+                    <ab>
+                        <lb n="0"/><note>First Letter</note>
+                        <lb n="1"/><supplied reason="lost">Ἐπιστολαὶ δαμιουργ</supplied>ῶν δόγματι ἐσφ<supplied reason="lost">ρα</supplied><lb break="no" n="2"/><supplied reason="lost">γισμέναι καὶ εἰς τὰ δημ</supplied>όσια χαραχθεῖσαι.
+                        <lb n="3"/><space extent="unknown" unit="character"/>
+                        <lb n="4"/><supplied reason="lost"><expan><abbr>Φλ</abbr><ex>αούιος</ex></expan> <expan><abbr>Δομ</abbr><ex>ίτιος</ex></expan> Λεόντιος</supplied>, <expan><abbr>Φά</abbr><ex>βιος</ex></expan> Τιτιανός, <expan><abbr>Φούρ</abbr><ex>ιος</ex></expan> Πλάκιδος,
+                        <lb n="5"/><supplied reason="lost"><expan><abbr>Φλ</abbr><ex>αουίῳ</ex></expan> Φηλικιανῷ</supplied> ἀπὸ κομήτων χαίρειν. 
+                        <lb n="6"/><supplied reason="lost">Σε τὴν Ἀπόλλωνος τοῦ Πυ</supplied>θίου ἱερωσύνην εὐτυχήσαντα
+                        <lb n="7"/><supplied reason="lost">καὶ πάσαις ταῖς τιμαῖς α</supplied>ὐξηθέντα παρά τε τοῦ ἐν θεοῖς 
+                        <lb n="8"/><supplied reason="lost">Αὐτοκράτορος καὶ τῶν κυρί</supplied>ων ἡμῶν καὶ παρ’αὐτῶν τῶν
+                        <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐπαιν</supplied>ηθέντα, ἄτοπον ἡγούμενοι
+                        <lb n="10"/><supplied reason="lost">ἡμεῖς ἐν αὐτῇ τῄ ἱερωσύ</supplied>νῃ παρά τινος διοχλεῖσθαι
+                        <lb n="11"/><supplied reason="lost">ἐπειδή σε</supplied> <gap reason="lost" extent="unknown" unit="character"/>ια σεμνύνομεν καὶ ἵνα
+                        <lb n="12"/><supplied reason="lost">εἰς</supplied> τὸν ἅπαν<supplied reason="lost">τα χρόνον ἥσυχ</supplied>ος μείνης, ὁρίζομεν εἴ τίς
+                        <lb n="13"/>σοι τοῦ λοιποῦ <gap reason="lost" extent="unknown" unit="character"/>αι καταδίκην ὁρίσοντες
+                        <lb n="14"/>κατ’αὐτοῦ ἡι<gap reason="lost" extent="unknown" unit="character"/>ωσθεὶς καὶ ζημιωθεὶς εὑ<lb break="no" n="15"/>ρίσκοιτο· ἐρρῷ<supplied reason="lost">σθαί σε κα</supplied>ὶ εὐτυχεῖν εὐχόμεθα.
+                    </ab>
+                </div>
+                <div type="textpart" subtype="letter" n="2">  
+                    <ab>
+                        <lb n="0"/><note>Second Letter</note>
+                        <lb n="1"/><expan><abbr>Φλ</abbr><ex>αούιος</ex></expan> <expan><abbr>Δομ</abbr><ex>ίτιος</ex></expan> Λεό<supplied reason="lost">ντιος, <expan><abbr>Φά</abbr><ex>βιος</ex></expan> Τ</supplied>ιτιανός, <expan><abbr>Φού</abbr><ex>ριος</ex></expan> Πλάκιδος 
+                        <lb n="2"/><expan><abbr>Φλ</abbr><ex>αουίῳ</ex></expan> Φηλι<supplied reason="lost">κιανῷ</supplied> ἀπὸ κομήτων χαίρειν. 
+                        <lb n="3"/><space extent="unknown" unit="character"/>
+                        <lb n="4"/><supplied reason="lost">Τῷ Ἀπόλλωνι τῷ Πυ</supplied>θίῳ ἱερᾶσθαι καὶ τὴν τοῦ
+                        <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>τελεῖσθαι διὰ τὸ παρά σου
+                        <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τῶ</supplied>ν σοι πεπραγμένω<supplied reason="lost">ν</supplied>
+                        <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>ε ἐπειδὴ οὐδεμ<supplied reason="lost">ία</supplied>
+                        <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>τῇδε χωρεῖν <gap reason="lost" extent="unknown" unit="character"/>.
+                    </ab>    
+                </div>
+            </div>
+            <div type="apparatus">
+                <p>This unpublished text is based on Vatin 1965 with a different at l. 7 of fragment inv. 1647 suggested by Feissel 2016, p. 1126.</p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>(according to the integrations of the critical apparatus)</p>
+                <p>(inv. 1647): “Letters sealed by decision of the demiurges and engraved in the public archives.</p>
+                <p>Fl(avius) Dom(itius) Leontius, Fa(bius) Titianus, Fur(ius) Placidus to the former comes Fl(avius) Felicianus greeting. We find it inadmissible that you, who have successfully performed the priesthood of Pythian Apollo and who have been elevated to all honours by [the emperor] who is among the gods (Constantine) [father of] our masters (Constantius and Constans), and who have been praised by the same [our emperors], should be harassed by anyone in the very performance of your priesthood, [and since] we revere you and so that you may stay in peace all the time, we decree that, if anyone [- - -] bother you from now on, we will sentence against him who [- - - -], found guilty, shall be expelled and fined. We wish you health and wellness.”</p>
+                
+                <p>(inv. 4077): “Fl(avius) Dom(itius) Leontius, Fa(bius) Titianus, Fur(ius) Placidus to the former comes Fl(avius) Felicianus greeting. [- - -] to have been consecrated to Pythian Apollo [- - -] to be performed by you through [- - -] and acts  done by you [- - -] since no [- - -] admitting that [- - -].”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>(by Vatin 1965)</p>
+                <p>(inv. 1647): “Lettres enregistrées par décret des damiourges et gravées dans les archives publiques.</p>
+                <p>Fl(avius) Dom(itius) Leontius, Fab(ius) Titianus, Fur(ius) Placidus à Fl(avius) Felicianus ex comitibus, Salut! Estimant inadmissible que toi, qui as exercé le sacerdoce d’Apollon Pythien avec succés, qui fus comblé de tous les honneurs par le bienhereux Empereur défunt et par Nos Seigneurs, qui fus chargé de louanges par les [- - -] eux-mêmes, tu sois troublé par quelqu’un dans l’exercice même de ton sacerdoce, étant donné le respect que nous portons à [- - -] et afin que tu demeures en paix à l’avenir, nous décrétrons que si quelqu’un désormais [- - -] nous prononcerions contre lui condemnation par laquelle il se trouverait [- - -] et puni d’amende. Nous te souhaitons santé et prosperité!</p>
+                <p>(inv. 4077): “Fl(avius) Dom(itius) Leontius, Fab(ius) Titianus, Fur(ius) Placidus à Fl(avius) Felicianus ex comitibus, Salut! L’exercice de ton sacerdoce d’Apollon Pythion et la célébration [- - -] grâce à toi [- - -] et tes actes [- - -] puisqu’aucune [- - -].”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>(according to the integrations of the critical apparatus)</p>
+                <p>(inv. 1647): “Lettere autenticate con il sigillo per decisione dei demiurghi e incise nell’archivio pubblico.</p>
+                <p>Fl(avius) Dom(itius) Leontius, Fab(ius) Titianus, Fur(ius) Placidus salutano Fl(avius) Felicianus ex comitibus. Poiché riteniamo inammissibile che tu, che hai esercitato con successo il sacerdozio di Apollo Pitico, che sei stato glorificato con tutti gli onori da parte dell’imperatore ormai tra gli dèi [padre dei nostri] signori e lodato da parte dei [nostri imperatori] stessi, noi impediremo che tu venga disturbato da chiunque nell’esercizio stesso del tuo sacerdozio, poiché ti portiamo rispetto [- - -] e affinché tu possa stare tranquillo per tutto il tempo, decretiamo che se qualcuno d’ora in poi ti molesterà [- - -] sentenzieremo contro di lui che [- - -], trovato colpevole, sia espulso e multato. Ti auguriamo che tu abbia salute e prosperità.</p>
+                <p>(inv. 4077): “Fl(avius) Dom(itius) Leontius, Fab(ius) Titianus, Fur(ius) Placidus salutano Fl(avius) Felicianus ex comitibus. [- - -] essere consacrato ad Apollo Pitico e la [- - -] venga celebrata da parte tua attraverso [- - -] e le cose che sono state fatte da te [- - -] poiché nessuna [- - -] ammettere questa [- - -].”</p>
+            </div>
+            <div type="commentary">
+                <p>These two fragments of letters put up by a prefectural college and adressed to Felicianus the priest of Apollo were discovered at Delphi and are still unpublished. Greek text and translation are based on Claude Vatin’s transcription and restoration (1965); they are corroborated by Polymnia Athanassiadi, who recently verified the Greek text of the two fragments in the Delphi Museum (1991, p. 277, note 55). These two fragments were part of a white marble slab originally mounted upon Delphi’s public archives and, in spite of numerous gaps, it is possible to understand the topic since many passages have been carefully restored (wherever possible) by Vatin.</p>
+                <p>The two letters were an official announcement of the prefectural college, consisting of Fabius Titianus (PLRE I, 918) prefect of Gaul, Domitius Leontius (PLRE I, 548; concerning his career see also <ref type="ppret" corresp="ppret24">PPRET 24</ref>) prefect of the East and Placidus (PLRE I, 705; about his career see also <ref type="ppret" corresp="ppret25">PPRET 25</ref>) prefect of Italy, Africa and Illyricum, listed in chronological order of appointment to the office. 
+                    This inscription is the only one to attest to this prefectural college, a college which parallels the one set up by Augusta Traiana (<ref type="ppret" corresp="ppret22">PPRET 22</ref>): it was formed by the same praetorian prefects except for Placidus, who succeeded Marcellinus probably in 342 AD. It is possible to date our inscription to between the second half of 342 and the first half of 344 AD, using as a yardstick the mandate of Fabius Titianus (341-349 AD), Domitius Leontius (340-344 AD) and Memmius Baburius Placidus (342-344 AD). At the end of 341 AD Marcellinus was still in office while Placidus was not yet elected. 
+                    On July 6<hi rend="superscript">th</hi>, 342 AD, Catullinus became <foreign>praefectus urbi</foreign> and so ceased being praetorian prefect, while Titianus at the same moment must already have been praetorian prefect of Gaul. Concerning the <foreign>terminus ante quem</foreign>, Placidus was prefect on May 28<hi rend="superscript">th</hi> 344 AD (<ref type="source">CTh 12, 01, 037</ref>); Leontius on July 6<hi rend="superscript">th</hi> 344 AD (<ref type="source">CTh 13, 04, 03</ref>).</p>
+                <p>The three prefects replied to a complaint made by the priest of Apollo Flavius Felicianus, who was demanding protection against disturbances to his priesthood. The actual author of the letter was probably Placidus, because Delphi was under his own jurisdiction; the text was probably written in Latin and translated in Greek by order of the δαμιουργοὶ (see Feissel 2016, pp. 1225-1226).</p>
+                <p>Felicianus, ἀπὸ κομήτων / <foreign>ex comitibus</foreign>, “who has merited the priesthood of Pythian Apollo” and “who has been raised to every single honour by our deified [ἐν θεοῖς] emperor” (Lenski 2016, p. 216), was appointed by Constantine first as <foreign>comes Orientis</foreign> in 335 in Antioch, and then as <foreign>consul prior</foreign> together with Fabius Titianus in 337 AD (PLRE I, 330-331; Barnes 1982, p. 142; CLRE, pp. 208-209; Rinaldi 2015, pp. 27-29; Bodnaruk 2019, pp. 132-133, 217). 
+                    Although scholars are unanimous in the identification, the decision to mention his rank of ‘<foreign>comes</foreign>’ and not the higher ‘consular rank’ (ἀπὸ ὑπάτων or <foreign>vir consularis</foreign>) in the prefectural letter is doubtful. 
+                    Furthermore, Felicianus is explicitly mentioned by Malalas as the first <foreign>comes Orientis</foreign> of Christian faith in 335 AD (<ref type="source">Mal., Chron., 13, 04</ref>). Our Felicianus, priest of Apollo, was a pagan. It is generally believed that Malalas is wrong, also because in the passage he attributes to the praetorian prefect Rufinus the construction of the great Basilica of Antioch during the reign of Constantine, while Rufinus was the prefect of Theodosius I in 392-395 AD.</p>
+                <p>In a <foreign>tabula patronatus</foreign> of Paestum (CIL X, 476) Felicianus’ name suffered <foreign>damnatio memoriae</foreign>. According to Athanassiadi (2015, p. 276), his name was erased because he was a relative of Constantine: after his death Felicianus may have lost the emperor’s protection and in view of the struggle for succession, he prudently retreated to the sanctuary of Apollo, where he held the priesthood of Delphi’s oracle. 
+                    Since Felicianus was not the only name that was erased, Lenski (2016, p. 224) suggested that Felicianus’name suffered <foreign>damnatio</foreign> due to Constantius II constitution of 341 AD, whose incipit says: <foreign>cesset superstitio sacrificiorum aboletur insania</foreign> (<ref type="source">CTh 16, 10, 02</ref>). 
+                    In fact, some time later the names of several pagan officials were erased from the monument of Paestum and replaced with Christians names. In a city where pagan temples to Poseidon, Hera and Athena still stood as symbols of a pagan cult that was very much alive, its citizens probably thought that Christians protectors would better defend their religious interests (see Lensky 2016, pp. 223-224). According to the scholar, the same edict and also some conflicts with Constantius II upset pagan priesthoods.</p>
+                <p>It is possible that Felicianus personally addressed his colleague in consulate Fabius Titianus (Athanassiadi 2015, p. 276), who was praetorian prefect and also a pagan priest (<foreign>quindicemvir sacris fanciundis</foreign>, see ILS 8983), so, according to Lensky (2016, p. 224), he could have same religious ideas. 
+                    The praetorian prefects promised that any further assaults would lead to exile for the troublemaker and that Felicianus should continue to officiate unmolested. The problem was thus resolved by the prefects with diligence and respect towards the priest in light of the honours he had had received from Constantine and his sons. 
+                    The letters do not suggest that Felicianus was related to Constantine (as Athanassiadi suggested), and it is unlikely that it had anything to do with any kind of religious conflict with Constantius II, as Lensky (2016, p. 216) thought (Delphi was in the <foreign>pars</foreign> of Constans). 
+                    It is also clear that, even if the edict prevented sacrifices, the emperor did not intend to abolish the worship of Apollo. As Vatin claimed (Vatin 1965, pp. 263-264), the troublemakers were probably Christians who were sufficiently rowdy to draw the attention of the central power.</p>
+                <p>The prerogatives of these cults were so rooted in the cities’ history that they were still respected, especially at Delphi whose sanctuary had always enjoyed and would continue to enjoy the protection by the imperial power.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Vatin 1965, pp. 258-259</ref></bibl>
+                    <bibl><ref>Barnes 2011, pp. 142-143</ref> (partial English translation)</bibl>
+                    <bibl><ref>Athanassiadi 2015, p. 276</ref> (partial English translation)</bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Athanassiadi P., The Fate of Oracles in Late Antiquity: Didyma and Delphi, Δελτίον της Χριστιανικής Αρχαιολογικής Εταιρείας, 15, (1989-1990), 1991, 271-278, (then: Mutations of Hellenism in Late Antiquity, London 2015, 274-277)</bibl>
+                    <bibl>Barnes T. D., Constantine. Dynasty, religion and power in the later Roman Empire, Chichester 2011, 142-143</bibl> 
+                    <bibl>Bodnaruk M., Production of Distinction. The Representation of Senatorial Elites in the Later Roman Empire, 306-395, Doctoral dissertation University of Budapest 2019, 132-133, 217</bibl>
+                    <bibl>Chastagnol A., Les préfets du prétoire de Constantin, REA, 70, 1968, 336</bibl>
+                    <bibl>Feissel D., L’épigraphie d’Orient, témoin des mutations de l’empire constantinien, in Acta XVI congressus internationalis archaeologiae christianae, Romae 22-28.9.2013, II, Città del Vaticano 2016, 1225-1226</bibl>
+                    <bibl>Lensky N., Constantine and the Cities. Imperial Authority and Civic Politics, Philadelphia 2016, 216-217, 224</bibl>
+                    <bibl>Rinaldi G., Antiochia nel secolo quarto: interazioni tra pagani e cristiani e note prosopografiche, Stud. Mat. Stor. Rel., 81, 2015, 28-29</bibl>
+                    <bibl>Vatin C., Delphes à l’époque impériale, Paris 1965 (Thèse de 3e cycle inédite, soutenue à la Sorbonne le 25 mai 1965, déposée à l’Université), 258-264</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.3"/>
+                </div>
+                
+                <div type="commentary" n="6">
+                    <p n="6.b"/>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.5"/>
+                    <p n="8.11"/>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

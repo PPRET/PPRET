@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription in honour of the praet. prefect Caecilianus Placidus from Puteoli by the Regio Palatina</title>
+                <editor role="edition">Eleonora Angius</editor>
+                <editor role="encoding">Eleonora Angius</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="pp. 705-706">25</idno>
+                <date when="2020-03-27"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Placidus"><name type="praenomen">Marcus</name>
+                        <name type="gentilicium">Maecius</name>
+                            <name type="gentilicium">Memmius</name>
+                            <name type="gentilicium">Furius</name>
+                            <name type="cognomen">Baburius</name>
+                            <name type="cognomen">Caecilianus</name>
+                            <name type="cognomen">Placidus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Florence">National Archaeological Museum of Florence, “cortile dei Fiorentini” (from 1868)</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect Caecilianus Placidus by <foreign>Regio Palatina</foreign> of Puteoli</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#base">statue base</objectType>
+                                    <dimensions>
+                                        <height>63</height>
+                                        <width>66</width>
+                                        <depth>62.5</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">yes, this block was originally a funerary altar, as we can deduce from the surviving <foreign>patera</foreign> on the right side and an <foreign>urceus</foreign>, which were visible during Renaissance and now lost (see Ciampoltrini 2002, p. 91).</rs>
+                                    <rs type="monument_reuse">yes, our base was reduced on the lower side, worked into a circular shape (the corners were chiselled away) and excavated on its upper surface in order to be converted into a drinking trough when it was at Rocca di Porto Ercole.</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#damaged">Damaged: our base is missing its lower half, reduced by 50%; we can read only the upper side and about ten lines of writing are lost.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <height>2.8 / 3.5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Puteoli</placeName>
+                                <placeName type="modern_city">Pozzuoli (Naples, Italy)</placeName>
+                                <placeName type="province">Campania</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#public">public place</placeName>
+                            </origPlace>
+                            <origDate period="#p5" notBefore="0343" notAfter="0346">343/346 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#">Pozzuoli</placeName>, first seen around the 16th Century in Naples by some humanists (see commentary below), before being brought to Rocca di Porto Ercole a century later (Grosseto).</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                    <ab>
+                        <lb n="1"/><expan><abbr>M</abbr><ex>arco</ex></expan> Maecio Memmio Furio Baburi<supplied reason="lost" evidence="previouseditor">o</supplied>
+                        <lb n="2"/>Caeciliano Placido, <expan><abbr>c</abbr><ex>larissimo</ex></expan> <expan><abbr>v</abbr><ex>iro</ex></expan>,
+                        <lb n="3"/>pontifici m<supplied reason="lost" evidence="previouseditor">ai</supplied>ori, auguri pu<lb 
+                            break="no" n="4"/>blico <expan><abbr>p</abbr><ex>opuli</ex></expan> <expan><abbr>R</abbr><ex>omani</ex></expan> Quiritium, quindec<supplied reason="lost" evidence="previouseditor">em</supplied><lb 
+                            break="no" n="5"/>viro sacris faciundis, corr<supplied reason="lost" evidence="previouseditor">ec</supplied><lb 
+                            break="no" n="6"/>tori Venetiarum et Histria<supplied reason="lost" evidence="previouseditor">e</supplied>,
+                        <lb n="7"/>praefecto annonae urbi<unclear>s</unclear>
+                        <lb n="8"/><supplied reason="lost" evidence="previouseditor">s</supplied>acrae cum iure gl<unclear>ad</unclear>ii, comi<supplied reason="lost" evidence="previouseditor">ti</supplied>
+                        <lb n="9"/><supplied reason="lost" evidence="previouseditor">ordi</supplied><unclear>n</unclear>is primi, <unclear>com</unclear><supplied reason="lost" evidence="previouseditor">iti</supplied> <supplied reason="lost" evidence="previouseditor">Orientis</supplied>,
+                        <lb n="10"/><supplied reason="lost" evidence="previouseditor">Aegypti et Mesopotamiae, iudi<lb 
+                            break="no" n="11"/>ci sacrarum cognitionum
+                        <lb n="12"/>tertio, iudici iterum ex de<lb 
+                            break="no" n="13"/>legationibus sacris, prae<lb 
+                            break="no" n="14"/>fecto praetorio et iudici
+                        <lb n="15"/>sacrarum cognitionum
+                        <lb n="16"/>tertio, consuli ordinario,
+                        <lb n="17"/>patrono <sic>prestantissimo</sic>,
+                        <lb n="18"/>regio Palatina
+                        <lb n="19"/>posuit</supplied>. <g ref="palma"/>
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>This edition is based on CIL X, 1700 and EDR 153006 (G. Camodeca), that restored through 16th Century manuscripts the lower side of the inscription, now lost (see commentary below).</p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“To Marcus Maecius Memmius Furius Baburius Caecilianus Placidus, of clarissimus rank, who was major pontiff, public augur of the Roman people of Quirites, member of the college of fifteen for sacred rites, corrector of Venetiae and Histria, prefect of the Annona of the sacred city with jurisdiction over life or death, count of the first order, count of the East, Egypt and Mesopotamia, judge with the faculty to institute sacred trials for three times, for the second time judge authorized to the sacred trials, praetorian prefect and judge with the faculty to institute sacred trials for the third time, ordinary consul, very prodigal patron, the Regio Palatina set up.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“A Marcus Maecius Memmius Furius Baburius Caecilianus Placidus, clarissime, pontife majeur, augure public du peuple romain des Quirites, quindécemvir chargé des rites sacrés, correcteur des Vénéties et d’Histrie, préfet de l’annone de la ville sacrée avec droit de condamnation à mort, comte de premier ordre, comte d’Orient, d’Egypte et de Mésopotamie, juge avec la faculté d’instituer des procès sacrés à trois reprises, à nouveau juge avec délégation aux procès sacrés, préfet du prétoire et juge avec la faculté d’instituer des procès sacrés pour la troisième fois, consul ordinaire, patron très généreux, la région Palatine a posé.”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“A Marcus Maecius Memmius Furius Baburius Caecilianus Placidus, chiarissimo, pontefice maggiore, augure pubblico del popolo romano dei Quiriti, quindecenviro per le cerimonie sacre, correttore delle Venezie e dell’Istria, prefetto dell’annona della città sacra con diritto di condannare a morte, conte del primo ordine, conte d’Oriente, Egitto e Mesopotamia,  giudice con la facoltà di istituire sacri processi per tre volte, di nuovo giudice con deleghe ai sacri processi, prefetto del pretorio e giudice con la facoltà di istituire sacri processi per la terza volta, console ordinario, patrono assai generoso, la Regio Palatina pose.”</p>
+            </div>
+            <div type="commentary">
+                <p>The statue base is a funerary altar: the <foreign>patera</foreign> on the right side can still be seen although the <foreign>urceus</foreign> on the left, was only visible during Renaissance (see Ciampoltrini 2002, 91). It is clear that the base originally stood in Pozzuoli, because <foreign>Regio Palatina</foreign> was known to be one of Pozzuoli’s city quarters (see Camodeca 1977, 70); it was not a district of Naples as some have thought before (see De Rossi 1853, 135).</p>
+                <p>The marble monument has been recorded and described (when it was still undamaged on the streets of Naples) by many humanists between the end of 16th and the beginning of 17th Century. It was seen in the base of the house of G. Ajaccio, a nobleman of Capua, and then at “Vico della Pellecteria” and also in “Somma piazza presso Pozzo Bianco” (see CIL X, 1700, Ciampoltrini 2002, 91). The humanists include Antoine Marillon, a Belgian scholar, Giovanni Giocondo, humanist and lover of epigraphy, Henricus Smetius, a Flemish scholar, Michelangelo Accursio and some others.</p>
+                <p>Through their manuscripts and copies of them, we have been able to restore the entire text, when over half of it was missing (circa ten lines are lost). The marble base would appear to have been damaged around the 17th Century, when it was transferred from Naples to the Fortress of Porto Ercole (Grosseto), after which the block was worked in a circular shape (corners chiselled away) and its upper surface was dug into (40 cm depth), in order to convert it into a drinking trough. Finally, the monument was transferred to the Archaeological Museum of Florence in 1868, where it is still displayed to this day.</p>
+                <p>This inscription and its statue (also lost), was set up in honour of Caecilianus Placidus, who was honoured as a patron by the <foreign>Regio Palatina</foreign>, a city quarter of Puteoli, corresponding to today’s Rione Terra in Pozzuoli.</p>
+                <p>M. Maecius Memmius Furius Baburius Caecilianus Placidus (PLRE I, 705) was an influent member of an aristocratic family of African origin (Gightis, see Camodeca 2018, 398-399). 
+                    His <foreign>cursus honorum</foreign> was typical of a high senatorial man and included priesthoods of the ancient capital (<foreign>pontifex maior</foreign>, <foreign>augur publicus</foreign>, <foreign>quindicemvir sacris faciundis</foreign>). He was <foreign>corrector Venetiarum et Histriae</foreign> and prefect of the Annona at Rome under Constantine around 337 AD, according to Chastagnol (1962, p. 125), maybe between 328 and 337 AD (for his right to life and death see Cecconi 1998, pp. 166-170). 
+                    Also the title of count of the first order (<foreign>comes ordinis primi</foreign>) is well attested under Constantine as sole emperor, and it may have been granted by Constans Augustus (Scharf 1994). Later Placidus became <foreign>comes</foreign> of the East, Egypt and Mesopotamia between 340 and 341 AD, an unusual expansion of his mission, compared to the more usual count of the East. 
+                    Placidus was praetorian prefect of Italy-Illyricum-Africa in 342-344 AD: <ref type="source">CTh 12, 01, 037</ref> shows that he was still in charge on May 28<hi rend="superscript">th</hi> 344 AD; the prefectoral letters from Delphi (<ref type="ppret" corresp="ppret23">PPRET 23</ref>) show that he succeeded Antonius Marcellinus during 342 AD (see <ref type="ppret" corresp="ppret22">PPRET 22</ref>). 
+                    He was consul in 343 AD during his prefecture (CLRE, pp. 220-221); after Constantine, also Constantius II and Constans used to promote their praetorian prefects to consuls (years 340, 341, 344, 347, 348, 349 AD). 
+                    Finally, he became urban prefect of Rome in 346-347 AD (Chastagnol 1962, pp. 125-128). Since the text exceptionally records all the offices held by Placidus right up to the monument’s dedication – an invaluable source – the lack of the urban prefecture (from December 26<hi rend="superscript">th</hi> 346 AD to June 12<hi rend="superscript">th</hi> 347 AD) helps us to date the monument to between 343 AD (consulate) and 346 AD. 
+                    It is possible that the monument was decreed when Placidus was discharged from the praetorian prefecture: if this hypothesis is correct, then it would have been dedicated in 345/346 AD, before his appointment to the prefecture of Rome. Vulcacius Rufinus had a similarly prestigious <foreign>cursus honorum</foreign> in the same period (<ref type="ppret" corresp="ppret32">PPRET 32</ref>).</p>
+                <p>Placidus was an expert in law and a high ranking judge. The emperors delegated judicial decisions to him on many occasions (for appeals see Harries 1999, pp. 114-115, 202; Pergami 2000; Dillon 2012, pp. 215-219, 228-229). The inscription records the iterations of these special mandates: first the <foreign>ius gladii</foreign> granted for his prefecture of the Annona, then the three sacred mandates for justice in the place of the emperor, on the occasion of the Eastern <foreign>comitiva</foreign>, extended to Egypt and Mesopotamia (first time), alone (second time), and on the occasion of the praetorian prefecture (third time). But the numerals of these appointments as high judge in our inscription posed problems. 
+                    The (first) adjective <foreign>tertio</foreign> (l. 12) according to Chastagnol (1962, p. 125) would indicate a three-year term of office. But it could indicate that his appointment had been expanded to incorporate three sectors of the East (<foreign>Oriens, Aegyptus, Mesopotamia</foreign>), therefore not three times, but a threefold assignment. More probably, the adjective had been inserted next to the first sacred deputy mandate (for the <foreign>Oriens</foreign>) to summarize and highlight the primacy of Placidus. 
+                    The adverb <foreign>iterum</foreign> (l. 12) recalls the second mandate, not connected to an office (possibly associated with the <foreign>comitiva</foreign> of the first order). 
+                    The (second) adjective <foreign>tertio</foreign> (l. 16) associated as one would expect with the praetorian prefecture (<ref type="source">CTh 11, 30, 16</ref>, on August 1<hi rend="superscript">st</hi> 331 AD, with Pergami 2006) would be synonymous with <foreign>ter</foreign> and would close the sequence. In brief, the Puteolans wanted to exalt the primacy of their patron. It is possible that around the middle of the 4th Century, Palcidus was the only functionary to have obtained – between regular and extraordinary – three mandates as judge in the emperor’s place.</p>
+                <p>During that period Placidus evidently was a powerful protector of the Puteoli community. According to Camodeca (2018, pp. 393-395) his patronage could be explained by the presence of properties in the Phlegrean area, whose existence appears to be attested by archaeological finds and in particular to two <foreign>fistulae aquariae</foreign> bearing Placidus’s name (<ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR130026">EDR 130026</ref> and <ref corresp="http://www.edredr.it/edr_programmi/res_complex_comune.php?id_nr=EDR134905">EDR 134905</ref>; see Camodeca 2008, p. 372 nt. 73; 1980-1981, pp. 103-104).
+                    In 2002, a leaden <foreign>fistula aquaria</foreign> was found under the S. Celso’s church in Rione Terra on which were engraved the names of two people of senatorial rank: Acilius Glabrio and Maecia Praetextata. The couple were, in fact, the owners of a building (probably a <foreign>domus</foreign>) which was partially identified during the excavations that brought also to light the <foreign>fistula</foreign>. 
+                    Prosopographically, Camodeca suggests that Maecia Praetextata was related to our Placidus, who of course had property in the area (see Camodeca 2018, pp. 392-394).</p>
+                <p>Hence, Placidus was probably connected to the city of Puteoli through both property and economic interests. Indeed, thanks to his powerful influence and ability to defend their interests, the local communities may well have chosen this aristocrat as their patron. The institutional relationship of patronage requiring protection by a rich patron led to the setting up of monuments like ours, since it was one of the ways that the community could express its gratitude for benefits received. This is the first time in late antiquity (284 AD) that an inscription actually refers to a praetorian prefect as <foreign>patronus</foreign>.
+                    Although praetorian prefects, as early as the 1st Century AD, were linked to the patronage system through spontaneous forms of generosity, this kind of late antique patronage was the result of the Constantinian reforms that allowed the praetorian prefecture to spread its local roots while at the same time consolidating its institutional and administrative power. 
+                    Since praetorian prefects had control over fiscal dynamics, they were therefore able to protect cities and entire provinces from the damages of an adverse fiscal situation (as Marcellinus did; see <ref type="ppret" corresp="ppret21">PPRET 21</ref>). This power made them particularly sought-after patrons in the central and peripheral areas of the empire.
+                    For praetorian prefects benefactors or patrons see <ref type="ppret" corresp="ppret21">PPRET 21</ref> (Marcellinus in Gortyna); <ref type="ppret" corresp="ppret29">PPRET 29</ref> (Philippus in Perge); <ref type="ppret" corresp="ppret32">PPRET 32</ref> (Vulcacius Rufinus in Rome); <ref type="ppret" corresp="ppret35">PPRET 35</ref> (Anonymus prefect in Syria); <ref type="ppret" corresp="ppret43">PPRET 43</ref> (Musonianus in Hierapolis); <ref type="ppret" corresp="ppret47">PPRET 47</ref> (the wife of Anatolius in Perge); <ref type="ppret" corresp="ppret52">PPRET 52</ref> (Salutius in Pisidian Antioch); <ref type="ppret" corresp="ppret54">PPRET 54</ref> (Sallustius in Rome); <ref type="ppret" corresp="ppret57-61">PPRET 57-61</ref> and <ref type="ppret" corresp="ppret63">PPRET 63</ref> (Petronius Probus); <ref type="ppret" corresp="ppret70">PPRET 70</ref> (the wife of Q. Hermogenianus Olybrius).</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>CIL X, 1700</ref></bibl>
+                    <bibl><ref>ILS 1231</ref></bibl>
+                    <bibl><ref>Ciampoltrini 2002, pp. 91-92</ref></bibl>
+                    <bibl><ref>Camodeca 2018, p. 52, nt. 42</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p>
+                    <bibl><ref>Camodeca 2018, p. 53, fig. 4</ref></bibl>
+                    <bibl><ref>Ciampoltrini 2002, p. 93</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-11500639">EDCS 11500639</ref></bibl>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR153006">EDR 153006</ref></bibl>
+                    <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail.php?record=1910">LSA 1910</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+<bibl>Beloch J., Campanien. Geschichte und Topographie des antiken Neapel und seiner Umgebung, vol. II, Breslau 1890, 69</bibl>
+<bibl>Camodeca G., L’ordinamento in regiones e i vici di Puteoli, Puteoli, 1, 1977, 70</bibl>
+<bibl>Camodeca G., Ricerche su Puteoli tardoromana (fine III-IV secolo), Puteoli, 4-5, 1980-1, 102-103</bibl>
+<bibl>Camodeca G., I ceti dirigenti di rango senatorio, equestre e decurionale della Campania romana, I, Napoli 2008, 370-372</bibl>
+<bibl>Camodeca G., Puteoli Romana: istituzioni e società. Saggi, Napoli 2018, 52, 392-393, 398</bibl>
+<bibl>Cecconi G. A., I governatori delle province italiche, Ant Tard, 6, 1998, 149-179</bibl>
+<bibl>Chastagnol A., Les Fastes de la Préfecture de Rome au Bas-Empire, Paris 1962, 125-128</bibl>
+<bibl>Ciampoltrini G., Storia di un marmo napoletano (CIL X, 1700), RassAPiomb, 19 b, 2002, 91-95</bibl>
+<bibl>De Rossi G. B., Monumento di architettura etrusca in Capua, BullNap, NS 1, 1853, 135</bibl>
+<bibl>De Rossi G. B., Nuove osservazioni intorno alla topografia puteolana graffita in un vasetto di Populonia, BullNap, NS 2, 1854, 155</bibl>
+<bibl>Dillon J. N., The Justice of Constantine. Law, communication, and control, Ann Arbor (Mich.) 2012</bibl>
+<bibl>Dubois Ch., Pouzzoles antique (Histoire et topographie), BEFAR, 98, Paris 1907, 238</bibl>
+<bibl>Harries J., Law and Empire in Late Antiquity, Cambridge 1999</bibl> 
+<bibl>Pergami F., L’appello nella legislazione del tardo impero, Milano 2000</bibl>
+<bibl>Pergami F., L’attività giurisdizionale dei prefetti del pretorio nell’assetto costituzionale della tarda antichità, in Cinquanta anni della Corte Costituzionale della Repubblica italiana, I/2. Tradizione romanistica e Costituzione, Napoli 2006, 1301-1314</bibl>
+<bibl>Scharf R., Comites und comitiva primi ordinis, Mainz 1994</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.a"></p>
+                    <p n="2.1"></p>
+                    <p n="2.2"></p>
+                    <p n="2.9">p̲a̲t̲r̲o̲n̲o̲ p̲r̲e̲s̲t̲a̲n̲t̲i̲s̲s̲i̲m̲o̲</p>
+                    <list n="2.11">
+                        <item n="2.11.a"></item>
+                        <item n="2.11.b"></item>
+                    </list>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">c(larissimus) v(ir)</p>
+                    <p n="8.2">praefecto praetorio</p>
+                    <p n="8.3">yes</p>
+                    <p n="8.10"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

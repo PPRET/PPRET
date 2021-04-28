@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Persone</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+                <listPerson>
+                    <head>Individuo / Person</head>
+                    <person xml:id="Catullinus">
+                        <persName>Aconius Catullinus</persName>
+                    </person>
+                    
+                    <person xml:id="Hannibalianus">
+                        <persName>Afranius Hannibalianus</persName>
+                    </person>
+                    
+                    <person xml:id="Tiberianus">
+                        <persName>Annius Tiberianus</persName>
+                    </person>
+                    
+                    <person xml:id="Marcellinus">
+                        <persName>Antonius Marcellinus</persName>
+                    </person>
+                    
+                    <person xml:id="Hermogenianus">
+                        <persName>Aurelius Hermogenianus</persName>
+                    </person>
+                    
+                    <person xml:id="Saturninus">
+                        <persName>Caius Caelius Saturninus Dogmatius</persName>
+                    </person>
+                    
+                    <person xml:id="Lampadius">
+                        <persName>Caius Ceionius Rufius Volusianus Lampadius</persName>
+                    </person>
+                    
+                    <person xml:id="Musonianus">
+                        <persName>Claudius Strategius Musonianus</persName>
+                    </person>
+                    
+                    <person xml:id="Mamertinus">
+                        <persName>Claudius Mamertinus</persName>
+                    </person>
+                    
+                    <person xml:id="Hesperius">
+                        <persName>Decimius Hilarianus Hesperius</persName>
+                    </person>
+                    
+                    <person xml:id="Modestus">
+                        <persName>Domitius Modestus</persName>
+                    </person>
+                    
+                    <person xml:id="Ablabius">
+                        <persName>Flavius Ablabius</persName>
+                    </person>
+                    
+                    <person xml:id="Constantius">
+                        <persName>Flavius Constantius</persName>
+                    </person>
+                    
+                    <person xml:id="Leontius">
+                        <persName>Flavius Domitius Leontius</persName>
+                    </person>
+                    
+                    <person xml:id="Eugenius">
+                        <persName>Flavius Eugenius</persName>
+                    </person>
+                    
+                    <person xml:id="Tatianus">
+                        <persName>Flavius Eutolmius Tatianus</persName>
+                    </person>
+                    
+                    <person xml:id="Hypatius">
+                        <persName>Flavius Hypatius</persName>
+                    </person>
+                    
+                    <person xml:id="Cynegius">
+                        <persName>Flavius Maternus Cynegius</persName>
+                    </person>
+                    
+                    <person xml:id="Philippus">
+                        <persName>Flavius Philippus</persName>
+                    </person>
+                    
+                    <person xml:id="Sallustius">
+                        <persName>Flavius Sallustius</persName>
+                    </person>
+                    
+                    <person xml:id="Taurus">
+                        <persName>Flavius Taurus</persName>
+                    </person>
+                    
+                    <person xml:id="Titianus">
+                        <persName>Flavius Titianus</persName>
+                    </person>
+                    
+                    <person xml:id="Hermogenes">
+                        <persName>Hermogenes</persName>
+                    </person>
+                    
+                    <person xml:id="Asclepiodotus">
+                        <persName>Iulius Asclepiodotus</persName>
+                    </person>
+                    
+                    <person xml:id="Iulianus">
+                        <persName>Iulius Iulianus</persName>
+                    </person>
+                    
+                    <person xml:id="Bassus">
+                        <persName>Iunius Bassus</persName>
+                    </person>
+                    
+                    <person xml:id="Maiorinus">
+                        <persName>Maiorinus</persName>
+                    </person>
+                    
+                    <person xml:id="Rusticianus">
+                        <persName>Manilius Rusticianus</persName>
+                    </person>
+                    
+                    <person xml:id="Placidus">
+                        <persName>Marcus Maecius Memmius Furius Baburius Caecilianus Placidus</persName>
+                    </person>
+                    
+                    <person xml:id="Timonianus">
+                        <persName>Nestorius Timonianus</persName>
+                    </person>
+                    
+                    <person xml:id="Pacatianus">
+                        <persName>Papius Pacatianus</persName>
+                    </person>
+                    
+                    <person xml:id="Annianus">
+                        <persName>Petronius Annianus</persName>
+                    </person>
+                    
+                    <person xml:id="Postumianus">
+                        <persName>Postumianus</persName>
+                    </person>
+                    
+                    <person xml:id="Olybrius">
+                        <persName>Quintus Clodius Hermogenianus Olybrius</persName>
+                    </person>
+                    
+                    <person xml:id="Lollianus">
+                        <persName>Quintus Maesius Egnatius Lollianus Mavortius</persName>
+                    </person>
+                    
+                    <person xml:id="Salutius">
+                        <persName>Saturninius Secundus Salutius</persName>
+                    </person>
+                    
+                    <person xml:id="Probus">
+                        <persName>Sextus Claudius Petronius Probus</persName>
+                    </person>
+                    
+                    <person xml:id="Limenius">
+                        <persName>Ulpius Limenius</persName>
+                    </person>
+                    
+                    <person xml:id="Felix">
+                        <persName>Valerius Felix</persName>
+                    </person>
+                    
+                    <person xml:id="Maximus">
+                        <persName>Valerius Maximus</persName>
+                    </person>
+                    
+                    <person xml:id="Praetextatus">
+                        <persName>Vettius Agorius Praetextatus</persName>
+                    </person>
+                    
+                    <person xml:id="Anatolius">
+                        <persName>Vindaeonius Anatolius</persName>
+                    </person>
+                    
+                    <person xml:id="Vitalianus">
+                        <persName>Vitalianus</persName>
+                    </person>
+                    
+                    <person xml:id="Viventius">
+                        <persName>Viventius</persName>
+                    </person>
+                    
+                    <person xml:id="Rufinus">
+                        <persName>Vulcacius Rufinus</persName>
+                    </person>
+                    
+                    <person xml:id="mus">
+                        <persName>[- - -]mus</persName>
+                    </person>
+                    
+                    <person xml:id="nus">
+                        <persName>[- - -]nus</persName>
+                    </person>
+                    
+                    <person xml:id="us">
+                        <persName>[- - -]us</persName>
+                    </person>
+                    
+                    <person xml:id="anonymous">
+                        <persName>Anonymous praetorian prefect</persName>
+                    </person>
+                    
+            </listPerson>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Burial inscription of Fabia Aconia Paulina mentioning her father, the former praet. prefect Aconius Catullinus, and her husband, the praet. prefect Praetextatus</title>
+                <editor role="edition">Pierfrancesco Porena, Irene Vagionakis</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="pp. 187-188, 722-724">20</idno>
+                <date when="2020-06-23"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Catullinus"><name type="gentilicium">Aconius</name>
+                        <name type="cognomen">Catullinus</name></persName>
+                    </person>
+                     <person>
+                        <persName ref="#Praetextatus"><name type="gentilicium">Vettius</name>
+                        <name type="gentilicium">Agorius</name>
+                        <name type="cognomen">Praetextatus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#lost">lost</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#burial">burial inscription</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#base">statue base</objectType>
+                                    <dimensions>
+                                        <height>unknown</height>
+                                        <width>unknown</width>
+                                        <depth>unknown</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">no</rs>
+                                    <rs type="monument_reuse">yes</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#undamaged">The text, at the time of its transcription, was undamaged.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#unknown">unknown (no images available)</term>
+                                <height>unknown</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Roma</placeName>
+                                <placeName type="modern_city">Rome (Italy)</placeName>
+                                <placeName type="province">Urbs</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#burial" cert="low">burial space (?)</placeName>
+                            </origPlace>
+                            <origDate period="#p5" notBefore="0384" notAfter="0387">December 384/387 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#Roma">Rome</placeName>, first seen in the 15th Century in the church of the SS. Apostoli</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                    <ab>
+                        <lb n="1"/>Fabiae Aconiae Paulinae, <expan><abbr>c</abbr><ex>larissimae</ex></expan> <expan><abbr>f</abbr><ex>eminae</ex></expan>,
+                        <lb n="2"/>filiae Aconis Catullini, <expan><abbr>v</abbr><ex>iri</ex></expan> <expan><abbr>c</abbr><ex>larissimi</ex></expan>, ex <expan><abbr>praef</abbr><ex>ecto</ex></expan> et consule <expan><abbr>ord</abbr><ex>inario</ex></expan>,
+                        <lb n="3"/>uxori Vetti Praetextati, <expan><abbr>v</abbr><ex>iri</ex></expan> <expan><abbr>c</abbr><ex>larissimi</ex></expan>, <expan><abbr>praef</abbr><ex>ecti</ex></expan> et consulis designati,
+                        <lb n="4"/>sacratae apud Eleusinam deo Iaccho Cereri et Corae,
+                        <lb n="5"/>sacratae apud Laernam deo Libero et Cereri et Corae,
+                        <lb n="6"/>sacratae apud Aeginam deabus, tauroboliatae, Isiacae,
+                        <lb n="7"/>hierophantriae deae Hecatae, Graeco sacraneae deae Cereris.
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on CIL.</p>
+                <p></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“To Fabia Aconia Paulina, of clarissimus rank, daughter of Aconius Catullinus, of clarissimus rank, former prefect and ordinary consul, wife of Vettius Praetextatus, of clarissimus rank, prefect and designated consul, initiated at Eleusis to the god Iacchus, Ceres and Cora, initiated at Laerna to the god Liber and Ceres and Cora, initiated in Aegina to the goddesses, tauroboliate, initiate to Isis, hierophant of the goddess Hecate, graecosacranea of the goddess Ceres.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“...”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“A Fabia Aconia Paulina, chiarissima, figlia di Aconius Catullinus, chiarissimo, ex prefetto e console ordinario, moglie di Vettius Praetextatus, chiarissimo, prefetto e console designato, iniziata a Eleusi al dio Iacco, Cerere e Cora, iniziata a Lerna al dio Libero e Cerere e Cora, iniziata a Egina alle dee, tauroboliata, iniziata a Iside, ierofante della dea Hecate, grecosacranea della dea Cerere.”</p>
+            </div>
+            <div type="commentary">
+                <p>Fabia Aconia Paulina was the daughter of Aconius Catullinus, who was praetorian prefect in 341 AD, and the wife of Vettius Agorius Praetextatus, who was praetorian prefect in 384 AD.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>CIL VI, 31930</ref> = <bibl><ref>CIL VI, 1780</ref></bibl> (cfr. pp. 3174, 3814, 4794); cfr. <bibl><ref>CIL IX, *223,6</ref></bibl>, <bibl><ref>CIL IX, *641,3</ref></bibl></bibl>
+                    <bibl><ref>ILS 1260</ref></bibl>
+                    <bibl><ref>CCCA III, 295</ref></bibl> 
+                    <bibl><ref>SIRIS 450</ref></bibl> 
+                    <bibl><ref>Niquet 2000, pp. 244-246</ref></bibl>
+                    <bibl><ref>Martínez-Maza 2003, p. 67</ref> = <bibl><ref>AE 2003, 151</ref></bibl></bibl>
+                    <bibl><ref>RICIS II, 501／210</ref></bibl> 
+                    <bibl><ref>Dubosson 2018, p. 109</ref></bibl> 
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR138111">EDR 138111</ref></bibl>
+                    <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-1474">LSA 1474</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Consolino F. E., Tradizionalismo e trasgressione nell’élite senatoria romana: ritratti di signore fra la fine del IV e l’inizio del V secolo, in Lizzi Testa R. (ed.), Le trasformazioni delle élites in età tardoantica, Roma 2006, 65-139 (118-134)</bibl>
+                    <bibl>Dubosson L., Le culte de la Mère des dieux dans l’Empire romain, Stuttgart 2018 (109)</bibl>
+                    <bibl>Magister S., La collezione di antichità del cardinale Giuliano della Rovere. Anteprima di studio, in Xenia Antiqua, 9, 2000, 47-50 = AE 2000, 19</bibl> 
+                    <bibl>Martínez-Maza C., Devotas mistéricas en la Roma bajoimperial, in Aevum, 77, 2003, 53-68</bibl>
+                    <bibl>Niquet H., Monumenta virtutum titulique: senatorische Selbstdarstellung im spätantiken Rom im Spiegel der epigraphischen Denkmäler, Stuttgart 2000 (123, 195-196, 244-246)</bibl>
+                    <bibl>Rüpke J., Fasti sacerdotum: die Mitglieder der Priesterschaften und das sakrale Funktionspersonal römischer, griechischer, orientalischer und jüdisch-christlicher Kulte in der Stadt Rom von 300 v. Chr. bis 499 n. Chr., Stuttgart 2005 (966-977, nr. 1578)</bibl> 
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.2"></p>
+                    <p n="1.4"></p>
+                </div>
+                
+                <div type="commentary" n="3">
+                    <p n="3.b">daughter / wife</p>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">v(iri) c(larissimi)</p>
+                    <p n="8.2">ex praef(ecto), praef(ecti)</p>
+                    <p n="8.4"></p>
+                    <p n="8.9"></p>
+                    <p n="8.10"></p>
+                    <p n="8.11"></p>
+                    <p n="8.13"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

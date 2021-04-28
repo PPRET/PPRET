@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription in honour of Hilarion, wife of the praet. prefect Vindaeonius Anatolius, by the city Council of Perge</title>
+                <editor role="edition">Eleonora Angius</editor>
+                <editor role="encoding">Eleonora Angius</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="new">47</idno>
+                <date when="2020-03-27"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Anatolius"><name type="gentilicium">Vindaeonius</name>
+                        <name type="cognomen">Anatolius</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#unknown">unknown</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="honorary">Honorary inscription for Hilarion, wife of clarissimus rank of the praet. prefect Anatolius </term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="grc">Greek</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#limestone">limestone</material>
+                                    <objectType ref="#base">statue base</objectType>
+                                    <dimensions>
+                                        <height>120</height>
+                                        <width>50</width>
+                                        <depth>55</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">unknown</rs>
+                                    <rs type="monument_reuse">unknown</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#damaged">Damaged due to exposure to the elements.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#unknown">unknown (no image available)</term>
+                                <height>3.5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Perge</placeName>
+                                <placeName type="modern_city">Antalya (Turkey)</placeName>
+                                <placeName type="province">Pamphylia</placeName>
+                                <placeName type="diocese">Asiana</placeName>
+                                <placeName type="prefecture">Oriens</placeName>
+                                <placeName type="ancient_location" ref="#public">public space</placeName>
+                            </origPlace>
+                            <origDate period="#p5" notBefore="0357" notAfter="0360">357-360 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#">Perge</placeName>, on the eastern side of the North-South colonnaded street</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                    <ab>
+                        <lb n="1"/>Τὴν λαμπροτάτην  
+                        <lb n="2"/>γυναῖκα τοῦ μεγά<lb 
+                        break="no" n="3"/>λου καὶ <supplied reason="lost">σεμν</supplied>οῦ τῆς 
+                        <lb n="4"/>Ἀσίας εὐεργέτου,  
+                        <lb n="5"/>τοῦ <expan><abbr>λαμπ</abbr><ex>οτάτου</ex></expan> ἐπάρχου 
+                        <lb n="6"/>Οὐινδαιονίου 
+                        <lb n="7"/>Ἀνατολίου Ἱλάριον 
+                        <lb n="8"/>ἡ κρατίστη βουλὴ  
+                        <lb n="9"/>τῆς <expan><abbr>λαμπ</abbr><ex>ρᾶς</ex></expan> Περγαίω<supplied reason="lost">ν</supplied>
+                        <lb n="10"/>πόλεως σεμνότη<lb 
+                        break="no" n="11"/>τος καὶ ἀρετῆς  
+                        <lb n="12"/>ἁπάσης χάριν. 
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on Şahin 2015, p. 179</p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“To Hilarion, of clarissimus rank, wife of the great and revered benefactor of Asia, the praetorian prefect of clarissimus rank Vindaeonius Anatolius, the most eminent Council of the shining city of Perge (has dedicated) for (her) venerability" and all (her) virtue.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“À la clarissime Hilarion, épouse du grand et vénérable bienfaiteur de l'Asie, le clarissime préfet du prétoire Vindaeonius Anatolius, le très éminent conseil de la splendide ville de Perge (a dédié) en raison de (sa) vénérable dignité et (sa) vertu absolute.”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“Alla chiarissima Hilarion, chiarissima moglie del grande e insigne venerabile benefattore dell’Asia, il chiarissimo prefetto del pretorio Vindaeonius Anatolius, l’eminentissimo consiglio della splendida città di Perge (dedicò) per il (suo) venerabile decoro e per la (sua) assoluta virtù.”</p>
+            </div>
+            <div type="commentary">
+                <p>This limestone profiled base, damaged due to the exposure to the elements, was found at Perge on the eastern side of the North-South colonnaded street (Şahin 2015, p. 179). Seen by George Ewart Bean in 1975, its text has been only recently published by Şahin, but without any photographic reproduction and with very little information about the support and its findspot.</p> 
+                <p>The monument was erected by the council of Perge in honour of Hilarion, wife (of clarissimus rank) of the praetorian prefect and benefactor of Asia Vindaeonius Anatolius. 
+                    Moser (2018, pp. 102-103) supposed that the noble woman received a statue due to her Pergean descent or because the couple were large landowners in the region, giving Hilarion the opportunity to show munificence to the city. 
+                    Monuments to the wives of 4th Century praetorian prefects are not uncommon (see <ref type="ppret" corresp="ppret36">PPRET 36</ref>, <ref type="ppret" corresp="ppret70">PPRET 70</ref>, <ref type="ppret" corresp="ppret81">PPRET 81</ref>; on epitaphs <ref type="ppret" corresp="ppret64">PPRET 64</ref>, <ref type="ppret" corresp="ppret77">PPRET 77</ref>).</p> 
+                <p>Although Şahin has identified Anatolius as the proconsul of Asia who, under Arcadius, restored the walls of Smyrna (PLRE II, p. 83, Anatolius 3), Feissel (BE 2016, 595) rightly argues that the benefactor of Asia must be Anatolius, praetorian prefect of Illyricum. This inscription not only represents an important discovery in its own right, it is also the first epigraphic attestation of a pretorian prefect whose identity and career have long been the subject of controversy.</p>  
+                <p>The evidence suggests that there were, in fact, two praetorian prefects called Anatolius. Natives of Berytus, the Roman colony of Phoenicia and home to an ancient school of law, both were experts in Roman law and pursued careers at court close to the emperor and went on to became praetorian prefects of Illyricum. 
+                    The sources agree on the biography of Anatolius the praetorian prefect, but diverge by about 10/15 years on the chronology of his prefecture. Both Ammianus and Libanius are unequivocal in making Anatolius prefect of Illyricum in the years 357-360 AD, that is to say at the end of the reign of Constantius II. 
+                    Eunapius, in his biography of the sophist Prohaeresius, makes Anatolius prefect of Illyricum in the years just before Constans’ death, in other words before January 350 AD, and maybe around 340/345 AD. Unfortunately, regarding the chronology, three of the four constitutions of the Theodosian Code addressed to Anatolius have uncertain imperial consular dates; <ref type="source">CTh 12, 01, 039</ref> to the praetorian prefect is dated April 1<hi rend="superscript">st</hi> 349 AD, but at that time Vulcacius Rufinus was praetorian prefect of Illyricum (<ref type="ppret" corresp="ppret32">PPRET 32</ref>, <ref type="ppret" corresp="ppret33">PPRET 33</ref>).</p>  
+                <p>The Anatolius prefect of Illyricum before 350 AD is described by Eunapius (<ref type="source">Eun., VS, 10</ref>, Life of Prohaeresius). Nicknamed “Azutrios” (<ref type="source">Eun., VS, 10, 06</ref>),  it is still not clear whether this disparaging appellative should be interpreted as Ἱστρίωνα (Giangrande 1956, pp. 141-142), signifying a gross theatrical man, or read as a calque of the Latin <foreign>adiutor</foreign> (Penella 1990, p. 131) suggesting an ambitious bureaucrat constantly living at the imperial court. 
+                    Indeed, after studying Roman law at Berytus and then in Rome (<ref type="source">Eun., VS, 10, 06, 01-02</ref>), Anatolius joined the imperial court becoming, as Eunapius states (<ref type="source">Eun., VS, 10, 02</ref>), its most important member. Later, when he was awarded the praetorian prefecture of Illyricum, Anatolius decided to visit Athens and, given his rhetorical skills, he dared to test the profiency of the Athenian sophists (this account is also supported by an <foreign>Oratio</foreign> of Himerius to Anatolius, <ref type="source">Hym., Or. 32, 07</ref>): the rhetorician Prohaeresius won. 
+                    A short time before that, Eunapius (<ref type="source">Eun., VS, 10, 07, 01-05</ref>) reported that the emperor Constans entertained the latter at Trier (sometime between 343 and 349 AD while Constans was residing in Gaul), sending also him to Rome in order to demonstrate his flair there too. Then, before the rethorician returned to Greece, the emperor named him strato-pedarch, and granted regular distributions of free wheat for Athens (σιτηρέσιον / <foreign>frumentatio</foreign>) as Prohaeresius had requested. 
+                    This concession was confirmed by the recently appointed praetorian prefect of Illyricum Anatolius to celebrate the aforementioned rhetorical contest (<ref type="source">Eun., VS, 10, 07, 06-07</ref>). The chronology of the praetorian prefecture of the older Anatolius could be refined by the Theodosian constitutions dating to 346 (<ref type="source">CTh 12, 01, 038</ref>) and 349 AD (<ref type="source">CTh 12, 01, 039</ref>) <foreign>ad Anatolium p(raefectum) p(raetori)o</foreign>, although the date of second is disputed.</p> 
+                <p>The latter Anatolius is firmly attested as a correspondent of Libanius, appearing in 28 letters (25 received, 3 referred to) all dating to between 355 and 359 AD; he is also described in his <foreign>Histories</foreign> by Ammianus (<ref type="source">Amm. 19, 11, 01-03</ref>; <ref type="source">Amm. 21, 06, 05</ref>). 
+                    Native of Berytus too (<ref type="source">Lib., Ep. 0342</ref>), Anatolius was an expert in Roman law and passionate about Greek culture (<ref type="source">Lib., Ep. 0394</ref>). A keen admirer of sophistic culture, he enjoyed displaying his own abilities as a sophist and often turned his correspondence with Libanius into a sophistic agon.</p>  
+                <p>This second Anatolius had apparently served in the eastern provinces and beautified Antioch through building projects (<ref type="source">Lib., Ep. 0311</ref>) while appointed <foreign>consularis</foreign> of Syria Coele in 349 AD (<ref type="source">Lib., Ep. 0114</ref>, <ref type="source">Lib., Ep. 0441</ref>), the last time this office is attested (Moser 2018, p. 105). 
+                    He thus held the office of proconsul of Constantinople in 353 AD and sojourned in Italy and Rome (<ref type="source">Lib., Ep. 0314</ref>, <ref type="source">Lib., Ep. 0394</ref>, <ref type="source">Lib., Ep. 0449</ref>), where he declined the offer of the urban prefecture of Rome in 355 AD (<ref type="source">Lib., Ep. 0391-394</ref>). Anatolius remained at the imperial court of Constantius II until the winter 356/357 AD (Bradbury 2004, p. 228), when he was made praetorian prefect of Illyricum, an achievement for which Libanius himself congratulated him (<ref type="source">Lib., Ep. 0549</ref>), holding this post up to his death in 360 AD (<ref type="source">Amm. 21, 06, 05</ref>). It is uncertain whether the two constitutions <ref type="source">CTh 11, 30, 19</ref> and <ref type="source">CTh 12, 01, 028</ref> to Anatolius <foreign>vicarius Asiae</foreign> are attributable to the former in 339 AD, or to the latter in 352 AD.</p> 
+                <p>The chronological muddle has fueled a vigorous debate, the salient points of which follow.</p> 
+                <p>Otto Seeck (1919, pp. 40-41, 119) was the first to rearrange the dates and the addressee’s office cited in the constitutions of the Theodosian Code: <foreign>consularis Syriae</foreign> in 349 AD (<ref type="source">CTh 12, 01, 039</ref>), <foreign>vicarius Asiae</foreign> in 352 AD (<ref type="source">CTh 11, 30, 19</ref>; <ref type="source">CTh 12, 01, 028</ref>), praetorian prefect in 357 AD (<ref type="source">CTh 12, 01, 038</ref>). Dismissing Eunapius’ account and chronology, he assumed that the literary sources were referring to only one person, the praetorian prefect of 357-360 AD. This hypothesis was accepted by various scholars, such as Palanque (1933, p. 34), Petit (1955, p. 276), PLRE I (p. 59), Piganiol (1972, p. 322, nr. 141) and Neri (1974, pp. 91-99). 
+                    On the other hand, Sievers (1969, pp. 235-239) and Groag (1946, pp. 32-33), went the other way. Still recognizing only one Anatolius, they tried to attribute the correspondence of Libanius to the later praetorian prefect, to whom they associated the previous mandate (346-349 AD) attested by Eunapius. Sievers and Groag also supposed an iteration of the same office, but this assumption was contradicted by Neri (1974, p. 93) and Penella (1990, pp. 90-91) since a passage of one of Libanius’ letter to Anatolius seems to imply that Anatolius had held this post for the first time (<ref type="source">Lib., Ep. 0423</ref>: «your most recent promotion to the position that has long been appropriate for you»). 
+                    Finally, Norman (1957, pp. 253-259), Vogler (1979, pp. 115-118), Penella (1990, pp. 88-91, 96-98, 130-132), Bradbury (2000, pp. 183-186) and Moser (2018, pp. 102-103), all pleaded the following case - that the chronological elements were irreconcilable and that what we were dealing with here were two men, not one, both with the same name and similar career and likely belonging to the same distingueshed family.</p>  
+                <p>During the years in which Eunapius and the Theodosian Code record Anatolius as praetorian prefect of Illyricum (346-349 AD), Caecilianus Placidus was also praetorian prefect of Illyricum (with Italy and Africa) in the mid 344 AD (<ref type="ppret" corresp="ppret25">PPRET 25</ref>), while Vulcacius Rufinus is attested as prefect in Illyricum under Constans in late 346-353 AD (see the Savarian inscription, <ref type="ppret" corresp="ppret33">PPRET 33</ref>-<ref type="ppret" corresp="ppret32">32</ref>). 
+                    Anatolius’ prefecture in 344-346 AD seems to fit well with the biography of Prohaeresius who, by that time, must have been already 68/70 years old. As for the old Greek sophist’s round trip from Athens to Gaul, Italy and then back to Athens, the first half of the 340’s seem most plausible.</p> 
+                <p>In the end, since it is still not possible to satisfactorily solve this chronological impasse, we have no other choice but to leave the Anatolii as two distinct prefects: the first performed his duties between 344-346 AD, assuming that <ref type="source">CTh 12, 01, 039</ref> is incorrect, since by 347 AD Rufinus is firmly attested in Illyricum (see <ref type="ppret" corresp="ppret32">PPRET 32</ref>). The second occupied his post from 357 to 360 AD. 
+                    The inscription from Perge exalts Anatolius as a benefactor of Asia. The office of <foreign>vicarius Asiae</foreign> could only be awarded by Constantius II. The career of the first Anatolius, prefect of Illyricum from 344-346 AD, as described by Eunapius, appears to be entirely western (under Constans). An assignment in Asia would certainly have led him from Milan or Trier to Greece, but Eunapius states that the praetorian prefect then visited Greece for the first time. 
+                    This element leads to assign the vicariate of Asia to the second Anatolius (in 352 AD), who had a palatine career with Constantius II and was well known to the Antiochian Libanius, a dignitary who was raised and trained in the Greek-speaking provinces (Feissel refers our inscription to the praetorian prefect of 357-360 AD and ex vicarius, BE 2016, 595; Moser 2018, pp. 102-103 for the prefect of 344-347 AD).</p> 
+                <p>While the Perge inscription celebrates Anatolius with his rare name Vindaeonius, Eunapius refers to his nickname Azutrion. If, in the second half of the 4th Century it was necessary to distinguish between the two Anatolii, neither Ammianus nor the compilers of the Theodosian Code felt the need to comply.</p> 
+                <p>Anatolius’ <foreign>gentilicium</foreign> Vindaeonius allows to identify this official with the homonymous author of an “Handbook of agricultural techniques” (Συναγωγὴ γεωργικῶν ἐπιτηδευμάτων) dating to the 4th Century, Vindonius (sic) Anatolius (<ref type="source">Phot., Bibl. 163</ref>). 
+                    Even before acquainting himself with the text Decker had already come to the same conclusion (2007, pp. 108-110.) This particular and very successful technical Greek treatise also supports the hypothesis that the second Anatolius had benefitted from a wholly eastern education and administrative career (under Constantius II).</p> 
+                <p>Regarding the full name of the (second) prefect Anatolius, a fragmentary inscription from Gortyna (Crete), in the prefecture of Illyricum, may concern our praetorian prefect. The two fragments preserve these letters: (fr. a) βινδαΙ̣[---] / τον λαμ[---] / θαυ[---] / -------/ (frr. b-c) [---]τι[---] / [---]νεαυ[---] / ------. The inscription was firstly attributed to an Areobindas <foreign>magister militum</foreign> (Magnelli 2006, pp. 1929-1937 = SEG 56, 2006, 1049) and then to a governor of Crete (Begass 2014, pp. 141-144). Feissel (BE 2011, 694; BE 2014, 559) disagrees, arguing that this <foreign>gentilicium</foreign> ought to be identified with an important family of Berytus, Vindaeonius, and that the epithets λαμπρότατος and θαυμασιώτατος, are related to the highest offices of the imperial administration (concerning the praetorian prefects in the second half of the 4th Century, see <ref type="ppret" corresp="ppret30">PPRET 30</ref>, <ref type="ppret" corresp="ppret44">PPRET 44</ref>, <ref type="ppret" corresp="ppret88">PPRET 88</ref>). Feissel (BE 2014, 559) and recently Vallarino (2019, p. 56) proposed to recognise the personage to whom the inscription was dedicated as a 5th Century member of the Berytian family, Vidaeonius Magnus, prefect of Constantinople in 375-376 AD (PLRE I, p. 536, Magnus 12). Nevertheless, after the recent discovery of the pergean inscription, the same Feissel (BE 2016, 595) has asserted that he could also be the praetorian prefect Vindaeonius Anatolius (357-360 AD); so the Gortyna fragment could start with the name of the prefect: Βινδαι[όνιον Ἀνατόλιον]. Many inscriptions dedicated to praetorian (and urban) prefects can be found in Gortyna (Illyrian prefecture) with dates ranging from the mid-4th to mid-5th Century AD. These include prefects of Italy, Illyricum and Africa or of Illyricum singly. Let us cite for example Marcellinus (PPRET 21), Petronius Probus (<ref type="ppret" corresp="ppret58">PPRET 58</ref>) praetorian prefects of Italy, Africa and Illyricum; the prefects honoured in the s.c. Asclepiodotus’ cycle in the <foreign>praetorium</foreign> (cf. Bigi Tantillo 2016 and 2020; see <ref type="ppret" corresp="ppret61">PPRET 61</ref>, <ref type="ppret" corresp="ppret73">PPRET 73</ref>); Leontius, praetorian prefect of Illyricum in 412-413 or 435/441 AD (ICret IV, 325, see PLRE II, pp. 668-669, Leontius 5 and 10, cf. LSA 787). Since, until now, no prefect of Constantinople has been attested among the honoured officials of Gortyna, the latest assumption of Feissel seems to be highly plausible.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Şahin 2015, p. 179</ref> = <bibl><ref>AE 2015, 1560</ref></bibl> = <bibl><ref>BE 2016, 595</ref></bibl></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Barnes T. D., Praetorian prefects, 337-361, ZPE, 94, 1992, 259</bibl>  
+                    <bibl>Begass C., Ein Areobindas in einer neuen Inschrift aus Gortyn, Kreta, ZPE, 190, 2014, 141-144</bibl> 
+                    <bibl>Bigi F., Tantillo I., Gortyna, in The Last Statues of Antiquity, eds B. Ward-Perkins, R.R.R. Smith, Oxford 2016, 215-229</bibl> 
+                    <bibl>Bigi F., Tantillo I. (eds), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020</bibl> 
+                    <bibl>Bradbury S., A Sophistic Prefect: Anatolius of Berytus in the Letters of Libanius, CPh, 95, 2000, 172-186</bibl> 
+                    <bibl>Bradbury S., Selected letters of Libanius: from the Age of constantinus and Julian, Liverpool 2004</bibl> 
+                    <bibl>Decker M., The authorship and context of early Byzantine farming manuals, Byzantion, 77, 2007, 106-115</bibl> 
+                    <bibl>Giangrande G., Vermutungen und Bemerkungen zum Text der Vitae Sophistarum des Eunapios, RhM, n.F., 99, 1956, 141-142</bibl> 
+                    <bibl>Groag E., Die Reichsbeamten von Achaia in spätrömischer Zeit, Budapest 1946, 32-33</bibl> 
+                    <bibl>Magnelli A., Flavius Areobindus magister militiae Orientis (434-449) in un’inedita iscrizione frammentaria da Gortina (Creta), L’Africa romana, 16/3, Roma 2006, 1929-1937</bibl> 
+                    <bibl>Moser M., Emperor and senators in the reign of Constantius II. Maintaining imperial rule between Rome and Constantinople in the fourth century AD, Cambridge 2018, 102-106, 115, 187</bibl> 
+                    <bibl>Neri V., Le prefetture del pretorio in Occidente nel periodo 346-350 d.C., RSA, 4, 1974, 91-99</bibl> 
+                    <bibl>Norman A. F., The Illyrian prefecture of Anatolius, RhM, 100, 1957, 253-259</bibl> 
+                    <bibl>Palanque J. R., Essai sur la préfecture du prétoire du Bas-Empire, Paris 1933, 34</bibl>  
+                    <bibl>Penella R. J., Greek philosophers and sophists in the fourth century A.D. Studies in Eunapius of Sardis, Leeds 1990, 88-91, 96-98, 130-132</bibl> 
+                    <bibl>Petit P., Libanius et la vie municipale à Antioche au IVe siècle après J.-C., Paris 1955, 276</bibl> 
+                    <bibl>Petit P., Les fonctionnaires dans l'oeuvre de Libanius. Analyse prosopographique, Paris 1994</bibl> 
+                    <bibl>Piganiol A., L'empire chrétien (325-395), Paris 1972 (1947), 322, nr. 141</bibl> 
+                    <bibl>Şahin S., Spätrömisch-frühbyzantinische Inschriften aus Perge in Pamphylien, in Inscriptions in Byzantium and beyond, Wien 2015, 179</bibl> 
+                    <bibl>Seeck O., Regesten der Kaiser und Päpste für die Jahre 311 bis 476 n. Chr. Vorarbeit zu einer Prosopographie der christlichen Kaiserzeit, Stuttgart 1919, 40-41, 119</bibl> 
+                    <bibl>Sievers G. R., Das Leben des Libanius, Berlin 1969, 235-239</bibl> 
+                    <bibl>Tantillo I., Le iscrizioni tardoantiche del Pretorio di Gortina. Contestualizzazione archeologica e storica di un ciclo statuario di età teodosiana, ASNP, 5, suppl. 9/2, 2017, 143-150</bibl>
+                    <bibl>Vallarino G., Cosentino S., Dal Basso L., La società. 2.1., I gruppi dirigenti fino al IV secolo d.C., Gortina VIII.1. L'isolato del Ninfeo: la topografia, i monumenti e lo scavo (campagne 2003-2008), in Lippolis E., Caliò L. M., Giatti C. (a cura di), Atene 2019, 55-56</bibl>
+                    <bibl>Vogler C., Constance II et l'administration impériale, Strasbourg 1979, 115-118</bibl> 
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                    <p n="1.4">the praetorian prefect Anatolius is the husband of the addressee</p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.1"></p>
+                    <p n="2.10">τοῦ μεγάλου καὶ [σεμν]οῦ τῆς Ἀσίας εὐεργέτου</p>
+                    <list n="2.11">
+                        <item n="2.11.c"></item>
+                    </list>
+                </div>              
+                <div type="commentary" n="8">
+                    <p n="8.1">τοῦ λαμπρ(οτάτου)</p>
+                    <p n="8.2">ἐπάρχου</p>
+                    <p n="8.5"></p>
+                    <p n="8.9"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

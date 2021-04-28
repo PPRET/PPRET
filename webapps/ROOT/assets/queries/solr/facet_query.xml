@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<query q_fields="document_type" range_fields="origin_date">
+  <df default="true">text</df>
+  <q default="true">*</q>
+  <document_type>(epidoc)</document_type> <!-- default: (tei or epidoc) -->
+  <facet>true</facet>
+  <!--<facet.field>number_PPRET</facet.field>-->
+  <!--<facet.field>inscription_name</facet.field>-->
+  <facet.field>prefect_name</facet.field>
+  <facet.field>prefect_gentilicium</facet.field>
+  <facet.field>prefect_cognomen</facet.field>
+  <facet.field>prefect_signum</facet.field>
+  <facet.field>edition</facet.field>
+  <facet.field>PLRE</facet.field>
+  <facet.field>emperors</facet.field>
+  <facet.field>precise_date</facet.field>
+  <facet.field>findspot</facet.field>
+  <facet.field>ancient_city</facet.field>
+  <facet.field>modern_city</facet.field>
+  <facet.field>province</facet.field>
+  <facet.field>diocese</facet.field>
+  <facet.field>regional_prefecture</facet.field>
+  <facet.field>ancient_location</facet.field>
+  <facet.field>current_location</facet.field>
+  <facet.field>text_category</facet.field>
+  <facet.field>monument_type</facet.field>
+  <facet.field>material</facet.field>
+  <facet.field>technique</facet.field>
+  <facet.field>epigraphic_field_preservation</facet.field>
+  <facet.field>inscribed_field_reuse</facet.field>
+  <facet.field>monument_reuse</facet.field>
+  <facet.field>opistographic</facet.field>
+  <facet.field>palaeography</facet.field>
+  <facet.field>language</facet.field>
+  <facet.field>rhythm</facet.field>
+  <facet.field>number_of_praetorian_prefects</facet.field>
+  <facet.field>inscriptions_in_honour_of_praetorian_prefects</facet.field>
+  <!--<facet.field>panegyric_and_celebrative_formulas_for_the_praetorian_prefect</facet.field>-->
+  <facet.field>awarder_of_monuments_to_praetorian_prefects</facet.field>
+  <facet.field>epitaph_of_a_praetorian_prefect</facet.field>
+  <facet.field>inscriptions_identifying_a_property_of_a_praetorian_prefect</facet.field>
+  <facet.field>inscriptions_containing_legal_acts_sent_to_praetorian_prefects</facet.field>
+  <facet.field>inscriptions_containing_legal_acts_issued_by_praetorian_prefects</facet.field>
+  <facet.field>inscribed_monuments_made_by_praetorian_prefects</facet.field>
+  <facet.field>the_praetorian_prefecture_in_inscriptions</facet.field>
+  <facet.field>the_rank_of_the_praetorian_prefects</facet.field>
+  <facet.field>Latin_or_Greek_titulature_of_the_office</facet.field>
+  <facet.field>literary_source_mentioned_in_the_commentary</facet.field>
+  <facet.field>epigraphic_source_mentioned_in_the_commentary</facet.field>
+  <facet.field>papyrological_source_mentioned_in_the_commentary</facet.field>
+  <facet.limit>-1</facet.limit>
+  <facet.mincount>1</facet.mincount>
+  <!-- facet.sort's value may be either "index" (alphabetic order of
+       value) or "count" (numeric order of count). -->
+  <facet.sort>index</facet.sort>
+  <!-- The number of rows returned by Solr at once (that is the number
+       displayed per page of results). -->
+  <rows default="true">100</rows>
+</query>

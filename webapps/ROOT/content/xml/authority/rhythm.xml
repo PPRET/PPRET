@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Rhythm</title>
+            </titleStmt>
+            <publicationStmt><p/></publicationStmt>
+            <sourceDesc><p/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+                <head>Ritmo / Rhythm</head>
+                <item xml:id="poetry">
+                    <term xml:lang="it">Poesia</term>
+                    <term xml:lang="en">Poetry</term>
+                </item>
+                <item xml:id="prose">
+                    <term xml:lang="it">Prosa</term>
+                    <term xml:lang="en">Prose</term>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>

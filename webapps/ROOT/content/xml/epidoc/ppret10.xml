@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription in honour of Iunius Bassus Theotecnius from Aqua Viva (Falerii Novi) mentioning his father’s praet. prefecture</title>
+                <editor role="edition">Pierfrancesco Porena</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="pp. 154-155">10</idno>
+                <date when="2020-08-25"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Bassus"><name type="gentilicium">Iunius</name>
+                        <name type="cognomen">Bassus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#CivitaCastellana">Civita Castellana (Viterbo), east side of the moat surrounding Forte del Sangallo (Museo Archeologico dell’Agro Falisco)</repository>
+                        <idno type="invNo"/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for Iunius Bassus Theotecnius, son of the former praetorian prefect Iunius Bassus</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#base">statue base</objectType>
+                                    <dimensions corresp="moulding">
+                                        <height>155</height>
+                                        <width>80</width>
+                                        <depth>80</depth>
+                                    </dimensions>
+                                    <dimensions corresp="body">
+                                        <height>155</height>
+                                        <width>65</width>
+                                        <depth>80</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">yes: the base was previously used for a pagan dedication</rs>
+                                    <rs type="monument_reuse">uncertain</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Two epigraphic fields, frons and left side.</p>
+                                    <rs type="execution" ref="#carved">carved</rs>
+                                    <rs type="preservation" ref="#undamaged">Undamaged.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#square_capitals">late Roman monumental capital</term>
+                                <height corresp="frons">3.5 / 7.5</height>
+                                <height corresp="left side">3 / 6.5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city" ref="#FaleriiNovi">near the ancient village of Aqua Viva, in the territory of Falerii Novi</placeName>
+                                <placeName type="modern_city">Civita Castellana (Viterbo), località Ponte Ritorto (Italy)</placeName>
+                                <placeName type="province">Tuscia et Umbria</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#private">private building: Iunii Bassi villa, in Falerii ager</placeName>
+                            </origPlace>
+                            <origDate period="#p3" when="0364-07-18" precision="high">July 18<hi rend="superscript">th</hi>, 364 AD (PPO 318/334 AD)</origDate>
+                        </origin>
+                        <provenance type="found">found in 1959 in the exedra of a thermal complex of Iunii Bassi’s villa in the country of <placeName ref="#CivitaCastellana">Falerii Novi</placeName></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+              <div type="textpart" subtype="face" n="frons">
+                    <ab>
+                        <lb n="1"/>Theotecnii Bassi.
+                        <lb n="2"/>Iunio Basso <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan>, <g ref="palma et hedera"/>
+                        <lb n="3"/>comiti ordinis
+                        <lb n="4"/>primi, vicario
+                        <lb n="5"/>urbis Romae,
+                        <lb n="6"/>praefecto Urbi,
+                        <lb n="7"/>iudici sacrarum
+                        <lb n="8"/><sic>cocnitionum</sic>,
+                        <lb n="9"/>filio Iuni Bassi <expan><abbr>v</abbr><ex>iri</ex></expan> <expan><abbr>c</abbr><ex>larissimi</ex></expan>
+                        <lb n="10"/>praefecti praeto<lb
+                        n="11" break="no"/>rio per annos
+                        <lb n="12"/>XIIII et consu<lb
+                        n="13" break="no"/>lis ordinari.
+                    </ab>
+                  </div>
+            <div type="textpart" subtype="face" n="latus sin.">
+                  <ab>
+                      <lb n="1"/>Dedicata
+                      <lb n="2"/>XV <expan><abbr>kal</abbr><ex>endas</ex></expan> <expan><abbr>Aug</abbr><ex>ustas</ex></expan>
+                      <lb n="3"/>divo Ioviano
+                      <lb n="4"/>et Varroni<unclear>a</unclear><lb
+                      n="5" break="no"/>no <expan><abbr>cons</abbr><am>s</am><ex>ulibus</ex></expan>
+                  </ab>
+                </div>
+          </div>
+            <div type="apparatus">
+                <p>Edition based on Suppl.It. I (1981), pp. 136-137, nr. 13.</p>
+                <p>
+                  <app loc="frons 3"><note>CO letter O is small in size and inserted inside the C</note></app>
+                  <app loc="frons 4"><note>v.e., AE 1964, 203</note></app>
+                  <app loc="frons 8"><note>cognitionum</note></app>
+                  <app loc="latus sin 3"><note>Iovian[o], AE 1964, 203</note></app>
+                  <app loc="latus sin. 4"><note>the final O is small in size; Varroni[a]/no: Évrard 1962, AE 1964, 203, Giardina 1971-72</note></app>
+                  </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“(Statue) of Theoctenius Bassus. To Iunius Bassus, of clarissimus rank, count of the first order, vicar of the city of Rome,
+                  urban praefect, judge with the faculty to institute sacred trials, son of Iunius Bassus, of clarissimus rank, praetorian prefect for fourteen years
+                  and ordinary consul.</p>
+                  <p>Dedicated on the 15<hi rend="superscript">th</hi> day before the kalends of August,
+                  under the consulship of divus Iovianus and of Varronianus (= July 18<hi rend="superscript">th</hi> 364 AD).”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“(Statue) de Theotecnius Bassus. À Iunius Bassus, clarissime comte du premier ordre, vicaire de la ville de Rome, préfet de Rome, juge avec la faculté d’instituer des procès sacrés, fils de Iunius Bassus, clarissime préfet du prétoire pendant 14 ans et consul ordinaire.</p>
+                <p>Dédiée le 15<hi rend="superscript">me</hi> jour avant les kalendes d’Août, sous le consulat du divus Iovianus et de Varronianus (= le 18 Juillet 364 ap. J.-C.).”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“(Statua) di Theoctenius Bassus. Al chiarissimo Iunius Bassus, conte del primo ordine, vicario della città di Roma,
+                  prefetto urbano, giudice con la facoltà di istituire sacri processi, figlio del chiarissimo Iunius Bassus, prefetto del pretorio per quattordici anni
+                  e console ordinario.</p>
+                  <p>Dedicata il quindicesimo giorno prima delle calende di agosto, durante il consolato del divo Iovianus e di Varronianus (= 18 luglio 364 d.C.).”</p>
+            </div>
+            <div type="commentary">
+                <p>The base was discovered in 1959 in an exedra, during the exacavations of a late antique private villa at Ponte Ritorto near Civita Castellana (Viterbo), in the countryside of the ancient city of Falerii Novi. Now the base is located on the East side of the moat of the Forte del Sangallo (seat of the Archaeological Museum) in Cività Castellana. 
+                    Although the statue is lost, the base is remarkable for its sheer size  and may well have been placed in a prominent position within the private bath complex. 
+                    The inscription is dated on July 18th 364 AD and commemorates Theotecnius, who died five years earlier (see below). The text in honour of Theotecnius, which remembers his homonymous father, the praetorian prefect of Constantine and ordinary consul in 331 AD, suggests that the villa was a family residence, probably belonging to Theotecnius. The villa is located along the Via Flaminia, about 60 km north of Rome. 
+                    The absence of the dedicator at the end of our undamaged inscription suggests a great monument in a family context (the hypothesis of family ties with the city of Rosellae proposed by Torelli 2009 is weak).</p>
+                <p>The marble base is the result of the reuse of a funerary monument, as suggested by the decorations with <foreign>urceus</foreign> and <foreign>patera</foreign> erased on the right and left sides, and the lowered epigraphic field. The holes for fixing the statue on the upper surface do not allow us to establish the type of statue, which was most probably probably lithic. The letters are striking for their large size and fill the entire epigraphic field (115 x 65 cm.) down to the lower moulding: the effect of the layout is not elegant, but gives a feeling of majesty.</p>
+                <p>As said, the monument was built five years after the death of the honoured man, Theotecnius, and contains his <foreign>cursus honorum</foreign>: he was <foreign>comes ordinis primi</foreign> in the 340’s and <foreign>vicarius urbis</foreign> in the 350’s, at uncertain dates (for probable epigraphic references to his building interventions as <foreign>vicarius</foreign> or <foreign>praefectus urbi</foreign> see La Rocca 2001, p. 181; Lipps 2008, p. 398; Machado 2019, p. 113); he became prefect of Rome in 359 AD (Chastagnol 1962, pp. 149-151), but died suddenly (<ref type="source">Amm. 17, 11, 05</ref>) on 25th August at the age of forty-two years and two months.
+                    Born in 317 AD, he converted to Christianity (von Haehling 1978, p. 375, nr. 36), and died shortly after his baptism. He was buried near St. Peter’s sepulchre, and his magnificent sarcophagus was found in the Vatican Grottoes (now it is exhibited in St. Peter’s Treasure; cf. Malbon 1990; Lange, Sörries 1997; Elsner 2003 and 2008; on the basilica in this period cf. Brandt 2015; Westall 2015). In 359 AD, two inscriptions were carved on his sarcophagus: the first one, along the front frame of the lid, found on October 1597, records Theotecnius conversion, his age and the date of his death (CIL VI, 32004 = 41341b = ILS 1286 = ILCV 90 = ICUR n.s., II, 4164 = EDR 073948 with further bibliography); the second one, a fragmentary slab over the lid, found in 1940/43 and 1979, is  a poem in eight elegiac distichs which describes his funeral (CIL VI, 41341a = EDR 109751). The funeral of Theotecnius was an important event for the Christian community of Rome – maybe not only for Christians, since Ammianus also speaks of it (see Vitiello 2000 and 2006; Cameron 2002; Mondin 2007; Matthews 2009, pp. 133-134; Machado 2019, pp. 148-149). A relationship exists between the grandiose sarcophagus from the Vatican necropolis and the base from Aqua Viva and that is their considerable dimensions. Decorative luxury and large dimensions are also evident in the <foreign>domus</foreign> of the Iunii Bassi on the <foreign>Cispius mons</foreign> in Rome with its inscription; similar is the use of writing in full, without abbreviations of the offices attained (see below).</p>
+                <p>The inscription of Aqua Viva exalts the highest offices reached in the career by Iunius Bassus, father of Theotecnius: the ordinary consulate of 331 AD (CLRE, pp. 196-197; Salway 2015, p. 214), and the total duration of his praetorian prefecture, fourteen years. There is no doubt that at the date of the composition of the epigraphic text, inaugurated on July 18th 364 AD, the fourteen years of Iunius Bassus’ tenure was the longest prefectorial office ever held (Porena 2003, pp. 345, 454-456; 2014, pp. 201-202).</p>
+                <p>Until the publication of the Aqua Viva inscription in 1962, the praetorian prefecture of Iunius Bassus was known only through the constitutions of the late-antique legislative Codes; his prefectural office was thought to run between July 18th 329 and October 20th 331 AD). The constitutions addressed <foreign>ad Bassum</foreign> were and are difficult to attribute because of the <foreign>cognomen</foreign> Bassus common to several Constantinian officials, a problem exacerbated by an extended fourteen year mandate (Palanque 1966; Giardina 1971-1972; Porena 2003, pp. 347-352). However, one can be sure that Iunius Bassus was appointed praetorian prefect after March 317 AD (inscription of Annianus and Iulianus in Ephesus, <ref type="ppret" corresp="ppret09">PPRET 09</ref>) and before March 320 AD (<ref type="source">CI 07, 57, 07</ref>) – perhaps in the middle of 318 AD (see below) – and was discharged after the end of 331 AD, the year in which he was ordinary consul and prefect (<ref type="source">CTh 01, 05, 03</ref>, of October 20th, and <ref type="source">CPR 07, 36, 13</ref> of December 22th 331 AD) and before the prefectorial inscription of Tubernuc and Antiochia in 335-336 AD (<ref type="ppret" corresp="ppret17">PPRET 17</ref>, <ref type="ppret" corresp="ppret18">18</ref>). Moreover, in 1980 the name of Iunius Bassus appeared in the fragments of the African inscription of Aïn Rchine (<ref type="ppret" corresp="ppret16">PPRET 16</ref>), in second position in a college of five praetorian prefects of Constantine, in charge in 332 AD (lines 3-4, according to Porena): <foreign>Valeri Maximi, Iu</foreign>[<foreign>ni Bassi, Papi Pacatiani, / Flav</foreign>]<foreign>i Ablabi, Va</foreign>[<foreign>leri Felicis</foreign>]. 
+                    The order of enumeration of the prefects is imposed by the anteriority of the appointment (Feissel 1991): the constitutions and the inscription of Aqua Viva show that Iunius Bassus was appointed surely before Valerius Maximus, at least in 318 AD, and after Petronius Annianus (<ref type="ppret" corresp="ppret08">PPRET 08</ref> and <ref type="ppret" corresp="ppret09">09</ref>). According to Porena, the fragments of the inscription of Aïn Rchine suggest that Iunius Bassus could not have been prefect continuously since 318 AD, but must have been dismissed and then re-appointed after Valerius Maximus. The two mandates were different. The research on the birth of the regional praetorian prefectures led Porena to hypothesize that the fourteen-year tenure of Iunius Bassus’ praetorian prefecture, testified in the inscription of 364 AD, are the result of the sum of two distinct mandates, the first one as praetorian prefect, traditional and single, under Constantine (318-322 AD), the second as regionale praetorian prefect of Constantine, together with four colleagues (326-334 AD) (analysis in Porena 2003, 342-354; 454-466; 482-487; 546-549; synthesis Porena 2007; on the difficulty of expressing in epigraphic language the renewal and duration of two mandates see Porena 2014).</p>
+                <p>Many scholars believe that the mandate of Iunius Bassus was unique and continued for fourteen years. Taking up a hypothesis of Seeck (1914, in particular pp. 28-37; 1919, pp. 142-143), strengthened by Jones (1964, I, pp. 101-103), they believe that Constantine did not create the regional praetorian prefectures, but allocated to himself and his Caesars various regions of jurisdiction within the empire, while allowing five praetorian prefects to operate beneath them. The increase in the number of the prefects occured when Constantine began assigning them to the Caesars, the first being Iunius Bassus serving under Crispus in 318 AD. 
+                    This would be the ‘pre-regionalisation process’ of the praetorian prefectures, made up of the ‘personal’ prefects of Constantine Augustus and his Caesars. It was a system that soon became mixed: personal (‘ministerial’) and regional prefects (in areas without any sovereign), especially in the last years of Constantine’s reign. This model is already in PLRE I (scheme on p. 1048) and is accepted, after the discovery of the inscription of Aïn Rchine, by Barnes (1982, pp. 129-139; 1987; 1992, pp. 249-251; 1996, p. 546; 2011 pp. 104, 158-163, so in 318-324 AD Iunius Bassus as a third prefect, then up to five prefects), who thinks about the establishment of regional prefectures with Constantius II and Constant; similarly now Gkoutzioukostas (2016, pp. 102-110). 
+                    The coexistence of prefects serving under the Augustus and the Caesars, while still admitting the early creation of regional prefectures is suggested by A. Chastagnol (1968, pp. 337-352; 1982, pp. 249-251). Coşkun (2004, and scheme p. 327) considers the presence of the praetorian prefects next to the Augusti and Caesars (he defines them <foreign>praefecti praesen</foreign>[<foreign>ta</foreign>]<foreign>les</foreign>) as fundamental, and does not think that the 4th Century empire was divided into regional prefectures (already proposed by Migl 1994, at least up to 364 AD). Scholars who reject the ‘setting up’ of regional prefectures by Constantine as a general reform carried out at a given time, easily insert the continued fourteen years of the prefecture of Iunius Bassus alongside a Caesar from 318 onwards. Scholars who consider the ‘setting up’ of the regional prefectures as a a specific Constantinian reform (around 324-328 AD) do not discuss the chronology of the long tenure of Iunius Bassus (Gutsfeld 1998, pp. 78-81; 2007; 2016, pp. 223-233 and 238; Olszaniec 2014, p. 34; Bonin 2016; Landelle 2016; about the praetorian prefecture of Africa, undoubtedly regional in 332-336 AD, cf. Vera 2012 and 2014; for a different opinion, see Salway 2007).</p>
+                <p>Whatever was the nature of Iunius Bassus’ praetorian praefecture(s), on 18th July 364, when the Aqua Viva monument for the deceased Theotecnius was inaugurated, no less than twenty/twenty-five years after the death of Iunius Bassus senior, some praetorian prefectures were renewed by other dignitaries (Vulcacius Rufinus, see <ref type="ppret" corresp="ppret32">PPRET 32</ref>, <ref type="ppret" corresp="ppret33">33</ref>; Flavius Florentius, see PLRE I, p. 365; Saturninus Secundus Salutius, see <ref type="ppret" corresp="ppret50">PPRET 50</ref>-<ref type="ppret" corresp="ppret54">54</ref>; Claudius Mamertinus, see <ref type="ppret" corresp="ppret49">PPRET 49</ref>), but no prefect, even if the duration of the mandates is cumulated, could reach a total of fourteen years. Whether it was one or two prefectures, the descendants of Iunius Bassus wanted nevertheless, to exalt in their Aqua Viva villa the achievement of their ancestor in the age of Constantine.</p>
+                <p>As regards the career of Iunius Bassus before his praetorian prefecture, unknown in PLRE, Porena proposed two hypotheses. First, he tentatively identifies (after a detailed examination) the [---]<foreign>ṿius Bassus vir perfectissimus corrector Lucaniae et Brittiorum</foreign>, who was the recipient of a large honorary base from Paestum (Mello, Voza 1968, pp. 178-181, nr. 110 = AE 1975, 261a = EDR 076095 = LSA 1845) with Iunius Bassus at the beginning of his career, probably during the Tetrarchy. If this identification is exact, Bassus must have been an <foreign>eques</foreign> chosen by Maximianus Herculius as governor of a strategic province for the supply of Rome in 293-305 AD, maybe in 303 AD (Porena 2012, pp. 297-300).</p>
+                <p>Second, <ref type="source">CTh 09, 08, 01</ref> was sent by Constantine, who was at that time residing in Aquileia, on April 4th 318 AD to a Bassus clearly indicated in the <foreign>inscriptio</foreign> as <foreign>vicarius Italiae</foreign>. The vicariate is correct according to Godefroy (1738, pp. 75-76), Mommsen (1905, p. 450), Seeck (1919, pp. 63, 156, 450); this office occurs just five times in the whole Theodosian code. Although the consular year 326 AD is wrong, it is also true that almost all the consular dates of 318 AD, when the two consuls, Licinius A. V and Crispus C., were both condemned, are interpolated (for the constitutions issued by Constantine in Aquileia during 318 AD see Porena 2005, pp. 208-215).  It seems possible that the <foreign>vicarius Italiae</foreign> in office on April 318 AD is Iunius Bassus himself, shortly before his appointment to the praetorian prefecture: Iulius Severus (PLRE I, pp. 831 and 836) is vicar of Italy on June 22nd 318 AD (<ref type="source">CTh 11, 30, 09</ref>); Constantine at Aquileia in the spring-summer of 318 AD (from April 1st, <ref type="source">CTh 09, 24, 01</ref>, until July 30th, <ref type="source">CTh 07, 22, 02</ref>) may have decided to promote Iunius Bassus (<foreign>ex vicario</foreign>)  to the praetorian prefecture (concerning <ref type="source">CTh 09, 08, 01</ref> see Porena 2006a, pp. 1359-1361; 2012, pp. 301-302; 2013, p. 341). It seems possible that during the Italian vicariate his son Theotecnius was born (June 317 AD). Theotecnius, who went on to lead an important career in Rome, probably lived and studied in the capital, where Iunius Bassus had his luxury <foreign>domus</foreign> built on the <foreign>Cispius mons</foreign>, inaugurated between 331 and 335 AD (see below).</p>
+                <p>During his praetorian prefecture in 331 AD, Iunius Bassus was also awarded the ordinary consulate and both offices are exalted in full in the Aqua Viva inscription (sources on his consulate after PLRE I and CLRE: P. Col. X, 289; P. Hamb. IV, 264; P. Heid. X, 452; P. Kell. 1, 4; P. Kell. 1, 57). This consulate is also celebrated in the monumental mosaic inscription, now lost, in the so-called ‘Basilica of Iunius Bassus’ on the <foreign>Cispius mons</foreign> in Rome. Located in a magnificent Roman <foreign>domus</foreign>, the apsidal hall was probably inaugurated by the senator at the end of his praetorian prefecture (Porena 2006b, 337-343; CIL VI, 1737, with pp. 4747-4748 = ICUR, II, p. 436, nr. 116 = ILCV 59 = EDR 111532):</p>
+                <p>IVNIVS BASSVS V(IR) C(LARISSIMVS) CONSVL ORDINARIVS PROPRIA IMPENSA A SOLO FECIT ET DEDICAVIT FELICITER.</p>
+                <p>In the apsidal hall there were four famous marble <foreign>opus sectile</foreign> panels, one of wich shows Iunius Bassus as <foreign>consul ordinarius</foreign> at the head of the <foreign>pompa circensis</foreign> (Rome, Museo Naz. Rom. Palazzo Massimo alle Terme, inv. 375831). This is one of the very rare portraits of a late-antique praetorian prefect (on the <foreign>domus</foreign> of Bassus and its secular decoration see Machado 2019, 209-219; cf. also Guidobaldi 1995; Sapelli 2000; Mathisen 2009; Sguaitamatti 2012, 167-168; Kalas 2013). 
+                    By the middle of the 5th Century the <foreign>domus</foreign> of Iunius Bassus on the <foreign>Cispius mons</foreign> no longer belonged to the family, but to the <foreign>comes et magister utriusque militiae</foreign> Flavius Valila <foreign>qui et</foreign> Theodovius (PLRE II, 1147; PChBE II, 2247; Orlandi 2004, 513-516; on the seat at the Colosseum: CIL VI, 32169 = EDR 166383, with Orlandi 2004, 319-321, nr. 17.11 [fr. a]; Orlandi 2017). 
+                    Valila in his will donated the residence to the Church of Rome.
+                    Some time between 471 and 483 AD, Pope Simplicius transformed it into the church of St. Andrew, as indicated by the epigram inserted in the new Christian mosaic composed in the semi-dome of the apse of the hall, above the dedicatory inscription by Iunius Bassus (CIL VI, 41402 = ILCV 1785 = ICUR, n.s., II, 115 = CLE 916 = EDR 093625, with Mazzoleni 2002, 270; on the matter see Roberto 2013). 
+                    The fact that the musive inscription, executed by Bassus, emphasizes his ordinary consulate, held in 331 AD, and not his praetorian prefecture, might have a chronological value. Iunius Bassus may have inaugurated his <foreign>domus</foreign> after his honourable discharge from the prefecture, between the beginning of 333 AD and the beginning of 335 AD at the latest, and may have decided to mention in the dedication of the <foreign>domus</foreign> his most prestigious senatorial office held to that date the ordinary consulate.</p>
+                <p>Iunius Bassus senior could have been born around 275 AD. His <foreign>cursus honorum</foreign> might be summarised as follows: (?) <foreign>vir perfectissimus, corrector Lucaniae et Bruttiorum</foreign>, 293/305 AD, when he was about thirty years old (not in PLRE I); (?) (<foreign>vir perfectissimus</foreign> ?) <foreign>vicarius Italiae</foreign> in (315?-)318 AD, when he was forty/forty-three years old (not in PLRE I); <foreign>vir</foreign> (<foreign>eminentissimus</foreign> ? then) <foreign>clarissimus praefectus praetorio</foreign>, 318-331 AD, (as in PLRE I), or 318-322 AD (first prefecture) and 326-334 AD (second prefecture), when he was about forty-three/fifty-seven years old; <foreign>vir clarissimus consul</foreign> (prior) 331 AD, when he was about fifty-five years old. 
+                    This is a particularly brilliant and noteworthy career for a talented dignitary of first equestrian, then senatorial rank, between the 3rd and the 4th Centuries AD. The feat was proudly celebrated by the prefect’s descendants beneath the statue of his son Theotecnius in their villa near Aqua Viva.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                  <bibl><ref>Évrard 1962, p. 616</ref>, with photo = <bibl><ref>AE 1964, 203</ref></bibl></bibl>
+                  <bibl><ref>Suppl.It. I (1981), pp. 136-137, nr. 13</ref>, with photo</bibl> 
+                  <bibl><ref>Giardina 1971-72, p. 255 and 254 nt. 6</ref> = <bibl><ref>AE 1975, 370</ref></bibl></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                  <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR029806">EDR 029806</ref></bibl>
+                  <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD016069">HD 16069</ref></bibl>
+                  <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-1628">LSA 1628</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                <bibl>Barnes T.D., The New empire of Diocletian and Constantine, Cambridge (Mass.)-London 1982</bibl>
+                    <bibl>Barnes T.D., Regional Prefectures, in Bonner Historia-Augusta-Colloquium 1984/1985, Bonn 1987, 13-23</bibl>
+                    <bibl>Barnes T.D., Praetorian Prefects, 337-361, ZPE, 94, 1992, 249-260 (= From Eusebius to Augustine. Selected Papers 1982-1993, Aldershot, 1994, nr. XIII)</bibl>
+                    <bibl>Barnes T.D., Emperors, Panegyrics, Prefects, Provinces and Palaces, JRA, 9, 1996, 532-552</bibl>
+                    <bibl>Barnes T.D., Constantine. Dynasty, religion and power in the later Roman Empire, Oxford-Chichester-Malden (Mass.) 2011</bibl>
+                    <bibl>Bonin F., Costantino, i barbari e la riforma della prefettura del pretorio, in LIMES. Spazio di divisione e di contatto. Profili dell’epoca tardo antica. Atti AST Parma, marzo 2015, Cultura Giuridica e Diritto Vivente 3 (2016), 20-30</bibl>
+                    <bibl>Brandt H., Konstantin, seine Söhne und die Basilica S. Pétri in Rom, ZPE, 196, 2015, 272-276</bibl>
+                    <bibl>Cameron Al., The funeral of Junius Bassus, ZPE, 139, 2002, 288-292</bibl>
+                    <bibl>Chastagnol A., Les fastes de la Préfecture de Rome au Bas-Empire, Paris 1962 </bibl>
+                    <bibl>Chastagnol A., Les préfets du prétoire de Constantin, REA, 70, 1968, 321-352</bibl>
+                    <bibl>Chastagnol A., L’évolution politique, sociale et économique du monde romain de Dioclétien à Julien. La mise en place du régime du Bas-Empire (284-363), Paris 1982</bibl>
+                    <bibl>Coşkun A., Die Praefecti praesent(al)es und die Regionalisierung der Praetorianerpraefecturen im vierten Jahrhundert, Millennium, 1, 2004, 279-328</bibl>
+                    <bibl>Elsner J., Inventing Christian Rome: the role of early Christian art, in Rome the cosmopolis, ed. by C. Edwards, G. Woolf, Cambridge-New York 2003, 71-99</bibl>
+                    <bibl>Elsner J., Framing the objects we study: three boxes from Late Roman Italy, Journal of the Warburg and Courtauld Institutes, 71, 2008, 21-38</bibl>
+                    <bibl>Évrard G., Une inscription inédite d’Aqua Viva et la carrière des Iunii Bassi, MEFR, 74, 1962, 607-647</bibl>
+                    <bibl>Feissel D., Praefatio chartarum publicarum. L’intitulé des actes de la préfecture du prétoire du IVe au VIe siècle, T&amp;MByz, 11, 1991, 437-464 (= Documents, droit, diplomatique de l’Empire romain tardif, Paris 2010, 399-428)</bibl>
+                    <bibl>Giardina A., L’epigrafe di Iunius Bassus ad Aqua Viva e i criteri metodici di Godefroy, Helikon, 11-12, 1971-72, 253-278</bibl>
+                    <bibl>Gkoutzioukostas A., The reforms of Constantine the Great in provinicial administration. A critical approach to the conclusions of modern research, Byzantina, 34, 2016, 93-110</bibl>
+                    <bibl>Godefroy J., Codex Theodosianus cum perpetuis commentariis Jacobi Gothofredi, III, ed. by J.D. Ritter, Leipzig 1738</bibl>
+                    <bibl>Guidobaldi F., Domus: Iunius Bassus, in LTVR, II, Roma 1995, 69-70</bibl>
+                    <bibl>Gutsfeld A., Der Prätorianerpräfekt und der kaiserliche Hof im 4. Jahrhundert n. Chr., in Comitatus. Beiträge zur Erforschung des spätantiken Kaiserhofes, hrsg. A. Winterling, Berlin 1998, 75-102</bibl>
+                    <bibl>Gutsfeld A., Praefectus praetorio, in Brill’s Encyclopaedia of the Ancient World, New Pauly 11, Leiden-Boston 2007, 758-759</bibl>
+                    <bibl>Gutsfeld A., Les préfets du prétoire en Gaule sous Constantin Ier (306-337), in Constantin et la Gaule. Autour de la vision de Grand, éd. L. Guichard, A. Gutsfeld, Fr. Richard, F. Delrieux, Nancy 2016, 217-244</bibl>
+                    <bibl>Jones A.H.M., The later Roman Empire, 284-602 AD. A social, economic and administrative survey, 3 voll., Oxford 1964</bibl>
+                    <bibl>Kalas G., Architecture and élite identity in late antique Rome: appropriating the past at Sant’Andrea Catabarbara, PBSR, 81, 2013, 279-302</bibl>
+                    <bibl>Lange U., Sörries R., Formale und inhaltliche Parallelen zu den Zwickelbildern am Bassus-Sarkophag in Rom, in Vom Orient bis an den Rhein. Begegnungen mit der Christlichen Archäologie. Peter Poscharsky zum 65. Geburtstag, hrsg. von U. Lange, R. Sörries, Dettelbach 1997, 219-245</bibl>
+                    <bibl>La Rocca E. , La nuova immagine dei Fori Imperiali. Appunti in margine agli scavi, MDAI(R), 108, 2001, 171-213</bibl>
+                    <bibl>Lipps J., Zur Datierung der spätantiken Portikus des Caesarforums. Literarische Quellen und archäologischer Befund, MDAI(R), 114, 2008, 389-405</bibl>
+                    <bibl>Machado C., Urban Space and Aristocratic Power in Late Antique Rome, AD 270-535, Oxford 2019</bibl>
+                    <bibl>Malbon E.S., The Iconography of the Sarcophagus of Junius Bassus: Neofitus Iit Ad Deum, Princeton 1990</bibl>
+                    <bibl>Mathisen R., L’«adventus» consulaire pendant l’Antiquité Tardive, in Les Entrées royales et impériales. Histoire, représentation et diffusion d’une cérémonie publique, de l’Orient ancien à Byzance, éd. A. Bérenger, E. Perrin-Saminadayar, Paris 2009, 139-156</bibl>
+                    <bibl>Matthews J., Four funerals and a wedding. This world and the next in Fourth-Century Rome, in Transformations of Late Antiquity. Essays for Peter Brown, Farnham 2009, 129-146</bibl>
+                    <bibl>Mazzoleni D., Osservazioni su alcune epigrafi basilicali romane, in Ecclesiae Urbis. Atti del Congresso Internazionale di studi sulle chiese di Roma (IV-X secolo). Roma, 4-10 settembre 2000, a cura di F. Guidobaldi, A. Guiglia Guidobaldi, I, Città del Vaticano 2002, 267-279</bibl>
+                    <bibl>Mello M., Voza G., Le iscrizioni latine di Paestum, I, Napoli 1968</bibl>
+                    <bibl>Migl J., Die Ordnung der Ämter. Prätorianerpräfektur und Vikariat in der Regionalverwaltung des Römischen Reiches von Konstantin bis zur Valentinianischen Dynastie, Frankfurt am Main 1994</bibl>
+                    <bibl>Mommsen Th. (ed.), Codex Theodosianus, I/2, Theodosiani libri XVI cum constitutionibus Sirmondianis, Berlin 1905</bibl>
+                    <bibl>Mondin L., L’epitaffio metrico del «praefectus urbi» Giunio Basso: CIL VI 41341a, in Studi in ricordo di Fulviomario Broilo, a cura di G. Cresci Marrone,  A. Pistellato, Padova 2007, 451-470</bibl>
+                    <bibl>Olszaniec S., Prefektura praetorio Italii, Illyrikum i Afryki (312-425 n.e.), Torun 2014</bibl>
+                    <bibl>Orlandi S., Epigrafia anfiteatrale dell’Occidente Romano, VI. Roma. Anfiteatri e strutture annesse, con una nuova edizione e commento delle iscrizioni del Colosseo, Roma 2004</bibl>
+                    <bibl>Orlandi S., I «loca senatorii» del Colosseo: novità e riletture, in Dinamiche politico-ecclesiastiche nel Mediterraneo cristiano tardoantico. Studi per Ramon Teja, a cura di S. Acerbi, G. Vespignani, Roma 2017, 197-202</bibl>
+                    <bibl>Palanque J.-R., La préfecture du prétoire de Junius Bassus, in Mélanges d’archéologie et d’histoire offerts à A. Piganiol, éd. R. Chevallier, Paris 1966, 837-842</bibl>
+                    <bibl>Porena P ., Le origini della prefettura del pretorio tardoantica, Roma 2003, 393-395</bibl>
+                    <bibl>Porena P., Problemi di cronologia costantiniana. L’imperatore, Vettius Rufinus e il senato, AntTard, 13, 2005, 205-246</bibl>
+                    <bibl>Porena P., Sulla genesi degli spazi amministrativi dell’Italia tardoantica, in Cinquanta anni della Corte Costituzionale della Repubblica italiana, I/2. Tradizione romanistica e Costituzione, diretto da L. Labruna, a cura di M.P. Baccari e C. Cascione, Napoli 2006, 1315-1376</bibl>
+                    <bibl>Porena P., Trasformazioni istituzionali e assetti sociali: i prefetti del pretorio tra III e IV secolo, in Le trasformazioni delle élites in età tardoantica, a cura di R. Lizzi Testa, Roma 2006, 325-356</bibl>
+                    <bibl>Porena P., «À l’ombre de la pourpre»: l’évolution de la préfecture du prétoire entre le IIIe et le IVe siècle, CCG, 18, 2007, 237-262</bibl>
+                    <bibl>Porena P., I dignitari di Costantino: dinamiche di selezione e di ascesa durante la crisi del sistema tetrarchico, in Costantino prima e dopo Costantino. Constantine before and after Constantine, a cura di G. Bonamente, N. Lenski, R. Lizzi Testa, Bari 2012, 293-320</bibl>
+                    <bibl>Porena P., La riorganizzazione amministrativa dell’Italia. Costantino, Roma, il Senato e gli equilibri dell’Italia romana, in Costantino I. Enciclopedia costantiniana sulla figura e l’immagine dell’imperatore del cosiddetto Editto di Milano, 313-2013, I, a cura di A. Melloni, P. Brown, G. Dagron, J. Helmrath, E. Prinzivalli, S. Ronchey, N. Tanner, Roma 2013, 329-349</bibl>
+                    <bibl>Porena P., La scelta tra iterazione e durata delle cariche nei «cursus honorum» epigrafici dei senatori tardoromani in Occidente, in Epigrafia e ordine senatorio 30 anni dopo, a cura di M.L. Caldelli e G.L. Gregori, vol. I, Roma 2014, 195-214</bibl>
+                    <bibl>Roberto U., Strategie di integrazione e lotta politica a Roma alla fine dell’impero: la carriera di Fl. Valila tra Ricimero e Odoacre, in Xenia. Studi in onore di Lia Marino, a cura di N. Cusumano, D. Motta, Caltanissetta-Roma 2013, 247-261</bibl>
+                    <bibl>Salway B., The praetorian prefecture of Africa under Constantine: a phantom ?, in XII Congressus Internationalis Epigraphiae Graecae et Latinae. Provinciae Imperii Romani inscriptionibus descriptae (Barcelona, 3-8 Septembris 2002), Barcelona 2007, 1281-1286</bibl>
+                    <bibl>Salway B., Redefining the Roman Imperial Elite in the Fourth Century AD, in Elites in the Ancient World, Szczecin 2015, 199-220</bibl>
+                    <bibl>Sapelli M., La Basilica di Iunius Bassus, in Aurea Roma. Dalla città pagana alla città cristiana, a cura di S. Ensoli, E. La Rocca, Roma 2000, 137-139</bibl>
+                    <bibl>Seeck O., Die Reischspräfektur des vierten Jahrhunderts, RhM, 69, 1914, 1-39</bibl>
+                    <bibl>Seeck O., Regesten der Kaiser und Päpste für die Jahre 311 bis 476 n. Chr., Stuttgart 1919</bibl>
+                    <bibl>Sguaitamatti L., Der spätantike Konsulat, Fribourg 2012</bibl>
+                    <bibl>Torelli M., Gli Iunii Bassi a Rusellae ? A proposito della c.d. Basilica dei Bassi nel foro rusellano, in Etruria e Italia preromana. Studi in onore di Giovannangelo Camporeale, Pisa 2009, 881-892</bibl>
+                    <bibl>Vera  D., Costantino e il ventre di Roma: a proposito della discussa prefettura d’Africa, in Costantino prima e dopo Costantino / Constantine before and after Constatine, a cura di G. Bonamente, N. Lenski, R. Lizzi Testa, Bari 2012, 333-346</bibl>
+                    <bibl>Vera D., Costantino, l’Africa e i privilegi dell’Italia: osservazioni sulla redistribuzione statale nel IV secolo, in Constantino, el primero emperador cristiano ?, ed. Vilella Masana J., Barcelona 2014, 163-180</bibl>
+                    <bibl>Vitiello M., Nuove prospettive sull’«adventus» in età imperiale, MedAnt 3, 2000, 551-580</bibl>
+                    <bibl>Vitiello M., «Neofitus iit ad Deum»: some observations on the sarcophagus of Junius Bassus, in Studies in Latin literature and Roman history, 13, ed. by C. Deroux, Bruxelles 2006, 440-461</bibl>
+                    <bibl>von Haehling R., Die Religionszugehörigkeit der hohen Amtsträger des Römischen Reiches seit Constantins I. Alleinherrschaft bis zum Ende der Theodosianische Dynastie (324-450 bzw. 455 n. Chr.), Bonn 1978</bibl>
+                    <bibl>Westall R., Constantius II and the Basilica of St. Peter in the Vatican, Historia 64, 2015, 205-242</bibl>
+              </p>
+            </div>
+
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                    <p n="1.4"></p>
+                </div>
+
+                <div type="commentary" n="2">
+                    <p n="2.b"></p>
+                    <p n="2.2"></p>
+                    <p n="2.3"></p>
+                    <list n="2.11">
+                        <item n="2.11.h"></item>
+                    </list>
+                </div>
+                
+                <div type="commentary" n="4">
+                    <p n="4">yes</p>
+                </div>
+
+                <div type="commentary" n="8">
+                    <p n="8.1">v(iri) c(larissimi)</p>
+                    <p n="8.2">praefecti praetorio per annos XIIII</p>
+                    <p n="8.4"></p>
+                    <p n="8.6"></p>
+                    <p n="8.8">per annos XIIII</p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

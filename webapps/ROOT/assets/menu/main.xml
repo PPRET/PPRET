@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/menu/menu.rng" type="xml"?>
+<root xmlns="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
+  xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+  <menu label="Language" i18n:key="menu-language">
+    <item label="English" language="en" match="local-language-home-page"/>
+    <item label="Français" language="fr" match="local-language-home-page"/>
+    <item label="Italiano" language="it" match="local-language-home-page"/>
+  </menu>
+  <menu label="Project" match="local-tei-display-html" params="introduction" i18n:key="menu-project">
+    <item label="Introduction" match="local-tei-display-html" params="introduction" i18n:key="menu-introduction"/>
+    <item label="Team" match="local-tei-display-html" params="team" i18n:key="menu-team"/>
+    <item label="Bibliography" match="local-tei-display-html" params="bibliography" i18n:key="menu-bibliography"/>
+  </menu>
+  <menu label="Instructions" match="local-tei-display-html" params="instructions" i18n:key="menu-instructions" />
+  <menu label="Abbreviations" match="local-tei-display-html" params="abbreviations" i18n:key="menu-abbreviations" />
+  <menu label="Inscriptions" match="local-epidoc-index-display" i18n:key="menu-inscriptions" />
+  <menu label="Search" match="local-search" i18n:key="menu-search" />
+  <!--<menu label="Texts" match="local-tei-index-display" i18n:key="menu-texts"/>-->
+  <!--<menu label="Indices" match="local-indices-type-display" params="epidoc" i18n:key="menu-indices">
+    <item label="Personal names" match="local-index-display-html" params="epidoc person_name" i18n:key="menu-index-person_name"/>
+    <item label="Prosopography" match="local-index-display-html" params="epidoc person" i18n:key="menu-index-prosopography"/>
+    <item label="Places" match="local-index-display-html" params="epidoc place" i18n:key="menu-index-place"/>
+    <item label="Topics" match="local-index-display-html" params="epidoc topic" i18n:key="menu-index-topic"/>
+    <item label="Lemmata" match="local-index-display-html" params="epidoc lemma" i18n:key="menu-index-lemma"/>
+  </menu>-->
+  <!--<menu label="Index" match="local-index-display-html" params="epidoc lemma" i18n:key="menu-index"/>-->
+  <!--<menu label="Admin" language="" match="local-admin-home-page" i18n:key="menu-admin" />-->
+</root>

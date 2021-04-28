@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Materials</title>
+            </titleStmt>
+            <publicationStmt><p/></publicationStmt>
+            <sourceDesc><p/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+                <head>Materiale / Material</head>
+                <item xml:id="marble">
+                    <term xml:lang="it">Marmo</term>
+                    <term xml:lang="en">Marble</term>
+                </item>
+                <item xml:id="travertine">
+                    <term xml:lang="it">Travertino</term>
+                    <term xml:lang="en">Travertine</term>
+                </item>
+                <item xml:id="limestone">
+                    <term xml:lang="it">Calcare</term>
+                    <term xml:lang="en">Limestone</term>
+                </item>
+                <item xml:id="mosaic">
+                    <term xml:lang="it">Mosaico</term>
+                    <term xml:lang="en">Mosaic</term>
+                </item>
+                <item xml:id="bronze">
+                    <term xml:lang="it">Bronzo</term>
+                    <term xml:lang="en">Bronze</term>
+                </item>
+                <item xml:id="stone">
+                    <term xml:lang="it">Pietra di tipologia non specificata</term>
+                    <term xml:lang="en">Unspecified type of stone</term>
+                </item>
+                <item xml:id="gold">
+                    <term xml:lang="it">Oro</term>
+                    <term xml:lang="en">Gold</term>
+                </item>
+                <item xml:id="unknown">
+                    <term xml:lang="it">Sconosciuto</term>
+                    <term xml:lang="en">Unknown</term>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>

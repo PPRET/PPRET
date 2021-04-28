@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription celebrating the enlargement of the horrea in Savaria by the praet. prefect Vulcacius Rufinus</title>
+                <editor role="edition">Eleonora Angius</editor>
+                <editor role="encoding">Eleonora Angius</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="pp. 782-783">33</idno>
+                <date when="2020-03-27"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Rufinus"><name type="gentilicium">Vulcacius</name>
+                        <name type="cognomen">Rufinus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Szombathely">Szombathely (Hungary), Museum of Savaria</repository>
+                        <idno type="invNo">depository, inv. 67.10.37</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#building">Building inscription commemorating the founding of the <foreign>horrea</foreign> of Savaria</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#limestone">limestone</material>
+                                    <objectType ref="#stone_slab">slab</objectType>
+                                    <dimensions>
+                                        <height>109</height>
+                                        <width>80</width>
+                                        <depth>12.5</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">none</rs>
+                                    <rs type="monument_reuse">none</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#undamaged">Undamaged.</rs>
+                                    <p n="opistographic"></p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#rustic_capitals">rustic capitals</term>
+                                <height>8.6/7.2</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Savaria</placeName>
+                                <placeName type="modern_city">Szombathely (Hungary)</placeName>
+                                <placeName type="province">Pannonia Prima</placeName>
+                                <placeName type="diocese">Illyricum</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#public">public space</placeName>
+                            </origPlace>
+                            <origDate period="#p5" notBefore="0347" notAfter="0349">347/349 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#">Szombathely (Hungary)</placeName>, found in 1798 at 27 Koszegi Street, or Gyöngyös Street, or 14 Nikosz-Beloiannisz Street</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                    <ab>
+                        <lb n="1"/>Beatitudine <expan><abbr>d</abbr><ex>omini</ex></expan> <g ref="hedera"/> <expan><abbr>n</abbr><ex>ostri</ex></expan> <g ref="hedera"/> Constantis victoris
+                        <lb n="2"/>ac triumfatoris semper <expan><abbr>Aug</abbr><ex>usti</ex></expan>, 
+                        <lb n="3"/>provisa copia quae horreis deerat
+                        <lb n="4"/>postea quam condendis horrea deesse coeperunt
+                        <lb n="5"/>haec <expan><abbr>Vulc</abbr><ex>acius</ex></expan> <g ref="hedera"/> Rufinus <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan> <expan><abbr>praef</abbr><ex>ectus</ex></expan> <g ref="hedera"/> <expan><abbr>praet</abbr><ex>orio</ex></expan> per se coepta
+                        <lb n="6"/>in securitatem perpetem rei annonariae dedicavit.
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                <app loc="2"><note>triumphatoris: Toth 2011, p. 64, nr. 8</note></app>
+                <app loc="4"><note>horr<corr>e</corr>a deesse coeperun<supplied reason="omitted">t</supplied>: Toth 2011, p. 64, nr.8</note></app>
+                <app loc="5"><note>haec <expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Vulc</abbr><ex>acius</ex></expan>: Buocz 1963, p. 97</note></app>
+                <app loc="6"><note>perpet<supplied reason="omitted">ua</supplied>m: EDH 039981, EDCS 26600353</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“In the most peaceful period of our master Constans, Victorious and Triumphant, eternal Augustus, having been provided with the food supplies that were lacking from the warehouses, after the warehouses began to be insufficient for the goods to be stored, the praetorian prefect of clarissimus rank Vulcacius Rufinus dedicated these (warehouses), which were commissioned by him for the perpetual guarantee of the annonary supply.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“Dans la période de parfaite sérénité de notre seigneur Constant, Vainqueur et Triomphateur, toujours Auguste, ayant été approvisionné en nourriture qui manquait dans les entrepôts, après que les entrepôts aient commencé à ne plus suffire pour ce qui doit être conservé, le préfet du prétoire clarissime Vulcacius Rufinus a dédié ces (entrepôts) commandés par lui à la garantie perpétuelle de l’approvisionnement annonaire.”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“Nello stato di grazia del nostro signore Costante, Vincitore e Trionfatore, sempre Augusto, essendo stato provveduto agli approvvigionamenti di viveri che mancavano ai magazzini, dopo che i magazzini iniziarono a non essere più sufficienti per quanto deve essere conservato, il chiarissimo prefetto del pretorio Vulcacius Rufinus dedicò questi (magazzini) da lui commissionati per la perpetua garanzia dell’approvvigionamento annonario.”</p>
+            </div>
+            <div type="commentary">
+<p>The epigraphic field of the limestone slab is completely undamaged and is framed by a simple moulding. The inscription upon it celebrates the dedication of new warehouses (<foreign>horrea</foreign>) for the military supplies at Savaria (<foreign>Pannonia Prima</foreign>) by the praetorian prefect Vulcacius Rufinus (PLRE I, pp. 782-783, for his career see <ref type="ppret" corresp="ppret32">PPRET 32</ref>).</p> 
+<p>There are two different versions concerning its findspot in Szombathely (Hungary) and the veracity of either cannot be determined. According to Kresznerics (1806, p. 322, <foreign>non vidi</foreign>) the slab was discovered on Gyöngyös street, in the south-eastern part of the city in June 1798. The object was bought by the pharmacist Pàl Reich and set into the wall of his house in the central square (today Főtér). As Lipps (1873, pp. 33) stated, the inscription was found in 1798 in Kőszegi’s Street, in the northern part of the city, in the garden of the house of Jozsef Czédler. A pharmacist acquired it and he set the slab into the wall between his house and the pharmacy (central square, Főtér), where it remained until March 17<hi rend="superscript">th</hi> 1872, when the new house owner Rudolf Alajos gave the monument to the Epigraphic Collection of the Archaeological Society (Toth 2011, p. 65). Finally, the slab was donated to the Museum of Savaria in 1908, where it is exhibited to this day.</p>  
+<p>This second inscription concerning Vulcacius Rufinus, together with the first from his house on the Quirinal hill in Rome (<ref type="ppret" corresp="ppret32">PPRET 32</ref>), sheds light on how the praetorian prefect's controlled the <foreign>annona</foreign>. In all likelihood, Rufinus was supervising the supply operations at Sirmium for the armies in the Pannonian region. Among his many responsabilities, the praetorian prefect had to manage the immense logistics of the <foreign>annona militaris</foreign> and this text provides unique evidence of how the infrastructure of this system in a northern frontier province had developed (Bodnaruk 2019, pp. 150-151).</p>  
+<p>Savaria was the administrative centre of <foreign>Pannonia Prima</foreign> and boasted an imperial palace. Since the city was situated in a frontier province, it was exposed to external assaults, expecially raids and invasions by Quadi and Sarmati. As a result it was fortified and equipped with storage depots in order to ensure continous supplies for the troops stationed here and elsewhere (Schrettle 2010, p. 235). A large quantities of imported and locally produced foodstuffs passed through Savaria, whose job it was to coordinate the <foreign>annona militaris</foreign>. From here the supplies were taken to the frontier military units and their depots (<foreign>horrea</foreign>). The Pannonian city was connected to the Po Valley through an ancient trade route, the Amber Road, which may well have been central to Rufinus’ activity and patronage in Northern Italy (see <ref type="ppret" corresp="ppret32">PPRET 32</ref>) with possible grain imports from the Po Valley to Illyricum.</p>  
+<p>Perhaps an increase in supplies caused a storage crisis rendering the old warehouses inadequate (Rizos 2013, p. 659) or perhaps the preatorian prefect Vulcacius Rufinus was simply asked to increase capacity.</p> 
+<p>The <foreign>horrea</foreign> were oblong, gable-roofed buildings divided into aisles by rows of pillars, with raised floors and strong walls that were often buttressed and fortified. These hangar-like military granaries adhere to all the precepts of early Roman architecture (Rizos 2013, pp. 659-660). These structures were the result of a building policy that had as its aim the creation of a complex network of supply dumps. In order to billet troops and protect the hinterland, these military installations required defensive walls with towers and storage buildings (<foreign>horrea</foreign>) or even individual watchtowers (<foreign>burgi</foreign>) with combined <foreign>horrea</foreign> (Schrettle 2010, pp. 235-237). The establishing of a new frontier on the Danube between the reigns of Aurelian and Constantine had led to the creation of several new centres of defence. But it also led to the restoration of old forts or large <foreign>villae</foreign> in the rural areas left in ruins, in which many 4th Century <foreign>horrea</foreign> have been found (Rizos 2013, pp. 659-671).</p>
+<p>One of the additional lines of defence on the Danubian <foreign>limes</foreign> was Savaria, however due to the uncertainty of where the inscription was found (both hypothetical findspots are very distant from each other), it is difficult to identify the precise location of Savaria’s <foreign>horrea</foreign>. The plural used in the text suggests the presence of more than one warehouse close to each other, probably in the East of the city, but it is unknown whether they were outside or inside the walls.</p>  
+<p>Schrettle (2010, p. 238) supposed that in order to economize, Vulcacius Rufinus had the rural villae of Rannersdorf (<foreign>Noricum Mediterraneum</foreign>) converted into military depots, since <foreign>Noricum Mediterraneum</foreign> was under his jurisdiction. However, the distance between this area and Szombathely is rather large. Recently, the remains of two <foreign>horrea</foreign> at Savaria were brought to light (Balázs 2017, pp. 75-111): the first one was found in the eastern part of the city, along the road leading out of Savaria, the second one was outside the southern city walls, between the Amber road and the Iseum (shrine to Isis). Both have only been partially excavated and they cannot be precisely dated. If the correct findspot was indeed Gyöngyös Street (Toth 2011, p. 65), then our inscription could be associated with the first eastern building, but the extant remains do not allow us to identify it with certitude as a <foreign>horreum</foreign>. The second structure can be identified as <foreign>granarium</foreign>, but it was built mostly with the building material of the demolished shrine and is thus too late in date to be identified with the <foreign>horrea</foreign> mentioned in the inscription. Today the warehouses dedicated by Rufinus are still not securely located.</p> 
+<p>Since the monument does not record the consulate of Vulcacius Rufinus which was held at the same time as the praetorian prefecture in 347 AD (CLRE, pp. 228-229), Migl (1994, p. 115) and Balàzs (2017, pp. 75-77) have argued that the inscription should be dated to before 347 AD, when Rufinus was already pretorian prefect of Italy, Illyricum and Africa (since 344/346 AD), but before he gained consulate.</p>  
+<p>That being said, a reference to a consulate on a building was not at necessity. Rufinus was made praetorian prefect of Italy, Illyricum and Africa for the first time as of 344 AD, but more probably from 346 AD (we can deduce that he was appointed before his consulate from the <foreign>cursus honorum</foreign> in CIL VI, 32051, see <ref type="ppret" corresp="ppret32">PPRET 32</ref>) until at least 352 AD. In 347 AD Ulpius Limenius is attested as urban and praetorian prefect of Italy (<ref type="source">MGH AA 09</ref>, <ref type="source">Chron. Min. 01, 68</ref>; <ref type="ppret" corresp="ppret34">PPRET 34</ref>) and from that moment on Vulcacius Rufinus appeared in office only in Illyricum, before Constans’ death (<ref type="source">CI 06, 62, 03</ref>, December 349 AD) and after it (<ref type="source">Petr. Patr., fr. 16</ref>; <ref type="source">Epiph., Pan., 71, 01, 05</ref>; concerning the usurpation of Vetranio and Rufinus’ role in it, see <ref type="ppret" corresp="ppret32">PPRET 32</ref>). It is possible that in 347 AD Rufinus had a transfer of jurisdiction from Italy to Illyricum (Barnes 1987, p. 20), which became an indipendent prefecture under Rufinus’ control as result of an administrative reform of Constans (Neri 1974, pp. 99-103). As a consequence the <foreign>terminus ante quem</foreign> of the inscription from Savaria can be extended at least until January 18<hi rend="superscript">th</hi> 350 AD, when the emperor Constans died, and the <foreign>terminus post quem</foreign> could be fixed to 347 AD, after which Rufinus is continously attested in Illyricum.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+<bibl><ref>CIL III, 4180</ref></bibl>  
+<bibl><ref>Capannari 1885, p. 20</ref></bibl>  
+<bibl><ref>Buràny 1889-1890, p. 50</ref></bibl> 
+<bibl><ref>ILS 727</ref></bibl> 
+<bibl><ref>Buocz 1963, p. 97</ref> (with photo)</bibl> 
+<bibl><ref>Balla (et al.) 1971, nr. 11</ref> (with photo)</bibl> 
+<bibl><ref>RIU I, 48</ref> (with photo)</bibl> 
+<bibl><ref>Schrettle 2010, p. 237</ref></bibl> 
+<bibl><ref>Toth 2011, p. 64, nr. 8</ref> (with photo)</bibl> 
+<bibl><ref>Rizos 2013, p. 659</ref></bibl>  
+<bibl><ref>Balàzs (et al.), 2017, p. 76</ref> (with photo)</bibl> 
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p>
+<bibl><ref>Buocz 1963, p. 97</ref> (with photo)</bibl> 
+<bibl><ref>Balla (et al.) 1971, nr. 11</ref> (with photo)</bibl> 
+<bibl><ref>RIU I, 48</ref> (with photo)</bibl>
+<bibl><ref>Toth 2011, p. 64, nr. 8</ref> (with photo)</bibl>
+<bibl><ref>Balàzs (et al.), 2017, p. 76</ref> (with photo)</bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+<bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-26600353">EDCS 26600353</ref></bibl> 
+<bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD039981">HD 039981</ref></bibl>  
+<bibl><ref corresp="http://lupa.at/7949">Lupa 7949</ref></bibl> 
+<bibl><ref corresp="https://www.trismegistos.org/text/196953">TM 196953</ref></bibl> 
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+<bibl>Balàzs P., Bíró S., CsaPláros A., Hódi A., Sosztarits O., Horreumok és a gabonafeldolgozás emlékei Savariából, AErt, 142, 2017, 75-111</bibl>  
+<bibl>Balla L., Buocz T. P., Kádár Z., Mócsy A., Szentléleky T., Die römischen Steindenkmäler von Savaria, Budapest 1971, 85, nr. 11</bibl>  
+<bibl>Barkóczi L., Mócsy A., Die römischen Inschriften Ungarns, I, Budapest 1972, 52-53, nr. 48</bibl> 
+<bibl>Barnes T. D., Regional prefectures, Bonner Historia-Augusta-Colloquium 1984/1985, Bonn 1987, 20</bibl> 
+<bibl>Bodnaruk M., Production of distinction: the representation of senatorial elites in the Later Roman Empire, 306-395 (PhD Dissertation), Budapest 2019, 150-151</bibl>  
+<bibl>Buocz T., A szombathelyi Savaria Múzeum kőtára, VSz, 17, 1963, 96-97</bibl>  
+<bibl>Buràny G., Az itáliai élelmezési táblák és egy savariai magtármegtöltési feliratos kő, VREJ 17-18, 1889-1890, 44-51</bibl>  
+<bibl>Capannari A., Scoperte archeologiche al palazzo del Ministero della Guerra, BCAR, 13, 1885, 20</bibl>  
+<bibl>Lipp V., Az egylet rövid története, VREJ, 1, 1873, 24</bibl>  
+<bibl>Migl J., Die Ordnung der Ämter. Prätorianerpräfektur und Vikariat in der Regionalverwaltung des Römischen Reiches von Konstantin bis zur Valentinianischen Dynastie, Frankfurt 1994, 108-115</bibl> 
+<bibl>Neri V., Le prefetture del pretorio in Occidente nel periodo 346-350 d.C., RSA, 4, 1974, 99-103</bibl> 
+<bibl>Paulovics I., Lapidarium savariense: római köemlékek új felállitása a szombathelyi múzeumban, Szombathely 1943, nr. 37</bibl>  
+<bibl>Radnoti A., Pannóniai városok élete a korai feudalizmusban, MTA, 5, 1954, 498</bibl>  
+<bibl>Rizos E., Centres of the late Roman Military Supply Network in the Balkans: a Survey of horrea, JRGZ, 60, 2013, 659-696</bibl> 
+<bibl>Schrettle B., Balneum, Horreum, Granarium - zur Interpretation eines Gebäudes in Rannersdorf (Steiermark), AKB, 40, 2010, 227-241</bibl>  
+<bibl>Toth E., A savariai insularendszer rekonstrukciója, AErt, 98, 1971, 165-169</bibl>  
+<bibl>Toth E., Lapidarium Savariense: Savaria Római Feliratos kőemlékei, Szombathely 2011, 63-65, nr. 8</bibl> 
+<bibl>Vera D., Gli horrea frumentari dell'Italia tardoantica: tipi, funzioni, personale, MEFRA, 120/2, 2008, 323-336</bibl> 
+<bibl>Vera D., Horrea e trasporti annonari in Africa e a Roma fra Costantino e Genserico: una complessa organizzazione integrata, in Entrepôts et circuits de distribution en Méditerranée antique, Athènes 2018, 61-74</bibl> 
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="7">
+                    <p n="7.3">horrea</p>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">v(ir) c(larissimus)</p>
+                    <p n="8.2">praef(ectus) praet(orio)</p>
+                    <p n="8.5"></p>
+                    <p n="8.9"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

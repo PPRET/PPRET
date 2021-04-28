@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription in honour of the praet. prefect C. Caelius Saturninus signo Dogmatius from Rome by his son</title>
+                <editor role="edition">Eleonora Angius</editor>
+                <editor role="encoding">Eleonora Angius</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="p. 806">19</idno>
+                <date when="2020-06-15"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Saturninus"><name type="praenomen">Caius</name>
+                            <name type="gentilicium">Caelius</name>
+                            <name type="cognomen">Saturninus</name>
+                            <name type="signum">Dogmatius</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Roma">Rome, Mexican Embassy to the Vatican, Via Ezio 49, in the garden</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect C. Caelius Saturninus</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#base">statue base</objectType>
+                                    <dimensions>
+                                        <height>25</height>
+                                        <width>70</width>
+                                        <depth>70</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">yes, on the left there are two overlapping frames and the epigraphic field is lowered</rs>
+                                    <rs type="monument_reuse">yes, previously this support was an unfinished baseboard of a plinth or a funerary altar</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#undamaged">The inscribed field is undamaged, but the support is broken at the back and damaged on the upper right angle.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <height>4</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Roma</placeName>
+                                <placeName type="modern_city">Rome (Italy)</placeName>
+                                <placeName type="province">Urbs</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia</placeName>
+                                <placeName type="ancient_location" ref="#private">private building (<foreign>domus Caeliorum</foreign>)</placeName>
+                            </origPlace>
+                            <origDate period="#p4" notBefore="0334" notAfter="0336">334/336 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#Roma">Rome</placeName>, found in 1856 between Piazza SS. Apostoli and the east-side of Piazza della Pilotta</provenance>
+                        <provenance type="observed" when="2003" resp="Porena">Seen by Porena 2003.</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                <ab>
+                    <lb n="1"/><expan><abbr>C</abbr><ex>aio</ex></expan> Caelio Saturnino, <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan>,
+                    <lb n="2"/>praefecto praetorio,
+                    <lb n="3"/><expan><abbr>C</abbr><ex>aius</ex></expan> Caelius Urbanus, <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan>,
+                    <lb n="4"/>consularis, patri.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>This edition in based on CIL VI, 1705.</p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“To C. Caelius Saturninus, praetorian prefect of clarissimus rank, C. Caelius Urbanus, of clarissimus rank and consular, to his father.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“À C. Caelius Saturninus, clarissime préfet du prétoire, C. Caelius Urbanus, clarissime consulaire, à son père.”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“Al chiarissimo prefetto del pretorio C. Caelius Saturninus, C. Caelius Urbanus, consolare chiarissimo, al padre.”</p>
+            </div>
+            <div type="commentary">
+                <p>The inscribed statue base was found in 1856 in  the foundations of Piazza della Pilotta at the foot of the Quirinal Hill in Rome, along with a second base, which presents a longer inscription and a statue on it (CIL VI, 1704). All the four faces of our block are framed on each side by a smooth fillet. The base is also broken at the back and damaged on the upper right angle, while the upper side is rough and chiselled away. This  support originally was the baseboard of an unfinished plinth or a funerary altar.</p>
+                <p>Both bases were <foreign>in situ</foreign> and were dedicated to the same C. Caelius Saturninus <foreign>signo</foreign> Dogmatius, by his son C. Flavius Caelius Urbanus. Our inscription (CIL VI, 1705) is noticeably sparser, listing only the single office of praetorian prefect, but the other one (CIL VI, 1705 = ILS 1214 = Di Stefano Manzella, Orlandi 1997, p. 267 = LSA 1266 = EDR 127936) shows the entire <foreign>cursus</foreign> of Dogmatius performed before the praetorian prefecture (from the most recent appointment to the oldest one):</p>
+                <p><foreign>Dogmatii // honori / C(aio) Caelio Saturnino v(iro) c(larissimo), / allecto petitu senatus inter / consulares, comiti d(omini) n(ostri) Constantini /5 Victoris Aug(usti), vicario praefecturae / urbis iudici sacrarum cog(nitionum), vicario / praeff(ectorum) praetorio bis, in urbe Roma / et per Mysias, examinatori per Ita/liam, praefecto annon(a)e urbis, ratio/10nali privat(a)e, vicario summae rei / rationum, rationali vicario per / Gallias, magistro censum, vicario / a consiliis sacris, magistro stu/diorum, magistro libellorum, duce/15nario a consiliis, sexag(enario) a consiliis / sacris, sexag(enario) studiorum adiutori, / fisci advocato per Italiam, / C(aius) Fl(avius) Caelius Urbanus v(ir) c(larissimus), / consularis, patri.</foreign></p>
+                <p>This is the only complete equestrian <foreign>cursus</foreign> known between the Tetrarchic and Constantinian ages. It was studied again by P. Porena, who proposed the following chronology (Porena 2006, pp. 334-337; 2018, pp. 89-92): a) under Maximianus Herculius Aug. at Milan (295-305 AD): <foreign>fisci adv. per Italiam</foreign>, <foreign>sexag. stud. adiutor</foreign> (LX), <foreign>sexag. a consiliis sacris</foreign>, <foreign>ducen. a consiliis</foreign> (CC); b) under Constantius I Aug. then under Constantine I Aug. at Trier (306-312 AD): <foreign>mag. libellorum</foreign> (CCC ?), <foreign>mag. studiorum</foreign>, <foreign>vic. a cons. sacris</foreign> (suppl. as <foreign>mag. stud.</foreign>), <foreign>mag. censum</foreign>, <foreign>rationalis vicarius per Gallias</foreign> (suppl. as <foreign>mag. cens.</foreign>), <foreign>vicarius summae rei rat.</foreign> (suppl. as <foreign>mag. cens.</foreign>), <foreign>rat. privatae</foreign>; c) after the victory of the Milvian Bridge (Oct. 312 AD): <foreign>praef. ann. urbis</foreign> (313/315 AD), <foreign>exam. per Italiam</foreign> (as <foreign>praef. ann.</foreign>), <foreign>vic. praeff. praet. in urbe Roma</foreign> (314/317 AD), <foreign>vic. praef. urbis</foreign> i.s.c. (for a short period as <foreign>vic. in urbe</foreign>); after the victory of Cibalae and Campus Ardiensis (Oct. 316 - Mar. 317 AD): <foreign>vic. praeff. praet. per Mysias</foreign> (317/319 or 320/324 AD); d) after the victory of Hadrianopolis and Chrysopolis (Jul./Sept. 324 AD) <foreign>comes Constantini Victoris</foreign>, <foreign>allectus petitu senatus inter consulares</foreign> (326/330 AD). After Dogmatius’ access to the senatorial order there was a pause: his career seemed to be over, and the first honorary monument was built (CIL VI, 1704). But Constantine appointed the senator praetorian prefect. Since Dogmatius is not listed among the prefects on the arch of Aïn Rchine of 332 AD (<ref type="ppret" corresp="ppret16">PPRET 16</ref>) nor among the prefects on the inscriptions of Tubernuc and Antioch of 335/336 AD (<ref type="ppret" corresp="ppret17">PPRET 17</ref> and <ref type="ppret" corresp="ppret18">18</ref>), his prefecture ought to date to the period 333/335 AD. When Dogmatius was appointed prefect, his son Urbanus erected the second monument to his father, in which the now elderly dignitary was represented as a praetorian prefect (our CIL VI, 1705).</p>
+                <p>On the first base, Dogmatius was portrayed as a <foreign>togatus</foreign>. This famous statue is now in the Vatican Museum (Museo Gregoriano Profano, inv. 10493-10494). On the second base, he was probably portrayed (in a lost statue) with the military attributes of the praetorian prefects. Given that the praetorian prefecture is the only office mentioned in our inscription, and it is a higher office that is not listed in the first longer inscription, we can reasonably infer that the monument was made for Dogmatius’s appointment to the praetorian prefecture, probably in 333 AD.</p>
+                <p>Silvia Orlandi assumed that the two bases (CIL VI, 1704 and 1705) were located in the <foreign>Porticus Constantini</foreign>, in a public space (Di Stefano Manzella, Orlandi 1997, p. 268). But it seems more probable that the two dedications made by Urbanus come from the private space of his/their  <foreign>domus</foreign>. 
+                    Some archival documents recently studied by Montalbano and Avagliano (2014, pp. 62-66) relating to this archaeological area on the Quirinal hill, confirm the identification of the <foreign>domus</foreign>, as Guidobaldi already proposed (see LTUR II, p. 174). According to Gehn (2012, pp. 28-30) these monuments were probably placed in a reception area of the house, where they would have been visible to other members of their class and from whom they sought consensus. Late antique senatorial honorary statues were status-symbols and were very common in the late Roman <foreign>domus</foreign>.</p>
+                <p>Our prefect, an <foreign>eques</foreign> trained in law, financial administration and bureaucracy, ascended socially and gained visibility thanks to his prestigious appointments in Rome, Italy and Illyricum. 
+                    He bought or rebuilt a <foreign>domus</foreign> in Rome with the money acquired through his bureaucratic service. His <foreign>domus</foreign> certainly represents a sign of social status of the new senator in the capital, a reward for loyalty shown in such a long career, welcomed by the Senate. 
+                    That said, no other inscriptions of Dogmatius have come down to us, except those erected by his son in their <foreign>domus</foreign>. He is a bureaucrat on the rise, still extraneous to the aristocracy; his social climbing seems more than anything to have benefited the next generation, since the career of his son (<foreign>vir consularis</foreign>) was probably propitiated by his father’s achievements.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Mommsen 1865, p. 300</ref></bibl>
+                    <bibl><ref>CIL VI, 1389</ref> = <bibl><ref>CIL VI, 1705</ref></bibl> = <bibl><ref>CIL VI, 31642</ref></bibl> = <bibl><ref>CIL VI, 31905</ref></bibl> (p. 4739)</bibl> 
+                    <bibl><ref>ILS 1215</ref></bibl>
+                    <bibl><ref>Delmaire 1989, p. 21</ref></bibl>
+                    <bibl><ref>Wueste 2016, p. 105</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR127938">EDR 127938</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR127938">EDR 127938</ref></bibl>
+                    <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail.php?record=1412">LSA 1412</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Cuq E., De quelques inscriptions relatives à l’administration de Dioclétien, Paris 1881, 3-8</bibl>
+                    <bibl>Delmaire R., Les responsables des finances impériales au Bas-Empire romain (IVe-VIe s.). Études prosopographiques, Bruxelles 1989, 19-21</bibl>
+                    <bibl>Di Stefano Manzella I., Orlandi S., Dedica onoraria e carriera di Caius Caelius Saturninus, in  Le iscrizioni dei cristiani in Vaticano. Materiali e contributi scientifici per una mostra epigrafica, Città del Vaticano 1997, 267-269</bibl>
+                    <bibl>Gehn U., Ehrenstatuen in spätantiken Häusern Roms, in Patrons and Viewers in Late Antiquity, Aarhus 2012, 15-30</bibl>
+                    <bibl>Guidobaldi F., Domus: Caelius Saturninus s. Dogmatius (Honorius), LTUR II, Roma 1995, 174</bibl>
+                    <bibl>Machado C., Urban Space and Aristocratic Power in Late Antique Rome: AD 270-535, Oxford 2019, 139- 145</bibl>
+                    <bibl>Mommsen T., De C. Caelii Saturnini titulo, Nuove Memorie dell’Instituto di corrispondenza Archeologica, 2, 1865, 298-332</bibl>
+                    <bibl>Montalbano R., Avagliano A., La cosiddetta domus Caeliorum in piazza della Pilotta. Testimonianze d’archivio inedite sui ritrovamenti, Stud. Rom., 62, 2014, 51-70</bibl>
+                    <bibl>Porena P., Trasformazioni istituzionali e assetti sociali: i prefetti del pretorio tra III e IV secolo, Le trasformazioni delle élites in età tardoantica, Roma 2006, 334-354</bibl>
+                    <bibl>Porena P., L’amministrazione palatina di Diocleziano e dei tetrarchi. Comitatus, consilium, consistorium, in Diocleziano: la frontiera giuridica dell’impero, Pavia 2018, 88-92</bibl>
+                    <bibl>Tantillo I., Memmius Vitrasius Orfitus, signo Honorius?, ZPE, 190, 2014, 271-278 (= AE 2014, 272)</bibl> 
+                    <bibl>Wueste E. A., Politics and Religion in Late Antique Honorific Monuments: Portrait Heads, Statues, and Inscriptions of the Administrative Elite, Berkeley 2016, 65-67; 103-108</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.a"></p>
+                    <p n="2.1"></p>
+                    <list n="2.11">
+                        <item n="2.11.h">his son</item>
+                    </list>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">v(ir) c(larissimus)</p>
+                    <p n="8.2">praefecto praetorio</p>
+                    <p n="8.5"></p>
+                    <p n="8.9"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

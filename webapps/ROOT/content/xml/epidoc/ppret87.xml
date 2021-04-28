@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Greek verse inscription in honour of Flavius Eutolmius Tatianus praet. prefect from Sidyma</title>
+                <editor role="edition">Giordana Franceschini</editor>
+                <editor role="encoding">Giordana Franceschini</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="p. 876">87</idno>
+                <date when="2020-03-27"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Tatianus"><name type="praenomen">Flavius</name>
+                            <name type="gentilicium">Eutolmius</name>
+                            <name type="cognomen">Tatianus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Aphrodisias">findspot</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect Flavius Eutolmius Tatianus</term>
+                            <term type="rhythm" ref="#poetry">poetry (uncertain: irregular hexametric rhythm; sotadei according to Merkelbach 1978; rhythmic prosa according to Feissel 2011-2012) </term>
+                        </summary>
+                        <textLang mainLang="grc">Greek</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#base">statue base</objectType>
+                                    <dimensions>
+                                        <height>unknown</height>
+                                        <width>unknown</width>
+                                        <depth>unknown</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">no</rs>
+                                    <rs type="monument_reuse">no</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>The text is inscribed on one field for each of the two (square) blocks («auf zwei grossen viereckigen Altären», according to Benndorf who examined them in 1882).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#fragmentary">The inscription is fragmentary.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#unknown">unknown (no images available)</term>
+                                <height>unknown</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Sidyma</placeName>
+                                <placeName type="modern_city">Dudurga Asari (Turkey)</placeName>
+                                <placeName type="province">Lycia</placeName>
+                                <placeName type="diocese">Asiana</placeName>
+                                <placeName type="prefecture">Oriens</placeName>
+                                <placeName type="ancient_location" ref="#public">Public space</placeName>
+                            </origPlace>
+                            <origDate period="#p8" notBefore="0388" notAfter="0392">391/392 AD</origDate>
+                        </origin>
+                        <provenance type="found">The inscription was found in <placeName ref="#">Sidyma</placeName> on two large quadrangular blocks or altars, near the access to an aedicula in a garden not far from “the street of tombs”</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                <div type="textpart" subtype="part" n="1">
+                    <ab>
+                        <lg>
+                            <lb n="1"/><l><supplied reason="lost">Τ</supplied>ατιανός μετὰ δικανικήν
+                            <lb n="2"/><supplied reason="lost">τρισὶν</supplied> ἄρχουσιν συνκαθεσθείς</l>
+                            <lb n="3"/><l>ἡγεμόνι βικαρίῳ ἀνθυπά<supplied reason="lost">τῳ</supplied>
+                            <lb n="4"/>δυσίν τ’ ἐπάρχοις</l>
+                            <lb n="5"/><l>ἀρχήν Θηβαίων λάχεν, ἔ<supplied reason="lost">πειτ’</supplied>
+                            <lb n="6"/>Αἰγύπτου πάσης,</l>
+                            <lb n="7"/><l>κεῖθεν ὑπατικὸς Συρίης ἠδ’ ὅ<supplied reason="lost">λης</supplied>
+                            <lb n="8"/>ἄρχος ἐῴας</l>
+                            <lb n="9"/><l>θησαυρῶν τε θείων κόμ<supplied reason="lost">ης</supplied>
+                            <lb n="10"/>εἶτ’ ἔπαρχος μέγας φάνη·</l>
+                            <lb n="11"/><l>ταῦτα δ’ ἔτι πράττων ἔτ<supplied reason="lost">εσι</supplied>
+                            <lb n="12"/>τριάκοντα καὶ τρισίν</l>
+                            <lb n="13"/><l>δέξατ’ ἀείδιον ὑπάτων <supplied reason="lost">στέφανον</supplied>
+                            <lb n="14"/>εἵνεκα πάντων.</l>
+                        </lg>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="part" n="2">
+                    <ab>
+                        <lg>
+                            <lb n="15"/><l><gap reason="lost" extent="unknown" unit="character"/>ν ἀφ’ ἑαυτοῦ γν<unclear>ω</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="16"/><gap reason="lost" extent="unknown" unit="character"/>λου σπουδῇ τίνο<supplied reason="lost">ς</supplied>;</l>
+                            <lb n="17"/><l><supplied reason="lost">οἱ</supplied> θεῖοι βασιλεῖς τοῖς ἔρ<supplied reason="lost">γοισιν αὐτοῦ</supplied>
+                            <lb n="18"/>χαίροντες</l>
+                            <lb n="19"/><l>εἵνεκ’ ἀμοιβῆς ὑπατίᾳ στέ<supplied reason="lost">ψαντ’</supplied>
+                            <lb n="20"/>ἀφθάρτῳ</l>
+                            <lb n="21"/><l>ὡς ἂν αὐτῷ κῦδος καὶ τι<supplied reason="lost">μήν μεγά</supplied><lb 
+                                break="no" n="22"/>λην ὀπάσοιεν</l>
+                            <lb n="23"/><l>πάντας ἐπ’ ἀνθρώπους ἅμα τ’ α<supplied reason="lost">ὐτίκα</supplied>
+                            <lb n="24"/>καὶ μετέπειτα</l>
+                            <lb n="25"/><l>οὕνεκ’ ἀπειρεσίους πόνους <supplied reason="lost">αἷσιν</supplied>
+                            <lb n="26"/>ἤνυσεν ἀρχαῖς.</l>
+                        </lg>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p>This edition follows the text edited by Merkelbach, Stauber, SGO IV, 2002, nr. 17／8／3, with emendations by Feissel 2011-2012, p. 80.</p>
+                <p>
+                    <app loc="1"><note>ανὸς: CIG; δικανικὴ[ν τοῖς]: CIG; Benndorf-Niemann; Kaibel; Cougny; ILS; TAM; Livrea</note></app>
+                    <app loc="4"><note>τε ἐπάρχοις: Cougny; Livrea </note></app>
+                    <app loc="5"><note>ε[ἶτ]: Benndorf-Niemann; Kaibel; Cougny; ILS; TAM; Livrea; λάχεν [ἦδ]: CIG</note></app>
+                    <app loc="7"><note>[καὶ ἔπ]: CIG; ἡδ’ [ἔπ]: Kaibel; Cougny; Livrea; ἡδ’ ὄ[πλ]: Mekelbach</note></app>
+                    <app loc="8"><note>ἑώας: Benndorf-Niemann; ILS</note></app>
+                    <app loc="10"><note>φαν[είς: CIG; Cougny; Livrea; φανί[ς]: Kaibel</note></app>
+                    <app loc="11"><note>ταῦτα δέ τε π[ρ]άττων: CIG</note></app>
+                    <app loc="13"><note>ἀειδιων: CIG; ὑπάτων [λάχος]: CIG; Benndorf-Niemann; Kaibel; Cougny; ILS; TAM; Livrea </note></app>
+                    <app loc="15"><note>[ὡς αὐτὸ]ν: TAM; [τὴ]ν: CIG; [ὡς παλι]ν: Benndorf-Niemann; γνω[στὸν με]: TAM; γν[ώμεν]: CIG; γν[ωσθῆ μεγ]: Benndorf-Niemann; Kaibel; Cougny and Livrea don’t read the whole line</note></app>
+                    <app loc="16"><note>[γ]άλου: TAM; άλου: CIG; Benndorf-Niemann; </note></app>
+                    <app loc="15/16"><note>Kaibel, Cougny, Livrea 1997 omit both the lines
+                        <lb/>[ὡς παλι]ν ἀψ’ ἑαυτοῦ γν[ωσθῇ μεγ]|άλου σπουδή τινο[ς ἄθλου]: Benndorf-Niemann; Grégoire
+                        <lb/>[ὡς αὐτὸ]ν ἀφ’ ἑαυτοῦ γν[ωστὸν με|γ]ά̣λου σπουδῇ τινο[ς]: TAM
+                    </note></app>
+                    <app loc="17"><note>ἔρ[γοισι]: CIG; Benndorf-Niemann; Kaibel; Cougny; TAM; Livrea </note></app>
+                    <app loc="19"><note>ὑπατίας: Kaibel; Cougny; τε[ίμησαν]: Kaibel; Livrea 1997; τι[μησαν]: Cougny; στέ[ψαντο]: Benndorf-Niemann</note></app>
+                    <app loc="20"><note>ἀφθάρτω[ς]: Kaibel; Cougny; Livrea 1997</note></app>
+                    <app loc="21-22"><note>αὐτ[ῷ]: CIG; αὐ[τ]ῷ: Kaibel; Livrea; τ[ερπω]λὴν: CIG; τι[μ]ὴν: Kaibel; Cougny; Livrea </note></app>
+                    <app loc="23"><note>τ[οὺς τότε]: CIG; Kaibel; Cougny; Livrea </note></app>
+                    <app loc="25-26"><note>πόνους [ἐξ]|ήνυσεν: Benndorf-Niemann; TAM; [ἐξή]νυσεν Kaibel; Cougny; Livrea; [δη]νυσεν: CIG</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“Tatianus, dopo l’attività forense, fu assistente di tre dignitari: di un governatore, di un vicario, di un proconsole e di due prefetti; ottenne il potere sui Tebani, poi su tutto l’Egitto, quindi rifulse consolare di Siria, e responsabile di tutto l’Oriente, indi conte dei tesori imperiali, infine grandioso prefetto: e mentre ancora militava nell’amministrazione nel trentatreesimo anno per tutti questi motivi ricevette la corona dei consoli che dona l’eternità. [...] Per volere di chi giunse così in alto ? Gli imperatori di stirpe divina, compiaciuti dal suo agire, in contraccambio lo coronarono con il consolato che dona l’immortalità, così che congiunsero in lui la gloria con un onore grande davanti a tutti gli uomini, nell’immediato e per sempre, perché egli sopportò innumerevoli fatiche durante i suoi incarichi.”</p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“Tatianus, after his legal activity, was assistant to three dignitaries: to a governor, a vicar, a proconsul and two prefects; he obtained power over the population of Thebes, then over all Egypt, shone as <foreign>consularis</foreign> of Syria and responsible for the whole East, then count of the imperial treasures, and finally great prefect: and while still in administration in the thirty-third year, for all these reasons, he received the crown of consuls that bestows eternity. [...] At the behest of those who reached so high? The emperors of divine lineage, pleased by his actions, in return crowned him with the consulate that gave him immortality, so that they united in him the glory with a great honour before all men, immediately and forever, because he endured innumerable labours during his duties.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“Tatianus, après son oeuvre d’avocat, fut assistant de trois fonctionnaires: d’un gouverneur, d’un vicaire, d’un proconsul et de deux préfets; il obtint le pouvoir sur les Thébains, puis sur toute l’Egypte, puis brilla consulaire de Syrie, et responsable pour l’Orient entier, puis comte des trésors impériaux, et enfin grand préfet : et alors qu’il était encore en administration la trente-troisième année pour toutes ces raisons reçut la couronne de consuls qui donne l’éternité. [...] Par la volonté de qui est-il arrivé si haut ? Les empereurs de la lignée divine, satisfaits de ses actions, le couronnèrent en retour du consulat qui lui donna l’immortalité, afin qu’ils unissent en lui la gloire avec un grand honneur devant tous les hommes, immédiatement et pour toujours, car il a enduré d’innombrables fatigues pendant ses fonctions.”</p>
+            </div>
+            <div type="commentary">
+                <p>The inscription, chiselled on two large quadrangular altars, was set up in honour of the praetorian prefect Flavius Eutolmius Tatianus (PLRE I, pp. 876-878) in the ancient city of Sidyma (Lycia), today known as Dudurga Asari (Turkey). Unfortunately, the exact dimensions of the two stone blocks are unknown. The space in which the inscription was found marked the access to an <foreign>aedicula</foreign> in the middle of a valley, in a garden not far from the “the street of the tombs” (Livrea 1997; SGO IV, 2002, nr. 17-8-3).</p>
+                <p>Our inscription shows three peculiarities: 1) it is engraved on two distinct blocks and not on a single base as one would expect for an inscription bearing the <foreign>cursus honorum</foreign> of the praised senator. 2) the name of the prefect and consul Tatianus (in the nominative case) who was tried and sentenced to exile by Theodsius I between 392 and 393 AD, has not been erased, unlike elsewhere
+                    (erased in: <ref type="ppret" corresp="ppret82">PPRET 82</ref>, <ref type="ppret" corresp="ppret83">83</ref>, <ref type="ppret" corresp="ppret84">84</ref>, <ref type="ppret" corresp="ppret85">85</ref>, <ref type="ppret" corresp="ppret86">86</ref>, <ref type="ppret" corresp="ppret88">88</ref>; the only exception is the memory of hydraulic works in Canopus in Egypt, <ref type="ppret" corresp="ppret90">PPRET 90</ref>; about the trial see the critical commentary in PPRET <ref type="ppret" corresp="ppret91">91</ref>). 
+                    3) The name (or names) of the dedicator was never inserted, since such an indication was clearly never intended. Here, it would be useful to cite a monument that was put up by the city of Sidyma in honour of the senator, whose family had property there (<ref type="source">Theoph., AM 5934</ref>; <ref type="source">Cedr., 01, 603</ref>; <ref type="source">Nic. Call., 15, 01</ref>; <ref type="source">Zon. 13, 24, 06-11</ref>).</p>
+                <p>In this case, the silence of the authorities who raised the monument, inscribed on two ‘twin’ bases would be justified if it were erected in a public space; but Tatianus’ name would certainly have been erased after his condemnation between 392 and 393 AD. It is hard to imagine how such an ostentatious double monument could remain so intact (on the case nominative in honorary inscriptions cf. Mednikarova 2003; Ma 2013, pp. 17-21).</p>
+                <p>It is highly likely that the blocks decorated the entrance to the senator’s sepulchral building right outside of Sidyma and escaped damage. The insistence on the ordinary consulate for more than half a composition might have been an attempt to cover up the condemnation of the memory of Tatianus whose deeds were annulled by Theodosius I (<ref type="source">CTh 09, 42, 12-13</ref>; <ref type="source">CTh 11, 01, 23</ref>; <ref type="source">CTh 12, 01, 131</ref>). 
+                    After that sentence, his name in the dating of the year 391 AD remained as evidence of the glorious career of a convicted senator, who would have been rehabilitated only about 55 years later (<ref type="ppret" corresp="ppret91">PPRET 91</ref>).</p>
+                <p>One could cautiously imagine that after 392/393 AD the local civic authorities would not have had the courage to intervene in the inscription in the burial area of Sidyma’s most powerful family. The two stone blocks could have been walled into the facade of the tomb, or they could have supported two statues of the dignitary, one as praetorian prefect and one as ordinary consul.</p>
+                <p>The metric of the verses, if it is dactylic, it is incorrect (Livrea 1997): the author of the inscription intended to produce hexameters, which, however, was not fully successful (so Kaibel 1878); Grégoire (1922) wrote: «L’auteur [...] a cru faire des hexametres»; Merkelbach (1978) assumed that the verses are sotadei.</p>
+                <p>The hypothesis that the building where the inscription was located is the burial ground of Tatianus’ family does not convince Livrea. According to the latter, such a wealthy and cultured family would have never allowed a family member to be celebrated by such a bad poet. Recently Feissel (2011-2012, p. 80) suggested that the text is not metric, but rhythmic or poetic prose.</p>
+                <p>The inscription from Sidyma is the only one to retain the complete <foreign>cursus honorum</foreign> of Tatianus. It began in 358 AD, thirty-three years before the ordinary consulate of 391 AD, celebrated in our monument (ll. 11-12).</p>
+                <p>Tatianus was first a lawyer in the administrative courts, an activity that did not place him at the level of the great nobility; then he was an assistant and legal adviser to two provincial governors, a diocesan vicar and two prefects (ll. 2-4), maybe in 358/363 AD. The late roman dignitaries are listed in increasing order of importance in the <foreign>ordo dignitatum</foreign> (<foreign>praeses</foreign>, vicar, proconsul, then prefects, perhaps the prefect of Constantinople and the praetorian prefect of the East). 
+                    Tatianus was <foreign>praeses Thebaidis</foreign> perhaps in 364/365 AD (no dated evidence); then <foreign>praefectus Aegypti</foreign> in Egypt in 367-370 AD (attested by no less than eight different sources; for discussion on his titulature Olszaniec 2013, pp. 395-397). He was promoted to the joint offices of <foreign>consularis Syriae</foreign> and <foreign>comes Orientis</foreign> in 370-374 AD, when the emperor Valens was in Antioch with his court, fighting against the Persians (Libanius criticized Tatianus’ brutality for the excessive number of death sentences during his administration, <ref type="source">Lib., Or. 46, 08</ref>).</p>
+                <p>Feissel has improved the integration of the office extended to the supervision of the Oriens diocese, as <foreign>comes Orientis</foreign>: ὅ[λης] | ἄρχος ἐῴας (ll. 7-8) (it’s compatible with the curved letter visible on the stone: previous proposals, ὅ[πλ]|αρχος ἐῴας and [ἔπ]|αρχος ἐῴας are less satisfactory).</p>
+                <p>The friendship with Libanius began with this stay in Antioch. The emperors Valens and then Theodosius I gave to Tatianus a long mandate in Constantinople as <foreign>Comes Sacrarum Largitionum</foreign> (374-380 AD; cf. Delmaire 1989, pp. 62-67), even in the delicate period that followed the defeat of Hadrianopolis (his office is attested by six constitutions in the law Codes).</p>
+                <p>After an intense and important career, lasting sixteen years, eight years of otium followed. When the powerful praetorian prefect of the East Maternus Cynegius died, on March 388 AD (<ref type="ppret" corresp="ppret75">PPRET 75</ref>), Theodosius I chose Tatianus as his successor. Tatianus was in office from the Spring of 388 to mid 392 AD. Soon, in April 388 AD, Theodosius went to war against the usurper Maximus, defeated him on August 28<hi rend="superscript">th</hi> in Aquileia and stayed in Italy until July 391 AD, when he returned to Constantinople.</p>
+                <p>For over three years (338-391 AD) Tatianus remained the highest civil authority in the East. 
+                    His activity as praetorian prefect is largely testified by thirty-seven constitutions of the law Codes, by at least twenty-eight letters of Libanius, and by other sources, including a series of dedications made by the prefect to the sovereigns (<ref type="ppret" corresp="ppret82">PPRET 82-86</ref>), and inscriptions relating to his building interventions (<ref type="ppret" corresp="ppret88">PPRET 88</ref> and <ref type="ppret" corresp="ppret90">90</ref>). 
+                    In 391 AD his career was crowned by the ordinary consulate (next to Q. Aur. Symmachus, CLRE, pp. 316-317).</p>
+                <p>The consulate was the most prestigious office of the late Roman <foreign>cursus honorum</foreign> and is long celebrated in this inscription (on the late Roman consulate cf. CLRE, pp. 1-89; Sguaitamatti 2012; Petrini 2015). 
+                    Between June 30<hi rend="superscript">th</hi> and August 26<hi rend="superscript">th</hi> 392 AD, Tatianus was suddenly deposed, tried and sentenced to exile in Lycia, his homeland (<ref type="ppret" corresp="ppret91">PPRET 91</ref>); his son Proculus was executed in December 393 AD (<ref type="ppret" corresp="ppret89">PPRET 89</ref>).</p>
+                <p>Their names were erased on inscriptions (see above), but not on ours. Tatianus was rehabilitated, but that was more than fifty years later. His grandson at Aphrodisias commemorated him (<ref type="ppret" corresp="ppret91">PPRET 91</ref>) and the name of his son Proculus was restored on the base of the obelisk of Theodosius I in Constantinople (<ref type="ppret" corresp="ppret89">PPRET 89</ref>); for monuments to rehabilitated praetorian prefects see <ref type="ppret" corresp="ppret46">PPRET 46</ref>, <ref type="ppret" corresp="ppret48">48</ref>, <ref type="ppret" corresp="ppret93">93</ref>.</p>
+                <p>The date of our inscription seems to be the year of the consulate or the following year before the fall of the senator (391/ first half of 392 AD). It cannot be completely excluded that our present inscription is instead the epitaph of Tatianus, engraved after 396 AD, when he seems to have been still alive (<ref type="source">CTh 09, 38, 09</ref>); for the later restoration of the Greek funeral eulogy for the prefect Maiorinus see <ref type="ppret" corresp="ppret26">PPRET 26</ref>; for a prefect’s epitaph with a <foreign>cursus honorum</foreign> see <ref type="ppret" corresp="ppret64">PPRET 64</ref>.</p>
+                <p>Praise of the prefect’s hard work as an administrator can be found in the inscriptions honouring Philippus (<ref type="ppret" corresp="ppret28">PPRET 28</ref> and <ref type="ppret" corresp="ppret31">31</ref>). On Tatianus’ career cf. Seeck 1906, pp. 285-288; Ensslin, RE, IVA, 2/1932, coll. 2463-2467 s.v. Tatianus 3; PLRE I, pp. 876-878; Delmaire 1989, pp. 62-67; Petit 1994, pp. 240-243; Olszaniec 2013, pp. 394-407.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>CIG III, 4266e</ref></bibl>
+                    <bibl><ref>Kaibel 1878, nr. 919 </ref></bibl>
+                    <bibl><ref>Benndorf, Niemann 1884, p. 81, nr. 64-65</ref></bibl>
+                    <bibl><ref>Cougny 1890, nr. 344</ref></bibl>
+                    <bibl><ref>ILS 8844</ref></bibl>
+                    <bibl><ref>TAM II, 186-187</ref></bibl>
+                    <bibl><ref>Grégoire 1922, nr. 293</ref></bibl>
+                    <bibl><ref>Livrea 1997, p. 44</ref></bibl>
+                    <bibl><ref>Merkelbach, Stauber, 2002, nr. 17-8-3</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="https://inscriptions.packhum.org/text/284076">PH 284076</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Barnes T.D., The victims of Rufinus, CQ 34, 1984, 227-230</bibl>
+                    <bibl>Benndorf O., Niemann G., Reisen im südwestlichen Kleinasien, I. Reisen in Lykien und Karien, Wien 1884</bibl>
+                    <bibl>Bernand A., Les Portes du désert. Recueil des inscriptions grecques d’Antinooupolis, Tentyris, Koptos, Apollonopolis Parva et Apollonopolis Magna, Paris 1984, nr. 19</bibl>
+                    <bibl>Collignon M., Notes sur les fouilles executées à Aphrodisias par M. Paul Gaudin, CRAI 1904, 703-711</bibl>
+                    <bibl>Cuvigny H., Τρισαυγούστιον et φραγέλλιον. Contrôle de qualité et mesurage du grain fiscal au IVe s. apr. J.-C. à la lumière de P.Mich. XX 800 et de l’inscription tardive du grenier d’Andriakè, Chiron 47, 2017, 95-114</bibl>
+                    <bibl>Cougny E., Epigrammatum anthologia Palatina cum Planudeis et appendice nova, III, Paris 1890, nr. 344</bibl>
+                    <bibl>Delmaire R., Les responsables des finances impériales au Bas-Empire romain (IVe-VIe s.). Études prosopographique, Bruxelles 1989</bibl>
+                    <bibl>Enßlin W., Tatianus 3, in RE IV A 2, 1932, coll. 2463-2467</bibl>
+                    <bibl>Errington R., A note on the Augustal Prefect of Egypt, Tyche 17, 2002, 69-77</bibl>
+                    <bibl>Feissel D., Sources documentaires et histoire administrative de l’Orient romain tardif, IV<hi rend="superscript">e</hi>-VII<hi rend="superscript">e</hi> siècles, Annuaire de l’EPHE, Sec. sciences historiques et philologiques, 144, 2013, Online http://ashp.revues.org/1471</bibl>
+                    <bibl>Grégoire H., Miettes d’histoire byzantine (IV<hi rend="superscript">e</hi>-VI<hi rend="superscript">e</hi> siècle), Anatolian Studies presented to Sir William Mitchell Ramsay, Manchester-London-New York, 1923, 151-164</bibl>
+                    <bibl>Grégoire H., Quand est né l’empereur Théodose II ?, Byzantion 4, 1927-1928, 337-348</bibl>
+                    <bibl>Kaibel G., Epigrammata Graeca ex lapidibus conlecta, Berolini, 1878</bibl>
+                    <bibl>Kraus, Th., Die Basis des Epistrategen Fidus Aquila aus Antinoopolis, MDAI(R) 69, 1962, 128-135</bibl>
+                    <bibl>Livrea E., I due Taziani in un’iscrizione di Afrodisia, ZPE 119, 1997, 43-49</bibl>
+                    <bibl>Ma J., Statues and Cities. Honorific portraits and civic identity in the Hellenistic world, Oxford 2013</bibl>
+                    <bibl>Manganaro G., Due note tardoantiche, ZPE 94, 1992, 283-294</bibl>
+                    <bibl>Mecella M., L’amministrazione di Taziano e Proculo e il destino dei Lici tra Teodosio e Arcadio, in Governare e riformare l’impero al momento della sua divisione: Oriente, Occidente, Illirico Roma, 2015</bibl>
+                    <bibl>Mednikarova I., The Accusative of the Name of the Deceased in Latin and Greek Epitaphs, ZPE, 143, 2003, 117-134</bibl>
+                    <bibl>Merkelbach R., Das Epigramm aus Sidyma auf Tatianus, ZPE, 30, 1978, 173-174</bibl>
+                    <bibl>Olszaniec S., Prosopographical Studies on the Court Elite in the Roman Empire (4<hi rend="superscript">th</hi> Century AD), Toruń, 2013</bibl>
+                    <bibl>Pellizzari A., «Salvare le città»: lessico e ideologia nell’opera di Libanio, Κοινωνία 35, 2011, 45-61</bibl>
+                    <bibl>Petit P., Les fonctionnaires dans l’œuvre de Libanius. Analyse prosopographique, Besançon 1994</bibl>
+                    <bibl>Petrini F.M., Var. VI, 1 (Formula consulatus), in A. Giardina (dir.), Flavio Magno Aurelio Cassiodoro Senatore, Varie, III, Libri VI-VII, Roma 2015, 107-113</bibl>
+                    <bibl>Scharf R., Die Familie des Fl. Eutolmius Tatianus, ZPE 85, 1991, 223-231</bibl>
+                    <bibl>Sguaitamatti L., Der spätantike Konsulat, Fribourg 2012</bibl>
+                    <bibl>Wescher C., Bullettino dell’Instituto di Corrispondenza Archeologica 38, 1866, 150-155</bibl>
+                    <bibl>Woods D., Tatianus and the Basilica of Menas, Byzantion 65, 1995, 467-474</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.a"></p>
+                    <p n="2.1"></p>
+                    <p n="2.9">ἀπειρεσίους πόνους αἷσιν ἤνυσεν ἀρχαῖς</p>
+                    <p n="2.10">...</p>
+                    <list n="2.11">
+                        <item n="2.11.b"></item>
+                        <item n="2.11.c"></item>
+                    </list>
+                </div>
+                <div type="commentary" n="8">
+                    <p n="8.2">ἔπαρχος μέγας</p>
+                    <p n="8.3"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

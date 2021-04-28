@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorary inscription for an anonymous praet. prefect from the Roman Forum</title>
+                <editor role="edition">Irene Vagionakis</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="new">96</idno>
+                <date when="2020-06-09"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#anonymous">Anonymous praetorian prefect (of Italia Illyricum Africa?)</persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Roma">Roma, Lapidario Forense</repository>
+                        <idno type="invNo">inv. 6049</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#base">statue base (?)</objectType>
+                                    <dimensions>
+                                        <height>22.5</height>
+                                        <width>25.5</width>
+                                        <depth>14</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">no</rs>
+                                    <rs type="monument_reuse">no</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#fragmentary">Fragmentary.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <height>3</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Roma</placeName>
+                                <placeName type="modern_city">Rome (Italy)</placeName>
+                                <placeName type="province">Urbs</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#public">public space: Roman Forum</placeName>
+                            </origPlace>
+                            <origDate period="#p8" notBefore="0360" notAfter="0400">360/400 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#RomanForum">Rome, Roman Forum</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                    <ab>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="line" cert="low"/>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">secun</supplied><unclear>d</unclear>o, <expan><abbr>cons</abbr><ex>uli</ex></expan> <supplied reason="lost">ordinario</supplied>,
+                        <lb n="4"/><supplied reason="lost">praefecto prae</supplied>torio p<supplied reason="lost">er</supplied> <gap reason="lost" extent="unknown" unit="character"/>,
+                        <lb n="5"/><supplied reason="lost" cert="low">ob insignem</supplied> <supplied reason="lost">e</supplied>r<unclear>ga</unclear> <supplied reason="lost" cert="low">sse benevolentiam</supplied>
+                        <lb n="6"/><gap reason="lost" extent="unknown" unit="line"/>
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on CIL.</p>
+                <p><app loc="2"><note><gap reason="lost" extent="unknown" unit="character"/>I<gap reason="lost" extent="unknown" unit="character"/>: EDR</note></app></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“... for the second time, ordinary consul, praetorian prefect for ..., for his renowned benevolence towards himself ...”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“...”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“... per la seconda volta, console ordinario, prefetto del pretorio per ..., per la sua insigne benevolenza verso di sé ...”</p>
+            </div>
+            <div type="commentary">
+                <p>The fragment records a small portion of an apparently inverted cursus honorum, where the consulship of the honorand precedes the mention of his appointment as praetorian prefect. The honorand, whose name is lost, may be hypothetically identified with Virius Nicomachus Flavianus iunior (cfr. PLRE I, pp. 345-347). This is not, however, the only possible identification: for other possibilities see CIL VI, 41346.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>IGLFRPal 70</ref>, with photo = <bibl><ref>AE 1996, 176</ref></bibl></bibl>
+                    <bibl><ref>CIL VI, 41346</ref>, with photo</bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR093578">EDR 093578</ref></bibl>
+                    <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD032699">HD 032699</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p></p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.a"></p>
+                    <p n="2.1"></p>
+                    <p n="2.9">[ob insignem? e]rga</p>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.2">[praefecto prae]torio p[er - - -]</p>
+                    <p n="8.4"></p>
+                    <p n="8.7">?</p>
+                    <p n="8.8">?</p>
+                    <p n="8.9"></p>
+                    <p n="8.12">?</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

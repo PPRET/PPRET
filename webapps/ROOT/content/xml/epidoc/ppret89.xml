@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Greek inscription in honour of Proculus, son of Tatiatus praet. prefect, from Lycus (Phoenices)</title>
+                <editor role="edition">Giordana Franceschini</editor>
+                <editor role="encoding">Giordana Franceschini</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="p. 746">89</idno>
+                <date when="2020-03-27"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Tatianus"><name type="praenomen">Flavius</name>
+                            <name type="gentilicium">Eutolmius</name>
+                            <name type="cognomen">Tatianus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Byblos_Berytus">Findspot</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary to Proculus governor of Phoenices</term>
+                            <term type="rhythm" ref="#poetry">poetry (irregular dactyls)</term>
+                        </summary>
+                        <textLang mainLang="grc">Greek</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#limestone">Limestone</material>
+                                    <objectType ref="#stone_slab">Stone slab</objectType>
+                                    <dimensions>
+                                        <height>unknown</height>
+                                        <width>unknown</width>
+                                        <depth>unknown</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">no</rs>
+                                    <rs type="monument_reuse">no</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p></p>
+                                    <rs type="execution" ref="#chiselled">Chiselled</rs>
+                                    <rs type="preservation" ref="#undamaged">The inscription is on one field, it is complete and comprises 12 lines.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#unknown">unknown</term>
+                                <height>unknown</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Between Byblos and Berytus</placeName>
+                                <placeName type="modern_city">Between Byblos and Beirut (Lebanon)</placeName>
+                                <placeName type="province">Phenices</placeName>
+                                <placeName type="diocese">Oriens</placeName>
+                                <placeName type="prefecture">Oriens</placeName>
+                                <placeName type="ancient_location" ref="#public">Public space</placeName>
+                            </origPlace>
+                            <origDate period="#p8" notBefore="0382" notAfter="0383">382/383 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#">Between Byblos and Berytus</placeName>, at the mouth of river Lykos, today the Great Zab</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                    <ab>
+                        <lb n="1-2"/>Πρόκλε πέπον, Τατιανοῦ ἀρίστοιο Λυ|κίοιο γενέθλης ἰθαγένοιο |
+                        <lb n="3"/>τἀρχικά πατρώιων ἐξωριάζων φαύλῳ |
+                        <lb n="4-5"/>πρωθήβης φοῖνιξ, Ἠλιουπόλεως θεό|φιν ἄρχων,
+                        <lb n="5-6"/>αἶψα μάλ’ ἐκτελέων ἱερά, | ὅσσα νόῳ φρονέε<supplied reason="lost">ι</supplied>Φοινίκη αὐτη· |
+                        <lb n="7-8"/>ὅσον καὶ τόδε ἐργάζ<supplied reason="lost">ετ</supplied>ο τεόν νόημα· | ὦ μέγα θαῦμα,
+                        <lb n="8-9"/>τὰ αἰπύτατα τῶν | σκοπέλων ἶσον ἔθηκε μέσον, |
+                        <lb n="10-11"/>ὄφρα διηνεκέως ὁμαλήν ὁδόν ἐξ|ανύοντες
+                        <lb n="11-12"/>φεύγωμεν χαλεπῆς | ὕψος ὁδοιπλαν<supplied reason="lost">ί</supplied>ης
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on SGO IV 20／10／01.</p>
+            <p>
+                    <app loc="1"><note>αρισοιο: Paine 1873</note></app>
+                    <app loc="2"><note>κοιο: Paine 1873</note></app>
+                <app loc="5"><note>Μαλεκ τελων: Paine 1873</note></app>
+                <app loc="6"><note>φρονεε φοινικῃ αυτῃ: Paine 1873; φρόνεε Φοινίκη αὐτή: SEG 7, 195</note></app>
+                <app loc="7"><note>εργαζοτεον: Paine 1873</note></app>
+                <app loc="8"><note>αἰπύσατα: on the stone; Paine 1873</note></app>
+                <app loc="10"><note>ἐπανύοντες: see on the stone; επ: Paine 1873</note></app>
+                <app loc="11"><note>χαλεπεις: on the stone; SEG 7, 195; οδοπλανης: Paine 1873; ὁδοπλανίης: SEG 7, 195</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“O caro Proculo, legittimo discendente di Taziano, il migliore dei Lici, tu che lasci (al padre) la sovranità delle terre patrie per un modesto (luogo), tu Fenicio nel fiore degli anni, che reggi Eliopoli per volere divino, e che subito porti completamente a termine i sacri riti, tanti quanti la Fenicia stessa desiderava: quanto è grande anche questo tuo realizzato progetto. O grande meraviglia! Le cime più alte dei monti egli le ha rese pianeggianti nel mezzo, affinché, potendo percorrere una strada interamente in piano, possiamo evitare le difficoltà di un percorso che sale.”</p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“O dear Proculus, legitimate descendant of Tatianus, the best of the Lycians you who leave (to your father) the sovereignty of the homeland for a modest (place), you Phoenician in the bloom of youth, ruler of Heliopolis for the will of the gods, you who immediately complete the sacred rites, as many as Phoenicia itself wished: how great is this project of yours, too. O great wonder ! He has made the highest peaks of the mountains level in the middle, so that, being able to travel along a road that is entirely levelled, we can avoid difficulties of a route that climbs.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“O cher Proculus, descendant légitime de Tatianus, le meilleur des Lyciens, toi qui laisses (à ton père) la souveraineté de la patrie pour une modeste (place), toi le Phénicien dans la fleur de l’âge, qui gouverne Héliopolis par volonté divine, et qui accomplis immédiatement les rites sacrés, autant que les Phéniciens eux-mêmes le souhaitaient : quelle est l’ampleur de ton projet, lui aussi. Ô grande merveille ! Il a fait en sorte que les plus hauts sommets des montagnes soient plats au milieu, de sorte que, en pouvant circuler sur une route entièrement plate, nous pouvons éviter les difficultés d’un itinéraire qui monte.”</p>
+            </div>
+            <div type="commentary">
+                <p>This verse-inscription is in honour of Proculus the Lycian (PLRE I, p. 746), the governor of Phoenicia in 382/383 AD (<ref type="source">Lib., Or., 42, 41-42</ref>; <ref type="source">Lib., Or., 26, 23</ref>), son of the eastern praetorian prefect Flavius Eutolmius Tatianus (PLRE I, p. 876; see also <ref type="ppret" corresp="ppret82">PPRET 82</ref>, <ref type="ppret" corresp="ppret83">83</ref>, <ref type="ppret" corresp="ppret84">84</ref>, <ref type="ppret" corresp="ppret85">85</ref>, <ref type="ppret" corresp="ppret86">86</ref>, <ref type="ppret" corresp="ppret88">88</ref>, <ref type="ppret" corresp="ppret90">90</ref>; on his career see <ref type="ppret" corresp="ppret87">PPRET 87</ref> and <ref type="ppret" corresp="ppret91">91</ref>; he is referred to as Proculus in the Latin legislative sources, Proclos in the Greek ones).</p>
+<p>The inscription is located at the mouth of the river Lycus, which is currently called Great Zab (Lebanon), and it is one of a group of commemorative stelae in Nahr el-Kalb, carved in the limestone rocks. This group of inscriptions includes some Egyptian hieroglyphic stelae, cuneiform inscriptions, Roman and Greek dedications, a memorial to Napoleon III’s intervention in Lebanon in 1860 and also a dedication to the independence of the country from France in 1943.</p>
+<p>J.A. Paine (1873) reported a provisional text of the inscription, and the first edition was by F.H. Weissbach in 1922.</p>
+<p>Our inscription was made in honour of the governor Proculus, who had built a road through the mountains and celebrated the traditional pagan cults in the city of Heliopolis, today Baalbek (for Proculus’ paganism, see von Haehling 1978, pp. 122-123, nr. 17). As we know from Libanius (<ref type="source">Lib., Or., 10, 03</ref> and  <ref type="source">Lib., Or., 42, 41</ref>), Proculus started his career as governor of Palestine (before 382 AD) and then went on directly from the office of governor of Phoenicia to become  <foreign>comes Orientis</foreign> (383-384 AD), and then  <foreign>comes sacrarum largitionum</foreign> (386 AD, cf. Delmaire 1989, pp. 104-108). After the emperor Theodosius I appointed him praefectus urbi of Constantinople in 388 AD, he fell from power in 392 AD (Zos. IV, 4). Flavius Rufinus (PLRE I, pp. 778-781),  <foreign>magister officiorum</foreign> at Constantinople, used his influence at court to launch infamous accusations against Proculus and his father, probably because he was worried about the power that they were acquiring (<ref type="source">Zos. 04, 45</ref> emphasizes how Proculus’ nomination to <foreign>praefectus urbi</foreign> of Constantinople coincided with his father Tatianus’ appointment as <foreign>praefectus praetorio Orientis</foreign>). Scholars disagree on what kind of accusations were made against the two Lycians. Olszaniec (2013) suggests the charge of <foreign>crimen laesae maiestatis</foreign>, as Eunapius’ words seem to hint. It was the promise of the emperor forgetting about the past and giving both of them honours which persuaded Tatianus into calling Proculus, who had fled in an attempt to save his life, back to court (<ref type="source">Eun., Fr. 57</ref> Blockley; <ref type="source">Zos. 03, 52, 03</ref>): “forgetting the past” seems to allude to an accusation of treason. Mecella (2015) conjectures a different accusation: to justify such a repression, the imperial chancellery could have accused the two prefects of embezzlement. The veracity of such an accusation appears to be endorsed by two constitutions of the Theodosian Code which testify to proscriptions followed by confiscations (<ref type="source">CTh 09, 42, 12-13</ref>, both on 393 AD) together with an ill-defined tax that Tatianus would have arbitrarily imposed on the provincials. The father and his son could also have taken advantage of their position to promote the careers of men belonging to their family and among their clients. Therefore, in 391 AD, when the emperor Theodosius returned, after a three year absence, he found a deeply changed situation: Tatianus had used his power against the Christian clergy and Proculus had attempted to strengthen his authority as urban prefect. This style of administration, including the protection of a cities’ autonomy and the respect for ancient cults, fits in well with the political traditions of the Hellenistic world, but it may have appeared dangerous for the imperial authority (Mecella 2015; cf. <ref type="ppret" corresp="ppret87">PPRET 87</ref> and <ref type="ppret" corresp="ppret91">91</ref>).</p>
+<p>Persuaded by Rufinus, Tatianus sent a letter to his son, asking him to return to court. Once at court Proculus was captured, quickly tried and sent to death in the suburbs of Sycai on December 6th 393 AD, before the messenger sent by Theodosius arrived. This happened because Rufinus, as we know from Zosimus (<ref type="source">Zos. 04, 45</ref>, <ref type="source">Zos. 04, 52</ref>) ordered the messenger to ride slowly, so that he would arrive after the execution had been carried out. He suffered <foreign>damnatio memoriae</foreign>, as the inscription on the Obelisk of Theodosius in the Hippodrome of Constantinople shows (CIL III, 737 = CLE 286 = ILS 821 = HD065179; see Köllwitz 1941, 119-120; Balty 1982; Cugusi 2010, pp. 452-454, nr. 2 = AE 2010, 1523; also SEG 39 [1989], 651; SEG 41 [1991], 591; SEG 43 [1993], 478). The name of Proculus was written on the pedestal of the Obelisk, both in the Greek and in the Latin dedication. The monument was erected between 388 and 392 AD, probably in 390 AD according to Marcelllius comes (<ref type="source">Chron., MGH AA 11</ref>, <ref type="source">Chron. Min. 02, p. 62</ref>), while Proculus was prefect of the city and under his supervision (Olszaniec 2013, pp. 324-328). The obelisk had originally been put up by the Egyptian Pharaoh Thutmose III in the fifteenth Century BC and then, in the fourth Century AD, it had been transported to Constantinople and placed in the center of the hippodrome by the will of Theodosius I. The inscription carved on its pedestal is a bilingual text: the Latin text in hexameters is on the southeastern side, and the Greek text in elegiac couplets is on the northwestern side.</p>
+<p>The Latin text:</p>
+<p>Difficilis quondam dominis parere serenis / iussus et extinctis palmam portare tyrannis, / omnia Theodosio cedunt subolique perenni, / ter denis sic victus ego d[o]mitusque diebus / iudice sub «Proclo», su[per]as elatus ad auras.</p>
+<p>English translation (Safran 1993, pp. 409-410): “Formerly difficult, I was ordered to obey the peaceful masters and to raise the palm after the tyrants were dead. Everything gives way to Theodosius and his eternal offspring. In this way conquered and mastered in three times ten days, under Proclus the Prefect, I was raised to the high air”.</p>
+<p>(the “tyrants” in the Latin inscription can be identified as Magnus Maximus and his son Victor, and Theodosius’ “eternal offspring” must be his sons Arcadius and Honorius).</p>
+<p>The Greek text:</p>
+<p>κίονα τετράπλευρον ἀεὶ χθονὶ κείμενον ἄχθος / μοῦνος ἀναστῆσαι Θευδόσιος βασιλεύς / τολμήσας «Πρόκλος» ἐπεκέκλετο καὶ τόσος ἔστη / κίων ἠελίοις ἐν τριάκοντα δύω</p>
+<p>English translation (Safran 1993, 410): “Only Emperor Theodosius dared to erect the four sided column which had lain heavy on the earth for a long time. Proclus was summoned, and so this enormous column was put up in thirty-two suns”.</p>
+<p>After Proculus and his father Tatianus were condemned and suffered the <foreign>damnatio memoriae</foreign> (392-393 AD). The name of Proculus was erased on the two inscriptions carved on the two sides of the base of the obelisk, and from the other inscriptions, as well as those of his father (cf. <ref type="ppret" corresp="ppret91">PPRET 91</ref>). However, after Flavius Rufinus was executed (November 395 AD), their names were rehabilitated by a law issued by Arcadius on August 31st 396 AD (<ref type="source">CTh 09, 38, 09</ref>). Proculus’ name on the base of the obelisk in the hippodrome was therefore first erased after 392 AD and then restored after 396 AD. Probably Proculus’ son or grandson, Tatianus iunior, who was appointed urban prefect in Constantinople in 452 AD, played a role in the rehabilitation of his family (cf. <ref type="ppret" corresp="ppret91">PPRET 91</ref>).</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Paine 1873, pp. 111-112</ref></bibl>
+                    <bibl><ref>Weissbach 1922, pp. 39-41</ref></bibl>
+                    <bibl><ref>Mouterde 1932, p. 14</ref> = <bibl><ref>SEG 7 (1934), 195</ref></bibl></bibl>
+                    <bibl><ref>Merkelbach, Stauber 2002 (SGO IV), 20／10／01</ref> = <bibl><ref>SEG 57 (2007), 1786</ref></bibl></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Balty J., Hiérachie de l’empire et image du monde. La face nord-ouest de l’obélisque théodosien à Constantinople, Byzantion 52 (1982), 60-71</bibl>
+                    <bibl>Barnes T.D., The victims of Rufinus, CQ, 34, 1984, 227-230</bibl>
+                    <bibl>Bauer F. A., Stadt, Platz und Denkmal in der Spätantike. Untersuchungen zur Ausstattung des öffentlichen Raums in den spätantiken Städten Rom, Konstantinopel und Ephesos, Mainz 1996, 251-252</bibl>
+                    <bibl>Collignon M., Notes sur les fouilles executées à Aphrodisias par M. Paul Gaudin, CRAI, 1904, 703-711</bibl>
+                    <bibl>Crkvenjakov V., The Obelisk of Theodosius in Constantinople, in AXIOS 1 (2016), 196-208</bibl>
+                    <bibl>Cugusi P., Carmina Latina epigraphica Constantinopolitana, RFIC, 138, 2010, 445-461</bibl>
+                    <bibl>Cuvigny H., Τρισαυγούστιον et φραγέλλιον. Contrôle de qualité et mesurage du grain fiscal au IVe s. apr. J.-C. à la lumière de P.Mich. XX 800 et de l’inscription tardive du grenier d’Andriakè (Grégoire, Recueil 290), Chiron, 47, 2017, 95-114</bibl>
+                    <bibl>Delmaire R., Les responsables des finances impériales au Bas- Empire romain (IVe-VIe s.). Études prosopographique, Bruxelles 1989</bibl>
+                    <bibl>Errington R. M., A note on the Augustal Prefect of Egypt, Tyche, 17, 2002, 69-77</bibl>
+                    <bibl>Errington R. M., Roman Imperial Policy from Julian to Theodosius, Chapel Hill 2006</bibl>
+                    <bibl>Grégoire H., Miettes d’histoire byzantine (IVe-VIe siècle), Anatolian Studies presented to Sir William Mitchell Ramsay, Manchester-London-New York 1923, 151-164</bibl>
+                    <bibl>Grégoire H., Quand est né l’empereur Théodose II ?, Byzantion, 4, 1927-1928, 337-348</bibl>
+                    <bibl>Jones, A. H. M., The Inscriptions, Preliminary report upon the excavations carried out in the Hippodrome of Constantinople in 1927 on behalf of the British Academy (ed. S. Casson, D. Talbot, et al.; London: Published for the British Academy by H. Milford, Oxford University Press, 1928), 43-45</bibl>
+                    <bibl>Kiilerich B., The Obelisk Base in Constantinople: Court Art and Imperial Ideology, Roma 1998</bibl>
+                    <bibl>Kraft W., Die Topographie Jerusalems, Bonn, 1846, 268</bibl>
+                    <bibl>Livrea E., I due Taziani in un’iscrizione di Afrodisia, ZPE, 119, 1997, 43-49</bibl>
+                    <bibl>Manganaro G., Due note tardoantiche, ZPE, 94, 1992, 283-294</bibl>
+                    <bibl>Mathisen R. W., Forty-three Missing Patricians, Byz. Forsch. 15, pp. 87–99</bibl>
+                    <bibl>Mecella M., L’amministrazione di Taziano e Proculo e il destino dei Lici tra Teodosio e Arcadio, in Governare e riformare l’impero al momento della sua divisione: Oriente, Occidente, Illirico, Roma, 2015</bibl>
+                    <bibl>Merkelbach R. and Stauber J., Steinepigramme aus dem griechischen Osten. IV. Die Südküste Kleinasiens, Syrien und Palaestina, München 2002, 20/10/01</bibl>
+                    <bibl>Mouterde R., Le Nahr El-Kelb (Fleuve du Chien), Guide archéologique, Beyrouth, 1932, 14</bibl>
+                    <bibl>Paine J.A., Discoveries at Nahr-el-Kelb, Palestine Exploration Society, 2, (July) 1873, pp. 111-112, nr. 2, 5-14</bibl>
+                     <bibl>Pellizzari A., «Salvare le città»: lessico e ideologia nell’opera di Libanio, Κοινωνία, 35, 2011, 45-61</bibl>
+                     <bibl>Petit P., Les fonctionnaires dans l’œuvre de Libanius. Analyse prosopographique, Besançon, 1994</bibl>
+                     <bibl>Preger T., Scriptores originum constantinopolitanarum, Leipzig 1901-1907</bibl>
+                     <bibl>Rebenich S., Beobachtungen zum Sturz des Tatianus und des Proculus, ZPE 76 (1989), 153-165</bibl>
+                     <bibl>Rebenich S., Zum Theodosiusobelisken in Konstantinopel, MDAI(I) 41 (1991), 447-476</bibl>
+                     <bibl>Reinach T., Inscriptions d’Aphrodisias, REG, 19, 1906, 79-150, 205-298</bibl>
+                     <bibl>Robinson E., Later biblical researches in Palestine, and in the adjacent regions. A journal of travels in the year 1852. Drawn up from the original diaries, with historical illustrations, with new maps and plans, New York, 1857</bibl>
+                     <bibl>Safran L., Points of View: the Theodosian Obelisk Base in Context, Greek, Roman, and Byzantine Studies 34 (1993) 409-435</bibl>
+                    <bibl>Scharf R., Die Familie des Fl. Eutolmius Tatianus, ZPE, 85, 1991, 223-231</bibl>
+                    <bibl>Sorek S., The Emperor’s Needle: Egyptian Obelisks and Rome, Exeter 2010</bibl>
+                    <bibl>Van Dam R., Rome and Constantinople: rewriting Roman history during late antiquity, Waco 2010</bibl>
+                    <bibl>Von Haehling R., Die Religionszugehörigkeit der hohen Amtsträger des römischen Retches seit Constantins I. Alleinherrschaft bis zum Ende der Theodosianischen Dynastie, Bonn 1978</bibl>
+                    <bibl>Weissbach F. H., Die Denkmäler und Inschriften an der Mündung des Nahr El-Kelb (Wissensch. Veröff. d. deutsch-türkischen Denkmalschutz-Kommandos, 4), Berlin-Leipzig 1922, 39-41</bibl>
+                    <bibl>Wilson C.W., Picturesque Palestine, Sinai and Egypt, 3, London, 1881-1884, 31</bibl>
+                    <bibl>Woods D., Tatianus and the Basilica of Menas, Byzantion, 65, 1995, 467-474</bibl>
+                </p>
+            </div>
+            
+                        <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                    <p n="1.4"> The awarder is Proculus, son of Flavius Eutolmius Tatianus praetorian prefect.</p>
+                </div>
+                <div type="commentary" n="8">
+                    <p n="8.5"></p>
+                    <p n="8.15"></p>
+                    </div>
+            </div>
+        </body>
+    </text>
+</TEI>

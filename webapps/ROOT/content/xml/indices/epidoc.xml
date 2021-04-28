@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Indices</title>
+      </titleStmt>
+      <publicationStmt>
+        <p></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Born digital document.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <!--<div xml:id="person_name">
+        <head>Personal Names</head>
+        
+        <div type="headings">
+          <list>
+            <item>Name</item>
+            <item>References</item>
+          </list>
+        </div>
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+      
+      <div xml:id="person">
+        <head>Prosopography</head>
+        
+        <div type="headings">
+          <list>
+            <item>Name</item>
+            <item>References</item>
+          </list>
+        </div>
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+      
+      <div xml:id="place">
+        <head>Places</head>
+        
+        <div type="headings">
+          <list>
+            <item>Name</item>
+            <item>References</item>
+          </list>
+        </div>
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+      
+      <div xml:id="topic">
+        <head>Topics</head>
+        
+        <div type="headings">
+          <list>
+            <item>Name</item>
+            <item>References</item>
+          </list>
+        </div>
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>-->
+
+      <div xml:id="lemma">
+        <head>Word index</head>
+
+        <div type="headings">
+          <list>
+            <item>Lemma</item>
+            <item>References</item>
+          </list>
+        </div>
+
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+      
+      <!--<div xml:id="word">
+        <head>Words</head>
+        
+        <div type="headings">
+          <list>
+            <item>Word</item>
+            <item>Language code</item>
+            <item>References</item>
+          </list>
+        </div>
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>-->
+    </body>
+  </text>
+</TEI>

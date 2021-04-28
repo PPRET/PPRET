@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription in honour of the praet. prefect Vulcacius Rufinus set up in the vestibule of his domus in Rome by the people of Ravenna</title>
+                <editor role="edition">Eleonora Angius</editor>
+                <editor role="encoding">Eleonora Angius</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="pp. 782-783">32</idno>
+                <date when="2020-03-27"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Rufinus"><name type="gentilicium">Vulcacius</name>
+                            <name type="cognomen">Rufinus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Roma">as of 1902 in the Museo Nazionale Romano alle Terme di Diocleziano, currently in the courtyard at the left of the entrance of the Collezione Epigrafica, inv. n. 707</repository>
+                        <idno type="invNo">inv. nr. 707</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the praet. prefect Vulcacius Rufinus</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#base">statue base</objectType>
+                                    <dimensions>
+                                        <height>147</height>
+                                        <width>105</width>
+                                        <depth>87</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">yes, the surface is rough and irregular indicating reuse (see <ref corresp="http://laststatues.classics.ox.ac.uk/database/detail.php?record=1253">LSA 1253</ref>); probably an altar, as can be deduced by the <foreign>urceus</foreign> (on the left side) and <foreign>patera</foreign> (on the right side)</rs>
+                                    <rs type="monument_reuse">none</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#undamaged">Undamaged.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#rustic_capitals">rustic capitals</term>
+                                <height>2.5 / 3.5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Roma</placeName>
+                                <placeName type="modern_city">Rome (Italy)</placeName>
+                                <placeName type="province">Urbs</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#private">private place (<foreign>domus</foreign> of Vulcacius Rufinus on the Quirinal)</placeName>
+                            </origPlace>
+                            <origDate period="#p5" notBefore="0347" notAfter="0352">347/352 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#Roma">Rome</placeName>, originally set up in the vestibule of the house of the personage being honoured, the base was found on December 21<hi rend="superscript">th</hi> 1883 in the deep foundations of the former Ministry of War (now between Via Modena and Via Napoli, on the South-East side of the existing Ministry of Defence on the Quirinal hill).</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                <ab>
+                    <lb n="1"/>Singulari auctoritatis splendore pollen<lb 
+                        break="no" n="2"/>ti, admirabilisque eloquentiae <sic>beni<lb 
+                            break="no" n="2"/>volentie</sic> felicitate glorioso, <expan><abbr>cunc<lb 
+                                break="no" n="6"/>tarumq</abbr><ex>ue</ex></expan> dignitatum fastigia <sic>fabo<lb 
+                                    break="no" n="5"/>rabili</sic> moderatione iustitiae super<lb 
+                                        break="no" n="6"/>gresso, Vulcacio Rufino <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> <expan><abbr>cons</abbr><ex>uli</ex></expan> 
+                    <lb n="7"/><expan><abbr>ordin</abbr><ex>ario</ex></expan>, <expan><abbr>praef</abbr><ex>ecto</ex></expan> praetorio, comiti  
+                    <lb n="8"/>per Orientem <sic>Aecypti</sic> et Mesopotamiae  
+                    <lb n="9"/>per <sic>pasdem</sic> vice sacra iudicanti,  
+                    <lb n="10"/>comiti ordinis primi intra consistori<lb 
+                        break="no" n="11"/>um, Numidiae consulari, pontifici maiori,  
+                    <lb n="12"/>ob innumerabiles sublimis benig<supplied reason="omitted">ni</supplied>tatis titulos  
+                    <lb n="13"/>Ravennates monumentum <sic>perennis</sic> 
+                    <lb n="14"/>memoriae in vestibulo domus statuali vene<lb 
+                        break="no" n="15"/>ratione dicaverunt <surplus>ut</surplus>. <g ref="hedera"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on EDR 114762.</p>
+                <p>
+                    <app loc="1"><note>auc<supplied reason="lost">t</supplied>oritatis: ILS 1237</note></app>
+                    <app loc="2-3"><note>perhaps beni/volenti<surplus>e</surplus></note></app>
+                    <app loc="4"><note>dignita<supplied reason="lost">t</supplied>um: CIL VI, 32051, ILS 1237</note></app>
+                    <app loc="5"><note>ius<supplied reason="lost">t</supplied>i<supplied reason="lost">t</supplied>iae: CIL VI, 32051, ILS 1237</note></app>
+                    <app loc="7"><note><expan><abbr>prae<supplied reason="lost">f</supplied></abbr><supplied reason="lost"><ex>ecto</ex></supplied></expan>: CIL VI, 32051, ILS 1237</note></app>
+                    <app loc="8"><note>orlentem: Lanciani 1984, p. 45, nr. 733, Capannari 1985, p. 18, Gordon 1965, p. 119, nr. 320</note></app>
+                    <app loc="9"><note>pasdem for easdem</note></app>
+                    <app loc="11"><note>ponti<supplied reason="lost">f</supplied>ici: CIL VI, 32051</note></app>
+                    <app loc="12"><note>benigtatis for benig<supplied reason="omitted">ni</supplied>tatis; benegnitatis: Chastagnol 1978, p. 42; ti<supplied reason="lost">t</supplied>ulos: CIL VI, 32051</note></app>
+                    <app loc="13"><note>innum<supplied reason="lost">e</supplied>rabiles: ILS 1237</note></app>
+                    <app loc="14"><note>statuaque: Lanciani 1983, p. 233, nr. 657, Lanciani 1884, p. 40</note></app>
+                    <app loc="15"><note>ut: maybe a mistake or an abbreviated formula, like an acclamation: <expan><abbr>v</abbr><ex>ita</ex></expan> <expan><abbr>t</abbr><ex>ibi</ex></expan>; or an indication concerning the editing of the text: <expan><abbr>u</abbr><ex>ti</ex></expan> <expan><abbr>t</abbr><ex>abula</ex></expan>.</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“Powerful because of the unique splendour of his authority, glorious because of the salutary success of his admirable eloquence, promoted to the supreme heights of all offices thanks to the provident moderation of his justice, Vulcacius Rufinus, of clarissimus rank, ordinary consul, praetorian prefect, count of the East, Egypt and Mesopotamia and judge with the power to institute sacred trials in the same regions, count of the first order within the consistory, consular of Numidia, major pontiff, for the countless examples of his great generosity, the citizens of Ravenna dedicated this monument to his imperishable memory in the vestibule of his house, so that it could be venerated in the form of a statue.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“Puissant par la splendeur singulière de son autorité, glorieux par le succès bénéfique de son admirable éloquence, promu aux fastiges de toute dignité par la modération providentielle de sa justice, Vulcacius Rufinus, clarissime consul ordinaire, préfet du prétoire, comte d’Orient, Egypte et de Mésopotamie et juge ayant le pouvoir d’instituer des procès sacrés dans les mêmes régions, comte de premier ordre au sein du consistoire, consulaire de Numidie, pontife majeur, pour les innombrables exemples de sa grande générosité, les citoyens de Ravenne ont dédié ce monument à sa mémoire impérissable dans le vestibule de sa maison, afin qu’il soit vénéré sous forme de statue.”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“Possente per lo splendore unico della sua autorità, glorioso grazie al successo portatore di benefici della sua ammirevole eloquenza, promosso ai fastigi di tutte le dignità grazie alla provvidente moderazione della sua giustizia, Vulcacius Rufinus, chiarissimo console ordinario, prefetto del pretorio, conte d’Oriente, Egitto e Mesopotamia e giudice con la facoltà di istituire sacri processi nelle stesse regioni, conte del primo ordine interno al concistoro consolare della Numidia, pontefice maggiore, per gli innumerevoli esempi della sua grande generosità, i cittadini di Ravenna hanno dedicato questo monumento alla sua imperitura memoria nel vestibolo della sua casa, perché fosse venerato sotto forma di statua.”</p>
+            </div>
+            <div type="commentary">
+                <p>The epigraphic field on the white marble base is completely preserved and is framed by a prominent moulding that is slightly damaged on the right side. The lettering presumably reflects the current pronunciation (<foreign>benivolentie</foreign>, <foreign>faborabili</foreign>), and there are also some carving flaws (<foreign>benig&lt;ni&gt;tatis</foreign>) (Gordon, 1965, p. 118). There is a <foreign>patera</foreign> on the right side and an <foreign>urceus</foreign> on the left one, indicating its reuse as a large 2nd Century altar; a sloping gable was truncated in order to house the statue (Machado 2017, p. 338).</p>  
+                <p>The monument was found in December 21<hi rend="superscript">th</hi> 1883 during excavations in the foundations of the ancient Ministry of War in Rome (now the Ministry of Defence) on Via Modena, on the Quirinal hill (Capannari 1985, p. 17). 
+                    The block was discovered deep in the foundations of the building, at the left of the entrance of a wide room with floor and walls made of precious marble (Capannari 1885, pp. 17-22; Guidobaldi 1995, p. 173.) The epigraphic text (l. 14, <foreign>in vestibulo domus</foreign>) identifies this sumptuous residence as the <foreign>domus</foreign> of the honoured man, Vulcacius Rufinus (PLRE I, pp. 782-783), in whose vestibule the marble base and its statue were located. Today the monument is exhibited in the entrance courtyard of the Museo delle Terme di Diocleziano (Rome).</p>  
+                <p>This honorary inscription records the name, qualities and entire <foreign>cursus honorum</foreign> (carried out until that moment) of Vulcacius Rufinus, who received a statue from the people of Ravenna and set it up in his <foreign>domus</foreign> on the Quirinal hill. Vulcacius Rufinus was an important and distinguished senator related to the imperial family: his sister Galla was married to Iulius Constantius, one of the Constantine’s half-brothers, and she was mother of Constantius Gallus, half-brother of Julian, Rufinus’ nephew (<ref type="source">Amm. 14, 11, 27</ref>). 
+                    As we can see on the stone, Rufinus first official appointment was that of <foreign>consularis Numidiae</foreign>, at the end of 330’s (certainly before 342 AD; Chastagnol 1966, pp. 224-226; Chastagnol 1978, pp. 42-43; Horstkotte 1984, pp. 239-243). He subsequently becomes <foreign>comes intra consistorium</foreign> (first epigraphic attestation of this title, see De Bonflis 1981, pp. 17-19), an office that had an additional function compared to that of the simple <foreign>comes ordinis primi</foreign>.
+                    The position was delicate, palatine counselor to the emperor (<foreign>consistorium</foreign> was the conference room of the imperial court), probably Constans (De Bonfils 1981, pp. 25-29). In 342 AD (<ref type="source">CTh 12, 01, 033</ref>), Rufinus was then appointed <foreign>comes per Orientem</foreign> with control over the diocesis of the East and with extension of the <foreign>cognitio vice sacra</foreign> to Egypt and Mesopotamia.</p>  
+                <p>Finally, the inscription records the praetorian praefecture and the consulate that he held contemporaneously in 347 AD (P. Oxy. 1190, P. Cairo Preis. 39, P. Antin. 31; CLRE, pp. 228-229). Rufinus was appointed praetorian prefect before the consulate, following the order of the <foreign>cursus honorum</foreign>, no later than 346 AD (Palanque 1933, p. 29; Gordon 1965, p. 119; Chastagnol 1966, p. 226; Vogler 1979, pp. 118-122) or in 344 AD succeding Placidus (Jones 1964, p. 82; PLRE I, pp. 782-783; Barnes 1987, p. 20; Barnes 1992, pp. 257 and 259; Moser 2018, p. 109). 
+                    The regional area of the prefecture is unspecified, but it would appear that Rufinus had jurisdiction over Italy, Illyricum and Africa as stated in our honorific inscription set up by the people of Ravenna and referred in the Theodosian Constitution (<ref type="source">CTh 11, 01, 06</ref>; see Cracco Ruggini 1998, pp. 346-360). 
+                    This constitution addressed to the council of Cesena mentions the regulation on the tax payment promulgated by Rufinus when he was praetorian prefect in Italy under Constans. The emperor Constantius intended to keep unchanged a previous measure of his bother Constans concerning wine supplies that <foreign>Italiae possessores</foreign> were obliged to provide to the imperial court (at Rome according to Cracco Ruggini 1998, Milan for Bazzocchi 2012, pp. 100-101). Some of the provisions concerned the landowner’s own produce, while another part had to be bought with the landowner’s own funds (<foreign>adaeratio</foreign> of the wine rent) according to the <foreign>pecuniae quantitas</foreign> established by the praetorian prefect of Constans, Vulcacius Rufinus, clearly before 350 AD.</p>  
+                <p>Since Ulpius Limenius (PLRE I, p. 423, see <ref type="ppret" corresp="ppret34">PPRET 34</ref>) was attested in 347 AD as praetorian prefect and urban prefect at Rome in 347 AD (<ref type="source">MGH AA 09</ref>, <ref type="source">Chron. Min. 01, 68</ref>), by which time Rufinus is only attested in Illyricum, a transfer of jurisdiction from Italy to Illyricum must be inferred (Barnes 1987, p. 20). It is highly likely that Illyricum was an indipendent prefecture, the result of an administrative measure of Constans (Neri 1974, pp. 99-103) the control of which was placed in Rufinus’ hands. 
+                    Moser (2018, p. 109) supposed that Rufinus may have administered both the prefectures of Illyricum and Northern Italy (outside Limenius’ authority) which could explain the honorific inscription by the people of Ravenna. Vulcacius Rufinus continuously held the praetorian prefecture of Illyricum under Constans until the emperor’s death, as can be deduced by a constitution of 349 AD (CI VI, 62, 3) together with an inscription mentioning his dealings in the acquisition of provisions in <foreign>Pannonia Superior</foreign> under Constans (<foreign>Domini nostris Constantis Victoris ac triumphatoris semper Augusti</foreign>, see <ref type="ppret" corresp="ppret33">PPRET 33</ref>), and then under the usurper Vetranio.</p>  
+                <p>After the death of Constans at the hand of Magnentius, who occupied the western <foreign>pars</foreign> of the empire except for Illyricum, the <foreign>magister militum</foreign> of Constans, Vetranio, who had the favour of the sister of Constans II, Constantina, was acclaimed emperor by his troops in March 350 AD at Sirmium (Moser 2018, pp. 174-175). Even if it represented a challenge to Constantius II, later he temporarily recognized Vetranio’s authority as a convenient support against Magnentius until he was able to move to the West. Vetranio retained Rufinus in office, allowing him to remain  praetorian prefect in Illyricum. 
+                    He then dispatched him as an envoy with Maximus (Rufinus’ nephew) and Nunechius to Constantius II in order to represent the interests of Vetranio and Magnentius (<ref type="source">Petr. Patr., fr. 16</ref>). Since Petrus Patricius recorded that only Maximus and Nunechius were imprisoned by Constantius II and that Rufinus did not suffer any reprisal at all, indeed quite the opposite, continuing his prefectorial mandate after Vetranio’s abdication, Poglio (2007, pp. 9-13) has argued that Vulcacius Rufinus was spared because he was, in fact, only the ambassador of Vetranio, a subordinate, unlike Magnentius, with whom conflict was unvoidable.</p>   
+                <p>Likely the tolerance towards Rufinus was related to his family ties with Constantius II (see above), ties that the praetorian prefect had no intention of cutting. Rufinus thus played a crucial role in Vetranio’s demise, becoming the general’s main political adviser and negotiating the terms of his surrender to Constantius II so successfully that he was retained in his position (Barcelò 1999, pp. 26-27; Moser 2018, p. 179). Even after Vetranio’s abdication (December 25<hi rend="superscript">th</hi>, 350 AD) and Magnentius’ defeat in the battle of Mursa (September 28<hi rend="superscript">th</hi>, 351 AD) Rufinus reappears as praetorian prefect of Constantius II without presumably having relinquished the prefecture of Illyricum in the <foreign>interim</foreign> and even, perhaps, also regaining control over Italy and Africa when these returned to Constans’ authority (during 352 AD). 
+                   Indeed, Rufinus is attested among the court officials who tried Bishop Photinus at Sirmium shortly after the battle of Mursa, in 351 AD (<ref type="source">Epiph., Pan., 71, 01, 05</ref>) and he maintained his office at least until 352 AD (<ref type="source">CI 06, 22, 05</ref>; <ref type="source">CTh 02, 09, 01</ref>; <ref type="source">CTh 03, 05, 01</ref>). According to Porena (2003, pp. 356-371), between 350-353 Constantius II sent many constitutions to Vulcacius Rufinus, expecially during the recapture of the area occupied by Magnentius.</p> 
+                <p>Later on, this high ranking official was appointed praetorian prefect of Gauls, probably from 353 AD, accompanying Constantius on his military campaign in the Upper-Rhine in order to regain Gauls from Magnentius (<ref type="source">CTh 11, 30, 20</ref>; <ref type="source">CTh 08, 07, 02</ref>;<ref type="source">CTh 07, 21, 01</ref>; see Palanque 1933, p. 31, and 1955, p. 261; Porena 2003, p. 368, nt. 44; the date and place of <ref type="source">CTh 09, 23, 01</ref> are disputed, see Delmaire 2003). 
+                    Rufinus remained in charge at least until 354-355 AD, when according to the historian Ammianus (<ref type="source">Amm. 14, 10, 04-05</ref>), he was dismessed as a result of a political conspiracy related to his family ties with Constantius Gallus. 
+                    Since Rufinus was, in effect, the uncle of the Caesar, he had to be removed in order to eliminate his nephew, but he was finally saved by Eusebius (PLRE I, pp. 302-303), <foreign>praepositus sacri cubiculi</foreign> of Constantius (the same source that the other literary sources accuse of conspiracy against his Caesar). Eusebius saved him from a dangerous sedition growing in the hungry army near Cabillonum.
+                Poglio (2007, pp. 31-50) argues that this event had nothing to do with the misfortune of Gallus Caesar and that the old supporters of Magnentius had plotted against Rufinus. 
+                We are not able to establish if the downfall of Gallus had anything to do with his uncle Rufinus since, admittedly, from that moment on, he vanishes from the literary sources for at least ten years. Constantius II addressed him as <foreign>parentis amicique nostri</foreign> on May 22<hi rend="superscript">th</hi> 354 AD (<ref type="source">CTh 11, 01, 06</ref>, see above), shortly before Gallus’ <foreign>damnatio memoriae</foreign> and his position of trust among Constantius and his family is testified by his distingueshed <foreign>cursus honorum</foreign> and also by his long, uninterrupted praetorian prefecture at Constantius’ II side after the usurpations (also under Constans) in such challenging areas. It his highly likely that Rufinus reached the apex of his career at this time. 
+                    He was appointed praetorian prefect of Italy, Illyricum and Africa by Valentinian I ten years later, in 365 AD (<ref type="source">CTh 09, 30, 03</ref>). He died two years later; at the beginning of 368 AD Petronius Probus took his place (<ref type="source">Amm. 27, 11, 01</ref>; <ref type="source">CTh 10, 15, 04</ref>; <ref type="source">CTh 10, 24, 01</ref>, see <ref type="ppret" corresp="ppret57">PPRET 57</ref>, <ref type="ppret" corresp="ppret58">58</ref>, <ref type="ppret" corresp="ppret59">59</ref>).</p> 
+                <p>Going back to our honorific inscription, it might have been made when the praetorian prefect was physically in Italy, so immediately after his consulate (347 AD) or between 351/352 AD, when Rufinus returned to the side of Constantius II and probably regained control over Italy (see above). Needless to say such a development may well have brought significant advantages to Ravenna, the Adriatic metropolis and a recent communication by Bazzocchi (2012, pp. 97-102) has shed some light on what that might be.</p>  
+                <p>Many north african amphoras containing oil, wine and fish have been found in the harbour of Ravenna, revealing regular commercial exchanges in which, according to Bazzocchi, Vulcacius Rufinus was involved (Bazzocchi 2012, pp. 97-98; Sotinel 2001, p. 61; Augenti 2005, pp. 239-240; Stoppioni 1990, pp. 457-458). It was no accident that he had strong ties with the african prefecture: his <foreign>cursus honorum</foreign> has him as <foreign>consularis Numidiae</foreign> at the beginning of his career and another long and important african iscription (CIL VIII, 2403, see Chastagnol 1978) records Rufinus between 362-365 AD as first on the list of patrons on the album of Thamugadi (Numidia). This commemoration on the city’s album, nearly twenty years after his appointment as <foreign>consularis</foreign> had finished, suggests that the relationship between Vulcacius Rufinus and Thamugadi was a little bit more than that of some passing administrator.</p> 
+                <p>His responsibility over the southern part of the Empire, clearly helped him establish influential ties of patronage in Africa, ties that continued even after his mandate there was over (Wilkins 1989, pp. 54-56) and that may well even have benefitted Ravenna and its port. The colonial city of Thamugadi, like many other north african cities, boasted a flourishing production of wheat, wine and oil, commodities that were exported to northern Italy and distributed inland via its rivers. This commerce may well have stretched as far as Milan, which was the seat of the imperial court and the head quarters of the army. Ravenna was the main importer of these products from the african provinces (Panella 1989, pp. 131-132; Stoppioni 1990, p. 463), indeed its seaport was essential in order to supply the armies billeted along the Po Valley. Zosimus described the city as being well stocked with the necessities of both citiziens and soldiers (<ref type="source">Zos. 02, 10, 01</ref>).</p>  
+                <p>Bazzocchi (2012, pp. 99-100) hypothesizes that Vulcacius Rufinus used his african ties of patronage  to import agricultural products from his african properties (being an important patron of Thamugadi he must have had them), not just for his own profit, but also to guarantee provisions to the soldiers (as he also did in Pannonia, see <ref type="ppret" corresp="ppret33">PPRET 33</ref>). 
+                    According to Chastagnol (1992, p. 444), Rufinus was patron of Ravenna, which is highly likely given that the praetorian prefect improved the harbour facilities and enriched the city through commerce. Since the adriatic metropolis derived great benefit from this trade, it is easy to understand - argues Bazzocchi - how its citizens would have wanted to honour their praetorian prefect and his administrative skills.
+                    Another reason for the citizens of Ravenna to venerate this man could be the fiscal exemptions he granted them. The constitution addressed by Constantius II to the <foreign>ordo Caesenatium</foreign> in 354 AD (<ref type="source">CTh 11, 01, 06</ref>) discussed above, refers to the <foreign>moderatio</foreign> of the praetorian prefect Rufinus in the fiscal matter. This fiscal lightening may well have been extended to Ravenna (according to Bazzocchi 2012, p. 101), which might explain why the people of Ravenna referred to the <foreign>faborabili moderatione</foreign> (ll. 4-5) when singing the praises of their praetorian prefect.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Lanciani 1883, p. 233, nr. 657</ref></bibl> 
+                    <bibl><ref>Lanciani 1884a, p. 40; 1884b, p. 190</ref></bibl> 
+                    <bibl><ref>Lanciani 1884c, p. 45, nr. 773</ref></bibl> 
+                    <bibl><ref>Capannari 1885, p. 18</ref></bibl> 
+                    <bibl><ref>CIL VI, 32051 (and p. 4807)</ref></bibl> 
+                    <bibl><ref>ILS 1237</ref></bibl>  
+                    <bibl><ref>Gordon 1965, p. 119, nr. 320</ref></bibl> 
+                    <bibl><ref>Chastagnol 1978, p. 42</ref></bibl> 
+                    <bibl><ref>De Bonfils 1981, p. 28</ref></bibl> 
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p>
+                    <bibl><ref>Gordon 1965, p. 119, nr. 320</ref> (with photo)</bibl> 
+                    <bibl><ref>Chastagnol 1978, p. 42</ref> (with photo PL. X, nr. 1)</bibl> 
+                </p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-19900436">EDCS 19900436</ref></bibl>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR114762">EDR 114762</ref></bibl>
+                    <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail.php?record=1253">LSA 1253</ref></bibl>   
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Augenti A., Nuove indagini archeologiche a Classe, Spoleto 2005, 239-240</bibl>  
+                    <bibl>Barcelò P. A., Caesar Gallus und Constantius II. Ein Gescheitertes Experiment?, Acta Classica, 42, 1999, 26-27</bibl>  
+                    <bibl>Barnes T. D., Praetorian Prefects, 337-361, ZPE, 94, 1992, 249-260</bibl>  
+                    <bibl>Barnes T. D., Praetorian prefects, 337-361, ZPE, 94, 1992, 257</bibl>  
+                    <bibl>Barnes T. D., Statistics and the Conversion of the Roman Aristocracy, JRS, 85, 1995, 135-147</bibl>
+                    <bibl>Bazzocchi A., Flotta, economia e organizzazione amministrativa a Ravenna e a Faenza nei secoli IV-VI d.C., Felix Ravenna, CLXI - CLXIIV (2005-2008). Atti delle Celebrazioni per il Centenario di Felix Ravenna (1911-2011), 97-102</bibl>  
+                    <bibl>Capannari A., Scoperte archeologiche al palazzo del Ministero della Guerra, BCAR, 13, 1885, 17-21</bibl>  
+                    <bibl>Chastagnol A, L’album municipal de Timgad, Bonn 1978, 42-43</bibl>  
+                    <bibl>Chastagnol A., Le Sénat romain à l’époque impériale, Paris 1992, 444</bibl>  
+                    <bibl>Chastagnol A., Les consulaires de Numidie, Mélanges d’archéologie, d’épigraphie et d’histoire: offerts á Jérôme Carcopino, Paris 1966, 215-228</bibl>  
+                    <bibl>Cracco Ruggini L., Roma e il vino nord-italico, La mémoire perdue. Recherches sur l’administration romaine, Roma 1998, 346-360</bibl>  
+                    <bibl>De Bonfils G., Il comes et quaestor nell’età della dinastia costantiniana, Napoli 1981, 17-29</bibl>  
+                    <bibl>Delmaire R., Aspects normatifs de la politique monétaire du Bas-Empire: une nouvelle lecture de CTh IX, 23, 1, RN, 159, 2003, 163-174</bibl>  
+                    <bibl>Gordon A. E., Album of Dated Latin Inscriptions, vol. III, Berkeley 1965, 118-120, nr. 320</bibl>  
+                    <bibl>Guidobaldi F., Domus: Vulcacius Rufinus, LTUR, vol. II, Roma 1995, 172-173</bibl>  
+                    <bibl>Horstkotte H., Die Datierung des Dekurionenverzeichnisses von Timgad und die spätrömische Klerikergesetzgebung, Historia, 33, 1984, 239-243</bibl>  
+                    <bibl>Jones A. H. M., Collegiate Prefecture, JRS, 54, 1964, 82-88</bibl>  
+                    <bibl>Lanciani R. A., Supplementi al volume VI del Corpus Inscriptionum Latinarum, BCAR, 11, 1883, 232-233, nr. 657</bibl>  
+                    <bibl>Lanciani R. A., XV. Note del prof. R. Lanciani, sulle scoperte fatte in Roma e nel suburbio durante i mesi di dicembre e di gennaio ultimi, NSA, 1884a, 40</bibl>  
+                    <bibl>Lanciani R. A., XXI. Note dell’architetto Comm. prof. R. Lanciani sulle scoperte di antichità avvenute in Roma e nel suburbio, NSA, 1884b, 190</bibl>  
+                    <bibl>Lanciani R. A., Supplementi al volume VI del Corpus Inscriptionum Latinarum, BCAR, 12, 1884c, 45, nr. 773</bibl>  
+                    <bibl>Machado C., Dedicated to eternity? The Reuse of Statue Bases in Late Antique Italy, The Epigraphic Cultures of Late Antiquity, Stuttgart 2017, 338</bibl>  
+                    <bibl>Moser M., Emperor and senators in the reign of Constantius II: maintaining imperial rule between Rome and Constantinople in the fourth Century AD, Cambridge 2018, 94, 107-109, 174-179</bibl>  
+                    <bibl>Neri V., Le prefetture del pretorio in Occidente nel periodo 346-350 d.C., RSA, 4, 1974, 99-103</bibl>  
+                    <bibl>Palanque J. R., Essai sur la préfecture du prétoire du bas-empire, Paris 1933, 25-26, 29-31, 41-42</bibl> 
+                    <bibl>Palanque J. R., Les préfets du prétoire sous les fils de Constantin, Historia, 4, 261</bibl>  
+                    <bibl>Panella C., Gli scambi nel Mediterraneo occidentale dal IV al VII secolo dal punto di vista di alcune merci, Hommes et richesses dans l’empire byzantin, 1. IVe - VIIe siècle, 1989, 131-132</bibl>  
+                    <bibl>Poglio F. A., Gruppi di potere nella Roma tardoantica (350-395 d.C.), Torino 2007, 9-13, 31-50</bibl>  
+                    <bibl>Porena P., Le origini della prefettura del pretorio tardoantica, Roma 2003, 356-371</bibl>  
+                    <bibl>Sotinel C., L’utilisation des ports dans l’arc adriatique à l’époque tardive (4e-6e siècles), Trieste 2001, 61</bibl>  
+                    <bibl>Stoppioni M. L., Le anfore, Storia di Ravenna, L’evo Antico, I, Venezia 1990, 457-468</bibl>  
+                    <bibl>Wilkins P. I., Roman Africa’s municipal patrons, University of Tasmania 1990 (PhD thesis), 54-56, 160-163</bibl> 
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.1"></p>
+                    <p n="2.9"><expan><abbr>cunctarumq</abbr><ex>ue</ex></expan> dignitatum fastigia <sic>faborabili</sic> moderatione iustitiae supergresso</p>
+                    <p n="2.10">Singulari auctoritatis splendore pollenti, admirabilisque eloquentiae <sic>benivolentie</sic> felicitate glorioso</p>
+                    <list n="2.11">
+                        <item n="2.11.b"></item>
+                    </list>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1"><expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan></p>
+                    <p n="8.2"><expan><abbr>praef</abbr><ex>ecto</ex></expan> praetorio</p>
+                    <p n="8.3"></p>
+                    <p n="8.9"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

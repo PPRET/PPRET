@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription in honour of the praet. prefect Probus from Gortyna decreed by the Cretan <foreign>koinon</foreign> and made by the consular Aristides</title>
+                <editor role="edition">Pierfrancesco Porena, Irene Vagionakis</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="pp. 736-740">58</idno>
+                <date when="2020-06-23"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Probus"><name type="praenomen">Sextus</name>
+                        <name type="gentilicium">Claudius</name>
+                        <name type="gentilicium">Petronius</name>
+                        <name type="cognomen">Probus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Gortyna">Gortyna, Praetorium area</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect Probus</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="grc">Greek</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#limestone">limestone</material>
+                                    <objectType ref="#base">statue base</objectType>
+                                    <dimensions>
+                                        <height>145</height>
+                                        <width>70 / 74</width>
+                                        <depth>53</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">yes: there are some traces of a previous inscription</rs>
+                                    <rs type="monument_reuse">no</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#damaged">The letters of the top left corner of the inscription are slightly ruined; the upper part of the base is heavily damaged.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#lunate">lunate</term>
+                                <height>4 / 6</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Gortyna</placeName>
+                                <placeName type="modern_city">Gortyna, Crete (Greece)</placeName>
+                                <placeName type="province">Creta</placeName>
+                                <placeName type="diocese">Macedonia</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#public">public space: Praetorium area</placeName>
+                            </origPlace>
+                            <origDate period="#p7" notBefore="0368" notAfter="0376" cert="low">368-371 AD or 376 AD?</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#">Gortyna</placeName>, Praetorium area</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                    <ab>
+                        <lb n="1"/><unclear>Θε</unclear>ίῳ θεσπίσματι
+                        <lb n="2"/><expan><abbr>κ</abbr><ex>αὶ</ex></expan> δόγματι τῆς Κρητῶν
+                        <lb n="3"/>ἐπαρχίας Πετρώνιον
+                        <lb n="4"/>Πρόβον, τὸν <expan><abbr>λαμπρ</abbr><ex>ότατον</ex></expan>
+                        <lb n="5"/><expan><abbr>κ</abbr><ex>αὶ</ex></expan> ἐξοχώτατον
+                        <lb n="6"/>ἀπὸ ὑπάτων
+                        <lb n="7"/>ἔπαρχον τοῦ πραιτωρίου,
+                        <lb n="8"/>τὸν εὐεργέτην καὶ
+                        <lb n="9"/>σωτῆρα τοῦ ἔθνους,
+                        <lb n="10"/><expan><abbr>Φλ</abbr><ex>αούιος</ex></expan> <expan><abbr>Φουρσίδ</abbr><ex>ιος</ex></expan> Ἀριστίδης
+                        <lb n="11"/>ὁ <expan><abbr>λ</abbr><ex>αμπρότατος</ex></expan> ὑπατικὸς τῆς Κρητῶν
+                        <lb n="12"/>ἐπαρχείας ἀνέστησεν.
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on ICret.</p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“For divine pronouncement and by decree (of the koinon) of the province of Cretans, (the statue of) Petronius Probus, of clarissimus rank and of eminentissimus rank, former consul, praetorian prefect, benefactor and saviour of the people, Flavius Fursidius Aristides, of clarissimus rank, consular of the province of Cretans has set up.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“...”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“Per pronunciamento divino e per decreto (del <foreign>koinon</foreign>) della provincia dei Cretesi, (la statua del) chiarissimo ed eminentissimo Petronio Probo, ex console, prefetto del pretorio, benefattore e salvatore della popolazione, Flavius Fursidius Aristides, il chiarissimo consolare della provincia dei Cretesi ha eretto.”</p>
+            </div>
+            <div type="commentary">
+                <p>The inscription was set up when Probus was praetorian prefect for the first time.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>ICret IV, 312</ref></bibl>
+                    <bibl><ref>Guarducci 1929, pp. 171-172, nr. 18</ref> = <bibl><ref>AE 1933, 197</ref></bibl></bibl>
+                    <bibl><ref>AE 2012, 1786</ref> = <bibl><ref>BE 2013, 513</ref></bibl></bibl>
+                    <bibl><ref>Porena forthcoming, pp. 211-212, nr. 3</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-773">LSA 773</ref></bibl>
+                    <bibl><ref corresp="https://inscriptions.packhum.org/text/200756">PH 200756</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Guarducci M., Le iscrizioni del Pretorio di Gortina, in Rivista dell’Istituto Nazionale di Archeologia e Storia dell’Arte, 1, 1929, 143-184</bibl>
+                    <bibl>Porena P., Appendice. Selezione di fonti sulla carriera prefettizia di Sex. Petronius Probus, in Bigi F., Tantillo I. (edd.), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa forthcoming, 211-212</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.a"></p>
+                    <p n="2.1"></p>
+                    <p n="2.8">Θείῳ θεσπίσματι</p>
+                    <p n="2.10">εὐεργέτην καὶ σωτῆρα τοῦ ἔθνους</p>
+                    <list n="2.11">
+                        <item n="2.11.i">ὁ λ(αμπρότατος) · ὑπατικὸς τῆς Κρητῶν ἐπαρχείας</item>
+                    </list>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">λαμπρ(ότατον) κ(αὶ) ἐξοχώτατον</p>
+                    <p n="8.2">ἔπαρχον τοῦ πραιτωρίου</p>
+                    <p n="8.4"></p>
+                    <p n="8.9"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

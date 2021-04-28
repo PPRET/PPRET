@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Burial inscription for Maximilla from Rome made by Lucceia, daughter of the praet. prefect Viventius</title>
+                <editor role="edition">Andrea Bernier</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="new" corresp="not included in PLRE I, p. 972">55</idno>
+                <date when="2020-05-08"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person><persName ref="#Viventius"><name type="cognomen">Viventius</name></persName></person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Roma">Rome, catacomb of San Sebastiano fuori le Mura, Mausoleum of S. Quirino</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#burial">burial inscription</term>
+                            <term type="rhythm" ref="#poetry #prose">poetry (lid: nine hexameters gathered in three lines); prose (box: five lines of prose)</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#sarcophagus">sarcophagus</objectType>
+                                    <dimensions corresp="lid">
+                                        <height>14.5</height>
+                                        <width>214</width>
+                                        <depth>5</depth>
+                                    </dimensions>
+                                    <dimensions corresp="box">
+                                        <height>71</height>
+                                        <width>212</width>
+                                        <depth>90?</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">no</rs>
+                                    <rs type="monument_reuse">no</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Two inscribed fields (lid and front of the sarcophagus).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#fragmentary">Lid: eleven reassembled fragments. Box: undamaged.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#rustic_capitals">rustic capitals</term>
+                                <height corresp="lid">1.5 / 2.5</height>
+                                <height corresp="box">2 / 2.5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Roma</placeName>
+                                <placeName type="modern_city">Rome (Italy)</placeName>
+                                <placeName type="province">Urbs</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#burial">Rome, catacomb of San Sebastiano fuori le Mura, Mausoleum of S. Quirino</placeName>
+                            </origPlace>
+                            <origDate period="#p7" when="0389-10-04" precision="high">October 4<hi rend="superscript">th</hi>, 389 AD</origDate>
+                        </origin>
+                        <provenance type="found">found in <placeName ref="#Roma">Rome</placeName>, in June 1930 in the catacombs of San Sebastiano fuori le Mura: beneath the floor of the Mausoleum of S. Quirino (Bishop of Siscia, Pannonia Prima, martyr in 309 AD), called ‘la Platonia’, behind the apse of the church of S. Sebastiano</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                <div type="textpart" subtype="section" n="lid">
+                    <ab>
+                        <lb n="1"/>
+                            Maximilla pote<unclear>n</unclear><supplied reason="lost">s servare</supplied> <supplied reason="lost"><sic>federa</sic> C</supplied><sic><unclear>r</unclear>histi</sic> |
+                            propositumque fidem, mors abstulit omnia vi<unclear>t</unclear>ae; |
+                            sed melius v<unclear>i</unclear>vit, vitam <sic>Cristi</sic> q<unclear>ui</unclear> sperat <sic>eternam</sic>, |
+                            si an<unclear>i</unclear>mo recolat fidem
+                        <lb n="2"/>datam omn<supplied reason="lost">ibus</supplied> <unclear>u</unclear>nam; |
+                            tunc poterit mors ipsa mori cum tempore toto, |
+                            vita perennis erit, veniam d<unclear>a</unclear>bit omnibus unam. |
+                            Sed meritis
+                    <lb n="3"/><supplied reason="lost">ve</supplied>getans s<unclear>u</unclear><supplied reason="lost">per h</supplied><unclear>a</unclear>n<unclear>c</unclear>, Lucceia, fec<unclear>i</unclear>sti, |
+                            nam memor ipsa tui cum reddis vota <sic>sepulcrhi</sic> |
+                            ostendis mentem religi<unclear>os</unclear>a v<unclear>ita</unclear> <sic>repleta</sic>. |
+                        <note>prose</note> Mirae <sic>fide</sic>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="section" n="box">
+                <ab>
+                    <lb n="4"/>et innocentiae optimique propositi Maximilla virgo ancilla Dei civis Pannonia, <sic>que</sic>
+                    <lb n="5"/>vixit annis <expan><abbr>n</abbr><ex>umero</ex></expan> L, huic sepulturae condita est a <surplus>L</surplus> Lucceia, <expan><abbr>c</abbr><ex>larissima</ex></expan> <expan><abbr>f</abbr><ex>emina</ex></expan> filia Viventi, <expan><abbr><hi rend="supraline">c</hi></abbr><ex>larissimae</ex></expan> <expan><abbr><hi rend="supraline">r</hi></abbr><ex>ecordationis</ex></expan> <expan><abbr><hi rend="supraline">v</hi></abbr><ex>iri</ex></expan>, ex praefecto
+                    <lb n="6"/><sic>pretorio</sic> et urbis aeternae propter amicitiam sibi <sic>coniuntam</sic>, <sic>que</sic> diem clusit una cum matre
+                    <lb n="7"/>sua pariter Nunita, <sic>que</sic> fuit matrona diaconis et vixit annis <expan><abbr>n</abbr><ex>umero</ex></expan> LXX, die IIII <expan><abbr>non</abbr><ex>as</ex></expan> <expan><abbr>Octobr</abbr><ex>es</ex></expan> <expan><abbr>F</abbr><am>F</am><abbr>l</abbr><am>l</am><ex>aviis</ex></expan>
+                    <lb n="8"/>Timasio et Promoto <expan><abbr><hi rend="supraline">v</hi></abbr><hi rend="supraline"><am>v</am></hi><ex>iris</ex></expan> <expan><abbr><hi rend="supraline">c</hi></abbr><hi rend="supraline"><am>c</am></hi><ex>larissimis</ex></expan> <expan><abbr><hi rend="supraline">c</hi>ons</abbr><am>s</am><ex>ulibus</ex></expan>.
+                </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on CIL.</p>
+                <p>
+                    <app loc="1"><note>pote[ns - - - Cr]histi Ferrua 1937; federa, for metrical purposes; Crhisti and Cristi, stonecutter mistakes; sed ... eternam: the third hexameter is irregular</note></app>
+                    <app loc="1"><note>aeternam</note></app>
+                    <app loc="2"><note>omn, Ferrua 1937</note></app>
+                    <app loc="3"><note>[ve]cetans, Ferrua ICVR; ostendes mentem religiosa vit[aq(ue)] repleta, Ferrua 1937</note></app>
+                    <app loc="3"><note>sepulchri</note></app>
+                    <app loc="3"><note>repletam</note></app>
+                    <app loc="3"><note>fidei</note></app>
+                    <app loc="4"><note>quae</note></app>
+                    <app loc="5"><note>AL Lucceia, Ferrua 1937; a[[l]] Lucceia, Ferrua ICVR, who thinks to a praenomen L(uciae); ab Lucceia, hypothesis by Niquet CIL VI</note></app>
+                    <app loc="6"><note>praetorio</note></app>
+                    <app loc="6"><note>coniunctam, quae</note></app>
+                    <app loc="7"><note>quae</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“Maximilla was able to preserve the covenant with Christ, her vocation and her faith, death has taken away everything of life; but those who hope in Christ’s eternal life live best, if in her soul she cultivated unceasingly the one faith given to all; then death itself will die with all time, life will be eternal, (Christ) will give everybody the same forgiveness. But flourishing for your merits, for the merits towards her, Lucceia, you have, in fact, made yourself mindful of yourself, fulfilling the vows of the sepulchre, you show a spirit full of religious life.</p>
+                <p>The virgin Maximilla, God’s servant, with extraordinary faith and purity and perfect in her vocation, citizen of Pannonia, who lived for 50 years, was buried in this sepulchre by Lucceia, woman of clarissimus rank, daughter of Viventius, man of clarissime memory, former praetorian prefect and prefect of the eternal city, for the friendship she has towards her, who ended her days together with her own mother Nunita, who was the wife of a deacon and lived for 70 years, on the fourth day before the <foreign>none</foreign> of October (= October 4<hi rend="superscript">th</hi>), under the consulship of Flavii Timasius and Promotus, of clarissimus rank.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“Maximilla a pu maintenir les promesses, la vocation et la foi du Christ, la mort a enlevé toutes les choses de la vie ; mais ceux qui espèrent en la vie éternelle du Christ vivent mieux si dans leur âme ils cultivent sans cesse cette foi unique donnée à tous ; alors la mort elle-même mourra avec tous les temps, la vie sera éternelle, (le Christ) donnera à tous le même pardon. Mais en t’épanouissant pour tes bienfaits envers elle, Lucceia, tu as pris conscience de toi-même, et en accomplissant les voeux du sépulcre, tu fais preuve d’un esprit rempli de vie religieuse.</p>
+                <p>La vierge Maximille, servante de Dieu, de foi et d’une extraordinaire pureté, parfaite dans sa vocation, citoyenne de Pannonie, qui a vécu 50 ans, a été déposée dans cette tombe par Lucceia, fille de Viventius, home de clarissime mémoire, ancien préfet du prétoire et de la ville éternelle, pour le lien d’amitié pour elle, qui terminé ses jours avec sa mère Nunita, épouse de diacre, qui vécut 70 ans, le quatrième jour avant le none d’octobre (= 4 octobre), lorsque les clarissimes Flavii Timasius et Promotus (= 389) étaient consuls.”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“Maximilla è stata capace di mantenere i patti di Cristo, la vocazione e la fede, la morte ha portato via tutte le cose della vita; ma vive meglio chi spera nella vita eterna di Cristo, se nell’animo coltiva senza sosta quella unica fede data a tutti; allora potrà la morte stessa morire con tutto il tempo, la vita sarà eterna, (Cristo) darà a tutti lo stesso perdono. Ma fiorendo per i meriti verso di lei, Lucceia, hai fatto te stessa memore di te, e mentre adempi ai voti del sepolcro, mostri una mente ricolma di vita religiosa.</p>
+                <p>La vergine Maximilla, ancella di Dio dalla fede e dalla purezza straordinarie e perfetta nella vocazione, cittadina della Pannonia, che visse 50 anni, è stata deposta in questa sepoltura dalla chiarissima Lucceia, figlia di Viventius, di chiarissima memoria, ex prefetto del pretorio e della città eterna, per il legame di amicizia verso di lei, che pose fine ai suoi giorni assieme alla propria madre Nunita, la quale fu moglie di un diacono e visse 70 anni, il quarto giorno prima delle none di ottobre (= 4 ottobre), quando erano consoli i chiarissimi Flavii Timasius e Promotus.”</p>
+            </div>
+            <div type="commentary">
+                <p>The inscription was chiselled on the lid (ll. 1-3) and on the front (ll. 4-8) of a marble sarcophagus, found in June 1930 in a mausoleum beside the apse of the Basilica San Sebastiano on the Appian Way (Styger 1935, p. 155; Ferrua 1937, pp. 131-132; CIL VI, 41342). It records the burial of the consecrated virgin Maximilla, a native of Pannonia (PChBE II/2, p. 1461), and her mother Nunita (PChBE II/2, p. 1545), widow of a deacon. The inscription opens with a praise, in nine hexameters (ll. 1-3), of the faith of Maximilla and the piety of a third woman, Lucceia, who organized the burial, carried out on October 4<hi rend="superscript">th</hi> 389 AD.  Lucceia, of senatorial rank, was the daughter of the former praetorian prefect and prefect of the city of Rome Viventius.</p>
+                <p>Viventius was among the Illyrians who supported the rise to power of their fellow Valentinian I (Alföldi 1952, pp. 13-27; Matthews 1975, pp. 35-41; Raimondi 2001, pp. 63-71; Lenski 2002, pp. 20-22; Castello 2012, pp. 139-158). A Pannonian from Siscia himself (modern Sisak, Croatia), he was the first questor of Valentinian (364-365 AD) and later held the prestigious offices listed in the inscription: prefect of Rome (365/6-367 AD) and praetorian prefect of Gaul (367/8-371/2 AD).</p>
+                <p>No information about his previous career survives. Viventius could have been nominated questor by Jovian (Lenski 2002, p. 56; by Valentinian I, according to Olszaniec 2013, p. 435), but the first time he appears in the sources is at the beginning of the reign of Valentinian and Valens, at Constantinople, when he was asked by the magister officiorum Ursacius (Clauss 1980, pp. 196-197; Olszaniec 2013, pp. 428-430) to investigate the allegations of sourcery surrounding  the mysterious fever that had affected the imperial brothers (<ref type="source">Amm. 26, 04, 04</ref>; <ref type="source">Zos. 04, 01-02</ref>). 
+                   According to Ammianus and Zosimus, it was a purge, an attempt to eliminate several supporters of the late emperor Julian, but no evidence was found against them (see Den Boeft et alii 2008, pp. 84-86). In the Summer of 364 AD, Viventius followed Valentinian to Italy and during his stay at Mediolanum, again with Ursacius, he presided over an investigation into the orthodoxy of Auxentius, bishop of the city (Barnes 2002, pp. 227-231).</p>
+                <p>After September 365 AD, when the imperial <foreign>comitatus</foreign> left Northern Italy and moved to Gaul, Viventius was nominated to the very prestigious post of prefect of the city of Rome (Chastagnol 1962, pp. 170-171; Olszaniec 2013, pp. 436-437) where he replaced Volusianus Lampadius (former praetorian prefect, see <ref type="ppret" corresp="ppret36">PPRET 36</ref>-<ref type="ppret" corresp="ppret41">41</ref>). 
+                    Despite his origins and the promotion to an office usually reserved for the leading members of the senatorial aristocracy, Viventius established friendly relationships with the Roman élite and this probably explains the very favorable portrait that Ammianus provides of the Pannonian official (Alföldi 1952, p. 16; cf. Barnes 1998, p. 111; Lizzi Testa 2004, pp. 153-157; Lizzi Testa 2007a, pp. 331-337; Lizzi Testa 2007b, pp. 121-124; Colombo 2008, pp. 209-210). 
+                    The urban prefecture of Viventius was troubled by the violent clash between the supporters of Damasus and Ursinus for the succession to the bishop of Rome Liberius (<ref type="source">Amm. 27, 03, 11-13</ref>; on this episode see Lizzi Testa 2004, pp. 129-170; cf. Lippold 1965; Kahlos 1997, pp. 41-44; Clemente 2017, pp. 126-130): Viventius, unable to restore order, was forced to temporarily withdraw to a suburban villa. 
+                    Later, the prefect supported Damasus and condemned Ursinus and his followers to exile. According to a pro-Ursinus source (<ref type="source">Coll. Avell. 01, 06</ref>), Viventius and the prefect of the annona Iulianus had been corrupted by Damasus. Where was this suburban villa? An inscription engraved on a slave collar (CIL XV, 7193 = Thurmond 1994, nr. 31 = Thompson 2003, p. 239, fig. 104), might refer to it. 
+                    The collar in question recommends the return of the slave to his master Viventius «in ar&lt;e&gt;a Callisti», a place otherwise unknown, perhaps near the Basilica of Santa Maria in Trastevere (De Rossi 1866, p. 94; cf. Chastagnol 1962, p. 171; Hillner 2001, p. 214; but Bertolino 1994, pp. 187-190, suggests the cemetery of S. Callisto on the Appian way, near the Basilica San Sebastiano where the inscription of Maximilla was found).</p>
+                <p>The problems in the administration of Rome do not appear to have hindered Viventius’ career: replaced by Praetextatus between May 5th and August 18<hi rend="superscript">th</hi> 367 AD, he was shortly afterwards promoted to the praetorian prefecture of Gaul in substitution of Florentius (Olszaniec 2013, pp. 194-195, 437-438). 
+                    In the Theodosian Code, for the years 368-371 AD, eleven laws addressed to Viventius praetorian prefect (three times with the specification <foreign>Galliarum</foreign>) survive (contents and chronology can be found in Schmidt-Hofner 2008a e 2008b). Among the prefects of Gaul, only Fl. Vincentius (PLRE II, p. 1169) under Honorius received more constitutions. These texts are the only evidence we have concerning the activity of Viventius in this period. We know that he was in Trier in the same years as Valentinian. 
+                    Although the latter had his headquarters here, the prefect had his own seat and was not part the imperial <foreign>comitatus</foreign>, as shown by the subscription of Frg. Vat. 37 (= <ref type="source">CTh 10, 17, 01</ref>), a constitution on state auctions that was signed by the imperial hand in Trier on November 3th 369 AD and received by Viventius some days later (cf. Schmidt-Hofner 2008b, pp. 542-543). 
+                    In <ref type="source">CTh 08, 07, 10</ref> the prefect was praised by Valentinian for having cleared his office of the clerks who had illegally entered it. Viventius was finally replaced by Maximinus (PLRE I, pp. 577-578). The chronology of the change is uncertain: the last constitution addressed to Viventius records the date as June 29<hi rend="superscript">th</hi> 371 AD (<ref type="source">CTh 12, 01, 075</ref>).
+                    The <ref type="source">CI 06, 22, 07</ref>, issued on August 7<hi rend="superscript">th</hi> 371 AD, could be the first law addressed to his successor, but the inscription reads «ad Maximum» (not Maximinus), without reference to an office. 
+                    Recently T.D. Barnes has suggested a date after February 372 AD when, according to <ref type="source">CTh 14, 03, 14</ref>, Maximinus was still vicar of the city of Rome (Barnes 1998, pp. 241-246; cf. Lizzi Testa 2004, pp. 50-51).</p>
+                <p>There is little evidence about Viventius after his prefecture: Ammianus tells us that his nephew Faustinus, son of his sister, was sentenced to death by the praetorian prefect Petronius Probus in Illyricum (<ref type="source">Amm. 30, 05, 11</ref>; cf. Den Boeft et alii 2015, pp. 124-126); in 384 AD, in a report to the emperor, the prefect of Rome Q. Aurelius Symmachus calls his predecessor Viventius «clarissimae et inlustris memoriae vir» (<ref type="source">Symm., Rel. 30</ref>: see Vera 1981, 232-239): this means that at the time Viventius was already dead.</p>
+                <p>The burial inscription of Maximilla, engraved in 389 AD, shows the links of Viventius’ family with the city of Rome and the Christian circles of the capital well beyond the term of his urban prefecture. A.H.M. Jones (PLRE I, p. 972) suggested that Viventius was a Christian on the grounds of two constitutions, addressed to him, granting tax exemptions to virgins and elderly widows (<ref type="source">CTh 13, 10, 04</ref> and <ref type="source">CTh 13, 10, 06</ref>; on these texts see Carrié 1994, pp. 41-42). 
+                    The assumption that the prefect was not only the recipient but also the proponent of these laws is now strengthened by the evidence of our inscription, that shows the close relationship his daughter had with a virgin and a widow of a (Roman ?) deacon. The sarcophagus was found in a mausoleum connected to the Basilica of San Sebastiano. 
+                    The precise function and ownership of this mausoleum, the so called Platonia, have long been debated (Nieddu 2008a.) The discovery in the same area of several funerary inscriptions of figures who, like Maximilla, recalled their Pannonian origins, has led to the idea of a “national” Pannonian cemetery in Rome (Styger 1935, p. 151; Bertolino 1997; Saghy 2016, pp. 470-471). 
+                    However, this hardly could be the function of such a small mausoleum. A. Ferrua tentatively proposed to identify this space as the mausoleum of the family of Viventius and this would explain why his daughter Lucceia could use the area for the burial of her friend and her mother (Ferrua 1937, p. 137; Ferrua 1961, pp. 218-226; Bertolino 1994, pp. 185-186; Nieddu 2009, pp. 253-254). 
+                    Shortly after Maximilla’s burial, the mausoleum was deeply transformed to house the relics, transferred from Illyricum, of the martyr Quirinus (executed in 309 AD in Pannonia Prima, cf. Nieddu 2008b, pp. 361-364; Nieddu 2009, pp. 212-256). 
+                    The relationship between this initiative and the family of Viventius is not clear, but Quirinus, martyred at Savaria under the tetrarchy, was bishop of Siscia (Chiesa 2013, pp. 505-529), the city where the prefect was born. 
+                    It is, therefore, possible that the heirs of Viventius played a role in the transfer of the relics, providing a place for the cult of the Pannonian martyr in Rome.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Styger 1935, pp. 154-155</ref> (with photo)</bibl> 
+                    <bibl><ref>Ferrua 1937, pp. 131-132</ref></bibl>
+                    <bibl><ref>ICUR n.s. V, 13355</ref></bibl> 
+                    <bibl><ref>CIL VI, 41342</ref> (with photo)</bibl>
+                    <bibl><ref>Nieddu 2009, pp. 223-224, 227, 369, 371</ref> (with photo) = <bibl><ref>AE 2009, 145</ref></bibl></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://www.edb.uniba.it/epigraph/27045">EDB 27045</ref></bibl>
+                    <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-01000473">EDCS 01000473</ref></bibl>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR093574">EDR 093574</ref></bibl>
+                    <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD032687">HD 032687</ref></bibl>
+                    <bibl><ref corresp="http://www.mqdq.it/textsce/CE|appe|443">MQDQ 443</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Alföldi A., A Conflict of Ideas in the Late Roman Empire. The Clash between the Senate and Valentinian I, Oxford 1952</bibl>
+                    <bibl>Barnes T.D., Ammianus Marcellinus and the Representation of the Historical Reality, Ithaca – London 1998</bibl>
+                    <bibl>Barnes T.D., Valentinian, Auxentius and Ambrose, Historia, 51, 2002, 227-237</bibl>
+                    <bibl>Bertolino A., «In Area Callisti». Contributo alla topografia di Roma tardoantica, RAC, 70, 1994, 181-190</bibl>
+                    <bibl>Bertolino A., «Pannonia terra creat, tumulat Italia tellus». Presenze pannoniche nell’area di S. Sebastiano, RAC, 73, 1997, 115-127</bibl>
+                    <bibl>Brown P., Through the Eye of a Needle. Wealth, the Fall of Rome, and the Making of Christianity in the West, 350-550 AD, Princeton – Oxford 2012, 273-288</bibl>
+                    <bibl>Carrié J.-M., Diocletien et la fiscalité, AntTard, 2, 1994, 33-64</bibl>
+                    <bibl>Castello M.G., Le segrete stanze del potere. I comites consistoriani e l’imperatore tardoantico, Roma 2012</bibl>
+                    <bibl>Chastagnol A., Les fastes de la préfecture de Rome au Bas-empire, Paris 1962</bibl>
+                    <bibl>Chiesa P., Passio Quirini, in E. Colombi (ed.), Le passioni dei martiri aquileiesi e istriani, II, Roma 2013, 499-583</bibl>
+                    <bibl>Clauss M., Der magister officiorum in der Spätantike (4.-6. Jahrhundert). Das Amt und sein Einfluss auf die kaiserliche Politik, München 1980</bibl>
+                    <bibl>Clemente G., The Roman Senate and the Politics of Religion in the Collectio Avellana (IV-VI Century AD), SCI, 36, 2017, 123-139</bibl>
+                    <bibl>Colombo M., Annotazioni esegetiche ad Amm. 27,3, WS, 121, 2008, 189-225</bibl>
+                    <bibl>De Rossi G.B., Esame archeologico e critico della storia di s. Callisto narrata nel libro nono dei Filosofumeni. Parte II, in Bullettino di archeologia cristiana, 4,6, 1866, 77-97</bibl>
+                    <bibl>Den Boeft J., Drijvers J.W., den Hengst D., Teitler H.C., Philological and Historical Commentary on Ammianus Marcellinus XXVI, Leiden – Boston 2008</bibl>
+                    <bibl>Den Boeft J., Drijvers J.W., den Hengst D., Teitler H.C., Philological and Historical Commentary on Ammianus Marcellinus XXX, Leiden – Boston 2015</bibl>
+                    <bibl>Ferrua A., Dalla Pannonia a Roma, Civiltà Cattolica, 88,4, 1937, 129-140</bibl>
+                    <bibl>Ferrua A., Antichità Cristiane. Dalla Pannonia a Roma, II, Civiltà Cattolica 109,2, 1958, 53-60</bibl>
+                    <bibl>Ferrua A., Lavori a San Sebastiano, RAC, 37, 1961, 203-236</bibl>
+                    <bibl>Hillner J., Die Berufsangaben und Adressen auf den stadtrömischen Sklavenhalsbändern, Historia, 50, 2001, 193-216</bibl>
+                    <bibl>Kahlos M., Vettius Agorius Praetextatus and the Rivalry between the Bishops in Rome in 366-367, Arctos, 31, 1997, 41-54</bibl>
+                    <bibl>Lenski N., Failure of Empire. Valens and the Roman State in the Fourth Century A. D., Berkeley – New York – London 2002</bibl>
+                    <bibl>Lippold A., Ursinus und Damasus, Historia, 14, 1965, 105-128</bibl>
+                    <bibl>Lizzi Testa R., Senatori, popolo, papi. Il governo di Roma al tempo dei Valentiniani, Bari 2004</bibl>
+                    <bibl>Lizzi Testa R., Alla corte dell’imperatore: Quinto Aurelio Simmaco e i suoi amici quaestores, in Atti dell’Accademia Romanistica Costantiniana. XVI Convegno Internazionale in onore di Manuel J. Garcia Garrido, Napoli 2007a, 325-363</bibl>
+                    <bibl>Lizzi Testa R., L’aristocrazia senatoria e la corte dell’imperatore: l’ottica rovesciabile di centro e periferia al tempo di Valentiniano I, in L. Di Paola, D. Minutoli (eds.), Poteri centrali e poteri periferici nella tarda antichità: Confronti conflitti. Atti della giornata di studio (Messina 5 Settembre 2006), Firenze 2007b, 109-130</bibl>
+                    <bibl>Matthews J., Western Aristocracies and Imperial Court, A.D. 364-425, Oxford 1975</bibl>
+                    <bibl>Nieddu A.M., Una pittura «riscoperta» nella Platonia di San Sebastiano, RPAA, 78, 2005-2006, 275-320</bibl>
+                    <bibl>Nieddu A.M., Die Platonia von San Sebastiano: Anton de Waal’s Grabungstagebuch 1892-1893, RQA, 103, 2008a, 1-54</bibl>
+                    <bibl>Nieddu A.M., Note sul culto dei martiri stranieri nei santuari paleocristiani del suburbio romano, in Boesch Gajano S., Scorza Barcellona F. (eds.), Lo spazio del santuario: un osservatorio per la storia di Roma e del Lazio, Roma 2008b, 351-376</bibl>
+                    <bibl>Nieddu A.M., La Basilica Apostolorum sulla Via Appia e l’area cimiteriale circostante, Città del Vaticano 2009</bibl>
+                    <bibl>Olszianec S., Prosopographical Studies on the Court Elite in the Roman Empire (4th Century AD), Toruń 2013</bibl>
+                    <bibl>Raimondi M., Valentiniano I e la scelta dell’Occidente, Alessandria 2001</bibl>
+                    <bibl>Raimondi M., Elezione iudicio dei e turpe convicium: Damaso e Ursino tra storia ecclesiastica e amministrazione romana, Aevum, 83, 2009, 169-208</bibl>
+                    <bibl>Sághy M., Strangers to Patrons: Bishop Damasus and the Foreign Martyrs of Rome, The Hungarian Historical Review, 5, 2016, 465-486</bibl>
+                    <bibl>Schmidt-Hofner S., Reagieren und Gestalten. Der Regierungsstil des spätrömischen Kaisers am Beispiel der Gesetzgebung Valentinians I, München 2008a</bibl>
+                    <bibl>Schimdt-Hofner S., Die Regesten der Kaiser Valentinian und Valens in den Jahren 364 bis 375 n. Chr, ZRG, 125, 2008b, 498-602</bibl>
+                    <bibl>Styger P., Römische Märtyrergrüfte. I, Berlin 1935</bibl>
+                    <bibl>Thurmond D., Some Roman Slave Collars in CIL, Athenaeum, 82, 1994, 459-493</bibl>
+                    <bibl>Vera D., Commento storico alle Relationes di Quinto Aurelio Simmaco. Introduzione, commento, testo, traduzione, appendice sul libro X, 1-2, indici, Pisa 1981</bibl>
+                    <bibl>Styger P., Römische Märtyrergrüfte. I, Berlin 1935</bibl>
+                    <bibl>Thompson F.H., The Archaeology of Greek and Roman Slavery, London 2003</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                    <p n="1.4"></p>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.2">ex praefecto pretorio</p>
+                    <p n="8.4"></p>
+                    <p n="8.10"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

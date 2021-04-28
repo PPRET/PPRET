@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription in honour of Constans Aug. from Augusta Traiana by three praet. praefects</title>
+                <editor role="edition">Eleonora Angius</editor>
+                <editor role="encoding">Eleonora Angius</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="pp. 502, 548, 918">22</idno>
+                <date when="2020-03-27"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Marcellinus"><name type="gentilicium">Antonius</name>
+                        <name type="cognomen">Marcellinus</name></persName>
+                        </person>
+                        <person>
+                        <persName ref="#Leontius"><name type="gentilicium">Domitius</name>
+                        <name type="cognomen">Leontius</name></persName>
+                        </person>
+                        <person>
+                        <persName ref="#Titianus"><name type="gentilicium">Fabius</name>
+                        <name type="cognomen">Titianus</name></persName>
+                        </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Novoselec">Still inserted into the western wall of a church in the village of Novoselec (see Bojadžiev, Lazov 1987, p. 294)</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary inscription for the emperor Constans Augustus</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#base">statue base</objectType>
+                                    <dimensions>
+                                        <height>190</height>
+                                        <width>60</width>
+                                        <depth>60</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">unknown</rs>
+                                    <rs type="monument_reuse">yes, this base was built into the western wall of a church in the village of Novoselec</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (frons).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#damaged">Damaged: by Škorpil’s copy we can suppose that the base was slightly reduced on the left and right side.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <height>unknown</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Augusta Traiana - Beroe</placeName>
+                                <placeName type="modern_city">Stara Zagora (Bulgaria)</placeName>
+                                <placeName type="province">Thracia</placeName>
+                                <placeName type="diocese">Thracia</placeName>
+                                <placeName type="prefecture">Oriens</placeName>
+                                <placeName type="ancient_location" ref="#public">public space</placeName>
+                            </origPlace>
+                            <origDate period="#p5" notBefore="0341" notAfter="0342">341/342 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#">Nova Zagora</placeName>, c. 35 km east of Stara Zagora (ancient Ulpia Augusta Traiana). The base was inserted into the western wall of a church in the village of Novoselec (see Beševliev 1964, 191; LSA 1112)</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                    <ab>
+                        <lb n="1"/><supplied reason="lost">P</supplied>acifico piissimo<unclear>q</unclear>ue p<unclear>ri</unclear>ncip<supplied reason="lost">i</supplied>
+                        <lb n="2"/><expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> <expan><abbr>Fl</abbr><ex>avio</ex></expan> <expan><abbr>Cl</abbr><ex>audio</ex></expan> Constanti Victor<supplied reason="lost">i</supplied> 
+                        <lb n="3"/><supplied reason="lost">e</supplied>t <sic><supplied reason="lost">T</supplied>riumfatori</sic> <unclear>p</unclear>erpetuo <expan><abbr>Au<supplied reason="lost">g</supplied></abbr><supplied reason="lost"><ex>usto</ex></supplied></expan>,
+                        <lb n="4"/><expan><abbr>Ant</abbr><ex>onius</ex></expan> Marcellinus, <expan><abbr>F<unclear>l</unclear></abbr><ex>avius</ex></expan> <expan><abbr>Dom</abbr><ex>itius</ex></expan> Leonti<supplied reason="lost">us</supplied>,
+                        <lb n="5"/><supplied reason="lost">e</supplied>t <expan><abbr>Fab</abbr><ex>ius</ex></expan> Titianus v<expan><abbr>v</abbr><ex>iri</ex></expan> c<expan><abbr>c</abbr><ex>larissimi</ex></expan> <expan><abbr>prae<supplied reason="lost">f</supplied></abbr><supplied reason="lost"><ex>ecti</ex></supplied> </expan><expan><abbr>praet</abbr><ex>orio</ex></expan>
+                        <lb n="6"/><expan><abbr>n</abbr><ex>umini</ex></expan> <expan><abbr>m</abbr><ex>aiestati</ex><abbr><unclear>q</unclear></abbr><ex>ue</ex></expan> eorum semper devotissim<supplied reason="lost">i</supplied>,
+                        <lb n="7"/><supplied reason="lost">p</supplied>rocurante Palladio <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>p</abbr><ex>erfectissimo</ex></expan> praesi<unclear>d</unclear><supplied reason="lost">e</supplied> 
+                        <lb n="8"/><supplied reason="lost">p</supplied>rovinciae Thraciae,
+                        <lb n="9"/><g ref="crux"/> consecraverunt <g ref="crux"/>.
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>This edition is based on CIL III, 12330 with different readings by Feissel 2014 at line 4.</p>
+                <p>
+                    <app loc="1"><note>[P]acifico piissimo[q]ue p[ri]ncip[i]: Migl 1994, p. 98</note></app>
+                    <app loc="2-3"><note>[a/c] triumphatori: Beševliev 1964, 191; [p]erpetuo: AE 1892, 8, ILS 8944</note></app>
+                    <app loc="4-5"><note>Ant(onius) Marcellinus [et] Dom(itius) Leonti[us e]/t Fab(ius) Titianus: AE 1892, 8, CIL III, 12330, ILS 8944, Beševliev 1964, 191; Porena 2003, p. 491; Ant(onius) Marcellinus F D [et] Dom(itius) Leonti{i}u[s]: Migl 1994, p. 98</note></app>
+                    <app loc="5"><note>ẹṭ: LSA; T(itus) Fab(ius): Feissel 2014, p. 163; prae{ee}[f(ecti)]: Migl 1994, p. 98</note></app>
+                    <app loc="6"><note>m(aiestati){o}q(ue): Migl 1994, p. 98; dev[o]tissim[i]: ILS 8944; dev{c}otissim[i]: Migl 1994, p. 98</note></app>
+                    <app loc="7"><note>praes[ide]: AE 1892, 8; praesid[e]: Beševliev 1964, 191; praesi{s}[de]: Migl 1994, p. 98</note></app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“To the peace-maker and most pious prince, our master Flavius Claudius Constans, the Victorious and Triumphant, everlasting Augustus, the praetorian prefects of clarissimus rank Antonius Marcellinus, Flavius Domitius Leontius, and Fabius Titianus, most devoted to their divine spirit and majesty, have consecrated (this monument), taking care to execute it Palladius, governor of perfectissimus rank of the province of Thrace.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>(Chastagnol 1991, pp. 140-141)</p>
+                <p>“Au prince prince pacifique et très pieux, notre seigneur Flavius Claudius Constance, victorieux et triomphateur, perpétuel Auguste, Antonius marcellinus, Domitius Leontius et Fabius Titianus, clarissimes préfets du prètoire, toujours très dévoués à leur divinité et à leur majesté, par les soins de Palladius, perfectissime, gouverneur (praeses) de la province de Thrace, ont consacré (ce monument).”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“Al pacificatore e piissimo imperatore, il nostro signore Flavius Claudius Constans, Vincitore e Trionfatore, perpetuo Augusto, consacrarono i chiarissimi prefetti del pretorio, Antonius Marcellinus, Flavius Domitius Leontius, Fabius Titianus, sempre devoti al nume e alla maestà loro; Palladius perfettissimo governatore della provincia di Tracia ebbe cura di realizzarlo.”</p>
+            </div>
+            <div type="commentary">
+                <p>According to the measurements taken by Lazov (see Bojadžiev, Lazov 1987, p. 294), our monument is a high marble base (60 cm thick) and not a plaque as was supposed from another previous measurement (19 cm, see Škorpil H. and K. 1892, nr. 29, Beševliev 1964, nr. 191). It was reused as building material in a church of Novoselec (Nova Zagora) in Bulgaria, near the ancient Augusta Traiana.</p>
+                <p>This dedication to Constans Augustus is the last known collegiate dedication made by all the praetorian prefects together. They are Antonius Marcellinus (PLRE I, 502), prefect of Italia, Illyricum, Africa, Domitius Leontius (PLRE I, 548) prefect of the East, Fabius Titianus (PLRE I, 918) prefect of the Gaul, listed in chronological order of appointment to the office. This monument was made under the supervision of the governor Palladius (PLRE I, 661): during his office the citizens of Traiana made a long dedication in Greek (similar to a panegyric) in honour of Constantine (see Tantillo 1999; LSA 1665; Kalinka 1906); it was written on a base that was very similar to the one bearing our prefectural inscription.</p>
+                <p>Of all the collegiate inscriptions (<ref type="ppret" corresp="ppret01">PPRET 01</ref>; <ref type="ppret" corresp="ppret02">2</ref>; <ref type="ppret" corresp="ppret08">8</ref>; <ref type="ppret" corresp="ppret09">9</ref>; <ref type="ppret" corresp="ppret17">17</ref>; <ref type="ppret" corresp="ppret18">18</ref>) ours is the only one to refer to the high civilian official who saw to the monument’s making: a governor devoted to the Constantinian dynasty who evidently held such a long and important administrative position between the reign of Constantine and Constantius II that he could appear next to the praetorian prefects’ names. The inscription sheds light on the genesis of this type of honorary monument, according to which the provincial governors and their administrative bureaux carried out the orders received from praetorian prefects (see Porena 2003, p. 492).
+                    Nevertheless, Gehn (LSA 1112) attributed the initiative of the dedication entirely to the <foreign>praeses</foreign> because «it is hard to imagine the three prefects acting in concert to set up a statue in a Thracian town. 
+                    Palladius presumably named them all as an act of homage and flattery». But six other inscriptions (<ref type="ppret" corresp="ppret01">PPRET 01</ref>, <ref type="ppret" corresp="ppret02">2</ref>, <ref type="ppret" corresp="ppret08">8</ref>, <ref type="ppret" corresp="ppret09">9</ref>, <ref type="ppret" corresp="ppret17">17</ref>, <ref type="ppret" corresp="ppret18">18</ref>) recall the joint will of the praetorian prefects to raise monuments to the sovereigns in provincial cities far and wide. 
+                    Feissel rightly argued that the initiative should be attributed exclusively to the prefect Leontius. He was responsible for the province of Thrace and by that time the transformation of the prefectorial institution into its regional form was already occurred (see Feissel 2016, pp. 1225-1226).</p>
+                <p>Feissel has recently proposed a new reading of the text at ll. 4-5. In fact, he disagreed with all previous editions that integrated ET conjunctions to separate prefects’s names and observed through a comparison with the other collegial inscriptions that the list of prefects’ names is asindetic. Feissel thus reads between the names of Marcellinus and Leontius, not ET but FL for Fl(avius), and considered the T preceding Titianus not part of the conjunction ET but the abbreviation of Titianus’ <foreign>praenomen</foreign> T(itus). 
+                    Feissel is right about the first emendation (FL), but demonstrating that the T preceding the name Fabius is a <foreign>prenomen</foreign> is more difficult: 12 surviving inscriptions quoting Titianus’ full name – Traiana and Ephesus inscriptions excluded – never mention his <foreign>praenomen</foreign>, which is never explicitly attested.</p>
+                <p>The plural in the dedicatory formula, <foreign>numini maiestatique eorum</foreign> (l. 6), is a matter of debate, because the figure being addressed is only one man – Constans Augustus. Mommsen (CIL III, 12330) and also Chastagnol (1968, p. 335) are sure that the plural referred to a second inscription dedicated to Constantius II, under whose control fell the diocese of Thrace. 
+                    It is probable that there were twin monuments to the two Augusti in Traiana; only the base for Constans that we are examining has come down to us. On the other hand, Bojadžiev and Lazov suggest that the plural did not refer to another dedication and conjecture that: a) in late antiquity the numeral concordance had become arbitrary, so the plural was used merely by habit; b) it could be a mistake due to the unfamiliarity with Latin in Thrace at that time, since it was predominantly a Greek-speaking area. Their hypothesis is unfounded and untenable.</p>
+                <p>Chastagnol (1968, pp. 335-336) dated the inscription between February and June 341 AD, thinking that Aconius Catullinus was prefect after Marcellinus on 24<hi rend="superscript">th</hi> June (<ref type="source">CTh 08, 02, 01</ref>; <ref type="source">CTh 12, 01, 031</ref>). 
+                    Leontius is attested in office on 11<hi rend="superscript">th</hi> October 340 AD (<ref type="source">CTh 07, 09, 02</ref>) and remains in charge at least until 344 AD. As for Titianus, he had a very long tenure from 343 to 349 AD, although it actually started in 341 AD. Our inscription was chiselled after June 24<hi rend="superscript">th</hi>, 341 AD, when Catullinus was no longer prefect.</p>
+                <p>The two letters from Delphi show the following college of three prefects: Leontius, Titianus, Placidus (<ref type="ppret" corresp="ppret23">PPRET 23</ref>). Placidus became ordinary consul on January 1<hi rend="superscript">st</hi>, 343 AD, by which time he was most likely already praetorian prefect. 
+                    Since we do not know the date of Marcellinus’ replacement by Placidus, the prefects of the inscription of Traiana – Marcellinus, Leontius, Titianus – may have been in office together between the second half of 341 AD and the second half of 342 AD. 
+                    In this period, Constans (and perhaps to Constantius) may well have been honoured during the <foreign>Quinquennalia</foreign> of the two Augusti on September 9<hi rend="superscript">th</hi>, 341 AD, or during the consulate of the two Augusti on January 1<hi rend="superscript">st</hi>, 342 AD, or during the <foreign>Decennalia</foreign> of Constans alone on December 25<hi rend="superscript">th</hi>, 342 AD. Concerning these dates, see Barnes 1987, pp. 17-18; Barnes 1992, pp. 249-250; Migl 1994, pp. 97-98; Olszaniec 2014, pp. 38-39.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Škorpil H. and K. 1892, nr. 29</ref> = <bibl><ref>AE 1892, 8</ref></bibl></bibl>
+                    <bibl><ref>CIL III, 12330</ref></bibl>
+                    <bibl><ref>ILS 8944</ref></bibl> 
+                    <bibl><ref>Mihailov 1958, nr. 732</ref></bibl>
+                    <bibl><ref>Beševliev 1964, nr. 191</ref></bibl>
+                    <bibl><ref>Bojadžiev, Lazov 1987, p. 294</ref> = <bibl><ref>AE 1987, 902</ref></bibl></bibl>
+                    <bibl><ref>Migl 1994, p. 98</ref></bibl>
+                    <bibl><ref>Feissel 2014, pp. 162-163</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-29100142">EDCS 29100142</ref></bibl>
+                    <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD042932">HD 042932</ref></bibl>
+                    <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail.php?record=1112">LSA 1112</ref></bibl>
+                    <bibl><ref corresp="https://inscriptions.packhum.org/text/167747?hs=307-315">PH 167747</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                    <bibl>Barnes T.D., Regional Prefectures, Bonn 1987, 13-23</bibl>
+                    <bibl>Barnes T.D., Praetorian Prefects, 337-361, ZPE, 94, 1992, 249-260</bibl>
+                    <bibl>Beševliev V., Spätgriechische und spätlateinische Inschriften aus Bulgarien, Berlin 1964, 130, nr. 191</bibl>
+                    <bibl>Bojadžiev D., Lazov R., Remarques sur GIL III, 12330 (Dessau 8944), ACHTAB, 2, 1987, 294-299</bibl>
+                    <bibl>Chastagnol A., Les préfets du prétoire de Constantin, REV, 70, 1968, 335-337</bibl>
+                    <bibl>Chastagnol A., Le Bas-Empire. Textes choisis et présentés, Paris 19912, 140-141.</bibl>
+                    <bibl>Feissel D., Fabius Titianus, proconsul d’Asie sous Constantin, et les origines du culte de l’apôtre Jean à Éphèse, in Epigrafia e ordine senatorio, 30 anni dopo. Atti della XIXe Rencontre sur l’épigraphie du Monde romain, Roma 21-23 marzo 2013, Roma 2014, 159-166</bibl>
+                    <bibl>Feissel D., L’épigraphie d’Orient, témoin des mutations de l’empire constantinien, in Acta XVI congressus internationalis archaeologiae christianae, Romae 22-28.9.2013, Città del Vaticano 2016, 1225-1226</bibl>
+                    <bibl>Kalinka E., Antike Denkmäler in Bulgarien, Wien 1906, 69-70, nr. 75</bibl>
+                    <bibl>Migl J., Die Ordnung der Ämter. Prätorianerpräfektur und Vikariat in der Regionalverwaltung des Römischen Reiches von Konstantin bis zur Valentinianischen Dynastie, Frankfurt am Main 1994, 97-100</bibl>
+                    <bibl>Mihailov G., Inscriptions Graecae in Bulgaria repertae, vol. II, Serdica 1958, 140, nr. 732</bibl>
+                    <bibl>Olszaniec S., Prefektura praetorio Italii, Illyrikum i Afryki (312–425 n.e.), Torun 2014, 38-39</bibl>
+                    <bibl>Porena P., Le origini della prefettura del pretorio tardoantica, Roma 2003, 491-493</bibl>
+                    <bibl>Škorpil H. and K., Antike Inschriften aus Bulgarien, Arch. Epigr. Mitt. Osterr, 15, 1892, 100, nr. 29</bibl>
+                    <bibl>Tantillo I., L’ideologia imperiale tra centro e periferie. A proposito di un ‘elogio’ di Costantino da Augusta Traiana in Tracia, RFIC, 127, 1999, 73-95</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.3"></p>
+                </div>
+                
+                <div type="commentary" n="7">
+                    <p n="7.1"></p>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">vv(iri) cc(larissimi)</p>
+                    <p n="8.2">praef(ecti) praet(orio)</p>
+                    <p n="8.5"></p>
+                    <p n="8.9"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
