@@ -23,10 +23,15 @@
     <text>
         <body>
             <div type="commentary">
-                <head>EFES</head>
+                <head>Technical aspects of the PPRET Inscriptions database</head>
                 <div type="textpart" subtype="section">
-                    <p>The PPRET Inscriptions database was built through the EpiDoc Front-End Services (EFES) platform (<ptr target="https://github.com/EpiDoc/EFES/wiki"/>), the epigraphic specialisation of Kiln platform (<ptr target="https://kcl-ddh.github.io/kiln/"/>). EFES was developed and released in 2017 as a tool for the open source publication of text encoded in TEI XML and specifically following the EpiDoc conventions, that is the international standard for the digital edition of inscriptions (<ptr target="https://epidoc.stoa.org/gl/latest/"/>).</p>
-                    <p>The customisation of EFES for the purposes of the PPRET Inscriptions database was made by Irene Vagionakis and implied, in particular, the creation of a dedicated template and the enhancement of the search facilities, including the addition of specific browse filters.</p>
+                    <p>The PPRET Inscriptions database was built through the EpiDoc Front-End Services (EFES) platform (<ptr target="https://github.com/EpiDoc/EFES/wiki"/>), which is the epigraphic specialisation of Kiln platform (<ptr target="https://kcl-ddh.github.io/kiln/"/>).
+                        Kiln was developed and released in 2012 by the Department of Digital Humanities of the King’s College London as an open source tool for the publication of texts encoded in XML (eXtensible Markup Language), a widely spread and highly compatible encoding language, and following the Text Encoding Initiative (TEI) standard for the digital edition of historical and literary documents (<ptr target="https://tei-c.org/"/>). 
+                        EFES, specifically, was developed and released in 2017 by the Institute of Classical Studies of the University of London as the specialisation of Kiln for the publication of XML texts encoded following the TEI sub-standard EpiDoc (<ptr target="https://epidoc.stoa.org/gl/latest/"/>).</p>
+                    <p>EpiDoc is the international standard for the digital edition of inscriptions and of other categories of ancient historical documents and, as such, 
+                        it has been followed in the XML encoding of all the documents included in the PPRET Inscriptions database, which was carried out by Irene Vagionakis, Eleonora Angius and Giordana Franceschini.</p>
+                    <p>The customisation of EFES for the purposes of the PPRET Inscriptions database was made by Irene Vagionakis and implied, in particular, the creation of a dedicated XML EpiDoc template and the enhancement of EFES search facilities, including especially the addition of very specific browse filters.</p>
+                    <p>All the contents of the database, which is hosted on a server provided by the Huma-Num research infrastructure (<ptr target="https://www.huma-num.fr/"/>), are released in Open Access mode under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (<ptr target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>).</p>
                 </div>
                 <!--<head></head>
                 <div type="textpart" subtype="section">
