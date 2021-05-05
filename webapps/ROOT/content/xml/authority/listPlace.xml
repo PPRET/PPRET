@@ -160,6 +160,10 @@
                     <placeName xml:lang="it">Selçuk</placeName>
                     <placeName xml:lang="en">Selçuk</placeName>
                 </place>
+                <place xml:id="Sevastopol">
+                    <placeName xml:lang="it">Sebastopoli</placeName>
+                    <placeName xml:lang="en">Sevastopol</placeName>
+                </place>
                 <place xml:id="Sofia">
                     <placeName xml:lang="it">Sofia</placeName>
                     <placeName xml:lang="en">Sofia</placeName>

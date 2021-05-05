@@ -57,7 +57,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>One inscribed field (frons).</p>
+                                    <p>One inscribed field (<foreign>frons</foreign>).</p>
                                     <rs type="execution" ref="#chiselled">chiselled</rs>
                                     <rs type="preservation" ref="#damaged">Damaged: the inscription is broken into three adjoining pieces and it is reduced at the top and lateral sides. </rs>
                                 </layout>
@@ -65,7 +65,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <term ref="#square_capitals">Late Roman monumental capitals</term>
                                 <height>3 / 5.6</height>
                             </handNote>
                         </handDesc>
@@ -98,40 +98,42 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la">
                 <ab>
-                    <lb n="1"/><supplied reason="lost">F</supplied>lavio <expan><abbr>V<supplied reason="lost">al</supplied></abbr><supplied reason="lost"><ex>erio</ex></supplied></expan> Consta<unclear>n</unclear><supplied reason="lost">tio</supplied> 
-                    <lb n="2"/>fortissim<supplied reason="lost">o ac</supplied> <expan><abbr>nobiliss</abbr><ex>imo</ex></expan> <expan><abbr>C<supplied reason="lost">aes</supplied></abbr><supplied reason="lost"><ex>ari</ex></supplied></expan>,
-                    <lb n="3"/><expan><abbr><supplied reason="lost">I</supplied>ul</abbr><ex>ius</ex></expan> <expan><abbr>Asclepio<supplied reason="lost">dot</supplied></abbr><supplied reason="lost"><ex>us</ex></supplied></expan>,
-                    <lb n="4"/><expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan>, et <expan><abbr>Aur</abbr><ex>elius</ex></expan> He<unclear>r</unclear><supplied reason="lost">mo</supplied><lb 
-                        break="no" n="5"/>genianus, <expan><abbr>v</abbr><ex>ir</ex></expan> <supplied reason="lost"><expan><abbr>em</abbr><ex>inentissimus</ex></expan></supplied>,
-                    <lb n="6"/><expan><abbr>praef</abbr><am>f</am><ex>ecti</ex></expan> <expan><abbr>prae<supplied reason="lost">t</supplied></abbr><supplied reason="lost"><ex>orio</ex></supplied></expan>,
-                    <lb n="7"/><expan><abbr><unclear>d</unclear></abbr><ex>evoti</ex></expan> <expan><abbr>n</abbr><ex>umini</ex></expan> <expan><abbr>m</abbr><ex>aiestati</ex><abbr>q</abbr><ex>ue</ex></expan> eius.
+                    <lb n="1"/><gap reason="lost" quantity="1" unit="line"/>
+                    <lb n="2"/><supplied reason="lost">F</supplied>lavio <expan><abbr>V<supplied reason="lost">al</supplied></abbr><supplied reason="lost"><ex>erio</ex></supplied></expan> 
+                    <lb n="3"/>Consta<unclear>n</unclear><supplied reason="lost">tio</supplied> 
+                    <lb n="4"/>fortissim<supplied reason="lost">o ac</supplied> <expan><abbr>nobiliss</abbr><ex>imo</ex></expan> <expan><abbr>C<supplied reason="lost">aes</supplied></abbr><supplied reason="lost"><ex>ari</ex></supplied></expan>,
+                    <lb n="5"/><expan><abbr><supplied reason="lost">I</supplied>ul</abbr><ex>ius</ex></expan> <expan><abbr>Asclepio<supplied reason="lost">dot</supplied></abbr><supplied reason="lost"><ex>us</ex></supplied></expan>,
+                    <lb n="6"/><expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan>, et <expan><abbr>Aur</abbr><ex>elius</ex></expan> He<unclear>r</unclear><supplied reason="lost">mo</supplied><lb 
+                        break="no" n="7"/>genianus, <expan><abbr>v</abbr><ex>ir</ex></expan> <supplied reason="lost"><expan><abbr>em</abbr><ex>inentissimus</ex></expan></supplied>,
+                    <lb n="8"/><expan><abbr>praef</abbr><am>f</am><ex>ecti</ex></expan> <expan><abbr>prae<supplied reason="lost">t</supplied></abbr><supplied reason="lost"><ex>orio</ex></supplied></expan>,
+                    <lb n="9"/><expan><abbr><unclear>d</unclear></abbr><ex>evoti</ex></expan> <expan><abbr>n</abbr><ex>umini</ex></expan> <expan><abbr>m</abbr><ex>aiestati</ex><abbr>q</abbr><ex>ue</ex></expan> eius.
                 </ab>
             </div>
             <div type="apparatus">
-                <p>This edition follows the text by Garzetti, (SupplIt VIII), p. 201.</p>
+                <p>This edition follows the text by Garzetti (SupplIt 08, Br, 01).</p>
                 <p>
-                    <app loc="1"><note>AE 1987, Garzetti (SupplIt VIII), p. 201 and EDR assume that there were the words “D(omino) N(ostro)” in a previous, lost line.</note></app>
-                    <app loc="3"><note>Asclepio[dotus]: AE 1987, 456</note></app>
-                    <app loc="5"><note>v(ir) [c(larissimus)]: AE 1987, 456</note></app>
+                    <app loc="1"><note>AE 1987, 0456, SupplIt 08, Br, 01, p. 201 and EDR assume that there were the words “D(omino) N(ostro)” in a previous, lost line.</note></app>
+                    <app loc="5"><note>Asclepio[dotus]: AE 1987, 0456</note></app>
+                    <app loc="6"><note>v(ir) [c(larissimus)]: AE 1987, 0456</note></app>
                 </p>
             </div>
             <div type="translation" xml:lang="en">
                 <p>(from LSA 1603)</p>
-                <p>“To Flavius Valerius Constantius, most powerful and most noble Caesar; Iulius Asclepiodotus, of clarissimus rank, and Aurelius Hermogenianus, of eminentissimus rank, praetorian prefects, devoted to his divine spirit and majesty.”</p>
+                <p>“To Flavius Valerius Constantius, most powerful and most noble Caesar, Iulius Asclepiodotus, of clarissimus rank, and Aurelius Hermogenianus, of eminentissimus rank, praetorian prefects, devoted to his divine spirit and majesty.”</p>
             </div>
             <div type="translation" xml:lang="fr">
                 <p>“À Flavius Valerius Constantius, très fort et très noble César, Iulius Asclepiodotus, clarissime, et Aurelius Hermogenianus, éminentissime, préfets du prétoire dévoués à sa divinité et à sa majesté.”</p>
             </div>
             <div type="translation" xml:lang="it">
-                <p>“A Flavius Valerius Constantius, fortissimo e nobilissimo Cesare, il chiarissimo Iulius Asclepiodotus e l’eminentissimo Aurelius Hermogenianus prefetti del pretorio devoti al nume e alla maestà sue.”</p>
+                <p>“A Flavius Valerius Constantius, fortissimo e nobilissimo Cesare, il chiarissimo Iulius Asclepiodotus e l’eminentissimo Aurelius Hermogenianus, prefetti del pretorio, devoti al nume e alla maestà sue.”</p>
             </div>
             <div type="commentary">
-                <p>Our monument is a thick marble slab of quadrangular shape broken into three contiguous fragments and also cut at the top, the right and left sides in order to be reused as a step in a later building (probably of the 6th Century). It was found in 1983 at Via Alberto Mario, Brescia (see Brogiolo 1983, pp. 71-77) and published three years later by Albertini (1986, pp. 53-66). Despite the evident damage, the text, very elegant and homogeneous, is mostly preserved and its gaps were easily restored.</p>
-                <p>This dedication was put up in honour of Constantius I (Caesar from March 1<hi rend="superscript">st</hi> 293 until May 1<hi rend="superscript">st</hi> 305 AD, see <ref type="source">Vict., Caes. 39, 29</ref>; <ref type="source">Eutr. 09, 02</ref>) by the two praetorian prefects in charge at that time: the senator Iulius Asclepiodotus (PLRE I, p. 115), who already appears in the previous inscription from Oescus as <foreign>vir eminentissimus</foreign> (for his career see <ref type="ppret" corresp="ppret01">PPRET 01</ref>), and Aurelius Hermogenianus, a prefect unknown until this inscription was found and who was the successor of Asclepiodotus’ colleague in the Oescus inscription (<ref type="ppret" corresp="ppret01">PPRET 01</ref>), Afranius Hannibalianus, prefect of Diocletian. 
+                <p>Our monument is a thick marble slab of quadrangular shape, broken into three contiguous fragments, and also cut at the top, the right and left sides in order to be reused as a step in a later building (probably of the 6th Century). It was found in 1983 at Via Alberto Mario, Brescia (see Brogiolo 1983, pp. 71-77) and published four years later by Albertini (1987, pp. 53-66 = <ref type="inscription">AE 1987, 0456</ref>). Despite the evident damage, the text, very elegant and homogeneous, is mostly preserved and its gaps were easily restored.</p>
+                <p>This dedication was put up in honour of Constantius I (Caesar from March 1<hi rend="superscript">st</hi> 293 until May 1<hi rend="superscript">st</hi> 305 AD, see Kolb 2018, pp. 12-17, 23-27) by the two praetorian prefects in charge at that time: the senator Iulius Asclepiodotus (PLRE I, Asclepiodotus 3, pp. 115-116), who already appears in the previous inscription from Oescus as <foreign>vir eminentissimus</foreign> (for his career see <ref type="ppret" corresp="ppret01">PPRET 01</ref>), and Aurelius Hermogenianus, a prefect unknown until this inscription was found and who was the successor of Asclepiodotus’ colleague in the Oescus inscription (<ref type="ppret" corresp="ppret01">PPRET 01</ref>), Afranius Hannibalianus, prefect of Diocletian. 
                     In the text Chastagnol (1989, pp. 165-168) restored Hermogenianus’ rank with <foreign>eminentissimus</foreign>, instead of the <foreign>clarissimus</foreign> suggested by Albertini because it is a more paleographically plausible <foreign>lectio</foreign> and also explains the rank’s repetition otherwise superfluous: if they were both <foreign>clarissimi</foreign>, after their names we would have found <foreign>vv(iri) cc(larissimi)</foreign> in the text, as attested by the epigraphic <foreign>usus scribendi</foreign>. 
                     So Hermogenianus was only <foreign>eminentissimus</foreign> when the college made this monument. For inscriptions in which praetorian prefects appear with different ranks, like that of Tropaeum Traiani and Ephesus, see <ref type="ppret" corresp="ppret08">PPRET 08</ref> and <ref type="ppret" corresp="ppret09">PPRET 09</ref>.</p>
-                <p>More than one scholar, including Chastagnol (1989, pp. 165-168), Liebs (1990), Honoré (1994, p. 166), Barnes (1996, p. 546-547), Corcoran (1996, pp. 85-90), Porena (2003, pp. 138-139), Salway (2006, pp. 129-130), Dovere (2005, pp. 12-17), agree that the praetorian prefect is likely to be the lawyer Hermogenianus <foreign>magister libellorum</foreign> of Diocletian, author of the homonymous <foreign>Codex Hermogenianus</foreign> and of an <foreign>Iuris Epitome</foreign> (about the <foreign>Codex</foreign>, published in 295 AD, see Corcoran 1996, pp. 25-42, and 2013; Connolly 2010, pp. 39-62; about the six books of the <foreign>Epitomae iuris</foreign>, published in about 300 AD, see now Dovere 2005 and 2017). After being master of petitions from 293 to 295 AD  in the East Hermogenianus was appointed praetorian prefect by Diocletian, maybe in 296 AD (Porena 2003, pp. 138 and 146-149, Barnes 1996, p. 547, and 2011, pp. 40-41), succeeding Afranius Hannibalianus (Salway 2006, p. 130, suggests a senatorial career in the years 300-310 AD). On the basis of the studies by T. Honoré (1994) concerning the style of the extant rescripts before 305 AD, and due also to the presence of some western rescripts in the <foreign>Codex Hermogenianus</foreign>, it has been conjectured that Hermogenianus was also <foreign>magister libellorum</foreign> of Maximianus Herculius (295-298 AD) before becoming his praetorian prefect in the West (around 298/305 AD). But the college attested in the inscription of Brescia – Asclepiodotus <foreign>clarissimus</foreign> followed by Hermogenianus <foreign>eminentissimus</foreign> – makes these hypothesis very doubtful. Our two prefects immediately follow the prefectural college of Oescus (<ref type="ppret" corresp="ppret01">PPRET 01</ref>): the first prefect close to Maximianus in the West, the second close to Diocletian in the East. </p>
-                <p>As regards chronology, a plausible <foreign>terminus post quem</foreign> for the monument would be between 293 (when Constantius became Caesar, March 1<hi rend="superscript">st</hi> 293 AD) and 296 AD, since Hermogenianus, still master of petitions up to 295 AD, succeded Hannibalianus before January 1<hi rend="superscript">st</hi> 297 AD, when he became urban prefect (see <ref type="ppret" corresp="ppret01">PPRET 01</ref>); in the second half of 296 AD the prefect Asclepiodotus was still in charge, taking part in the war against Allectus in Britain (<ref type="source">Vict., Caes. 39, 42</ref>; <ref type="source">Eutr. 09, 22, 02</ref>; <ref type="source">Oros., Hist., 07, 25, 06</ref>, for Asclepiodotus see <ref type="ppret" corresp="ppret01">PPRET 01</ref>). Porena (2003, pp. 147-149) fixed a <foreign>terminus ante quem</foreign> at 298 AD thanks to a petition found in an Egyptian papyrus (P. Oxy. 1469; cf. CIL XIV, 4455) that attested a prefectural college of <foreign>eminentissimi</foreign> following that of Hermogenianus and Asclepiodotus. A possible occasion to celebrate their own Caesar before 298 AD would have been the <foreign>Quinquennalia</foreign> of Caesars that occurred on March 1<hi rend="superscript">st</hi> 297 AD (Porena 2003, pp. 148-151).</p>
+                <p>More than one scholar, including Chastagnol (1989, pp. 165-168), Liebs (1990), Honoré (1994a, pp. 177-181; 1994b, p. 166), Barnes (1996, pp. 546-547), Corcoran (2000, pp. 85-90), Porena (2003, pp. 138-139), Salway (2006, pp. 129-130), Dovere (2005, pp. 12-17), agree that the praetorian prefect is likely to be the lawyer Hermogenianus <foreign>magister libellorum</foreign> of Diocletian, author of the homonymous <foreign>Codex Hermogenianus</foreign> and of an <foreign>Iuris Epitome</foreign> (about the <foreign>Codex</foreign>, published in 295 AD, see Corcoran 2000, pp. 25-42, and 2013; Connolly 2010, pp. 39-62; about the six books of the <foreign>Epitomae iuris</foreign>, published in about 300 AD, see now Dovere 2005 and 2017). After being master of petitions from 293 to 295 AD in the East, Hermogenianus was appointed praetorian prefect by Diocletian, maybe in 296 AD (Porena 2003, pp. 138 and 146-149, Barnes 1996, p. 547, and 2011, pp. 40-41), succeeding Afranius Hannibalianus (Salway 2006, p. 130, suggests a senatorial career in the years 300-310 AD). On the basis of the studies by T. Honoré (1994a, pp. 177-179) concerning the style of the extant rescripts before 305 AD, and due also to the presence of some western rescripts in the <foreign>Codex Hermogenianus</foreign>, it has been conjectured that Hermogenianus was also <foreign>magister libellorum</foreign> of Maximianus Herculius (295-298 AD) before becoming his praetorian prefect in the West (around 298/305 AD). But the college attested in the inscription of Brescia – Asclepiodotus <foreign>clarissimus</foreign> followed by Hermogenianus <foreign>eminentissimus</foreign> – make these hypotheses very doubtful. Our two prefects immediately follow the prefectural college of Oescus (<ref type="ppret" corresp="ppret01">PPRET 01</ref>): the first prefect close to Maximianus in the West, the second close to Diocletian in the East. </p>
+                <p>As regards chronology, a plausible <foreign>terminus post quem</foreign> for the monument would be between 293 (when Constantius became Caesar, March 1<hi rend="superscript">st</hi> 293 AD) and 296 AD, since Hermogenianus, still master of petitions up to 295 AD, succeded Hannibalianus before January 1<hi rend="superscript">st</hi> 297 AD, when he became urban prefect (see <ref type="ppret" corresp="ppret01">PPRET 01</ref>); in the second half of 296 AD the prefect Asclepiodotus was still in charge, taking part in the war against Allectus in Britain (<ref type="source">Aur. Vict., Caes. 39, 42</ref>; <ref type="source">Eutr. 09, 22, 02</ref>; <ref type="source">Oros., Hist., 07, 25, 06</ref>, for Asclepiodotus see <ref type="ppret" corresp="ppret01">PPRET 01</ref>). Porena (2003, pp. 147-149) fixed a <foreign>terminus ante quem</foreign> at 298 AD thanks to a petition found in an Egyptian papyrus (<ref type="papyrus">P. Oxy. 12, 1469</ref>; cf. <ref type="inscription">CIL 14, 04455</ref> = <ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-1661">LSA 1661</ref> = <ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR072926">EDR 072926</ref>) that attested a prefectural college of <foreign>eminentissimi</foreign> following that of Hermogenianus and Asclepiodotus. A possible occasion to celebrate their own Caesar before 298 AD would have been the <foreign>Quinquennalia</foreign> of Caesars that occurred on March 1<hi rend="superscript">st</hi> 297 AD (Porena 2003, pp. 148-151).</p>
                 <p>Since Brescia was not a strategic or administratively relevant city, this dedication (as for Oescus, <ref type="ppret" corresp="ppret01">PPRET 01</ref>, and Tubernuc <ref type="ppret" corresp="ppret17">PPRET 17</ref>) was probably the only one of a series, decreed by our two praetorian prefects in different cities of the empire, to have survived. We cannot be certain if Hermogenianus and Asclepiodotus honoured both Caesars (Constantius and Galerius) at Brescia. Nor can we be sure if only Constantius’ monument survived (by chance or due to Galerius’ conflict with Constantine and Maxentius) or if only Constantius received a dedication in this Italian city.</p>
                 <p>If the identification of Hermogenianus as the jurist is correct, then we can be sure that he was a high official expert in law and rhetoric, who combined legal scholarship with a public career and who was associated with a military colleague, Asclepiodotus, as occurred for Papinian and Ulpian one hundred years earlier. 
                     Such an evolution of the praetorian prefects’ profile occurs in a period characterized by great fiscal and administrative reforms and the creation of the dioceses. On top of the military prefects of equestrian rank like Hannibalianus and Asclepiodotus, there was also a need for men possessing different skills and training, like Hermogenianus, who was steeped in rhetoric and law. Similar abilities were decisive for employment in the praetorian prefecture at that time.</p>
@@ -139,15 +141,15 @@
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
-                    <bibl><ref>Albertini 1986, p. 57</ref> = <bibl><ref>AE 1987, 456</ref></bibl></bibl>
+                    <bibl><ref>Albertini 1987, p. 57</ref> = <bibl><ref>AE 1987, 0456</ref></bibl></bibl>
                     <bibl><ref>Chastagnol 1989, p. 165</ref></bibl>
-                    <bibl><ref>SupplIt VIII (1991), p. 201</ref></bibl>
+                    <bibl><ref>SupplIt 08, Br, 01, p. 201</ref></bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="images">
                 <p>
-                    <bibl><ref>Albertini 1986, pp. 54-57</ref> (photo and fac-simile)</bibl>
-                    <bibl><ref>SupplIt VIII (1991), p. 201</ref> (photo and fac-simile)</bibl>                   
+                    <bibl><ref>Albertini 1987, pp. 54-57</ref> (photo and fac-simile)</bibl>
+                    <bibl><ref>SupplIt 08, Br, 01, p. 201</ref> (photo and fac-simile)</bibl>                   
                 </p>
             </div>
             <div type="bibliography" subtype="links">
@@ -160,27 +162,26 @@
             </div>
             <div type="bibliography" subtype="other">
                 <p>
-                    <bibl>Albertini A., Dedica a Costanzo Cesare tornata alla luce a Brescia (1983), Comm. Aten. Brescia, 1986, 53-66</bibl>
-                    <bibl>Barnes T. D., The new empire of Diocletian and Constantine, Cambridge 1982, 136-137</bibl>
-                    <bibl>Barnes T. D., Emperors, panyegrics, prefects, provinces and palaces (284-317), in JRA 9, 1996, 546-547</bibl>
-                    <bibl>Barnes T. D., Maximian and the prefect Hermogenianus, in Id., Early Christian Hagiography and Roman History, Tübingen 2010, 314-316</bibl>
-                    <bibl>Barnes T. D., Constantine. Dynasty, Religion and Power in the Later Roman Empire, Oxford-Malden (Mass.) 2011, 40-41</bibl>
-                    <bibl>Brogiolo G., Brescia, via Alberto Mario. Scavo 1983, Not. Sopr. Arch. Lomb., 1983, 71-77</bibl>
-                    <bibl>Cenderelli A., Riflessioni e ipotesi su un passo degli Atti dei Martiri, SDHI, 49, 1983, 358-371 (then Scritti romanistici, Milano 2011, 291-306)</bibl>
-                    <bibl>Chastagnol A., Un nouveau préfet du prétoire de Dioclétien: Aurelius Hermogenianus, ZPE, 78, 1989, 165-168 (then Aspects de l’Antiquité Tardive, Roma 1994, 171-176)</bibl>
-                    <bibl>Connolly S., Lives behind the laws. The world of the Codex Hermogenianus, Bloomington (Ind.) 2010</bibl>
-                    <bibl>Corcoran S., The Empire of the Tetrarchs: imperial pronouncements and government AD 284 – 324, Oxford 1996, 85-90</bibl>
+                    <bibl>Albertini A., Dedica a Costanzo Cesare tornata alla luce a Brescia (1983), in Commentari dell'Ateneo di Brescia per l'anno 1986, Brescia 1987, 53-66</bibl>
+                    <bibl>Barnes T.D., The New Empire of Diocletian and Constantine, Cambridge 1982</bibl>
+                    <bibl>Barnes T.D., Emperors, Panyegrics, Prefects, Provinces and Palaces (284-317), JRA, 9, 1996, 532-552</bibl>
+                    <bibl>Barnes T.D., Maximian and the Prefect Hermogenianus, in Id., Early Christian Hagiography and Roman History, Tübingen 2010, 314-316</bibl>
+                    <bibl>Barnes T.D., Constantine. Dynasty, Religion and Power in the Later Roman Empire, Oxford-Malden (Mass.) 2011</bibl>
+                    <bibl>Brogiolo G., Brescia, via Alberto Mario. Scavo 1983, Notiziario della Soprintendenza per i Beni archeologici della Lombardia, 1983, 71-77</bibl>
+                    <bibl>Cenderelli A., Riflessioni e ipotesi su un passo degli Atti dei Martiri, SDHI, 49, 1983, 358-371 (= Id., Scritti romanistici, Milano 2011, 291-306)</bibl>
+                    <bibl>Chastagnol A., Un nouveau préfet du prétoire de Dioclétien: Aurelius Hermogenianus, ZPE, 78, 1989, 165-168 (= Id., Aspects de l’Antiquité Tardive, Roma 1994, 171-176)</bibl>
+                    <bibl>Connolly S., Lives behind the Laws. The World of the Codex Hermogenianus, Bloomington (Ind.) 2010</bibl>
+                    <bibl>Corcoran S., The Empire of the Tetrarchs: Imperial Pronouncements and Government AD 284–324, Oxford 2000 (rev.ed.)</bibl>
                     <bibl>Corcoran S., The Gregorianus and Hermogenianus assembled and shattered, MEFRA, 125, 2013, 285-304</bibl>
-                    <bibl>Dovere E., De iure: l’esordio delle Epitomi di Ermogeniano, Napoli 2005, 10-20</bibl>
+                    <bibl>Dovere E., De iure: l’esordio delle Epitomi di Ermogeniano, Napoli 2005</bibl>
                     <bibl>Dovere E., Scienza del diritto e burocrazia. Hermogenianus iurislator, Bari 2017</bibl>
-                    <bibl>Garzetti A., Brixia. Monumenti epigrafici riediti o nuovi, in Suppl. It. VIII, Roma 1991, 200-202, nr. 1</bibl>
-                    <bibl>Garzetti A., Valvo A., Mantissa epigrafica bresciana, Brescia 1999, 22, nr. 5</bibl>
-                    <bibl>Honoré T., Emperors and lawyers, London 1994, 170-180</bibl>
-                    <bibl>Honoré T., Arcadius, also Charisius: Career and Ideology, Index, 22, 1994, 163-179</bibl>
+                    <bibl>Honoré T., Emperors and Lawyers, London 1994(a)</bibl>
+                    <bibl>Honoré T., Arcadius, also Charisius: Career and Ideology, Index, 22, 1994(b), 163-179</bibl>
+                    <bibl>Kolb F., La Tetrarchia. Struttura, fondamento e ideologia del potere imperiale, in Eck W., Puliatti S. (a cura di), Diocleziano: la frontiera giuridica dell’impero, Pavia 2018, 3-43</bibl>
                     <bibl>Liebs, D., Hermogenians Iuris epitomae. Zum Stand der römischen Jurisprudenz im Zeitalter Diokletians, Göttingen 1964</bibl> 
-                    <bibl>Liebs D., Hermogenians Pratorianerprafektur inschriftlich bezeugt, ZRG 107, 1990, 385-386</bibl>
-                    <bibl>Porena P.,  Le origini della prefettura del pretorio tardoantica, Roma 2003, 133-152</bibl>
-                    <bibl>Salway R. W. B., Equestrian Prefects and the Award of Senatorial Honours from the Severans to Constantine, in Herrschaftsstrukturen und Herrschaftspraxis. Konzepte, Prinzipien und Strategien der Administration im römischen Kaiserreich, Berlin 2006, 115-135</bibl>
+                    <bibl>Liebs D., Hermogenians Prätorianerpräfektur inschriftlich bezeugt, ZRG, 107, 1990, 385-386</bibl>
+                    <bibl>Porena P., Le origini della prefettura del pretorio tardoantica, Roma 2003</bibl>
+                    <bibl>Salway B., Equestrian Prefects and the Award of Senatorial Honours from the Severans to Constantine, in Kolb A. (hrsg.), Herrschaftsstrukturen und Herrschaftspraxis. Konzepte, Prinzipien und Strategien der Administration im römischen Kaiserreich, Berlin 2006, 115-135</bibl>
                 </p>
             </div>
             

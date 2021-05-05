@@ -11,7 +11,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>PPRET</authority>
-                <idno type="filename" n="plre" corresp="pp. 3, 331, 656, 911, 915">17</idno>
+                <idno type="filename" n="plre" corresp="pp. 3, 331-332, 656, 911-912, 915">17</idno>
                 <date when="2020-03-27"/>
                 <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
             </publicationStmt>
@@ -72,9 +72,9 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>One inscribed field (frons).</p>
+                                    <p>One inscribed field (<foreign>frons</foreign>).</p>
                                     <rs type="execution" ref="#chiselled">chiselled</rs>
-                                    <rs type="preservation" ref="#damaged">Damaged: reduced on the lower and upper parts; at line 4 <foreign>nob(ilissimo) Caes(ari)</foreign> was erased and substituted for <foreign>Aug(usto)</foreign> and also at line 5-6 the name of the pretorian prefect Valerius Felix was chiselled away, probably suffering <foreign>damnatio memoriae</foreign>.</rs>
+                                    <rs type="preservation" ref="#damaged">Damaged: reduced on the lower and upper parts; at line 4 <foreign>nob(ilissimo) Caes(ari)</foreign> was erased and substituted for <foreign>Aug(usto)</foreign> and also at line 5-6 the name of the praetorian prefect Valerius Felix was chiselled away, probably suffering <foreign>damnatio memoriae</foreign>.</rs>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -97,7 +97,7 @@
                             </origPlace>
                             <origDate period="#p4" when="0336" precision="high">336 AD</origDate>
                         </origin>
-                        <provenance type="found">thermal baths of <placeName ref="#">Tubernuc</placeName></provenance>
+                        <provenance type="found"><placeName ref="#">Tubernuc</placeName>, thermal baths</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -113,7 +113,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la">
                 <ab>
-                    <lb n="1"/>Virtute clementia m<supplied reason="lost">emor</supplied>ando, pie<lb
+                    <lb n="1"/>Virtute, clementia m<supplied reason="lost">emor</supplied>ando, pie<lb
                         break="no" n="2"/>tate omnes a<unclear>n</unclear><supplied reason="lost">tecellenti</supplied>, <expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> <expan><abbr>Fl</abbr><ex>avio</ex></expan> Clau<lb
                         break="no" n="3"/>dio Consta<supplied reason="lost">n</supplied>t<supplied reason="lost">ino iu</supplied>niori 
                     <lb n="4"/><add place="overstrike"><expan><abbr>Aug</abbr><ex>usto</ex></expan></add>,                                                                                           
@@ -126,10 +126,9 @@
             <div type="apparatus">
                 <p>This edition is based on Feissel 1985.</p>
                 <p>
-                    <app loc="1"><note>[memor]ando: AE 1925, 72</note></app>
-                    <app loc="2"><note>[a[ntecedenti]: AE 1925, 72, a[ntecellenti]: Salway 2007, p. 1282</note></app>
-                    <app loc="4"><note>[nob(ilissimo) Caes(ari) was carefully obliterated and substituted for Aug(usto).</note></app>
-                    <app loc="5-6"><note>[[adfinis Caesaris] or [necessarius Caesaris]: Piganiol 1929, p. 142; [Valerius Maximus]: Barnes 1982, pp. 134-135</note></app>
+                    <app loc="2"><note>a<supplied reason="lost">ntecedenti</supplied>: AE 1925, 72, a<supplied reason="lost">ntecellenti</supplied>: Di Maio 1992, p. 195, Salway 2007, p. 1282, Olszaniec 2014, p. 20 </note></app>
+                    <app loc="4"><note><expan><abbr>nob</abbr><ex>ilissimo</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> was carefully obliterated and substituted for <expan><abbr>Aug</abbr><ex>usto</ex></expan>.</note></app>
+                    <app loc="5-6"><note><supplied reason="lost">adfinis Caesaris</supplied> or <supplied reason="lost">necessarius Caesaris</supplied>: Piganiol 1929, p. 142; <supplied reason="lost">Valerius Maximus</supplied>: Barnes 1982, pp. 134-135</note></app>
                 </p>
             </div>
             <div type="translation" xml:lang="en">
@@ -143,32 +142,32 @@
             </div>
             <div type="commentary">
                 <p>The inscription was found in 1924 near the thermal baths (not far from the spring) of Aïn-Tebornock in Tunisia (the ancient Roman <foreign>municipium</foreign> of Tubernuc).</p>
-                <p>This Roman <foreign>municipium</foreign> was a fertile, rich and strategic area later used and fortified by the Byzantines and Arabs. The monument in question was so probably preserved due to the byzantine fortification around the city and the restoration of the thermal baths during the Byzantine period. Indeed, the thermal baths had direct access to the forum and, given its civic nature, our monument may have come from there. Thereafter, the monument may have been reused in the restoration of the thermal baths, which was attested under Gratian and Valentinian (Ghalia-Mahfoudh 2003, pp. 784-786).</p>
+                <p>This Roman <foreign>municipium</foreign> was a fertile, rich and strategic area later used and fortified by the Byzantines and Arabs. The monument in question was so probably preserved due to the byzantine fortification around the city and the restoration of the thermal baths during the Byzantine period. Indeed, the thermal baths had direct access to the forum and, given its civic nature, our monument may have come from there. Thereafter, the monument may have been reused in the restoration of the thermal baths, which was attested under Gratian and Valentinian II (Ghalia-Mahfoudh 2003, pp. 784-786).</p>
                 <p>The inscription is a dedication solely in honour of Constantine II Caesar (altered to substitute the title Augustus), made by the college of praetorian prefects in 336 AD: only four prefects appear, but there is an evident erasure. 
-                    The recent exceptional discovery of another dedication in honour of Constantine II Caesar at Antioch (<ref type="ppret" corresp="ppret18">PPRET 18</ref>) made by the same prefects – the two inscriptions are in effect twins –  reveals that the prefectural college had five members and not four as suggested in the Tubernuc inscription. Apart from providing us with useful data concerning the Constantinian prefectural college between 335 and 336 AD, these monuments also show the multiplication of the number of praetorian prefects, all of whom were serving at the same time.</p>
-                <p>A comparison with the recent inscription of Antioch allows us to restore the gaps in the text of this African monument. Thus, the empty space between the fifth and sixth line that follows Ablabius’ name did not retain a phrase describing the prefect’s relation by marriage to the imperial family (<foreign>adfinis</foreign> or <foreign>necessarius Caesaris</foreign>, see Poinssot-Lantier 1924, p. 229). This can be explained by Ablabius’ fall from grace, after having been dismissed by Constantius after Constantine’s death. Upon this premise, Palanque identifies the four figures as the Caesars of 337 AD. According to him, the African inscription is one of four dedications, each one attributable to one of the four Caesars (see Palanque 1950, pp. 17-19).</p>
-                <p>In stark contrast, the Antioch dedication furnishes us with the name of another prefect, but not that of Valerius Maximus (PLRE I, p. 590) as Barnes claimes (Barnes 1982, pp. 134-135), but Valerius Felix (PLRE I, p. 331), praetorian prefect of Africa, as Chastagnol (1968, pp. 333-337) remarkably suggested (this was before the Antioch inscription had been discovered).</p>
-                <p>To resume, the prefectural college of Constantine between 335 and 336 AD consisted of Papius Pacatianus (PLRE I, p. 656), Flavius Ablabius (PLRE I, p. 3 ), Valerius Felix (PLRE I, p. 331 ), Annius Tiberianus (PLRE I, p. 911 ) and Nestorius Timorianus (PLRE I, p. 915, for their career see <ref type="ppret" corresp="ppret18">PPRET 18</ref>).</p>
-                <p>We do not know why the name of Felix was deleted in Africa, but not in Syria. After Constantine’s death his loyal prefects or ex-prefects were all removed or killed, as happened to Ablabius (PLRE I, p. 3, see <ref type="ppret" corresp="ppret18">PPRET 18</ref>), but the fate that befell Felix is unknown (Porena 2013, pp. 309-310).</p>
+                    The recent exceptional discovery of another dedication in honour of Constantine II Caesar at Antioch (<ref type="ppret" corresp="ppret18">PPRET 18</ref>) raised by the same prefects – the two inscriptions are in effect twins – reveals that the prefectural college had five members and not four as suggested in the Tubernuc inscription. Apart from providing us with useful data concerning the Constantinian prefectural college between 335 and 336 AD, these monuments also show the multiplication of the number of praetorian prefects, all of whom were serving at the same time.</p>
+                <p>A comparison with the inscription recently discovered at Antioch allows us to restore the gaps in the text of this African monument. Thus, the empty space between the fifth and sixth line that follows Ablabius’ name did not retain a phrase describing the prefect’s relation by marriage to the imperial family (<foreign>adfinis</foreign> or <foreign>necessarius Caesaris</foreign>, see Poinssot-Lantier 1924, p. 229; cf. Palanque 1933, pp. 17-19). The Antioch dedication furnishes us with the name of another prefect, but not that of Valerius Maximus (PLRE I, Maximus 49, pp. 590-591) as Barnes claimes (Barnes 1982, pp. 134-135), but Valerius Felix (PLRE I, Felix 2, pp. 331-332), praetorian prefect of Africa, as Chastagnol remarkably suggested (Chastagnol 1968, pp. 333-337; this was before the Antioch inscription had been discovered).</p>
+                <p>To resume, the prefectural college of Constantine between 335 and 336 AD consisted of Papius Pacatianus (PLRE I, Pacatianus 2, p. 656), Flavius Ablabius (PLRE I, Ablabius 4, pp. 3-4), Valerius Felix (PLRE I, Felix 2, pp. 331-332), Annius Tiberianus (PLRE I, Tiberianus 4, pp. 911-912) and Nestorius Timonianus (PLRE I, p. 915; for their career see <ref type="ppret" corresp="ppret18">PPRET 18</ref>).</p>
+                <p>We do not know why the name of Felix was deleted in Africa, but not in Syria. After Constantine’s death his loyal prefects or ex-prefects were all removed or killed, as happened to Ablabius (see <ref type="ppret" corresp="ppret18">PPRET 18</ref>), but the fate that befell Felix is unknown (cf. Porena 2003, p. 470, nt. 203).</p>
                 <p>The second deletion is nevertheless useful in dating this inscription: the imperial title <foreign>nobilissimus Caesar</foreign> (preserved in the Antioch inscription l. 3 as ἐπιφανέστατον Καίσαρα) was replaced with <foreign>Aug(usto)</foreign> probably at the time of the elevation of Constantine II to Augustus in September 337 AD, thus our monument must necessarily date before that time. 
-                    Already Feissel (1985, p. 435) and then Porena (2003, pp. 476-491) analysed the chronology of the five praetorian prefect’s mandates and placed a <foreign>terminus post quem</foreign> at July 15<hi rend="superscript">th</hi>, 335 AD, when Annius Tiberianus was still <foreign>vicarius Hispaniarum</foreign> (<ref type="source">CTh 03, 05, 06</ref>), and a <foreign>terminus ante quem</foreign> on July 21<hi rend="superscript">th</hi>, 336 AD, when Gregorius (Valerius Felix’s successor), was mentioned for the first time in office as praetorian prefect (<ref type="source">CTh 04, 06, 03</ref>). 
+                    Already Feissel (1985, p. 435) and then Porena (2003, pp. 476-491) analyzed the chronology of the five praetorian prefect’s mandates and placed a <foreign>terminus post quem</foreign> at July 15<hi rend="superscript">th</hi>, 335 AD, when Annius Tiberianus was still <foreign>vicarius Hispaniarum</foreign> (<ref type="source">CTh 03, 05, 06</ref>), and a <foreign>terminus ante quem</foreign> on July 21<hi rend="superscript">th</hi>, 336 AD, when Gregorius (Valerius Felix’s successor), was mentioned for the first time in office as praetorian prefect (<ref type="source">CTh 04, 06, 03</ref>). 
                     During this time span, these two coeval inscriptions were made to celebrate the emperor for the <foreign>Vicennalia</foreign> of Constantine II on March 1<hi rend="superscript">st</hi>, 336 AD. 
-                    This would be a suitable occasion for the prefects to erect a series of identical monuments, of which only the ones in Tubernuc and Antioch survive. These two cities were politically and culturally different: Tubernuc was only a small Roman municipium, whereas Antioch was an important administrative centre, capital of the Eastern diocese (see also <ref type="ppret" corresp="ppret18">PPRET 18</ref>).</p>
+                    This would be a suitable occasion for the prefects to erect a series of identical monuments, of which only the ones in Tubernuc and Antioch survive. These two cities were politically and culturally different: Tubernuc was only a small Roman <foreign>municipium</foreign>, whereas Antioch was an important administrative centre, capital of the Eastern diocese (see also <ref type="ppret" corresp="ppret18">PPRET 18</ref>).</p>
                 <p>The discovery of the monuments in such diverse cities lends itself to the idea that these dedications may well have been quite widely spread over the whole empire. These monuments were built by the provincial governors in the different cities under the control of each prefect.</p>
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
                     <bibl><ref>ILTun 814</ref></bibl> 
-                    <bibl><ref>Poinssot, Lantier 1924 p. 230</ref> = <bibl><ref>AE 1925, 72</ref></bibl></bibl> 
-                    <bibl><ref>Piganiol 1929, p. 142</ref> = <bibl><ref>AE 1929, 172</ref></bibl></bibl> 
-                    <bibl>Barnes 1982, p. 134</bibl> 
-                    <bibl><ref>Feissel, Dagron 1985, p. 423</ref> = <bibl><ref>AE 1985, 869</ref></bibl></bibl>
+                    <bibl><ref>Poinssot, Lantier 1924, p. 230</ref></bibl> = <bibl><ref>AE 1925, 0072</ref></bibl> 
+                    <bibl><ref>Baynes 1925, p. 204</ref></bibl>
+                    <bibl><ref>Piganiol 1929, p. 142</ref></bibl> 
+                    <bibl><ref>Barnes 1982, p. 134</ref></bibl> 
+                    <bibl><ref>Feissel, p. 423</ref></bibl>= <bibl><ref>AE 1985, 0869</ref></bibl>
                     <bibl><ref>Di Maio 1992, p. 195</ref></bibl>
                     <bibl><ref>Ghalia, Mahfoudh 2003, p. 786, nt. 11</ref></bibl> 
-                    <bibl><ref>Porena 2003, p. 467</ref> = <bibl><ref>AE 2003, 64</ref></bibl></bibl> 
+                    <bibl><ref>Porena 2003, p. 467</ref></bibl> 
                     <bibl><ref>Salway 2007, p. 1282</ref></bibl>
-                    <bibl><ref>Olszaniec 2014, p. 20</ref> = <bibl><ref>AE 2014, 30</ref></bibl></bibl>
-                </p>
+                    <bibl><ref>Olszaniec 2014, p. 20</ref></bibl>
+                 </p>
             </div>
             <div type="bibliography" subtype="images">
                 <p>
@@ -183,22 +182,22 @@
             </div>
             <div type="bibliography" subtype="other">
                 <p>
-                    <bibl>Barnes T. D., The new empire of Diocletian and Constantine, Cambridge 1982, 134-135</bibl>
-                    <bibl>Barnes T. D., Praetorian prefects, 337-361, ZPE, 94, 1992, 250</bibl>
-                    <bibl>Baynes N. H., The Pretorian Prefecture under Constantine the Great, JRS, 15, 1925, 204-208</bibl>
-                    <bibl>Chastagnol A., Les inscriptions africaines des préfets du prétoire de Constantin, L’Africa romana, 3, 1986, 263-273</bibl>
+                    <bibl>Barnes T.D., The New Empire of Diocletian and Constantine, Cambridge 1982</bibl>
+                    <bibl>Barnes T.D., Praetorian prefects, 337-361, ZPE, 94, 1992, 249-260</bibl>
+                    <bibl>Baynes N.H., Three Notes on the Reform of Diocletian and Constantine, JRS, 15, 1925, 195-208</bibl>
                     <bibl>Chastagnol A., Les préfets du prétoire de Constantin, REA, 70, 1968, 321-352</bibl>
-                    <bibl>Coşkun A., Die Praefecti praesent(al)es und die Regionalisierung der Praetorianer-praefekturen im vierten Jahrhundert, Millennium, 1, 2004, 287-289</bibl>
-                    <bibl>Feissel D. (et Dagron G.), Inscriptions inédites du musée d’Antioche I, Une dédicace en honneur de Constantin II César et les préfets du prétoire de 336, TMByz, 9, 1985, 421-461 (= Documents, droit, diplomatique de l’Empire romain tardif, Paris 2010, 385-398)</bibl>
-                    <bibl>Ghalia T., Mahfoudh F., Aïn Tebournouk-Tubernuc et sa région de l’Antiquité tardive au Moyen Âge, in MEFRA, 115, 2003, 784-790</bibl>
-                    <bibl>Gkoutzioukostas A., The reforms of Constantine the Great in provincial administration: A critical approach to the conclusions of modern research, Byzantina, 34, 2016, 105-109</bibl>
-                    <bibl>Lensky N., The Cambridge companion to the Age of Constantine, Cambridge-New York 2006, 186-187</bibl>
-                    <bibl>Olszaniec S., Praefektura praetorio Italii, Illyrikum i Afryki (312–425 n.e.), Toruń 2014, 19-23</bibl>
-                    <bibl>Palanque J-R., Essai sur la préfecture du prétoire du bas-empire, Paris 1933, 18-19</bibl>
-                    <bibl>Piganiol A., Notes épigraphiques II. L’inscription de Aïn-Tebornok, REA, 31, 1929, 142-150</bibl>
-                    <bibl>Poinssot L., Lantier R., Quatre préfets du prétoire contemporains de Constantin, CRAI, 1924, 229-233</bibl>
-                    <bibl>Porena P., Le origini della prefettura del pretorio tardoantica, Roma 2003, 466-491</bibl>
-                    <bibl>Salway B., The Praetorian Prefecture of Africa under Constantine: a Phantom?, Acta XII Congressus internationalis epigraphiae Graecae et Latinae: Provinciae imperii Romani inscriptionibus descriptae, II, Barcelona 2007, 1281-1286</bibl> 
+                    <bibl>Chastagnol A., Les inscriptions africaines des préfets du prétoire de Constantin, in Mastino A. (a cura di), L'Africa romana: atti del 3. Convegno di studio, 13-15 dicembre 1985, Sassari 1986, 263-273 (= Chastagnol A., Aspects de l’Antiquité Tardive, Roma 1994, 81-92)</bibl>
+                    <bibl>Coşkun A., Die Praefecti praesent(al)es und die Regionalisierung der Praetorianer-praefekturen im vierten Jahrhundert, Millennium, 1, 2004, 279-328</bibl>
+                    <bibl>Feissel D., Une dédicace en honneur de Constantin II César et les préfets du prétoire de 336, in Dagron G., Feissel D., Inscriptions inédites du musée d’Antioche, T&amp;MByz, 9, 1985, 421-461 (= Feissel D., Documents, droit, diplomatique de l’Empire romain tardif, Paris 2010, 385-398)</bibl>
+                    <bibl>Ghalia T., Mahfoudh F., Aïn Tebournouk-Tubernuc et sa région de l’Antiquité tardive au Moyen Âge, MEFRA, 115, 2003, 779-807</bibl>
+                    <bibl>Gkoutzioukostas A., The Reforms of Constantine the Great in Provincial Administration: a Critical Approach to the Conclusions of Modern Research, Byzantina, 34, 2015-2016, 93-110</bibl>
+                    <bibl>Kelly C., Bureaucracy and Government, in Lenski N. (ed.), The Cambridge Companion to the Age of Constantine, Cambridge 2007, 183-204</bibl>
+                    <bibl>Olszaniec S., Praefektura praetorio Italii, Illyrikum i Afryki (312–425 n.e.), Toruń 2014</bibl>
+                    <bibl>Palanque J-R., Essai sur la préfecture du prétoire du bas-empire, Paris 1933</bibl>
+                    <bibl>Piganiol A., Notes épigraphiques, REA, 31, 1929, 139-150</bibl>
+                    <bibl>Poinssot L., Lantier R., Quatre préfets du prétoire contemporains de Constantin, CRAI, 68, 1924, 229-233</bibl>
+                    <bibl>Porena P., Le origini della prefettura del pretorio tardoantica, Roma 2003</bibl>
+                    <bibl>Salway B., The Praetorian Prefecture of Africa under Constantine: a Phantom?, in Acta XII Congressus internationalis epigraphiae Graecae et Latinae: Provinciae imperii Romani inscriptionibus descriptae, II, Barcelona 2007, 1281-1286</bibl> 
                 </p>
             </div>
             
@@ -212,7 +211,7 @@
                 </div>
                 
                 <div type="commentary" n="8">
-                    <p n="8.1">viri cl[arissimi]</p>
+                    <p n="8.1">viri cla[rissimi]</p>
                     <p n="8.2">[p]raefecti pretorio</p>
                     <p n="8.5"></p>
                     <p n="8.9"></p>

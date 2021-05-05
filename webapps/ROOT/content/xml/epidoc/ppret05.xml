@@ -52,7 +52,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>One inscribed field (frons).</p>
+                                    <p>One inscribed field (<foreign>frons</foreign>).</p>
                                     <rs type="execution" ref="#chiselled">chiselled</rs>
                                     <rs type="preservation" ref="#damaged">Damaged: reduced on all its left and lower side due to being cut for reuse as a column pedestal. The upper side and also the epigraphic field have a neat deep round hole.</rs>
                                 </layout>
@@ -60,7 +60,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <term ref="#square_capitals">Late Roman monumental capitals</term>
                                 <height>7 / 9</height>
                             </handNote>
                         </handDesc>
@@ -101,45 +101,42 @@
                     <lb n="6"/><supplied reason="lost">consuli</supplied> saepius, <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan>, proconsuli,
                     <lb n="7"/><supplied reason="lost">Manili</supplied>us Rusticianus, <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>em</abbr><ex>inentissimus</ex></expan>
                     <lb n="8"/><supplied reason="lost"><expan><abbr>pr</abbr><ex>aefectus</ex></expan></supplied> <expan><abbr><supplied reason="lost">prae</supplied>t</abbr><ex>orio</ex></expan>, <expan><abbr>n</abbr><ex>umini</ex></expan> <expan><abbr>m</abbr><ex>aiestati</ex><abbr>q</abbr><ex>ue</ex></expan> eius semper
-                    <lb n="9"/><supplied reason="lost">d</supplied>icatissimus.
+                    <lb n="9"/><supplied reason="lost">d</supplied><unclear>i</unclear>catissimus.
                 </ab>
             </div>
             <div type="apparatus">
-                <p>This edition is based on CIL VI, 40726, p. 4538.</p>
+                <p>This edition is based on CIL 06, 40726, p. 4538.</p>
             </div>
             <div type="translation" xml:lang="en">
-                <p>(from LSA 1429)</p>
-                <p>“To our master, the Emperor Caesar Marcus Aurelius Valerius Maxentius, pious, fortunate, unconquered Augustus, often consul, father of the fatherland, proconsul; Manilius Rusticianus, of eminentissimus rank, praetorian prefect, most devoted to his divine spirit and majesty.”</p>
+                <p>“To our master, the Emperor Caesar Marcus Aurelius Valerius Maxentius, Pious, Fortunate, unconquered Augustus, often consul, father of the fatherland, proconsul, Manilius Rusticianus, of eminentissimus rank, praetorian prefect, most devoted to his divine spirit and majesty.”</p>
             </div>
             <div type="translation" xml:lang="fr">
                 <p>“À notre seigneur l’empereur César Marcus Valerius Maxentius, Pieux Heureux, invaincu Auguste, consul plusieurs fois, père de la patrie, proconsul, Manilius Rusticianus le très éminent préfet du prétoire, dévoué à sa divinité et à sa majesté.”</p>
             </div>
             <div type="translation" xml:lang="it">
-                <p>“Al nostro signore, l’imperatore Cesare Marcus Aurelius Valerius Maxentius, Pio, Felice, invitto Augusto, più volte console, padre della patria, proconsole, il prefetto del pretorio eminentissimo Manilius Rusticianus, sempre devoto al nume e alla maestà sue.”</p>
+                <p>“Al nostro signore, l’imperatore Cesare Marcus Aurelius Valerius Maxentius, Pio Felice, invitto Augusto, più volte console, padre della patria, proconsole, il prefetto del pretorio eminentissimo Manilius Rusticianus, sempre devoto al nume e alla maestà sue.”</p>
             </div>
             <div type="commentary">
-                <p>This large square marble block reduced on both its left and lower side, was probably found during archaeological excavations, conducted between 1934 and 1943, near the Curia and the Basilica Aemilia (Panciera 1992, p. 252).</p>
-                <p>The marble base was reused many times: first, a previous inscription was erased in order to engrave Maxentius’ dedication (indicated by the rough surface), then it was re-employed as a column pedestal with the epigraphic field placed face down and all its sides  cut in order to have a pedestal profile. Finally, the block was turned again with the inscribed field at the top and a column was placed on it (there is a visible circular print on the inscribed field, see <ref corresp="http://laststatues.classics.ox.ac.uk/database/discussion.php?id=1803">LSA 1429</ref>).</p>
+                <p>This large square marble block, reduced on both its left and lower side, was probably found during some archaeological excavations, conducted between 1934 and 1943, near the Curia and the Basilica Aemilia (Panciera 1992, p. 252).</p>
+                <p>The marble base was reused many times: first, a previous inscription was erased in order to engrave Maxentius’ dedication (indicated by the rough surface), then it was re-employed as a column pedestal with the epigraphic field placed face down and all its sides cut in order to have a pedestal profile. Finally, the block was turned again with the inscribed field at the top and a column was placed on it (there is a visible circular print on the inscribed field, see <ref corresp="http://laststatues.classics.ox.ac.uk/database/discussion.php?id=1803">LSA 1429</ref>).</p>
                 <p>Recently Lipps (2008, pp. 396-398) was able to retrace the monument’s history. It was taken from the Roman Forum where it was originally placed (precise findspot unfortunately unknown) and probably hid/re-used shortly after Maxentius’ death (since his name was not erased). Around the 4th-5th Century the marble block was re-employed in late antique Forum of Caesar (maybe part of a truss), then it was moved around 1100 AD to the Church of Sant’Adriano (underside of the trabeation) when it needed more columns and pedestals due to the expansion of the nave. The marble block in 17th Century was plastered and converted into a square pillar and remained in the Church until its discovery towards the end of 1930s. Then it was removed and placed on the west side of the portico of the Basilica Aemilia, where it remains until today.</p>
-                <p>The inscribed field is very irregular and coarse probably due to the previous re-employment of the surface. The letter-form and their ductus are heterogeneous.</p>
-                <p>This honorary inscription was decreed by Manilius Rusticianus (PLRE I, p. 787, Rusticianus 4; on the disambiguation of his name and his career see <ref type="ppret" corresp="ppret04">PPRET 04</ref>), the only pretorian prefect of Maxentius in charge at that time: the praetorian prefects of Maxentius never had any colleagues (for a <foreign>vicarius Africae</foreign> of the only praetorian prefect of Maxentius in 307 AD see Porena 2010; for a <foreign>vicarius Italiae</foreign> of the only praetorian prefect of Maxentius in 310/312 see Porena 2006).</p>
-                <p>Panciera (1992, pp. 254-260) rightly dated our monument (and so for <ref type="ppret" corresp="ppret04">PPRET 04</ref>) through the adverb <foreign>saepius</foreign> (l. 6), an extremely vague chronological reference that epigraphically represents an <foreign>unicum</foreign> in relation to the ordinary consulate. The word <foreign>saepius</foreign> refers undoubtedly to the iteration of the consulate (this is the only magistrature that can be actually restored in the lacuna): since Maxentius was consul three times (308, 309, 310 AD), according to Panciera the adverb has to refer to more than two consulates, the third in this case. So Panciera therefore argued that this inscription was made between the end of 310 and 311 AD.</p>
+                <p>The inscribed field is very irregular and coarse probably due to the previous re-employment of the surface. The letter-form and their <foreign>ductus</foreign> are heterogeneous.</p>
+                <p>This honorary inscription was decreed by Manilius Rusticianus (PLRE I, Rusticianus 3, p. 787; cf. Panciera 1992; Porena 2003, pp. 275-280; on the disambiguation of his name and his career see <ref type="ppret" corresp="ppret04">PPRET 04</ref>), the only praetorian prefect of Maxentius in charge at that time: the praetorian prefects of Maxentius never had any colleagues (for a <foreign>vicarius Africae</foreign> of the only praetorian prefect of Maxentius in 307 AD see Porena 2010; for a <foreign>vicarius Italiae</foreign> of the only praetorian prefect of Maxentius in 310/312 AD see Porena 2006).</p>
+                <p>Panciera (1992, pp. 254-260) rightly dated our monument (and so for <ref type="ppret" corresp="ppret04">PPRET 04</ref>) through the adverb <foreign>saepius</foreign> (l. 6), an extremely vague chronological reference that epigraphically represents an <foreign>unicum</foreign> in relation to the ordinary consulate. The word <foreign>saepius</foreign> refers undoubtedly to the iteration of the consulate (this is the only magistrature that can be actually restored in the lacuna): since Maxentius was consul three times (308, 309, 310 AD), according to Panciera the adverb has to refer to more than two consulates, the third in this case. Panciera therefore argued that this inscription was made between the end of 310 and 311 AD.</p>
                 <p>Chastagnol (1993, pp. 856-859) also expressed his opinion on it and argued that Maxentius was consul in charge for the second time (309 AD), when he was designated for the following year (310 AD), so dating the monument to 309 AD.</p>
-                <p>On the other hand Porena (2003, pp. 280-283) argues that Maxentius did not hold the consulate when the inscription was made, instead it was written after he had been consul several times (308, 309, 310 AD), i.e. in 311 AD. Thus, the wording <foreign>consul saepius</foreign> was probably just the shortest way to indicate this coincidence of events, rather than a numerical indication. Moreover, Porena also argues that Maxentius was honoured in such a monumental way by his only praetorian prefect on the occasion of his <foreign>Quinquennalia</foreign> (October 28<hi rend="superscript">th</hi> 310 AD) by his only praetorian prefect.</p>
-                <p>These inscriptions (also <ref type="ppret" corresp="ppret04">PPRET 04</ref>) were found between the Palatine, the Comitium and the Roman Forum, an area altered by Maxentius’ urban renewal project.
-                    The usurper, in fact, probably recognized in Rusticianus a useful collaborator in his building policy, especially with regard to his administrative skills. Indeed, their fruitful collaboration is shown through the many monuments, put up in this renovated and highly symbolic area.</p>
-                <p>Moreover, these inscriptions are the only two to be erected by a pretorian prefect of Maxentius to survive: their existence can be attributed not only to the prosperity of Maxentius’ reign, but also to the building renovation going on at that time (see Corcoran 2017, pp. 67-69).</p>
+                <p>On the other hand Porena (2003, pp. 280-283) argues that Maxentius did not hold the consulate when the inscription was made, instead it was written after he had been consul several times (308, 309, 310 AD), i.e. in 311 AD. Thus, the wording <foreign>consul saepius</foreign> was probably just the shortest way to indicate this coincidence of events, rather than a numerical indication. Moreover, Porena also argues that Maxentius was honoured in such a monumental way by his only praetorian prefect on the occasion of his <foreign>Quinquennalia</foreign> (October 28<hi rend="superscript">th</hi> 310 AD/October 28<hi rend="superscript">th</hi> 311 AD).</p>
+                <p>This dedication and <ref type="ppret" corresp="ppret04">PPRET 04</ref> are the only two inscriptions to be erected by a praetorian prefect of Maxentius to survive. They were found between the Palatine, the Comitium and the Roman Forum, an area altered by Maxentius’ urban renewal project (see Corcoran 2017, pp. 67-69). The usurper, in fact, probably recognized in Rusticianus a useful collaborator in his building policy, especially with regard to his administrative skills. Indeed, their fruitful collaboration is shown through the many monuments, put up in this renovated and highly symbolic area.</p>
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
-                    <bibl><ref>CIL VI, 40726</ref> (p. 4538)</bibl>
-                    <bibl><ref>Panciera 1992, p. 253</ref></bibl> = <bibl><ref>AE 1992, 157</ref></bibl>
-                    <bibl><ref>Lipps 2008, p. 397</ref></bibl> = <bibl><ref>AE 2008, 181</ref></bibl>
+                    <bibl><ref>Panciera 1992, p. 253</ref></bibl> = <bibl><ref>AE 1992, 0157</ref></bibl>
+                    <bibl><ref>CIL 06, 40726</ref> (cf. p. 4538)</bibl>
+                    <bibl><ref>Lipps 2008, p. 397</ref></bibl> = <bibl><ref>AE 2008, 0181</ref></bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="images">
                 <p>
-                    <bibl><ref>CIL VI, 40726</ref></bibl>
+                    <bibl><ref>CIL 06, 40726</ref></bibl>
                     <bibl><ref>Lipps 2008, p. 397</ref></bibl>
                 </p>
             </div>
@@ -153,16 +150,14 @@
             </div>
             <div type="bibliography" subtype="other">
                 <p>
-                    <bibl>Barnes T. D., The new empire of Diocletian and Constantine, Cambridge 1982, 127</bibl>
-                    <bibl>Chastagnol A., Deux chevaliers de l’époque de la tétrarchie, Anc. Soc., 3, 1972, 226-231</bibl>
+                    <bibl>Chastagnol A., Deux chevaliers de l’époque de la tétrarchie, AncSoc, 3, 1972, 223-231</bibl>
                     <bibl>Chastagnol A., Consul saepius, Latomus, 52, 1993, 856-859</bibl>
-                    <bibl>Corcoran S., Maxentius: a Roman emperor, Ant. Tard., 25, 2017, 59-74</bibl>
-                    <bibl>Giavarini C., La Basilica di Massenzio: il monumento, i materiali, le strutture, la stabilità, Roma 2005</bibl>
-                    <bibl>Lipps J., Zur Datierung der spätantiken Portikus des Caesarforums. Literische Quellen und archäologischer Befund, MDAI (R), 114, 2008, 393-398</bibl>
-                    <bibl>Panciera S., Un prefetto del pretorio di Massenzio: Manilius Rusticianus, EFR, 159, 1992), 249-263 (then Epigrafi, epigrafia, epigrafisti. Scritti vari editi e inediti (1956-2005) con note complementari e indici, Roma 2006, 1137-1146)</bibl>
-                    <bibl>Porena P., Le origini della prefettura del pretorio tardoantica, Roma 2003, 275-283</bibl>
+                    <bibl>Corcoran S., Maxentius: a Roman Emperor in Rome, AntTard, 25, 2017, 59-74</bibl>
+                    <bibl>Lipps J., Zur Datierung der spätantiken Portikus des Caesarforums. Literische Quellen und archäologischer Befund, MDAI(R), 114, 2008, 389-405</bibl>
+                    <bibl>Panciera S., Un prefetto del pretorio di Massenzio: Manilius Rusticianus, in Institutions, société et vie politique dans l'Empire romain au IVe siècle ap. J.-C. Actes de la table ronde autour de l'oeuvre d'André Chastagnol (Paris, 20-21 janvier 1989), Rome 1992, 249-263 (= Id., Epigrafi, epigrafia, epigrafisti. Scritti vari editi e inediti (1956-2005) con note complementari e indici, Roma 2006, 1137-1146)</bibl>
+                    <bibl>Porena P., Le origini della prefettura del pretorio tardoantica, Roma 2003</bibl>
                     <bibl>Porena P., L’Italia prima di Ponte Milvio e la carriera di Caecilianus, Epigraphica, 68, 2006, 117-154</bibl>
-                    <bibl>Porena P., Massenzio a Leptis: la questione delle basi del Foro Severiano, in Leptis Magna. Una città e le sue iscrizioni in epoca tardoromana, dir. I. Tantillo, a cura di F. Bigi e I. Tantillo, Cassino 2010, 41-44</bibl>
+                    <bibl>Porena P., Massenzio a Leptis: la questione delle basi del Foro Severiano, in Tantillo I., Bigi F. (a cura di), Leptis Magna. Una città e le sue iscrizioni in epoca tardoromana, Cassino 2010, 41-44</bibl>
                 </p>
             </div>
             <div type="commentary" subtype="prefects">

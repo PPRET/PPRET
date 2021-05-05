@@ -279,7 +279,7 @@ meant to be run in a folder with other data locally referred
    </xsl:template>
    
 
-   <xsl:template match="t:ref[@type='inscription']">
+   <!--<xsl:template match="t:ref[@type='inscription']">
    <xsl:param name="parm-edn-structure" tunnel="yes" required="no"></xsl:param>
    <xsl:choose>
       <xsl:when test="$parm-edn-structure = 'igcyr'">
@@ -292,6 +292,6 @@ meant to be run in a folder with other data locally referred
    </a>
       </xsl:when>
    </xsl:choose>
-</xsl:template>
+</xsl:template>-->
    
 </xsl:stylesheet>

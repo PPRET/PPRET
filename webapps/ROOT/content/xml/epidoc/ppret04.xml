@@ -52,7 +52,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>One inscribed field (frons).</p>
+                                    <p>One inscribed field (<foreign>frons</foreign>).</p>
                                     <rs type="execution" ref="#chiselled">chiselled</rs>
                                     <rs type="preservation" ref="#damaged">Damaged: the epigraphic field is broken into three parts and reduced on the left upper side and the lower one.</rs>
                                 </layout>
@@ -60,7 +60,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <term ref="#square_capitals">Late Roman monumental capitals</term>
                                 <height>5.5 / 6.5</height>
                             </handNote>
                         </handDesc>
@@ -100,21 +100,20 @@
                     <lb n="5"/>invicto
                     <lb n="6"/>et <expan><abbr>providentiss</abbr><ex>imo</ex></expan>,
                     <lb n="7"/>semper <expan><abbr>Aug</abbr><ex>usto</ex></expan>,
-                    <lb n="8"/><expan><abbr>Manili</abbr><ex>us</ex></expan> Rusticianus
+                    <lb n="8"/><expan><abbr>Manil</abbr><ex>ius</ex></expan> Rusticianus
                     <lb n="9"/><expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>em</abbr><ex>inentissimus</ex></expan>, <expan><abbr>praef</abbr><ex>ectus</ex></expan> <expan><abbr>praet</abbr><ex>orio</ex></expan>,
                     <lb n="10"/>devotus <expan><abbr>n</abbr><ex>umini</ex></expan> <expan><abbr>m</abbr><ex>aiestati</ex><abbr>q</abbr><ex>ue</ex></expan> <expan><abbr>e</abbr><ex>ius</ex></expan>.
                 </ab>
             </div>
             <div type="apparatus">
-                <p>This edition is based on CIL VI, 36949 with a different reading of dedicant’s name at line 8 suggested by Chastagnol 1972, pp. 226-227 (see critical commentary).</p>
+                <p>This edition is based on CIL 06, 36949 with a different reading of dedicant’s name at line 8 suggested by Chastagnol 1972, pp. 226-227 (see critical commentary).</p>
                 <p>
-                    <app loc="8"><note>Manli(us): AE 1903, 11, Hüelsen 1902, nr. 27,  CIL VI, 36949, ILS 8934</note></app>
-                    <app loc="9"><note>v(ir) e(minentissimus): Barbera 2013, nr. 35</note></app>
+                    <app loc="8"><note>Manli(us): AE 1903, 0011, Hüelsen 1902, p. 243, nr. 27,  CIL 06, 36949, ILS 8934</note></app>
+                    <app loc="9"><note>v(ir) e(minentissimus): Barbera 2013, p. 76, nr. 35</note></app>
                 </p>
             </div>
             <div type="translation" xml:lang="en">
-                <p>(from LSA 1365)</p>
-                <p>“To our master, the most merciful and most pious Maxentius, unconquered and most foresighted, forever Augustus; Manlius Rusticianus, of eminentissimus rank, praetorian prefect, devoted to his divine spirit and majesty.”</p>
+                <p>“To our master, the most merciful and most pious Maxentius, unconquered and most foresighted, forever Augustus, Manilius Rusticianus, of eminentissimus rank, praetorian prefect, devoted to his divine spirit and majesty.”</p>
             </div>
             <div type="translation" xml:lang="fr">
                 <p>“À notre seigneur Maxence, le très miséricordieux et très pieux, invaincu et très providentiel toujours Auguste, Manilius Rusticianus le très éminent préfet du prétoire, dévoué à sa divinité et à sa majesté.”</p>
@@ -125,26 +124,28 @@
             <div type="commentary">
                 <p>The marble base was found between the Via Sacra and the Palatine, in front of the Basilica Emilia, and is still exhibited <foreign>in loco</foreign> today. It is broken into three parts and reduced on the left upper side and also on the lower one (the pedestal), on the top there are visible recesses for the housing of a lost statue of Maxentius (Barbera 2013, pp. 76-77).</p>
                 <p>The epigraphic field is bordered by an accurate moulded frame and the script appears regular and of homogeneous dimensions.</p>
-                <p>Vaglieri (1900, p. 65) first published this text at the beginning of the last century and read the dedicant as Manlius Rusticianus (PLRE I, p. 787 Rusticianus 3), then Chastagnol (1972, pp. 227-231), rightly corrected his wrong reading of the prefect’s <foreign>gentilicium</foreign> and understood that they were not two distinct personalities as was previously thought (in the PLRE I Manilius <foreign>prefectus annonae</foreign>, <foreign>agens vices praefectorum praetorio</foreign> and patron of Ostia, i.e. Rusticianus 3, is thus different from Manlius pretorian prefect of Maxentius, i.e. Rusticianus 4) but only one: Manilius Rusticianus.</p>
-                <p>Before his pretorian prefecture, Manilius Rusticianus had an important administrative career first as <foreign>prefectus annonae</foreign> and then as <foreign>agens vices praefectorum praetorio</foreign> (296-305 AD, probably in Rome, see Porena 2003, pp. 141-147). This part of his <foreign>cursus honorum</foreign> preceding Maxentius’usurpation is preserved by an important inscription from Ostia (CIL XIV, 4455; see <ref corresp="http://laststatues.classics.ox.ac.uk/database/detail.php?record=LSA-1661">LSA 1661</ref> = <ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR072926">EDR 072926</ref>). The councillors and people of Ostia dedicated to Manilius Rusticianus this monument and erected to him an equestrian statue in the Forum of the city as <foreign>curator</foreign> and patron for his distinguished merits. Rusticianus probably acquired important administrative skills during these offices that made him one of the trusted pretorian prefects of Maxentius, the others were Rufius Volusianus (his predecessor, PLRE I, p. 977) and Ruricius Pompeianus (his successor, PLRE I, p. 713). 
-                    Rusticianus’ mandate ended, at least, in 311 AD, before the pretorian prefect Ruricius Pompeianus fought and died during the battle of Verona in 312 AD (<ref type="source">Lact., Pers. 44, 01</ref>). His office probably started in the latter half of 310 AD, after the victorious African campaign against Domitius Alexander, led by his predecessor Rufius Volusianus (Chastagnol 1962, pp. 55; Panciera 1992, pp. 254-255), who due to this victory probably was rewarded with the urban prefecture.</p>
-                <p>Our inscription has thus to be placed in this time frame: half/end of 310 and 311 AD. This dating is confirmed by Panciera and Porena (2003, pp. 280-283) through the analysis of some textual elements of another Maxentian inscription (see <ref type="ppret" corresp="ppret05">PPRET 05</ref>). Chronologically they place these monuments no later than 311 AD, in particular Porena suggested that they might have been decreed in occasion of the <foreign>Quinquennalia</foreign> of Maxentius (October 28<hi rend="superscript">th</hi> 310 AD).</p>
-                <p>Both these inscriptions were erected by the only pretorian prefect Maxentius had. The latter created the prefectural college in charge at that time in his <foreign>pars</foreign>: the political isolation of the usurper (Maxentius was never accepted as Augustus by Galerius and by the other rulers) prevented the formation of a unitary prefectural college.</p>
+                <p>Vaglieri (1900, p. 65; cf. Vaglieri 1903, p. 25, nt. 1) first published this text at the beginning of the last century and read the dedicant as Manlius Rusticianus. In the PLRE I this official, praetorian prefect of Maxentius (Manli(us) Rusticianus 3, p. 787), is distinguished from Manilius Rusticianus <foreign>praefectus annonae</foreign>, <foreign>agens vices praefectorum praetorio</foreign> and patron of Ostia (PLRE I, Manilius Rusticianus 2, p. 787). But Chastagnol (1972, pp. 227-231) rightly corrected Vaglieri’s wrong reading of the prefect’s <foreign>gentilicium</foreign> and understood that they were not two distinct personalities as was previously thought but only one: Manilius Rusticianus.</p>
+                <p>Before his praetorian prefecture, Manilius Rusticianus had an important administrative career first as <foreign>praefectus annonae</foreign> (see Caldelli 2020, nr. 42) and then as <foreign>agens vices praefectorum praetorio</foreign> (298-305 AD, probably in Rome, see Porena 2003, pp. 141-147; Porena 2021). This part of his <foreign>cursus honorum</foreign> preceding Maxentius’usurpation is preserved by an important inscription from Ostia (<ref type="inscription">CIL 14, 04455</ref> = <ref corresp="http://laststatues.classics.ox.ac.uk/database/detail.php?record=LSA-1661">LSA 1661</ref> = <ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR072926">EDR 072926</ref>). The councillors and people of Ostia dedicated to Manilius Rusticianus this monument and erected to him an equestrian statue in the Forum of the city as <foreign>curator</foreign> and patron for his distinguished merits. The position of <foreign>praefectus annonae</foreign>, associated to the <foreign>cura coloniae Ostiensium</foreign>, is also attested in another inscription from Ostia recently discovered (<ref type="inscription">Gering 2011, pp. 496-497</ref>), a dedication to the Caesar Galerius made by Rusticianus himself (for the identification of the Caesar honoured as Galerius, see Porena 2021). Rusticianus probably acquired important administrative skills during these offices that made him one of the trusted praetorian prefects of Maxentius, the others were Rufius Volusianus (his predecessor, PLRE I, Volusianus 4, pp. 976-978; cf. Chastagnol 1962, pp. 52-58; Barnes 1982, pp. 100, 127; Porena 2003, pp. 259-272) and Ruricius Pompeianus (his successor, PLRE I, Pompeianus 8, p. 713; cf. Barnes 1982, p. 127; Porena 2003, pp. 272-275). 
+                    Rusticianus’ mandate probably ended in 311 AD: the following year is attested in service as praetorian prefect of Maxentius Ruricius Pompeianus, who fought and died during the battle of Verona (<ref type="source">Pan.Lat. 09 (12), 08, 01-03</ref>; <ref type="source">Pan.Lat. 09 (12), 10, 03</ref>; <ref type="source">Pan.Lat. 10 (04), 25, 04-07</ref>; cf. <ref type="source">Lact., Pers. 44, 01</ref>). His office probably started in the latter half of 310 AD, after the victorious African campaign against Domitius Alexander, led by his predecessor Rufius Volusianus, who due to this victory probably was rewarded with the urban prefecture (Porena 2003, pp. 259-263).</p>
+                <p>Our inscription has thus to be placed in this time frame: half/end of 310 and 311 AD. This dating is confirmed by Panciera (1992, p. 260) and Porena (2003, pp. 280-283) through the analysis of some textual elements of another Maxentian inscription (see <ref type="ppret" corresp="ppret05">PPRET 05</ref>). Chronologically they place these monuments no later than 311 AD, in particular Porena suggested that they might have been decreed in occasion of the <foreign>Quinquennalia</foreign> of Maxentius (October 28<hi rend="superscript">th</hi> 310 AD).</p>
+                <p>Both these inscriptions were erected by the only praetorian prefect Maxentius had: the political isolation of the usurper (Maxentius was never accepted as Augustus by Galerius and by the other rulers) prevented the formation of a unitary prefectural college.</p>
                 <p>Our inscription, found in the eastern part of the Via Sacra, had been placed opposite the Basilica of Maxentius: the location complies with a clear expository purpose to associate the Basilica with the emperor’s monuments and statues.</p>
                 <p>During his reign, Maxentius continued the great building programs of his father, Maximianus, that involved the Curia, the Temple of Concordia, the Temple of Saturn and the Basilica Giulia. The usurper completed the restoration of the Temple of Venus (in 307 AD, after a fire), finished the construction of the Basilica that he named after himself (probably in the spring-summer of 307 AD) along with that of the Temple of Romulus (Corcoran 2017, pp. 67-69).</p>
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
-                    <bibl><ref>Vaglieri 1900, p. 65</ref></bibl> = <bibl><ref>AE 1903, 11</ref></bibl>
-                    <bibl><ref>Hüelsen 1902, nr. 27</ref></bibl>
-                    <bibl><ref>CIL VI, 36949</ref>, cfr. p. 4354</bibl>
+                    <bibl><ref>Vaglieri 1900, p. 65</ref></bibl> = <bibl><ref>AE 1903, 0011</ref></bibl>
+                    <bibl><ref>Hüelsen 1902, p. 243, nr. 27</ref></bibl>
                     <bibl><ref>ILS 8934</ref></bibl>
+                    <bibl><ref>CIL 06, 36949</ref> (cf. p. 4354)</bibl>
                     <bibl><ref>Chastagnol 1972, pp. 226-227</ref></bibl>
-                    <bibl><ref>Barbera 2013, nr. 35</ref>, with photo</bibl>
+                    <bibl><ref>Barbera 2013, p. 76, nr. 35</ref></bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="images">
-                <p/>
+                <p>
+                    <bibl><ref>Barbera 2013, p. 76, nr. 35</ref>, with photo</bibl>
+                </p>
             </div>
             <div type="bibliography" subtype="links">
                 <p>
@@ -156,19 +157,20 @@
             </div>
             <div type="bibliography" subtype="other">
                 <p>
-                    <bibl>Barbera M., Costantino 313 d. C.: [l’editto di Milano e il tempo della tolleranza: catalogo della mostra Roma, 11 aprile-15 settembre 2013], Milano 2013, 76-77, nr. 35</bibl>
-                    <bibl>Barnes T. D., The new empire of Diocletian and Constantine, Cambridge 1982, 127</bibl>
+                    <bibl>Barbera M., in Sena Chiesa G. (a cura di), Costantino 313 d. C.: l’editto di Milano e il tempo della tolleranza. Catalogo della mostra, Milano 2013</bibl>
+                    <bibl>Barnes T.D., The New Empire of Diocletian and Constantine, Cambridge 1982</bibl>
+                    <bibl>Caldelli M.L., I prefetti dell'annona da Augusto a Costantino, Roma 2020</bibl>
                     <bibl>Chastagnol A., Les fastes de la préfecture de Rome au Bas-Empire, Paris 1962</bibl>
-                    <bibl>Chastagnol A., Deux chevaliers de l’époque de la tétrarchie, Anc. Soc., 3, 1972, 226-231</bibl>
-                    <bibl>Corcoran S., Maxentius: a Roman emperor, Ant. Tard., 25, 2017, 59-74</bibl>
-                    <bibl>Giavarini C., La Basilica di Massenzio : il monumento, i materiali, le strutture, la stabilità, Roma 2005</bibl>
-                    <bibl>Hüelsen C., Neue Inschriften vom Forum Romanum, Klio, 2, 1902, 243, nr. 27</bibl>
-                    <bibl>Panciera S., Un prefetto del pretorio di Massenzio: Manilius Rusticianus, EFR, 159, 1992), 249-263</bibl>
-                    <bibl>Pflaum H. G., La préfecture de l’annone (à propos d’un ouvrage récent), Rev. Droit, 56, 1978, 72, n. XIII 2</bibl>
-                    <bibl>Porena P., Le origini della prefettura del pretorio tardoantica, Roma 2003, 275-283</bibl>
-                    <bibl>Roncaioli Lamberti C., L’appellativo "sacrosactus" su un nuovo miliario massenziano della Valeria, Epigraphica, 51, 1990, 80-84</bibl>
-                    <bibl>Vaglieri D., Gli scavi recenti del Foro Romano, BCAR, 31, 1903, 25</bibl>
-                    <bibl>Vaglieri D., Nuove scoperte al Foro Romano, BCAR, 28, 1900, 65</bibl>
+                    <bibl>Chastagnol A., Deux chevaliers de l’époque de la tétrarchie, AncSoc, 3, 1972, 223-231</bibl>
+                    <bibl>Corcoran S., Maxentius: a Roman Emperor in Rome, AntTard, 25, 2017, 59-74</bibl>
+                    <bibl>Hüelsen C., Neue Inschriften vom Forum Romanum, Klio, 2, 1902, 227-283</bibl>
+                    <bibl>Panciera S., Un prefetto del pretorio di Massenzio: Manilius Rusticianus, in Institutions, société et vie politique dans l'Empire romain au IVe siècle ap. J.-C. Actes de la table ronde autour de l'oeuvre d'André Chastagnol (Paris, 20-21 janvier 1989), Rome 1992, 249-263 (= Id., Epigrafi, epigrafia, epigrafisti. Scritti vari editi e inediti (1956-2005) con note complementari e indici, Roma 2006, 1137-1146)</bibl>                
+                    <bibl>Porena P., Le origini della prefettura del pretorio tardoantica, Roma 2003</bibl>
+                    <bibl>Porena P., Sulla nuova iscrizione ostiense del cavaliere Manilius Rusticianus in onore di Galerio Cesare, ZPE, 218, 2021, 302-306</bibl>
+                    <bibl>Roncaioli Lamberti C., L’appellativo "sacrosanctus" su un nuovo miliario massenziano della Valeria, Epigraphica, 52, 1990, 77-84</bibl>
+                    <bibl>Vaglieri D., Nuove scoperte al Foro Romano, BCAR, 28, 1900, 57-74</bibl>
+                    <bibl>Vaglieri D., Gli scavi recenti del Foro Romano, BCAR, 31, 1903, 3-239</bibl>
+                    
                 </p>
             </div>
             <div type="commentary" subtype="prefects">

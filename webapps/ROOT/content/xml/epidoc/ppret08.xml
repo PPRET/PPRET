@@ -56,7 +56,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>One inscribed field (frons) completely preserved and carved within a <foreign>tabula ansata</foreign>.</p>
+                                    <p>One inscribed field (<foreign>frons</foreign>) completely preserved and carved within a <foreign>tabula ansata</foreign>.</p>
                                     <rs type="execution" ref="#chiselled">chiselled</rs>
                                     <rs type="preservation" ref="#damaged">Damaged: slab broken in the middle into two unequal fragments.</rs>
                                 </layout>
@@ -77,7 +77,7 @@
                                 <placeName type="province">Scythia</placeName>
                                 <placeName type="diocese">Thracia</placeName>
                                 <placeName type="prefecture">(not regional before 326 AD)</placeName>
-                                <placeName type="ancient_location" ref="#public">public space, on the city gate</placeName>
+                                <placeName type="ancient_location" ref="#public">public space</placeName>
                             </origPlace>
                             <origDate period="#p3" notBefore="0314" notAfter="0315">314/315 AD</origDate>
                         </origin>
@@ -99,27 +99,25 @@
                 <ab>
                     <lb n="1"/>Romanae securitatis <expan><abbr>libertatisq</abbr><ex>ue</ex></expan> vindicibus, 
                     <lb n="2"/><expan><abbr>d</abbr><am>d</am><ex>ominis</ex></expan> <expan><abbr>n</abbr><am>n</am><ex>ostris</ex></expan> <expan><abbr>Fl</abbr><ex>avio</ex></expan> <expan><abbr>Val</abbr><ex>erio</ex></expan> Constantino et <del rend="erasure"><expan><abbr>Val</abbr><ex>erio</ex></expan> Liciniano</del>
-                    <lb n="3"/><del rend="erasure">Licinio</del>, piis, felicibus, aeternis <expan><abbr>Aug</abbr><am>g</am><ex>ustis</ex></expan>, 
+                    <lb n="3"/><del rend="erasure">Licinio</del>, piis, felicibus, aeternis <expan><abbr>Aug</abbr><am>g</am><ex>ustis</ex></expan> <g ref="hedera"/> 
                     <lb n="4"/>quorum virtute et providentia, edomitis 
-                    <lb n="5"/>ubique barbararum gentium populis,
-                    <lb n="6"/>ad confirmandam limitis tutelam, etiam 
-                    <lb n="7"/>Tropeensium civitas auspicato a fundamentis
+                    <lb n="5"/>ubique barbararum gentium populis <g ref="hedera"/>
+                    <lb n="6"/>ad confirmandam limitis tutelam, etiam <g ref="hedera"/>
+                    <lb n="7"/><sic>Tropeensium</sic> civitas auspicato a fundamentis
                     <lb n="8"/>feliciter opere constructa est.
-                    <lb n="9"/><expan><abbr>Petr</abbr><ex>onius</ex></expan> Annianus, <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan>, et <expan><abbr>Iul</abbr><ex>ius</ex></expan> Iulianus, <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>em</abbr><ex>inentissimus</ex></expan>, <expan><abbr>praef</abbr><am>f</am><ex>ecti</ex></expan>
-                    <lb n="10"/><expan><abbr>praet</abbr><ex>orio</ex></expan>, numini eorum semper dicatissimi.
+                    <lb n="9"/><hi rend="small"><expan><abbr>Petr</abbr><ex>onius</ex></expan> Annianus, <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan>, et <expan><abbr>Iul</abbr><ex>ius</ex></expan> Iulianus, <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>em</abbr><ex>inentissimus</ex></expan>, <expan><abbr>praef</abbr><am>f</am><ex>ecti</ex></expan> <expan><abbr>praet</abbr><ex>orio</ex></expan>, numini eorum semper dicatissimi.</hi>
                 </ab>
             </div>
             <div type="apparatus">
-                <p>The edition is based on IScM IV, 16.</p>
+                <p>The edition is based on Popescu 2015, nr. 16 with a different integration at the l. 2.</p>
                 <p>
-                    <app loc="1"><note>[v]indicibus: AE 1894, 111</note></app>
-                    <app loc="2"><note>et V[al Licin]ia[no]: CIL III, 13734, ILS 8938, Grünewald 1990, nr. 402; <del rend="erasure">et Val(erio) Liciniano Licinio</del>: LSA 1120</note></app>
-                    <app loc="9"><note>e[o]rum: AE 1894, 111 and HD 028858</note></app>
+                    <app loc="1"><note>D(ominus) n(ostris duobus): AE 1894, 0111; [v]indicibus: Tocilescu 1894, p. 108, nr. 52, AE 1894, 0111</note></app>
+                    <app loc="2"><note>et <del rend="erasure">Liciniano Licinio</del>: AE 1894, 0111, Popescu 1976, p. 184, nr. 170, Popescu 2015, nr. 16; <del rend="erasure">et Liciniano Licinio</del>: Tocilescu 1894, p. 109, nr. 52; et V[al(erio) Licin]ia[no]: CIL 03, 13734, Grünewald 1990, nr. 402; et V<del rend="erasure">al Liciniano Licinio</del>: ILS 8938; <del rend="erasure">et Val(erio) Liciniano Licinio</del>: LSA 1120</note></app>
+                    <app loc="9"><note>e[o]rum: Tocilescu 1894, p. 109, nr. 52, AE 1894, 0111 and HD 028858</note></app>
                 </p>
             </div>
             <div type="translation" xml:lang="en">
-                <p>(from LSA 1120)</p>
-                <p>“To the defenders of Roman security and liberty, our masters Flavius Valerius Constantinus and Valerius Licinianus Licinius, pious, fortunate and eternal Augusti, by whose virtue and providence, having everywhere tamed the peoples of the barbarian tribes, in order to strengthen the defence of the frontier, the city of the Tropaeans has also been fortified, with work built auspiciously from the foundations; Petronius Annianus, of clarissimus rank, and Iulius Iulianus, of eminentissimus rank, praetorian prefects, always most devoted to their divine spirit.”</p>
+                <p>“To the defenders of Roman security and liberty, our masters Flavius Valerius Constantinus and Valerius Licinianus Licinius, Pious Fortunate and eternal Augusti, by whose virtue and providence, having everywhere tamed the peoples of the barbarian tribes, in order to strengthen the defence of the frontier, the city of the Tropaeans has also been fortified, with work built auspiciously from the foundations; Petronius Annianus, of clarissimus rank, and Iulius Iulianus, of eminentissimus rank, praetorian prefects, always most devoted to their divine spirit.”</p>
             </div>
             <div type="translation" xml:lang="fr">
                 <p>(Chastagnol 1969,  p. 140)</p>
@@ -130,32 +128,31 @@
             </div>
             <div type="commentary">
                 <p>This inscription was discovered in 1893 near the eastern gate of Tropaeum Traiani, in the province of Scythia; a tall limestone trophy (2.65 m) was found with it. Both originally formed part of the city’s gate. 
-                    The trophy consists of a tree trunk, from which hang two greaves, a tunic, a cuirass and a sword belt (<foreign>balteus</foreign>), the latter decorated with coloured stones or glass, now lost (LSA 1120).</p>
+                    The trophy consists of a tree trunk, from which hang two greaves, a tunic, a cuirass and a sword belt (<foreign>balteus</foreign>), the latter decorated with coloured stones or glass, now lost (<ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-1120">LSA 1120</ref>).</p>
                 <p>The epigraphic field, broken into two parts, is well preserved and carved within a <foreign>tabula ansata</foreign> and framed by a double moulding, while the spandrels are decorated with rosettes in the upper side and ivy leaves in the lower ones.</p>
-                <p>The prefectural college decreed this monument in occasion of Trophaeum Traiani’s refoundation during which they were appointed to strengthening the colony’s <foreign>limes</foreign>.</p>
-                <p>This dedication concerns the reconstruction of Tropaeum Traiani and, since the city was under Licinius’ control, the praetorian prefect Iulius Iulianus (for his career see below) was probably entrusted to supervise the work. The colony was created by Traianus as a fortified settlement and as such played a crucial role in the defense and supply of the eastern danubian provinces. The refoundation was part of a wider building plan concerning the other thracian and danubian provinces that aimed to fortify their borders (<foreign>ad confirmandam limitis tutelam</foreign>) after they had been damaged during the Gothic raids. 
-                    After this building work, Trophaeum Traiani became a bigger urban centre of monumental appearance with extended walls and towers, giving to the Augusti the occasion to celebrate not only their victories, but also their ability to protect this area from foreign incursions.</p>
-                <p>Our inscription attests the names of two prefects, the only ones to be in office in the empire at that time: Petronius Annianus (PLRE I, p. 68), prefect of Constantine, and Iulius Iulianus (PLRE I, p. 478), prefect of Licinius.</p>
-                <p>Petronius Annianus’ career is mostly unknown. Since he appears as <foreign>vir clarissimus</foreign> in our inscription, Chastagnol (1968, p. 325) identified him as a member of a senatorial family, more specifically the Petronii Probii. However, Porena (2003, pp. 295-296) has disagreed with this identification, arguing that Annianus conducted an equestrian career of bureaucratic or military type, typical of the prefects of the second half of the 3rd Century.</p>
-                <p>Annianus was ordinary consul together with C. Ceionius Rufius Volusianus in 314 AD (CLRE pp. 162-163), and pretorian prefect, as our inscription attests (see also <ref type="ppret" corresp="ppret09">PPRET 09</ref>), in the western part of the empire. Since Egyptian papyri do not mention his prefecture (P. Cairo Isid. 16, 46; PSI VII 820, 31 and others) which is only attested between 315-317 AD, it is possible that Annianus became prefect after the consulate. Nevertheless, Porena (2003, pp. 293-294) does not exclude that in 314 AD, he could already have been pretorian prefect and ordinary consul at the same time, since Egyptian sources often omitted the indication of the prefectural office.</p>
+                <p>The prefectural college decreed this monument for the re-founding of the city of Trophaeum Traiani, during which they were appointed to strengthening the colony’s <foreign>limes</foreign>. Since the city was under Licinius’ control, the praetorian prefect Iulius Iulianus (for his career see below) was probably entrusted to supervise the work. The colony was created by Traianus as a fortified settlement and as such played a crucial role in the defence and supply of the eastern Danubian provinces. The refoundation was part of a wider building plan concerning the other Thracian and Danubian provinces that aimed to fortify their borders (<foreign>ad confirmandam limitis tutelam</foreign>) after they had been damaged during the Gothic raids. 
+                    After this building work, Tropaeum Traiani became a bigger urban centre of monumental appearance with extended walls and towers, giving to the Augusti the occasion to celebrate not only their victories, but also their ability to protect this area from foreign incursions (cf. Rizos 2013, pp. 672-673; 2017, pp. 24-27; 2018, p. 212).</p>
+                <p>Our inscription attests the names of two prefects, the only ones to be in office in the empire at that time: Petronius Annianus (PLRE I, Annianus 2, pp. 68-69; cf. Barnes 1982, pp. 100, 127; Porena 2003, pp. 291-296, 313-316), prefect of Constantine, and Iulius Iulianus (PLRE I, Iulianus 35, pp. 478-479; cf. Barnes 1982, pp. 102-103, 128, 141; Porena 2003, pp. 296-299, 316-320), prefect of Licinius.</p>
+                <p>Petronius Annianus’ career is mostly unknown. Since he appears as <foreign>vir clarissimus</foreign> in our inscription, Chastagnol (1968, p. 325) identified him as a member of a senatorial family, more specifically the <foreign>Petronii Probii</foreign>. However, Porena (2003, pp. 295-296) has disagreed with this identification, arguing that Annianus conducted an equestrian career of bureaucratic or military type, typical of the prefects of the second half of the 3rd Century.</p>
+                <p>Annianus was ordinary consul together with C. Ceionius Rufius Volusianus in 314 AD (CLRE, pp. 162-163), and pretorian prefect, as our inscription attests (see also <ref type="ppret" corresp="ppret09">PPRET 09</ref>), in the western part of the empire. Since Egyptian papyri do not mention his prefecture (<ref type="papyrus">P. Cair. Isid. 16, 46</ref>; <ref type="papyrus">PSI 07 820, 31</ref> and others: the list in Porena 2003, p. 293, nt. 227) which is only attested between 315-317 AD, it is possible that Annianus became prefect after the consulate. Nevertheless, Porena does not exclude that in 314 AD, he could already have been praetorian prefect and ordinary consul at the same time, since Egyptian sources often omitted the indication of the prefectural office (Porena 2003, pp. 293-294).</p>
                 <p>His role of responsibility in provincial administration is shown by an epistle addressed to the vicar of Africa, Domitius Celsus (dated April 28<hi rend="superscript">th</hi> 315 AD, see <ref type="source">Optat. Milev., App. 08, CSEL 26, p. 212 Ziwsa</ref>), concerning administrative provisions during the Donatist debate: he was ordered to send back to Africa Donatist bishops and priests from the Council of Arles. It is possible to infer from this document, that the prefect also had jurisdiction over public transport, a prerogative attested for the first time and that will become standard only from the 4th Century onwards (Porena 2003, pp. 299-307).</p>
-                <p>Iulius Iulianus was a native of Syria (Iamblicus also, see below) and also had a wide cultural education in rhetoric and jurisprudence. He belonged to the equestrian order and gained the highest administrative offices: <foreign>agens vices praefectorum praetorio</foreign> in the East probably under Galerius and Maximinus (see <ref type="papyrus">P. Oxy. 2952</ref> and Bowman 1976, p. 162), prefect of Egypt in 313-314 AD (for the date see P. Laur. III/484 and Pintaudi 1982, pp. 261-263), and finally pretorian prefect of Licinius, an office that lasted, according to literary sources, about ten years (314-324 AD, Lib. Or. XVIII 9, Porena 2003, pp. 296-299).</p>
-                <p>The prefect was surely a trusted and appreciated administrator under Galerius, Maximinus and Licinius. Nevertheless, after Licinius’ defeat at Chrysopolis, Iulianus brilliantly continued his career under Constantine. Porena conjectures that he was not responsible for Licinius’decisions or that maybe he contributed to his emperor’s downfall (Porena 2006, p. 347).</p>
-                <p>He even became part of the imperial family through the marriage between his daughter Basilina and Iulius Constantius, Constantine’s brother: their union would spawn the future Emperor Julian. (<ref type="source">Lib., Or., 18, 09</ref> and Vanderspoel 1988, p. 420). According to Salway (2008, pp. 286-291; 2015, pp. 212-213) Iulius Iulianus became consul in 325 AD: the scholar identified him with a Ionius Iulianus mentioned in the Egyptian papyri (see CLRE pp. 184-185), assuming that “Ionius” probably was his <foreign>signum</foreign>. If this identification is correct, it would be yet more evidence to support the brilliance of his career under Constantine.</p>
-                <p>Recently Vanderspoel identified one of the authors of the Emperor Julian’s epistolary as the grandfather of our prefect Iulius Iulianus (Vanderspoel 1999, pp. 396-478). This attribution is very important in understanding his tie with the Eastern elites, not to mention his success under Constantine. Indeed, these letters show a very cultured man, deeply connected with the philosopher Iamblicus and his circle of scholars in Syria (among them the philosopher and counselor of Constantine Sopratros).</p>
-                <p>He was certainly appreciated for his administrative, rethoric and legal skills, but also his tie with the influential circle of Syrians, particularly appreciated by Constantine, probably determined Iulianus’success (Porena 2003, pp. 316-320).</p>
+                <p>Iulius Iulianus was a native of Syria and had a wide cultural education in rhetoric and jurisprudence. He belonged to the equestrian order and gained the highest administrative offices: <foreign>agens vices praefectorum praetorio</foreign> in the East probably under Galerius and Maximinus (see <ref type="papyrus">P. Oxy. 41, 2952</ref> and Bowman 1976, p. 162, nt. 96), prefect of Egypt in 313-314 AD (for the date see <ref type="papyrus">P. Laur. 03, 484</ref> and Pintaudi 1982, pp. 261-263), and finally pretorian prefect of Licinius, an office that lasted, according to literary sources, about ten years (314-324 AD, see <ref type="source">Lib., Or. 18, 09</ref>; cf. Porena 2003, pp. 296-299).</p>
+                <p>The prefect was surely a trusted and appreciated administrator under Galerius, Maximinus and Licinius. Nevertheless, after Licinius’ defeat at Chrysopolis, Iulianus brilliantly continued his career under Constantine. Porena conjectures that he was not responsible for Licinius’ decisions or that maybe he contributed to his emperor’s downfall (Porena 2006, p. 347).</p>
+                <p>He even became part of the imperial family through the marriage between his daughter Basilina and Iulius Constantius, Constantine’s brother: their union would spawn the future Emperor Julian (<ref type="source">Lib., Or. 18, 09</ref> and Vanderspoel 1988, p. 420). According to Salway (2008, pp. 286-291; 2015, pp. 212-213) Iulius Iulianus became consul in 325 AD: the scholar identified him with a Ionius Iulianus mentioned in the Egyptian papyri (see CLRE, pp. 184-185), assuming that “Ionius” probably was his <foreign>signum</foreign>. If this identification is correct, it would be yet more evidence to support the brilliance of his career under Constantine.</p>
+                <p>Recently Vanderspoel identified one of the authors of the Emperor Julian’s epistolary as the grandfather of our prefect Iulius Iulianus (Vanderspoel 1999). This attribution is very important in understanding his tie with the Eastern elites, not to mention his success under Constantine. Indeed, these letters show a very cultured man, deeply connected with the philosopher Iamblicus and his circle of scholars in Syria (among them the philosopher and counselor of Constantine Sopratros).</p>
+                <p>He was certainly appreciated for his administrative, rhetorical and legal skills, but also his tie with the influential circle of Syrians, particularly appreciated by Constantine, probably determined Iulianus’success (Porena 2003, pp. 316-320).</p>
                 <p>The chronology of the prefects’ mandates and also some other data in the text are useful in dating the monument.</p>
-                <p>Firstly let us note an erasure at line 2-3: Licinius’ name was deleted probably after Constantine’s victory in 324 AD, so the monument has to be dated before the degeneration of Constantine and Licinius’ relationship. Indeed, since the Caesars’ name are not mentioned, this inscription was also made also before March 317 AD. Our prefects are only attested in power as of 314 AD, allowing Porena to date this inscription to sometime between the end of 314 and 315 AD (Porena 2003, pp. 308-312).</p>
+                <p>Firstly, let us note an erasure at ll. 2-3: Licinius’ name was deleted probably after Constantine’s victory in 324 AD, so the monument has to be dated before the degeneration of Constantine and Licinius’ relationship. Indeed, since the Caesars’ name are not mentioned, this inscription was also made before March 317 AD. Our prefects are only attested in power as of 314 AD, allowing Porena to date this inscription to sometime between the end of 314 and 315 AD (Porena 2003, pp. 308-312).</p>
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
-                    <bibl><ref>Tocilescu, Bormann 1894, pp. 108-109, nr. 52</ref> = <bibl><ref>AE 1894, 111</ref></bibl></bibl>
+                    <bibl><ref>Tocilescu 1894, p. 109, nr. 52</ref> = <bibl><ref>AE 1894, 0111</ref></bibl></bibl>
                     <bibl><ref>Tocilescu 1900, pp. 56-57</ref></bibl>
-                    <bibl><ref>CIL III, 13734</ref></bibl> 
+                    <bibl><ref>CIL 03, 13734</ref></bibl> 
                     <bibl><ref>ILS 8938</ref></bibl>
-                    <bibl><ref>IIFDR 170</ref></bibl>
+                    <bibl><ref>Popescu 1976, p. 184, nr. 170</ref></bibl>
                     <bibl><ref>Grünewald 1990, nr. 402</ref></bibl>
-                    <bibl><ref>IScM IV, 16</ref></bibl>
+                    <bibl><ref>Popescu 2015, nr. 16</ref></bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="images">
@@ -171,30 +168,25 @@
             </div>
             <div type="bibliography" subtype="other">
                 <p>
-                    <bibl>Barnea I., Iliescu O., Nicolescu C., Cultura bizantină in România = La culture byzantine en Roumanie: [expoziţie organizată cu prilejul celui de al XVI-lea Congres Internaţional de Studii Bizantine, Bucureşti, 6 -12 Septembrie 1971], Bucaresti 1971, 97, nr. 1</bibl>
-                    <bibl>Barnes T. D., The new empire of Diocletian and Constantine, Cambridge 1982, 100, 127-128, 141, 150</bibl>
-                    <bibl>Bidez J., La vie de l’Emperour Julien, Paris 1930, 9</bibl>
-                    <bibl>Bowman A. K., Papyri and Roman imperial History, 1960-75, JRS, 66, 1976, 162, nt. 96</bibl>
-                    <bibl>Canarache V., Radulescu A., Adamclisis Cetatea (Muzeul de Arheologie Constanța), Constanța 1968, 14</bibl>
-                    <bibl>Chastagnol A., Les préfets du prétoire de Constantin, REA, 70, 1968, 323-329</bibl>
-                    <bibl>Chastagnol A., Le Bas-Empire, Paris 1969, 140-141</bibl>
-                    <bibl>Grünewald T., Constantinus Maximus Augustus: Herrschaftspropaganda in der zeitgenössischen Überlieferung, Stuttgart 1990, 249, nr. 402</bibl>
-                    <bibl>Netzhammer R., Die christlichen Altertümer der Dobrudscha, Bucaresti 1918, 179-180</bibl>
-                    <bibl>Palanque J-R., Essai sur la préfecture du prétoire du bas-empire, Paris 1933, 3</bibl>
-                    <bibl>Pârvan V., Cetatea Tropaeum. Consideraţii istorice, BCMI, 4, 1911, 165</bibl>
+                    <bibl>Barnes T.D., The New Empire of Diocletian and Constantine, Cambridge 1982</bibl>
+                    <bibl>Bowman A.K., Papyri and Roman Imperial History, 1960-75, JRS, 66, 1976, 153-173</bibl>
+                    <bibl>Chastagnol A., Les préfets du prétoire de Constantin, REA, 70, 1968, 321-352</bibl>
+                    <bibl>Chastagnol A., Le Bas-Empire, Paris 1969</bibl>
+                    <bibl>Grünewald T., Constantinus Maximus Augustus: Herrschaftspropaganda in der zeitgenössischen Überlieferung, Stuttgart 1990</bibl>
+                    <bibl>Mommsen T., Zu der Inschrift von Tropaea, Archäologisch-epigraphische Mitteilungen aus Österreich-Ungarn, 17, 1894, 114-116</bibl>
                     <bibl>Pintaudi R., La data della prefettura di Julius Julianus, ZPE, 46, 1982, 261-263</bibl>
-                    <bibl>Popescu E., Inscriptions de Scythie mineure. Tropaeum, Durostorum, Axiopolis, Bucaresti 2015, nr. 16</bibl>
-                    <bibl>Popescu E., Das Problem der Kontinuität in Rumänien im Lichte der epigraphischen Entdeckungen, Dacoromania, 1, 1973, 70, nr. 2</bibl>
-                    <bibl>Popescu E., Inscriptiones intra fines Dacoromaniae repertae Graecae et Latinae anno CCLXXXIV recentiores (IIFDR), Bucaresti 1976, 183-185, nr. 170</bibl>
-                    <bibl>Porena P., La prefettura del pretorio tardoantica, Roma 2003, 291-337</bibl>
-                    <bibl>Porena P., Trasformazioni istituzionali e assetti sociali: i prefetti del pretorio tra III e IV secolo, in Le trasformazioni delle élites in età tardoantica, Roma 2006, 347-349</bibl>
-                    <bibl>Rizos E., Civic administration in Illyricum and Thrace, Ant. Tard., 26, 2018, 202</bibl>
-                    <bibl>Salway B., Roman Consuls, Imperial Politics, and Egyptian Papyri: The Consulates of 325 and 344 CE, JLA, 1, 2008, 286-291</bibl>
-                    <bibl>Salway B., Redefining the Roman Imperial Élite in the Fourth Century AD, in Elites in the Ancient World, vol. II, Szczecin 2015, 212-213</bibl>
-                    <bibl>Tocilescu G. G., Bormann E., Neue Inschriften aus Rumänien, Arch. Epigr. Mitt. Osterr, 17, 1894, 108-109, nr. 52; 114-116</bibl>
-                    <bibl>Tocilescu G. G., Benndorf O., Niemann G., Das Monument von Adamklissi, Tropaeum Traiani, Wien 1895, 128-129</bibl>
-                    <bibl>Tocilescu G. G., Fouilles et recherches archéologiques en Roumanie: communications faites à l’Académie des Inscriptions et Belles-Lettres de Paris, 1892-1899, Bucaresti 1900, 56-59</bibl>
-                    <bibl>Vanderspoel J., Correspondence and correspondents of Julius Julianus, Byzantion, 69, 1999, 396-478</bibl>
+                    <bibl>Popescu E., Inscriptiones intra fines Dacoromaniae repertae Graecae et Latinae anno CCLXXXIV recentiores, Bucaresti 1976</bibl>
+                    <bibl>Popescu E., Inscriptions de Scythie mineure. Vol. IV. Tropaeum, Durostorum, Axiopolis, Bucaresti 2015</bibl>
+                    <bibl>Porena P., La prefettura del pretorio tardoantica, Roma 2003</bibl>
+                    <bibl>Porena P., Trasformazioni istituzionali e assetti sociali: i prefetti del pretorio tra III e IV secolo, in Lizzi Testa R. (a cura di), Le trasformazioni delle élites in età tardoantica, Roma 2006, 325-356</bibl>
+                    <bibl>Rizos E., Centres of the Late Roman Military Supply Network in the Balkans: a Survey of horrea, JRGZ, 50, 2013, 659-696</bibl>
+                    <bibl>Rizos E., New Cities and New Urban Ideals, 250-350 AD, in Id. (ed.), New Cities in Late Antiquity. Documents and Archaeology, Turnhout 2017, 19-38</bibl>
+                    <bibl>Rizos E., Civic Administration in Illyricum and Thrace, AntTard, 26, 2018, 211-223</bibl>
+                    <bibl>Salway B., Roman Consuls, Imperial Politics, and Egyptian Papyri: The Consulates of 325 and 344 CE, JLA, 1, 2008, 278-310</bibl>
+                    <bibl>Salway B., Redefining the Roman Imperial Élite in the Fourth Century AD, in Bricks P. (ed.), Elites in the Ancient World (Szczecińskie Studia nad Starożytnością, II), Szczecin 2015, 199-220</bibl>
+                    <bibl>Tocilescu G.G., Neue Inschriften aus Rumänien, Archäologisch-epigraphische Mitteilungen aus Österreich-Ungarn, 17, 1894, 81-113</bibl>
+                    <bibl>Tocilescu G.G., Fouilles et recherches archéologiques en Roumanie: communications faites à l’Académie des Inscriptions et Belles-Lettres de Paris, 1892-1899, Bucaresti 1900</bibl>
+                    <bibl>Vanderspoel J., Correspondence and Correspondents of Julius Julianus, Byzantion, 69, 1999, 396-478</bibl>
                 </p>
             </div>
             

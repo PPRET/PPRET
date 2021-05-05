@@ -708,6 +708,8 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
+  
+  <xsl:template match="//t:div//t:ref[not(@target)][not(@corresp)]"><xsl:apply-templates/></xsl:template>
 
   <xsl:template match="t:div//t:space[@rend='space']">&#x2003;</xsl:template>
   

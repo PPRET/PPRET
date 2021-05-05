@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Inscription from Ancyra (1) in honour of Constantine Aug. by his praet. prefect Fl. Constantius</title>
+                <title>Inscription (1) from Ancyra in honour of Constantine Aug. by his praet. prefect Fl. Constantius</title>
                 <editor role="edition">Eleonora Angius</editor>
                 <editor role="encoding">Eleonora Angius</editor>
             </titleStmt>
@@ -29,7 +29,7 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textType" ref="#honorary">Honorary inscription for the emperor Constantine by the only praet. prefect Fl. Constantius</term>
+                            <term type="textType" ref="#honorary">Honorary inscription for the emperor Constantine</term>
                             <term type="rhythm" ref="#prose">prose</term>
                         </summary>
                         <textLang mainLang="la">Latin</textLang>
@@ -52,7 +52,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>One inscribed field (frons).</p>
+                                    <p>One inscribed field (<foreign>frons</foreign>).</p>
                                     <rs type="execution" ref="#chiselled">chiselled</rs>
                                     <rs type="preservation" ref="#damaged">Damaged</rs>
                                 </layout>
@@ -104,15 +104,14 @@
                 </ab>
             </div>
             <div type="apparatus">
-                <p>This edition follows CIL III, 6751.</p>
+                <p>This edition follows CIL 03, 06751.</p>
                 <p>
                     <app loc="1"><note>Clementissimo: Bosch 1967, nr. 305</note></app>
-                    <app loc="3"><note>Co[ns]t[a]ntino: Bosch 1967, nr. 305, GLIA II, 329</note></app>
-                    <app loc="5"><note>A[ugust]o: GLIA II, 329</note></app>
+                    <app loc="3"><note>Co[ns]t[a]ntino: Bosch 1967, nr. 305, GLIA 02, 329</note></app>
+                    <app loc="5"><note>A[ugust]o: GLIA 02, 329</note></app>
                 </p>
             </div>
             <div type="translation" xml:lang="en">
-                <p>(by GLIA II, p. 70)</p>
                 <p>“ To the most merciful and enduring emperor, our master Constantinus, the greatest always victorious Augustus, Flavius Constantius, of clarissimus rank, praetorian prefect, always everlastingly devoted to his piety.”</p>
             </div>
             <div type="translation" xml:lang="fr">
@@ -122,59 +121,52 @@
                 <p>“Al nostro signore Costantino, eterno e clementissimo imperatore, Massimo Vincitore, sempre Augusto, Flavius Costantius, chiarissimo prefetto del pretorio, sempre devotissimo alla pietà sua.”</p>
             </div>
             <div type="commentary">
-                <p>We know that the inscription was originally engraved on a rectangular marble block, but unfortunately we are without any photographic reproduction of it (although in 1875 Mortdmann sent one to von Domaszewski, Eph. Ep. V, 30, nr. 55); one rough facsimile is all we possess. 
-                    The writing module is irregular and is characterized by a shallow carving of the letters. Although it is impossible to establish the dimensions of the support, through the height of the letters (the only recorded data), Mitchell and French (2019) estimate the inscription’s dimensions to be very similar to those of a second dedication from Ankara (<ref type="ppret" corresp="ppret13">PPRET 13</ref>), more recently discovered. This new inscription was also erected by the prefect Flavius Constantius in honour of the Emperor Constantine.</p>
-                <p>According to Mitchell and French, the second inscribed base found at Ankara was chiselled on a re-used epigraphic field. In fact, if our inscription really is so similar to the second one from Ankara (<ref type="ppret" corresp="ppret13">PPRET 13</ref>) both in dimensions and chronology, then it is highly likely that the inscribed field of our marble base was re-used just like the other one.</p>
-                <p>The inscription in question was discovered “when the “Banque Agricole” (Ziraat Bankasi) was built in Ulus” (see Jerphanion 1928, p. 234: «mis de côté lorsque fut construit l’édifice de la Banque Agricole, et qui avait, peut-être, été employé dans un cimitière»), in the second half of the 19th Century, between 1863 (creation of the Ziraat Bankasi) and 1875 (Eph. Ep. II, 1036, notified to Domaszewski and Mommsen were notified by the German orientalist Andreas David Mordtmann); Jerphanion saw it, but the stone was subsequently lost and its current location is unknown.</p>
-                <p>Ulus is the historical center of Ankara and the original core of the Roman city of Ancyra, the capital of the province of Galatia (Haensch 1997, 277-281). Such a monumental inscription like this (if Mitchell’s assumption is true), must have occupied a very visible and important place within the city, such as the forum. 
-                    Jerphanion (1928, p. 234) suggested that the marble base was reused: it may have been used in a cemetery or inserted into the lower town’s walls as spolia, preserving it at least until Jerphanion’s autopsy.</p>
-                <p>The inscription put up by the praetorian prefect Constantius praises Emperor Constantine. The epithet <foreign>victor</foreign> is worthy of comment, since it replaced the word <foreign>invictus</foreign>, linked to the worship of <foreign>Sol Invictus</foreign>, which was at this point in contrast to imperial religious sensibility. The title <foreign>victor</foreign> was used continuously after Licinius’ defeat on September 19<hi rend="superscript">th</hi> 324 AD, when Constantine, at the end of the civil war, presented himself as the final and only winner over his enemies. 
+                <p>We know that the inscription was originally engraved on a rectangular marble block, but unfortunately we are without any photographic reproduction of it, although in 1875 the German orientalist Andreas David Mortdmann sent one to Mommsen (see <ref type="inscription">Ephemeris Epigraphica 02, nr. 1036</ref>; also von Domaszewski based his edition on a photograph of the monument, see <ref type="inscription">Ephemeris Epigraphica 05, nr. 0055</ref>). One rough facsimile is all we possess. 
+                    The writing module is irregular and is characterized by a shallow carving of the letters. Even if it is impossible to establish the dimensions of the support, through the height of the letters (the only recorded data), Mitchell and French (<ref type="inscription">GLIA 02, 329</ref>) estimate the inscription’s dimensions to be very similar to those of a second dedication from Ankara, more recently discovered (<ref type="ppret" corresp="ppret13">PPRET 13</ref>: h. 126 cm, w. 92 cm). This new inscription was also erected by the prefect Flavius Constantius in honour of the Emperor Constantine.</p>
+                <p>According to Mitchell and French (<ref type="inscription">GLIA 02, 329</ref>), the second inscribed base found at Ankara was chiselled on a re-used epigraphic field. In fact, if our inscription really is so similar to the second one from Ankara both in dimensions and chronology, then it is highly likely that the inscribed field of our marble base was re-used just like the other one.</p>
+                <p>The inscription in question was discovered «when the “Banque Agricole” (Ziraat Bankasi) was built in Ulus» (<ref type="inscription">GLIA 02, 329</ref>; cf. Jerphanion 1928, p. 234), in the second half of the 19th Century, between 1863 (creation of the Ziraat Bankasi) and 1875 (<ref type="inscription">Ephemeris Epigraphica 02, nr. 1036</ref>, Mommsen was notified by Mordtmann). The marble base was then reused: it may have been used in a cemetery or inserted into the lower town’s walls as spolia, preserving it at least until Jerphanion’s autopsy (Jerphanion 1928, p. 234). The stone was subsequently lost and its current location is unknown.</p>
+                <p>Ulus is the historical centre of Ankara and the original core of the Roman city of Ancyra, the capital of the province of Galatia (Haensch 1997, 277-281). Such a monumental inscription like this (if the assumption of Mitchell and French about the dimensions is true), must have occupied a very visible and important place within the city, such as the forum.</p>
+                <p>The inscription put up by the praetorian prefect Constantius praises the Emperor Constantine. The epithet <foreign>victor</foreign> is worthy of comment, since it replaced the word <foreign>invictus</foreign>, linked to the worship of <foreign>Sol Invictus</foreign>, which was at this point in contrast to imperial religious sensibility. The title <foreign>victor</foreign> was used continuously after Licinius’ defeat on September 19<hi rend="superscript">th</hi> 324 AD, when Constantine, at the end of the civil war, presented himself as the final and only winner over his enemies. 
                     The portrait of the <foreign>triumphator</foreign> is, however, tempered by the attention to clemency and piety that characterized Constantine’s policy of reconciliation in the East. Indeed, the emperor was aware that Licinius’ eminent supporters would not only have to be pardoned, but also elevated, if necessary, to influential positions. 
-                    The prefect’s devotion to <foreign>pietas</foreign> rather than <foreign>numen</foreign> represents another example of Constantine’s inclination towards reconciliation in areas that had only recently passed under his control and that required caution. The second Constantinian inscription from Ancyra (<ref type="ppret" corresp="ppret13">PPRET 13</ref>) glorifies Constantine’s <foreign>pietas</foreign>.</p>
-                <p>The monument is dedicated only by Flavius Constantius and is very similar in its form and content to the collegial ones (<ref type="ppret" corresp="ppret01">PPRET 01</ref>; <ref type="ppret" corresp="ppret02">2</ref>; <ref type="ppret" corresp="ppret08">8</ref>; <ref type="ppret" corresp="ppret09">9</ref>; <ref type="ppret" corresp="ppret16">16</ref>; <ref type="ppret" corresp="ppret17">17</ref>; <ref type="ppret" corresp="ppret18">18</ref>). Porena (2003, pp. 392-393) gives two possible explanations for its creation: 
-                    a) if the inscription was made to celebrate Constantine’s <foreign>Vicennalia</foreign> in 325 AD (when Flavius Constantius would appear to be the only member of the prefectural college), the monument could represent a surviving example of a series of monuments decreed by the prefect for this anniversary; 
-                    b) the dedication may have been made shortly before the prefect’s departure in 327 AD, when Constantius was a member of a larger prefectural college, but he would have commissioned the monuments on his own in the regions for which he was responsible. The discovery of the second dedication from Ancyra (<ref type="ppret" corresp="ppret13">PPRET 13</ref>) strongly supports the first assumption. Similarly, Mitchell dated our dedications to the first weeks and months after the defeat of Licinius, because the inscriptions were intended to immediately publicize the political tenor of the new regime (see GLIA II, p. 72).</p>
-                <p>Nothing is known of Flavius Constantius’ career. 
-                    He is cited in eight imperial constitutions: the first (<ref type="source">CTh 15, 14, 01</ref>) and the last (<ref type="source">CTh 02, 24, 02</ref>) attest to him being praetorian prefect between December 16<hi rend="superscript">th</hi> 324 AD and June 11<hi rend="superscript">th</hi> 327 AD (see Porena 2003, pp. 382-386). He also held the consulate in 327 AD together with Valerius Maximus (CLRE, pp. 188-189). Since his previous career is unknown, we cannot establish when Flavius Constantius became <foreign>vir clarissimus</foreign>. According to Porena (2003, pp. 391-393) there are three possibilities: a) when he held the consulate (assuming he belonged to the equestrian order and that our inscription post dates 327 AD); b) he was of <foreign>clarissimus</foreign> rank before his consulate (if he was a relative of Constantine; see below); 
-                    c) during Constantius’ tenure as praetorian prefect, since Constantine established that upon appointment praetorian prefects would automatically become <foreign>clarissimi</foreign>.</p>
-                <p>Whatever the case may be, at least four inscriptions (also <ref type="ppret" corresp="ppret13">PPRET 13</ref>; <ref type="ppret" corresp="ppret14">14</ref>; <ref type="ppret" corresp="ppret15">15</ref>) and eight Theodosian Constitutions attest Flavius Constantius as one of the major figures involved in the Constantinian reorganization of the East after the overthrow of Licinius’ regime. 
-                    Two dedications from Ancyra (<ref type="ppret" corresp="ppret12">PPRET 12</ref> and <ref type="ppret" corresp="ppret13">13</ref>) and another two, related to buildings (Aqaba military building, <ref type="ppret" corresp="ppret14">PPRET 14</ref>; epigram for the Great Antioch’s Church, <ref type="ppret" corresp="ppret15">PPRET 15</ref>) testify to his important role in the building policy of the East.</p>
-                <p>Constantine entrusted Constantius with such important but thorny task that many scholars supposed kinship with the emperor’s family. The PLRE (p. 225) has identified Constantius with the homonymous envoy sent by Constantine between 315 and 316 AD to persuade Licinius to promote Bassianus (married to Constantine’s half-sister Anastasia) to the rank of Caesar before their first conflict (<ref type="source">Anon. Vales. 02, 14</ref>): the great deal of trust required for such a mission, supports the kinship theory. Chausson (2002, pp. 138, 145) suggested that Flavius Constantius could be Constantine’s legimitate brother (another son of Constantius I and Elena). Barnes (2011, p. 212, nt. 14) suggested that he was on a par with Iulius Constantius, son of Constantius I and Theodora, thus making him Constantine’s half-brother, although there is no evidence that he took the <foreign>nomen</foreign> Flavius.</p>
-                <p>Porena agreed with Constantius’ identification in the PLRE and observed that he already must have been a trusted and experienced figure at that moment (perhaps in Constantine’s service before 324 AD), suitable to becoming Constatine’s praetorian prefect, when the second conflict with Licinius degenerated into open warfare. However, Porena also noted that Constantine and Constantius had to belong to the same generation and so his praetorian prefect could, in theory at least, be merely a cousin of the emperor.</p>
+                    The prefect’s devotion to <foreign>pietas</foreign> rather than <foreign>numen</foreign> represents another example of Constantine’s inclination towards reconciliation in areas that had only recently passed under his control and that required caution (cf. Chastagnol 1966, pp. 543-550; Grünewald 1990, pp. 134, 149; Porena 2003, pp. 390-391; <ref type="inscription">GLIA 02, 329</ref>). The second Constantinian inscription from Ancyra (<ref type="ppret" corresp="ppret13">PPRET 13</ref>) glorifies Constantine’s <foreign>pietas</foreign>.</p>
+                <p>The monument is dedicated only by Flavius Constantius but is very similar in its form and content to the collegial ones (<ref type="ppret" corresp="ppret01">PPRET 01</ref>; <ref type="ppret" corresp="ppret02">02</ref>; <ref type="ppret" corresp="ppret03">03</ref>; <ref type="ppret" corresp="ppret08">08</ref>; <ref type="ppret" corresp="ppret09">09</ref>; <ref type="ppret" corresp="ppret16">16</ref>; <ref type="ppret" corresp="ppret17">17</ref>; <ref type="ppret" corresp="ppret18">18</ref>). Constantius may therefore have been the only praetorian prefect of Constantine when these dedications were made. He is cited as praetorian prefect in eight imperial constitutions (the list in Porena 2003, pp. 383-386, with discussion of chronology and contents): the first (<ref type="source">CTh 15, 14, 01</ref>) and the last (<ref type="source">CTh 02, 24, 02</ref>) attest to him being praetorian prefect between December 16<hi rend="superscript">th</hi> 324 AD and June 11<hi rend="superscript">th</hi> 327 AD. He also held the consulate in 327 AD together with Valerius Maximus (CLRE, pp. 188-189). Flavius Constantius was one of the major figures involved in the Constantinian reorganization of the East after the overthrow of Licinius’ regime. Two dedications from Ancyra (here and <ref type="ppret" corresp="ppret13">PPRET 13</ref>) and another two, related to buildings (Aqaba military building, <ref type="ppret" corresp="ppret14">PPRET 14</ref>; epigram for the Great Antioch’s Church, <ref type="ppret" corresp="ppret15">PPRET 15</ref>) testify to his important role in the building policy of the East. He was probably promoted to the praetorian prefecture at the time of the second and decisive war against Licinius (321-324 AD, perhaps replacing Iunius Bassus, cf. <ref type="ppret" corresp="ppret10">PPRET 10</ref> and <ref type="ppret" corresp="ppret11">PPRET 11</ref>).</p>
+                <p>Constantine entrusted Constantius with such an important but thorny task that many scholars supposed kinship with the emperor’s family. The PLRE (I, Constantius 1, p. 224 and Constantius 5, p. 225) has suggested to identify Constantius with the homonymous envoy sent by Constantine between 315 and 316 AD to persuade Licinius to promote Bassianus (married to Constantine’s half-sister Anastasia) to the rank of Caesar before their first conflict (<ref type="source">Anon. Vales. 02, 14</ref>): the great deal of trust required for such a mission, supports the kinship theory. Chausson (2002, pp. 138, 145) suggested that Flavius Constantius could be Constantine’s legitimate brother (another son of Constantius I and Elena). Barnes (2011, p. 212, nt. 14) suggested that he was on a par with Iulius Constantius, son of Constantius I and Theodora, thus making him Constantine’s half-brother, although there is no evidence that he took the <foreign>nomen</foreign> Flavius. Porena (2003, pp. 387-389) agreed with Constantius’ identification in the PLRE and observed that he already must have been a trusted and experienced figure at that moment (perhaps in Constantine’s service before 324 AD), suitable to becoming Constatine’s praetorian prefect, when the second conflict with Licinius degenerated into open warfare. However, Porena also noted that Constantine and Constantius had to belong to the same generation and so his praetorian prefect could, in theory at least, be merely a cousin of the emperor.</p>
+                <p>In the Ankara dedications Flavius Constantius is styled <foreign>vir clarissimus</foreign>. Since almost nothing is known of Constantius’ career before the prefecture, we cannot establish when he became <foreign>clarissimus</foreign>. According to Porena (2003, pp. 391-393) there are three possibilities: a) when he held the consulate (assuming he belonged to the equestrian order and that our inscription post-dates 327 AD); b) he was of <foreign>clarissimus</foreign> rank before his consulate (if he was a relative of Constantine, as suggested above); c) during Constantius’ tenure as praetorian prefect, since Constantine established that upon appointment praetorian prefects would automatically become <foreign>clarissimi</foreign></p>
+                <p>Porena (2003, pp. 392-393) gives two possible explanations for the creation of Ankara’s monument: a) if the inscription was made to celebrate Constantine’s <foreign>Vicennalia</foreign> in 325 AD (when Flavius Constantius would appear to be the only member of the prefectural college), the monument could represent a surviving example of a series of monuments decreed by the prefect for this anniversary; b) the dedication may have been made shortly before the prefect’s departure in 327 AD, when Constantius was a member of a larger prefectural college, but he would have commissioned the monuments on his own in the regions for which he was responsible. The discovery of the second dedication from Ancyra (<ref type="ppret" corresp="ppret13">PPRET 13</ref>) strongly supports the first assumption. Similarly, Mitchell and French date our dedications to the first weeks and months after the defeat of Licinius, since the inscriptions were intended to immediately publicize the political tenor of the new regime (see <ref type="inscription">GLIA 02, 329</ref>).</p> 
+ 
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
-                    <bibl><ref>Eph. Ep. II, 471, nr. 1036</ref></bibl>
-                    <bibl><ref>Eph. Ep. V, 30, nr. 55</ref></bibl>
-                    <bibl><ref>CIL III, 6751</ref></bibl>
-                    <bibl><ref>Jerphanion 1928, nr. 7</ref></bibl>
-                    <bibl><ref>Bosch 1967, nr. 305</ref></bibl>
-                    <bibl><ref>Grünewald 1990, nr. 417</ref></bibl>
+                    <bibl><ref>Ephemeris Epigraphica 02, 1036</ref></bibl>
+                    <bibl><ref>Ephemeris Epigraphica 05, 55</ref></bibl>
+                    <bibl><ref>CIL 03, 06751</ref></bibl>
+                    <bibl><ref>Jerphanion 1928, p. 234, nr. 7</ref></bibl>
+                    <bibl><ref>Bosch 1967, p. 367, nr. 305</ref></bibl>
+                    <bibl><ref>Grünewald 1990, p. 244, nr. 417</ref></bibl>
                     <bibl><ref>Porena 2003, p. 390</ref> = <bibl><ref>AE 2003, 1832</ref></bibl></bibl>
-                    <bibl><ref>GLIA II, 329</ref></bibl>
+                    <bibl><ref>GLIA 02, 329</ref></bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="links">
                 <p>
-                    <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-28400808p">EDCS 28400808</ref></bibl>
+                    <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-28400808">EDCS 28400808</ref></bibl>
                     <bibl><ref corresp="https://www.epigraphik.uni-hamburg.de/receive/skeleton_simpledoc_0000986">Epigraphische Datenbank zum antiken Kleinasien</ref></bibl>
                     <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail.php?record=1138">LSA 1138</ref></bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="other">
                 <p>
-                    <bibl>Barnes T. D., The New Empire of Diocletian and Constantine, Cambridge 1982, 131</bibl>
-                    <bibl>Barnes T. D., Constantine: Dynasty, Religion and Power in the Later Roman Empire, Chichester-Malden 2011, 212, nt. 14</bibl>
-                    <bibl>Bosch E., Quellen zur Geschichte der Stadt Ankara im Altertum, Ankara 1967, 367-369, nr. 305</bibl>
-                    <bibl>Chausson F., Une soeur de Constantin. Anastasia, in Humana sapit. Etudes d’antiquité tardive offertes à Lellia Cracco Ruggini, Turnhout 2002, 138, 145</bibl>
-                    <bibl>Dupont C., Constantin et la préfecture d’Orient, in Studi in onore di G. Scherillo II, Milano 1972, 824-827, 833-837, 845</bibl>
-                    <bibl>Ephemeris Epigraphica: Corporis Inscriptionum Latinarum Supplementum, 2, Berlin 1872, 471, nr. 1036</bibl>
-                    <bibl>Ephemeris Epigraphica: Corporis Inscriptionum Latinarum Supplementum, 5,  Berlin 1884, 30, nr. 55</bibl>
-                    <bibl>Grünewald Th., Constantinus Maximus Augustus: Herrschaftspropaganda in der Zeitgenössischen Überlieferung, Stuttgart 1990, 244, nr. 417</bibl>
-                    <bibl>Haensch R., Capita provinciarum. Statthaltersitze und Provinzialverwaltung in der römischen Kaiserzeit, Mainz 1997, 277-281</bibl>
-                    <bibl>Jerphanion G. D., Mélanges d’archéologie anatolienne. Monuments préhelléniques, gréco-romains, byzantins et musulmans de Pont, de Cappadoce et de Galatie, Beyrouth 1928, 234, nr. 7 and fig. 27</bibl>
-                    <bibl>Mitchell S., French D., The Greek and Latin Inscriptions of Ankara (Ancyra), II, München 2019, 70-72, nr. 329</bibl>
-                    <bibl>Porena P., Le origini della prefettura del pretorio tardoantica, Roma 2003, 382-393</bibl>
+                    <bibl>Barnes T.D., Constantine: Dynasty, Religion and Power in the Later Roman Empire, Chichester-Malden 2011</bibl>
+                    <bibl>Bosch E., Quellen zur Geschichte der Stadt Ankara im Altertum, Ankara 1967</bibl>
+                    <bibl>Chastagnol A., Un gouverneur Constantinien de Tripolitaine: Laenatius Romulus, Praeses en 324-326, Latomus, 25, 1966, 539-552 (= Id., L'Italie et l'Afrique au Bas-Empire: Études administratives et prosopographiques. Scripta varia, Lille 1987, 279-295)</bibl>
+                    <bibl>Chausson F., Une soeur de Constantin. Anastasia, in Carrié J.-M., Lizzi Testa R. (éd.), Humana sapit. Etudes d’antiquité tardive offertes à Lellia Cracco Ruggini, Turnhout 2002, 131-155</bibl>
+                    <bibl>Ephemeris Epigraphica: Corporis Inscriptionum Latinarum Supplementum, 2, Berlin 1875</bibl>
+                    <bibl>Ephemeris Epigraphica: Corporis Inscriptionum Latinarum Supplementum, 5, Berlin 1884</bibl>
+                    <bibl>Grünewald Th., Constantinus Maximus Augustus: Herrschaftspropaganda in der Zeitgenössischen Überlieferung, Stuttgart 1990</bibl>
+                    <bibl>Haensch R., Capita provinciarum. Statthaltersitze und Provinzialverwaltung in der römischen Kaiserzeit, Mainz 1997</bibl>
+                    <bibl>Jerphanion G.D., Mélanges d’archéologie anatolienne. Monuments préhelléniques, gréco-romains, byzantins et musulmans de Pont, de Cappadoce et de Galatie, Beyrouth 1928</bibl>
+                    <bibl>Mitchell S., French D., The Greek and Latin Inscriptions of Ankara (Ancyra), II, München 2019</bibl>
+                    <bibl>Porena P., Le origini della prefettura del pretorio tardoantica, Roma 2003</bibl>
                 </p>
             </div>
             

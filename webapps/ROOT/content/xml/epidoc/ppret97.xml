@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Honorary inscription for an anonymous praet. prefect from Leptis Magna</title>
-                <editor role="edition">Irene Vagionakis</editor>
+                <editor role="edition">Andrea Bernier</editor>
                 <editor role="encoding">Irene Vagionakis</editor>
             </titleStmt>
             <publicationStmt>
@@ -18,7 +18,7 @@
             <sourceDesc>
                 <listPerson>
                     <person>
-                        <persName ref="#anonymous">Anonymous praetorian prefect (of Italia Illyricum Africa?)</persName>
+                        <persName ref="#anonymous">Anonymous praetorian prefect</persName>
                     </person>
                 </listPerson>
                 <msDesc>
@@ -73,7 +73,7 @@
                                 <placeName type="prefecture">Italia Illyricum Africa</placeName>
                                 <placeName type="ancient_location" ref="#public">public space: Forum Severianum</placeName>
                             </origPlace>
-                            <origDate period="#p8" notBefore="0350" notAfter="0400">350/400 AD</origDate>
+                            <origDate period="#p8" notBefore="0330" notAfter="0400">330/400 AD</origDate>
                         </origin>
                         <provenance type="found"><placeName ref="#">Leptis Magna</placeName>, Forum Severianum, West side, at foot of the steps of the temple</provenance>
                     </history>
@@ -103,30 +103,43 @@
                     </ab>
             </div>
             <div type="apparatus">
-                <p>Edition based on LeptisMagna.</p>
+                <p>Edition based on Tantillo, Bigi 2010.</p>
                 <p>
                     <app loc="2"><note>virtut(is): IRT</note></app>
-                    <app loc="3"><note><gap reason="lost" quantity="13" unit="character" precision="low"/> perpensae: IRT</note></app>
-                    <app loc="4"><note>aeque: IRT</note></app>
+                    <app loc="3"><note><gap reason="lost" quantity="13" unit="character" precision="low"/> perpetuae: IRT</note></app>
+                    <app loc="4"><note><gap reason="lost" atLeast="7" atMost="8" unit="character"/>aeque: IRT</note></app>
                     <app loc="6"><note><del rend="erasure"><gap reason="lost" extent="unknown" unit="character" cert="low"/></del>: IRT</note></app>
+                    <app loc="7-8"><note><unclear>in</unclear> se p<unclear>r</unclear>o= v<supplied reason="lost">i</supplied>sio<supplied reason="lost">nes - ? -</supplied></note></app>
                 </p>
             </div>
             <div type="translation" xml:lang="en">
-                <p>“... to a man of a peculiar nobility and of all virtues but also of mindful justice ... and sincerity, and incomparable prudence ... praetorian prefect, patron, for the very many benefits brought to them by his foresight ... the people of Lepcis Magna, at public expense.”</p>
+                <p>(Tantillo, Bigi LSA 2167):</p>
+                <p> “... to a man of exceptional nobility and of all virtues, but also of carefully considered justice and ... sincerity, of incomparable prudence, ..., praetorian prefect, their patron. For the many benefits brought by his provision, the people of Lepcis Magna [set this up] from public funds”.</p>
             </div>
             <div type="translation" xml:lang="fr">
-                <p>“...”</p>
+                <p>“... homme d’une noblesse exceptionnelle, et doté de toutes les vertus, ainsi que d’une justice bien pesée, d’une intégrité [admirable ?] et d’une sagacité sans pareille, pour... préfet au prétoire, patron, pour les nombreux bienfaits qui leur ont été apportés par sa providence... les habitants de Leptis Magna, aux frais de l’État.”</p>
             </div>
             <div type="translation" xml:lang="it">
-                <p>“... a un uomo di peculiare nobilità e di ogni virtù ma anche di ponderata giustizia ... e sincerità e incomparabile prudenza ... prefetto del pretorio, patrono, per i plurimi benefici addotti loro dalla sua previdenza ... gli abitanti di Lepcis Magna, a spese pubbliche.”</p>
+                <p>(Tantillo, Bigi 2010, p. 347):</p>
+                <p>“...! Uomo di eccezionale nobiltà, e dotato di ogni virtù, nonché di ponderata giustizia, di [mirabile?] integrità e di impareggiabile assennatezza, a… prefetto al pretorio, patrono, per i numerosi benefici apportati loro dalla sua previdenza... gli abitanti di Leptis Magna, a spese pubbliche.”</p>
             </div>
             <div type="commentary">
-                <p>The text of the inscription, still in situ, has been erased so carefully that the name of the honorand is now completely illegible. The honorand, apparently victim of the damnatio memoriae, was praetorian prefect twice, probably (at least the second time) of Italy, Illyricum and Africa. The honorand was also the patron of Leptis Magna, whose people promoted the setting up of the base and of the relative statue.</p>
+                <p>The inscription was carved on a statue base that was found in Leptis Magna, the capital of the province Tripolitania. The monument is still conserved today in the western part of the Severan Forum, near the steps of the temple, in the position where it was probably located in antiquity. First published in 1952 (<ref type="inscription" corresp="http://inslib.kcl.ac.uk/irt2009/IRT611.html">IRT 611</ref>; cf. also Lepelley 1981, p. 345, nt. 55), the inscription has been newly edited in 2010 by I. Tantillo and F. Bigi with an improved reading of the text and an extensive commentary of the monument (Tantillo, Bigi 2010, pp. 345-348, nr. 21, and pl. VII; cf. <ref type="inscription" corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-2167">LSA 2167</ref>). 
+The base consists of a monolithic block of Proconnesian marble with mouldings at top and bottom, that are finished in the lateral faces, but only sketched out on the front and back (<ref type="inscription" corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-2167">LSA 2167</ref>). The huge dimensions of the monument are unparalleled among the other bases found at Leptis Magna and the prestigious location within the forum testifies to the exceptional status of the figure being honoured (Tantillo, Bigi 2010, pp. 345-346; on the Severan Forum of the city see in Tantillo, Bigi 2010, M. Pentiricci, pp. 145-152, and I. Tantillo, pp. 176-178). He was patron of the city and his statue was dedicated by the people of Leptis Magna, possibly after a decree of the city-council, with public funds (Tantillo, Bigi 2010, p. 348).</p>
+<p>The identification of the honorand is however problematic because the inscription was erased in antiquity and his name carefully removed from the stone on ll. 1 and 6. Tantillo and Bigi have been able to recognize at the end of l. 6, the words <foreign>prạefe[c]ṭ[o] p̣ṛạẹṭor[i]o</foreign>, that allow us to identify the official as a praetorian prefect or, less likely, as a vicar (<foreign>agens vice praefecti praetorio</foreign>; for the dedications to vicars at Leptis Magna, see Tantillo, Bigi 2010, pp. 355-364, nr. 25-28). According to the two scholars, the first solution is better. Not only is such a hypothesis supported by the massive dimensions of the base and its prestigious location within the Forum, such a solution also leaves more room at the beginning of the line (around 15 letters) for the registration of the name in two parts and the rank (<foreign>v(iro) c(larissimo) or p(erfectissimo)</foreign>, but the chronology strongly suggests the senatorial rank, see below). They have also very cautiously proposed to read on l. 1, where the <foreign>signum</foreign> was recorded, the letter F, which lies more or less in the middle. They also read on l. 6, at the beginning, after three indecipherable letters, a letter with a vertical stroke followed by an O, then another gap of two or three letters and possibly LD or LB (Tantillo, Bigi 2010, pp. 347-348). 
+Another significant clue for the identification comes from the praise reserved for the honorand, who the people of Leptis Magna describe as a man of <foreign>praecipua nobilitas</foreign> (l. 2): in official dedications, the term <foreign>nobilitas</foreign> is reserved to members of the Roman aristocracy (see Badel 2002, pp. 985-1001; Tantillo, Bigi 2010, p. 347). The term first appears in inscriptions dating to the last years of the reign of Constantine (<ref type="inscription">CIL 06, 01683</ref> (cf. p. 4733) = <ref type="inscription">ILS 1221</ref>, to Anicius Paulinus iunior, 334/335 AD; CIL 06, 40776, to Valerius Aradius Proculus Populonius, 337 AD) and becomes more common from the 360’s (cf. <ref type="ppret" corresp="ppret59">PPRET 59</ref>, <ref type="ppret" corresp="ppret60">60</ref> and <ref type="ppret" corresp="ppret64">64</ref> to Petronius Probus). In combination with <foreign>praecipua/praecipuus</foreign>, <foreign>nobilitas</foreign> occurs only in three inscriptions dedicated to the twice urban prefect Vitrasius Orfitus in 359 AD (<foreign>nobilitate et actibus praecipuo</foreign>: <ref type="inscription">CIL 06, 01739</ref> (cf. pp. 855, 4748) = <ref type="inscription">LSA 1441</ref> = <ref type="inscription" corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR129603">EDR 129603</ref>; <ref type="inscription">CIL 06, 01740</ref> (cf. p. 4748) = <ref type="inscription">LSA 1442</ref> = <ref type="inscription" corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR129604">EDR 129604</ref>; <ref type="inscription">CIL 06, 01742</ref> (cf. p. 4749) = <ref type="inscription">LSA 1444</ref> = <ref type="inscription" corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR129606">EDR 129606</ref>) and in another Roman text dated to 471 AD, of an otherwise unattested Ionius <foreign>vir spectabilis</foreign> (<ref type="inscription">CIL 06, 41401</ref> = <ref type="inscription">CIL 06, 31947</ref> = <ref type="inscription">ILCV 0246</ref> = <ref type="inscription">ICUR 02, 04947</ref> = <ref type="inscription" corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR093624">EDR 093624</ref>). Considering the sharp decrease in epigraphic material in Leptis Magna from the beginning of the 5th Century onwards, a <foreign>terminus ante quem</foreign> for our inscription can be fixed for not much later than 400 AD (Tantillo, Bigi 2010, pp. 24-26, 169-171, 182-183; cf. Lepelley 1981, pp. 363-364).</p>
+<p>We dispose therefore of three elements for the identification: 1) the erasure as a consequence of <foreign>damnatio memoriae</foreign>, perhaps for the involvement of the honorand in a usurpation (cf. Delmaire 2003, pp. 303-305); 2) his belonging to the Roman nobility; 3) a chronology of the office, most likely a praetorian prefecture, between 330 AD and 400 AD. A candidate who would fulfill all these “qualifications” is Virius Nicomachus Flavianus (see <ref type="ppret" corresp="ppret92">PPRET 92</ref>, <ref type="ppret" corresp="ppret93">93</ref>, <ref type="ppret" corresp="ppret94">94</ref>) but the identification is rendered less likely by the survival, in the same Severan Forum of Leptis Magna, of another dedication to this same aristocrat whose text has not been erased (<ref type="inscription" corresp="http://inslib.kcl.ac.uk/irt2009/IRT475.html">IRT 475</ref> = Tantillo, Bigi 2010, pp. 358-360, nr. 27). As pointed out by Tantillo and Bigi (2010, p. 348), if we discard the possibility of Flavianus, then no other satisfactory identification can be proposed. Valerius Felix, the praetorian prefect of Africa whose name was erased in the inscription from Tubernuc (<ref type="ppret" corresp="ppret18">PPRET 18</ref>), seems to lack the requisite <foreign>nobilitas</foreign>, while almost nothing is known about the prefect/s of Magnentius (see below). Among other potential candidates, Porena (reported in Tantillo, Bigi 2010, p. 348) would not exclude Ceionius Rufius Volusianus <foreign>signo</foreign> Lampadius, whose career suffered a ten-year interruption after holding the praetorian prefecture of Italy in 354(?)-355 AD, possibly as a consequence for his responsibility in the decision of Constantius II to execute the Caesar Gallus (see <ref type="ppret" corresp="ppret36">PPRET 36</ref>, <ref type="ppret" corresp="ppret37">37</ref>, <ref type="ppret" corresp="ppret38">38</ref>, <ref type="ppret" corresp="ppret39">39</ref>, <ref type="ppret" corresp="ppret40">40</ref>, <ref type="ppret" corresp="ppret41">41</ref>). </p>
+<p> </p>
+<p>The <foreign>Lepcimagnenses</foreign> praise the anonymous official for his <foreign>perpensa iustitia</foreign> (l. 3), his <foreign>sinceritas</foreign> (l. 4) and <foreign>incomparabilis prudentia</foreign> (l. 5). These virtues belong to the vocabulary of Late Antique officialdom and their use in the inscription of Leptis Magna can be compared with other occurrences in the epigraphic and legislative corpus at our disposition.</p>
+<p><foreign>Sinceritas</foreign> is widely attested in the imperial constitutions: in the Theodosian Code, the term (in the form <foreign>sinceritas tua</foreign>, “your sincerity”) is used by the emperors to refer to the highest-ranking officials as praetorian and urban prefects and master of the soldiers, but also vicars (ten times), palatine ministers and other “minor” officials (a list of all the occurrences can be found in Gradenwitz 1925, p. 232; cf. Tantillo, Bigi 2010, pp. 347-348). Likewise, two vicars of Asia are called <foreign>sinceritas tua</foreign> in stone copies of imperial texts (Ablabius in <ref type="inscription">CIL 03, 00352</ref> = <ref type="inscription">CIL 03, 07000</ref> = <ref type="inscription">ILS 6091</ref> = <ref type="inscription">ILCV 0003</ref> (em) = <ref type="inscription">MAMA 07, 00305</ref>; Marinus in <ref type="ppret" corresp="ppret28">PPRET 28</ref>, where there is a discussion on his office). All the documents are dated to the 4th Century and this confirms the <foreign>terminus ante quem</foreign> around 400 AD already suggested.</p>
+<p>Less common is <foreign>prudentia</foreign>. This virtue appears in two lengthy Roman inscriptions dedicated in 377 AD and 389 AD to the former urban prefect Avianius Symmachus and the annonarian prefect Vincentius Celsus (<ref type="inscription">CIL 06, 01698</ref> (cf. p. 4737) = <ref type="inscription">ILS 1257</ref> = <ref type="inscription" corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-342">LSA 0342</ref> = <ref type="inscription" corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR123515">EDR 123515</ref>, an identical monument to Symmachus was also set up in Constantinople; <ref type="inscription">CIL 06, 01759</ref> (cf. p. 4753) = <ref type="inscription">ILS 1272</ref> = <ref type="inscription" corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-1464">LSA 1464</ref> = <ref type="inscription" corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR137772">EDR 137772</ref>). But apart from these later documents, all the other attestations date to the reign of the sons of Constantine. <foreign>Prudentia tua</foreign> occurs in eight constitutions of the Theodosian Code between 342 AD and 360 AD, five are addressed to western praetorian prefects (<ref type="source">CTh 06, 29, 02</ref>; <ref type="source">CTh 08, 05, 08</ref>; <ref type="source">CTh 08, 07, 07</ref>; <ref type="source">CTh 09, 17, 02</ref>; <ref type="source">CTh 12, 01, 038</ref>; on the recipients, Ulpius Limenius, Flavius Taurus and Vindaeonius Anatolius, see <ref type="ppret" corresp="ppret34">PPRET 34</ref>, <ref type="ppret" corresp="ppret46">46</ref>, <ref type="ppret" corresp="ppret47">47</ref> respectively) and one to a proconsul of Africa (<ref type="source">CTh 11, 36, 10</ref>), a <foreign>comes</foreign> (<ref type="source">CTh 07, 01, 04</ref>) and an eastern provincial governor (<ref type="source">CTh 12, 01, 034</ref>). <foreign>Prudentia</foreign> is also the virtue attributed to a governor of Baetica in service under Constantius II in an inscription from Malaga (<ref type="inscription">CIL 02, 01972</ref> = <ref type="inscription" corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-2007">LSA 2007</ref>, to Q. Attius Granius Caelestinus, <foreign>consularis</foreign>: see PLRE I, p. 168) and to a former <foreign>praeses</foreign> of Tripolitania in another dedication found in the Severan Forum of Leptis Magna, that dates to the mid-4th Century (<ref type="inscription" corresp="http://inslib.kcl.ac.uk/irt2009/IRT566.html">IRT 566</ref> = Tantillo, Bigi 2010, pp. 383-385, nr. 37). In this text, as in our inscription, the <foreign>prudentia</foreign> of the honorand is <foreign>incomparabilis</foreign>, a combination that appears in no other epigraphic document.</p>
+<p>In its ensemble the evidence seems to be pointing more towards the period between the death of Constantine and the rise of Julian. But this does little to help us find a suitable candidate for the inscription: the “dramatic” event of the period is the usurpation of Magnentius (350-353 AD; see Delmaire 1997, pp. 112-116; Szidat 2003, pp. 208-214; for the African provinces, Didu 1977, pp. 40-44; Salama 1987, pp. 203-216) and, as already mentioned above, almost nothing is known about his prefects. Anicetus (PLRE I, pp. 66-67), probably the first praetorian prefect of Italy and Africa under the usurper, was killed after few months of service during the “revolt” of Nepotianus and no information survives on his successor. Furthermore, the reference to the <foreign>nobilitas</foreign> would imply the involvement of an important representative of the Roman aristocracy, whose nomination to the praetorian prefecture has left no evidence in the ancient sources (on the problematic relationship of Magnentius with the Roman nobility, see now Pierré-Caps 2020, pp. 205-219). Of course, the suggested chronology does not exclude the possibility that an official of Constans or Constantius II, whose <foreign>damnatio memoriae</foreign> went unnoticed in our sources, was behind this praetorian prefect.</p>
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
-                    <bibl><ref>IRT 611</ref></bibl> 
-                    <bibl><ref>Tantillo, Bigi 2010, nr. 21</ref>, with photo</bibl>
+                    <bibl><ref>IRT 611</ref></bibl>
+                    <bibl><ref>Lepelley 1981, p. 345</ref>, nt. 55</bibl>
+                    <bibl><ref>Tantillo, Bigi 2010, pp. 345-348, nr. 21</ref>, with photo</bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="images">
@@ -142,7 +155,16 @@
             </div>
             <div type="bibliography" subtype="other">
                 <p>
-                        <bibl>Tantillo I., F. Bigi F. (edd.), Leptis Magna. Una città e le sue iscrizioni in epoca tardoromana, Cassino 2010</bibl>
+                        <bibl>Badel C., Le thème de la nobilitas dans l’épigraphie latine impériale (Ier-Ve siècle), MEFRA, 114, 2002, 969-1009</bibl>
+                    <bibl>Delmaire R., Les usurpateurs du Bas-Empire et le recrutement des fonctionnaires (Essai de reflexion sur les assises du pouvoir et leurs limites), in Paschoud F., Szidat J. (hrsg.), Usurpationen in der Spätantike, Stuttgart 1997, 111-126</bibl>
+                    <bibl>Delmaire R, La damnatio memoriae au Bas-Empire à travers les textes, la législation et les inscriptions, CCG, 14, 2003, 299-310</bibl>
+                    <bibl>Didu I., Magno Magnenzio. Problemi cronologici ed ampiezza della sua usurpazione: dati epigrafici, CS, 14, 1977, 11-56</bibl>
+                    <bibl>Gradenwitz O., Heidelberger Index zum Theodosianus, Berlin 1925</bibl>
+                    <bibl>Lepelley C., Les cités de l’Afrique romaine au Bas-Empire, Tome II, Notices d’histoire municipale, Paris 1981</bibl>
+                    <bibl>Pierré-Caps A., L’instrument d’une légitimité: l’aristocratie romaine face à l’usurpation de Magnence (350-353), Occidente / Oriente, 1, 2020, 205-219</bibl>
+                    <bibl>Salama P., L’Empereur Magnence et les provinces africaines, in Huvelin H., Christol M., Gautier G. (éd.), Mélanges de numismatique offerts à P. Bastien à l’occasion de son 75e anniversaire, Wetteren 1987, 203-216</bibl>
+                    <bibl>Szidat J., Die Herrschaft der Söhne Konstantins und die Usurpation des comes rei militaris Magnentius: Ein Überblick über die Geschichte der Jahre 337–353, in Guggisberg A. (hrsg.), Der spätrömische Silberschatz von Kaiseraugst. Die neuen Funde. Silber im Spannungsfeld von Geschichte, Politik und Gesellschaft der Spätantike, Augst 2003, 203-214</bibl>
+                    <bibl>Tantillo I., Bigi F. (a cura di), Leptis Magna. Una città e le sue iscrizioni in epoca tardoromana, Cassino 2010</bibl>
                 </p>
             </div>
             
@@ -155,10 +177,11 @@
                     <p n="2.a"></p>
                     <p n="2.1"></p>
                     <p n="2.4"></p>
-                    <p n="2.9">praecipuae nobilitatis ac virtutum [o]mnium sed et perpensae iustitiae; sinceritatis adque i[nc]omparabil[i]s prudentiae viro; patrono ob plurima i[n] se provisio[ne eius con]lata beneficia</p>
-                    <p n="2.10">praecipuae nobilitatis ac virtutum [o]mnium sed et perpensae iustitiae; sinceritatis adque i[nc]omparabil[i]s prudentiae viro; patrono ob plurima i[n] se provisio[ne eius con]lata beneficia</p>
+                    <p n="2.9">patrono ob plurima i[n] se provisio[ne eius con]lata beneficia</p>
+                    <p n="2.10">⟦Praecipuae nobilitatis ac virtuṭụṃ [o]mnium sed et perpensae iustitiae [ . . . ]++++daeque sinceritatis adque ị[nc]omparabil[i]s prudentiae viro⟧</p>
                     <list n="2.11">
                         <item n="2.11.b"></item>
+                        <item n="2.11.c"></item>
                     </list>
                 </div>
                 
@@ -167,7 +190,6 @@
                     <p n="8.5"></p>
                     <p n="8.9"></p>
                     <p n="8.11"></p>
-                    <p n="8.13"></p>
                 </div>
             </div>
         </body>

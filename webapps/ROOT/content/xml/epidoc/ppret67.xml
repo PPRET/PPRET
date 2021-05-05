@@ -6,12 +6,12 @@
         <fileDesc>
             <titleStmt>
                 <title>Inscription in honour of Valentinian I, Valens and Gratian from Cherson by the praet. prefect Modestus</title>
-                <editor role="edition">Irene Vagionakis</editor>
+                <editor role="edition">Andrea Bernier, Irene Vagionakis</editor>
                 <editor role="encoding">Irene Vagionakis</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>PPRET</authority>
-                <idno type="filename" n="plre" corresp="pp. 605-608">67</idno>
+                <idno type="filename" n="plre" corresp="Modestus 2, pp. 605-608; cf. Anonymus 21, pp. 1019-1020">67</idno>
                 <date when="2020-05-08"/>
                 <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
             </publicationStmt>
@@ -21,7 +21,7 @@
                 </listPerson>
                 <msDesc>
                     <msIdentifier>
-                        <repository ref="#Kherson">Museum of Kherson</repository>
+                        <repository ref="#Sevastopol">Museum of Chersonesos, Sevastopol</repository>
                     </msIdentifier>
                     <msContents>
                         <summary>
@@ -34,23 +34,23 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#marble">marble</material>
-                                    <objectType ref="#base">statue base</objectType>
+                                    <material ref="#stone">metamorphic stone</material>
+                                    <objectType ref="#block">block</objectType>
                                     <dimensions>
                                         <height>118</height>
                                         <width>50</width>
                                         <depth>47.9</depth>
                                     </dimensions>
                                     <rs type="inscribed_field_reuse">no</rs>
-                                    <rs type="monument_reuse">yes; the base is built in a Byzantine wall</rs>
+                                    <rs type="monument_reuse">yes; the stone was built in a Byzantine wall</rs>
                                     <rs type="opistographic">no</rs>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>One inscribed field (frons).</p>
+                                    <p>One inscribed field (frons) which remains on the right-hand side of the inscribed block.</p>
                                     <rs type="execution" ref="#chiselled">chiselled</rs>
-                                    <rs type="preservation" ref="#damaged">Damaged.</rs>
+                                    <rs type="preservation" ref="#damaged">At least one final line at the bottom is missing.</rs>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -65,15 +65,15 @@
                         <origin>
                             <origPlace>
                                 <placeName type="ancient_city">Cherson</placeName>
-                                <placeName type="modern_city">Kherson (Ukraine)</placeName>
-                                <placeName type="province">not a Roman province (Chersonesus Taurica)</placeName>
-                                <placeName type="diocese">not a Roman diocese</placeName>
-                                <placeName type="prefecture">not a Roman prefecture</placeName>
+                                <placeName type="modern_city">Sevastopol (Russia / Ukraine)</placeName>
+                                <placeName type="province">Scythia</placeName>
+                                <placeName type="diocese">Thracia</placeName>
+                                <placeName type="prefecture">Oriens</placeName>
                                 <placeName type="ancient_location" ref="#public">public space</placeName>
                             </origPlace>
                             <origDate period="#p7" notBefore="0370" notAfter="0375">370/375 AD</origDate>
                         </origin>
-                        <provenance type="found">found in 1905 in <placeName ref="#">Kherson</placeName>, built in a Byzantine wall</provenance>
+                        <provenance type="found">found in 1905 on the ancient site of <placeName ref="#">Cherson</placeName>, near Sevastopol, inserted into a Byzantine (fortification?) wall</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -92,47 +92,66 @@
                         <lb n="1"/><supplied reason="lost">Triumphato</supplied><unclear>r</unclear>ib<supplied reason="lost">u</supplied>s <unclear>f</unclear><supplied reason="lost">o</supplied>r<unclear>ti</unclear><supplied reason="lost">ssi</supplied><lb 
                             break="no" n="2"/><supplied reason="lost">mis ac glorio</supplied>sissimis princip<supplied reason="lost">i</supplied><lb 
                             break="no" n="3"/><supplied reason="lost">bus Valentini</supplied>ano victorios<supplied reason="lost">is</supplied><lb 
-                            break="no" n="4"/><supplied reason="lost">simo domino et Va</supplied>lentem fratre<supplied reason="lost">m</supplied>
+                            break="no" n="4"/><supplied reason="lost">simo domino et</supplied> <sic><supplied reason="lost">Va</supplied>lentem</sic> <sic>fratre<supplied reason="lost">m</supplied></sic>
                         <lb n="5"/><supplied reason="lost">eius <expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan></supplied> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>maxim</abbr><ex>o</ex></expan> et Grati<supplied reason="lost">a</supplied><lb 
                             break="no" n="6"/><supplied reason="lost">no</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><expan><abbr>d</abbr><ex>omino</ex></expan></supplied> <expan><abbr>n</abbr><ex>ostro</ex></expan> nepoti Valenti<supplied reason="lost">s</supplied>
                         <lb n="7"/><supplied reason="lost">semper Augustis,</supplied> <expan><abbr>Dom</abbr><ex>itius</ex></expan> <unclear>M</unclear><supplied reason="lost">o</supplied>destus vir
-                        <lb n="8"/><supplied reason="lost" cert="low">clarissimus</supplied><supplied reason="lost">, praef</supplied><unclear>ect</unclear>us <sic>pretorio</sic>
-                        <lb n="9"/><supplied reason="lost">et</supplied> <gap reason="lost" extent="unknown" unit="character"/> vi<supplied reason="lost">r</supplied> <sic>clarssimus</sic>, co<lb 
-                            break="no" n="10"/><supplied reason="lost">mes et magister n</supplied><unclear>um</unclear>ini magistatiqu<unclear>e</unclear>
-                        <lb n="11"/><supplied reason="lost">eorum devoti</supplied> <gap reason="lost" extent="unknown" unit="character"/>xante disponent<supplied reason="lost">e</supplied>
+                        <lb n="8"/><supplied reason="lost" cert="low">clarissimus</supplied><supplied reason="lost">, praef</supplied><unclear>ect</unclear>us <expan><abbr>pr</abbr><ex>a</ex><abbr>etorio</abbr></expan>
+                        <lb n="9"/><supplied reason="lost">et</supplied> <gap reason="lost" extent="unknown" unit="character"/> vi<supplied reason="lost">r</supplied> <expan><abbr>clar</abbr><ex>i</ex><abbr>ssimus</abbr></expan>, co<lb 
+                            break="no" n="10"/><supplied reason="lost">mes et magister n</supplied><unclear>um</unclear>ini <sic>magistatiqu<unclear>e</unclear></sic>
+                        <lb n="11"/><supplied reason="lost">eorum devoti</supplied> <gap reason="lost" extent="unknown" unit="character"/>rante disponent<supplied reason="lost">e</supplied>
                         <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/>m decemprimo
-                        <lb n="13"/><supplied reason="lost">praeposito</supplied> <gap reason="lost" extent="unknown" unit="character"/>n<gap reason="lost" quantity="1" unit="character"/>orum <orig>stv</orig> bal<lb 
-                            break="no" n="14"/><supplied reason="lost">listariorum per</supplied> <gap reason="lost" extent="unknown" unit="character"/>m <expan><abbr>v</abbr><ex>irum</ex></expan> <expan><abbr>p</abbr><ex>erfectissimum</ex></expan> <expan><abbr>pat</abbr><ex>ronum</ex></expan> removi<supplied reason="lost">t</supplied>
-                        <lb n="15"/><supplied reason="lost">et</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/>n<gap reason="lost" quantity="1" unit="character"/>orum seu bal<lb 
+                            break="no" n="14"/><supplied reason="lost">listariorum</supplied> <gap reason="lost" extent="unknown" unit="character"/><orig>mvppatrenovi</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="15"/><gap reason="lost" extent="unknown" unit="line"/>
                     </ab>
             </div>
             <div type="apparatus">
-                <p>Edition based on AE 1984, 804.</p>
+                <p>Edition based on AE 1984, 0804, with modifications .</p>
                 <p>
+                    <app loc="1-2"><note>Salvis ddd. nnn. imperato]ri<unclear>b</unclear>us [ - - - | - - - et glorio]sissimis, IosPE 01<hi rend="superscript">²</hi>, 449; Salvis d(ominis) n(ostris) tribus imperator]i<unclear>b</unclear>us[ - - - | - - - et glorio]sissimis, Solomonik 1983</note></app>
                     <app loc="4"><note>Valenti fratri</note></app>
-                    <app loc="8"><note>praetorio</note></app>
-                    <app loc="9"><note>clarissimus</note></app>
+                    <app loc="4-6"><note>Valente<surplus>m</surplus> fratre<supplied reason="lost"><surplus>m</surplus> | Valentiniani omnia</supplied> maximi et Grati<supplied reason="lost">a | no filio Valentinia</supplied>n(i) nepot<corr>e</corr>, IosPE 01<hi rend="superscript">²</hi>, 449, Solomonik 1983</note></app>
+                    <app loc="9-10"><note>co | [mes et magister, IosPE 01<hi rend="superscript">²</hi>, 449, Solomonik 1983; co | [mes per Thracias, Zuckerman 1991 (see commentary)</note></app>
                     <app loc="10"><note>maiestatique</note></app>
+                    <app loc="11"><note>administ]rante disponent<supplied reason="lost">e</supplied>, IosPE 01<hi rend="superscript">²</hi>, 449, Solomonik 1983</note></app>
+                    <app loc="12-14"><note>decemprimo | <supplied reason="lost">devotissimorum mecha</supplied>n<supplied reason="lost">ic</supplied>orum seu bal | <supplied reason="lost">listariorum iunioru</supplied>m (or Dafnensiu]m), Zuckerman 1991; decemprimo | <supplied reason="lost">praeposito</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">a</supplied>norum se<supplied reason="lost">n(iorum)</supplied> bal | <supplied reason="lost">listariorum</supplied>, IosPE 01<hi rend="superscript">²</hi>, 449, Solomonik 1983</note></app>
+                    <app loc="14"><note>curante]<surplus>m</surplus> v(iro) p(erfectissimo) patre novi | <gap reason="lost" extent="unknown" unit="character"/>, IosPE 01<hi rend="superscript">²</hi>, 449, Solomonik 1983; [per - - -]m v(irum) p(erfectissimum) pat(ronum) (?) removi[t / et - - - ], Alföldy 1984 (see commentary)</note></app>
                 </p>
             </div>
             <div type="translation" xml:lang="en">
-                <p>“To the very strong and very glorious triumpher Princes Valentinian, very victorious master, and his brother Valens, our master ... maximus and Gratian ... our master Valens’s nephew, always Augusti, Domitius Modestus, of clarissimus rank (?), praetorian prefect and ... of clarissimus rank, comes and magister devoted to their divine spirit and majesty ... disposing ... decemprimus appointed ... of the ballistae makers through ... removed the perfectissimus patron and ...”</p>
+                <p>“To the very strong and very glorious Triumphant Princes Valentinian, very Victorious master, and Valens, his brother, our master and greatest … and Gratian ... our master, nephew of Valens, forever Augusti, Domitius Modestus, of clarissimus rank, praetorian prefect and ... of clarissimus rank, count … devoted to their divine spirit and majesty ... disposing ... decemprimus ... of the ballistarii...”</p>
             </div>
             <div type="translation" xml:lang="fr">
-                <p>“...”</p>
+                <p>“Aux princes triomphants les très forts et les très glorieux Valentinien, seigneur très victorieux, et son frère Valens, notre seigneur... maximum et Gratien... notre seigneur, neveu de Valens, toujours Augusti, Domitius Modestus, clarissime préfet du prétoire et ..., clarissime comte ..., dévoués à leur divinité et à leur majesté ... sous le contrôle de ... decemprimus ... des ballistarii...”</p>
             </div>
             <div type="translation" xml:lang="it">
-                <p>“Ai Principi trionfatori fortissimi e gloriosissimi Valentiniano signore vittoriosissimo e suo fratello Valente, nostro signore ... massimo e Graziano ... nostro signore nipote di Valente sempre Augusti, Domitius Modestus, chiarissimo (?), prefetto del pretorio e ... chiarissimo, <foreign>comes</foreign> e <foreign>magister</foreign>, devoti al nume e alla maestà loro ... disponendo ... decemprimo preposto ... dei costruttori di balliste per ... ha rimosso il patrono perfettissimo e ...”</p>
+                <p>“Ai Principi trionfatori fortissimi e gloriosissimi Valentinianus signore vittoriosissimo e suo fratello Valens, nostro signore ... massimo e Graziano ... nostro signore, nipote di Valens, sempre Augusti, Domitius Modestus, chiarissimo, prefetto del pretorio e ..., chiarissimo, comes ..., devoti al nume e alla maestà loro ... disponente ... decemprimo ... dei ballistarii...”</p>
             </div>
             <div type="commentary">
-                <p>Domitius Modestus was praetorian prefect of Oriens from 369 to 377 AD under the emperor Valens. On his career cfr. Vogler 1992, pp. 450, 453-454, 458-460.
-                The inscription is a dedication made by Modestus to all the emperors, both of the Eastern and the Western part of the empire, that is Valens in the East and Valentinian I in the West together with his son Gratian.</p>
+                <p>The inscription was found in 1905 on the ancient site of Cherson in the Crimea, near the modern city of Sevastopol. The inscription was placed at the top of a stone block that had been reused in a Byzantine wall; the bottom and the left sides of the epigraphic field are lost and the text is hardly legible after the operations that were carried out to remove the limestone from the epigraphic field. It was first published in 1907 by M.I. Rostovzev (= <ref type="inscription">AE 1907, 0164</ref> = <ref type="inscription">AE 1908, 0178</ref>), who also took care of the edition of the document in IosPE (01<hi rend="superscript">²</hi>, 449). A new edition was provided in 1983 by E.I. Solomonik, in her collection of the Latin inscriptions from Cherson (Solomonik 1983, pp. 28-30, with pl. nr. 3). Basing their work on this last publication, G. Alföldy and C. Zuckerman have proposed important new readings of this fragmentary text (Alföldy 1984, p. 786; Zuckerman 1991, pp. 550-551).</p>
+<p>As the remarkable dimensions of the fragment show, the inscription must have originally been of considerable size: we do not know how many lines of text are lost at the bottom, but from the integration in l. 8 (<foreign>clarissimus praef]ectus pr(a)etorio</foreign>) it can be supposed one half or perhaps a little more of the epigraphic field on the left has been lost (making an original width of around one meter at least).</p>
+<p>The text opens with a dedication to the emperors Valentinian, Valens and Gratian (ll. 1-7) which emphasizes the unity of the imperial college, underlining the family ties between the three rulers (cf. Lenski 2002, p. 357). After the dedication comes the mention of the praetorian prefect Domitius Modestus and another official of clarissimus rank, whose name is not preserved. His fragmentary titulature suggests that he was a military commander: a <foreign>co[mes et magister</foreign> according to the editors (that is, a <foreign>magister militum</foreign>: cf. PLRE I, Anonymus 21, pp. 1009-1010); a <foreign>co[mes per Thracias</foreign> according to Zuckerman, since the garrison of Cherson was usually attached to the army of the lower Danube (1991, p. 550; we have registered above that the city belonged to the Danubian province of Scythia, but there is no conclusive evidence on this point). 
+Both Modestus and the unknown officer are registered in the nominative case and this means that they were the authors of the dedication to the emperors. A third official is introduced in l. 11, as supervisor (<foreign>disponente</foreign>, which seems to be preceded by a similar word, perhaps <foreign>cu]rante</foreign> or <foreign>administ]rante</foreign>, although this formulation makes little sense) of the operation that was celebrated in the second part of the text. Nor is his name preserved, but the inscription styles him <foreign>decemprimus</foreign> (l. 12). 
+Here probably the term designates not a member of the curial élite, but a position reserved for the first ten senior members of the protectors (cf. <ref type="source">CTh 06, 24, 07-11</ref>, with Jones 1964, p. 639) and the fragmentary reference in the following line to ballistarii suggests that this official was in charge of such a unit. 
+The reading of the text in the last preserved line of the inscription is unclear. Alföldy proposed to see the title of a fourth official of perfectissimus rank (and <foreign>patronus</foreign>?), responsible for the action referred at the end of the line: <foreign>per - - -]m v(irum) p(erfectissimum) pat(ronum)? removi[t | et - - -</foreign> (Alföldy 1984, p. 786); but Rostovzev and Solomink printed <foreign>renovi</foreign> not <foreign>removi</foreign> in their editions. The abbreviation of the rank and titulature, which is not attested for the other officials, is also problematic. 
+Moreover, Zuckerman (1991, p. 551) has pointed out that the restitution of the unit’s name from l. 13 can hardly leave enough room for another official and has cautiously suggested that the gap at the beginning of l. 14 be filled with <foreign>bal | [listariorum iunioru]m</foreign> (or <foreign>Dafnensiu]m</foreign>; for the identification of the unit, see below). If we follow this solution, the significance of the second part of the line (<foreign>vppatrenovi</foreign>[; the photo in Solomonik 1983 does not allow us to check the reading) remains unclear.</p>
+<p>The fragmentary text thus combines a dedication to the emperors – the reference to the devotion of the two high-ranking officials to the divine spirit and the majesty of the emperors in ll. 10-11 should imply also a representation of the imperial college – with the celebration of works that had been carried out in the city. Although the fragmentary condition of the text makes it difficult to clarify the reason behind the dedication, the inscription is a crucial document for the history of the Roman presence in this strategic stronghold in the northern Black Sea (on Cherson in late antiquity, see Ščukin, Kazanski, Sharov 2006, pp. 75-76; Jastrzębowska 2001, pp. 399-418). 
+The text can be dated to 370-375 AD, after the beginning of the prefecture of Domitius Modestus (see <ref type="ppret" corresp="ppret68">PPRET 68</ref>) and before the death of the emperor Valentinian I (November 17th 375 AD.) It also offers the earliest testimony to the presence of a garrison of <foreign>ballistarii</foreign> at Cherson. This unit of the Roman army, composed of light-armed soldiers equipped with hand-held crossbows (see Baatz 1999, pp. 5-19; Campbell 2003, pp. 37-43), is also attested in Cherson in an inscription dated to 487-488 AD, that celebrates the renovation of the city walls under the supervision of the κόμης Diogenes (CIG 04, 08621 = Latyshev, Christian Greek Inscriptions from South Russia, nr. 7 = <ref type="inscription" corresp="https://iospe.kcl.ac.uk/5.6.html">IosPE3 5,6</ref>; cf. PLRE II, Diogenes 7, p. 361); another inscription, recording the construction of a wall in Cherson during the reign of Theodosius I (<ref type="inscription">IosPE 01<hi rend="superscript">²</hi>, 450</ref> = <ref type="inscription" corresp="https://iospe.kcl.ac.uk/5.5.html">IosPE3 5, 5</ref>, refers to “mechanics” who might have belonged to the same unit (Zuckerman 1991, p. 550). 
+The unit of <foreign>ballistarii</foreign> remained at Cherson for a long time and went on to influence the city’s history, when they were transformed into an indigenous militia allied to the Roman Empire from the time of Diocletian (<ref type="source">Const. Porph., De Adm. Imp.</ref>, ed. Moravcsik, pp. 258-267). Nevertheless, these <foreign>ballistarii</foreign> belonged to the Roman army and might well be identified the <foreign>b. Dafnenses</foreign> or the <foreign>b. Iuniores</foreign> listed in the <title>Notitia Dignitatum</title> under the disposition of the master of the soldiers of Thracia (<ref type="source">Not.Dign. Or. 08, 46-47</ref>; see Zuckerman 1991, pp. 549-550; Zuckerman 1995, pp. 549-553).</p>
+<p>They had probably been deployed in Crimea round about the time of our inscription because we know that during the tetrarchic period, Cherson was guarded by a different unit, a vexillation of the Scythian <foreign>legio II Herculia</foreign> and of the Moesian <foreign>legio I Italica</foreign> (Alföldy 1984, pp. 785-786; this garrison too was overseen by a protector: see <ref type="inscription">IosPE 01<hi rend="superscript">²</hi>, 656</ref> = Solomonik 1983, pp. 27-28, nr. 2, with Zuckerman 1995, pp. 553-554). 
+Although the date of the withdrawal of this tetrarchic unit is unknown, C. Zuckerman points to a passage of Zosimus concerning the future usurper Procopius who hid in Cherson in 364-365 AD, which may suggest that no Roman garrison was installed there at the beginning of the rule of the Pannonian brothers (<ref type="source">Zos. 04, 05, 02</ref>; Zuckerman 1991, p. 552, nt. 93; Zuckerman 1995, p. 558; Paschoud 1979, pp. 340-341, is skeptical about the reliability of this passage; cf. Lenski 2002, pp. 70-71). It is therefore possible that the deployment of the <foreign>ballistarii</foreign> in Cherson was decreed by the emperor Valens only after the usurpation of Procopius (365-366 AD). This chronology suggests a clear connection between the arrival of the new garrison in Cherson and our inscription.</p>
+<p>The sources furnish plenty of evidence about the defence of the frontier under Valentinian and Valens, which became ever more intense after the appointment of Gratian as Augustus in 367 AD. This activity resulted in the construction of military forts, the renovation of city walls and the location of new garrisons in strategic places (see Lenski 2002, pp. 375-379, with a list of datable evidence). 
+Cherson, a fortress in the Crimean Peninsula, was one of these places. The inscription probably celebrated operations related to the settlement of the new garrison in Cherson: even if the interpretation of l. 14 remains uncertain, the last letters may refer, reading <foreign>renov[avit/ari</foreign> instead of <foreign>renovi</foreign>[, to a restoration of the city defences, completed by the <foreign>ballistarii</foreign> unit (this solution was already suggested by Rostovzev: <ref type="inscription">IosPE 01<hi rend="superscript">²</hi>, p. 410, nr. 449</ref>). The importance of this intervention is confirmed by the considerable size of the inscription and by the reference to Domitius Modestus, the powerful high official of Valens, who held the prefecture of the East from 370 to 377 AD (see <ref type="ppret" corresp="ppret68">PPRET 68</ref> for a detailed discussion of his career). 
+The inscriptions of these years referring to building activity carried out along the frontier usually make reference only to the military officials who were responsible for the area and to the commanders of the units who actually carried the work out (see the dossier concerning the activity supervised by the master of the soldiers Fl. Equitius in Illyricum: references in PLRE I, p. 282). In the inscription from Cherson, Domitius Modestus is the first official to be recorded from the imperial college.  A prefect spending so much time and money on the Crimea is certainly a little hard to conceive. Nevertheless, the prominence of the inscription indicates the importance of the operations carried out in the city.</p>
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
-                    <bibl><ref>Rostovzev 1907, p. 6</ref> = <bibl><ref>AE 1907, 164</ref></bibl> = <bibl><ref>AE 1908, 178</ref></bibl> </bibl> 
-                    <bibl><ref>Solomonik 1983, pp. 28-30, nr. 3</ref>, with photo = <bibl><ref>AE 1984, 804</ref></bibl></bibl> 
-                    <bibl><ref>IosPE I² 449</ref></bibl>
+                    <bibl><ref>Rostovzev 1907, p. 6</ref> = <bibl><ref>AE 1907, 0164</ref></bibl> = <bibl><ref>AE 1908, 0178</ref></bibl> </bibl> 
+                    <bibl><ref>IosPE 01<hi rend="superscript">²</hi> 449</ref></bibl>
+                    <bibl><ref>Solomonik 1983, pp. 28-30, nr. 3</ref>, with photo (pl. 3) = <bibl><ref>AE 1984, 0804</ref></bibl></bibl>
+                    <bibl><ref>Alföldy 1984, p. 786</ref></bibl>
+                    <bibl><ref>Zuckerman 1991, pp. 550-551</ref></bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="images">
@@ -147,11 +166,18 @@
             </div>
             <div type="bibliography" subtype="other">
                 <p>
-                    <bibl>Alföldy G., Review of Latinskie nadpisi Chersonesa tavriceskogo. Latin inscriptions of Chersonesus Tauric, Gnomon, 56, 1984, 784-786 (786)</bibl>
-                    <bibl>Brauch T., Notes on the prefects of Constantinople AD 366-369, Byzantion, 72, 2002, 42-104</bibl>
-                    <bibl>Rostovzev M., Novye latinskije nadpisy iz Chersonesa, Izvestija Imperatorskoj Arheologičeskoj Komissii, 23, 1907, 1-20</bibl> 
-                    <bibl>Solomonik, Latinskie nadpisi Chersonesa tavriceskogo, Moskva 1983</bibl> 
-                    <bibl>Vogler C., L’administration impériale dans la correspondance de saint Basile et saint Grégoire de Naziance, in Chistol M., Demougin S., Duval Y. (éds.), Institutions, société et vie politique dans l’Empire romain au IVe siècle ap. J.-C. Actes de la table ronde autour de l’oeuvre d’André Chastagnol (Paris, 20-21 janvier 1989), Paris–Rome 1992, 447-464</bibl>
+                    <bibl>Alföldy G., Review of Latinskie nadpisi Chersonesa Tavričeskogo (Latin inscriptions of Chersonesus Tauric), Gnomon, 56, 1984, 784-786</bibl>
+                    <bibl>Baatz D., Katapulte und mechanische Handwaffen des spätrömischen Heeres, JRMES, 10, 1999, 5-19
+Campbell D.B., Greek and Roman Artillery 399 BC – AD 363, Oxford 2003</bibl>
+                    <bibl>Jastrzębowska E., Chersonèse dans l’antiquité tardive: état des recherches et bibliographie, AntTard, 9, 2001, 399-418</bibl>
+                    <bibl>Jones A.H.M., The Later Roman Empire, 284-602. A Social, Economic and Administrative Survey, 3 vols., Oxford 1964</bibl>
+                    <bibl>Lenski N., Failure of Empire. Valens and the Roman State in the Fourth Century A.D., Berkeley-Los Angeles-London 2002</bibl>
+                    <bibl>Paschoud F. (texte établi et trad. par), Zosime. Histoire Nouvelle. T. II, 2a partie (Livre IV), Paris 1979</bibl>
+                    <bibl>Rostovzev M., Novye latinskije nadpisy iz Chersonesa (New Latin Inscriptions from Chersonesus), Izvestija Imperatorskoj Arheologičeskoj Komissii, 23, 1907, 1-20</bibl>
+                    <bibl>Ščukin M., Kazanski M., Sharov M., Des les goths aux huns. Le nord de la mer noire au Bas-empire et à l’époque des grandes migrations, Oxford 2006</bibl>
+                    <bibl>Solomonik, Latinskie nadpisi Chersonesa Tavričeskogo (Latin Inscriptions of Chersonesus Tauric), Moskva 1983
+Zuckerman C., The Early Byzantine Strongholds in Eastern Pontus, T&amp;M, 11, 1991, 527-553</bibl>
+                    <bibl>Zuckerman C., Episkopy i garnizon Hersona v IV veke (The bishops and the Garrison of Cherson in the 4th Century), in Materialy po arheologii,istorii i etnografii (Materials on Archaeology, History and Ethnography of Tauris) 4, Simféropol 1995, 545-561</bibl>
                 </p>
             </div>
             
@@ -162,11 +188,12 @@
                 
                 <div type="commentary" n="7">
                     <p n="7.2"></p>
+                    <p n="7.4"></p>
                 </div>
                 
                 <div type="commentary" n="8">
-                    <p n="8.1">vir [clarissimus?]</p>
-                    <p n="8.2">[praef]ẹc̣ṭus pretorio</p>
+                    <p n="8.1">vir [clarissimus]</p>
+                    <p n="8.2">[praef]ẹc̣ṭus pr(a)etorio</p>
                     <p n="8.5"></p>
                     <p n="8.9"></p>
                     <p n="8.11"></p>

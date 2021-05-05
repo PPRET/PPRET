@@ -17,7 +17,9 @@
             </publicationStmt>
             <sourceDesc>
                 <listPerson>
-                    <person><persName ref="#Salutius"><name type="cognomen">Saturninius</name> <name type="cognomen">Secundus</name> <name type="cognomen">Salutius</name></persName></person>
+                    <person><persName ref="#Salutius"><name type="gentilicium">Saturninius</name>
+                            <name type="cognomen">Secundus</name>
+                            <name type="signum">Salutius</name></persName></person>
                 </listPerson>
                 <msDesc>
                     <msIdentifier>
