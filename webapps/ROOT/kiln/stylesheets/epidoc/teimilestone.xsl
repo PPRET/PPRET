@@ -15,6 +15,10 @@
          <xsl:text> </xsl:text>
       </xsl:if>
   </xsl:template>
+   
+   <xsl:template match="t:milestone[@unit='fragment']"> <!-- added for PPRET -->
+      <br/><i><strong><xsl:text>(fr. </xsl:text><xsl:value-of select="@n"/><xsl:text>) </xsl:text></strong></i>
+   </xsl:template>
 
   <xsl:template match="t:milestone[@rend = 'box']">
      <xsl:param name="parm-internal-app-style" tunnel="yes" required="no"></xsl:param>

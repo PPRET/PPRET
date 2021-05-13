@@ -51,7 +51,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>One inscribed field (frons).</p>
+                                    <p>One inscribed field (<foreign>frons</foreign>).</p>
                                     <rs type="execution" ref="#chiselled">chiselled</rs>
                                     <rs type="preservation" ref="#fragmentary">Fragmentary.</rs>
                                 </layout>
@@ -76,7 +76,7 @@
                             </origPlace>
                             <origDate period="#p5" notBefore="0351" notAfter="0352">351/352 AD</origDate>
                         </origin>
-                        <provenance type="found"><placeName ref="#">Perge</placeName>, found by Jean Bean near the western pillar of the Hadrian’s Gate</provenance>
+                        <provenance type="found"><placeName ref="#">Perge</placeName>, found by George Ewart Bean near the western pillar of the Hadrian’s Gate</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -92,7 +92,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="grc">
                 <ab>
-                    <lb n="1"/><expan><abbr>Φλ</abbr><ex>άουιον</ex></expan> Φίλιππον τὸν <expan><abbr>λαμπρ</abbr><ex>ότατον</ex></expan> ἔπαρχον,
+                    <lb n="1"/><expan><abbr>Φλ</abbr><ex>άβιον</ex></expan> Φίλιππον τὸν <expan><abbr>λαμπρ</abbr><ex>ότατον</ex></expan> ἔπαρχον,
                     <lb n="2"/>τὸν τῶν ὅλων εὐεργέτην καὶ τῶν ὅ<lb
                         break="no" n="3"/>λων διορθωτὴν, ἡ Βουλὴ τῆς Περ<lb 
                             break="no" n="4"/>γαίων λαμπρᾶς μητροπ<supplied reason="lost">ό</supplied>λεως.
@@ -111,27 +111,27 @@
                 <p>“Al chiarissimo prefetto del pretorio Flavius Philippus, munifico sotto ogni aspetto e correttore di ogni cosa, il consiglio della splendente metropoli di Perge.”</p>
             </div>
             <div type="commentary">
-                <p>This fragmentary marble slab was found at Perge by Jean Bean sometime before 1970, after which it was brought to the Antalya Museum. This large slab, bearing the inscription carved in honour of Flavius Philippus (for his career, see <ref type="ppret" corresp="ppret27">PPRET 27</ref>), was discovered on the western foot of Hadrian’s Gate, on its side facing the city. Şahin (2015, p. 177) assumed that this Greek inscription is flanked on the right and on the left by a long Latin inscription concerning Philippus (the name Philippus in the vocative case could be seen on the third to last line of the right-hand column; we are very grateful to Prof. D. Feissel for showing us an image of the blocks on which the inscription in Latin is carved). 
-                    The Latin text preserves an exceptional document: an <foreign>Oratio ad Senatum</foreign> (BE 2016, pp. 569-570), of whom which about fifty lines has survived (the text was longer than what can be seen today), by Constantius II addressed to the Senate of Constantinople, in which the emperor informed the senators of his wish to erect statues to his praetorian prefect Flavius Philippus (see <ref type="ppret" corresp="ppret31">PPRET 31</ref>).</p> 
-                <p>Even if we do not possess any photographic reproduction of these inscriptions, it is clear that in this city, near Hadrian’s Gate, a monument had been erected in honour of Flavius Philippus that included both texts and was composed as follows. The shorter Greek inscription was carved on a marble slab that was originally attached to the lower central housing between the two pillars, upon which the latin inscription, the <foreign>Oratio ad Senatum</foreign>, was placed. This long and still unpublished text is divided into two parts: it begins at the marble base on the left side and continues along the right one. The statue stood at the centre of the arrangement, on the top of the greek inscription (Onur 2017, p. 135).</p>  
-                <p>If this reconstruction is correct, this monument is the most complete epigraphic dossier in honour of Philippus (<ref type="ppret" corresp="ppret27">PPRET 27</ref>, <ref type="ppret" corresp="ppret28">PPRET 28</ref>, <ref type="ppret" corresp="ppret30">PPRET 30</ref>, <ref type="ppret" corresp="ppret31">PPRET 31</ref>). 
+                <p>This fragmentary marble slab was found at Perge by George Ewart Bean sometime before 1970, after which it was brought to the Antalya Museum. This large slab, bearing the inscription carved in honour of Flavius Philippus (for his career, see <ref type="ppret" corresp="ppret27">PPRET 27</ref>), was discovered on the western foot of Hadrian’s Gate, on its side facing the city. Şahin (2015, p. 177) assumed that this Greek inscription is flanked on the right and on the left by a long Latin inscription concerning Philippus (the name Philippus in the vocative case could be seen on the third to last line of the right-hand column; we are very grateful to Prof. D. Feissel for showing us an image of the blocks on which the inscription in Latin is carved). 
+                    The Latin text preserves an exceptional document: an <foreign>Oratio ad Senatum</foreign> (BE 2016, 595; see <ref type="ppret" corresp="ppret31">PPRET 31</ref>), of which about fifty lines has survived (the text was longer than what can be seen today), by Constantius II addressed to the Senate of Constantinople, in which the emperor informed the senators of his wish to erect statues to his praetorian prefect Flavius Philippus.</p> 
+                <p>Even if we do not possess any photographic reproduction of these inscriptions, it is clear that in this city, near Hadrian’s Gate, a monument had been erected in honour of Flavius Philippus that included both texts and was composed as follows. The shorter Greek inscription was carved on a marble slab that was originally attached to the lower central housing between the two pillars, upon which the Latin inscription, the <foreign>Oratio ad Senatum</foreign>, was placed. This long and still unpublished text is divided into two parts: it begins at the marble base on the left side and continues along the right one. The statue stood at the centre of the arrangement, on the top of the Greek inscription (Onur 2017, p. 135, nt. 5).</p>  
+                <p>If this reconstruction is correct, this monument is the most complete epigraphic dossier in honour of Philippus (<ref type="ppret" corresp="ppret27">PPRET 27</ref>, <ref type="ppret" corresp="ppret28">PPRET 28</ref>, <ref type="ppret" corresp="ppret31">PPRET 31</ref>). 
                     Not only was the construction monumental, it was also bilingual, comprising a Latin copy of an imperial communication relating to the erection of the monument itself, and a Greek one celebrating the honoured personage. Our inscription is different from the Latin one of Chytri, dedicated by Constantius II Augustus and Gallus Caesar (see <ref type="ppret" corresp="ppret27">PPRET 27</ref>), since it was composed in Greek by the local city council, albeit by order of Constantius II.</p> 
-                <p>Maybe a copy of the communication to the Senate of Constantinople (<ref type="ppret" corresp="ppret31">PPRET 31</ref>) was sent to the provincial governors along with a copy of the imperial letter (<ref type="ppret" corresp="ppret28">PPRET 28</ref>), both ordering the erection of statues to Flavius Philippus. Once the provincial governor had chosen Perge among the <foreign>opimae urbes</foreign> (<ref type="ppret" corresp="ppret28">PPRET 28</ref>, l. 31) and <foreign>celeberrimi loci</foreign> (<ref type="ppret" corresp="ppret31">PPRET 31</ref>, ll. 3-4), these documents would have then be forwarded to the local city administration.</p> 
+                <p>It seems therefore that the emperor Constantius II took (at least) two simultaneous but separate decisions, both aimed at having golden statues made in the cities of the East. Firstly, a series of gilded statues to Philippus was commissioned and financed directly by Constantius II (with Gallus) to be made probably by the provincial governors and at the expense of Augustus (<ref type="ppret" corresp="ppret27">PPRET 27</ref> Chytri), which may be linked to the letter of Ephesus (<ref type="ppret" corresp="ppret28">PPRET 28</ref>) if the commissioner of the statues was the emperor. Secondly, a series of gilded statues to Philippus was decreed by Constantius II and made directly by the senate of Constantinople and by the cities, probably at the expense of the civic coffers, as seems to be deduced from the <foreign>Oratio ad Senatum</foreign> (<ref type="ppret" corresp="ppret31">PPRET 31</ref>) and from this Greek inscription from Perge, both dedicated to the senator on behalf of the individual cities.</p> 
                 <p>In such a way the city council of Perge honoured Flavius Philippus as both benefactor and <foreign>corrector</foreign> in every respect since, as Constantius II claimed, “through his efforts he took care of almost every city and inhabitant” (<foreign>quia non minus eius laboribus omnium fere civitatum commodis populisque prospectum est</foreign>, <ref type="ppret" corresp="ppret31">PPRET 31</ref>).</p> 
-                <p>The monument from Perge is the consequence of the same decision that Constantius II took to honour his prefect Philippus, as also occured in Chytri and Ephesus (<ref type="ppret" corresp="ppret27">PPRET 27</ref> and <ref type="ppret" corresp="ppret28">PPRET 28</ref>); the inscriptions from Perge can be dated to the period 351/352 AD.</p>
+                <p>Also the inscriptions from Perge can be dated to the period 351/352 AD.</p>
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
-                    <bibl><ref>Şahin 2015, pp. 177-178, nr. 1</ref></bibl>
-                    <bibl><ref>BE 2016, 595</ref></bibl>
+                    <bibl><ref>Şahin 2015, pp. 177-178, nr. 1</ref> = <bibl><ref>AE 2015, 1557</ref></bibl> = <bibl><ref>BE 2016, 595</ref></bibl></bibl>
+                    
                 </p>
             </div>
             
             <div type="bibliography" subtype="other">
                 <p>
-                    <bibl>Moser M., Emperor and senators in the reign of Constantius II: maintaining imperial rule between Rome and Constantinople in the fourth Century AD, Cambridge 2018, 198-199</bibl> 
-                    <bibl>Onur F., The Anastasian Military Decree from Perge in Pamphylia: Revised 2nd Edition, Gephyra, 14, 2017, 134-135</bibl> 
-                    <bibl>Şahin S., Spätrömisch-frühbyzantinische Inschriften aus Perge in Pamphylien, Inscriptions in Byzantium and Beyond. Methods, Projects, Case Studies, Wien 2015, 177-178, nr. 1</bibl>
+                    <bibl>Moser M., Emperor and Senators in the Reign of Constantius II. Maintaining Imperial Rule between Rome and Constantinople in the Fourth Century AD, Cambridge 2018</bibl> 
+                    <bibl>Onur F., The Anastasian Military Decree from Perge in Pamphylia: Revised 2nd Edition, Gephyra, 14, 2017, 133-212</bibl> 
+                    <bibl>Şahin S., Spätrömisch-frühbyzantinische Inschriften aus Perge in Pamphylien, in Rhoby A. (ed.), Inscriptions in Byzantium and Beyond. Methods – Projects - Case Studies, Wien 2015, 177-185</bibl>
                 </p>
             </div>
             

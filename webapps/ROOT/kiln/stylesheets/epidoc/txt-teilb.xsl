@@ -46,10 +46,10 @@
                   <!-- in which case the hyphen will be inserted before the space/g or final ']' of supplied
                      (tested by EDF:f-wwrap in teig.xsl, which is called by teisupplied.xsl, teig.xsl and teispace.xsl) -->
                   <xsl:when test="preceding-sibling::node()[1][local-name() = 'space' or
-                     local-name() = 'g' or (local-name()='supplied' and @reason='lost') or
+                     local-name() = 'g' or (local-name()='supplied' and @reason='lost' and not(@evidence='previouseditor')) or
                      (normalize-space(.)='' 
                      and preceding-sibling::node()[1][local-name() = 'space' or
-                     local-name() = 'g' or (local-name()='supplied' and @reason='lost')])]"/>
+                     local-name() = 'g' or (local-name()='supplied' and @reason='lost' and not(@evidence='previouseditor'))])]"/>
                   <xsl:otherwise>
                      <xsl:text>=</xsl:text> <!-- changed for PPRET -->
                   </xsl:otherwise>
