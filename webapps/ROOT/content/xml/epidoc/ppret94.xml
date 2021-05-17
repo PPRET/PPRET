@@ -60,7 +60,7 @@
                                 <layout>
                                     <p>Two slabs with indication of seats (<foreign>loca</foreign>) reserved to senators in the amphitheatre (originally blocks of the <foreign>corona podi</foreign>).</p>
                                     <rs type="execution" ref="#carved">Carved</rs>
-                                    <rs type="preservation" ref="#fragmentary">Fragmentary</rs>
+                                    <rs type="preservation" ref="#fragmentary">Fragmentary.</rs>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -81,7 +81,7 @@
                                 <placeName type="prefecture">Italia Illyricum Africa</placeName>
                                 <placeName type="ancient_location" ref="#public">Public space: (Flavian amphitheatre / Colosseum)</placeName>
                             </origPlace>
-                            <origDate period="#p8" when="0431" precision="high">September 13th 431 AD</origDate>
+                            <origDate period="#p8" notBefore="0380" notAfter="0394">380/394 AD</origDate>
                         </origin>
                         <provenance type="found"><placeName ref="#Roma">Roma</placeName>, Flavian amphitheatre / Colosseum</provenance>
                         <provenance type="observed"></provenance>
@@ -100,7 +100,7 @@
             <div type="edition" xml:space="preserve" xml:lang="la">
                 <div type="textpart" n="A">
                     <ab>
-                        <lb n="1"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>
+                        <lb n="1"/><del rend="erasure"><gap reason="illegible" extent="unknown" unit="character"/>- - -</del>
                     </ab>
                 </div>
                 <div type="textpart" n="B">
@@ -110,7 +110,7 @@
                 </div>
                 <div type="textpart" n="C">
                     <ab>
-                        <lb n="1"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>
+                        <lb n="1"/><del rend="erasure"><gap reason="illegible" extent="unknown" unit="character"/>- - -</del>
                     </ab>
                 </div>
                 <div type="textpart" n="D">
@@ -120,7 +120,7 @@
                 </div>
                 <div type="textpart" n="E">
                     <ab>
-                        <lb n="1"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>
+                        <lb n="1"/><del rend="erasure"><gap reason="illegible" extent="unknown" unit="character"/>- - -</del>
                     </ab>
                 </div>
                 <div type="textpart" n="F">
@@ -130,7 +130,7 @@
                 </div>
                 <div type="textpart" n="G">
                     <ab>
-                        <lb n="1"/>Viri <supplied reason="lost">Ni</supplied>comac<supplied reason="lost" cert="low">hi Flaviani</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="1"/>Viri <supplied reason="lost">Ni</supplied>comac<supplied reason="lost">hi Flaviani</supplied><gap reason="lost" extent="unknown" unit="character" cert="low"/>
                     </ab>
                 </div>
                 <div type="textpart" n="H">
