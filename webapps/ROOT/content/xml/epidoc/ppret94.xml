@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Locum in the Flavian Amphitheatre in Roma reserved to the praet. prefect Virius Nicomachus Flavianus senior</title>
+                <editor role="edition">Giordana Franceschini</editor>
+                <editor role="encoding">Giordana Franceschini</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="new">94</idno>
+                <date when="2021-05-17"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Flavianus1"><name type="praenomen">Virius</name>
+                            <name type="gentilicium">Nicomachus</name>
+                            <name type="cognomen">Flavianus</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Roma">Roma, Colosseum, storeroom I ordine</repository>
+                        <idno type="invNo">441188, 441183</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#building">Ownership inscription</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">White marble</material>
+                                    <objectType ref="#base">Crowning slab of a <foreign>podium</foreign> (reworked marble blocks of the <foreign>corona podii</foreign>)</objectType>
+                                    <dimensions corresp="Slab I">
+                                        <height>56</height>
+                                        <width>107</width>
+                                        <depth>21</depth>
+                                    </dimensions>
+                                        <dimensions corresp="Slab II">
+                                        <height>37</height>
+                                        <width>60.5</width>
+                                        <depth>21</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">yes, the inscriptions have been erased and others have been engraved on them: C was inscribed on B, D on C, F and G on E (see the commentary below)</rs>
+                                    <rs type="monument_reuse">no</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Two slabs with indication of seats (<foreign>loca</foreign>) reserved to senators in the amphitheatre (originally blocks of the <foreign>corona podi</foreign>).</p>
+                                    <rs type="execution" ref="#carved">Carved</rs>
+                                    <rs type="preservation" ref="#fragmentary">Fragmentary</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#rustic_capitals">Rustic Late Roman capital</term>
+                                <height>8 / 15.5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Roma</placeName>
+                                <placeName type="modern_city">Rome (Italy)</placeName>
+                                <placeName type="province">Urbs</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#public">Public space: (Flavian amphitheatre / Colosseum)</placeName>
+                            </origPlace>
+                            <origDate period="#p8" when="0431" precision="high">September 13th 431 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#Roma">Roma</placeName>, Flavian amphitheatre / Colosseum</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                <div type="textpart" n="A">
+                    <ab>
+                        <lb n="1"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>
+                    </ab>
+                </div>
+                <div type="textpart" n="B">
+                    <ab>
+                        <lb n="1"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/>, <expan><abbr>c</abbr><ex>larissim-</ex></expan> <expan><abbr>v</abbr><ex>ir-</ex></expan></del>
+                    </ab>
+                </div>
+                <div type="textpart" n="C">
+                    <ab>
+                        <lb n="1"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>
+                    </ab>
+                </div>
+                <div type="textpart" n="D">
+                    <ab>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>, <expan><abbr>v</abbr><ex>ir-</ex></expan> <expan><abbr>c</abbr><ex>larissim-</ex></expan>
+                    </ab>
+                </div>
+                <div type="textpart" n="E">
+                    <ab>
+                        <lb n="1"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>
+                    </ab>
+                </div>
+                <div type="textpart" n="F">
+                    <ab>
+                        <lb n="1"/><del rend="erasure">Firm</del><supplied reason="lost" unit="character" cert="low">i</supplied>
+                    </ab>
+                </div>
+                <div type="textpart" n="G">
+                    <ab>
+                        <lb n="1"/>Viri <supplied reason="lost">Ni</supplied>comac<supplied reason="lost" cert="low">hi Flaviani</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                    </ab>
+                </div>
+                <div type="textpart" n="H">
+                    <ab>
+                        <lb n="1"/><del rend="erasure"><expan><abbr>Fl</abbr><ex>avi-</ex></expan> V<gap reason="illegible" quantity="2" unit="character"/></del><gap reason="lost" extent="unknown" unit="character"/>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p>The text is based on Orlandi 2004.</p> 
+
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“...del chiarissimo...del chiarissimo...di Virius Nicomachus Flavianus...”</p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“...of clarissimus rank...of clarissimus rank...of Virius Nicomachus Flavianus...”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“...du clarissime...du clarissime...appartenent à Virius Nicomachus Flavianus...”</p>
+            </div>
+            <div type="commentary">
+                <p>The inscription is carved on two white marble slabs that originally crowned the <foreign>podium</foreign> in the Flavian amphitheatre. The <foreign>podium</foreign> ran along the parapet that divided the seating sectors of the first <foreign>maenianum</foreign>, which was reserved for senators (cf. Orlandi 1999a-b). The senators whose names were carved on the slabs were the owners of the seats (<foreign>loca</foreign>) in the amphitheatre. As pointed out by Orlandi 2004, since the two slabs are not contiguous they cannot be put together. Neverthless, typological compatibility, paleographic affinity and textual continuity prove that they originally formed a whole.</p>
+<p>Eight inscriptions (A-H), though heavily damaged, are partially visible on the two slabs.</p> 
+<p>First slab:</p>
+<p>A: In the upper left corner of the first slab, a meticulously chiseled zone on the stone reveals an inscription, now completely erased.</p>
+<p>B: In the lower part of the first slab traces of an erased inscription are visible; only traces at the end are still legible, mentioning the title of <foreign>clarissimus vir</foreign>.</p>
+<p>C: Another inscription (C) was placed on B. C too was erased later with a rougher technique.</p>
+<p>D: the inscription C has been erased and replaced with the final part of a non-erased text (D), which began on the contiguous marble slab on the left, now lost, and of which only the letters V. C. are preserved.</p>
+<p>Second slab:</p> 
+<p>E: In the upper right part of the second slab, small but dense chisel-blows indicate the presence, under F and G, of an older inscription, now completely erased.</p>
+<p>F: On the upper right edge of the second slab a partially erased inscription is still visible.</p>
+<p>G: the inscription E was erased, and an inscription was engraved on it. The inscription G continues on the first slab.</p>
+<p>H: It is likely that the inscription H began on the first slab, but the loss of its upper edge prevents certainty.</p>
+                <p>As we have seen, very few elements allow us to draw information, since the most part has been almost completely erased or lost. The most complete inscription is G. It gives us part of a name: <persName ref="#Flavianus1"><name type="praenomen">Virius</name> <name type="gentilicium">Nicomachus</name></persName>. Orlandi (2004, p. 485) rightly notes that the only senator having both those names in inscriptions is <persName ref="#Flavianus1"><name type="praenomen">Virius</name> <name type="gentiliciu,">Nicomachus</name> <name type="cognomen">Flavianus</name></persName> senior (PLRE I, p. 374; Orlandi 2004, pp. 484-487). 
+                    We can be quite sure that the latter is the famous senator who led a brilliant career during the reign of <persName type="ruler">Theodosius I</persName>, who, after taking part in the failed usurpation of <persName><name ref="#praenomen">Flavius</name> <name type="cognomen">Eugenius</name></persName> in 392 AD, took his own life, two years later. On the basis of this identification, the date of the inscription must be sometime before 394 AD (about <persName ref="#Flavianus1"><name type="cognomen">Flavianus</name></persName>’ career cf. <ref type="ppret" corresp="ppret92">PPRET 92</ref> and <ref type="ppret" corresp="ppret93">93</ref>). 
+                    Although <persName ref="#Flavianus1"><name type="cognomen">Flavianus</name></persName> senior suffered a decree of <foreign>damnatio memoriae</foreign> following the defeat in the battle of the river Frigidus, leading to his suicide (he was rehabilitated thirty-seven years after his death in 431 AD, cf. <ref type="ppret" corresp="ppret93">PPRET 93</ref>), this <foreign>podium</foreign> slab does not appear to have suffered its consequences: either the seat continued to be used by his descendants, or it could have been entirely replaced (for information about his son and grandson cf. <ref type="ppret" corresp="ppret93">PPRET 93</ref>). 
+                    Since inscriptions conferring ownership are essentially private documents, they do not come under the remit of a <foreign>damnatio memoriae</foreign> decree (Orlandi 2001, pp. 150-151; Orlandi 2004, p. 487). The inscription in honour of <persName ref="#Flavianus1"><name type="cognomen">Flavianus</name></persName> senior on the private property of <persName><name type="praenomen">Aurelius</name> <name type="gentilicium">Memmius</name> <name type="cognomen">Symmachus</name></persName> on the Caelian Hill also remained intact (<ref type="ppret" corresp="ppret92">PPRET 92</ref>) and the statue base dedicated to the senator as <foreign>vicarius <placeName ref="#Africa">Africae</placeName></foreign> and city patron in Leptis Magna (<ref type="inscription">IRT 475</ref>, see <ref type="ppret" corresp="ppret93">PPRET 93</ref>) seems to testify that <persName ref="#Flavianus1"><name type="cognomen">Flavianus</name></persName> did not remain politically inactive in the period between his <foreign>damnatio memoriae</foreign> in 394 AD and his official rehabilitation in 431 AD. 
+                    Orlandi (2013, pp. 81-82) suggests that the survival of the name of <persName ref="#Flavianus1"><name type="cognomen">Flavianus</name></persName> senior carved on the <foreign>locum</foreign> in the amphitheatre can easily be explained by the almost immediate removal of his <foreign>infamia</foreign> by <persName type="ruler">Honorius</persName> with <ref type="source">CTh 15, 14, 11</ref> (a. 395). It seems possible that the name of <persName ref="#Flavianus1"><name type="cognomen">Flavianus</name></persName> senior in inscriptions carved in the roman amphitheatre or in the Forum of Leptis Magna, when not associated with the offices obtained by <persName><name type="cognomen">Eugenius</name></persName> (a praetorian prefecture and the consulship), could have been preserved and not erased by virtue of Theodosian legislation that avoided infamy.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Orlandi 2004 [EAOR VI], pp. 426-428, nr. 17. 142</ref> (photo Tav. XXIV, 1-2)</bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR126719">EDR 126719</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+                  <bibl>Orlandi S., I «loca» senatori dell’Anfiteatro Flavio: analisi tecnica e ipotesi ricostruttive, in XI Congresso Internazionale di Epigrafia Greca e Latina (Roma, 18-24 settembre 1997): Atti, Roma 1999, 712-719 </bibl>
+                    <bibl>Orlandi S., Il Colosseo nel V secolo, in Harris W.V. (ed.), The Transformations of Urbs Roma in Late Antiquity, Portsmouth 1999, 249-263</bibl>
+                    <bibl>Orlandi S., Amicizie pericolose. Qualche nota su consoli nominati da usurpatori, in Peachin M. (ed.), Aspects of Friendship in the Graeco-Roman World: Proceedings of a Conference Held at the Seminar für Alte Geschichte, Heidelberg, on 10-11 June, 2000, Portsmouth 2001, 145-154</bibl>
+                    <bibl>Orlandi S., Epigrafia anfiteatrale dell’Occidente romano, VI, Roma: anfiteatri e strutture annesse, con una nuova edizione e commento delle iscrizioni del Colosseo, Roma 2004</bibl>
+                    <bibl>Orlandi S., Alan Cameron and the Use of Epigraphic Sources, in Lizzi Testa R. (ed.), The Strange Death of Pagan Rome. Reflections on a Historiographical Controversy, Turnhout 2013, 71-84</bibl>
+                    
+                </p>
+            </div>
+            
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                <div type="commentary" n="4">
+                    <p n="4"></p>
+                </div>
+                <div type="commentary" n="7">
+                    <p n="7.7"></p>
+                </div>
+                <div type="commentary" n="8">
+                    <p n="8.5"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

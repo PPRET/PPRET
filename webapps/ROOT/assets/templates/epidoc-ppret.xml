@@ -39,10 +39,10 @@
       <kiln:super />
       <script>
         $(document).ready(function highlight() {
-        var str = document.getElementById("inscription_full_edition").innerHTML;
         const params = new URLSearchParams(window.location.search);
         var q = params.get("q");
         var qq = q.replace(new RegExp('"|\\*', 'g'), '');
+        var str = document.getElementById("inscription_full_edition").innerHTML;
         var results = str.replace(new RegExp('('+qq+"(?![^&lt;&gt;]*&gt;)"+')', 'gi'), '<span class="highlight">$1</span>');
         document.getElementById("inscription_full_edition").innerHTML = results;
         });

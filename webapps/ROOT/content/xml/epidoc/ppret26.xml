@@ -199,7 +199,7 @@
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
-                    <bibl><ref>Waddington 1870, nr. 2475</ref> <ref>[W 2475]</ref> (a)</bibl>
+                    <bibl><ref>Waddington 1870, nr. 2475</ref> [W 2475] (a)</bibl>
                     <bibl><ref>CIL 03, 00124</ref> (cf. p. 970) (a)</bibl>
                     <bibl><ref>CLE 622</ref> (a)</bibl>
                     <bibl><ref>Cholodniak 1904, p. 275, nr. 670</ref> (a)</bibl>
@@ -288,3 +288,4 @@
         </body>
     </text>
 </TEI>
+<?oxy_options track_changes="on"?>

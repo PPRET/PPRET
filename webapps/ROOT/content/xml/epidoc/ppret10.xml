@@ -129,10 +129,10 @@
                 <p>Edition based on Suppl.It. I (1981), pp. 136-137, nr. 13.</p>
                 <p>
                   <app loc="frons 3"><note>CO letter O is small in size and inserted inside the C</note></app>
-                  <app loc="frons 4"><note>v.e., AE 1964, 203</note></app>
+                  <app loc="frons 4"><note>v.e., AE 1964, 0203</note></app>
                   <app loc="frons 8"><note>cognitionum</note></app>
-                  <app loc="latus sin 3"><note>Iovian[o], AE 1964, 203</note></app>
-                  <app loc="latus sin 4"><note>the final O is small in size; Varroni[a]/no: Évrard 1962, AE 1964, 203, Giardina 1971-72</note></app>
+                  <app loc="latus sin 3"><note>Iovian[o], AE 1964, 0203</note></app>
+                  <app loc="latus sin 4"><note>the final O is small in size; Varroni[a]/no: Évrard 1962, AE 1964, 0203, Giardina 1971-72</note></app>
                   </p>
             </div>
             <div type="translation" xml:lang="en">
@@ -181,9 +181,9 @@
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
-                  <bibl><ref>Évrard 1962, p. 616</ref>, with photo = <bibl><ref>AE 1964, 203</ref></bibl></bibl>
+                  <bibl><ref>Évrard 1962, p. 616</ref>, with photo = <bibl><ref>AE 1964, 0203</ref></bibl></bibl>
                   <bibl><ref>SupplIt 01, FN, 13, pp. 136-137</ref>, with photo</bibl> 
-                  <bibl><ref>Giardina 1971-72, p. 255 and 254 nt. 6</ref> = <bibl><ref>AE 1975, 370</ref></bibl></bibl>
+                  <bibl><ref>Giardina 1971-72, p. 255 and 254 nt. 6</ref> = <bibl><ref>AE 1975, 0370</ref></bibl></bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="images">

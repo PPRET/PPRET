@@ -140,6 +140,10 @@
                         <persName>Nestorius Timonianus</persName>
                     </person>
                     
+                    <person xml:id="Flavianus2">
+                        <persName>Nicomachus Flavianus</persName>
+                    </person>
+                    
                     <person xml:id="Pacatianus">
                         <persName>Papius Pacatianus</persName>
                     </person>
@@ -186,6 +190,10 @@
                     
                     <person xml:id="Anatolius">
                         <persName>Vindaeonius Anatolius</persName>
+                    </person>
+                    
+                    <person xml:id="Flavianus1">
+                        <persName>Virius Nicomachus Flavianus</persName>
                     </person>
                     
                     <person xml:id="Vitalianus">

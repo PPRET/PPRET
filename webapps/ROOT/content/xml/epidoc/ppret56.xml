@@ -170,9 +170,9 @@
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
-                    <bibl><ref>Giardina, Grelle 1983, pp. 249-303</ref>, with photo = <bibl><ref>AE 1984, 250</ref></bibl></bibl>
+                    <bibl><ref>Giardina, Grelle 1983, pp. 249-303</ref>, with photo = <bibl><ref>AE 1984, 0250</ref></bibl></bibl>
                     <bibl><ref>Chelotti et al., pp. 12-17, nr. 11</ref>, with photo</bibl> 
-                    <bibl><ref>Ruggeri 2003</ref>, with photo = <bibl><ref>AE 2003, 359</ref></bibl></bibl>
+                    <bibl><ref>Ruggeri 2003</ref>, with photo = <bibl><ref>AE 2003, 0359</ref></bibl></bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="images">
@@ -190,7 +190,7 @@
                     <bibl>Chelotti M., Gaeta R., Morizio V., Silvestrini M., Grelle F., Pani M., Le epigrafi romane di Canosa, I. Documenti e Studi, Bari 1985</bibl> 
                     <bibl>Giardina A., Grelle F., La Tavola di Trinitapoli. Una nuova costituzione di Valentiniano I, in MEFRA, 95, 1983, 249-303</bibl>
                     <bibl>Ruggeri P., L’organizzazione paganica nel basso impero in Occidente: contributo per una rilettura della Tavola di Trinitapoli, in Corda A. M. (ed.), Cultus splendore. Studi in onore di Giovanna Sotgiu, 2, Senorbì 2003, 801-834</bibl>
-                    <bibl>Schmidt-Hofner S., Regieren und Gestalten. Der Regierungsstil des spätrömischen Kaisers am Beispiel der Gesetzgebung Valentinians I, Munich 2008, 64-71 = AE 2008, 417</bibl>
+                    <bibl>Schmidt-Hofner S., Regieren und Gestalten. Der Regierungsstil des spätrömischen Kaisers am Beispiel der Gesetzgebung Valentinians I, Munich 2008, 64-71 = <bibl><ref>AE 2008, 0417</ref></bibl></bibl>
                 </p>
             </div>
             

@@ -28,7 +28,7 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textType" ref="honorary">Honorary inscription for Hilarion, wife of clarissimus rank of the praet. prefect Anatolius </term>
+                            <term type="textType" ref="#honorary">Honorary inscription for Hilarion, wife of clarissimus rank of the praet. prefect Anatolius </term>
                             <term type="rhythm" ref="#prose">prose</term>
                         </summary>
                         <textLang mainLang="grc">Greek</textLang>
