@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Statue base from the Baths of Caracalla in honour of the emperor Valentinian I by the former praet. prefect C. Ceionius Rufius Volusianus <foreign>signo</foreign> Lampadius</title>
+                <editor role="edition">Eleonora Angius</editor>
+                <editor role="encoding">Eleonora Angius</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="plre" corresp="pp. 978-980">38</idno>
+                <date when="2020-03-27"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Lampadius"><name type="praenomen">Caius</name>
+                        <name type="gentilicium">Ceionius Rufius</name>
+                        <name type="cognomen">Volusianus</name>
+                        <name type="signum">Lampadius</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#lost">currently lost</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#honorary">Honorary for the emperor Valentinian I</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#base">statue base</objectType>
+                                    <dimensions>
+                                        <height>unknown</height>
+                                        <width>unknown</width>
+                                        <depth>unknown</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">yes (G. Alföldy and A. Scheithauer believe that the epigraphic field was twice removed, see <ref type="inscription">CIL 06, p. 4332</ref>)</rs>
+                                    <rs type="monument_reuse">uncertain</rs>
+                                    <rs type="opistographic">yes, another two previous inscriptions (<ref type="inscription">CIL 06, 01173c</ref> and <ref type="inscription">CIL 06, 01173b</ref>) were found on the rear and right side of the base.</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Three inscribed fields (<foreign>frons</foreign>+<foreign>retro</foreign>+<foreign>latus dexter</foreign>).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#damaged">Damaged: broken vertically, the whole right side is lost / broken on the right side, as can be deduced from the textual restorations.</rs>
+                                    <p n="opistographic">Opistographic: in addition to the present text, another two previous dedicatory inscriptions were found on the base. The earliest, on the back, dates to 192 AD (<ref type="inscription">CIL 06, 01773c</ref>) while the second, on the right side (<ref type="inscription">CIL 06, 01173b</ref>), dates to 285 AD, and was a dedication to Diocletian citing the <foreign>Thermae Antoninianae</foreign>.</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#square_capitals">Late Roman monumental capitals</term>
+                                <height>unknown</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Roma</placeName>
+                                <placeName type="modern_city">Rome (Italy)</placeName>
+                                <placeName type="province">Urbs</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#public">public space</placeName>
+                            </origPlace>
+                            <origDate period="#p7" when="0365" precision="high">365 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#Roma">Rome</placeName>, found in 1546 during the excavations of pope Paul III in the <foreign>frigidarium</foreign> of the Baths of Caracalla</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                    <ab>
+                        <lb n="1"/>Florent<supplied reason="lost">issimo</supplied>
+                        <lb n="2"/>et piissi<supplied reason="lost">mo</supplied>
+                        <lb n="3"/><expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> Vale<supplied reason="lost">ntiniano</supplied>
+                        <lb n="4"/>maxim<supplied reason="lost">o principi</supplied>
+                        <lb n="5"/>semper <supplied reason="lost">Augusto</supplied>,
+                        <lb n="6"/><expan><abbr>C</abbr><ex>aius</ex></expan> Ceioniu<supplied reason="lost">s Rufius Volusianus</supplied>,
+                        <lb n="7"/><expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan>, <expan><abbr>prae<supplied reason="lost">f</supplied></abbr><supplied reason="lost"><ex>ectus</ex></supplied></expan> <supplied reason="lost">praetorio</supplied>,
+                        <lb n="8"/><expan><abbr>praef</abbr><ex>ectus</ex></expan> urb<supplied reason="lost">i, iterum vice sacra</supplied>
+                        <lb n="9"/><expan><abbr>iudic</abbr><ex>ans</ex></expan>, <expan><abbr>d</abbr><ex>evotus</ex></expan> <expan><abbr>n</abbr><ex>umini</ex></expan> <supplied reason="lost"><expan><abbr>m</abbr><ex>aiestati</ex><abbr>q</abbr><ex>ue</ex></expan> eius</supplied>.
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on CIL 06, 01173a.</p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“To the most powerful and pious, our master Valentinian, Maximus Prince, always Augustus, Caius Caeionius Rufius Volusianus, of clarissimus rank, praetorian prefect, urban prefect, judge with the faculty to institute sacred trials in lieu of the emperor for the second time, devoted to his divine spirit and majesty.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>“Au très puissant et très pieux, notre seigneur Valentinien, prince suprême, toujours Auguste, Caius Caeionius Rufius Volusianus, clarissime préfet du prétoire, préfet urbain, juge ayant le pouvoir d’instituer des procès à la place de l’empereur pour la deuxième fois, dévoué à sa divinité et à sa majesté.”</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“Al potentissimo e piissimo, il nostro signore Valentiniano, Massimo Principe, sempre Augusto, il chiarissimo Caius Caeionius Rufius Volusianus, prefetto del pretorio, prefetto urbano, giudice con la facoltà di istituire processi in vece dell’imperatore per la seconda volta, devoto al nume e alla maestà sue.”</p>
+            </div>
+            <div type="commentary">
+<p>This marble base was discovered in 1546 during excavations of the Baths of Caracalla carried out by the pope Paul III (Lanciani 1903 = 1990, p. 197). Three inscriptions were carved on three different faces (a-c). Although the monument is currently lost, the above-mentioned texts have been preserved by the 16<hi rend="superscript">th</hi> Century antiquarians and humanists Pirrus Ligorius and Martinus Smetius (see <ref type="inscription">CIL 06, 01173</ref>).</p> 
+<p>The earliest inscription is carved on the rear side (<ref type="inscription">CIL 06, 01173c</ref>: <foreign>[Dedicata] pr(idie) K(alendas) Ian[uarias] / Q(uinto) Sossio [Falcone] C(aio) Erucio Cl[aro co(n)s(ulibus)], / isdem IIII [---] C(aio) Bellico Marcelli[no], / cura(m) agente Turellio Felicissimo. / Ob dedicationem eius ded(it) decurion(ibus)  / ((denarios)) XXV et Augustalibus sing(ulis) ((denarios)) XXV et munici<supplied reason="omitted">pi</supplied>bus ((denarios)) V</foreign>) dates back to 192 AD and came from an unknown city outside Rome. From there, it was moved in 285 AD to the Baths of Caracalla, where the support was re-used for a second time on the right side (<ref type="inscription">CIL 06, 01173b</ref>: <foreign>Maxim(o) Aug(usto) / n̅(ostro) Diocletiano II co(n)s(ule), / sub Felice proc(uratore) Aug(usti) n̅(ostri) / therm(arum) Antoninia<supplied reason="omitted">na</supplied>rum</foreign>). According to C. Machado (<ref corresp="http://laststatues.classics.ox.ac.uk/database/detail.php?record=1289">LSA 1289</ref>) this inscription may relate to a statue in honour of Diocletian Augustus, but it is likely that the extant inscription <ref type="inscription">CIL 06, 01173b</ref> is simply the date carved on one lateral side of the base shortly after the battle of Margum, in which the emperor Carinus, who was the consul of 285 AD, died (CLRE, pp. 104-105). The principal inscribed face, which was carved on 285 AD, was later erased (Caldelli 1992, p. 81; <ref type="inscription">CIL 06, p. 4332</ref>; Stefan 2017, pp. 272-273). The third and latest inscription, carved on this surface previously erased, coincides with the text examined herein, in which the former praetorian prefect and urban prefect Volusianus (for his career see <ref type="ppret" corresp="ppret36">PPRET 36</ref>) celebrated the emperor Valentinian I as ‘the most powerful and pious prince’.</p>
+<p>Besides this one, Volusianus Lampadius was also responsible for another four inscribed bases in the <foreign>Thermae Antoninianae</foreign>, all of which celebrated the victories of Valentinian and Valens over the Alamanni and the usurper Procopius. The senator ordered two statues to be placed in the baths, one for Valentinian (<ref type="inscription">CIL 06, 01171</ref>: <foreign>Victoriis triumfisq(ue) / magnifico / d(omino) n(ostro) Valentiniano / inclyto principi / (5) semper Aug(usto), / Rufius Volusia/nus, v(ir) c(larissimus), praef(ectus) / urbi, iterum / iudex sacrarum / (10) cognitionum, / clementiae eius / dicatus</foreign>), the other one for his brother Valens (<ref type="inscription">CIL 06, 01172</ref>: <foreign>Victoriis triumfisque / magnifico / d(omino) n(ostro) Valenti inclyto / principi semper Aug(usto), / (5) Rufius Volusianus v(ir) c(larissimus), / praefectus urbi, / iterum iudex sacrarum, / cognitionum clemen / tiae eius dicatus</foreign>). He also commissioned a monument in honour of their victories, even if the emperors were unnamed (<ref type="inscription">CIL 06, 00794</ref>: <foreign>Victoriis / dd(omini) nn(ostri) / Rufius Volusianus / v(ir) c(larissimus) praef(ectus) urbi iterum / (5) iudex sacrarum / cognitionum</foreign>). Lastly, Volusianus was also requested by the emperors to restore the dedications on a group of statues (<ref type="inscription">CIL 06, 01170</ref>, see <ref type="ppret" corresp="ppret37">PPRET 37</ref>) in the same thermal area. At least five inscriptions were thus found at the Baths of Caracalla that the prefect Volusianus had had a hand in (Lanciani 1903 = 1990, p. 197):indeed «Roman baths were important centres for social life, and as such an appropriate focus for the celebration of emperors as victorious rulers as well as benefactors» (Machado 2019, p. 130).</p>
+<p>As regards our monument, Lanciani argued that, in rededicating the statue to Valentinian, Volusianus had to have had it removed from the baths. Actually, the numerous monuments related to the urban prefect and the emperors in this area, mentioned above (<ref type="inscription">CIL 06, 00794</ref>; <ref type="inscription">CIL 06, 01170a</ref> = <ref type="ppret" corresp="ppret37">PPRET 37</ref>; <ref type="inscription">CIL 06, 01171</ref>; <ref type="inscription">CIL 06, 01172</ref>), suggests on the contrary that, in all likelihood, the base, which had already been employed in the 2nd Century AD (<ref type="inscription">CIL 06, 01173b</ref>; Lanciani 1899, p. 33) had remained in the baths. Volusianus had also moved a number of other statues here (see <ref type="ppret" corresp="ppret37">PPRET 37</ref>) and dedicated at least other three monuments. The monument was seen for the last time in the 16th Century (<ref type="inscription">CIL 06, 01173</ref>).</p>  
+<p>The anomaly of having two dedications to Valentinian and only one to Valens might be explained by the loss of a specular dedication to Valens that Volusianus had mostly likely made, as he had done for the other two inscriptions (<ref type="inscription">CIL 06, 01171</ref>; <ref type="inscription">CIL 06, 01172</ref>; cf. <ref type="inscription">CIL 06 03866</ref> = <ref type="inscription">CIL 06, 31693</ref> = <ref type="inscription">ILS 5791</ref>).</p> 
+<p>The numerous surviving inscriptions of Volusianus Lampadius (relating to the baths, the city infrastructure and the Tiber) confirm Ammianus Marcellinus’ negative judgement of him (<ref type="source">Amm. 27, 03, 07</ref>; <ref type="source">Amm. 27, 03, 10</ref>). In his portrait of the urban prefect, the historian emphasises his eagerness to place his name on virtually anything he had simply restored (see <ref type="ppret" corresp="ppret36">PPRET 36</ref> and <ref type="ppret" corresp="ppret37">PPRET 37</ref>).</p> 
+<p>Our inscription in honour of Valentinian I from the Baths of Caracalla carries two anomalies in the title of the dedicator: usually Volusianus Lampadius is called <foreign>ex praefecto praetorio</foreign> (five times) and <foreign>iterum iudex sacrarum cognitionum</foreign> or <foreign>iudex iterum sacrarum cognitionum</foreign> (eight times); only in the present inscription (ll. 7-9) is he referred to as <foreign>prae[f(ectus) praetorio], praef(ectus) urb[i, iterum vice sacra] iudic(ans)</foreign>. Perhaps the ‘formula’ which testifies his assignment to judge in the emperor’s stead is a normal variation of the wording (<foreign>vice sacra iudicans</foreign> instead of <foreign>iudex sacrarum cognitionum</foreign>). On the contrary, it seems highly probable that a preposition "<foreign>ex</foreign>" fell before the abbreviation <foreign>praef(ectus) praet(orio)</foreign>. Since the inscription is known only in the manuscript tradition, the stone being lost, it is impossible to verify, but it is likely that the first copyist of the text may have overlooked the preposition "<foreign>ex</foreign>". It is unlikely that such a proud and powerful urban prefect would have tolerated an error in his title, especially in a monument dedicated to the emperor and located in such a public place. Fortunately, we already know that Lampadius was appointed praetorian prefect by Constantius II in 355 AD and that he was made urban prefect ten years later by Valentinian I, and that he honoured the emperor several times in the baths (see PLRE I, p.  979 and <ref type="ppret" corresp="ppret36">PPRET 36</ref>). There is thus no doubt that at the time of the inscription’s composition Lampadius was already <foreign>ex praefecto praetorio</foreign>. The transcription of Smetius and Ligorius is therefore inaccurate.</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>CIL 06, 01173a</ref> (p. 4332)</bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                   <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-17600811">EDCS 17600811</ref></bibl>  
+                   <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR129600">EDR 129600</ref></bibl>
+                   <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail.php?record=1288">LSA 1288</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+<bibl>Caldelli M.L., Curia athletarum, iera xystike synodos e organizzazione delle terme a Roma, ZPE 93, 1992, 75-87</bibl>
+<bibl>DeLaine J., The Baths of Caracalla: A Study in the Design, Construction, and Economics of Large-scale Building Projects in Imperial Rome, Portsmouth 1997</bibl>
+<bibl>DeLaine J., Bathing and Society, in DeLaine J., Johnston D.E. (eds), Roman Baths and Bathing. Part I: Bathing and Society, Portsmouth 1999, 7-16</bibl>
+<bibl>Lanciani R., The Destruction of the Ancient Rome, New York 1899</bibl>
+<bibl>Lanciani R., Storia degli scavi di Roma e notizie intorno le collezioni romane di antichità, II. Gli ultimi anni di Clemente VII e il pontificato di Paolo III (A. 1531-1549), Roma 1903 (repr. Roma 1990)</bibl>
+<bibl>Machado C., Urban Space and Aristocratic Power in Late Antique Rome, AD 270-535, Oxford 2019</bibl>
+<bibl>Stefan A., Dioclétien à l’été 285: son deuxième consulat, les sanctions contre la "memoria" de Carin et l’amnistie générale, ZPE, 204, 2017, 265-279</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                </div>
+                <div type="commentary" n="7">
+                    <p n="7.2"></p>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">v(ir) c(larissimus)</p>
+                    <p n="8.2">prae[f(ectus) praetorio]</p>
+                    <p n="8.3"></p>
+                    <p n="8.4"></p>
+                    <p n="8.10"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

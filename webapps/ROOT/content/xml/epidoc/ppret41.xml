@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Ostia (Rome) concerning the restoration of thirteen bridges by the former praet. prefect C. Ceionius Rufius Volusianus <foreign>signo</foreign> Lampadius</title>
+                <editor role="edition">Eleonora Angius</editor>
+                <editor role="encoding">Eleonora Angius</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>PPRET</authority>
+                <idno type="filename" n="new">41</idno>
+                <date when="2020-03-27"/>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#Lampadius"><name type="praenomen">Caius</name>
+                        <name type="gentilicium">Ceionius Rufius</name>
+                        <name type="cognomen">Volusianus</name>
+                        <name type="signum">Lampadius</name></persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#Ostia">Museum of Ostia, in the front garden</repository>
+                        <idno type="invNo">inv. 30.673</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textType" ref="#building">Building inscription</term>
+                            <term type="rhythm" ref="#prose">prose</term>
+                        </summary>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#marble">white marble</material>
+                                    <objectType ref="#stone_slab">slab</objectType>
+                                    <dimensions>
+                                        <height>163</height>
+                                        <width>73</width>
+                                        <depth>13</depth>
+                                    </dimensions>
+                                    <rs type="inscribed_field_reuse">yes</rs>
+                                    <rs type="monument_reuse">uncertain</rs>
+                                    <rs type="opistographic">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>One inscribed field (<foreign>frons</foreign>)</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#fragmentary">Fragmentary: broken into three contiguous fragments, the slab lacks the upper left corner while the lower corners also appear damaged.</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <term ref="#square_capitals">Late Roman monumental capital </term>
+                                <height>5/3</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient_city">Ostia</placeName>
+                                <placeName type="modern_city">Ostia (Rome, Italy)</placeName>
+                                <placeName type="province">Urbs</placeName>
+                                <placeName type="diocese">Italiciana</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#public">public space</placeName>
+                            </origPlace>
+                            <origDate period="#p7" when="0365" precision="high">365 AD</origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="#Ostia">Ostia</placeName>, found on the left bank of the Tiber while the river was being dredged, at a point corresponding to Fosso Galeria (Monte Cugno) </provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                    <ab>
+                        <lb n="1"/><supplied reason="lost">A</supplied>lbei Tiberis ripas
+                        <lb n="2"/><unclear>e</unclear>t pontes tredecim,
+                        <lb n="3"/><supplied reason="lost">q</supplied>uos dissimulatio
+                        <lb n="4"/><unclear>l</unclear>onga corruperat
+                        <lb n="5"/>et publica dispen<lb
+                        break="no" n="6"/>dia requirebant,
+                        <lb n="7"/><expan><abbr>dd</abbr><ex>omini</ex></expan> <expan><abbr>nn</abbr><ex>ostri</ex></expan> Valentinianus
+                        <lb n="8"/>et Valens <expan><abbr>triumff</abbr><ex>atores</ex></expan>
+                        <lb n="9"/>semper <expan><abbr>Augg</abbr><ex>usti</ex></expan> constitui
+                        <lb n="10"/>fierique iusserunt,
+                        <lb/><space extent="unknown" unit="character"/>
+                        <lb n="11"/>regente urbi praefectura
+                        <lb n="12"/>Ceionio Rufio Volusiano, <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan>,
+                        <lb n="13"/>ex <expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>praet</abbr><ex>orio</ex></expan>, <expan><abbr>praef</abbr><ex>ecto</ex></expan> urbi,
+                        <lb n="14"/>iudice <expan><abbr>iter</abbr><ex>um</ex></expan> <expan><abbr>sacr</abbr><ex>arum</ex></expan> <expan><abbr>cogn</abbr><ex>itionum</ex></expan>.
+                    </ab>
+            </div>
+            <div type="apparatus">
+                <p>Edition based on Cébeillac-Gervasoni, Caldelli, Zevi 2010, p. 138, nr. 25.2.1.</p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>“Our masters Valentinian and Valens, Triumphants, always Augusti, ordered the banks of the river Tiber and its bridges, that had long suffered from neglect and required public interventions, to be strengthened and restored under the supervision of the urban prefecture of Ceionius Rufius Volusianus, man of clarissimus rank, former praetorian prefect, urban prefect, judge with the faculty to institute sacred trials for the second time.”</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>(from Lamoine, Cébeillac-Gervasoni 2007, p. 19)</p>
+                <p>
+“Nos deux maîtres Valentinien et Valens, tous deux triomphateurs, toujours tous les deux Augustes, ont ordonné de décider des travaux et de les faire pour les rives du fleuve Tibre et pour les treize ponts qu’une longue incurie avait abîmés et qui nécessitaient une intervention publique. Ceionius Rufius Volusianus, vir clarissimus, dirigeant de la préfecture de la Ville, ex-préfet du prétoire, préfet de la Ville, deux fois juge aux procès sacrés.”
+                </p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>“I nostri signori Valentinianus e Valens, Trionfatori, sempre Augusti, ordinarono che fossero consolidate e restaurate le rive del fiume Tevere e i tredici ponti, che una lunga incuria aveva compromesso e richiedevano perciò investimenti pubblici, sotto la supervisione della prefettura urbana del chiarissimo Ceionius Rufius Volusianus, ex prefetto del pretorio, prefetto urbano, giudice con la facoltà di istituire processi in vece degli imperatori per la seconda volta.”</p>
+            </div>
+            <div type="commentary">
+                
+<p>This large marble slab appears rather damaged: it is broken into three contiguous fragments, damaged at the lower corners and lacks the upper left corner. 
+The slab was found during the dredging of Tiber at the level of the confluence of the tributary Fosso Galeria (in the area of Via Portuense, Rome), on the left bank of the river bight (Floriani Squarciapino 1973/1974, p. 250). Due to the way in which the stone was recovered, the exact findspot cannot be located, all the more so since the river may well have shifted it from its original position.</p> 
+<p>The inscription, carved on the rear side, commemorates the renovation and repairing of the banks and the thirteen bridges of the Tiber that had suffered from neglect. The work was commissioned by the emperors Valentinian and Valens and overseen by the urban prefect and former praetorian prefect, C. Ceionius Rufius Volusianus <foreign>signo</foreign> Lampadius (for his career, see <ref type="ppret" corresp="ppret36">PPRET 36</ref>).</p> 
+<p>Originally, the supervision of the waterways and the maintenance of their banks and bridges belonged to the <foreign>curator alvei Tiberis et riparum</foreign> (as Lollianus <foreign>signo</foreign> Mavortius, who was <foreign>consularis alvei Tiberis et cloacarum</foreign> in 321-323 AD, see <ref type="ppret" corresp="ppret36">PPRET 45</ref>). The emperor Tiberius created this senatorial curatorship after a dangerous flood of the Tiber in 15 AD (<ref type="source">Dio. 57, 14</ref>; concerning the office, cf. Lonardi 2013). Later, after Constantine’s death, the supervision of the river and its banks was assigned to the <foreign>praefectus urbi</foreign> (see Chastagnol 1960, pp. 46-47). The overseeing of the river banks and the maintenance of its bridges was essential to protect the city itself from flooding. The Tiber and its structures represented an important public asset that had to be maintained. However, by the 4th Century, the river’s dilapidated banks and bridges were badly in need of repair.</p> 
+<p>Valentinian and Valens discouraged the creation of new structures, but encouraged the rebuilding of old ones (<ref type="source">CTh 15, 01, 11</ref>, 364 AD, and <ref type="source">CTh 14, 06, 03</ref>, 365 AD, make reference to Rome; cf. <ref type="source">CTh 15, 01, 14-17</ref>; see also <ref type="ppret" corresp="ppret36">PPRET 36</ref>) and undertook numerous projects (see the catalogue of building projects sponsored by these emperors in Lenski 2002, pp. 396-401). Some were promoted by exigency, due to natural disasters, while many others, according to Lenski (2002, pp. 385-396), were developed to implement a “policy of pragmatism," since restoration, unlike structures conceived <foreign>ex novo</foreign>, “offered both a more practical and a more economical means to shore up the architectural infrastructure of the empire.” The urban prefects responsible for the works in the capital, thus exploited the Valentinian policy and earned great visibility in the process, as Volusianus often did (for other restorations that he supervised, see <ref type="ppret" corresp="ppret37">PPRET 37</ref>, <ref  type="ppret" corresp="ppret38">38</ref>, <ref type="ppret" corresp="ppret39">39</ref>). Sometimes emperors limited the scope of their interventions and in so doing reduced their visibility: they delegated interventions to prefects in Rome, granting imperial permission for building initiatives (on the tensions between legislation and practice, cf. Dubouloz 2012). Besides its beneficial nature, the imperial sponsorship of building renovations was intended to represent a clear expression of the emperor’s personal interest for the city and its needs (Chenault 2008, pp. 182-183).</p>
+<p>Valentinian and Valens concentrated their resources on structures that benefited the <foreign>plebs</foreign>, waterworks in particular, such as baths (<ref type="ppret" corresp="ppret37">PPRET 37</ref>), aqueducts (<ref type="ppret" corresp="ppret39">39</ref>) and bridges (Lenski 2002, pp. 276-279, 393-396). Valentinian’s and Valens’s interest in bridges is exemplified by the magnificent rebuilding of the <foreign>Pons Aureli</foreign>, which was fittingly renamed <foreign>Pons Valentiniani</foreign> (Coarelli 1999; Chenault 2008, p. 183), and the restoration of thirteen bridges along the Tiber between Rome and Ostia that are mentioned in the present text.</p>
+<p>The identification of the aforementioned structures is complex and highly controversial, more especially since the sources and the archaeological remains rarely concordant. Indeed, the regionary catalogues of Rome from the 4th Century, later entitled <foreign>Notitia Urbis Romae</foreign> and <foreign>Curiosum Urbis Romae</foreign>, have recorded only eight bridges in Rome (Nordh 1949, p. 98, ll. 5-13), inexplicably omitting others that should already have existed, such as the <foreign>Pons Agrippae</foreign> and Pons Neronianus. Currently, based on the available archaeological, epigraphical and literary data, archaeologists can only agree on the existence of ten bridges (on the first seven, see the very recent dissertation of Cathrine Hoggarth 2019 and also Lamoine 2007, pp. 20-22; Cébeillac-Gervasoni, Caldelli, Zevi 2010, pp. 135-136; Babic 2013). In chronological order, they are:</p>
+<p>1. The <foreign>Pons Sublicius</foreign>, the most ancient bridge (7th Century BC), that Pier Luigi Tucci (2004, pp. 185-202, also Tucci 2011, pp. 177-209) has recently and quite convincingly re-located at the foot of the Aventine hill.</p> 
+<p>2. The <foreign>Pons Aemilius</foreign>, also known as <foreign>Pons Lapideus</foreign> (2nd Century BC) (now Ponte Rotto, immediately downstream of the Tiber Island).</p>
+<p>3. The <foreign>Pons Milvius</foreign> (2nd Century BC) was founded during the Second Punic War and built in masonry on 110-109 BC, it leads North into Rome along the Via Flaminia.</p>
+<p>4. The <foreign>Pons Fabricius</foreign> (1st Century BC), connects the Tiber Island with the left bank of the river.</p>
+<p>5. The <foreign>Pons Cestius</foreign> (1st Century BC), connects the Tiber Island with the right bank of the river and after its restoration in the 4th Century AD under the emperor Gratian, it became the <foreign>Pons Gratiani</foreign>.</p>
+<p>6. The <foreign>Pons Agrippae</foreign> (1st Century BC) was, according to Coarelli 1999, restored and named <foreign>Pons Antonini</foreign>, then <foreign>Pons Valentiniani</foreign> (today Ponte Sisto), and connects southern part of the Campus Martius to Transtiberim.</p>
+<p>7. The <foreign>Pons Neronianus</foreign> (1st Century AD), would have been immediately downstream of the current Ponte Vittorio Emanuele.</p>
+<p>8. The <foreign>Pons Aureli</foreign> (2nd Century AD) is of uncertain location: according to Le Gall (1953, pp. 210-211) it is simply another name for <foreign>Pons Agrippae</foreign>, which was subsequently renamed <foreign>Pons Valentiniani</foreign> (today Ponte Sisto); an assumption that Floriani Squarciapino (1973/74, pp. 254-255) and Tucci (2011, pp. 207-208) do not share.</p> 
+<p>9. The <foreign>Pons Aelius</foreign> (2nd Century AD), today known as Ponte Sant’Angelo, which connects the western Campus Martius to Hadrian’s mausoleum.</p>
+<p>10. The <foreign>Pons Probi</foreign> (3nd Century AD) which perhaps stood between the Aventine Hill and the Transtiberim (Ripa Marmorata?) was probably built by the Emperor Probus (276-282) and restored by Emperor Theodosius.</p> 
+<p>Since the inscription mentions thirteen bridges in all, three bridges still await identification. Many hypotheses have been proposed. Two of the three missing bridges may lie to the South of Rome. The present inscription and other two Constantinian ones (<ref type="inscription">AE 1975, 0135</ref>: two different supports but carrying the same text), made by Ceionius Caecina Verus <ref>curator alvei Tiberis et riparum</ref>, and mentioning one or more pontes, have been found together at the confluence of the Fossa Galeria with the Tiber. Floriani Squarciapino (1973/1974, pp. 257-261) assumed that this fact could therefore suggest the presence of a further bridge, today destroyed, in this area. A bridge over the Fosso Galeria, of uncertain date, is also attested in a papal seal of Benedict VIII of 1019 (Loreti 2006, p. 225). Although its existence is plausible, Cébeillac-Gervasoni (2010, pp. 135-136) has however pointed out that no archaeological traces of this structure have been found. Furthermore, since other inscriptions record numerous corporations of boatmen ferrying people and goods to Portus the presence of a bridge is hard to substantiate.</p>
+<p>In addition, the recent discovery of an opisthographic inscription from Ostia (<ref type="inscription">AE 1975, 0138</ref> perhaps dating to 367 AD; <ref type="inscription">AE 1975, 0137</ref> perhaps dating to 408/423 AD) allows to add the <foreign>Pons Matidiae</foreign> to the list of bridges built under the Antonines. The bridge crossed the Fossa Traianea (on the identification of Matidia, who was probably a nephew of Trajan, see Meiggs 1973, p. 227; Cébeillac-Gervasoni, Caldelli, Zevi 2010, p. 138), although few physical remains have been found. The slab is inscribed on both sides and refers to building work on the aforementioned bridge: a first restoration (<ref type="inscription">AE 1975, 0138</ref>) by the <ref>praefectus annonae</ref> Flavius Splendonius Aufidius and the <foreign>praefectus urbi</foreign> Pomponius Ammonius, whose tenure of office has been recently dated to 367 AD (see Crimi, Orlandi 2017, pp. 287-298); a second one (<ref type="inscription">AE 1975, 0137</ref>) between 408 and 423 AD under Honorius and Theodosius by the <ref>praefectus annonae</ref> Fundanius Martirius Felix.</p>  
+<p>Other different proposals concerning yet more bridges have been suggested, too many to be discussed here. Nevertheless, the identification of at least two of the thirteen aforementioned bridges still remains uncertain. Fedeli (2013) suggests that the remaining two bridges may not crossed just the Tiber alone, but also the drainage ditches flowing into it.</p>
+<p>That said, it seems evident that the maintenance of the bridges under Valentinian and Valens was a centrally planned operation that required time and involved more than one <foreign>praefectus urbi</foreign>. The urban prefects included at least Avianius Symmachus (PLRE I, Symmachus 3, pp. 863-865), under whose supervision the <foreign>Pons Aureli</foreign> was restored (and renamed as <foreign>Pons Valentiniani</foreign>, <ref type="inscription">CIL 06, 31402</ref> = <ref type="inscription">ILS 0769</ref> = LSA 1820 = EDR 130288), and Volusianus, who carried out the renovation of the thirteen bridges, and Pomponius Ammonius (PLRE I, Ammonius 9, p. 55, on his urban prefecture, see also <ref type="inscription">CIL 06, 01671</ref> = <ref corresp="http://laststatues.classics.ox.ac.uk/database/detail.php?record=1353">LSA 1353</ref> = <ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR073502">EDR 137192</ref>), the urban prefect who handled the repair of the <foreign>Pons Matidiae</foreign> (<ref type="inscription">AE 1975, 0138</ref>) recently identified by Crimi, Orlandi (2017, pp. 294-296) as the successor of Viventius (PLRE I, p. 972, who in turn had succeded Volusianus, see <ref>PPRET 55</ref>).</p>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>
+                    <bibl><ref>Floriani Squarciapino 1973/1974, p. 251</ref> = <bibl><ref>AE 1975, 0134</ref></bibl></bibl>
+                    <bibl><ref>CIL 06, 40793</ref> (p. 4563)</bibl>
+                    <bibl><ref>Lamoine, Cébeillac-Gervasoni 2007, p. 19</ref></bibl> 
+                    <bibl><ref>Cébeillac-Gervasoni, Caldelli, Zevi 2010, p. 138, nr. 25.2.1</ref></bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="images">
+                <p>
+                    <bibl><ref>Floriani Squarciapino 1973/1974, p. 251</ref> (with photo tab. XLI)</bibl>
+                    <bibl><ref>CIL 06, 40793</ref> (p. 4563, with photo)</bibl>
+                    <bibl><ref>Cébeillac-Gervasoni, Caldelli, Zevi 2010, p. 138, nr. 25.2.1</ref> (with photo)</bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>
+                    <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-00900527">EDCS 00900527</ref></bibl>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR075981">EDR 075981</ref></bibl> 
+                    <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD008796">HD 008796</ref></bibl>  
+                </p>
+            </div>
+            <div type="bibliography" subtype="other">
+                <p>
+<bibl>Babic M., Ancient Roman Bridges and their Social Significance, AAntHung, 53, 2013, 61-72</bibl>
+<bibl>Cébeillac-Gervasoni M., Caldelli M.L., Zevi F., Epigrafia Latina. Ostia: cento iscrizioni in contesto, Roma 2010</bibl>
+<bibl>Chastagnol A., La préfecture urbaine à Rome sous le Bas-Empire, Paris 1960</bibl>
+<bibl>Chenault R.R., Rome Without Emperors: The Revival of a Senatorial City in the Fourth Century CE, PhD Diss. University of Michigan 2008</bibl> 
+<bibl>Coarelli F., Pons Agrippae; Pons Aurelius; Pons Valentiniani, in Steinby E.M. (ed.), Lexicon Topographicum Urbis Romae, vol. IV, Roma 1999, 107-107</bibl>
+<bibl>Crimi G., Orlandi S., Un prefetto urbano ritrovato: Iunius Pomponius Ammonius, ZPE, 204, 2017, 287-298</bibl>
+<bibl>Dubouloz J., Réflexions sur la composition et la portée normative du titre «De operibus publicis» dans le Code Théodosien (CTh XV, 1), in Crogiez-Pétrequin S., Jaillette P. (éd.), Société, économie, administration dans le Code Théodosien, Villeneuve-d’Ascq 2012, 129-151</bibl>
+<bibl>Fedeli M., Le presenze archeologiche lungo le rive: approdi e navigazione a valle di Roma, SSBAR, 2013</bibl>
+<bibl>Floriani Squarciapino M. F., Albei Tiberis ripas et pontes tredecim…, ArchClass, 25/26, 1973-1974, 250-261</bibl>
+<bibl>Hoggarth C., Bridging the Tiber: Movement, Space and Experience, PhD Diss. University of Kent, Canterbury 2019</bibl>
+<bibl>Lamoine L., Cébeillac-Gervasoni M., Le pont dans l’Antiquité romaine à travers les témoignages épigraphiques: continuité du cheminement et permanence du pouvoir, Siècles, 25, 2007, 15-33</bibl>
+<bibl>Le Gall J., Il Tevere fiume di Roma nell’antichità, 1953</bibl>
+<bibl>Lenski N., Failure of Empire. Valens and the Roman State in the Fourth Century A.D., Berkeley-Los Angeles-London 2002</bibl>
+<bibl>Lonardi A., La cura riparum et alvei Tiberis. Storiografia, prosopografia e fonti epigrafiche, Oxford 2013</bibl>
+<bibl>Loreti E.M., Portuensis Via, in La Regina A. (ed.), Lexicon Topographicum Urbis Romae: Suburbium, vol. IV, Roma 2006, 225</bibl>
+<bibl>Meiggs R., Roman Ostia, Oxford 1973</bibl>
+<bibl>Nordh A. (recensuit), Libellus de regionibus urbis Romae, Lund 1949</bibl>
+<bibl>Tucci P.L., Eight Fragments of the Marble Plan of Rome Shedding New Light on the Transtiberim, PBSR, 72, 2004, 185-202</bibl>
+<bibl>Tucci P.L., The Pons Sublicius: a Reinvestigation, MAAR, 56-57, 2011, 177-212</bibl>
+                </p>
+            </div>
+            
+            <div type="commentary" subtype="prefects">
+                <div type="commentary" n="1">
+                    <p n="1.1"></p>
+                    <p n="1.4">supervisor of the restorations</p>
+                </div>                
+                <div type="commentary" n="7">
+                    <p n="7.3"></p>
+                </div>
+                
+                <div type="commentary" n="8">
+                    <p n="8.1">v(iro) c(larissimo)</p>
+                    <p n="8.2">ex praef(ecto) praet(orio)</p>
+                    <p n="8.4"></p>
+                    <p n="8.10"></p>
+                    <p n="8.11"></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
