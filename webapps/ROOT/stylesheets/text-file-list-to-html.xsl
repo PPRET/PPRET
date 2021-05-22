@@ -21,8 +21,8 @@
           <xsl:if test="result/doc/str[@name='PLRE']!=''">
             <th style="width:5em">PLRE</th>
           </xsl:if>
-          <xsl:if test="result/doc/str[@name='emperors']">
-            <th style="width:22em">Emperors</th>
+          <xsl:if test="result/doc/str[@name='emperors_and_their_prefects']">
+            <th style="width:22em">Emperors and their prefects</th>
           </xsl:if>
           <xsl:if test="result/doc/str[@name='date']">
             <th style="width:7em">Date</th>
@@ -50,7 +50,7 @@
       <!--<xsl:apply-templates mode="text-index" select="arr[@name='edition']" />-->
       <xsl:apply-templates mode="text-index" select="arr[@name='prefect_name']" />
       <xsl:if test="str[@name='PLRE']!=''"><xsl:apply-templates mode="text-index" select="str[@name='PLRE']" /></xsl:if>
-      <xsl:apply-templates mode="text-index" select="str[@name='emperors']" />
+      <xsl:apply-templates mode="text-index" select="str[@name='emperors_and_their_prefects']" />
       <xsl:apply-templates mode="text-index" select="str[@name='date']" />
     </tr>
   </xsl:template>
@@ -86,7 +86,7 @@
     <td><xsl:value-of select="." /></td>
   </xsl:template>
   
-  <xsl:template match="str[@name='emperors']" mode="text-index">
+  <xsl:template match="str[@name='emperors_and_their_prefects']" mode="text-index">
     <td><xsl:value-of select="." /></td>
   </xsl:template>
   

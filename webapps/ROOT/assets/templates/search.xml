@@ -207,8 +207,8 @@
           
           <h3>Chronology</h3>
           <div class="section-container accordion" data-section="accordion">
-          <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='emperors']" mode="search-results" />
-          <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='precise_date']" mode="search-results" />
+            <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='emperors_and_their_prefects']" mode="search-results" />
+            <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='dated_inscriptions']" mode="search-results" />
           </div>
           
           <h3>Location</h3>

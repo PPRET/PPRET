@@ -74,7 +74,7 @@
                                 <placeName type="prefecture">Italia Illyricum Africa</placeName>
                                 <placeName type="ancient_location" ref="#public">public space: Roman Forum</placeName>
                             </origPlace>
-                            <origDate period="#p8" notBefore="0400" notAfter="0450">400/450 AD</origDate>
+                            <origDate period="#p9" notBefore="0400" notAfter="0450">400/450 AD</origDate>
                         </origin>
                         <provenance type="found"><placeName ref="#RomanForum">Rome, Roman Forum</placeName> (precise location uncertain)</provenance>
                     </history>

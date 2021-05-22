@@ -74,7 +74,7 @@
                                 <placeName type="prefecture">Italia Illyricum Africa</placeName>
                                 <placeName type="ancient_location" ref="#public">public space: Trajan’s Forum</placeName>
                             </origPlace>
-                            <origDate period="#p8" notBefore="0340" notAfter="0450">340/450 AD, possibly 399 AD</origDate>
+                            <origDate period="#p9" notBefore="0340" notAfter="0450">340/450 AD, possibly 399 AD</origDate>
                         </origin>
                         <provenance type="found"><placeName ref="#TrajanForum">Rome, Trajan’s Forum</placeName></provenance>
                     </history>

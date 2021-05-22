@@ -36,8 +36,8 @@
   <message key="facet-prefect_signum">Prefect signum</message>
   <message key="facet-edition">Edition</message>
   <message key="facet-PLRE">PLRE</message>
-  <message key="facet-emperors">Emperors</message>
-  <message key="facet-precise_date">Precise date</message>
+  <message key="facet-emperors_and_their_prefects">Emperors and their prefects</message>
+  <message key="facet-dated_inscriptions">Precise date</message>
   <message key="facet-findspot">Findspot</message>
   <message key="facet-ancient_city">Ancient city</message>
   <message key="facet-modern_city">Modern city</message>

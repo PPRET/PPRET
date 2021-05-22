@@ -79,7 +79,7 @@
                                 <placeName type="prefecture">Italia Illyricum Africa</placeName>
                                 <placeName type="ancient_location" ref="#burial">burial space (Necropoli di Levante – Concordia)</placeName>
                             </origPlace>
-                            <origDate period="#p8" notBefore="0376" notAfter="0450">376/450 AD</origDate>
+                            <origDate period="#p9" notBefore="0376" notAfter="0450">376/450 AD</origDate>
                         </origin>
                         <provenance type="found">found in 1873 at <placeName ref="#">Concordia Sagittaria (Venezia)</placeName>, Necropoli di Levante</provenance>
                     </history>

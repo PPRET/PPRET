@@ -227,8 +227,8 @@
     </field>
   </xsl:template>
   
-  <xsl:template match="tei:origDate[@precision='high']" mode="facet_precise_date">
-    <field name="precise_date">
+  <xsl:template match="tei:origDate[@precision='high']" mode="facet_dated_inscriptions">
+    <field name="dated_inscriptions">
       <xsl:variable name="when-parts" select="tokenize(@when, '-')"/>
       <xsl:variable name="notBefore-parts" select="tokenize(@notBefore, '-')"/>
       <xsl:variable name="notAfter-parts" select="tokenize(@notAfter, '-')"/>
@@ -373,10 +373,10 @@
     <xsl:if test="@n='8.2'"><field name="Latin_or_Greek_titulature_of_the_office"><xsl:apply-templates select="." /></field></xsl:if>
   </xsl:template>
   
-  <xsl:template match="//tei:origDate[@period]" mode="facet_emperors">
+  <xsl:template match="//tei:origDate[@period]" mode="facet_emperors_and_their_prefects">
     <xsl:variable name="per-id" select="substring-after(@period,'#')"/>
     <xsl:variable name="period-id" select="document('../../content/xml/authority/period.xml')//tei:item[@xml:id=$per-id]/tei:term[@xml:lang='en']"/>
-    <field name="emperors">
+    <field name="emperors_and_their_prefects">
       <xsl:value-of select="$period-id" />
     </field>
   </xsl:template>
@@ -436,7 +436,7 @@
     <xsl:call-template name="field_regional_prefecture"/>
     <xsl:call-template name="field_editions"/>
     <xsl:call-template name="field_edition"/>
-    <xsl:call-template name="field_precise_date"/>
+    <xsl:call-template name="field_dated_inscriptions"/>
     <xsl:call-template name="field_date"/>
     <xsl:call-template name="field_number_of_praetorian_prefects"/>
     <xsl:call-template name="field_inscriptions_in_honour_of_praetorian_prefects"/>
@@ -450,7 +450,7 @@
     <xsl:call-template name="field_the_praetorian_prefecture_in_inscriptions"/>
     <xsl:call-template name="field_the_rank_of_the_praetorian_prefects"/>
     <xsl:call-template name="field_Latin_or_Greek_titulature_of_the_office"/>
-    <xsl:call-template name="field_emperors"/>
+    <xsl:call-template name="field_emperors_and_their_prefects"/>
     <xsl:call-template name="field_number_PPRET"/>
     <xsl:call-template name="field_inscription_name"/>
     <xsl:call-template name="field_literary_source_mentioned_in_the_commentary"/>
@@ -531,8 +531,8 @@
     <xsl:apply-templates mode="facet_edition" select="//tei:bibl[ancestor::tei:div[@subtype='editions']]//tei:ref" />
   </xsl:template>
   
-  <xsl:template name="field_precise_date">
-    <xsl:apply-templates mode="facet_precise_date" select="//tei:origDate[@precision='high']" />
+  <xsl:template name="field_dated_inscriptions">
+    <xsl:apply-templates mode="facet_dated_inscriptions" select="//tei:origDate[@precision='high']" />
   </xsl:template>
   
   <xsl:template name="field_date">
@@ -587,8 +587,8 @@
     <xsl:apply-templates mode="facet_the_rank_of_the_praetorian_prefects" select="//tei:div[@subtype='prefects']" />
   </xsl:template>
   
-  <xsl:template name="field_emperors">
-    <xsl:apply-templates mode="facet_emperors" select="//tei:origDate" />
+  <xsl:template name="field_emperors_and_their_prefects">
+    <xsl:apply-templates mode="facet_emperors_and_their_prefects" select="//tei:origDate" />
   </xsl:template>
   
   <xsl:template name="field_number_PPRET">

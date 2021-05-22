@@ -206,7 +206,7 @@
      required="false" stored="true" type="string" />
    <field name="date" indexed="true" multiValued="false"
      required="false" stored="true" type="string" />
-   <field name="precise_date" indexed="true" multiValued="true"
+   <field name="dated_inscriptions" indexed="true" multiValued="true"
      required="false" stored="true" type="string" />
    <field name="edition" indexed="true" multiValued="true"
      required="false" stored="true" type="string" />
@@ -234,7 +234,7 @@
      required="false" stored="true" type="string" />
    <field name="Latin_or_Greek_titulature_of_the_office" indexed="true" multiValued="true"
      required="false" stored="true" type="string" />
-   <field name="emperors" indexed="true" multiValued="false"
+   <field name="emperors_and_their_prefects" indexed="true" multiValued="false"
      required="false" stored="true" type="string" />
    <field name="number_PPRET" indexed="true" multiValued="false"
      required="false" stored="true" type="string" />

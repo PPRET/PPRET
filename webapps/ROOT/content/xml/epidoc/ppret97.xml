@@ -73,7 +73,7 @@
                                 <placeName type="prefecture">Italia Illyricum Africa</placeName>
                                 <placeName type="ancient_location" ref="#public">public space: Forum Severianum</placeName>
                             </origPlace>
-                            <origDate period="#p8" notBefore="0330" notAfter="0400">330/400 AD</origDate>
+                            <origDate period="#p9" notBefore="0330" notAfter="0400">330/400 AD</origDate>
                         </origin>
                         <provenance type="found"><placeName ref="#">Leptis Magna</placeName>, Forum Severianum, West side, at foot of the steps of the temple</provenance>
                     </history>
