@@ -178,9 +178,10 @@ li.arrow a {
 }
 
 .photo {
- height:100px;
- float:left;
- margin:10px;
+ height: 140px;
+ width: 140px;
+ float: left;
+ margin: 6px 10px 2px 0;
  border: solid 1px black;
 }
 
