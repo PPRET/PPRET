@@ -111,5 +111,9 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
+  
+  <xsl:template match="tei:figure">
+    <img alt="photo" class="photo"><xsl:attribute name="src"><xsl:value-of select="@corresp"/></xsl:attribute></img>
+  </xsl:template>
 
 </xsl:stylesheet>

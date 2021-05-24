@@ -177,6 +177,13 @@ li.arrow a {
     font-size: 20px;
 }
 
+.photo {
+ height:100px;
+ float:left;
+ margin:10px;
+ border: solid 1px black;
+}
+
 
 /*Keyboard*/
 #keyboard_box {
