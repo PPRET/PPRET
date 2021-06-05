@@ -25,13 +25,27 @@
             <div type="commentary">
                 <head>Technical aspects of the PPRET Inscriptions database</head>
                 <div type="textpart" subtype="section">
-                    <p>The PPRET Inscriptions database was built through the EpiDoc Front-End Services (EFES) platform (<ptr target="https://github.com/EpiDoc/EFES/wiki"/>), which is the epigraphic specialisation of Kiln platform (<ptr target="https://kcl-ddh.github.io/kiln/"/>).
-                        Kiln was developed and released in 2012 by the Department of Digital Humanities of the King’s College London as an open source tool for the publication of texts encoded in XML (eXtensible Markup Language), a widely spread and highly compatible encoding language, and following the Text Encoding Initiative (TEI) standard for the digital edition of historical and literary documents (<ptr target="https://tei-c.org/"/>). 
-                        EFES, specifically, was developed and released in 2017 by the Institute of Classical Studies of the University of London as the specialisation of Kiln for the publication of XML texts encoded following the TEI sub-standard EpiDoc (<ptr target="https://epidoc.stoa.org/gl/latest/"/>).</p>
-                    <p>EpiDoc is the international standard for the digital edition of inscriptions and of other categories of ancient historical documents and, as such, 
-                        it has been followed in the XML encoding of all the documents included in the PPRET Inscriptions database, which was carried out by Irene Vagionakis, Eleonora Angius and Giordana Franceschini.</p>
-                    <p>The customisation of EFES for the purposes of the PPRET Inscriptions database was made by Irene Vagionakis and implied, in particular, the creation of a dedicated XML EpiDoc template and the enhancement of EFES search facilities, including especially the addition of very specific browse filters.</p>
-                    <p>All the contents of the database, which is hosted on a server provided by the Huma-Num research infrastructure (<ptr target="https://www.huma-num.fr/"/>), are released in Open Access mode under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (<ptr target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>).</p>
+                    <div><p>The creation of the PPRET database involved two work phases: the encoding of the inscriptions in EpiDoc XML and the actual creation of the database through the EpiDoc Front-End Services (EFES).</p></div>
+                
+                    <div>
+                        <head type="subheading">Encoding of the inscriptions in EpiDoc XML</head>
+                        <p><ref corresp="https://epidoc.stoa.org/gl/latest/">EpiDoc</ref> is the international standard for the digital edition of ancient documents, especially inscriptions. It is a subset of the <ref corresp="https://tei-c.org/">Text Encoding Initiative</ref> (TEI) standard for the digital edition of literary and historical documents. 
+                            It is based on XML (eXtensible Markup Language), a widely spread and highly compatible semantic markup language, which is based on the meaning of the text instead of on its appearance and which is currently the most advanced and spread approach for the creation of digital scholarly editions.</p>
+                        <p>Among the many benefits of a semantic markup there are its high compatibility, interoperability and flexibility, which imply a long term sustainability and a low risk of obsolescence, and the fact that it allows the creation of enriched online publications with considerable usability benefits in terms of searching and browsing of the encoded materials.</p>
+                        <p>The adaptation of the EpiDoc XML template to fit the PPRET specific needs led to the creation of a PPRET EpiDoc XML template, which was used for the encoding of all the documents included in the PPRET Inscriptions database, carried out by Irene Vagionakis, Eleonora Angius and Giordana Franceschini.</p>
+                    </div>
+                    
+                <div>
+                    <head type="subheading">Creation of the database with EFES (EpiDoc Front-End Services)</head>
+                    <p><ref corresp="https://github.com/EpiDoc/EFES/wiki">EpiDoc Front-End Services</ref> is an open-source tool for the online publication of texts encoded specifically in EpiDoc, developed in 2017 by the Institute of Classical Studies of the University of London. It is the epigraphic specialisation of <ref corresp="https://kcl-ddh.github.io/kiln/">Kiln</ref>, a similar tool for the online publication of texts in TEI, developed in 2012 by the Department of Digital Humanities of the King’s College London.</p>
+                    <p>The main points of strength of EFES that led to its adoption are the fact that is was specifically designed to be used with EpiDoc ancient documents, that it is easily customisable and that it is not just a publishing tool, but also a useful tool for testing and analysis purposes during construction.</p>
+                    <p>The customisation of EFES for PPRET purposes was made by Irene Vagionakis and involved, in particular, the adaptation of graphics, the creation of a dedicated XSLT template to display the PPRET XML template properly and the enhancement of EFES search facilities, including especially the addition of very specific browse filters and of a facility to perform searches limited to the inscription texts only.</p>
+                    </div>
+                <div>
+                    <head type="subheading">Open Access and Linked Open Data</head>
+                    <p>All the XML, HTML and PDF contents of the database, which is hosted on a server provided by the <ref corresp="https://www.huma-num.fr/">Huma-Num</ref> Digital Humanities research infrastructure thanks to an agreement with <ref corresp="https://www.misha.fr/">MISHA</ref> / <ref corresp="https://www.unistra.fr/">Université de Strasbourg</ref>, are released in Open Access mode under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (<ref corresp="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</ref>).</p>
+                    <p>According to the Linked Open Data principles, links to other Open Access online resources (such as <ref corresp="http://www.edr-edr.it/">EDR</ref>, <ref corresp="https://edh-www.adw.uni-heidelberg.de/">EDH</ref>, <ref corresp="http://db.edcs.eu/">EDCS</ref>, <ref corresp="https://www.ubi-erat-lupa.org/">Ubi Erat Lupa</ref>, <ref corresp="http://laststatues.classics.ox.ac.uk/">LSA</ref>, <ref corresp="http://inslib.kcl.ac.uk/irt2009/">IRT</ref>…) have been inserted systematically.</p>
+                </div>
                 </div>
                 <!--<head></head>
                 <div type="textpart" subtype="section">
