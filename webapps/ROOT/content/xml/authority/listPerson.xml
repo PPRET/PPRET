@@ -224,6 +224,10 @@
                         <persName>Anonymous praetorian prefect</persName>
                     </person>
                     
+                    <person xml:id="nobody">
+                        <persName>-</persName>
+                    </person>
+                    
             </listPerson>
         </body>
     </text>

@@ -308,6 +308,9 @@
     <xsl:if test="//t:div[@type='translation']//t:p//text()">
       <div id="translation" class="edition_part">
         <h2><i18n:text i18n:key="ppret-translation">Translations</i18n:text></h2>
+        <xsl:if test="//t:div[@type='translation'][not(@xml:lang)]//t:p//text()">
+          <xsl:apply-templates select="//t:div[@type='translation'][not(@xml:lang)]//t:p"/>
+        </xsl:if>
         <xsl:if test="//t:div[@type='translation'][@xml:lang='en']//t:p//text()">
           <h3><i18n:text i18n:key="ppret-translation-en">English</i18n:text></h3>
           <xsl:apply-templates select="//t:div[@type='translation'][@xml:lang='en']//t:p"/>
