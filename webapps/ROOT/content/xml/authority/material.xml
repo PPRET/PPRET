@@ -26,6 +26,10 @@
                     <term xml:lang="it">Calcare</term>
                     <term xml:lang="en">Limestone</term>
                 </item>
+                <item xml:id="granite">
+                    <term xml:lang="it">Granito</term>
+                    <term xml:lang="en">Granite</term>
+                </item>
                 <item xml:id="mosaic">
                     <term xml:lang="it">Mosaico</term>
                     <term xml:lang="en">Mosaic</term>

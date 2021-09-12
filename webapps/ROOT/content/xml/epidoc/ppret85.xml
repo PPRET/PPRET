@@ -5,14 +5,14 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Inscription in honour of Valentinianus II, Theodosius I, Arcadius, Honorius from Side by Tatianus praet. praefect</title>
+                <title>Inscription in honour of Valentinian II, Theodosius I, Arcadius, Honorius from Side by Tatianus praet. praefect </title>
                 <editor role="edition">Giordana Franceschini</editor>
                 <editor role="encoding">Giordana Franceschini</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>PPRET</authority>
-                <idno type="filename" n="plre" corresp="p. 876">85</idno>
-                <date when="2020-03-27"/>
+                <idno type="filename" n="plre" corresp="pp. 876-878">85</idno>
+                <date when="2021-05-14"/>
                 <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
             </publicationStmt>
             <sourceDesc>
@@ -25,13 +25,13 @@
                 </listPerson>
                 <msDesc>
                     <msIdentifier>
-                        <repository ref="#lost">lost</repository>
+                        <repository ref="lost">Lost</repository>
                         <idno type="invNo"></idno>
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textType" ref="#honorary">Honorary inscription to the emperors Valentinianus II, Theodosius I, Arcadius, and Honorius</term>
-                            <term type="rhythm" ref="#prose">prose</term>
+                            <term type="textType" ref="#honorary">Honorary inscription to the emperors Valentinian II, Theodosius I, Arcadius, and Honorius</term>
+                            <term type="rhythm" ref="#prose">Prose</term>
                         </summary>
                         <textLang mainLang="grc">Greek</textLang>
                     </msContents>
@@ -39,8 +39,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#unknown">unknown</material>
-                                    <objectType ref="#base">statue base</objectType>
+                                    <material ref="#unknown">Unknown</material>
+                                    <objectType ref="#base">Statue base</objectType>
                                     <dimensions>
                                         <height>unknown</height>
                                         <width>unknown</width>
@@ -54,14 +54,17 @@
                             <layoutDesc>
                                 <layout>
                                     <p>The base was inscribed on one field.</p>
+<p>Damaged: the first line is lost; lines 10-11 and 15 (names of the praetorian prefect and of the provincial governor) have been deliberately erased.
+
+</p>
                                     <rs type="execution" ref="#unknown">Unknown</rs>
-                                    <rs type="preservation" ref="#undamaged">Undamaged: the inscription is complete and has 17 lines, of which 16 are preserved. The name of the awarder has been deliberately erased, but remains partially legible.</rs>
+                                    <rs type="preservation" ref="#damaged">Damaged</rs>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <term ref="#squared">squared letters</term>
+                                <term ref="#squared">Squared letters</term>
                                 <height>unknown</height>
                             </handNote>
                         </handDesc>
@@ -74,11 +77,11 @@
                                 <placeName type="province">Pamphylia</placeName>
                                 <placeName type="diocese">Asiana</placeName>
                                 <placeName type="prefecture">Oriens</placeName>
-                                <placeName type="ancient_location" ref="#public">Public building </placeName>
+                                <placeName type="ancient_location" ref="#public">Public building</placeName>
                             </origPlace>
                             <origDate period="#p8" notBefore="0388" notAfter="0392">388/392 AD</origDate>
                         </origin>
-                        <provenance type="found">The base was found on the beach of <placeName ref="#">Side</placeName>, near the theatre</provenance>
+                        <provenance type="found">The base was found on the beach of <placeName>Side</placeName>, near the theatre</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -93,62 +96,63 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="grc">
-                    <ab>
-                        <lb n="0"/><supplied reason="lost">τοὺς τῆς ὑφ’ ἡλίῳ γῆς</supplied>
-                        <lb n="1"/>αὐτοκράτορας,
-                        <lb n="2"/><supplied reason="lost">τ</supplied>ροπεούχους, δε<supplied reason="lost">σ</supplied><lb
-                        break="no" n="3"/><unclear>π</unclear>ότας ἡμῶν,
-                        <lb n="4"/>Οὐαλεντινιανόν,
-                        <lb n="5"/>Θεοδόσιον, Ἀρκάδ<supplied reason="lost">ι</supplied><lb
-                        break="no" n="6"/><supplied reason="lost">ο</supplied>ν τοὺς αἰωνίους
-                        <lb n="7"/><supplied reason="lost">Α</supplied>ὐγούστους καὶ <expan><abbr>Φλ</abbr><ex>άουιον</ex></expan> 
-                        <lb n="8"/><supplied reason="lost">Ὁ</supplied>νόριον τὸν <sic>αἰπι<lb
-                        break="no" n="9"/><supplied reason="lost">φ</supplied>ανέστατον</sic>, <expan><abbr>Φλ</abbr><ex>άουιος</ex></expan>
-                        <lb n="10"/><del rend="erasure"><supplied reason="lost">Ε</supplied>ὐτόλμιος Τατια</del><lb
-                        break="no" n="11"/><del rend="erasure"><supplied reason="lost">ν</supplied>ὸς ὁ <expan><abbr>λα</abbr><ex>μπρότατος</ex></expan> ἔπαρχ<supplied reason="lost">ος</supplied></del>
-                        <lb n="12"/><unclear>τ</unclear>ῶν <sic>εἱερῶν</sic> πραιτωρ<lb
+                <ab>
+                    <lb n="0"/><supplied reason="lost">τοὺς τῆς ὑφ’ ἡλίῳ γῆς</supplied> 
+                    <lb n="1"/>αὐτοκράτορας, 
+                    <lb n="2"/><supplied reason="lost">τ</supplied>ροπεούχους, δε<supplied reason="lost">σ</supplied><lb
+                        break="no" n="3"/><unclear>π</unclear>ότας ἡμ<unclear>ῶ</unclear>ν, 
+                    <lb n="4"/>Οὐαλεντινιανό<unclear>ν</unclear>,
+                    <lb n="5"/>Θεοδόσιον, Ἀρκάδ<supplied reason="lost">ι</supplied><lb
+                        break="no" n="6"/><supplied reason="lost">ο</supplied>ν τοὺς αἰωνίους 
+                    <lb n="7"/><supplied reason="lost">Α</supplied>ὐγούστους καὶ <expan><abbr>Φ<unclear>λ</unclear></abbr><ex>άουιον</ex></expan> 
+                    <lb n="8"/><supplied reason="lost">Ὁ</supplied>νόριον τὸν αἰπι<lb break="no"
+                    n="9"/><supplied reason="lost">φ</supplied><sic>ανέστατον</sic>, <expan><abbr>Φλ</abbr><ex>άουιος</ex></expan>
+                    <lb n="10"/><del rend="erasure"><supplied reason="lost">Ε</supplied>ὐτ<unclear>ό</unclear><unclear>λ</unclear><unclear>μ</unclear>ιος <unclear>Τ</unclear><unclear>α</unclear><unclear>τ</unclear>ια</del><lb
+                        break="no" n="11"/><del rend="erasure"><supplied reason="lost">ν</supplied>ὸς ὁ <expan><abbr>λα</abbr><ex>μπρότατος</ex></expan> ἔπ<unclear>α</unclear>ρ<unclear>χ</unclear><supplied reason="lost">ος</supplied></del>
+                    <lb n="12"/><unclear>τ</unclear>ῶν <sic>εἱερῶν</sic> πραιτωρ<lb
                         break="no" n="13"/><supplied reason="lost">ίω</supplied>ν, τῇ συνήθει καθοσ<lb
-                        break="no" n="14"/><supplied reason="lost">ιώ</supplied>σει ἀφιέρωσεν, ἐπ<supplied reason="lost">ὶ</supplied> 
-                        <lb n="15"/><gap reason="lost" quantity="12" unit="character"/> τοῦ <expan><abbr>λαμ</abbr><ex>προτατοῦ</ex></expan>
-                        <lb n="16"/>ὑπατικοῦ.
-                    </ab>
+                        break="no" n="14"/><supplied reason="lost">ιώ</supplied>σει ἀφιέρωσεν, ἐπ<supplied reason="lost">ὶ</supplied>
+                    <lb n="15"/><gap reason="lost" quantity="12" unit="character"/> τοῦ <expan><abbr>λαμ</abbr><ex>προτάτου</ex></expan>
+                    <lb n="16"/>ὑπατικοῦ. 
+                </ab>
             </div>
             <div type="apparatus">
-                <p>Edition based on the text edited IK 43 Side, 52.</p>
-            <p>
-                    <app loc="1"><note>CIG and Robert does not report the entire line</note></app>
-                    <app loc="2"><note>αὐτοκράτορας, [τ]=: Robert</note></app>
-                <app loc="10"><note>νιος ἐπι=: CIG; Robert</note></app>
-                <app loc="11"><note>(σ)π(εί)ρ[ας ? ᾽Α]: CIG; Robert</note></app>
-                <app loc="12"><note>[ν](τ)ωνεί(ν)ων πραιτωρ[ια]=: CIG; Robert</note></app>
-                <app loc="13"><note>[νῶ]ν: CIG; Robert</note></app>
-                </p>
+                <p>Edition based on the text edited in <ref type="inscription">IK 43 Side, 52</ref>.
+<app loc="1"><note>CIG and Robert do not report the entire line</note></app>
+                    <app loc="2"><note>αὐτοκράτορας, <supplied reason="lost">τ</supplied>=: Robert</note></app>
+                    <app loc="9-13"><note>Robert (1948, p. 52)</note></app>
+                    <app loc="10"><note>νιος ἐπι=: CIG</note></app>
+                    <app loc="11"><note>(σ)π(εί)ρ<supplied reason="lost">ας ? ᾽Α</supplied>: CIG</note></app>
+                    <app loc="12"><note><supplied reason="lost">ν</supplied>(τ)ωνεί(ν)ων πραιτωρ<supplied reason="lost">ια</supplied>=: CIG</note></app>
+                    <app loc="13"><note><supplied reason="lost">νῶ</supplied>ν: CIG</note></app>
+</p>
             </div>
             <div type="translation" xml:lang="it">
-                <p>“Agli imperatori della Terra sotto il sole, trionfanti, i nostri signori Valentinianus, Teodosius, Arcadius, perpetui Augusti, e Flavius Honorius, nobilissimo, il chiarissimo Flavius Eutolmius Tatianus, prefetto dei sacri praetoria, realizzò con la consueta devozione, quando era governatore…, il chiarissimo consolare.”</p>
+                <p>“Agli imperatori della Terra sotto il sole, trionfanti, i nostri signori <persName type="ruler">Valentinianus</persName>, <persName type="ruler">Teodosius</persName>, <persName type="ruler">Arcadius</persName>, perpetui Augusti, e <persName type="ruler">Flavius Honorius</persName>, nobilissimo, il chiarissimo <persName ref="#Tatianus"><name ref="praenomen">Flavius</name> <name ref="gentilicium">Eutolmius</name> <name ref="cognomen">Tatianus</name></persName>, prefetto dei sacri praetoria, realizzò con la consueta devozione, quando era governatore…, il chiarissimo consolare”.</p>
             </div>
             <div type="translation" xml:lang="en">
-                <p>“To the emperors of the Earth under the sun, triumphant, our masters Valentinianus, Theodosius, Arcadius, the eternal Augusti, and Flavius Honorius, the most noble, Flavius Eutolmius Tatianus, of clarissimus rank, prefect of the sacred praetoria, set this up with the customary devotion, when ... was consularis (of Pamphylia) of clarissimus rank.”</p>
+                <p>“To the emperors of the Earth under the sun, triumphant, our masters <persName type="ruler">Valentinian</persName>, <persName type="ruler">Theodosius</persName>, <persName type="ruler">Arcadius</persName>, the eternal Augusti, and <persName type="ruler">Flavius Honorius</persName>, the most noble, <persName ref="#Tatianus"><name ref="praenomen">Flavius</name> <name ref="gentilicium">Eutolmius</name> <name ref="cognomen">Tatianus</name></persName>, of clarissimus rank, prefect of the sacred praetoria, set this up with the customary devotion, when ...  was consularis (i.e. the governor of <placeName>Pamphylia</placeName>) of clarissimus rank”.</p>
             </div>
             <div type="translation" xml:lang="fr">
-                <p>“Aux empereurs de la Terre sous le soleil, triomphateurs, nos seigneurs Valentinianus, Theodosius, Arcadius, Augustes perpétuels, et Flavius Honorius, le très noble, Flavius Eutolmius Tatianus, clarissime préfet des prétoires sacrés, a réalisé avec la dévotion habituelle, quand il était gouverneur..., le clarissime consulaire.”</p>
+                <p>“Aux empereurs de la Terre sous le soleil, triomphateurs, nos seigneurs <persName type="ruler">Valentinianus</persName>, <persName type="ruler">Theodosius</persName>, <persName type="ruler">Arcadius</persName>, Augustes perpétuels, et <persName type="ruler">Flavius Honorius</persName>, le très noble, <persName ref="#Tatianus"><name ref="praenomen">Flavius</name> <name ref="gentilicium">Eutolmius</name> <name ref="cognomen">Tatianus</name></persName>, clarissime préfet des prétoires sacrés, a réalisé avec la dévotion habituelle, quand il était gouverneur..., le clarissime consulaire”.</p>
             </div>
             <div type="commentary">
-                <p>Today the inscription is lost. It was carved on a statue base as a dedication in honour of the emperors Valentinianus II, Theodosius I, Arcadius Augusti and Honorius <foreign>nobilissimus</foreign> (<foreign>puer</foreign>). It was found on the beach of the ancient city of Side, near the roman theatre. It was described by the British architect Charles R. Cockerell (1788-1863) who traveled in the eastern Mediterranean between 1810 and 1817 and who visited the southern coast of ancient Anatolia (Turkey) in 1811 (cf. Pearce, Ormrod 2017).</p>
-                <p>The same introductory formula of dedication to the four emperors (lines 1-4) «emperors of the land under the sun» (τῆς ὑφ’ ἡλίῳ γῆς αὐτοκράτορες), can also be found in Tatianus’ inscriptions for Arcadius at Aphrodisias (<ref type="ppret" corresp="ppret83">PPRET 83</ref>), for Valentinianus II at Aphrodisias (<ref type="ppret" corresp="ppret84">PPRET 84</ref>) and in the inscriptions to the four emperors at Antinoupolis (<ref type="ppret" corresp="ppret86">PPRET 86</ref>). 
-                The awarder also dedicated similar inscriptions individually to each of the four emperors in Aphrodisias (Caria) (see <ref type="ppret" corresp="ppret82">PPRET 82</ref>, <ref type="ppret" corresp="ppret83">83</ref>, <ref type="ppret" corresp="ppret84">84</ref>). The inscription in Antinoupolis (<ref type="ppret" corresp="ppret86">PPRET 86</ref>) is a ‘twin’ inscription, identical to ours in Side in Pamphylia. 
-                    Tatianus seems to have won the collaboration of cities in different provinces of his prefecture in order to create a series of monuments to the emperors during his office (388-392 AD).
-                The name of the governor of Pamphylia who actually made this monument in Side has been erased. It was probably a client of Tatianus (see below). But in Antinoupolis the name of Fl. Septimius Eutropius v.c., <foreign>praeses Thebaidos</foreign> (PLRE I, p. 318), remained intact. Since his office is dated to 388/390 AD, it is possible that all these monuments were completed at this time.</p>
-                <p>The name of the prefect Tatianus was erased (linn. 10-11). It was restored by Robert (1948, p. 52) on the model of a similar inscription in Antinoupolis (<ref type="ppret" corresp="ppret86">PPRET 86</ref>),that names all the four emperors being honoured  at the same time, as in our inscription. Tatianus was a distinguished pagan, who was made the eastern praetorian prefect in 388 AD and fell from power in 392 AD. 
-                    Between June 30<hi rend="superscript">th</hi> and August 26<hi rend="superscript">th</hi> 392 AD, he was suddenly deposed and condemned for embezzlement (in reality <foreign>maiestas</foreign>). 
-                He suffered <foreign>damnatio memoriae</foreign> and banishment to Lycia. He was rehabilitated posthumously by his grandson at Aphrodisias (<ref type="ppret" corresp="ppret91">PPRET 91</ref>). His whole career is recorded in ascending order of importance from <foreign>praeses</foreign> (ἡγεμών) to <foreign>praefectus</foreign> (ἔπαρχος) in <ref type="ppret" corresp="ppret87">PPRET 87</ref>. 
-                Inside the text of our inscription from Side (ll. 13-14) a reference to a pagan ritual of dedication appears: «the usual offerings» (τῇ συνήθει καθοσιώσει, lines 8-9), referring to the pagan practices that accompanied the ceremony. The group of dedications by Tatianus (<ref type="ppret" corresp="ppret82">PPRET 82-86</ref>) always uses this same peculiar formula.</p>
+                <p>The inscription was carved on a statue base as a dedication in honour of the emperors <persName type="ruler">Valentinian II</persName>, <persName type="ruler">Theodosius I</persName>, <persName type="ruler">Arcadius</persName> Augusti and <persName type="ruler">Honorius</persName> <foreign>nobilissimus</foreign> (<foreign>puer</foreign>). It was found in the ruins of the ancient city of <placeName>Side</placeName>, near the roman theatre (on the theatre of <placeName>Side</placeName>, see İzmirligil 2007 and 2012). The Greek text of the inscription was copied by the British architect Charles R. Cockerell (1788-1863) who traveled in the eastern Mediterranean between 1810 and 1817 and who visited the southern coast of ancient <placeName>Anatolia</placeName> (<placeName>Turkey</placeName>) in 1811 (see Robert 1948, p. 51; Pearce, Ormrod 2017). The transcription by Cockerell was published by Johannes Franz (1804-1851) in the third volume of <foreign>Corpus Inscriptionum Graecarum</foreign> (p. 175, nr. 4350). After its discovery, the inscription disappeared, and is still lost today. Louis Robert (1948, pp. 51-52) and Johannes Nollé (1993, pp. 329-330) provided appropriate integrations.
+The monument in honour of the four emperors (listed in order of seniority as Augusti: <persName type="ruler">Valentinianus II</persName>, <persName type="ruler">Theodosius</persName>, <persName type="ruler">Arcadius</persName>, and to the end <persName type="ruler">Honorius</persName>, who was only <foreign>nobilissimus puer</foreign> / <foreign>iuvenis</foreign>) was erected in <placeName>Side</placeName> by order of the Praetorian prefect <persName ref="#Tatianus"><name ref="praenomen">Fl.</name> <name ref="gentilicium">Eutolmius</name> <name ref="cognomen">Tatianus</name></persName>, during his prefecture, in 388/392 AD, and it was made by the governor of <placeName>Pamphylia</placeName> whose name was erased (see below; for a possible dating to 388/390, see <ref type="ppret" corresp="ppret86">PPRET 86</ref>). Another inscription in <placeName><placeName>Antinoupolis</placeName></placeName> (<placeName>Thebais</placeName>, <ref type="ppret" corresp="ppret86">PPRET 86</ref>) is dedicated to the same four emperors: it is a ‘twin’ inscription, identical to ours in <placeName>Side</placeName> in <placeName>Pamphylia</placeName>. The praetorian prefect <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> also dedicated similar inscriptions individually to each of the four emperors in <placeName ref="#Aphrodisias">Aphrodisias</placeName> (<placeName>Caria</placeName>) (three survived: <ref type="ppret" corresp="ppret82">PPRET 82</ref> for <persName type="ruler">Honorius</persName>, <ref type="ppret" corresp="ppret83">83</ref> for <persName type="ruler">Arcadius</persName>, <ref type="ppret" corresp="ppret84">84</ref> for <persName type="ruler">Valentinianus II</persName>). <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> seems to have won the collaboration of provincial governors and cities in different provinces of his prefecture in order to create a series of monuments to the emperors during his office (388-392 AD).  Dedications made by the same praetorian prefect <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName>, in three different and quite distant provinces (<placeName>Caria</placeName>, <placeName>Pamphylia</placeName>, Thebais) confirms that they are all of the same date. The wide diffusion of monuments also reveals a systematic celebratory strategy (see Robert 1948, p. 52): <placeName ref="#Aphrodisias">Aphrodisias</placeName> was the capital of the province of <placeName>Caria</placeName>, <placeName>Antinoupolis</placeName> was the capital of the province of <placeName>Thebais</placeName> (Keenan 2000, p. 617; Palme 2012), and it remains uncertain whether <placeName>Side</placeName> in the second half of the 4<hi rend="superscript">th</hi> Century was the capital of <placeName>Pamphylia</placeName>, but this primacy still seems to be reserved for Perge (Nollé 1993, pp. 134-135; Arena 2004, pp. 45-47, 125-131, 136-143; Brandt, Kolb 2005, pp. 25-26, 119-132; Brandt 2010). 
+The inscription celebrates four rulers, and the base on which it was engraved is lost. The number of letters per line copied by Cockerell and published by Franz (15/16 per line) and the comparison with the base of the ‘twin’ inscription from <placeName>Antinoupolis</placeName> (<ref type="ppret" corresp="ppret86">PPRET 86</ref>) suggest that our inscription was engraved under the single statue of one of the four rulers (see Nollé 1993, p. 330: «Wahrscheinlich existieren drei weitere Basen mit der gleichen inschrift»; Gehn in <ref type="inscription">LSA 267</ref>). Moreover, in the late empire single dedications to several emperors from the period 383-393 AD are usually reproduced below the individual statues of each one (<ref type="inscription">LSA 519</ref>; <ref type="inscription">528</ref>; <ref type="inscription">529</ref>; <ref type="inscription">1275</ref>; <ref type="inscription">1659</ref>; <ref type="inscription">2729</ref>); this practice is attested from the Tetrarchic age (Eck 2006) and during the late Empire (see Porena 2021). At <placeName>Side</placeName> and at <placeName>Antinoupolis</placeName> we thus have to imagine a series of four bases with a statue of an emperor on each one of them, that is to say <persName type="ruler">Valentinianus II</persName> and his colleagues belonging to the Theodosian dynasty. 
+The lost first line of the inscription from <placeName>Side</placeName> can be easily integrated thanks to a comparison with others put up by <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName>, namely the second line of the inscription for <persName type="ruler">Arcadius</persName> (<ref type="ppret" corresp="ppret83">PPRET 83</ref>), and another for <persName type="ruler">Valentinianus II</persName> (<ref type="ppret" corresp="ppret84">PPRET 84</ref>) at <placeName ref="#Aphrodisias">Aphrodisias</placeName> and with the first line of the inscription for the four emperors from <placeName>Antinoupolis</placeName> (<ref type="ppret" corresp="ppret86">PPRET 86</ref>). At the beginning of these texts the formula τῆς ὑφ' ἡλίῳ γῆς precedes the term αὐτοκράτωρ /-ορες. The formula is of course different in the case of the inscription of <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> at <placeName ref="#Aphrodisias">Aphrodisias</placeName> for <persName type="ruler">Honorius</persName> who was not emperor (see <ref type="ppret" corresp="ppret82">PPRET 82</ref>). The formula τῆς ὑφ' ἡλίῳ γῆς seems to be isolated (on γῆς και θαλάσσης δεσπότης see Ritti 2002-2003; for orbis in imperial titulature, see Borhy 1999; the emperor Julian as <foreign>dominus totius orbis</foreign> in <ref type="ppret" corresp="ppret50">PPRET 50</ref>). The titling τροπεούχους δεσπότας ἡμῶν τοὺς αἰωνίους Αὐγούστους (in Latin: <foreign>domini nostri triumfatores perpetui Augusti</foreign>) is very common (see Chastagnol 1988, pp. 21-23; Rösch 1978, pp. 34, 39, 46; recently Kajava 2011; Benoist 2016; on Αὔγουστος, see Salway 2007). About <persName type="ruler">Honorius</persName>, styled at lines 7-9 only as αἰπιφανέστατον, see <ref type="ppret" corresp="ppret82">PPRET 82</ref>. 
+At lines 10-11 the name of the praetorian prefect <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> was erased. Robert (1948, p. 52) was able to restore this name through a comparison with the dignitary's other surviving inscriptions and a careful re-reading of the transcription published by Franz in the CIG. 
+As we have said, the inscription from <placeName>Side</placeName> was erected by order of the Praetorian prefect <persName ref="#Tatianus"><name ref="praenomen">Fl.</name> <name ref="gentilicium">Eutolmius</name> <name ref="cognomen">Tatianus</name></persName>, during his prefecture, in 388/392 AD, and was made by the governor of <placeName>Pamphylia</placeName> whose name was erased. After an important career, which began in 358 AD, <persName ref="#Tatianus"><name ref="gentilicium">Eutolmius</name> <name ref="cognomen">Tatianus</name></persName> became praetorian prefect of the East from 388 to 392 AD, residing in <placeName>Constantinople</placeName> during the long stay of the emperor <persName type="ruler">Theodosius I</persName> in <placeName>Italy</placeName> (the emperor only came back to <placeName>Constantinople</placeName> in July 391 AD; for <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName>’ career see PLRE I, pp. 876-878; Delmaire 1989, pp. 62-67; Olszaniec 2013, pp. 394-407; his <foreign>cursus honorum</foreign> is recorded in the inscription carved in his honour in <placeName>Sidyma</placeName>, see <ref type="ppret" corresp="ppret87">PPRET 87</ref>). Shortly after his return to <placeName>Constantinople</placeName>, the emperor <persName type="ruler">Theodosius I</persName> deprived <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> of his office and sent him into exile in <placeName>Lycia</placeName>, while his son <persName ref="#Proculus">Proculus</persName> was sentenced to death (for a recent study, see Mecella 2015). This fall from grace caused <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName>’ name to be erased from many inscriptions (<ref type="ppret" corresp="ppret82">PPRET 82</ref>, <ref type="ppret" corresp="ppret83">83</ref>, <ref type="ppret" corresp="ppret84">84</ref>, <ref type="ppret" corresp="ppret85">85</ref>, <ref type="ppret" corresp="ppret86">86</ref>, <ref type="ppret" corresp="ppret88">88</ref>), as also shown by the erasion on our inscription. Many years later a (homonymous) descendant of <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> ordered a Greek inscription in verse to be engraved in honour of his ancestor <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName>, the praetorian prefect, in the city of <placeName ref="#Aphrodisias">Aphrodisias</placeName> (<ref type="ppret" corresp="ppret91">PPRET 91</ref>).
+At the lines 13-14 the expression τῇ συνήθει καθοσιώσει “with the customary devotion” does not refer to purification or public or pagan sacrifices (such as Nollé 1993, p. 331; U. Gehn in <ref type="inscription">LSA 267</ref> and <ref type="inscription">876</ref>; Ogus 2018, p. 165). As in the inscriptions by Tatianus in <placeName ref="#Aphrodisias">Aphrodisias</placeName> and in <placeName>Antinoupolis</placeName>, καθοσίωσις (lat. <foreign>devotio</foreign>) means loyalty to the emperors (for ex. <ref type="source">Eus., HE 09, 09a, 07</ref>; <ref type="source">Eus., HE 10, 05, 18</ref>; <ref type="source">Nov. Iust. 134, 13, 03</ref>; <ref type="source">De Cerim. 01, 101 (92), p. 419 Reiske</ref>; <ref type="source">ACO 02/01, 02, p. 60,39, Conc. Chalced. 451</ref>). The five inscriptions erected by <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> to the emperors reigning in the years 388/392  (<ref type="ppret" corresp="ppret82">PPRET 82</ref>, <ref type="ppret" corresp="ppret83">83</ref>, <ref type="ppret" corresp="ppret84">84</ref>, <ref type="ppret" corresp="ppret85">85</ref>, <ref type="ppret" corresp="ppret86">86</ref>) always uses this same peculiar formula. 
+At line 15 the name of the governor of <placeName>Pamphylia</placeName>, who probably was the man responsible for the monument in <placeName>Side</placeName>, has been deeply erased. He is unknown, but he was probably a client of <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName>. It is interesting that in all inscriptions put up by <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> in honour of emperors, the name of the governor who was in office when the monument or series of monuments was built is always indicated at the end (it seems likely that the governor was the supervisor of the construction of the monuments). Not all the names engraved on the inscriptions have survived. In the ‘twin’ inscription from <placeName>Antinoupolis</placeName> (<ref type="ppret" corresp="ppret86">PPRET 86</ref>) it is noticeable that the name of <persName><name ref="praenomen">Fl.</name> <name ref="gentilicium">Septimius</name> <name ref="cognomen">Eutropius</name></persName>, <foreign>praeses Thebaidos</foreign> (PLRE I, p. 318), remained intact. <persName><name>Antonius</name> <name>Priscus</name></persName>, governor of <placeName>Caria</placeName> (PLRE I, p. 730), is mentioned at the end of the series of the three inscriptions dedicated by the prefect <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> at <placeName ref="#Aphrodisias">Aphrodisias</placeName>. In the same city of <placeName ref="#Aphrodisias">Aphrodisias</placeName> on the inscription in honour of <persName type="ruler">Honorius</persName> (<ref type="ppret" corresp="ppret82">PPRET 82</ref>) his name is preserved, but in the two inscriptions in honour of <persName type="ruler">Arcadius</persName> (<ref type="ppret" corresp="ppret83">PPRET 83</ref>) and <persName type="ruler">Valentiniaus II</persName> (<ref type="ppret" corresp="ppret84">PPRET 84</ref>) his name has been erased. This anomaly is without explanation.
+</p>
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
-                    <bibl><ref>CIG III, 4350</ref></bibl>
-                    <bibl><ref>Robert 1948, pp. 53-55</ref> = <bibl><ref>AE 1949, 0221</ref></bibl></bibl>
+                    <bibl><ref>CIG 03, 4350</ref></bibl>
+                    <bibl><ref>Robert 1948, pp. 51-52 </ref> = <bibl><ref>AE 1949, 0221</ref></bibl> = <bibl><ref>BE 1949, 189</ref></bibl></bibl>
                     <bibl><ref>IK 43 Side, 52</ref> (quoted also as Nollé 1993)</bibl>
+                    
                 </p>
             </div>
             <div type="bibliography" subtype="images">
@@ -162,21 +166,28 @@
             </div>
             <div type="bibliography" subtype="other">
                 <p>
-                    <bibl>Barnes T.D., The victims of Rufinus, CQ 34, 1984, 227-230</bibl>
-                    <bibl>Collignon M., Notes sur les fouilles executées à Aphrodisias par M. Paul Gaudin, CRAI 1904, 703-711</bibl>
-                    <bibl>Cuvigny H., Τρισαυγούστιον et φραγέλλιον. Contrôle de qualité et mesurage du grain fiscal au IVe s. apr. J.-C. à la lumière de P.Mich. XX 800 et de l’inscription tardive du grenier d’Andriakè, Chiron 47, 2017, 95-114</bibl>
-                    <bibl>Errington R., A note on the Augustal Prefect of Egypt, Tyche 17, 2002, 69-77</bibl>
-                    <bibl>Grégoire H., Miettes d’histoire byzantine (IVe-VIe siècle), Anatolian Studies presented to Sir William Mitchell Ramsay, Manchester-London-New York, 1923, 151-164</bibl>
-                    <bibl>Grégoire H., Quand est né l’empereur Théodose II ?, Byzantion 4, 1927-1928, 337-348</bibl>
-                    <bibl>Livrea E., I due Taziani in un’iscrizione di Afrodisia, ZPE 119, 1997, 43-49</bibl>
-                    <bibl>Manganaro G., Due note tardoantiche, ZPE 94, 1992, 283-294</bibl>
-                    <bibl>Mecella M., L’amministrazione di Taziano e Proculo e il destino dei Lici tra Teodosio e Arcadio, in Governare e riformare l’impero al momento della sua divisione: Oriente, Occidente, Illirico Roma, 2015</bibl>
-                    <bibl>Nollé J., Side im Altertum: Geschichte und Zeugnisse (IK, 43), Bonn 1993, nr. 52</bibl>
-                    <bibl>Pearce S.M., Ormrod T. (eds.), Charles Robert Cockerell in the Mediterranean: letters and travels, 1810-1817, Woodbridge 2017</bibl>
-                    <bibl>Pellizzari A., «Salvare le città»: lessico e ideologia nell’opera di Libanio, Κοινωνία 35, 2011, 45-61</bibl>
-                    <bibl>Petit P., Les fonctionnaires dans l’œuvre de Libanius. Analyse prosopographique, Besançon 1994</bibl>
-                    <bibl>Scharf R., Die Familie des Fl. Eutolmius Tatianus, ZPE 85, 1991, 223-231</bibl>
-                    <bibl>Woods D., Tatianus and the Basilica of Menas, Byzantion 65, 1995, 467-474</bibl>
+                    <bibl>Benoist S., Identité(s) du prince et discours impérial, l'exemple des titulatures, des Sévères à Julien, in Discours et systèmes de représentation: modèles et transferts de l'écrit dans l'Empire romain, éd. M. Crété, Besançon 2016, 17-37</bibl>
+                     <bibl>Borhy L., «Constantius toto orbe victor triumfator semper Augustus»: die Tituatur Constantius’ II. bei Ammianus Marcellinus. Ein Kommentar zur Kaiserpropaganda, in XI Congresso Internazionale di Epigrafia Greca e Latina (Roma, 18-24 settembre 1997), II, Roma 1999, 659-668</bibl>
+                     <bibl>Brandt H., La provincia di Panfilia nella tarda antichità (IV-VI secolo), in Istituzioni, carismi ed esercizio del potere (IV-VI secolo d.C.), Bari 2010, 91-97</bibl>
+                     <bibl>Brandt H., Kolb F., Lycia et Pamphylia. Eine römische Provinz im Südwesten Kleinasiens, Mainz 2005</bibl>
+                     <bibl>Chastagnol A., Le formulaire de l'épigraphie latine officielle dans l'Antiquité tardive, in La terza età dell'epigrafia (Colloquio AIEGL, Bologna 1986), Faenza 1988, pp. 11-65</bibl>
+                     <bibl>Delmaire R., Les responsables des finances impériales au Bas-Empire romain (IVe-VIe s.): études prosopographiques, Bruxelles 1989</bibl>
+                    <bibl>Eck W., Worte und Bilder. Das Herrschaftskonzept Diocletians im Spiegel öffentlicher Monumente, in Die Tetrarchie. Ein neues Regierungssystem und seine Präsentation, Wiesbaden 2006, 323-348</bibl>
+                     <bibl>İzmirligil U., The planned restoration work carried out on the ancient theatre of Side, in Teatri antichi nell'area del Mediterraneo. Conservazione programmata e fruizione sostenibile. Contributi analitici alla carta del rischio, Palermo 2007, 124-130</bibl>
+                     <bibl>İzmirligil U., The theatre at Side, in Restoration and management of ancient theatres in Turkey. Methods, research, results. Proceedings of the Hierapolis International Symposium, Karahayıt-Pamukkale (Denizili), 7th - 8th of September 2007, Modugno 2012, 89-102</bibl>
+                     <bibl>Kajava M., Honorific and other dedications to emperors in the Greek East, in More than Men, less than Gods. Studies on royal cult and imperial worship (Proceedings of the internatianol colloquium Athens 2007), Leuven 2011, 553-592</bibl>
+                     <bibl>Keenan J.G., Egypt, in The Cambridge Ancient History, XIV. Late Antiquity. Empire and Successors, AD 425-600, Cambridge 2000, 612-637</bibl>
+                     <bibl>Mecella M., L’amministrazione di Taziano e Proculo e il destino dei Lici tra Teodosio e Arcadio, in Governare e riformare l’impero al momento della sua divisione: Oriente, Occidente, Illirico, Roma 2015, 51-83</bibl>
+                    <bibl>Nollé J., Side im Altertum. Geschichte und Zeugnisse, I. Geographie, Geschichte, Testimonia Griechische und lateinische Inschriften (1-4), Bonn 1993 (IK 43)</bibl>
+                     <bibl>Ogus E., Urban transformations at Aphrodisias in late antiquity. Destruction or intentional preservation ?, in Reuse and renovation in Roman material culture. Functions, aesthetics, interpretations, Cambridge 2018, 160-185</bibl>
+                     <bibl>Olszaniec S., Prosopographical Studies on the Court Elite in the Roman Empire (4th Century AD), Toruń, 2013</bibl>
+                     <bibl>Palme B., Die Organisation der Statthalterbüros im spätantiken Ägypten, in Altertum und Gegenwart: 125 Jahre Alte Geschichte in Innsbruck. Vorträge der Ringvorlesung Innsbruck 2010, Innsbruck 2012, 207-236</bibl>
+                     <bibl>Pearce S.M., Ormrod T. (eds.), Charles Robert Cockerell in the Mediterranean. Letters and Travels, 1810-1817, Woodbridge 2017</bibl>
+                     <bibl>Porena P., L’iscrizione prefettizia di Perinthus - Heraclea di Tracia: un omaggio a Massimino Daia Cesare durante la crisi della Terza Tetrarchia ?, MEFRA, 133, 2021, 235-248</bibl>
+                    <bibl>Ritti T., Antonino Pio «padrone della terra e del mare»: una nuova iscrizione onoraria da Hierapolis di Frigia, Annali di Archeologia e Storia Antica, N.S., 9-10, 2002-2003, 271-282</bibl>
+                     <bibl>Robert L., Hellenica. Recueil d’épigraphie, de numismatique et d’antiquités grecques, IV, Epigrammes du Bas-Empire, Paris 1948</bibl>
+                     <bibl>G. Rösch, Onoma Basileias. Studien zum offiziellen Gebrauch der Kaisertitel im spätantiker und frühbyzantinischer Zeit, Wien 1978</bibl>
+                     <bibl>Salway B., Constantine Augoustos not Sebastos, in Wolf Liebeschuetz Reflected. Essays Presented by Colleagues, Friends, and Pupils, London 2007, 37-50</bibl>
                 </p>
             </div>
             

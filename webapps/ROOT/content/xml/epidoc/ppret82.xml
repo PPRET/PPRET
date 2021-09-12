@@ -5,14 +5,14 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Inscription in honour of Honorius Caesar from Aphrodisias by Tatianus praet. prefect </title>
+                <title>Inscription in honour of Honorius from Aphrodisias by Tatianus praet. prefect</title>
                 <editor role="edition">Giordana Franceschini</editor>
                 <editor role="encoding">Giordana Franceschini</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>PPRET</authority>
-                <idno type="filename" n="plre" corresp="p.876">82</idno>
-                <date when="2020-03-27"/>
+                <idno type="filename" n="plre" corresp="pp. 876-878">82</idno>
+                <date when="2021-05-14"/>
                 <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
             </publicationStmt>
             <sourceDesc>
@@ -25,12 +25,13 @@
                 </listPerson>
                 <msDesc>
                     <msIdentifier>
-                        <repository ref="#Aphrodisias">Aphrodisias, Hadrianic baths, North-Eastern corner of the East forecourt colonnade</repository>
+                        <repository ref="#Aphrodisias">Aphrodisias, Hadrianic Baths, north-eastern corner of the East forecourt colonnade</repository>
+                        <idno type="invNo"></idno>
                     </msIdentifier>
                     <msContents>
                         <summary>
                             <term type="textType" ref="#honorary">Honorary inscription to the emperor Honorius</term>
-                            <term type="rhythm" ref="#prose">prose</term>
+                            <term type="rhythm" ref="#prose">Prose</term>
                         </summary>
                         <textLang mainLang="grc">Greek</textLang>
                     </msContents>
@@ -38,28 +39,28 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#marble">white marble</material>
-                                    <objectType ref="#column_base">column base</objectType>
+                                    <material ref="#marble">White marble</material>
+                                    <objectType ref="#base">Columnar base</objectType>
                                     <dimensions>
                                         <height>131</height>
                                         <dim type="diameter">59</dim>
                                     </dimensions>
                                     <rs type="inscribed_field_reuse">no</rs>
-                                    <rs type="monument_reuse">unknown</rs>
+                                    <rs type="monument_reuse">no</rs>
                                     <rs type="opistographic">no</rs>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>The text is inscribed on the face. Letters are clear and irregular.</p>
-                                    <rs type="execution" ref="#chiselled">chiselled</rs>
-                                    <rs type="preservation" ref="#undamaged">The inscription is complete, but most of lines 5 and 6 of the inscription have been deliberately erased. The upper edge of the column is broken.</rs>
+                                    <p>Damaged. The text is inscribed on the face. Letters are clear and irregular. The inscription is complete, but most of lines 5 and 6 of the inscription have been deliberately erased. The upper edge of the column is broken</p>
+                                    <rs type="execution" ref="#chiselled">Chiselled</rs>
+                                    <rs type="preservation" ref="#damaged">Damaged</rs>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <term ref="#lunate">lunate letters with serifs</term>
+                                <term ref="#lunate">Lunate letters with serifs</term>
                                 <height>3 / 6.5</height>
                             </handNote>
                         </handDesc>
@@ -74,9 +75,9 @@
                                 <placeName type="prefecture">Oriens</placeName>
                                 <placeName type="ancient_location" ref="#public">Public building</placeName>
                             </origPlace>
-                            <origDate period="#p8" notBefore="0388" notAfter="0392">388/392 AD</origDate>
+                            <origDate period="#p8" when="0402" precision="high">402 AD</origDate>
                         </origin>
-                        <provenance type="found"><placeName ref="#">Aphrodisias</placeName>, Hadrianic baths (“Les Thermes”), North side of the East forecourt</provenance>
+                        <provenance type="found"><placeName ref="#Aphrodisias">Aphrodisias</placeName>, Hadrianic Baths (“Les Thermes”), North side of the East forecourt (the so called Palaestra Court)</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -91,52 +92,50 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="grc">
-                    <ab>
-                        <lb n="1"/>τὸν ἐκ τῆς θείας γονῆς
-                        <lb n="2"/>θεοφιλέστατον
-                        <lb n="3"/>Φλ(άουιον) Ὁνώριον
-                        <lb n="4"/>τὸν ἐπιφανέστατον <g ref="hedera"/>
-                        <lb n="5"/><del rend="erasure"><supplied reason="lost"><expan><abbr><unclear>Φλ</unclear></abbr><ex>άουιος</ex></expan> <unclear>Εὐτόλμι</unclear><supplied reason="lost">ο</supplied><unclear>ς</unclear> <supplied reason="lost">Τ</supplied><unclear>α</unclear>τ<unclear>ι</unclear><supplied reason="lost">α</supplied><unclear>νὸς</unclear> <supplied reason="lost">ὁ λ</supplied><unclear>αμ</unclear><supplied reason="lost">πρότα</supplied>τος</supplied></del>
-                        <lb n="6"/><del rend="erasure"><supplied reason="lost"><unclear>ἔπαρχ</unclear><supplied reason="lost">ο</supplied><unclear>ς</unclear> <supplied reason="lost">τοῦ ἱεροῦ π</supplied><unclear>ρα</unclear><supplied reason="lost">ιτ</supplied><unclear>ωρ</unclear><supplied reason="lost">ί</supplied>ου</supplied></del>
-                        <lb n="7"/>τῇ συνήθει καθοσιώσει
-                        <lb n="8"/>ἀφιέρωσεν
-                        <lb n="9"/><space quantity="1" unit="line"/>
-                        <lb n="10"/>ἐπὶ Ἀντωνίου Πρίσκου τοῦ <expan><abbr>λαμπρ</abbr><ex>οτάτου</ex></expan> ἡγεμόνος.
-                    </ab>
+                <ab>
+                    <lb n="1"/>τὸν ἐκ τῆς θείας γονῆς
+                    <lb n="2"/>θεοφιλέστατον
+                    <lb n="3"/><persName><name ref="gentilicium"><expan><abbr>Φλ</abbr><ex>άουιον</ex></expan></name> <name ref="cognomen">Ὁνώριον</name></persName>
+                    <lb n="4"/>τὸν ἐπιφανέστατον, <g ref="hedera"/> 
+                    <lb n="5"/> <del rend="erasure"><supplied reason="lost"><persName ref="#Tatianus"><name><expan><abbr><unclear>Φ</unclear><unclear>λ</unclear></abbr><ex>άουιος</ex></expan></name> <name ref="gentilicium"><unclear>Ε</unclear><unclear>ὐ</unclear><unclear>τ</unclear><unclear>ό</unclear><unclear>λ</unclear><unclear>μ</unclear><unclear>ι</unclear><supplied reason="lost">ο</supplied><unclear>ς</unclear></name> <name ref="cognomen"><supplied reason="lost">Τ</supplied><unclear>α</unclear>τ<unclear>ι</unclear><supplied reason="lost">α</supplied><unclear>ν</unclear><unclear>ὸ</unclear>ς</name>̣</persName> <supplied reason="lost">ὁ λ</supplied><unclear>α</unclear><unclear>μ</unclear><supplied reason="lost">πρότα</supplied>τος</supplied></del>
+                    <lb n="6"/><del rend="erasure"><supplied reason="lost"><unclear>ἔ</unclear><unclear>π</unclear><unclear>α</unclear><unclear>ρ</unclear><unclear>χ</unclear><supplied reason="lost">ο</supplied><unclear>ς</unclear> <supplied reason="lost">τοῦ ἱεροῦ π</supplied><unclear>ρ</unclear><unclear>α</unclear><supplied reason="lost">ιτ</supplied><unclear>ω</unclear><unclear>ρ</unclear><supplied reason="lost">ί</supplied>ου</supplied></del>
+                    <lb n="7"/>τῇ συνήθει καθοσιώσει
+                    <lb n="8"/>ἀφιέρωσεν,
+                    <lb n="9"/><space extent="unknown" unit="character"/>
+                    <lb n="10"/>ἐπὶ <persName><name ref="gentilicium">Ἀντωνίου</name> <name ref="cognomen">Πρίσκου</name></persName> τοῦ <expan><abbr>λαμπρ</abbr><ex>οτάτου</ex></expan> ἡγεμόνος.
+                </ab>
             </div>
             <div type="apparatus">
-                <p>This edition follows the text edited by Roueché 1989, nr. 25.</p>
-            <p>
-                    <app loc="5"><note>Reinach read nothing; Robert 1948 read Φλ Εὐτόλμιος Τατια<gap reason="lost" quantity="3" unit="character"/></note></app>
-                    <app loc="6"><note>Reinach read nothing</note></app>
-                </p>
+                <p>This edition follows the text edited in <ref type="inscription">IAph2007 5.217</ref> (Roueché); in Apparatus we read: «In ll.5 and 6 Reinach reads nothing; Robert read in l.5, Φλ(?) Εὐτόλμιος Τατια[·· ? ··]. The restoration here is based on very unclear readings». In fact, the photographs do not allow us to decipher the erased letters.</p>
             </div>
             <div type="translation" xml:lang="it">
-                <p>“A Flavius Honorius, progenie imperiale (= porfirogenito), carissimo a Dio, nobilissimo (fanciullo), Flavius Eutolmius Tatianus, chiarissimo prefetto del sacro pretorio consacrò (la statua) con la consueta devozione, mentre era chiarissimo governatore Antonius Priscus.”</p>
+                <p>“A <persName type="ruler">Flavius Honorius</persName>, progenie imperiale (= porfirogenito), carissimo a Dio, nobilissimo (fanciullo), <persName ref="#Tatianus"><name ref="praenomen">Flavius</name> <name ref="nomen">Eutolmius</name> <name ref="cognomen">Tatianus</name></persName>, chiarissimo prefetto del sacro pretorio consacrò con la consueta devozione, mentre era chiarissimo governatore <persName><name ref="gentilicium">Antonius</name> <name ref="cognomen">Priscus</name></persName>.”</p>
             </div>
             <div type="translation" xml:lang="en">
-                <p>“To Flavius Honorius, of divine descent, most dear to God, the most noble, Flavius Eutolmius Tatianus, prefect of the sacred praetorium man of clarissimus rank, dedicated (this statue) with the customary devotion, in the time of Antonius Priscus, the governor, man of clarissimus rank.”</p>
+                <p>“To <persName type="ruler">Flavius Honorius</persName>, of divine descent, most dear to God, the most noble, <persName ref="#Tatianus"><name ref="praenomen">Flavius</name> <name ref="gentilicium">Eutolmius</name> <name ref="cognomen">Tatianus</name></persName>, of clarissimus rank, prefect of the sacred praetorium, dedicated with the customary devotion, when <persName><name ref="gentilicium">Antonius</name> <name ref="cognomen">Priscus</name></persName> was governor of clarissimus rank”.</p>
             </div>
             <div type="translation" xml:lang="fr">
-                <p>“À Flavius Honorius, progéniture impériale (= porphyrogenitus), très cher à Dieu, très noble (enfant), Flavius Eutolmius Tatianus, le clarissime préfet du sacré prétoire, a consacré (la statue) avec la dévotion habituelle, alors qu’il était gouverneur clarissime Antonius Priscus.”</p>
+                <p>“À <persName type="ruler">Flavius Honorius</persName>, progéniture impériale (= porphyrogenitus), très cher à Dieu, très noble (enfant), <persName ref="#Tatianus"><name ref="praenomen">Flavius</name> <name ref="gentilicium">Eutolmius</name> <name ref="cognomen">Tatianus</name></persName>, le clarissime préfet du sacré prétoire, a consacré avec la dévotion habituelle, alors qu’il était gouverneur clarissime <persName><name ref="gentilicium">Antonius</name> <name ref="cognomen">Priscus</name></persName>.”</p>
             </div>
             <div type="commentary">
-                <p>The column base was found at Aphrodisias in 1904 by Paul Gaudin in the northern side of the east forecourt of the Hadrianic Bath. It is currently located on the south side of the northern pedestals in the north-eastern corner of the forecourt. The upper edge of the inscribed monument has been cut off and, on the left upper edge, there are traces left by a clamp probably when the inscribed monument was reused.</p>
-                <p>The honorary inscription for the emperor Honorius was one of a group of statues honouring the members of Theodosian imperial family at Aphrodisias (see also <ref type="ppret" corresp="ppret83">PPRET 83</ref>, Arcadius, <ref type="ppret" corresp="ppret84">84</ref>, Valentinianus II; other statues were erected by Tatianus honouring the whole imperial college at Side, <ref type="ppret" corresp="ppret85">85</ref>, and at Antinoupolis, <ref type="ppret" corresp="ppret86">86</ref>).</p> 
-                <p>Most of lines 5 and 6 of the inscription have been erased but can be restored. The legibility of some of the erased letters, together with comparison between this inscription and similar honours awarded to Flavius Eutolmius Tatianus, allow us to restore the text.</p> 
-                <p>Flavius Eutolmius Tatianus (see PLRE I Tatianus 5) was a notable pagan. He was made praetorian prefect in the East in 388 AD and fell from power in 392 AD. 
-                    After suffering <foreign>damnatio memoriae</foreign> he was banished to Lycia. He was rehabilitated posthumously by a descendant in Aphrodisias (<ref type="ppret" corresp="ppret91">PPRET 91</ref>). His whole career is recorded in ascending order of importance from <foreign>praeses</foreign> (ἡγεμών) to <foreign>praefectus</foreign> (ἔπαρχος) in the inscription from Sidyma (see <ref type="ppret" corresp="ppret87">PPRET 87</ref>).</p>
-                <p>Antonius Priscus, governor of the Caria (PLRE I, p. 730), is known only by the series of the three inscriptions dedicated by Tatianus at Aphrodisias (<ref type="ppret" corresp="ppret82">PPRET 82</ref>-<ref type="ppret" corresp="ppret84">84</ref>). In the inscription in honour of Honorius Caesar his name is preserved, but in the two inscriptions in honour of Arcadius and Valentiniaus II his name has been erased. Priscus was probably a client of the powerful praetorian prefect. Tatianus ordered the governor of the province to follow the realization of the monuments.</p>
+                <p>In 1904, during the first excavations of <placeName ref="Aphrodisias">Aphrodisias</placeName>, the French engineer Paul Gaudin (1858-1921) found  on the northern side of the East forecourt (the so called Palaestra Court) of the Hadrianic Baths, the columnar base for <persName type="ruler">Honorius</persName> <foreign>nobilissimus puer</foreign> (about Gaudin and his research see Collignon 1904; Mendel 1906; Erim 1967; Charloux 2001; Smith 2007, p. 207; Ratté 2008; http://insaph.kcl.ac.uk/bibliography/index.html; on the findspot of the base see http://insaph.kcl.ac.uk/ala2004/iPlans/0001/03.html; Smith 2007, fig. 42, B 31). The columnar base is currently located in the north-eastern corner of the East forecourt (the so called Palaestra Court) of the Hadrianic Baths (so <ref type="inscription">IAph2007 5.217</ref> and <ref type="inscription">LSA 167</ref>). The upper edge of the inscribed monument has been cut and, on the left upper edge, there are traces left by a clamp. The base was separated from the statue. The find spot appears to be its original location, but it cannot be completely excluded that the monument was moved to the Palaestra Court (see below). The use of columnar bases as a support for inscriptions and statue-bases is widespread at <placeName ref="Aphrodisias">Aphrodisias</placeName> (see http://insaph.kcl.ac.uk/ala2004/inscription/bymon.html ; for fixing the statue to columnar or semi-columnar bases see Bigi 2020, figs. 46-49, concerning monuments in honour of emperors at <placeName ref="Gortyna">Gortyna</placeName> and at <placeName ref="Aphrodisias">Aphrodisias</placeName>; for the re-use of columns as statue bases for emperors in the Greek-speaking world see Stefanidou-Tiveriou 2018; on statue-raising for emperors in the Late Empire see Anderson 2016; Ward-Perkins 2016). 
+The area of the Hadrianic Baths, and the forecourt (so called Palaestra Court) that connected the Baths on their West side with the short East-side of the stoa of the South Agora, have preserved the highest number of honorary inscriptions and statues in the city. The archaeologists have found in this area the highest number of inscribed monuments (40), remains of statues (22), statue-heads (22), busts (6), shields-portraits (14), all of them Late Antique in date (see Smith 2007, p. 218; Smith 2016, pp. 146, 149, fig. 12.1; Smith 2018, p. 334: «At <placeName ref="Aphrodisias">Aphrodisias</placeName> [...] in Late Antiquity a total of some 60 statuary items and 40 bases»). These remains are attributed to emperors (4<hi rend="superscript">th</hi> Century), governors (5<hi rend="superscript">th</hi>/6<hi rend="superscript">th</hi> Century) and aristocrats of the city (6<hi rend="superscript">th</hi> Century). This public space was still in use up until the 6<hi rend="superscript">th</hi> Century (on the statuary of <placeName ref="Aphrodisias">Aphrodisias</placeName>, see Smith 2016, pp. 156-158; Smith 2018, fig. 1; on the long life of the Hadrianic Baths, see McDavid 2015; McDavid 2016; Wilson 2019). 
+The monument for the future emperor <persName type="ruler">Honorius</persName> was erected by order of the Praetorian prefect <persName ref="#Tatianus"><name ref="praenomen">Fl.</name> <name ref="gentilicium">Eutolmius</name> <name ref="cognomen">Tatianus</name></persName>, during his prefecture in 388/392 AD and it was made at <placeName ref="Aphrodisias">Aphrodisias</placeName> by the governor of <placeName>Caria</placeName>, <persName><name ref="gentilicium">Antonius</name> <name ref="cognomen">Priscus</name></persName> (see below; for a possible dating to 388/390, see <ref type="ppret" corresp="ppret86">PPRET 86</ref>). At <placeName ref="Aphrodisias">Aphrodisias</placeName>, two other inscriptions were carved on two other columnar statue bases made by the same awarders – the praetorian prefect <persName ref="#Tatianus"><name ref="praenomen">Fl.</name> <name ref="gentilicium">Eutolmius</name> <name ref="cognomen">Tatianus</name></persName> and the governor <persName><name ref="cognomen">Priscus</name></persName> – to more emperors: one in honour of the emperor <persName type="ruler">Arcadius Augustus</persName> (<ref type="ppret" corresp="ppret83">PPRET 83</ref>) and the other in honour of the emperor <persName type="ruler">Valentinianus II<name> Augustus</name></persName> (<ref type="ppret" corresp="ppret84">PPRET 84</ref>). It is very likely that <persName type="ruler">Theodosius</persName> too was honoured on a similar monument now lost (so also J. Lenaghan in <ref type="inscription">LSA 167</ref>; for the statue of this emperor discovered in 1972 in the Tetrastoon of <placeName ref="Aphrodisias">Aphrodisias</placeName>, see Smith 2001; Smith 2018, fig. 10; <ref type="inscription">LSA 196</ref>). 
+The two monuments of <persName type="ruler">Valentinianus II</persName> and <persName type="ruler">Arcadius</persName> were placed in the West stoa of the South Agora, a short distance from the monument for <persName type="ruler">Honorius</persName> (less than 25 m.). Roueché (1989, p. 48) suggests that the fragmentary statues of two young standing emperors found in 1904/05 and in 1975, in this area, now in the Instanbul Museum and in the <placeName ref="Aphrodisias">Aphrodisias</placeName> Museum respectively, are probably <persName type="ruler">Arcadius</persName> and <persName type="ruler">Valentinianus II</persName> (on these statues, see Smith 2007, p. 218; Gehn 2017, pp. 389-392; the so called <persName>Arcadius</persName>: Smith 1999, p. 162, fig. 4, Pl. XII, figs. 1-2; Smith 2007, p. 228, A 38, Taf. 63, fig. 30 for a graphic restoration; Smith 2016, p. 150, fig. 12.5; <ref type="inscription">LSA 165</ref>; Gehn 2012, pp. 403-406, O 24, Taf. 14; the so called <persName type="ruler">Valentinianus II</persName>: Smith 1999, p. 162, fig. 3; Smith 2007, p. 228, A 37, Taf. 63, fig. 31 for a graphic restoration; <ref type="inscription">LSA 163</ref>; Gehn 2012, pp. 398-403, O 23, Taf. 13-14). In 1988 two fragments of a diademed emperor’s head were found next to the statues of these emperors (Smith  2007, p. 229, A 42; <ref type="inscription">LSA 168</ref>). The identification of the statue's head is uncertain. In any case, two columnar bases with inscriptions in honour of <persName type="ruler">Valentinianus II</persName> and <persName type="ruler">Arcadius</persName> Augusti and the remains of two standing statues of other late antique emperors have been found in the West Stoa in the South Agora, which is near the entrance to the Hadrianic Baths. The honorary inscription for the emperor <persName type="ruler">Honorius</persName> was probably one of a group of monuments honouring the imperial college of the years 388/392 in <placeName ref="Aphrodisias">Aphrodisias</placeName> (the so called ‘Theodosian statue group,’ but <persName type="ruler">Valentinianus II</persName> was not a member of the Theodosian family). The inscriptions carved on the two columnar bases that were erected at the behest of the prefect <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> are identical (<ref type="ppret" corresp="ppret83">PPRET 83</ref>, <ref type="ppret" corresp="ppret84">84</ref>). Although the base in honour of <persName type="ruler">Honorius</persName> is in the East forecourt (the so called Palaestra Court) of the Hadrianic Baths, and not in the neraby West stoa of the South Agora, Smith thinks that four columnar monuments (bases and statues) of the members of the imperial college (<persName type="ruler">Valentinianus II</persName>, <persName type="ruler">Theodosius</persName>, <persName type="ruler">Arcadius</persName> Augusti and <persName type="ruler">Honorius</persName>) were probably erected in 388/392 AD at the entrance gate from the West stoa of the South Agora into the Hadrianic Baths (see the reconstruction by Smith 2018, pp. 338-339, fig. 10). The monument for <persName type="ruler">Honorius</persName> may have been moved later. However, <persName type="ruler">Honorius</persName> was only <foreign>nobilissimus puer</foreign>, and was not made Augustus until January 23<hi rend="superscript">rd</hi> 393 AD. In that year, when <persName type="ruler">Valentinian II</persName> Augustus had been dead for about eight months, and when <persName>Eugenius</persName> ruled in the West as a usurper, <persName type="ruler">Theodosius I</persName> proclaimed his youngest son <persName type="ruler">Honorius</persName>, who was 10 years old, Augustus. In the inscription issued by the prefect <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> from <placeName ref="Aphrodisias">Aphrodisias</placeName>, <persName type="ruler">Honorius</persName> is, in fact, referred to as τὸν ἐπιφανέστατον. When <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> was forced to leave the Praetorian prefecture, <persName type="ruler">Honorius</persName> had not yet become Augustus. Several elements suggest that the prefect <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> may have placed the monument to <persName type="ruler">Honorius</persName> and the pair of 'twin' bases to the two Augusti (and perhaps another to <persName type="ruler">Theodosius I</persName>) in two different public spaces simultaneously. Such a theory is suggested by the different location (Palaestra Court), the preservation of the name of the governor of <placeName>Caria</placeName>, <persName>Priscus</persName>, and the different eulogistic formula in the monument for <persName type="ruler">Honorius</persName> <foreign>nobilissimus</foreign>, compared to the two monuments in honour of the Augusti <persName type="ruler">Valentinianus II</persName> and <persName type="ruler">Arcadius</persName> (in the West stoa of the South Agora). Furthermore, it is noticeable that the Aphrodisian monument to <persName type="ruler">Honorius</persName> in the East forecourt (Palaestra Court) of the Hadrianic Baths is very close to the monument to his mother, <persName><name ref="praenomen">Aelia</name> <name ref="nomen">Flavia</name> <name ref="cognomen">Flaccilla</name></persName>, that was decreed by the provincial council of <placeName>Caria</placeName> (<ref type="inscription">ALA2004, 23</ref> = <ref type="inscription">IAph2007, 5.216</ref> = <ref type="inscription">LSA 185</ref>): <supplied reason="lost">τ</supplied>ὴν αἰωνίαν καὶ θεοφιλε/<supplied reason="lost">σ</supplied>τάτην Αὔγουσταν Αἰλίαν / Φλαβίαν Φλακκίλλαν / τὴν δέσποιναν τῆς οἰκουμένης /5 Κᾶρες ἵδρυσαν ἐν τῇ ἑαυτῶν / <space extent="unknown" unit="character"/> μητροπόλει <space extent="unknown" unit="character"/> / <space extent="unknown" unit="character"/> <g type="crux"/> <space extent="unknown" unit="character"/>. The inscription to <persName type="ruler">Honorius</persName>’ mother, probably erected before the death of <persName type="ruler">Theodosius</persName>’ wife in 386 AD, seems to have influenced the inscription by <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> for <persName type="ruler">Honorius</persName>, that was certainly put up no earlier than 388 AD. The latter is set apart from the monuments of <persName type="ruler">Valentinianus II</persName> and <persName type="ruler">Arcadius</persName> Augusti and, unlike these, but like the inscription for <persName>Flaccilla</persName>, it lacks the introductory formula ἀγαθῆι τύχηι. <persName>Flaccilla</persName> was the first wife of the emperor <persName type="ruler">Theodosius</persName>. She became Augusta in 379 AD, and gave birth to <persName type="ruler">Arcadius</persName> in 377 AD, <persName>Pulcheria</persName> in 379 AD, and <persName type="ruler">Honorius</persName> in 384 AD; she died in 386 AD (PLRE I, pp. 341-342; see Marcos 1998; Santos Yanguas 2013; on her monument in Ephesus surrounded by Victories, see Roueché 2002). For <persName type="ruler">Honorius</persName>, see McEvoy 2013, pp. 135-222; Doyle 2019; concerning the weaknesses of such a young emperor, see Icks 2014; for <persName type="ruler">Honorius</persName>’ representation as '<foreign>puer senex</foreign>', see Pavarani 2010. It seems likely that the praetorian prefect <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> dedicated monuments to the emperors <persName type="ruler">Valentinianus II</persName> and <persName type="ruler">Arcadius</persName> (and perhaps <persName type="ruler">Theodosius I</persName>) in the West stoa of the South Agora, at the entrance to the Hadrianic Baths, and a monument to <persName type="ruler">Honorius</persName> <foreign>nobilissimus puer</foreign> in the Palaestra Court inside the Hadrianic Baths.
+It should be noted that the prefect <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> had series of monuments built in <placeName>Side</placeName> (<placeName>Pamphylia</placeName>, <ref type="ppret" corresp="ppret85">PPRET 85</ref>) and <placeName>Antinoupolis</placeName> (<placeName>Thebais</placeName> in <placeName ref="Aegyptus">Egypt</placeName>, <ref type="ppret" corresp="ppret86">PPRET 86</ref>) in honour of the same imperial college (probably one statue on each base, but the four sovereigns are listed in each inscription): <persName type="ruler">Valentinianus II</persName>, <persName type="ruler">Theodosius I</persName>, <persName type="ruler">Arcadius</persName> Augusti and <persName type="ruler">Honorius</persName> <foreign>nobilissimus</foreign> (<foreign>puer</foreign>). Dedications made by the same praetorian prefect <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName>, in three different and quite distant provinces (<placeName>Caria</placeName>, <placeName>Pamphylia</placeName>, <placeName>Thebais</placeName>) confirms that they are all of the same date. The wide diffusion of monuments also reveals a systematic celebratory strategy. Furthermore, in the ‘twin’ monuments issued by the prefect <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> at <placeName>Side</placeName> and <placeName>Antinoupolis</placeName>, <persName type="ruler">Honorius</persName> is always referred to as <foreign>nobilissimus</foreign> / ἐπιφανέστατον without a noun, and both probably had a statue. In <placeName ref="Roma">Rome</placeName> <persName><name>Ceionius</name> <name>Rufius</name> <name>Albinus</name></persName> (PLRE I, pp. 37-38), prefect of the City in the years 389/391, raised three monuments to the imperial college: to <persName type="ruler">Valentinian II</persName> (<ref type="inscription">CIL 06, 31413</ref> = <ref type="inscription">LSA 1356</ref> = <ref type="inscription">EDR126957</ref>), to <persName type="ruler">Theodosius I</persName> (<ref type="inscription">CIL 06, 36959</ref> = <ref type="inscription">LSA 1374</ref> = <ref type="inscription">EDR071745</ref>), to <persName type="ruler">Arcadius</persName> (<ref type="inscription">CIL 06, 31414</ref> = <ref type="inscription">LSA 1357</ref> = <ref type="inscription">EDR126958</ref>), but apparently not to <persName type="ruler">Honorius</persName>, who is mentioned only in the monument to <persName>Termanthia</persName>, mother of <persName type="ruler">Theodosius I</persName> and grandmother of <persName type="ruler">Arcadius</persName> and <persName type="ruler">Honorius</persName>, called <foreign>nobilissimus iuvenis</foreign> (<ref type="inscription">CIL 06, 36960</ref> = <ref type="inscription">ILS 8950</ref> = <ref type="inscription">LSA 2267</ref> =  <ref type="inscription">EDR075350</ref>).   
+Both the name of the <foreign>dedicator</foreign> and his titulature are illegible. Thanks to Roueché’s autopsy re-reading (<ref type="inscription">ALA, nr. 25</ref>), it is possible to trace the name and the titulature of the Praetorian prefect <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> in the erased lines 5-6 of the inscription. Also a comparison of the partially erased letters in other inscriptions made by the prefect <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> in honour of the emperors during his prefectorial office (<ref type="ppret" corresp="ppret84">PPRET 84</ref>, <ref type="ppret" corresp="ppret85">85</ref>, <ref type="ppret" corresp="ppret86">86</ref>) is useful. In fact, his name and his titulature were often erased. After an important career, commencing in 358 AD, he became praetorian prefect of the East from 388 to 392 AD, residing in <placeName>Constantinople</placeName> during <persName type="ruler">Theodosius I</persName> long stay in <placeName>Italy</placeName> (the emperor only came back to <placeName>Constantinople</placeName> in July 391 AD; for <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName>’ career, see PLRE I, pp. 876-878; Delmaire 1989, pp. 62-67; Olszaniec 2013, pp. 394-407; his <foreign>cursus honorum</foreign> is recorded in the inscription carved in his honour in <placeName>Sidyma</placeName>, see <ref type="ppret" corresp="ppret87">PPRET 87</ref>). Shortly after his return to <placeName>Constantinople</placeName>, the emperor <persName type="ruler">Theodosius I</persName> deprived <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> of his office and sent him into exile in <placeName>Lycia</placeName>, while his son <persName>Proculus</persName> was sentenced to death (for a recent study, see Mecella 2015). The fall from grace caused <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName>’ name to be erased from many inscriptions (<ref type="ppret" corresp="ppret83">PPRET 83</ref>, <ref type="ppret" corresp="ppret84">84</ref>, <ref type="ppret" corresp="ppret85">85</ref>, <ref type="ppret" corresp="ppret86">86</ref>, <ref type="ppret" corresp="ppret88">88</ref>), as can be seen on our columnar base for <persName type="ruler">Honorius</persName>. Many years later a (homonymous) descendant of <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> ordered a Greek inscription in verse to be engraved in honour of his ancestor, the praetorian prefect, in the city of <placeName ref="Aphrodisias">Aphrodisias</placeName> (<ref type="ppret" corresp="ppret91">PPRET 91</ref>). 
+At line 7, the expression τῇ συνήθει καθοσιώσει “with the customary devotion,” does not refer to purification or public or pagan sacrifices (such as Nollé 1993, p. 331; U. Gehn in <ref type="inscription">LSA 267</ref> and <ref type="inscription">876</ref>; Ogus 2018, p. 165). As in the inscriptions by <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> in <placeName>Side</placeName> and in <placeName>Antinooupolis</placeName>, καθοσίωσις (lat. <foreign>devotio</foreign>) means loyalty to the emperors (for ex. <ref type="source">Eus., HE 09, 09a, 07</ref>; <ref type="source">Eus., HE 10, 05, 18</ref>; <ref type="source">Nov. Iust. 134, 13, 03</ref>; <ref type="source">De Cerim. 01, 101 (92), p. 419 Reiske</ref>; <ref type="source">ACO 02/01, 02, p. 60,39, Conc. Chalced. 451</ref>). The five inscriptions erected by <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> to the emperors reigning in the years 388/392 (<ref type="ppret" corresp="ppret82">PPRET 82</ref>, <ref type="ppret" corresp="ppret83">83</ref>, <ref type="ppret" corresp="ppret84">84</ref>, <ref type="ppret" corresp="ppret85">85</ref>, <ref type="ppret" corresp="ppret86">86</ref>) always use this same peculiar formula. 
+<persName><name ref="gentilicium">Antonius</name> <name ref="cognomen">Priscus</name></persName>, governor of <placeName>Caria</placeName> (PLRE I, p. 730), is known only from the series of the three inscriptions dedicated by <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> at <placeName ref="Aphrodisias">Aphrodisias</placeName> (<ref type="ppret" corresp="ppret82">PPRET 82</ref>, <ref type="ppret" corresp="ppret83">83</ref>, <ref type="ppret" corresp="ppret84">84</ref>). In the inscription in honour of <persName type="ruler">Honorius</persName> his name is preserved, but in the two inscriptions in honour of <persName type="ruler">Arcadius</persName> and <persName>Valentiniaus II</persName> in the same city of <placeName ref="Aphrodisias">Aphrodisias</placeName> his name has been erased. <persName>Priscus</persName> was probably a client of the powerful praetorian prefect. <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> ordered the governor of the province to supervise the creation of the monuments. It is interesting to note that the inscriptions in honour of the emperors made by the praetorian prefect <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> at <placeName>Side</placeName> (<ref type="ppret" corresp="ppret85">PPRET 85</ref>) and <placeName>Antinoupolis</placeName> (<ref type="ppret" corresp="ppret86">PPRET 86</ref>) were also made by the governors of the provinces of <placeName>Pamphylia</placeName> and <placeName>Thebais</placeName>: at <placeName>Side</placeName> the name of the governor was erased, at <placeName>Antinoupolis</placeName> it was not. This anomaly is without explanation.
+</p>
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
                     <bibl><ref>Reinach 1906, 111, nr. 31</ref> = <bibl><ref>AE 1907, 0032</ref></bibl></bibl>
                     <bibl><ref>Grégoire 1922, nr. 281</ref></bibl>
-                    <bibl><ref>Grégoire 1923, 151-154</ref> = <bibl><ref>SEG 4 (1929), 398</ref></bibl></bibl>
-                    <bibl><ref>Grégoire 1927-1928, 342</ref></bibl>
-                    <bibl><ref>Robert 1948, 49-50 </ref> = <bibl><ref>BE 1949, 178 </ref></bibl></bibl>
-                    <bibl><ref>Roueché 1989, nr. 25</ref> = <bibl><ref>SEG 39 (1989), 1099</ref></bibl></bibl>
-                    <bibl><ref>McCabe, Aphrodisias, nr. 660</ref></bibl>
+                    <bibl><ref>Grégoire 1923, 151-154</ref> = <bibl><ref>SEG 04 (1929), 0398</ref></bibl></bibl>
+                    <bibl><ref>Grégoire 1927-1928, p. 342</ref></bibl>
+                    <bibl><ref>Robert 1948, 49-50</ref> (with photo Pl. IV) = <bibl><ref>BE 1949, 178</ref></bibl></bibl>
+                    <bibl><ref>ALA, nr. 25</ref> (with photo Pl. VII) = <bibl><ref>SEG 39 (1989), 1099</ref></bibl></bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="images">
@@ -144,42 +143,66 @@
             </div>
             <div type="bibliography" subtype="links">
                 <p>
+                    <bibl><ref corresp="http://insaph.kcl.ac.uk/ala2004/inscription/eAla025.html">ALA2004 25</ref></bibl>
+                    <bibl><ref corresp="http://insaph.kcl.ac.uk/iaph2007/iAph050217.html">IAph2007 5.217</ref></bibl>
                     <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail.php?record=167">LSA 167</ref></bibl>
-                    <bibl><ref corresp="http://insaph.kcl.ac.uk/ala2004/inscription/eAla025.html">ALA 25</ref></bibl>
                     <bibl><ref corresp="https://inscriptions.packhum.org/text/257543">PH 257543</ref></bibl>
-                    <bibl><ref corresp="http://insaph.kcl.ac.uk/iaph2007/iAph040010.html">IAph 4. 10</ref></bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="other">
                 <p>
-                    <bibl>Barnes T.D., The victims of Rufinus, CQ 34, 1984, 227-230</bibl>
-                    <bibl>Collignon M., Notes sur les fouilles executées à Aphrodisias par M. Paul Gaudin, CRAI 1904, 703-711</bibl>
-                    <bibl>Cuvigny H., Τρισαυγούστιον et φραγέλλιον. Contrôle de qualité et mesurage du grain fiscal au IVe s. apr. J.-C. à la lumière de P.Mich. XX 800 et de l’inscription tardive du grenier d’Andriakè, Chiron 47, 2017, 95-114</bibl>
-                    <bibl>Errington R., A note on the Augustal Prefect of Egypt, Tyche 17, 2002, 69-77</bibl>
+                    <bibl>Anderson B., The disappearing imperial statue. Toward a social approach, in The afterlife of Greek and Roman sculpture. Late antique responses and practices, Ann Arbor 2016, 290-309</bibl>
+                    <bibl>Bigi F.,  I monumenti del ciclo di Asclepiodotus: statue, supporti, contesto archeologico, in Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, a cura di F. Bigi, I. Tantillo, Pisa 2020, 28-40</bibl>
+                    <bibl>Charloux G., Paul Gaudin et les premières campagnes de fouilles à Yortan et à Aphrodisias, Orient Express 2001, 24-26</bibl>
+                    <bibl>Collignon M., Notes sur les fouilles executées à Aphrodisias par M. Paul Gaudin, CRAI, 1904, 703-711</bibl>
+                    <bibl>Delmaire R., Les responsables des finances impériales au Bas-Empire romain (IVe-VIe s.): études prosopographiques, Bruxelles 1989</bibl>
+                    <bibl>Doyle C., Honorius. The fight for the Roman West AD 395-423, London-New York 2019</bibl>
+                    <bibl>Erim K.T., De Aphrodisiade, AJA 71,  1967, 233-243</bibl>
+                    <bibl>Gehn U., Late antique togati and related inscriptions - a thumbnail sketch, in The Epigraphic Culture of Late Antiquity, Stuttgart 2017, 363-405</bibl>
+                    <bibl>Gehn U., Ehrenstatuen in der Spätantike. Chlamydati und Togati. Spätantike - frühes Christentum - Byzanz, Wiesbaden 2012</bibl>
+                    <bibl>Grégoire H., Recueil des inscriptions grecques-chrétiennes d’Asie Mineure, Paris 1922</bibl>
                     <bibl>Grégoire H., Miettes d’histoire byzantine (IVe-VIe siècle), Anatolian Studies presented to Sir William Mitchell Ramsay, Manchester-London-New York, 1923, 151-164</bibl>
                     <bibl>Grégoire H., Quand est né l’empereur Théodose II ?, Byzantion 4, 1927-1928, 337-348</bibl>
-                    <bibl>Livrea E., I due Taziani in un’iscrizione di Afrodisia, ZPE 119, 1997, 43-49</bibl>
-                    <bibl>Manganaro G., Due note tardoantiche, ZPE 94, 1992, 283-294</bibl>
-                    <bibl>Mecella M., L’amministrazione di Taziano e Proculo e il destino dei Lici tra Teodosio e Arcadio, in Governare e riformare l’impero al momento della sua divisione: Oriente, Occidente, Illirico Roma, 2015</bibl>
-                    <bibl>Pellizzari A., «Salvare le città»: lessico e ideologia nell’opera di Libanio, Κοινωνία 35, 2011, 45-61</bibl>
-                    <bibl>Petit P., Les fonctionnaires dans l’œuvre de Libanius. Analyse prosopographique, Besançon 1994</bibl>
+                    <bibl>Icks M., The inadequate heirs of Theodosius: ancestry, merit and divine blessing in the representation of Arcadius and Honorius, Millennium 11, 2014, 69-99</bibl>
+                    <bibl>Marcos M., Política dinástica en la corte de Teodosio I. Las imágenes de Aelia Flavia Flaccilla, in R. Teja, C. Pérez (eds.), Congreso internacional La Hispania de Teodosio, I, Segovia 1998, 155-164</bibl>
+                    <bibl>McDavid A., The Hadrianic Baths of Aphrodisias in Late Antiquity (New York University PhD Dissertation), 2015</bibl>
+                    <bibl>McDavid A., Renovation of the Hadrianic baths in Late Antiquity, in Aphrodisias Papers, 5. Excavation and research at Aphrodisias, 2006 - 2012, Portsmouth 2016, 209-224</bibl>
+                    <bibl>McEvoy M.A., Child Emperor rule in the late Roman West, AD 367-455, Oxford 2013</bibl>
+                    <bibl>Mecella M., L’amministrazione di Taziano e Proculo e il destino dei Lici tra Teodosio e Arcadio, in Governare e riformare l’impero al momento della sua divisione: Oriente, Occidente, Illirico, Roma 2015, 51-83</bibl>
+                    <bibl>Mendel G., Seconde note sur les fouilles executées à Aphrodisias par M. Paul Gaudin. Campagne de 1905, CRAI, 1906, 158-184</bibl>
+                    <bibl>Ogus E., Urban transformations at Aphrodisias in late antiquity. Destruction or intentional preservation ?, in Reuse and renovation in Roman material culture. Functions, aesthetics, interpretations, Cambridge 2018, 160-185</bibl>
+                    <bibl>Olszaniec S., Prosopographical Studies on the Court Elite in the Roman Empire (4th Century AD), Toruń, 2013</bibl>
+                    <bibl>Pavarani C., Un modello di « puer »: Onorio in Claudiano, RIL 144, 2010, 209-234</bibl>
+                    <bibl>Ratté C., The founding of Aphrodisias, in Aphrodisias Papers, 4. New research on the city and its monuments,  Portsmouth 2008, 7-36</bibl>
+                    <bibl>Reinach T., Inscriptions d'Aphrodisias, REG 19/84, 1906, 79-150</bibl>
                     <bibl>Robert L., Hellenica. Recueil d’épigraphie, de numismatique et d’antiquités grecques, IV, Epigrammes du Bas-Empire, Paris 1948</bibl>
-                    <bibl>Scharf R., Die Familie des Fl. Eutolmius Tatianus, ZPE 85, 1991, 223-231</bibl>
-                    <bibl>Woods D., Tatianus and the Basilica of Menas, Byzantion 65, 1995, 467-474</bibl>
+                    <bibl>Roueché Ch., Aphrodisias in Late Antiquity, London 1989</bibl>
+                    <bibl>Roueché Ch., The image of Victory: new evidence from Ephesus, TeMByz 14, 2002, 527-546</bibl>
+                    <bibl>Santos Yanguas N., Mujeres hispanas y poder en la corte del emperador Teodosio: la génesis de una dinastía, in Cid López R.M., García Fernández E. (eds), «Debita uerba». Estudios en homenaje al profesor Julio Mangas Manjarrés, Oviedo 2013, 639-661</bibl>
+                    <bibl>Smith R.R.R., Late Antique Portraits in a Public Context: Honorific Statuary at Aphrodisias in Caria, A.D. 300-600, JRS 89, 1999, 155-189</bibl>
+                    <bibl>Smith R.R.R., A Portrait monument for Julian and Theodosius at Aphrodisias, in C. Reusser (ed.), Griechenland in der Kaiserzeit : neue Funde und Forschungen zu Skulptur, Architektur und Topographie, in Kolloquium zum 60. Geburtstag von Prof. Dietrich Willers (Bern, 12.-13. Juni 1998), Zürich 2001, 125-136</bibl>
+                    <bibl>Smith R.R.R., Statue life in the Hadrianic Baths at Aphrodisias, AD 100-600: local context and historical meaning, in F.A. Bauer, C. Witschel (eds), Statuen und Statuensammlungen in der Spätantike - Funktion und Kontext (Spätantike, Frühes Christentum, Byzanz: Kunst im ersten Jahrtausend), Wiesbaden 2007, 203-236</bibl>
+                    <bibl>Smith R.R.R., Cities. Aphrodisias, in The last Statues of Antiquity, Oxford 2016, 145-159</bibl>
+                    <bibl>Smith, R.R.R., The long lives of Roman statues. Public monuments in late antique Aphrodisias, in Sculpture in Roman Asia Minor. Proceedings of the International Conference at Selçuk, 1st -3rd October 2013, Wien 2018, 331-352</bibl>
+                    <bibl>Stefanidou-Tiveriou T., Monumental images of late antique Thessalonike. Imperial statues on columns, in Les communautés du Nord égéen au temps de l'hégémonie romaine entre ruptures et continuités, Athenai 2018, 389-419</bibl>
+                    <bibl>Ward-Perkins B., Chronlogy, honorands, style. The end of the statue habit, A.D. 284 - 620, in The Last Statues of Antiquity, Oxford 2016, 295-308</bibl>
+                    <bibl>Wilson A., Aphrodisias in the long sixth century, in Asia Minor in the long Sixth Century. Current research and future directions, Oxford 2019, 197-221</bibl>
                 </p>
             </div>
+            
             
             <div type="commentary" subtype="prefects">
                 <div type="commentary" n="1">
                     <p n="1.1"></p>
-                    </div>
-                 
+                </div>
+               
                 <div type="commentary" n="7">
                     <p n="7.2"></p>
                     <p n="7.y"></p>
+                    
                 </div>
                 
-                   <div type="commentary" n="8">
+                <div type="commentary" n="8">
                     <p n="8.1">λαμπρότατος</p>
                     <p n="8.2">ὁ λαμπρότατος ἔπαρχος τοῦ ἱεροῦ πραιτωρίου</p>
                     <p n="8.5"></p>

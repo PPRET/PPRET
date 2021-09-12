@@ -101,10 +101,10 @@
   <xsl:template match="tei:support/tei:rs[@type='inscribed_field_reuse']" mode="facet_inscribed_field_reuse">
     <field name="inscribed_field_reuse">
       <xsl:choose>
-        <xsl:when test="starts-with(., 'yes')">Yes</xsl:when>
-        <xsl:when test="starts-with(., 'no')">No</xsl:when>
-        <xsl:when test="starts-with(., 'uncertain')">Uncertain</xsl:when>
-        <xsl:when test="starts-with(., 'unknown')">Unknown</xsl:when>
+        <xsl:when test="starts-with(lower-case(.), 'yes')">Yes</xsl:when>
+        <xsl:when test="starts-with(lower-case(.), 'no')">No</xsl:when>
+        <xsl:when test="starts-with(lower-case(.), 'uncertain')">Uncertain</xsl:when>
+        <xsl:when test="starts-with(lower-case(.), 'unknown')">Unknown</xsl:when>
         <xsl:otherwise><xsl:value-of select="." /></xsl:otherwise>
       </xsl:choose>
     </field>
@@ -113,10 +113,10 @@
   <xsl:template match="tei:support/tei:rs[@type='monument_reuse']" mode="facet_monument_reuse">
     <field name="monument_reuse">
       <xsl:choose>
-        <xsl:when test="starts-with(., 'yes')">Yes</xsl:when>
-        <xsl:when test="starts-with(., 'no')">No</xsl:when>
-        <xsl:when test="starts-with(., 'uncertain')">Uncertain</xsl:when>
-        <xsl:when test="starts-with(., 'unknown')">Unknown</xsl:when>
+        <xsl:when test="starts-with(lower-case(.), 'yes')">Yes</xsl:when>
+        <xsl:when test="starts-with(lower-case(.), 'no')">No</xsl:when>
+        <xsl:when test="starts-with(lower-case(.), 'uncertain')">Uncertain</xsl:when>
+        <xsl:when test="starts-with(lower-case(.), 'unknown')">Unknown</xsl:when>
         <xsl:otherwise><xsl:value-of select="." /></xsl:otherwise>
       </xsl:choose>
     </field>
@@ -125,10 +125,10 @@
   <xsl:template match="tei:support/tei:rs[@type='opistographic']" mode="facet_opistographic">
     <field name="opistographic">
       <xsl:choose>
-        <xsl:when test="starts-with(., 'yes')">Yes</xsl:when>
-        <xsl:when test="starts-with(., 'no')">No</xsl:when>
-        <xsl:when test="starts-with(., 'uncertain')">Uncertain</xsl:when>
-        <xsl:when test="starts-with(., 'unknown')">Unknown</xsl:when>
+        <xsl:when test="starts-with(lower-case(.), 'yes')">Yes</xsl:when>
+        <xsl:when test="starts-with(lower-case(.), 'no')">No</xsl:when>
+        <xsl:when test="starts-with(lower-case(.), 'uncertain')">Uncertain</xsl:when>
+        <xsl:when test="starts-with(lower-case(.), 'unknown')">Unknown</xsl:when>
         <xsl:otherwise><xsl:value-of select="." /></xsl:otherwise>
       </xsl:choose>
     </field>

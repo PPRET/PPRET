@@ -5,14 +5,14 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Inscription in honour of Valentinianus II, Theodosius I, Arcadius, Honorius from Antinoupolis by Tatianus praet. praefect</title>
+                <title>Inscription in honour of Valentinian II, Theodosius I, Arcadius, Honorius from Antinoupolis by Tatianus praet. praefect</title>
                 <editor role="edition">Giordana Franceschini</editor>
                 <editor role="encoding">Giordana Franceschini</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>PPRET</authority>
-                <idno type="filename" n="plre" corresp="p. 876">86</idno>
-                <date when="2020-03-27"/>
+                <idno type="filename" n="plre" corresp="pp. 876-878">86</idno>
+                <date when="2021-05-14"/>
                 <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
             </publicationStmt>
             <sourceDesc>
@@ -25,13 +25,13 @@
                 </listPerson>
                 <msDesc>
                     <msIdentifier>
-                        <repository ref="#Alexandria">Alexandria Museum</repository>
-                        <idno type="invNo">inv. 21783; displayed in the Museum garden</idno>
+                        <repository ref="#Alexandria">Alexandria Museum, inv. 21783; displayed in the Museum garden</repository>
+                        <idno type="invNo"></idno>
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textType" ref="#honorary">Honorary inscription</term>
-                            <term type="rhythm" ref="#prose">prose</term>
+                            <term type="textType" ref="#honorary">Honorary inscription to the emperors Valentinian II, Theodosius I, Arcadius, and Honorius</term>
+                            <term type="rhythm" ref="#prose">Prose</term>
                         </summary>
                         <textLang mainLang="grc">Greek</textLang>
                     </msContents>
@@ -39,8 +39,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#marble">red granite</material>
-                                    <objectType ref="#base">statue base</objectType>
+                                    <material ref="#granite">Red granite</material>
+                                    <objectType ref="#base">Statue base</objectType>
                                     <dimensions>
                                         <height>139</height>
                                         <width>91</width>
@@ -53,15 +53,16 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>The inscription is chiselled on a reused monument: it is located on the back of the base; on the front face there is an earlier inscription dedicated to Antinous, dating to 130/140 AD (Bernand 1984, pp. 57-62, nr 2).</p>
-                                    <rs type="execution" ref="#chiselled">chiselled</rs>
-                                    <rs type="preservation" ref="#undamaged">Our inscription is complete and has 11 lines. The name of the awarder was deliberately erased (lines 6-7).</rs>
+                                    <p>The inscription is chiseled on a reused monument and is located on the back of the base; on the front face there is an earlier inscription dedicated to Antinous, dating to 130/140 AD (Bernand 1984, pp. 57-62, nr. 2). The inscription is complete (11 lines), but the name of the awarder has been deliberately erased (lines 6-7).
+</p>
+                                    <rs type="execution" ref="#chiselled">Chiselled</rs>
+                                    <rs type="preservation" ref="#damaged"></rs>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <term ref="#lunate">lunate letters with serifs</term>
+                                <term ref="#lunate">Lunate letters with serifs</term>
                                 <height>not recorded</height>
                             </handNote>
                         </handDesc>
@@ -93,54 +94,59 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="grc">
-                    <ab>
-                        <lb n="1"/>Τοὺς τῆς ὑφ’ ἡλίῳ γῆς αὐτοκρά<lb 
+                <ab>
+                    <lb n="1"/>Τοὺς τῆς ὑφ’ ἡλίῳ γῆς αὐτοκρά<lb 
                             break="no" n="2"/>τορας καὶ τροπαιούχους δεσπότας 
-                        <lb n="3"/>ἡμῶν, Οὐαλεντινιανόν, Θεοδόσιον, 
-                        <lb n="4"/>Ἀρκάδιον, τοὺς αἰωνίους Αὐγούσ<lb 
+                    <lb n="3"/>ἡμῶν Οὐαλεντινιανόν, Θεοδόσιον, 
+                    <lb n="4"/>Ἀρκάδιον, τοὺς αἰωνίους Αὐγούσ<lb 
                             break="no" n="5"/>τους, καὶ Φλάυιον Ὁνώριον, τὸν 
-                        <lb n="6"/>ἐπιφανέστατον, <del rend="erasure"><expan><abbr><unclear>Φ</unclear>λ</abbr><ex>άυιος</ex></expan> Εὐτόλμιος</del>
-                        <lb n="7"/><unclear>Τα</unclear><supplied reason="lost">τιαν</supplied><unclear>ός</unclear>, ὁ λαμπρότατος ἔπαρχος
-                        <lb n="8"/>τοῦ ἱεροῦ πραιτωρίου, τῇ συνήθει 
-                        <lb n="9"/>καθοσιώσει <expan><abbr>ἀφιέρωσε</abbr><ex>ν</ex></expan>, ἐπὶ Φλαυίου 
-                        <lb n="10"/>Σεπτιμίου Εὐτροπίου τοῦ λαμπροτάτου
-                        <lb n="11"/>ἡγεμόνος.
-                    </ab>
+                    <lb n="6"/>ἐπιφανέστατον, <del rend="erasure"><expan><abbr><unclear>Φ</unclear><supplied reason="lost">λ</supplied></abbr><supplied reason="lost"><ex>άυιος</ex></supplied></expan> <supplied reason="lost">Εὐτόλμιος</supplied></del> 
+                    <lb n="7"/><unclear>Τ</unclear><unclear>α</unclear><supplied reason="lost">τιαν</supplied><unclear>ό</unclear><unclear>ς</unclear>, ὁ λαμπρότατος ἔπαρχος 
+                    <lb n="8"/>τοῦ ἱεροῦ πραιτωρίου, τῇ συνήθει 
+                    <lb n="9"/>καθοσιώσει <expan><abbr>ἀφιέρωσε</abbr><ex>ν</ex></expan>, ἐπὶ Φλαυίου 
+                    <lb n="10"/>Σεπτιμίου Εὐτροπίου τοῦ λαμπροτάτου 
+                    <lb n="11"/>ἡγεμόνος. 
+                </ab>
             </div>
             <div type="apparatus">
-                <p>This edition follows the text edited by LSA and Bernand 1984.</p>
-            <p>
-                    <app loc="6"><note>Φλ.: ILS 8809; OGIS II, 723; Wescher 1899</note></app>
-                    <app loc="7"><note>Τατιανὸς: ILS 8809; OGIS II, 723</note></app>
-                <app loc="9"><note>ἀφοσιωσει: Wescher 1899 read this word as the future indicative active 3<hi rend="superscript">rd</hi> singular from ἀφοσιόω, which can be translated with “he will consecrate”.</note></app>
-                </p>
+                <p>This edition follows the text edited by Bernand 1984.
+<app loc="4/5"><note>αυτουρ/γους Milne 1898</note></app>
+                    <app loc="6"><note>Φλ.: Wescher; OGIS 02, 0723; ILS 8809</note></app>
+                    <app loc="6/7"><note>ΕΥΤΟΛΜΙΟϚ / ΤΑΤΙΑΝΟϚ Wescher («Ce n'est méme qu'avec d'assez grands efforts que j'ai pu déchiffecr le nom du préfet du prétoire»)</note></app>
+                    <app loc="7"><note>Τατιανὸς: ILS 8809; OGIS 02, 0723</note></app>
+                    <app loc="9"><note>ἀφοσιώσει Wescher read this word as the future indicative active 3rd singular from ἀφοσιόω, which can be translated with “he will consecrate”; ἀφιερώσει Milne 1898; <expan><abbr>ἀφιέρωσε</abbr><ex>ν</ex></expan> OGIS 02, 723 (Dittenberger); Κλαυδίου Wescher</note></app>
+</p>
             </div>
             <div type="translation" xml:lang="it">
-                <p>“Agli imperatori della Terra sotto il sole, trionfanti, i nostri signori Valentinianus, Teodosius, Arcadius, perpetui Augusti, e Flavius Honorius, nobilissimo, il chiarissimo Flavius Eutolmius Tatianus, prefetto del sacro praetorio, realizzò con la consueta devozione, quando era governatore (di Tebaide) il chiarissimo Flavius Septimius Eutropius.”</p>
+                <p>“Agli imperatori della Terra sotto il sole, trionfanti, i nostri signori <persName type="ruler">Valentinianus</persName>, <persName type="ruler">Teodosius</persName>, <persName type="ruler">Arcadius</persName>, perpetui Augusti, e <persName type="ruler">Flavius Honorius</persName>, nobilissimo, il chiarissimo <persName ref="#Tatianus"><name ref="praenomen">Flavius</name> <name ref="gentilicium">Eutolmius</name> <name ref="cognomen">Tatianus</name></persName>, prefetto del sacro praetorio, realizzò con la consueta devozione, quando era governatore (di <placeName>Tebaide</placeName>) il chiarissimo <persName><name ref="praenomen">Flavius</name> <name ref="gentilicium">Septimius</name> <name ref="cognomen">Eutropius</name></persName>.”</p>
             </div>
             <div type="translation" xml:lang="en">
-                <p>“To the emperors of the Earth under the sun, triumphant, our masters Valentinianus, Theodosius, Arcadius, the eternal Augusti, and Flavius Honorius, the most noble, Flavius Eutolmius Tatianus, of clarissimus rank, prefect of the sacred praetorium, set this up with the customary devotion, when Flavius Septimius Eutropius was governor (of Thebais) of clarissimus rank.”</p>
+                <p>“To the emperors of the Earth under the sun, triumphant, our masters <persName type="ruler">Valentinian</persName>, <persName type="ruler">Theodosius</persName>, <persName type="ruler">Arcadius</persName>, the eternal Augusti, and <persName type="ruler">Flavius Honorius</persName>, the most noble, <persName ref="#Tatianus"><name ref="praenomen">Flavius</name> <name ref="gentilicium">Eutolmius</name> <name ref="cognomen">Tatianus</name></persName>, of clarissimus rank, prefect of the sacred praetorium, set this up with the customary devotion, when <persName><name ref="praenomen">Flavius</name> <name ref="gentilicium">Septimius</name> <name ref="cognomen">Eutropius</name></persName> was governor (of <placeName>Thebais</placeName>) of clarissimus rank.”</p>
             </div>
             <div type="translation" xml:lang="fr">
-                <p>“Aux empereurs de la Terre sous le soleil, triomphateurs, nos seigneurs Valentinianus, Theodosius, Arcadius, Augustes perpétuels, et Flavius Honorius, le très noble, Flavius Eutolmius Tatianus, clarissime préfet du prétoire sacré, a réalisé avec la dévotion habituelle, quand il était gouverneur clarissime Flavius Septimius Eutropius.”</p>
+                <p>“Aux empereurs de la Terre sous le soleil, triomphateurs, nos seigneurs <persName type="ruler">Valentinianus</persName>, <persName type="ruler">Theodosius</persName>, <persName type="ruler">Arcadius</persName>, Augustes perpétuels, et <persName type="ruler">Flavius Honorius</persName>, le très noble, <persName ref="#Tatianus"><name ref="praenomen">Flavius</name> <name ref="gentilicium">Eutolmius</name> <name ref="cognomen">Tatianus</name></persName>, clarissime préfet du prétoire sacré, a réalisé avec la dévotion habituelle, quand il était gouverneur clarissime <persName><name ref="praenomen">Flavius</name> <name ref="gentilicium">Septimius</name> <name ref="cognomen">Eutropius</name></persName>.”</p>
             </div>
             <div type="commentary">
-                <p>The inscription is on a statue base in honour of Valentinianus II, Theodosius I, Arcadius and Honorius emperors and it was found in the ancient city of Antinoupolis, today el Sheikh ‘Abadah in Egypt. Initially, the monument was brought to the Cairo Museum (nr. 9274) (Dittemberg in OGIS II) and then transferred to the Alexandria Museum (nr. 21783), in 1925. 
-                    Today, it is displayed in the Museum garden (Bernand 1984, p. 57; LSA 876). Our inscription is on the back of a large statue base, the front face of which retains an earlier dedication to Antinous (130/40 AD) (Bernand 1984 pp. 57-62, nr. 2; Wescher 1866, pp. 150-153). Th. Kraus (1962, p. 131) pointed out that «on the top there are foot-holes of an over life-size bronze statue, which must belong to the first use, since they point towards the first-use side» (cf. U. Gehn, LSA 876).</p>
-                <p>The text is 11 lines long and has been deliberately erased on lines 6 and 7, where the awarder Flavius Eutolmius Tatianus (PLRE I, p. 876) was mentioned. He was a distinguished pagan, who held the eastern praetorian prefecture in 388-392 AD (see also <ref type="ppret" corresp="ppret85">PPRET 85</ref>, <ref type="ppret" corresp="ppret88">88</ref>, <ref type="ppret" corresp="ppret90">90</ref>), falling from power in 392 AD. 
-                    He suffered <foreign>damnatio memoriae</foreign> and banishment to Lycia. He was rehabilitated posthumously by his grandson at Aphrodisias in Caria (<ref type="ppret" corresp="ppret91">PPRET 91</ref>). His whole career is recorded in ascending order of importance from <foreign>praeses</foreign> (ἡγεμών) to <foreign>praefectus</foreign>  (ἔπαρχος) in a long inscription from Sidyma (see <ref type="ppret" corresp="ppret87">PPRET 87</ref>).
-                    During his prefecture, Tatianus was also involved in erecting honorary inscriptions on behalf of the imperial college (<ref type="ppret" corresp="ppret82">PPRET 82</ref>, <ref type="ppret" corresp="ppret83">83</ref>, <ref type="ppret" corresp="ppret84">84</ref>) in Aphrodisias (Caria) and in Side (Pamphylia) which is a ‘twin’ inscription of our Egyptian one (<ref type="ppret" corresp="ppret85">PPRET 85</ref>). 
-                    Just as in our inscription the prefect uses the formula τῇ συνήθει καθοσιώσει, which probably alludes to pagan rites that accompanied the dedication and which must have been chosen by him, since it appears in Aphrodisias as well as in Egypt.</p>
-                <p>Since our base can only have supported one statue, it has must been one of a group of bases with similar dedications.</p>
-                <p>The inscription was set up during the mandate of the governor of the Thebais, Flavius Septimius Eutropius (PLRE I, p. 318), recorded as governor in a papyrus dated to 26<hi rend="superscript">th</hi> December 389 AD. Since his predecessor, Flavius Eutolmius Arsenius (PLRE I, p. 111), was in office in June 388 AD and his successor, Flavius Asclepiades Hesychius (PLRE I, p. 429), in September 390 AD, our inscription has to date to 388/390 AD.</p>
+                <p>The inscription was carved on a statue base as a dedication in honour of the emperors <persName type="ruler">Valentinian II</persName>, <persName type="ruler">Theodosius I</persName>, <persName type="ruler">Arcadius</persName> Augusti and <persName type="ruler">Honorius</persName> <foreign>nobilissimus</foreign> (<foreign>puer</foreign>). The red granite moulded base was found in 1861 among the ruins of the ancient city of <placeName>Antinoupolis</placeName> (<placeName>Thebais</placeName>), today <placeName>el Sheikh ‘Abadah</placeName> in <placeName>Egypt</placeName> by G. Deville (1865, p. 485, nr. 238). The inscription for the emperors is on the back of a large statue base, whose front face retains an earlier dedication to the deified <persName type="ruler">Antinous</persName> made in 130/140 AD (see Wescher 1866, pp. 150-153; Milne 1898, p. 194, nr. 16a = OGIS 02, 700 = Bernand 1984, pp. 57-62, nr. 2). Deville was not interested in the late antique inscription on the back of the base for <persName type="ruler">Antinous</persName>, so the late inscription was published by Wescher in 1866. Initially, the monument was brought to the <placeName>Cairo</placeName> Museum (inv. nr. 9274, see Dittemberg in OGIS 02, 723) and then it was transferred to the <placeName>Alexandria</placeName> Museum (inv. nr. 21783), in 1925. Today, it is displayed in the Museum garden (Bernand 1984, p. 57; <ref type="inscription">LSA 876</ref>). 
+On the upper face of the base, holes had been cut for housing the feet of a bronze statue that would have been larger than life. The orientation of the feet towards the face containing the inscription for the deified <persName type="ruler">Antinous</persName> suggests that the statue was not one of the late antique emperors mentioned in the late inscription, but <persName type="ruler">Antinous</persName> himself. Remains of a colossal marble statue, found in <persName>Antinoupolis</persName> near the base, could possibly pertain to the dedication (Th. Kraus 1962, pp. 130-132; <ref type="inscription">LSA 876</ref>).
+The monument in honour of the four emperors (listed in order of seniority as Augusti: <persName type="ruler">Valentinianus II</persName>, <persName type="ruler">Theodosius</persName>, <persName type="ruler">Arcadius</persName>, and to the end <persName type="ruler">Honorius</persName>, who was only <foreign>nobilissimus puer</foreign> / <foreign>iuvenis</foreign>) was erected in <placeName>Antinoupolis</placeName> by order of the Praetorian prefect <persName ref="#Tatianus"><name ref="praenomen">Fl.</name> <name ref="gentilicium">Eutolmius</name> <name ref="cognomen">Tatianus</name></persName>, during his prefecture, in 388/392 AD, and it was made by the governor of <placeName>Thebais</placeName> (on the two dignitaries and for a possible dating to 388/390 see below). The text has been deliberately erased on lines 6 and 7, where the awarder <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> was mentioned. Fortunately, Wescher (1866, p. 153) managed to read the name of <persName ref="#Tatianus"><name ref="gentilicium">Eutolmius</name> <name ref="cognomen">Tatianus</name></persName> in what remained of the erased letters, while Mommsen (1866, p. 239) first recognised <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> as the praetorian prefect of the other Egyptian inscription, that of <placeName>Canopus</placeName> (<ref type="ppret" corresp="ppret90">PPRET 90</ref>). 
+Another inscription in <placeName>Side</placeName> (<placeName>Pamphylia</placeName>, <ref type="ppret" corresp="ppret85">PPRET 85</ref>) is dedicated to the same four emperors: it is a ‘twin’ inscription, identical to ours in <placeName>Antinoupolis</placeName> in <placeName>Thebais</placeName>. The praetorian prefect <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> also dedicated similar individual inscriptions to each of the four emperors in <placeName ref="Aphrodisias">Aphrodisias</placeName> (<placeName>Caria</placeName>) of which three have survived (<ref type="ppret" corresp="ppret82">PPRET 82</ref> for <persName type="ruler">Honorius</persName>, <ref type="ppret" corresp="ppret83">83</ref> for <persName type="ruler">Arcadius</persName>, <ref type="ppret" corresp="ppret84">84</ref> for <persName type="ruler">Valentinianus II</persName>). <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> seems to have won the collaboration of provincial governors and cities in different provinces of his prefecture in order to create a series of monuments to the emperors during his office (388-392 AD).  Dedications made by the same praetorian prefect <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName>, in three different and quite distant provinces (<placeName>Caria</placeName>, <placeName>Pamphylia</placeName>, <placeName>Thebais</placeName>) confirms that they are all of the same date. The wide diffusion of monuments also reveals a systematic celebratory strategy (see Robert 1948, p. 52). <placeName ref="Aphrodisias">Aphrodisias</placeName> was the capital of the province of <placeName>Caria</placeName>, while <placeName ref="#Antinoupolis">Antinoupolis</placeName> was the capital of the province of <placeName>Thebais</placeName> (Keenan 2000, p. 617; Palme 2012; the city shares primacy with <placeName>Hermoupolis</placeName>, on the opposite bank of the Nile), and it remains uncertain whether <placeName>Side</placeName> in the second half of the 4<hi rend="superscript">th</hi> Century was the capital of <placeName>Pamphylia</placeName>, but this primacy still seems to be reserved for <placeName>Perge</placeName> (see <ref type="ppret" corresp="ppret85">PPRET 85</ref>).
+The inscription celebrates four rulers, but it was engraved under the statue of one of the four rulers (Gehn in <ref type="inscription">LSA 876</ref>). Moreover, in the late empire single dedications to several emperors from the period 383-393 AD are usually reproduced below the individual statues of each one (<ref type="inscription">LSA 519</ref>; <ref type="inscription">528</ref>; <ref type="inscription">529</ref>; <ref type="inscription">1275</ref>; <ref type="inscription">1659</ref>; <ref type="inscription">2729</ref>); this practice is attested from the Tetrarchic age (Eck 2006) and during the late Empire (see Porena 2021). So at <placeName>Side</placeName> (<ref type="ppret" corresp="ppret85">PPRET 85</ref>) and at <placeName>Antinoupolis</placeName> we have to imagine a series of four bases with a statue, one for each emperor, <persName type="ruler">Valentinianus II</persName> and his colleagues belonging to the Theodosian family.
+At the beginning of the inscription is the formula τῆς ὑφ' ἡλίῳ γῆς which precedes the term αὐτοκράτωρ /-ορες (a phrase which also appears in inscriptions of <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> for <persName type="ruler">Arcadius</persName>, <ref type="ppret" corresp="ppret83">PPRET 83</ref>, and for <persName type="ruler">Valentinianus II</persName>, <ref type="ppret" corresp="ppret84">PPRET 84</ref>, at <placeName>Aphrodisias</placeName>, and very probably in the first line of the inscription of <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> for the four emperors from <placeName>Side</placeName> <ref type="ppret" corresp="ppret85">PPRET 85</ref>).  The formula is of course different in the case of <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName>' inscription at <placeName ref="#Aphrodisias">Aphrodisias</placeName> for <persName type="ruler">Honorius</persName> who was not emperor (see <ref type="ppret" corresp="ppret82">PPRET 82</ref>). The formula τῆς ὑφ' ἡλίῳ γῆς seems to be isolated (on γῆς και θαλάσσης δεσπότης , see Ritti 2002-2003; for orbis in imperial titulature, see Borhy 1999; the emperor <persName type="ruler">Julian</persName> as <foreign>dominus totius orbis</foreign> is in <ref type="ppret" corresp="ppret50">PPRET 50</ref>). The titling τροπεούχους δεσπότας ἡμῶν τοὺς αἰωνίους Αὐγούστους (in Latin: <foreign>domini nostri triumfatores perpetui Augusti</foreign>) is very common (see Chastagnol 1988, pp. 21-23; Rösch 1978, pp. 34, 39, 46; recently Kajava 2011; Benoist 2016; on Αὔγουστος see Salway 2007). Concering <persName type="ruler">Honorius</persName>, referred to on line 6 as merely ἐπιφανέστατον, see <ref type="ppret" corresp="ppret82">PPRET 82</ref>).
+At lines 6-7 the name of the praetorian prefect <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> was erased, but the name is partially legible. As we have said, the inscription from <placeName>Antinoupolis</placeName> was erected by order of the Praetorian prefect <persName ref="#Tatianus"><name ref="praenomen">Fl.</name> <name ref="gentiliciu,">Eutolmius</name> <name ref="cognomen">Tatianus</name></persName>, during his prefecture in 388/392 AD, and it was made by the governor of <placeName>Thebais</placeName> (below). After an important career, which began in 358 AD, <persName ref="#Tatianus"><name ref="gentilicium">Eutolmius</name> <name ref="cognomen">Tatianus</name></persName> became praetorian prefect of the East from 388 to 392 AD, residing in <placeName>Constantinople</placeName> during the protracted stay of the emperor <persName type="ruler">Theodosius I</persName> in <placeName>Italy</placeName> (the emperor only came back to <placeName>Constantinople</placeName> in July 391 AD; for <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName>’ career, see PLRE I, pp. 876-878; Delmaire 1989, pp. 62-67; Olszaniec 2013, pp. 394-407; his <foreign>cursus honorum</foreign> is recorded in the inscription carved in his honour in <placeName>Sidyma</placeName>, see <ref type="ppret" corresp="ppret87">PPRET 87</ref>). Shortly after his return to <placeName>Constantinople</placeName>, the emperor <persName type="ruler">Theodosius I</persName> deprived <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> of his office and sent him into exile in <placeName>Lycia</placeName>, while his son <persName>Proculus</persName> was sentenced to death (see Mecella 2015). This fall from grace caused <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName>’ name to be erased from many inscriptions (<ref type="ppret" corresp="ppret82">PPRET 82</ref>, <ref type="ppret" corresp="ppret83">83</ref>, <ref type="ppret" corresp="ppret84">84</ref>, <ref type="ppret" corresp="ppret85">85</ref>, <ref type="ppret" corresp="ppret88">88</ref>), a cancelling that can also be seen on our statue base for one of the emperors. Many years later a (homonymous) descendant of <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> ordered a Greek inscription in verse to be engraved in honour of his ancestor <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName>, the praetorian prefect, in the city of <placeName ref="#Aphrodisias">Aphrodisias</placeName> (<ref type="ppret" corresp="ppret91">PPRET 91</ref>).
+At lines 8-9 the expression τῇ συνήθει καθοσιώσει “with the customary devotion” does not refer to purification or public or pagan sacrifices (such as Nollé 1993, p. 331; U. Gehn in <ref type="inscription">LSA 267</ref> and <ref type="inscription">876</ref>; Ogus 2018, p. 165). As in the inscriptions by <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> in <placeName ref="#Aphrodisias">Aphrodisias</placeName> and in <placeName>Antinoupolis</placeName>, καθοσίωσις (lat. <foreign>devotio</foreign>) means loyalty to the emperors (for ex. <ref type="source">Eus., HE 09, 09a, 07</ref>; <ref type="source">Eus., HE 10, 05, 18</ref>; <ref type="source">Nov. Iust. 134, 13, 03</ref>; <ref type="source">De Cerim. 01, 101 (92), p. 419 Reiske</ref>; <ref type="source">ACO 02/01, 02, p. 60,39, Conc. Chalced. 451</ref>). The five inscriptions erected by <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> to the emperors reigning in the years 388/392  (<ref type="ppret" corresp="ppret82">PPRET 82</ref>, <ref type="ppret" corresp="ppret83">83</ref>, <ref type="ppret" corresp="ppret84">84</ref>, <ref type="ppret" corresp="ppret85">85</ref>, <ref type="ppret" corresp="ppret86">86</ref>) always uses this same peculiar formula.
+At lines 9-11 the name of the governor of <placeName>Thebais</placeName>, <persName><name ref="praenomen">Fl.</name> <name ref="gentilicium">Septimius</name> <name ref="cognomen">Eutropius</name></persName>, is preserved. In the ‘twin’ inscription from <placeName>Side</placeName> (<ref type="ppret" corresp="ppret85">PPRET 85</ref>) it is noticeable that the name of the governor of <placeName>Pamphylia</placeName> has been deeply erased; he is unknown and he was probably a client of <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName>. It is interesting that in all the inscriptions mounted by <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName> in honour of the emperors, the name of the governor who was in office when the monument or series of monuments was put up is always placed at the end (it seems likely that the governor was the supervisor of the construction of the monuments). Not all the inscribed names survived. <persName><name>Antonius</name> <name>Priscus</name></persName>, governor of <placeName>Caria</placeName> (PLRE I, p. 730), is mentioned at the end of the series of the three inscriptions dedicated by the prefect <persName ref="#Tatianus">Tatianus</persName> at <placeName ref="#Aphrodisias">Aphrodisias</placeName>. In the same city of <placeName ref="#Aphrodisias">Aphrodisias</placeName> on the inscription in honour of <persName type="ruler">Honorius</persName> (<ref type="ppret" corresp="ppret82">PPRET 82</ref>) his name is preserved, but in the two inscriptions in honour of <persName type="ruler">Arcadius</persName> (<ref type="ppret" corresp="ppret83">PPRET 83</ref>) and <persName type="ruler">Valentinianus II</persName> (<ref type="ppret" corresp="ppret84">PPRET 84</ref>) his name has been erased. This anomaly is without explanation. The inscription from <placeName>Antinoupolis</placeName> was set up during the mandate of the governor of the <placeName>Thebais</placeName>, <persName><name ref="praenomen">Flavius</name> <name ref="gentilicium">Septimius</name> <name ref="cognomen">Eutropius</name></persName> (PLRE I, p. 318). Rémondon (1965, pp. 22-23) first identified <persName><name ref="cognomen">Eutropius</name></persName> as the praeses <placeName>Thebaidis</placeName> and appropriately dated the inscription to 388/390 AD, preferring the year 389 AD. <persName><name ref="cognomen">Eutropius</name></persName> is recorded as governor of <placeName>Thebais</placeName> in a papyrus datable to December 26<hi rend="superscript">th</hi> 389 AD (P. Lips. 01, 38, r 1, 5-6) and generally in 389 AD (P.Kell. 01, 26, now Gascou 2013). The previous governor of <placeName>Thebais</placeName> is <persName><name ref="gentiliciu,">Eutolmius</name> <name ref="cognomen">Arsenius</name></persName> (PLRE I, p. 111), who was in office on June 14<hi rend="superscript">th</hi> 388 AD (P. Lips. 01, 63); the following governor is <persName>Asclepiades Hesychius</persName> (PLRE I, p. 429), in office on September 20<hi rend="superscript">th</hi> 390 AD and still in 391 AD (P. Lips. 01, 14; 01, 38; 01, 66). It is possible that the 'twin' inscription of <placeName>Side</placeName> (<ref type="ppret" corresp="ppret85">PPRET 85</ref>) was also put up in the years 388/390, at the beginning of the praetorian prefecture of <persName ref="#Tatianus"><name ref="cognomen">Tatianus</name></persName>. It is not certain that this chronology is attributable to the dedications from <placeName>Aphrodisias</placeName> (<ref type="ppret" corresp="ppret82">PPRET 82</ref>, <ref type="ppret" corresp="ppret83">83</ref>, <ref type="ppret" corresp="ppret84">84</ref>).
+</p>
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
-                    <bibl><ref>Wenscher 1866</ref>, pp. 150-155</bibl>
-                    <bibl><ref>OGIS II, 723</ref></bibl>
+                    <bibl><ref>Wescher 1866, pp. 150-155</ref></bibl>
+                    <bibl><ref>Milne 1898, p. 195, nr. 16b</ref> (with fac-simile)</bibl>
+                    <bibl><ref>Milne 1905, p. 16, nr. 9274b</ref></bibl>
+                    <bibl><ref>OGIS 02, 723</ref></bibl>
                     <bibl><ref>ILS 8809</ref></bibl>
-                    <bibl><ref>SB V, 8919</ref></bibl>
-                    <bibl><ref>Bernand 1984, nr. 19</ref></bibl>
+                    <bibl><ref>SB 05, 8919</ref></bibl>
+                    <bibl><ref>Bernand 1984, pp. 102-106, nr. 19</ref> (with fac-simile Pl. 19,1)</bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="images">
@@ -154,26 +160,32 @@
             </div>
             <div type="bibliography" subtype="other">
                 <p>
-                    <bibl>Barnes T.D., The victims of Rufinus, CQ 34, 1984, 227-230</bibl>
-                    <bibl>Bernand A., Les Portes du désert. Recueil des inscriptions grecques d’Antinooupolis, Tentyris, Koptos, Apollonopolis Parva et Apollonopolis Magna, Paris 1984, nr. 19</bibl>
-                    <bibl>Collignon M., Notes sur les fouilles executées à Aphrodisias par M. Paul Gaudin, CRAI 1904, 703-711</bibl>
-                    <bibl>Cuvigny H., Τρισαυγούστιον et φραγέλλιον. Contrôle de qualité et mesurage du grain fiscal au IVe s. apr. J.-C. à la lumière de P.Mich. XX 800 et de l’inscription tardive du grenier d’Andriakè, Chiron 47, 2017, 95-114</bibl>
-                    <bibl>Errington R., A note on the Augustal Prefect of Egypt, Tyche 17, 2002, 69-77</bibl>
-                    <bibl>Grégoire H., Miettes d’histoire byzantine (IVe-VIe siècle), Anatolian Studies presented to Sir William Mitchell Ramsay, Manchester-London-New York, 1923, 151-164</bibl>
-                    <bibl>Grégoire H., Quand est né l’empereur Théodose II ?, Byzantion 4, 1927-1928, 337-348</bibl>
-                    <bibl>Kraus, Th., Die Basis des Epistrategen Fidus Aquila aus Antinoopolis, MDAI(R) 69, 1962, 128-135</bibl>
-                    <bibl>Livrea E., I due Taziani in un’iscrizione di Afrodisia, ZPE 119, 1997, 43-49</bibl>
-                    <bibl>Manganaro G., Due note tardoantiche, ZPE 94, 1992, 283-294</bibl>
-                    <bibl>Mecella M., L’amministrazione di Taziano e Proculo e il destino dei Lici tra Teodosio e Arcadio, in Governare e riformare l’impero al momento della sua divisione: Oriente, Occidente, Illirico Roma, 2015</bibl>
-                    <bibl>Milne J., Greek inscriptions (Catalogue Général du Musée du Caire), Oxford 1905,nr. 16</bibl>
-                    <bibl>Pellizzari A., «Salvare le città»: lessico e ideologia nell’opera di Libanio, Κοινωνία 35, 2011, 45-61</bibl>
-                    <bibl>Petit P., Les fonctionnaires dans l’œuvre de Libanius. Analyse prosopographique, Besançon 1994</bibl>
-                    <bibl>Reinach T., Inscriptions d’Aphrodisias, REG 19, 1906, 79-150, 205-298</bibl>
-                    <bibl>Robert L., Hellenica. Recueil d’épigraphie, de numismatique et d’antiquités grecques, IV, in Epigrammes du Bas-Empire 4, Paris 1948</bibl>
-                    <bibl>Roueché C., Aphrodisias in Late Antiquity London 1989</bibl>
-                    <bibl>Scharf R., Die Familie des Fl. Eutolmius Tatianus, ZPE 85, 1991, 223-231</bibl>
-                    <bibl>Wescher C., Notice sur les inscriptions grecques du piédestal d’Antinoé et du monument d’Athribis en Egypte, Bullettino dell’Instituto di Corrispondenza Archeologica 38, 1866, 150-155</bibl>
-                    <bibl>Woods D., Tatianus and the Basilica of Menas, Byzantion 65, 1995, 467-474</bibl>
+                    <bibl>Benoist S., Identité(s) du prince et discours impérial, l'exemple des titulatures, des Sévères à Julien, in Discours et systèmes de représentation: modèles et transferts de l'écrit dans l'Empire romain, éd. M. Crété, Besançon 2016, 17-37</bibl>
+                    <bibl>Bernand A., Les Portes du désert. Recueil des inscriptions grecques d’Antinooupolis, Tentyris, Koptos, Apollonopolis Parva et Apollonopolis Magna, Paris 1984</bibl>
+                    <bibl>Borhy L., «Constantius toto orbe victor triumfator semper Augustus»: die Tituatur Constantius’ II. bei Ammianus Marcellinus. Ein Kommentar zur Kaiserpropaganda, in XI Congresso Internazionale di Epigrafia Greca e Latina (Roma, 18-24 settembre 1997), II, Roma 1999, 659-668</bibl>
+                    <bibl>Chastagnol A., Le formulaire de l'épigraphie latine officielle dans l'Antiquité tardive, in La terza età dell'epigrafia (Colloquio AIEGL, Bologna 1986), Faenza 1988, pp. 11-65</bibl>
+                    <bibl>Delmaire R., Les responsables des finances impériales au Bas-Empire romain (IVe-VIe s.): études prosopographiques, Bruxelles 1989</bibl>
+                    <bibl>Deville G., Inscriptions grecques d'Égypte, recuillies en 1861 à Phile, Élèphantine, Silsilis, Biban El-molouk, Abydos, Antnoé, Sakkarah et Alexandrie, Archives des missions scientifiques et littéraires, 2, 1865, pp. 457-487</bibl>
+                    <bibl>Eck W., Worte und Bilder. Das Herrschaftskonzept Diocletians im Spiegel öffentlicher Monumente, in Die Tetrarchie. Ein neues Regierungssystem und seine Präsentation, Wiesbaden 2006, 323-348</bibl>
+                    <bibl>Gascou J., Plainte au praeses Simplicius, in Papyrological Texts in Honor of Roger S. Bagnall, Durham (North Carolina) 2013, 107-113</bibl>
+                    <bibl>Kajava M., Honorific and other dedications to emperors in the Greek East, in More than Men, less than Gods. Studies on royal cult and imperial worship (Proceedings of the internatianol colloquium Athens 2007), Leuven 2011, 553-592</bibl>
+                    <bibl>Keenan J.G., Egypt, in The Cambridge Ancient History, XIV. Late Antiquity. Empire and Successors, AD 425-600, Cambridge 2000, 612-637</bibl>
+                    <bibl>Kraus, Th., Die Basis des Epistrategen Fidus Aquila aus Antinoopolis, MDAI(R), 69, 1962, 128-135 (Taf. 42)</bibl>
+                    <bibl>Mecella M., L’amministrazione di Taziano e Proculo e il destino dei Lici tra Teodosio e Arcadio, in Governare e riformare l’impero al momento della sua divisione: Oriente, Occidente, Illirico, Roma 2015, 51-83</bibl>
+                    <bibl>Milne J.G., A History of Egypt, V. Under Roman Rule, London 1898, App. III. Inscriptions in the Ghizeh Museum</bibl>
+                    <bibl>Milne J.G., Greek Inscriptions, «Service des Antiquités de l'Égypte: Catalogue géneral des antiquités égyptiennes du Musée du Caire», Oxford 1905</bibl>
+                    <bibl>Mommsen Th., Osservazioni. a. Inscription d'Antinoë, Bullettino dell’Instituto di Corrispondenza Archeologica, 38, 1866, 238-239</bibl>
+                    <bibl>Nollé J., Side im Altertum. Geschichte und Zeugnisse, I. Geographie, Geschichte, Testimonia Griechische und lateinische Inschriften (1-4), Bonn 1993 (IK 43)</bibl>
+                    <bibl>Ogus E., Urban transformations at Aphrodisias in late antiquity. Destruction or intentional preservation ?, in Reuse and renovation in Roman material culture. Functions, aesthetics, interpretations, Cambridge 2018, 160-185</bibl>
+                    <bibl>Olszaniec S., Prosopographical Studies on the Court Elite in the Roman Empire (4th Century AD), Toruń, 2013</bibl>
+                    <bibl>Palme B., Die Organisation der Statthalterbüros im spätantiken Ägypten, in Altertum und Gegenwart: 125 Jahre Alte Geschichte in Innsbruck. Vorträge der Ringvorlesung Innsbruck 2010, Innsbruck 2012, 207-236</bibl>
+                    <bibl>Porena P., L’iscrizione prefettizia di Perinthus - Heraclea di Tracia: un omaggio a Massimino Daia Cesare durante la crisi della Terza Tetrarchia ?, MEFRA, 133, 2021, 235-248</bibl>
+                    <bibl>Rémondon R., Problèmes militaires en Égypte et dans l’Empire a la fin du IVe siècle, RH, 213, 1955, 21-38</bibl>
+                    <bibl>Ritti T., Antonino Pio «padrone della terra e del mare»: una nuova iscrizione onoraria da Hierapolis di Frigia, Annali di Archeologia e Storia Antica, N.S., 9-10, 2002-2003, 271-282</bibl>
+                    <bibl>Robert L., Hellenica. Recueil d’épigraphie, de numismatique et d’antiquités grecques, IV, Epigrammes du Bas-Empire, Paris 1948</bibl>
+                    <bibl>G. Rösch, Onoma Basileias. Studien zum offiziellen Gebrauch der Kaisertitel im spätantiker und frühbyzantinischer Zeit, Wien 1978</bibl>
+                    <bibl>Salway B., Constantine Augoustos not Sebastos, in Wolf Liebeschuetz Reflected. Essays Presented by Colleagues, Friends, and Pupils, London 2007, 37-50</bibl>
+                    <bibl>Wescher C., Notice sur les inscriptions grecques du piédestal d’Antinoé et du monument d’Athribis en Egypte, Bullettino dell’Instituto di Corrispondenza Archeologica, 38, 1866, 150-155</bibl>
                 </p>
             </div>
             
@@ -181,6 +193,7 @@
                 <div type="commentary" n="1">
                     <p n="1.1"></p>
                 </div>
+               
                 <div type="commentary" n="7">
                     <p n="7.2"></p>
                     <p n="7.y"></p>
