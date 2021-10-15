@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Inscription recording an intervention by the praet. prefect Iunius Bassus from Tarracina</title>
+                <title>Fragment of inscription mentioning probably Iunius Bassus praet. prefect from Tarracina</title>
                 <editor role="edition">Pierfrancesco Porena, Irene Vagionakis</editor>
                 <editor role="encoding">Irene Vagionakis</editor>
             </titleStmt>
@@ -29,7 +29,7 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textType" ref="#building" cert="low">Building inscription (?)</term>
+                            <term type="textType" ref="#unknown">Unknown</term>
                             <term type="rhythm" ref="#prose">prose</term>
                         </summary>
                         <textLang mainLang="la">Latin</textLang>
@@ -39,7 +39,7 @@
                             <supportDesc>
                                 <support>
                                     <material ref="#stone" cert="low">stone (?)</material>
-                                    <objectType ref="#base">base</objectType>
+                                    <objectType ref="#stone_slab">stone slab</objectType>
                                     <dimensions>
                                         <height>unknown</height>
                                         <width>unknown</width>
@@ -53,7 +53,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p>One inscribed field.</p>
-                                    <rs type="execution" ref="#chiselled" cert="low">chiselled (?)</rs>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
                                     <rs type="preservation" ref="#fragmentary">Fragmentary.</rs>
                                 </layout>
                             </layoutDesc>
@@ -69,15 +69,15 @@
                         <origin>
                             <origPlace>
                                 <placeName type="ancient_city">Tarracina</placeName>
-                                <placeName type="modern_city">Terracina (Italy)</placeName>
-                                <placeName type="province">Latium</placeName>
+                                <placeName type="modern_city">Terracina (Latina - Italy)</placeName>
+                                <placeName type="province">Campania</placeName>
                                 <placeName type="diocese">Italiciana</placeName>
                                 <placeName type="prefecture">Italia Illyricum Africa</placeName>
-                                <placeName type="ancient_location" ref="#unknown">Unknown</placeName>
+                                <placeName type="ancient_location" ref="#unknown">unknown</placeName>
                             </origPlace>
-                            <origDate period="#p3" notBefore="0318" notAfter="0322" cert="low">318/322 AD?</origDate>
+                            <origDate period="#p3" notBefore="0318" notAfter="0334">318/334 AD</origDate>
                         </origin>
-                        <provenance type="found"><placeName ref="#">Terracina</placeName>, Palazzo della Bonificazione Pontina</provenance>
+                        <provenance type="found">the fragment was copied by M.-R. de la Blanchère in <placeName ref="#">Terracina</placeName>; it was walled into the Palazzo della Bonificazione Pontina.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -94,13 +94,16 @@
             <div type="edition" xml:space="preserve" xml:lang="la">
                     <ab>
                         <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
-                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">I</supplied>unius Bassus <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">I</supplied><unclear>unius</unclear> <unclear>B</unclear>ass<unclear>us</unclear> <gap reason="lost" extent="unknown" unit="character"/>
                         <lb n="2"/><expan><abbr>praefec</abbr><ex>tus</ex></expan> praeto<supplied reason="lost">rio</supplied> <gap reason="lost" extent="unknown" unit="character"/>
                         <lb n="2a"/><gap reason="lost" extent="unknown" unit="line"/>
                     </ab>
             </div>
             <div type="apparatus">
                 <p>Edition based on EDR.</p>
+                 <p>
+                <app loc="1"><note>VSIVSIASSII, CIL</note></app>
+              </p>
             </div>
             <div type="translation" xml:lang="en">
                 <p>“... Iunius Bassus ... praetorian prefect ...”</p>
@@ -112,14 +115,17 @@
                 <p>“... Iunius Bassus ... prefetto del pretorio ...”</p>
             </div>
             <div type="commentary">
-                <p>...</p>
+                <p>The inscription was copied sometime between 1879 and 1882 by the scholar Marie-René de La Blanchère (1853-1896), who was a member of the École Française de Rome from 1879 to 1881. The transcribed text was sent by de La Blanchère himself to Th. Mommsen, who included it in the “additamentorum auctarium” of the city of Tarracina in the second part of volume X of the Corpus Inscriptionum Latinarum, published in 1883 (p. 1016, nr. 8396). From 1879 and for three years M.-R. de La Blanchère conducted extensive field investigations in the Pontine region (southern Lazio) for the newly founded École Française de Rome (on the history of this institution in the late 19th Century cf. Gras 2010; Gras, Poncet 2015; on the correspondence between the Director of the École Auguste Geffroy and de La Blanchère cf. Poncet 2020). In addition to several articles on the epigraphy North of the Liri river, de La Blanchère published an important monograph on ancient Terracina in 1884, a year after the publication of CIL X (cf. de La Blanchère 1884; on the work of the French scholar, see also Bourdin, Pagliara 2019; on the historical and cultural context of the research in the Pontine Plain between the 18th and 19th Century, cf. Pagliara 2018).</p>
+                <p>In de La Blanchère’s writings the scholar does not reveal how the fragmentary inscription was found (on de La Blanchère’s letters, written during the years of research in southern Latium cf. Rocci 1998; on his edition of inscriptions cf. the scholar’s bibliography in Pagliara 2019; on his activity as an epigrapher cf. Di Brino 2019).</p>
+                <p>As we know from Mommsen’s very brief introduction to CIL X, 8396, de La Blanchère copied the fragment, when it was still inserted into an unidentified wall of the Palazzo della Bonificazione Pontina (Via Santissima Annunziata, 29, in Terracina, built between 1780 and 1785; the fragment, together with other inscriptions, was transferred to the Palazzo, cf. CIL X, pp. 1016-1017). There is no other information about the fragment, which has disappeared. The fact that it was mounted upon a wall of the 18th Century Palazzo della Bonificazione, located beside the ancient Forum of Terracina, does not mean that the fragment had been unearthed there; this is only a possibility.</p>
+                <p>It is likely that the copy of the fragmentary inscription from Terracina was sent to Th. Mommsen by de La Blanchère in 1882, just before the publication of CIL X. A letter from the young French researcher to the great German scholar, written in Paris on August 25th 1882 reads: «En même temps que cette lettre je remets à Monsieur Geffroy [Direttore de l’École Française de Rome] pour vous la copie d’un certain nombre d’Inscriptions qui ne figurent pas dans les feuilles du Corpus que vous avez bien voulu me faire tenir, &amp; aussi quelques observations sur plusieurs de celles qui s’y trouvent. Dans quelques jours, je vais partir de nouveau pour Terracine, où je ferai quelques vérifications &amp; recherches qui sans doute amèneront encore un peu de nouveau. Vous en recevrez d’ici à un mois les résultats, ainsi que les feuilles dont j’ai eu communication, &amp; mes estampages, qui sont au Palais Farnese : je déposerai le tout à l’Institut de M.te Caprino, afin qu’on vous le fasse parvenir. J’avais l’intention de joindre à une étude que je prépare sur Terracine le Corpus des Inscriptions de cette ville. Mais j’y renonce bien volontiers, préférant vous donner tout ce que je possède : le Corpus, oeuvre commune de tous les épigraphistes &amp; si nécessaire pour nous tous, doit passer avant tout» (de La Blanchère’s letters to Mommsen are kept in the Staatsbibliothek zu Berlin - Preußischer Kulturbesitz Nachlaß Mommsen, Kasten 75, La Blanchère, René de; see f. 1/2, ed. Pagliara 2018, App. 1. Further references to the inscription from Terracina can be found in the letter of September 27th 1882, f. 3/4, App. 2, and perhaps also in 1884, f. 21/22, App. 13).</p>
+                <p>Mommsen appreciated the work of the young de La Blanchère and his courtesy in communicating to him the texts of the inscriptions discovered in the Pontine region (cf. Mommsen in CIL X, pp. 52, 984, 1015, see in part. nr. 8395; on the relations between the two scholars cf. Pagliara 2018, pp. 63-77). These editions, collated in the “additamentorum auctarium” and published in CIL X are precious, since de La Blanchère died before being able to publish the epigraphic corpus of Terracina. The importance of this epigraphic fragment resides in the unequivocal presence of the abbreviated office of praetorian prefect in the second of the two extant lines. Unfortunately, the prefect's onomastics in the previous line is uncertain because of a horizontal fracture that has erased some of the letters. De La Blanchère explicitly noted this in a short reference to the inscription in  his essay on Terracina, in the chapter on the late antique city (1884, p. 155): «Un seul fragment d’inscription antérieur à Théodose peut avoir eu un caractère public et officiel: il mentionne un préfet du prétoire, mais le nom du personnage est mutilé».</p>
+                <p>In 2016 G. Di Brino integrated in EDR 157561 the name of Iunius Bassus, Constantine’s praetorian prefect in the period 318/334 AD (see <ref type="ppret" corresp="ppret10">PPRET 10</ref>) by interpreting the letters of the diplomatic transcription made by de La Blanchère and published in CIL X, 8396. The letters of the transcription do not fully coincide with the name of this prefect; the cognomen may be genitive and not nominative; only part of the cognomen seems legible: B(?)ASSI. The abbreviation of the office on l. 2 could be in the genitive or the dative case. We therefore include the fragment from Terracina in the database, but its attribution to Iunius Bassus remains uncertain. The type of inscription is also uncertain.</p>
+                <p>What few onomastic traces there are in this late-antique inscription leave open the possibility that the dignitary in question was Fl. Anicius Auchenius Bassus (PLRE II, pp. 220-221), who was praetorian prefect of Italy Illyricum Africa in 426 AD and perhaps again in 435 AD, and ordinary consul in 431 AD (CLRE, pp. 396-397). The family is celebrated in Rome and in the cities of Campania between 4th and 5th Century AD (on the Campanian statues in honour of the homonymous grandfather cf. LSA 326; 1683; 1729; 1730; 1848; 1930; 2034; 2566; on the base from Gortyna cf. Tantillo 2020a and 2020b; on the discussed fragment from Rome <ref type="inscription">CIL 06, 01791</ref> = <ref type="inscription">AE 1993, 00121</ref> = <ref type="inscription">EDR111567</ref>, cf. Scharf 1993; Porena 2010, p. 364; on this family cf. Settipani 2000, pp. 373-375; Cameron 2012, in part. pp. 140-143).</p>
             </div>
             <div type="bibliography" subtype="editions">
               <p>
-                <bibl><ref>CIL X, 8396</ref></bibl>
-              </p>
-              <p>
-                <app loc="1"><note>[- - -]VSIVSIASSII [- - -] CIL</note></app>
+                <bibl><ref>CIL 10, 08396</ref></bibl>
               </p>
             </div>
             <div type="bibliography" subtype="images">
@@ -132,7 +138,20 @@
             </div>
             <div type="bibliography" subtype="other">
                 <p>
-                  ...
+                    <bibl>Bourdin S., Pagliara A. (dir.), Marie-René de La Blanchère, dalle terre pontine all’Africa romana, Roma 2019 (CEFR 566)</bibl>
+                    <bibl>Cameron Al., Anician myths, JRS, 102, 2012, 133-171</bibl>
+                    <bibl>de La Blanchère M.-R., Terracine. Essai d’histoire locale, Paris 1884 (BEFAR 34) [traduz. ital. Terracina. Saggio di Storia locale, traduzione e introduzione di G.R. Rocci, Gaeta 1983]</bibl>
+                    <bibl>Di Brino G., La Blanchère epigrafista e storico dell’epigrafia romana, in Bourdin S., Pagliara A. (dir.), Marie-René de La Blanchère, dalle terre pontine all’Africa romana, Roma 2019, 27-33</bibl>
+                    <bibl>Gras M. (a cura di), «Á l’école de toute l’Italie». Pour une histoire de l’École française de Rome, Roma 2010 (CEFR 431)</bibl>
+                    <bibl>Gras M., Poncet O. (a cura di), Construire l’institution. L’École française de Rome, 1873-1895, Roma 2015 (CEFR 486)</bibl>
+                    <bibl>Poncet O., Une éducation savante: lettres de Marie-René de La Blanchère à Auguste Geffroy (1878-1886). Étude et édition critique, Roma 2020</bibl>
+                    <bibl>Porena P., Iscr. n. 28 Base di statua con dedica al vicario Caecilius Severus Elpidius, in Bigi F., Tantillo I. (a cura di), Leptis Magna: una città e le sue iscrizioni in epoca tardoromana, Cassino 2010, 362-364</bibl>
+                    <bibl>Rocci G.R. (a cura di), M.-R. de La Blanchère, Lettere dalle terre Pontine, Terracina 1998</bibl>
+                    <bibl>Pagliara A., Contributo alla storia degli studi sulla regione Pontina nell’antichità, Parma 2018</bibl>
+                    <bibl>Scharf R., Die Inschrift CIL VI 1791 - Reste eines Testaments ?, Tyche, 8, 1993, 149-153</bibl>
+                    <bibl>Settipani C., Continuité gentilice et continuité familiale dans les familles sénatoriales romaines à l’époque impériale. Mythe et réalité, Oxford 2000</bibl>
+                    <bibl>Tantillo I., I monumenti del ciclo di Asclepiodotus: i testi, i personaggi, la datazione, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020, 63-86</bibl>
+                    <bibl>Tantillo I., Creta e la politica fiscale dell’imperatore Graziano. Una spiegazione per il ciclo di Asclepiodotus, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020, 167-189</bibl>
                 </p>
             </div>
 
@@ -141,18 +160,8 @@
                     <p n="1.1"></p>
                 </div>
 
-                <div type="commentary" n="7">
-                    <p n="7.3"></p>
-                    <p n="7.4"></p>
-                    <p n="7.5"></p>
-                    <p n="7.6"></p>
-                </div>
-
                 <div type="commentary" n="8">
                     <p n="8.2">praefec(tus) praeto[rio]</p>
-                    <p n="8.5"></p>
-                    <p n="8.9"></p>
-                    <p n="8.11"></p>
                 </div>
             </div>
         </body>
