@@ -152,7 +152,8 @@
             <div type="bibliography" subtype="links">
                 <p>
                     <bibl><ref corresp="https://epigraphy.packhum.org/text/228282">PHI 228282</ref></bibl>
-                </p>
+                    <bibl><ref corresp="https://www.trismegistos.org/text/103911">TM 103911</ref></bibl>
+                 </p>
             </div>
             <div type="bibliography" subtype="other">
                 <p>

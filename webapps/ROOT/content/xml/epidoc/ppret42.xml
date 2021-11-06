@@ -164,7 +164,8 @@
             <div type="bibliography" subtype="links">
                 <p>
                     <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-10900687">EDCS 10900687</ref></bibl>
-                </p>
+                    <bibl><ref corresp="https://www.trismegistos.org/text/495409">TM 495409</ref></bibl>
+                 </p>
             </div>
             <div type="bibliography" subtype="other">
                 <p>
