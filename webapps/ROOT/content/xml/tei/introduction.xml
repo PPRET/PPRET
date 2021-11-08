@@ -23,6 +23,11 @@
     <text>
         <body>
             <div type="commentary">
+                <!--<head></head>
+                <div type="textpart" subtype="section">
+                    <p></p>
+                </div>-->
+                
                 <head>Technical aspects of the PPRET Inscriptions database</head>
                 <div type="textpart" subtype="section">
                     <div><p>The creation of the PPRET database involved two work phases: the encoding of the inscriptions in EpiDoc XML and the actual creation of the database through the EpiDoc Front-End Services (EFES).</p></div>
@@ -47,10 +52,6 @@
                     <p>According to the Linked Open Data principles, links to other Open Access online resources (such as <ref corresp="http://www.edr-edr.it/">EDR</ref>, <ref corresp="https://edh-www.adw.uni-heidelberg.de/">EDH</ref>, <ref corresp="http://db.edcs.eu/">EDCS</ref>, <ref corresp="https://www.ubi-erat-lupa.org/">Ubi Erat Lupa</ref>, <ref corresp="http://laststatues.classics.ox.ac.uk/">LSA</ref>, <ref corresp="http://inslib.kcl.ac.uk/irt2009/">IRT</ref>…) have been inserted systematically.</p>
                 </div>
                 </div>
-                <!--<head></head>
-                <div type="textpart" subtype="section">
-                    <p></p>
-                </div>-->
             </div>
         </body>
     </text>

@@ -23,6 +23,20 @@
     <text>
         <body>
             <div type="commentary">
+                <div type="section" xml:lang="en">
+                    <div type="section">
+                        <head>Text search</head>
+                        <p>If you want to perform a specific textual search (both in the ancient texts and in the rest of the editions, that is metadata, translations, commentary and bibliography), you can type your text in the ‘<emph>Text search</emph>’ box in the ‘Search’ page and then press ‘Enter’.</p>
+                        <p>If you want to search one or more words only in the Latin or Greek text, select the ‘<emph>Search only in the inscription text</emph>’ box.</p>
+                        <p>You can use the wildcard character * for looking for segments of words: for example, a search of <foreign>nobilita*</foreign> will return <foreign>nobilitas</foreign>, <foreign>nobilitatis</foreign>, <foreign>nobilitate</foreign> and so on.</p>
+                        <p>If your search includes a sequence of more words, surround them with double quotes (" "): for example, if you want to search <foreign>viro</foreign> followed by <foreign>clarissimo</foreign>, you have to type "<foreign>viro clarissimo</foreign>". Please note that if you want to perform a precise search of a sequence of more words, you cannot use the wildcard character *.</p>
+                        <p>If your search includes Greek text, you can type in Greek by using the virtual keyboard that appears below the search box after clicking on ‘Greek keyboard’.</p>
+                        <p>The results list will display the list of the PPRET inscriptions that include the word(s) that you have searched.</p>
+                        <p>If you want to reset your search, click on ‘Reset search’.</p>
+                        <p>If you want to remove specific search filters that you have selected, click on the ‘x’ on the right of the relevant filter in the ‘Current filters’ section.</p>
+                    </div>
+                </div>
+                
                 <div type="section" xml:lang="it">
                     <div type="section">
                         <head>A) Inscriptions</head>
@@ -202,23 +216,10 @@
                     </div>
                 </div>
                 
-                <div type="section" xml:lang="en">
-                    <div type="section">
-                        <head>Text search</head>
-                        <p>If you want to perform a specific textual search (both in the ancient texts and in the rest of the editions, that is metadata, translations, commentary and bibliography), you can type your text in the ‘<emph>Text search</emph>’ box in the ‘Search’ page and then press ‘Enter’.</p>
-                        <p>If you want to search one or more words only in the Latin or Greek text, select the ‘<emph>Search only in the inscription text</emph>’ box.</p>
-                        <p>You can use the wildcard character * for looking for segments of words: for example, a search of <foreign>nobilita*</foreign> will return <foreign>nobilitas</foreign>, <foreign>nobilitatis</foreign>, <foreign>nobilitate</foreign> and so on.</p>
-                        <p>If your search includes a sequence of more words, surround them with double quotes (" "): for example, if you want to search <foreign>viro</foreign> followed by <foreign>clarissimo</foreign>, you have to type "<foreign>viro clarissimo</foreign>". Please note that if you want to perform a precise search of a sequence of more words, you cannot use the wildcard character *.</p>
-                        <p>If your search includes Greek text, you can type in Greek by using the virtual keyboard that appears below the search box after clicking on ‘Greek keyboard’.</p>
-                        <p>The results list will display the list of the PPRET inscriptions that include the word(s) that you have searched.</p>
-                        <p>If you want to reset your search, click on ‘Reset search’.</p>
-                        <p>If you want to remove specific search filters that you have selected, click on the ‘x’ on the right of the relevant filter in the ‘Current filters’ section.</p>
-                    </div>
-                </div>
-                
                 <div type="section" xml:lang="fr">
                     <p>...</p>
                 </div>
+                
             </div>
         </body>
     </text>
