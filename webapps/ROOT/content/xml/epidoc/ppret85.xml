@@ -54,11 +54,8 @@
                             <layoutDesc>
                                 <layout>
                                     <p>The base was inscribed on one field.</p>
-<p>Damaged: the first line is lost; lines 10-11 and 15 (names of the praetorian prefect and of the provincial governor) have been deliberately erased.
-
-</p>
-                                    <rs type="execution" ref="#unknown">Unknown</rs>
-                                    <rs type="preservation" ref="#damaged">Damaged</rs>
+<rs type="execution" ref="#unknown">Unknown</rs>
+                                    <rs type="preservation" ref="#damaged">Damaged: the first line is lost; lines 10-11 and 15 (names of the praetorian prefect and of the provincial governor) have been deliberately erased.</rs>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>

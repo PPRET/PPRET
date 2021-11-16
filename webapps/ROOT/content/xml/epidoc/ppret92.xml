@@ -74,7 +74,7 @@
                                 <placeName type="province">Urbs</placeName>
                                 <placeName type="diocese">Italiciana</placeName>
                                 <placeName type="prefecture">Italia Illyricum Africa</placeName>
-                                <placeName type="ancient_location" ref="#private">Private building (<persName><name type="cognomen">Symmachus</name></persName>’ estate on <foreign>Mons Caelium</foreign>)</placeName>
+                                <placeName type="ancient_location" ref="#private">Private building (<persName><name type="cognomen">Symmachus</name></persName>’ estate on <foreign>Mons Caelius</foreign>)</placeName>
                             </origPlace>
                             <origDate period="#p8" when="0402" precision="high">402 AD</origDate>
                         </origin>

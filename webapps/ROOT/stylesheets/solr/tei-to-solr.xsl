@@ -395,19 +395,19 @@
   
   <xsl:template match="tei:ref[@type='source']" mode="facet_literary_source_mentioned_in_the_commentary">
     <field name="literary_source_mentioned_in_the_commentary">
-      <xsl:apply-templates select="." />
+      <xsl:value-of select="normalize-space(translate(translate(., '/', '／'), '?', ''))" />
     </field>
   </xsl:template>
   
   <xsl:template match="tei:ref[@type='inscription']" mode="facet_epigraphic_source_mentioned_in_the_commentary">
     <field name="epigraphic_source_mentioned_in_the_commentary">
-      <xsl:apply-templates select="." />
+      <xsl:value-of select="normalize-space(translate(translate(., '/', '／'), '?', ''))" />
     </field>
   </xsl:template>
   
   <xsl:template match="tei:ref[@type='papyrus']" mode="facet_papyrological_source_mentioned_in_the_commentary">
     <field name="papyrological_source_mentioned_in_the_commentary">
-      <xsl:apply-templates select="." />
+      <xsl:value-of select="normalize-space(translate(translate(., '/', '／'), '?', ''))" />
     </field>
   </xsl:template>
   

@@ -278,6 +278,10 @@
                 </place>
 
 
+                <place xml:id="Andriake">
+                    <placeName xml:lang="it">Andriakè</placeName>
+                    <placeName xml:lang="en">Andriakè</placeName>
+                </place>
                 <place xml:id="Aradi">
                     <placeName xml:lang="it">Aradi</placeName>
                     <placeName xml:lang="en">Aradi</placeName>
@@ -309,6 +313,10 @@
                 <place xml:id="TrajanForum">
                     <placeName xml:lang="it">Roma, Foro di Traiano</placeName>
                     <placeName xml:lang="en">Roma, Trajan’s Forum</placeName>
+                </place>
+                <place xml:id="Sidyma">
+                    <placeName xml:lang="it">Sidyma</placeName>
+                    <placeName xml:lang="en">Sidyma</placeName>
                 </place>
             </listPlace>
         </body>
