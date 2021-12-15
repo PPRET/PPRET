@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Inscription in honour of the praet. prefect Hermogenes (?), from Aire, by the Batanaea</title>
+                <title>Greek Inscription in honour of an Anonymous praet. prefect of Constantius II A. and Julian C. by the region of Batanea (from Aire, Phoenices Libanensis)</title>
                 <editor role="edition">Pierfrancesco Porena</editor>
                 <editor role="encoding">Irene Vagionakis</editor>
             </titleStmt>
@@ -18,7 +18,7 @@
             <sourceDesc>
                 <listPerson>
                     <person>
-                        <persName ref="#Hermogenes" cert="low"><name type="cognomen">Hermogenes</name></persName>
+                        <persName ref="#anonymous_east">Anonymous praetorian prefect of the East</persName>
                     </person>
                 </listPerson>
                 <msDesc>
@@ -27,7 +27,7 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect Hermogenes (?)</term>
+                            <term type="textType" ref="#honorary">Honorary inscription for an anonymous praetorian prefect</term>
                             <term type="rhythm" ref="#prose">prose</term>
                         </summary>
                         <textLang mainLang="grc">Greek</textLang>
@@ -43,14 +43,14 @@
                                         <width>95</width>
                                         <depth>92</depth>
                                     </dimensions>
-                                    <rs type="inscribed_field_reuse">yes</rs>
+                                    <rs type="inscribed_field_reuse">uncertain</rs>
                                     <rs type="monument_reuse">no</rs>
                                     <rs type="opistographic">yes</rs>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>One inscribed field (frons); the back and left faces bear a different inscription.</p>
+                                    <p>One inscribed field (<foreign>frons</foreign>); the back and left faces bear a different inscription (IGLS 14, 0556a).</p>
                                     <rs type="execution" ref="#chiselled">chiselled</rs>
                                     <rs type="preservation" ref="#damaged">The first line of the inscription is ruined.</rs>
                                     <p n="opistographic">Two other faces of the base bear a previous inscription, the dedication IGLS XIV, 556a.</p>
@@ -59,7 +59,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <term ref="#square_capitals">Late antique Greek squared capitals</term>
                                 <height>3.5</height>
                             </handNote>
                         </handDesc>
@@ -69,14 +69,14 @@
                             <origPlace>
                                 <placeName type="ancient_city">Aire</placeName>
                                 <placeName type="modern_city">Al-Sanamein (Syria)</placeName>
-                                <placeName type="province">Phoenicia Libanensis</placeName>
+                                <placeName type="province">Phoenices Libanensis</placeName>
                                 <placeName type="diocese">Oriens</placeName>
                                 <placeName type="prefecture">Oriens</placeName>
-                                <placeName type="ancient_location" ref="#public" cert="low">public space (?)</placeName>
+                                <placeName type="ancient_location" ref="#public">public space</placeName>
                             </origPlace>
                             <origDate period="#p5" notBefore="0358" notAfter="0360">358/360 AD</origDate>
                         </origin>
-                        <provenance type="found">found in 1997 in the road to the west of the Tycheion of <placeName ref="#">Al-Sanamein</placeName></provenance>
+                        <provenance type="found">found in 1997 in the road to the West of the Tycheion of <placeName ref="#">Al-Sanamein</placeName></provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -92,7 +92,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="grc">
                     <ab>
-                        <lb n="1"/><unclear>Τ</unclear>ὸν λ<supplied reason="lost">α</supplied><unclear>μ</unclear>πρό<unclear>τ</unclear>α<unclear>τ</unclear>ο<supplied reason="lost">ν</supplied> <gap reason="lost" extent="unknown" unit="character"/><unclear>ω</unclear>ι
+                        <lb n="1"/><unclear>Τ</unclear>ὸν λ<supplied reason="lost">α</supplied><unclear>μ</unclear>πρό<unclear>τ</unclear>α<unclear>τ</unclear>ο<supplied reason="lost">ν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
                         <lb n="2"/>τὸν τοῦ ἱεροῦ <sic>πρετωρίου</sic> ἔπαρχον τοῦ δεσποτοῦ ἡμῶν
                         <lb n="3"/>Κωνσταντίου τοῦ Αὐγούστου καὶ Νικήτου καὶ τοῦ ἐπι<lb 
                             break="no" n="4"/>φανεστάτου Καίσαρος Ἰουλιανοῦ διʹ οὗ <sic>ἰρήνη</sic> καὶ ἀμεριμνία
@@ -101,30 +101,33 @@
                     </ab>
             </div>
             <div type="apparatus">
-                <p>Edition based on IGLS.</p>
+                <p>Edition based on IGLS 14/2; AE 1999; SEG 49.</p>
                 <p>
+                    <app loc="1"><note><unclear>Τ</unclear>ὸν λ[α]<unclear>μ</unclear>πρό<unclear>τ</unclear>α<unclear>τ</unclear>ο[ν - - -]<unclear>ω</unclear>ι, IGLS 14/2</note></app>
                     <app loc="2"><note>πραιτωρίου</note></app>
+                    <app loc="3"><note>Νικήτου, IGLS 14/2</note></app>
                     <app loc="4"><note>ἐιρήνη</note></app>
+                    <app loc="5"><note>ὕπηρξεν IGLS 14/2; εὐεργετὴν IGLS 14/2; σωτήρα IGLS 14/2</note></app>
                 </p>
             </div>
             <div type="translation" xml:lang="en">
-                <p>“Of clarissimus rank, ..., the prefect of the sacred praetorium of our master Constantius Augustus and Conqueror and of the most illustrious Caesar Julian, thanks to whom the peace and the security have existed, the Batanaea has erected (the statue of) the benefactor and saviour, under Flavius Maximus, the most eminent ducenarius of the saltus.”</p>
+                <p>“Of clarissimus rank, ..., the prefect of the sacred praetorium of our master Constantius Augustus and Victorious and of the most noble Caesar Julian, thanks to whom there is peace and security, the Batanaea has erected (the statue of his) benefactor and saviour, under Flavius Maximus, the most perfect ducenarius of the saltus.”</p>
             </div>
             <div type="translation" xml:lang="fr">
-                <p>“Le clarissime ... préfet du prétoire sacré de notre seigneur Constance Auguste et Vainqueur et du très illustre César Julien, par lequel paix et sérénité ont existé, la Batanée a érigé (la statue de) le bienfaiteur et sauveur, sous Flavius Maximus, le très éminent ducénaire du saltus.”</p>
+                <p>(Sartre in IGLS 14/2, nr. 0555a)</p>
+                <p>“LLe clarissime ... préfet du prétoire de notre maître Constance Auguste et vainqueur et du très illustre César Julien, par lequel paix et sérénité existent, la Batanée a dressé (la statue de son) bienfaiteur et sauveur, sous Flavius Maximus, l’éminent ducénaire du saltus.”</p>
             </div>
             <div type="translation" xml:lang="it">
-                <p>“Il chiarissimo ..., prefetto del sacro pretorio di nostro signore Costanzo Augusto e Conquistatore e dell’illustrissimo Cesare Giuliano, grazie al quale la pace e la sicurezza sono esistite, la Batanea ha eretto (la statua del) benefattore e salvatore, sotto Flavius Maximus, l’eminentissimo ducenario del <foreign>saltus</foreign>.”</p>
+                <p>“Il chiarissimo ..., prefetto del sacro pretorio del nostro signore Constantius Augusto e Vincitore e del nobilissimo Cesare Iulianus, grazie al quale c’è la pace e la sicurezza, la Batanea ha eretto (la statua del suo) benefattore e salvatore, sotto Flavius Maximus, il perfettissimo ducenario del saltus.”</p>
             </div>
             <div type="commentary">
                 <p>...</p>
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
-                    <bibl><ref>IGLS XIV, 555a</ref>, with photo</bibl>
-                    <bibl><ref>Sartre 1999, pp. 219-221</ref>, with photo = <bibl><ref>AE 1999, 1699</ref></bibl> = <bibl><ref>SEG 49 (1999), 2105</ref></bibl> = <bibl><ref>BE 2001, 507</ref></bibl></bibl>
-                    <bibl><ref>Sartre in Yon, Gatier 2009, pp. 102‐105, nr. 23</ref></bibl> 
-                    <bibl>Sartre 2014, pp. 277‐278</bibl> 
+                    <bibl><ref>Sartre 1999, pp. 219-221</ref> (with photo, fig. 3) (= <bibl><ref>Sartre 2014, pp. 277‐278</ref></bibl>) = <bibl><ref>AE, 1999, 1699</ref></bibl>; <bibl><ref>SEG 49 (1999), 2105</ref></bibl>; <bibl><ref>BE 2001, 0507</ref></bibl></bibl>
+                    <bibl>(Sartre in) <ref>Yon, Gatier 2009, pp. 102‐105, nr. 23</ref> (with photo)</bibl> 
+                    <bibl><ref>IGLS 14/2, nr. 0555a</ref> (with photo)</bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="images">
@@ -135,9 +138,26 @@
             </div>
             <div type="bibliography" subtype="other">
                 <p>
-                    <bibl>Sartre M., Les metrokomiai de Syrie du Sud, Syria, 76, 1999, 197-222</bibl>
-                    <bibl>Sartre M., L’historien et ses territoires. Choix d’articles, textes réunis par P. Brun, Bordeaux 2014, 277‐278</bibl> 
-                    <bibl>Yon J.-B., Gatier P.-L. (éds.), Choix d’inscriptions grecques et latines de la Syrie, Amman - Beyrouth - Damas - Alep 2009, 102-105, nr. 23</bibl> 
+                    <bibl>Barrington Atlas of the Greek and Roman World, ed. R.J.A. Talbert, Princeton-Oxford 2000</bibl>
+                    <bibl>Bartels J., Was tat der «praefectus saltus» ? Städtischer Grundbesitz und seine Verwaltung in der römischen Kolonie Oescus, ZPE 167, 2008, 276-282</bibl>
+                    <bibl>Beaudouin É., Les grands domaines dans l’Empire romain, d’après des travaux récents, Nouvelle revue historique de droit français et étranger, 21, 1897, 543-599</bibl>
+                    <bibl>Carrié J.-M., Nommer les structures rurales entre fin de l’Antiquité et Haut Moyen Âge: le répertoire lexical gréco-latin et ses avatars modernes (1re partie), AntTard, 20, 2012, 25-46</bibl>
+                    <bibl>Clauss-Balty P., La kalybé de Hayat (Syrie du Sud), Syria, 85, 2008, 249-292 [online: http://journals.openedition.org/syria/483]</bibl>
+                    <bibl>Dagron G., Entre village et cité: la bourgade rurale des IVe-VIIe siècles en Orient, in Koinonia, 3, 1979, 29-52 (= Id., La romanité chrétienne en Orient. Héritages et mutations, London 1984, VII)</bibl>
+                    <bibl>Dentzer J.-M., Hauran I. Récherches archéologiques sur la Syrie du Sud à l’époque hellénistique et romaine, Paris 1985</bibl>
+                    <bibl>Freyberger K.S., Das Tycheion von as Sanamein. Ein Vorbericht, DaM (Damaszener Mitteilungen), 4, 1989, 87-108</bibl>
+                    <bibl>Freyberger K.S., Heiligtümer aus römischer Zeit in den Dörfern südsyriens. Einheimische Religion und imperialer herrscherkult, BJ, 210/211, 2010/2011, 459-500</bibl>
+                    <bibl>Gnoli T., Metrokomiai e comunità di villaggio nell’Oriente antico e tardoantico, in Polidoro. Studi offerti ad Antonio Carile, a cura di G. Vespignani, II, Spoleto 2013, 273-289</bibl>
+                    <bibl>IGLS 14 = A. Sartre-Fauriat, M. Sartre, Inscriptions grecques et latines de la Syrie, 14. La Batanée et le Jawlān oriental, 2 voll., Beyrouth 2016</bibl>
+                    <bibl>Kaplan M., Les propriétés de la couronne et de l’Eglise dans l’Empire byzantin (Ve-VIe siècles) : documents, Paris 1976</bibl>
+                    <bibl>Lee A.D., Information and frontiers. Roman foreign relations in Late Antiquity, Cambridge 1993</bibl>
+                    <bibl>Lo Cascio E., The Imperial Property and its Development, in P. Erdkamp, K. Verboven, A. Zuiderhoek (eds.), Ownership and Exploitation of Land and Natural Resources in the Roman World, Oxford 2015, 62-70</bibl>
+                    <bibl>Oenbrink W., Römische Architektur im Hauran. Zustand und Erhaltung im Spiegel früher Zeichnungen und Photographien am Beispiel des Tyche-Heiligtums von As-Sanamein, in Munus. Festschrift für Hans Wiegartz, Münster 2000, 189-207</bibl>
+                    <bibl>Sartre M., Les metrokomiai de Syrie du Sud, Syria, 76, 1999, 197-222 (= Id., L’historien et ses territoires. Choix d’articles, textes réunis par P. Brun, Bordeaux 2014, 249-287)</bibl>
+                    <bibl>Soricelli G., Saltus, in A. Storchi Marino (a cura di), Economia, amministrazione e fiscalità nel mondo romano. Ricerche lessicali, Bari 2004, 97-123</bibl>
+                    <bibl>Vera D., Imperial estates in late Roman southern Italy: land concentration and rent distribution, in A. M. Small (ed.), Beyond Vagnary. New Themes in the Study of Roman South Italy, Bari 2014, 285-293</bibl>
+                    <bibl>Yon J.-B., Gatier P.-L. (dir.), Choix d’inscriptions grecques et latines de la Syrie, Amman - Beyrouth - Damas - Alep 2009, 102-105, nr. 23</bibl>
+                    <bibl>Woods D., An unnoticed official: the praepositus saltus, CQ, 44, 1994, 245-251</bibl> 
                 </p>
             </div>
             
@@ -149,20 +169,19 @@
                 <div type="commentary" n="2">
                     <p n="2.a"></p>
                     <p n="2.1"></p>
-                    <p n="2.9">διʹ οὗ ἰρήνη καὶ ἀμεριμνία ὕπηρξεν (?)</p>
-                    <p n="2.10">εὐεργετὴν καὶ σωτήρα</p>
+                    <p n="2.2"></p>
+                    <p n="2.9">διʹ οὗ ἰρήνη (sic) καὶ ἀμεριμνία / ὑπῆρξεν ἡ Βατανέα τὸν εὐεργέτην καὶ σωτῆρα</p>
                     <list n="2.11">
-                        <item n="2.11.b"></item>
-                        <item n="2.11.c"></item>
                         <item n="2.11.d"></item>
                     </list>
                 </div>
                 
                 <div type="commentary" n="8">
-                    <p n="8.1">λ[α]μ̣πρότ̣ατ̣ο[ν]</p>
-                    <p n="8.2">τὸν τοῦ ἱεροῦ πρετωρίου ἔπαρχον</p>
+                    <p n="8.1">Τ̣ὸν λ[α]μ̣πρότ̣ατ̣ο[ν]</p>
+                    <p n="8.2">τὸν τοῦ ἱεροῦ πρετωρίου (sic) ἔπαρχον</p>
                     <p n="8.5"></p>
                     <p n="8.9"></p>
+                    <p n="8.10"></p>
                     <p n="8.11"></p>
                 </div>
             </div>

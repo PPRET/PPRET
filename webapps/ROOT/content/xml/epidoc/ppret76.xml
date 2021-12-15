@@ -5,83 +5,77 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>...</title>
-                <editor role="edition">...</editor>
-                <editor role="encoding">...</editor>
+                <title>Greek inscription in elegiac distichs honouring the praet. prefect or the vicarius Aphthonius from Gortyna (Crete) by (the consularis ?) Aristides</title>
+                <editor role="edition">Pierfrancesco Porena</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>PPRET</authority>
-                <idno type="filename" n="plre/new/rev" corresp="p. ...">76</idno>
+                <idno type="filename" n="new">76</idno>
                 <date when="2021-11-08"/>
                 <availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <listPerson>
                     <person>
-                        <persName ref="#"><name type="praenomen"></name>
-                        <name type="gentilicium"></name>
-                        <name type="cognomen"></name>
-                        <name type="signum"></name></persName>
+                        <persName ref="#Aphthonius"><name type="cognomen">Aphthonius (?)</name></persName>
                     </person>
                 </listPerson>
                 <msDesc>
                     <msIdentifier>
-                        <repository ref="#">...</repository>
+                        <repository ref="#Gortyna">element was left where it was found</repository>
                         <idno type="invNo"></idno>
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textType" ref="#"></term>
-                            <term type="rhythm" ref="#"></term>
+                            <term type="textType" ref="#honorary">Honorary inscription</term>
+                            <term type="rhythm" ref="#poetry">poetry (two elegiac dystichs)</term>
                         </summary>
-                        <textLang mainLang="la" otherLangs="">Latin</textLang>
+                        <textLang mainLang="grc">Greek</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#"></material>
-                                    <objectType ref="#"></objectType>
+                                    <material ref="#marble">local grey marble</material>
+                                    <objectType ref="#base">columnar base</objectType>
                                     <dimensions>
-                                        <height></height>
-                                        <width></width>
-                                        <depth></depth>
-                                        <dim type="diameter"></dim>
+                                        <height>175</height>
+                                        <dim type="diameter">50</dim>
                                     </dimensions>
-                                    <rs type="inscribed_field_reuse"></rs>
-                                    <rs type="monument_reuse"></rs>
-                                    <rs type="opistographic"></rs>
+                                    <rs type="inscribed_field_reuse">no</rs>
+                                    <rs type="monument_reuse">yes</rs>
+                                    <rs type="opistographic">no</rs>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p></p>
-                                    <rs type="execution" ref="#"></rs>
-                                    <rs type="preservation" ref="#"></rs>
-                                    <p n="opistographic"></p>
+                                    <p>One epigraphic field. It lies on the convex surface of the columnar base (c. 42,8 x 40 cm.). Lines 2, 4, 6, 8 lines are indented on the left alignment.</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#undamaged">Undamaged.</rs>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <term ref="#"></term>
-                                <height></height>
+                                <term ref="#lunate">lunate elongated letters, with traces of rubrication</term>
+                                <height>3.5 / 4.7</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient_city"></placeName>
-                                <placeName type="modern_city"></placeName>
-                                <placeName type="province"></placeName>
-                                <placeName type="diocese"></placeName>
-                                <placeName type="prefecture"></placeName>
-                                <placeName type="ancient_location" ref="#"></placeName>
+                                <placeName type="ancient_city">Gortyna</placeName>
+                                <placeName type="modern_city">Gortyn, Crete (Greece)</placeName>
+                                <placeName type="province">Creta</placeName>
+                                <placeName type="diocese">Macedonia</placeName>
+                                <placeName type="prefecture">Italia Illyricum Africa</placeName>
+                                <placeName type="ancient_location" ref="#public">public space, probably in front of the <foreign>Praetorium</foreign> of Gortyna</placeName>
                             </origPlace>
-                            <origDate period="#" notBefore="0001" notAfter="0400"></origDate>
+                            <origDate period="#p7" notBefore="0376" notAfter="0377">376/377 AD</origDate>
                         </origin>
-                        <provenance type="found"><placeName ref="#"></placeName></provenance>
+                        <provenance type="found">beneath the porch of the building opposite the entrance to the <foreign>Praetorium</foreign> of <placeName ref="#">Gortyna</placeName> from the North Street (see inscr. l. 1)</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -95,121 +89,80 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la">
+            <div type="edition" xml:space="preserve" xml:lang="grc">
                     <ab>
-                        <lb n="1"/>
+                        <lb n="1-2"/><note>1-2 Verse 1</note> Ἀντίον ἀχράντοιο Δίκης | τὸν ἄχραντον ὕπαρχον |
+                        <lb n="3-4"/><note>3-4 Verse 2</note> δῖος Ἀριστείδης | ἵδρυσεν Ἀφθόνιον, |
+                        <lb n="5-6"/><note>5-6 Verse 3</note> πειθόμενος ψήφῳ λογάδων | καὶ δόγματι βουλῆς, |
+                        <lb n="6-7"/><note>7-8 verse 4</note> πολλῶν ἀντ’ ἀγαθῶν | μικρὰ χαριζόμενος.
                     </ab>
             </div>
             <div type="apparatus">
-                <p></p>
+                <p>Edition based on Vallarino 2012.</p>
             </div>
             <div type="translation" xml:lang="en">
-                <p></p>
+                <p>(Sironen 1997, p. 70)</p>
+                <p>“In the face of pure Justice the illustrious Aristeides erected (the statue of) the pure hyparchos Aphthonios, fulfilling the vow of the notables and the decision of the city-council, rewarding with a small gratitude in exchange for so many meritorious achievements”.</p>
             </div>
             <div type="translation" xml:lang="fr">
-                <p></p>
+                <p>“Face à la Justice pure, l’illustre Aristéide a érigé (la statue de) l’hyparchos le pur Aphthonios, accomplissant le vœu des notables et la décision de la curie, lui rendant par une petite gratitude tant de mérites”.</p>
             </div>
             <div type="translation" xml:lang="it">
-                <p></p>
+                <p>(Vallarino 2012, p. 59)</p>
+                <p>“Di fronte alla pura Giustizia l’illustre Aristeides ha eretto (la statua del) puro hyparchos Aphthonios, adempiendo al voto dei notabili e alla decisione della curia, rendendo ben poca riconoscenza a fronte di tante benemerenze”.</p>
             </div>
             <div type="commentary">
                 <p></p>
             </div>
             <div type="bibliography" subtype="editions">
-                <p></p>
+                <p>
+                    <bibl><ref>Vallarino 2012, p. 59</ref> (with photo and fac-simile, p. 61, fig. 2) (= <bibl><ref>AE 2012, 1785</ref></bibl>; <bibl><ref>SEG 62 [2012], 0636</ref></bibl>; <bibl><ref>BE 2013, 513</ref></bibl>)</bibl>
+                </p>
             </div>
             <div type="bibliography" subtype="images">
-                <p></p>
+                <p>
+                    <bibl><ref>Lippolis, Caliò, Giatti 2019, p. 55</ref>, fig. 16; p. 432, fig. 15</bibl>
+                </p>
             </div>
             <div type="bibliography" subtype="links">
                 <p></p>
             </div>
             <div type="bibliography" subtype="other">
-                <p></p>
+                <p>
+                    <bibl>Baldini I., Interdonato E., Borlenghi A., Lamanna C., L’Età tardoantica: 360-500 (Fase 6), in Lippolis E., L.M. Caliò, C. Giatti (eds), Gortina VIII.1, L’isolato del Ninfeo. La topografia, i monumenti e lo scavo (campagne 2003-2008), Athenai 2019, 419-450</bibl>
+                    <bibl>Baldini I., Lippolis E., Livadiotti M., Rocco G., Il tempio del «Caput Aquae» a Gortyna e il tessuto urbano circostante: campagna di scavo 2005, ASAA, ser. III, 83.2, 2005, 625-648</bibl>
+                    <bibl>Baldini I., Vallarino G., Gortyn: from City of the Gods to Christian City, in T. Kaizer, A. Leone, E. Thomas, R. Witcher (eds), Cities and Gods. Interdisciplinary Perspectives (Durham, 6-7 July 2007), Leuven-Paris-Walpole MA 2013, 103-119</bibl>
+                    <bibl>Benseddik N., Lueurs cirtéennes, ZPE, 153, 2005, 249-260</bibl>
+                    <bibl>Bigi F., Tantillo I., Gortyna, in R.R.R. Smith, B. Ward-Perkins, The last Statues of Antiquity, Oxford 2016, 216-228</bibl>
+                    <bibl>Bigi F., Tantillo I. (edd.), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020</bibl>
+                    <bibl>Liebeschuetz J.H.W.G., Decline and fall of the Roman city, Oxford 2001</bibl>
+                    <bibl>Vallarino G., Epigramma dedicatorio per uno hyparchos dall’area del pretorio di Gortina, ZPE, 183, 2012, 59-66</bibl>
+                    <bibl>Vallarino G., Cosentino S., Dal Basso L., La società, in E. Lippolis, L.M. Caliò, C. Giatti (eds), Gortina VIII.1, L’isolato del Ninfeo. La topografia, i monumenti e lo scavo (campagne 2003-2008), Athenai 2019, 41-103</bibl>
+                </p>
             </div>
             
             <div type="commentary" subtype="prefects">
                 <div type="commentary" n="1">
                     <p n="1.1"></p>
-                    <p n="1.2"></p>
-                    <p n="1.3"></p>
-                    <p n="1.4"></p>
                 </div>
                 
                 <div type="commentary" n="2">
                     <p n="2.a"></p>
-                    <p n="2.b"></p>
                     <p n="2.1"></p>
                     <p n="2.2"></p>
-                    <p n="2.3"></p>
-                    <p n="2.4"></p>
-                    <p n="2.5"></p>
-                    <p n="2.6"></p>
-                    <p n="2.7"></p>
-                    <p n="2.8"></p>
-                    <p n="2.9"></p>
-                    <p n="2.10"></p>
+                    <p n="2.9">πολλῶν ἀντ’ ἀγαθῶν μικρὰ χαριζόμενος</p>
+                    <p n="2.10">τὸν ἄχραντον ὕπαρχον</p>
                     <list n="2.11">
-                        <item n="2.11.a"></item>
-                        <item n="2.11.b"></item>
                         <item n="2.11.c"></item>
-                        <item n="2.11.d"></item>
-                        <item n="2.11.e"></item>
-                        <item n="2.11.f"></item>
-                        <item n="2.11.g"></item>
-                        <item n="2.11.h"></item>
-                        <item n="2.11.i"></item>
                     </list>
                 </div>
                 
-                <div type="commentary" n="3">
-                    <p n="3"></p>
-                    <p n="3.a"></p>
-                    <p n="3.b"></p>
-                </div>
-                
-                <div type="commentary" n="4">
-                    <p n="4"></p>
-                </div>
-                
-                <div type="commentary" n="5">
-                    <p n="5"></p>
-                </div>
-                
-                <div type="commentary" n="6">
-                    <p n="6.a"></p>
-                    <p n="6.b"></p>
-                </div>
-                
-                <div type="commentary" n="7">
-                    <p n="7.1"></p>
-                    <p n="7.2"></p>
-                    <p n="7.y"></p>
-                    <p n="7.z"></p>
-                    <p n="7.3"></p>
-                    <p n="7.4"></p>
-                    <p n="7.5"></p>
-                    <p n="7.6"></p>
-                    <p n="7.7"></p>
-                    <p n="7.8"></p>
-                </div>
-                
                 <div type="commentary" n="8">
-                    <p n="8.1"></p>
-                    <p n="8.2"></p>
-                    <p n="8.3"></p>
-                    <p n="8.4"></p>
+                    <p n="8.2">τὸν ὕπαρχον</p>
                     <p n="8.5"></p>
-                    <p n="8.6"></p>
-                    <p n="8.7"></p>
-                    <p n="8.8"></p>
                     <p n="8.9"></p>
                     <p n="8.10"></p>
                     <p n="8.11"></p>
-                    <p n="8.12"></p>
-                    <p n="8.13"></p>
-                    <p n="8.14"></p>
-                    <p n="8.15"></p>
                 </div>
             </div>
         </body>

@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Inscription in honour of the praet. prefect Probus from Athens made by the proconsul of Achaia</title>
+                <title>Greek inscription in elegiac distichs honouring the praet. prefect Petronius Probus from Athens (Achaia) by the proconsul An(a)tolius</title>
                 <editor role="edition">Pierfrancesco Porena</editor>
                 <editor role="encoding">Irene Vagionakis</editor>
             </titleStmt>
@@ -26,12 +26,12 @@
                 </listPerson>
                 <msDesc>
                     <msIdentifier>
-                        <repository ref="#lost">lost</repository>
+                        <repository ref="#lost">unknown (lost)</repository>
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect Probus</term>
-                            <term type="rhythm" ref="#poetry">poetry: one elegiac distich</term>
+                            <term type="textType" ref="#honorary">Honorary inscription</term>
+                            <term type="rhythm" ref="#poetry">poetry (one elegiac distich)</term>
                         </summary>
                         <textLang mainLang="grc">Greek</textLang>
                     </msContents>
@@ -40,21 +40,21 @@
                             <supportDesc>
                                 <support>
                                     <material ref="#marble">marble</material>
-                                    <objectType ref="#base">cylindrical statue base</objectType>
+                                    <objectType ref="#base">columnar base</objectType>
                                     <dimensions>
                                         <height>unknown</height>
                                         <dim type="diameter">unknown</dim>
                                     </dimensions>
-                                    <rs type="inscribed_field_reuse">no</rs>
-                                    <rs type="monument_reuse">yes</rs>
+                                    <rs type="inscribed_field_reuse">yes</rs>
+                                    <rs type="monument_reuse">uncertain</rs>
                                     <rs type="opistographic">no</rs>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>One inscribed field (frons).</p>
+                                    <p>One epigraphic field, now lost. Inscribed on the convex surface of the columnar base. The first editor reported traces of an earlier inscription on the upper right-hand side.</p>
                                     <rs type="execution" ref="#chiselled">chiselled</rs>
-                                    <rs type="preservation" ref="#undamaged">The text, at the time of its transcription, was undamaged.</rs>
+                                    <rs type="preservation" ref="#undamaged">Undamaged.</rs>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -73,11 +73,11 @@
                                 <placeName type="province">Achaia</placeName>
                                 <placeName type="diocese">Macedonia</placeName>
                                 <placeName type="prefecture">Italia Illyricum Africa</placeName>
-                                <placeName type="ancient_location" ref="#public" cert="low">public space (?)</placeName>
+                                <placeName type="ancient_location" ref="#public">public space (East-side of the Roman Agora)</placeName>
                             </origPlace>
-                            <origDate period="#p7" when="0376" cert="low">376 AD?</origDate>
+                            <origDate period="#p7" notBefore="0376" notAfter="0382" cert="low">376/382 AD</origDate>
                         </origin>
-                        <provenance type="found"> found in 1869 in <placeName ref="#">Athens</placeName> at Plaka, to the north of the Tower of Winds</provenance>
+                        <provenance type="found">the inscription was found in 1869 on a private property (Gaspari) in the Plaka, North of the Tower of the Winds (Aerides, or «Horologium Kiristi» - Roman Agora, <placeName ref="#">Athens</placeName>)</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -93,34 +93,42 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="grc">
                     <ab>
-                        <lb n="1"/>εἰκόνι χαλκείῃ σε Πρόβον
-                        <lb n="2"/>τὸν ὕπαρχον Ἀθήναις
-                        <lb n="3"/>Ἀντόλιος σ<supplied reason="omitted">τῆσ</supplied>εν Ἑλλάδος ἀνθύπατος.
+                        <lb n="1-2"/><note>1-2 Verse 1</note> Eἰκόνι χαλκείῃ σε Πρόβον | τὸν ὕπαρχον Ἀθήναις
+                        <lb n="3"/><note>3 Verse 2</note> Ἀντόλιος <supplied reason="omitted">στῆ</supplied>σεν Ἑλλάδος ἀνθύπατος.
                     </ab>
             </div>
             <div type="apparatus">
-                <p>Edition based on IG.</p>
+                <p>Edition based on IG II-III/2, pars V, nr. 13275.</p>
+                <p>
+                    <app loc="3"><note>ΑΝΤΟΛΙΟΣΣΕΝ on the stone; σ(τῆσ)εν Robert 1948; σ<supplied reason="omitted">τῆσ</supplied>εν IG II-III/2, pars III/1, nr. 4226, Sironen 1994 and 1997</note></app>
+                </p>
             </div>
             <div type="translation" xml:lang="en">
-                <p>“With a bronze statue, you, Probus, praefect, in Athens Anatolius, proconsul of Greece (i.e. Achaia), has set up.”</p>
+                <p>(Sironen 1997, p. 70)</p>
+                <p>“The Proconsul of Hellas Anatolius set you up, Prefect Probus, at Athens in a statue made of bronze”.</p>
             </div>
             <div type="translation" xml:lang="fr">
-                <p>“...”</p>
+                <p>“Par une statue en bronze, toi, ô Probus, préfet, à Athènes Anatolius, le proconsul de l’Hellas, t’a élevé”.</p>
             </div>
             <div type="translation" xml:lang="it">
-                <p>“Con una statua bronzea, te, Probus, prefetto, ad Atene Anatolius, proconsole della Grecia (<foreign>i.e. </foreign>Achaia), ha posto.”</p>
+                <p>“Con una statua in bronzo, te, o Probus, prefetto, ad Atene Anatolius, proconsole dell’Ellade, Ti ha elevato”.</p>
+                <p>(German translation by K. Hallof in <ref corresp="http://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20II_III%C2%B2%2013275">IG II/III<hi rend="superscript">²</hi> 13275</ref>)</p>
             </div>
             <div type="commentary">
                 <p>The dedication was made when Probus was praetorian prefect for the first time.</p>
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
-                    <bibl><ref>IG II<hi rend="superscript">2</hi>, 4226</ref></bibl>
-                    <bibl><ref>Robert 1948, pp. 53-55</ref></bibl>
-                    <bibl><ref>IG II<hi rend="superscript">2</hi>, 13275</ref></bibl>
-                    <bibl><ref>Sironen 1994, pp. 30-31, nr. 14</ref> = <bibl><ref>BE 1995, 250</ref></bibl></bibl>
-                    <bibl><ref>Corsten 1997, p. 119</ref> = <bibl><ref>BE 1999, 225</ref></bibl></bibl>
-                    <bibl><ref>Porena forthcoming, pp. 211-212, nr. 2</ref></bibl>
+                    <bibl><ref>Köhler 1870, p. 133</ref> (diplomatic edition)</bibl>
+                    <bibl><ref>Dittenberger 1878, p. 133, nr. 639</ref> (diplomatic edition)</bibl>
+                    <bibl><ref>Kaibel 1878, pp. 371-372, nr. 902</ref></bibl>
+                    <bibl><ref>Cougny 1890, p. 49, nr. 305</ref></bibl>
+                    <bibl><ref>IG II-III/2, pars III/1, nr. 4226</ref></bibl>
+                    <bibl><ref>Groag 1946, p. 57</ref></bibl>
+                    <bibl><ref>Robert 1948, pp. 53-55</ref> (= <ref>AE 1949, 0222</ref>; <ref>BE 1949, 056</ref>)</bibl>
+                    <bibl><ref>Sironen 1994, pp. 30-31, nr. 14</ref> (cf. <ref>SEG 42 [1992], 0238</ref>; <ref>BE 1995, 250</ref>)</bibl>
+                    <bibl><ref>Sironen 1997, pp. 69-70, nr. 13</ref></bibl>
+                    <bibl><ref>IG II-III/2, pars V, nr. 13275</ref></bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="images">
@@ -128,18 +136,44 @@
             </div>
             <div type="bibliography" subtype="links">
                 <p>
+                    <bibl><ref corresp="http://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20II_III%C2%B2%2013275">IG II/III<hi rend="superscript">²</hi> 13275</ref></bibl>
                     <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-1">LSA 1</ref></bibl>
                     <bibl><ref corresp="https://inscriptions.packhum.org/text/6513">PH 6513</ref></bibl>
-                    <bibl><ref corresp="https://inscriptions.packhum.org/text/345504">PH 345504</ref></bibl>
                     <bibl><ref corresp="https://www.trismegistos.org/text/792227">TM 792227</ref></bibl>
                  </p>
             </div>
             <div type="bibliography" subtype="other">
                 <p>
-                    <bibl>Corsten T., «Proconsul Graeciae», in ZPE, 117, 1997, 117-122</bibl>
-                    <bibl>Porena P., Appendice. Selezione di fonti sulla carriera prefettizia di Sex. Petronius Probus, in Bigi F., Tantillo I. (edd.), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa forthcoming, 211-212</bibl>
-                    <bibl>Robert L., Hellenica. Recueil d’épigraphie, de numismatique et d’antiquités grecques. IV, Paris 1948 (53-55)</bibl>
-                    <bibl>Sironen E., Life and Administration of Late Roman Attica in the Light of Public Inscriptions’, in Castrén P. (ed.), Post-Herulian Athens: Aspects of Life and Culture in Athens, A.D. 267-529, Helsinki 1994, 15-62 (30-31)</bibl>
+                    <bibl>Avramea A., Le Péloponnèse du IVe au VIIIe siècle. Changements et persistances, Paris 1997</bibl>
+                    <bibl>Bigi F.,  I monumenti del ciclo di Asclepiodotus: statue, supporti, contesto archeologico, in Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, a cura di F. Bigi, I. Tantillo, Pisa 2020, 28-40</bibl>
+                    <bibl>Cartledge P.A., Spawforth A., Hellenistic and Roman Sparta. A tale of two cities, London-New York 2002 (2nd ed.)</bibl>
+                    <bibl>Corsten Th., Proconsul Graeciae, ZPE, 117, 1997, 117-122</bibl>
+                    <bibl>Cougny E., Epigrammatum Anthologia Palatina, III, Paris 1890</bibl>
+                    <bibl>Deligiannakis G., Late Antique Honorific Statuary from the province of Achaia, A.D. 300- 600. A contribution to the topography and public culture of late antique Greece, in E. Sioumbara, K. Psaroudakis (eds.), ΘΕΜΕΛΙΟΝ 24. Μελέτες για τον Δάσκαλο Πέτρο Θέμελη από τους μαθητές και τους συνεργάτες του, Athinai 2013, 107-138 (= SEG, 63, 2013, 34)</bibl>
+                    <bibl>Dillon S., Portrait statuary in Roman Athens: reconsidering the material from the Athenian Agora, in  V. di Napoli, F. Camia, V. Evangelidis (eds.), What’s new in Roman Greece ? Recent work on the Greek mainland and the islands in the Roman period (Athens, 8-10 October 2015), Athinai 2018, 379-390</bibl>
+                    <bibl>Dillon S., Portrait Statues in the Athenian Agora in the Roman period: the archaeological evidence, in C.P. Dickenson (ed.), Public Statues Across Time and Cultures, in print (Routledge)</bibl>
+                    <bibl>Dittenberger W., Corpus Inscriptionum Atticarum, III/1. Inscriptiones Atticae aetatis romanae, Berlin 1878
+Feissel D., Notes d’épigraphie chrétienne (VII), BCH, 108, 1984, 545-579</bibl>
+                    <bibl>Feissel D., 1ère Partie, Inscriptions du IVe au VIe siècle, in D. Feissel, Anne Philippidis-Braat, Inventaires en vue d’un recueil des inscriptions historiques de Byzance. III. Inscriptions du Péloponnèse (à l’exception de Mistra), TM 9, 1985, 269-298 (267-395)</bibl>
+                    <bibl>Feissel D., Vicaires et proconsuls d’Asie du IVe au VIe siècle. Notes sur l’administration du diocèse asianique au Bas-Empire, Ant Tard, 6, 1998, 91-104</bibl>
+                    <bibl>Filippini A., Tra poesia e storia amministrativa. Gli epigrammi onorari per i vicari d’Asia nella valle del Lykos, in G. Agosti, I. Tantillo (eds), Iscrizioni metriche nel tardo impero romano. Settant’anni dopo Louis Robert, Hellenica IV (1948), in print</bibl>
+                    <bibl>Groag E., Die Reichsbeamten von Achaia in spätrömischer Zeit, Budapest 1946</bibl>
+                    <bibl>Robert L., Hellenica. Recueil d’épigraphie, de numismatique et d’antiquités grecques, IV, Epigrammes du Bas-Empire, Paris 1948</bibl>
+                    <bibl>Jones A.H.M., Collegiate Prefectures, JRS, 54, 1964, 78-89 (= Id., The Roman Economy, Oxford 1974, 375-95)</bibl>
+                    <bibl>Kaibel G., Epigrammata Graeca ex lapidibus conlecta, Berlin 1878</bibl>
+                    <bibl>Köhler U., Zwei Inschriften aus Athen, Hermes, 4, 1870, 132-133</bibl>
+                    <bibl>Lizzi Testa R., Senatori, popolo, papi. Il governo di Roma al tempo dei Valentiniani, Bari 2004</bibl>
+                    <bibl>Nachmanson E., Die schriftliche Kontraktion auf den griechischen Inschriften, Eranos, 10, 1910, 101-141</bibl>
+                    <bibl>Pergami F., Sulla istituzione del defensor civitatis, SDHI, 61, 1995, 413-431</bibl>
+                    <bibl>Porena P., Le iscrizioni del Pretorio di Gortyna e la carriera prefettizia di Sex. Petronius Probus, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020a, 87-141</bibl>
+                    <bibl>Porena P., Ipotesi sull’istituzione di una prefettura del pretorio autonoma d’Illirico nel decennio 378-387, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020b, 143-166</bibl>
+                    <bibl>Porena P., Appendice. Selezione di fonti sulla carriera prefettizia di Sex. Petronius Probus, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020c, 211-216</bibl>
+                    <bibl>Robert, L., Epigrammes du Bas-Empire (Hellenica IV), Paris 1948</bibl>
+                    <bibl>Saladino V., La Torre dei Venti. Motivi e scopi della sua costruzione, ASAA, ser. III, 90, 2012, 167-195</bibl>
+                    <bibl>Seeck O. (ed.), Q. Aurelii Symmachi quae supersunt, (MGH AA, VI/1), Berlin 1883</bibl>
+                    <bibl>Sironen E., Life and administration of late roman Attica in the light of public inscriptions, in P. Castrén (ed.), Post-Herulian Athens. Aspects of life and culture in Athens, A.D. 267-529, Helsinki 1994, 15-62</bibl>
+                    <bibl>Sironen, E., The late Roman and early Byzantine inscriptions of Athens and Attica, Dissertation - University of Helsinki 1997., 69-70 no. 13</bibl>
+                    <bibl>Woodward A.M., Excavations at Sparta, 1926, Annual of the British School at Athens, 27, 1925/1926, 173-254</bibl>
                 </p>
             </div>
             
@@ -151,6 +185,7 @@
                 <div type="commentary" n="2">
                     <p n="2.a"></p>
                     <p n="2.1"></p>
+                    <p n="2.2"></p>
                     <p n="2.7">εἰκόνι χαλκείῃ</p>
                     <list n="2.11">
                         <item n="2.11.i">Ἑλλάδος ἀνθύπατος</item>
@@ -158,9 +193,10 @@
                 </div>
                 
                 <div type="commentary" n="8">
-                    <p n="8.2">ὕπαρχον</p>
+                    <p n="8.2">τὸν ὕπαρχον</p>
                     <p n="8.5"></p>
                     <p n="8.9"></p>
+                    <p n="8.10"></p>
                     <p n="8.11"></p>
                 </div>
             </div>

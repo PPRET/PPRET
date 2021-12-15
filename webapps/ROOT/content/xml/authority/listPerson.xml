@@ -36,6 +36,10 @@
                         <persName>Antonius Marcellinus</persName>
                     </person>
                     
+                    <person xml:id="Aphthonius">
+                        <persName>Aphthonius (?)</persName>
+                    </person>
+                    
                     <person xml:id="Hermogenianus">
                         <persName>Aurelius Hermogenianus</persName>
                     </person>
@@ -222,6 +226,10 @@
                     
                     <person xml:id="anonymous">
                         <persName>Anonymous praetorian prefect</persName>
+                    </person>
+                    
+                    <person xml:id="anonymous_east">
+                        <persName>Anonymous praetorian prefect of the East</persName>
                     </person>
                     
                     <person xml:id="nobody">
