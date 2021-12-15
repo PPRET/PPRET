@@ -94,7 +94,7 @@
             <div type="edition" xml:space="preserve" xml:lang="grc">
                     <ab>
                         <lb n="1-2"/><note>1-2 Verse 1</note> Eἰκόνι χαλκείῃ σε Πρόβον | τὸν ὕπαρχον Ἀθήναις
-                        <lb n="3"/><note>3 Verse 2</note> Ἀντόλιος <supplied reason="omitted">στῆ</supplied>σεν Ἑλλάδος ἀνθύπατος.
+                        <lb n="3"/><note>3 Verse 2</note> Ἀντόλιος <supplied reason="omitted">στῆ</supplied>σεν Ἑλλάδος ἀνθύπατος.
                     </ab>
             </div>
             <div type="apparatus">
@@ -188,7 +188,7 @@ Feissel D., Notes d’épigraphie chrétienne (VII), BCH, 108, 1984, 545-579</bi
                     <p n="2.2"></p>
                     <p n="2.7">εἰκόνι χαλκείῃ</p>
                     <list n="2.11">
-                        <item n="2.11.i">Ἑλλάδος ἀνθύπατος</item>
+                        <item n="2.11.i"></item>
                     </list>
                 </div>
                 
