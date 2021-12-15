@@ -136,7 +136,7 @@
   
   <xsl:template match="tei:sourceDesc/tei:listPerson/tei:person" mode="facet_prefect_name">
     <xsl:variable name="pers-id" select="substring-after(tei:persName/@ref,'#')"/>
-    <xsl:variable name="person-id" select="document('../../content/xml/authority/listPerson.xml')//tei:person[@xml:id=$pers-id]/tei:persName"/>
+    <xsl:variable name="person-id" select="translate(string(document('../../content/xml/authority/listPerson.xml')//tei:person[@xml:id=$pers-id]/tei:persName), '?', '')"/>
     <field name="prefect_name">
       <xsl:choose>
         <xsl:when test="tei:persName[@ref]"><xsl:value-of select="$person-id"/></xsl:when>
@@ -217,13 +217,13 @@
   
   <xsl:template match="tei:bibl[ancestor::tei:div[@subtype='editions' or @subtype='images' or @subtype='links']]" mode="facet_editions">
     <field name="editions">
-      <xsl:apply-templates select="."/>
+      <xsl:value-of select="translate(translate(string(.), '?', ''), '/', '／')"/>
     </field>
   </xsl:template>
   
   <xsl:template match="tei:bibl[ancestor::tei:div[@subtype='editions']]//tei:ref" mode="facet_edition">
     <field name="edition">
-      <xsl:apply-templates select="."/>
+      <xsl:value-of select="translate(translate(string(.), '?', ''), '/', '／')"/>
     </field>
   </xsl:template>
   
