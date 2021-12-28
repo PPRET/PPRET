@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Inscription in honour of the former praet. prefect Hypatius from Gortyna, decreed by the Cretan <foreign>koinon</foreign> and made by the consular Asclepiodotus</title>
+                <title>Inscription in honour of the former praet. prefect Hypatius from Gortyn, decreed by the Cretan <foreign>koinòn</foreign> and made by the consularis Asclepiodotus</title>
                 <editor role="edition">Pierfrancesco Porena</editor>
                 <editor role="encoding">Irene Vagionakis</editor>
             </titleStmt>
@@ -24,12 +24,12 @@
                 </listPerson>
                 <msDesc>
                     <msIdentifier>
-                        <repository ref="#Gortyna">east side of the Praetorium of Gortyna, in situ</repository>
+                        <repository ref="#Gortyna">still in its find spot</repository>
                         <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect Hypatius</term>
+                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect Fl. Hypatius</term>
                             <term type="rhythm" ref="#prose">prose</term>
                         </summary>
                         <textLang mainLang="grc">Greek</textLang>
@@ -46,22 +46,21 @@
                                         <depth>49</depth>
                                     </dimensions>
                                     <rs type="inscribed_field_reuse">no</rs>
-                                    <rs type="monument_reuse">yes: the base was previously used for another dedication</rs>
-                                    <rs type="opistographic">yes</rs>
+                                    <rs type="monument_reuse">yes, probably embedded in the masonry of the Byzantine monastery built in the area of the <foreign>Praetorium</foreign></rs>
+                                    <rs type="opistographic">yes, the base was previously used for an inscription in honour of Q. Caecilius Rufinus <foreign>proconsul Cretae et Cyrenae</foreign> around 170 AD (below)</rs>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Two inscribed fields (frons, retro).</p>
+                                    <p>Two inscribed fields (<foreign>frons</foreign>, <foreign>retro</foreign>).</p>
                                     <rs type="execution" ref="#chiselled">chiselled</rs>
-                                    <rs type="preservation" ref="#damaged">The epigraphic field is almost undamaged; the lower part of the base is broken, and its edges are ruined.</rs>
-                                    <p n="opistographic">Opistographic: on the opposite side of the base there is a dedication of the 2nd Century AD, ICret IV 301; the base has then been reused for the dedication to Hypatius.</p>
+                                    <rs type="preservation" ref="#damaged">The epigraphic field of the inscription in honour of the former prefect Hypatius is almost undamaged; the lower part of the base is broken, and its edges are ruined. Opistographic: on the opposite side of the base there is a dedication of the second half of the 2nd Century AD, ICret. 04, 301, which is undamaged. The base was then turned and reused for the dedication to Hypatius.</rs>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <term ref="#lunate">lunate letters</term>
+                                <term ref="#lunate">late Greek capitals with lunate sigma and epsylon (writing relief Bigi, Tantillo 2020, p. 65, n. 7)</term>
                                 <height>4 / 4.5</height>
                             </handNote>
                         </handDesc>
@@ -78,7 +77,7 @@
                             </origPlace>
                             <origDate period="#p8" notBefore="0382" notAfter="0383">382/383 AD</origDate>
                         </origin>
-                        <provenance type="found">east side of the Praetorium of <placeName ref="#">Gortyna</placeName></provenance>
+                        <provenance type="found">inside the hall with exedra of the <foreign>Praetorium</foreign> <placeName ref="#">Gortyna</placeName></provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -94,7 +93,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="grc">
                     <ab>
-                        <lb n="1"/><g ref="hedera"/> <expan><abbr>Φλ</abbr><ex>άβιον</ex></expan> Ὑπάτιον. <g ref="hedera"/> 
+                        <lb n="1"/><g ref="hedera"/> <expan><abbr>Φλ</abbr><ex>άβιον</ex></expan> Ὑπάτιον, <g ref="hedera"/> 
                         <lb n="2"/>τὸν λαμπρότατον
                         <lb n="3"/>ἀπὸ ὑπάτων καὶ
                         <lb n="4"/>ἀπὸ ἐπάρχων πραιτωρίου,
@@ -107,27 +106,83 @@
                     </ab>
             </div>
             <div type="apparatus">
-                <p>Edition based on ICret.</p>
+                <p>Edition based on Bigi, Tantillo 2020, pp. 195-196, nr. 7.</p>
+                <p>
+                    <app loc="6"><note>ἐπαρχίας, CIG</note></app>
+                    <app loc="7"><note>Δοσίθεος, CIG</note></app>
+                    <app loc="10"><note>ἀνέστησεν, CIG</note></app>
+                </p>
             </div>
             <div type="translation" xml:lang="en">
-                <p>“To Flavius Hypatius, of clarissimus rank, former consul and former praetorian prefect, according to the decree of the <foreign>koinon</foreign> of the entire province, Oecumenius Dositheus Asclepiodotus, consular of clarissimus rank of the province of Crete, (I) set up.”</p>
+                <p>“To Flavius Hypatius, of clarissimus rank, former consul and former praetorian prefect, according to the decree of the koinòn of the entire province, I, Oecumenius Dositheus Asclepiodotus, consular of clarissimus rank of the province of Crete, set up”.</p>
             </div>
             <div type="translation" xml:lang="fr">
-                <p>“...”</p>
+                <p>“À Flavius Hypatius, le clarissime ancien consul et ancien préfet du prétoire, par décret du koinòn de toute la province, moi, Oecumenius Dositheus Asclepiodotus, clarissime consulaire de la province de Crète, j’ai dressé”.</p>
             </div>
             <div type="translation" xml:lang="it">
-                <p>“A Flavius Hypatius, chiarissimo ex console ed ex prefetto del pretorio, per decreto del <foreign>koinon</foreign> di tutta la provincia, Oecumenius Dositheus Asclepiodotus, chiarissimo consolare della provincia di Creta, posi.”</p>
+                <p>(Tantillo in Bigi, Tantillo 2020, p. 196)</p>
+                <p>“A Flavius Hypatius, clarissimo ex console ed ex prefetto del pretorio, per decreto del concilio di tutta la provincia, Oecumenius Dositheus Asclepiodotus, clarissimo consolare della provincia di Creta, posi”.</p>
             </div>
             <div type="commentary">
-                <p>...</p>
+                <p>The inscription was found and still lies inside the rectangular apsidal hall in the <foreign>Praetorium</foreign> of Gortyna in Crete (Bigi, Tantillo 2020, p. 4, figg. 4-5). The inscribed base may have been reused in the walls of the hall rebuilt by the emperor Heraclius (610-641 AD). Equally, it may have been inserted into the houses of craftsmen and farmers or incorporated into the small Byzantine monastery (late 7th Century AD), which was built upon the ancient <foreign>Praetorium</foreign> (Di Vita 2000, pp. LVII-LXXIV, 341-376, 775-800). 
+                    In later centuries, the collapse of these poor, abandoned buildings and the use of the area as a quarry in the Ottoman era led to the discovery of the base (on the present location of the base with the inscription for Probus cf. Bigi, Tantillo 2016, p. 217, fig. 17.1, nr. 779; Bigi, Tantillo 2020, p. 16, fig. 12, nr. 6). Gortyna was the seat of the <foreign>proconsul</foreign> of praetorian rank of Crete and Cyrenaica; since Diocletian the city was the seat of the <foreign>praeses</foreign> then <foreign>consularis</foreign> of the province of Crete, now separated from Cyrenaica (cf. Di Vita 2010; Lippolis 2016). The hall with an exedra was probably the governor’s court. 
+                    In fact, this part of the <foreign>Praetorium</foreign> has preserved numerous inscriptions which were executed between the mid 4th and mid 5th Century AD. They were placed perhaps inside and certainly in front of the entrance to the building (on the late <foreign>Praetorium</foreign> of Gortyna, the excavation evidences and reconstructions cf. Di Vita 2010, pp. 81-91 e 171-205; above all Di Vita 2000, pp. 341-348; the reconstruction of architectures and the location of the inscriptions is different in Lippolis, Caliò, Giatti 2019, in part. pp. 205-206, 375-376, 408, 419; and in Bigi, Tantillo 2016, with fig. 17.1; Bigi, Tantillo 2020, pp. 1-14).</p>
+                <p>The area of the <foreign>Praetorium</foreign> in Gortyna has yielded five inscriptions in honour of late antique praetorian prefects: an inscription for the praetorian prefect Antonius Marcellinus, made in 340/342 AD and reused 40 years later (see <ref type="ppret" corresp="ppret21">PPRET 21</ref>); two inscriptions to the praetorian prefect Petronius Probus, one recalling him as praetorian refect without iterations (371/376 AD, see <ref type="ppret" corresp="ppret58">PPRET 58</ref>), one that commemorates him as a former praetorian prefect for the third time and is part of the statuary cycle made by the <foreign>consularis</foreign> Asclepiodotus (382/383 AD, see <ref type="ppret" corresp="ppret61">PPRET 61</ref>); our inscription in honour of the prefect Hypatius, which is part of the cycle of the <foreign>consularis</foreign> Asclepiodotus (382/383 AD); an inscription in honour of the praetorian prefect of Illyricum in 412/413 AD Leontius (PLRE II, p. 668; see <ref type="inscription">ICret. 04, 325</ref> = <ref type="inscription">LSA 787</ref> = <ref type="inscription">Bigi, Tantillo 2020, pp. 26-27</ref>, figg. 29-31; photo Bigi, Tantillo 2020, p. 27, figg. 29-31). 
+                    On the inscription for the ὕπαρχος Aphthonius, found in 2005 on the North side of ‘North Street’ in the so-called ‘Hellenistic building’ in front of the vestibule of the apsidal hall of the <foreign>Praetorium</foreign>, recently published by Vallarino 2012, see <ref type="ppret" corresp="ppret76">PPRET 76</ref>. This inscription in honour of Aphthonius is the only one engraved on a columnar base. 
+                    It should be noted, in fact, that in the 4th Century the honorary inscriptions in the area of the apsidal hall of the <foreign>Praetorium</foreign> in honour of the praetorian prefects were chiselled on statue bases (reused): Marcellinus, Hypatius, twice Petronius Probus, then Leontius.</p>
+                <p>The inscription in honour of the former praetorian prefect Hypatius is part of the great statuary cycle made at Gortyna by the <foreign>consularis</foreign> of Crete Oecumenius Dositheus Asclepiodotus (PLRE I, p. 115; Bigi, Tantillo 2020, pp. 72-73) on the occasion of the restoration of the <foreign>Praetorium</foreign> (explicit evidence of the reconstruction of the governor’s seat by the <foreign>consularis</foreign> Asclepiodotus can be found in the inscriptions re-examined in Bigi, Tantillo 2020, pp. 196-200, nr. 9-11). 
+                    The series of statues is lost, but the series of statue bases is well preserved. They were made by the governor by decree of the κοινὸν of the province of Crete or the βουλὴ of Gortyna between late 382 AD and mid 383 AD (on the chronology see Bigi, Tantillo 2020, pp. 78-81; see this study for an examination of the statue bases and its topographical context). 
+                    The cycle is completely homogeneous and was made by the same workshop of stone cutters. It consists of three statues for the emperors Gratianus, Valentinianus II and Theodosius I Augusti (the above-mentioned inscriptions are re-examined in Bigi, Tantillo 2020, pp. 196-200, nr. 9-11); a statue of Asclepiodotus himself (Bigi, Tantillo 2020, p. 196, nr. 8); sixteen statues in honour of Roman aristocrats (a list of personalities, their titles and data from their inscriptions can be found in Bigi, Tantillo 2016, fig. 17,2, and in Bigi, Tantillo 2020, pp. 10 e 70-71, Tab. 1; a palaeographical comparison of the sixteen inscriptions is in Bigi, Tantillo 2020, pp. 64-65, fig. 63; a comparison of the epigraphic supports of the sixteen inscriptions can be found in ibid., pp. 65-66, fig. 64; for critical editions of the sixteen inscriptions, see ibid. pp. 191-200). The inscriptions of the Asclepiodotus’ cycle were found over a long period of time. 
+                    The inscriptions re-examined by Bigi, Tantillo 2020, no. 1 (<ref type="inscription">ICret. 04, 315</ref>), 2 (<ref type="inscription">ICret. 04, 314</ref>), 3 (<ref type="inscription">ICret. 04, 316</ref>), 6 (<ref type="inscription">ICret. 04, 318</ref>), 7 (<ref type="inscription">ICret. 04, 317</ref>) have been known since the 16th Century. 
+                    The inscriptions re-examined by Bigi, Tantillo 2020, nr. 4 (<ref type="inscription">ICret. 04, 320</ref>); 5 (<ref type="inscription">ICret. 04, 319</ref>); 8 (<ref type="inscription">ICret. 04, 313</ref>); 9 (<ref type="inscription">ICret. 04, 284b</ref>); 10 (<ref type="inscription">ICret. 04, 284a</ref>); 12 (<ref type="inscription">ICret. 04, 448</ref>); 13 (<ref type="inscription">ICret. 04, 322</ref>); 16 (<ref type="inscription">ICret. 04, 321</ref>) were found in the excavations of the Italian archaeological team between 1890 and 1928. 
+                    The inscriptions re-examined by Bigi, Tantillo 2020, nr. 14 and 15 are unpublished amd were found on the road West of the <foreign>Praetorium</foreign> in 1983; nr. 11 (<ref type="inscription">SEG 45 (1995), 1292</ref>) was found in 1991 in a wall of the Byzantine houses in the north side of the ‘North Street’.</p>
+                <p>The layout of the Asclepiodotus’ cycle in the <foreign>Praetorium</foreign> of Gortyna, as proposed proposed by De Tommaso 2000 on the basis of the structure of the epigraphic supports, was accepted by Baldini 2010, pp. 124-125, and by Baldini, Vallarino 2013, p. 106-112; it has been thoroughly revised by Bigi, Tantillo 2016 and by Bigi, Tantillo 2020, pp. 15-61, especially pp. 17, 49-52, which we follow here. Both the κοινὸν of Crete and the βουλὴ of Gortyna decreed the construction of the statuary cycle with the Greek inscriptions in 382/383 AD. 
+                    The cycle portrayed the three Augusti, the <foreign>consularis</foreign> Asclepiodotus and numerous senators of Rome, perhaps because the island had received economic and fiscal benefits during the long Gothic crisis (376/382 AD), see Tantillo, in Bigi, Tantillo 2020, pp. 167-189.</p>
+                <p>The inscription in honour of the former praetorian prefect Hypatius in Gortyna was initally seen and copied by Francesco Barozzi (1537-1604), a nobleman from Candia, who may have copied it around 1577. 
+                    The epigraphic text was later copied by Onorio Belli (1550-1604). In 1583, Belli came to Crete to serve as the physician of the island's Provveditore Generale, Alvise Antonio Grimani, and remained there until 1599 (cf. Beschi 2000, pp. XV-XXXIX). During his sixteen year sojourn on the island he collected an epigraphic corpus, which included the inscription of Hypatius. 
+                    And it was from Belli's corpus that the inscription entered the larger corpus of J. Gruter (cf. Gruterus 1707, p. MXCIIII, nr. 4). Between the 17th and 19th Centuries, the inscription was seen by travellers, until it was finally reexamined by the Italian Archaeological Mission led by F. Halbherr in 1912-1913 (cf. Guarducci in ICret. pp. 2-3 and 346-347; on the Italian archaeological mission cf. Di Vita, La Rosa, Rizzo 1984; Di Vita 2010, pp. 5-14; Lippolis, Caliò, Giatti 2019, pp. 13-21).</p>
+                <p>The statue base in honour of the former prefect Hypatius in the Asclepiodotus’ cycle was tripartite (cymatium, body, plinth) but only the central body remains. It is also an opisthographic support. 
+                    The ‘twin’ base in honour of the former praetorian prefect “for the third time” Petronius Probus from the same <foreign>Praetorium</foreign> has the same characteristics as Hypatius’ base (see <ref type="ppret" corresp="ppret61">PPRET 61</ref>; a similar support in the same cycle is used for the base in honour of Anicius Bassus, <foreign>proconsul Campaniae</foreign>, cf. <ref type="inscription">ICret 04, 314</ref> = <ref type="inscription">LSA 775</ref> = <ref type="inscription">Bigi, Tantillo 2020, p. 192, nr. 2</ref>. 
+                    This inscription is also opisthographic and on the other side there is the inscription in honour of Marcellinus, praetorian prefect in 340/342 AD, which was engraved on a reused surface, see <ref type="ppret" corresp="ppret21">PPRET 21</ref>). 
+                    The two inscriptions under the statues erected by Asclepiodotus in honour of the two former praetorian prefects Hypatius and Petronius Probus, were engraved by the same stonecutters on the back faces of bases that had already been used in a similar way before. 
+                    Prior to this, in the second half of the 2nd Century AD, the bases had been used to carry dedications to a proconsul and a <foreign>quaestor</foreign> who had presided in Crete at the same time (respectively <ref type="inscription">ICret. 04, 301</ref> = <ref type="inscription">IGR 01, 968</ref> for Q. Caecilius Rufinus; and <ref type="inscription">ICret. 04, 302</ref> = <ref type="inscription">IGR 01, 970</ref> for P. Septimius Geta; cf. Guarducci 1929, pp. 146-151; photo in Bigi, Tantillo 2020, p. 268, Tav. VI). 
+                    Hypatius’ inscription was inscribed on the epigraphic field opposite the inscription for Q. Caecilius Rufinus <foreign>proconsul Cretae et Cyrenaicae</foreign> sometime around 170 AD (cf. PIR<hi rend="superscript">2</hi> C 75; Eck 1972/73, pp. 248-249; Rémy 1999, pp. 182-183, 185; Pautasso1994/95, pp. 89-90, 101, nr. 56, with a later date; Struffolino 2014, p. 353, nt. 16). Neither the inscription for Rufinus nor the inscription for Geta were erased. 
+                    The base of the <foreign>quaestor</foreign> Geta was overturned and the inscription for Probus was engraved in the opposite direction to that for Geta; our base of the <foreign>proconsul</foreign> Rufinus was only turned 180° and the inscription for Hypatius was engraved in the same orientation as the previous inscription.</p>
+                <p>Although the statue for Hypatius was decreed by the κοινὸν of Crete and that for Probus by the βουλὴ of Gortyna, the characteristics of the two bases and of the two inscriptions show that they belong to the same celebratory project built by the <foreign>consularis</foreign> Asclepiodotus.</p>
+                <p>Flavius Hypatius was a Roman aristocrat from Macedonia, who was probably born in Thessalonica. Thanks, no doubt, to his relationship with the imperial family, he led an exceptional career,  (concerning this senator and his career, cf. Chastagnol 1962, pp. 203-206; PLRE I, pp. 448-449; Petit 1994, pp. 132-133; Tantillo in Bigi, Tantilllo 2020, 76-79; Porena in Bigi, Tantillo 2020, pp. 104, 107, 154-155). 
+                    In 353 AD the emperor Constantius II married Eusebia (she was his second wife; PLRE I, pp. 300-301; Tougher 2000), who was the sister of Fl. Eusebius (PLRE I, pp. 308-309) and of our Fl. Hypatius, all probably sons of Eusebius (PLRE I, pp. 307-308), the most loyal <foreign>magister militum</foreign> of the East and consul of 347 AD under Constantius II (CLRE, pp. 228-229). In 359 AD the two brothers Eusebius and Hypatius became together – a very rare case – ordinary consuls (cf. CLRE, pp. 252-253), and Hypatius was also <foreign>patricius</foreign>. 
+                    Hypatius’ inscription in Gortyna also recalls that he had been ordinary consul (ἀπὸ ὑπάτων l. 3; similarly in the two Gortyna inscriptions in honour of the praetorian prefect Petronius Probus, ordinary consul in 371 AD, see <ref type="ppret" corresp="ppret58">PPRET 58</ref> and <ref type="ppret" corresp="ppret61">PPRET 61</ref>).</p>
+                <p>The Gortyna inscription celebrates the praetorian prefecture held by Hypatius. Although it also celebrate his ordinary consulship, it is silent about any other position in the senator’s career. Probably the editors had decided to be selective. According to a characteristic of epigraphy for praetorian prefects in Greek-speaking regions, it is highly likely that the praetorian prefecture of Hypatius included Crete, i.e. Illyricum, because the provincial κοινὸν of Crete decreed the monument (ll. 5-6) and no regional district is declared. 
+                    According to scholars Hypatius was praetorian prefect of Italia-Illyricum-Africa (the evidence is the <foreign>propositum</foreign> of <ref type="source">CTh 11, 16, 13</ref>). 
+                    Hypatius was praetorian prefect between the beginning of December 382 AD and the end of May 383 AD, as attested by a consistent series of nine constitutions (<ref type="source">CTh 11, 16, 15</ref>, on December 9th 382 AD; <ref type="source">CTh 06, 26, 03</ref>, on December 15th 382; <ref type="source">CTh 06, 02, 13</ref>, on January 10th 383 AD; <ref type="source">CTh 11, 16, 13</ref>, on April 13th, but the consular year must be corrected from 382 to 383 AD; <ref type="source">CTh 12, 01, 99</ref>, on April 18th; <ref type="source">CTh 12, 01, 100</ref>, on April 19th; <ref type="source">CTh 03, 01, 04</ref>, on May 2nd; <ref type="source">CTh 16, 07, 03</ref>, on May 21st; <ref type="source">CTh 02, 19, 05</ref>, on May 28th 383 AD). 
+                    The last constitution addressed to the prefect Hypatius on May 28th 383 AD is the <foreign>terminus post quem</foreign> of our Gortyna inscription (and of the whole statuary cycle of the renewed <foreign>Praetorium</foreign>, restored by the <foreign>consularis</foreign> Asclepiodotus).</p>
+                <p>In our inscription from the <foreign>Praetorium</foreign> of Gortyna, Hypatius is defined as a former praetorian prefect (ἀπὸ ἐπάρχων πραιτωρίου, l. 4). This Greek formula can be found in the inscription in honour of the praetorian prefect Salutius from Pisidian Antioch (<ref type="ppret" corresp="ppret52">PPRET 52</ref>), and in the inscription in honour of Petronius Probus, “former praetorian prefect for the third time” within the same statuary cycle of the <foreign>consularis</foreign> Asclepiodotus from the <foreign>Praetorium</foreign> of Gortyna (<ref type="ppret" corresp="ppret61">PPRET 61</ref>; on the formula “ex praefecto praetorio” in Latin epigraphy, see <ref type="ppret" corresp="ppret48">PPRET 48</ref>). 
+                    However, in the inscription in honour of the praetorian prefect Petronius Probus, decreed by the κοινὸν of Crete and made by the <foreign>consularis</foreign> Fursidius Aristides in the ancient <foreign>Praetorium</foreign> of Gortyna (<ref type="ppret" corresp="ppret58">PPRET 58</ref>) the great senator is defined as a prefect in office (ἔπαρχον τοῦ πραιτωρίου, l. 7). 
+                    The monument was conceived with the Emperor’s permission (θ̣ε̣ίῳ θεσπίσματι, l. 1), since imperial dispensation was required to publically honour a praetorian prefect within his administrative district, while he was still in office. Probably the κοινὸν of Gortyna waited until the end of the praetorian prefecture of Hypatius to erect the monument to the former prefect in the new <foreign>Praetorium</foreign>. Let us examine this aspect.</p>
+                <p>Recently Vallarino (Baldini, Vallarino 2013, pp. 111-112) has attributed two praetorian prefectures to Hypatius. 
+                    The first one would be attested by <ref type="source">CTh 11, 16, 13</ref>, on April 13th 382 AD (as in the manuscripts); at the end of this first prefecture, in the Summer of 382 AD, Asclepiodotus would have made the monument to Hypatius with its inscription in the <foreign>Praetorium</foreign> of Gortyna (according to Vallarino, the statuary cycle could have been executed in «a single intervention, concluded between April and July 382» p. 112). 
+                    Then, Hypatius would have gone on to hold between December 382 AD and May 383 AD, a second praetorian prefecture, and both the prefectures covered Italia-Illyricum-Africa. 
+                    This double office allows us to identify Hypatius as the praetorian prefect who administered Crete (for the first time), when the statuary cycle was created and would also explain a reference by Ammianus Marcellinus to the ‘double prefecture’ (<foreign>gemina praefectura</foreign>) of his friend Hypatius (<ref type="source">Amm. 29, 02, 16</ref>): <foreign>inter quos omnes adulescentia et virtutum pulchritudine commendabilis noster Hypatius praeminebat, vir quieti placidique consilii, honestatem lenium morum velut ad perpendiculum librans, qui et maiorum claritudini gloriae fuit et ipse posteritatem mirandis actibus praefecturae geminae decoravit</foreign> (transl. Rolfe 1939, p. 225: “Conspicuous among all these was our Hypatius, a man recommended from his youth by noble virtues, of quiet and calm discretion, and of a nobility and gentleness measured as it were by the plumb-line; he conferred honour on the fame of his ancestors and himself gave glory to posterity by the admirable acts of his two prefectures”).</p>
+                <p>However, this hypothesis is not without its problems. 
+                    The constitution <ref type="source">CTh 11, 36, 26</ref> mentions Hypatius as prefect of Rome on April 5th 379 AD (the year is more likely to be 378 AD, because the law was issued in Trier). The <foreign>gemina praefectura</foreign> of Hypatius mentioned by Ammianus may allude to the urban prefecture of 378?/379 AD and the praetorian prefecture of 382/383 AD. 
+                    Moreover, the appointment and dismissal of Hypatius in the first half of 382 followed by a new appointment to the same prefecture in late 382 AD is an anomaly for late antique administration, especially in the year in which the conflict with the Goths in Southern Illyricum was ending (on the praetorian prefects to be expunged from the list of PLRE I in 382/384 AD, see Porena 2020b, p. 150). Finally Vallarino’s hypothesis that the statuary cycle in the <foreign>Praetorium</foreign> of Gortyna, renewed by Asclepiodotus, may have been constructed between April and July 382 AD, is weakened by the inscription in honour of Valerius Severus within the same cycle of inscribed monuments. In Gortyna Severus is referred to as a former prefect of Rome (<ref type="inscription">ICret. 04, 315</ref>; <ref type="inscription">LSA 776</ref>; <ref type="inscription">Bigi, Tantillo 2020, pp. 191-192, nr. 1</ref>, cf. ibid. p. 74; see PLRE I, p. 837; Chastagnol 1962, pp. 209-211): our urban prefect was in office in Rome on August 1st 382 AD (<ref type="source">CTh 08, 09, 02</ref>) and only stood down before November 22nd 382 AD (<ref type="source">CTh 01, 06, 08</ref>). 
+                    The arrival in Crete of the news of Severus’ dismissal from the prefecture of Rome, certainly after the beginning of August 382 AD, would have easily coincided with the supposed second praetorian prefecture of Hypatius in the second half of 382 AD.</p>
+                <p>If, as it seems, the statuary cycle in the <foreign>Praetorium</foreign> of Gortyna was decreed and carried out between mid-382 and mid-383 AD, the former praetorian prefects Hypatius and Probus (<ref type="ppret" corresp="ppret61">PPRET 61</ref>) could be the last two prefects who had Crete included in their administrative district. 
+                    In our opinion, Hypatius was the serving praetorian prefect in 382/383 AD when the κοινὸν met in Gortyna and decreed the creation of the monuments for the senators portrayed in the cycle of the <foreign>consularis</foreign> Asclepiodotus. Since the <foreign>Praetorium</foreign> was still under restoration, the delegates could not see the point in asking the Emperor Gratianus for permission, particularly when communications were difficult and the latter was far away in northern Italy (see Barnes 1999, p. 168).  
+                    By the time permission would have been granted the prefect Hypatius could already have been replaced. In all probability the κοινὸν decreed that the monument to Hypatius be made as soon as he stepped down (this is shown by the formula ἀπὸ ἐπάρχων πραιτωρίου). 
+                    This hypothesis is supported by Asclepiodotus' statuary cycle in the <foreign>Praetorium</foreign>, since it contains two monuments decreed by the βουλὴ of Gortyna for Petronius Probus, former praetorian prefect (for the third time, <ref type="ppret" corresp="ppret61">PPRET 61</ref>), who was the predecessor of Hypatius in the praetorian prefecture in 381/382 AD, and for Vettius Agorius Praetextatus, who was the successor of Hypatius, in the praetorian prefecture in 383/384 AD (<ref type="inscription">ICret. 04, 316</ref>; <ref type="inscription">LSA 777</ref>; <ref type="inscription">Bigi, Tantillo 2020, pp. 192-193, nr. 3</ref>; concerning his praetorian prefecture see <ref type="ppret" corresp="ppret77">PPRET 77</ref>, <ref type="ppret" corresp="ppret79">79</ref>, <ref type="ppret" corresp="ppret80">80</ref>). When the news of Praetextatus’ appointment to the praetorian prefecture reached Crete in 383 AD, it is probable that the notables decided to add the monuments of the former prefect Probus and his successor Praetextatus to the cycle already decreed by the κοινὸν of Crete. At that time it was easier to unite the βουλὴ than the κοινὸν. 
+                    Thus the monument to Petronius Probus ἀπὸ ἐπάρχων πραιτωρίων γʹ (ll. 4-5) was decreed by the βουλὴ. Also decreed was the monument to Praetextatus, remembered not as praetorian prefect, but as a former prefect of Rome (ll. 2-3), either because he had not yet entered service, or because the Cretans could not honour a prefect during his term of office without imperial authorisation. 
+                    As mentioned, the inscriptions in honour of Hypatius (decreed by the κοινὸν of Crete) and Probus (decreed by the βουλὴ of Gortyna) were engraved on a pair of ‘twin’ supports by the same workshop, which was also responsible for the inscription (decreed by the βουλὴ of Gortyna) on a different support for Praetextatus. 
+                    This proves that the statues and dedications were all made together, although they were decreed at different times (for this reconstruction see Tantillo in Bigi, Tantillo 2020, pp. 68-69; Porena, ibid., pp. 103-105). It therefore seems likely that Hypatius held only one praetorian prefecture in 382/383 AD.</p>
+                <p>Recently, Porena (in Bigi, Tantillo 2020, pp. 107-108, 151-152, 154-155) has cautiously proposed to interpret the ‘double prefecture’ (<foreign>gemina praefectura</foreign>) of Hypatius as it was styled by Ammianus Marcellinus (<ref type="source">Amm. 29, 02, 16</ref>), as a single appointment on two autonomous but joint prefectorial seats (Italia-[Illyricum]-Africa and autonomous Illyricum, a <foreign>gemina sedes</foreign>). 
+                    A mandate on two prefectorial seats may have characterised the prefectorial appointments of Petronius Probus (see <ref type="ppret" corresp="ppret59">PPRET 59</ref>, <ref type="ppret" corresp="ppret60">60</ref>, <ref type="ppret" corresp="ppret61">61</ref>) and Vettius Agorius Praetextatus as well (<ref type="ppret" corresp="ppret77">PPRET 77</ref> and <ref type="ppret" corresp="ppret79">79</ref>). Otherwise it is possible that the first ‘phantom’ praetorian prefecture of Virius Nicomachus Flavianus senior (382/383 AD) may have been held by the senator on Italy-Africa, while Hypatius was praetorian prefect of Illyricum only (see <ref type="ppret" corresp="ppret93">PPRET 93</ref>).</p>
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
-                    <bibl>CIG II, 2596</bibl>
-                    <bibl>Guarducci 1929, p. 166, nr. 15</bibl>
-                    <bibl><ref>ICret IV, 317</ref></bibl>
-                    <bibl><ref>De Tommaso 2000, pp. 384 nr. 1.2, 386</ref></bibl> 
-                    <bibl><ref>Porena forthcoming, pp. 193-194, nr. 7</ref></bibl>
+                    <bibl><ref>CIG 02, 2596</ref></bibl>
+                    <bibl><ref>Guarducci 1929, p. 166, nr. 15</ref> (with fac-simile)</bibl>
+                    <bibl><ref>ICret 04, 317</ref> (with fac-simile)</bibl>
+                    <bibl><ref>Bigi, Tantillo 2020, pp. 195-196, nr. 7</ref> (relief fig. 19; 63,7; 64,7; 89; photo Tav. VI)</bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="images">
@@ -142,10 +197,28 @@
             </div>
             <div type="bibliography" subtype="other">
                 <p>
-                    <bibl>De Tommaso G., Note su alcune iscrizioni del Pretorio di Dositeo, in Di Vita A. (ed.), Gortina. V: Lo scavo del Pretorio (1989-1995). 1, Padova 2000, 384-388</bibl>
+                    <bibl>Baldini I., La virtù dei governatori: monumenti onorari tardoantichi a Gortina e Afrodisia, in S. De Maria, V. Fortunati (a cura di), Monumento e memoria. Dall’antichità al contemporaneo, Bologna 2010, 219-232</bibl>
+                    <bibl>Baldini I., Vallarino G., Gortyn: from City of the Gods to Christian City, in T. Kaizer, A. Leone, E. Thomas, R. Witcher (eds), Cities and Gods. Interdisciplinary Perspectives (Durham, 6-7 July 2007), Leuven-Paris-Walpole MA 2013, 103-119</bibl>
+                    <bibl>Barnes T.D., Ambrose and Gratian, AntTard, 7, 1999, 165-174</bibl>
+                    <bibl>Beschi L., Onorio Belli, Scritti di antiquaria e botanica (1586-1602). Introduzione, edizione critica e commento, Roma 2000</bibl>
+                    <bibl>Bigi F., Tantillo I., Gortyna, in R.R.R. Smith, B. Ward-Perkins (eds), The last Statues of Antiquity, Oxford 2016, 216-228</bibl>
+                    <bibl>Bigi F., Tantillo I., Catalogo, in Bigi F., Tantillo I. (edd.), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020, 191-210</bibl>
+                    <bibl>De Tommaso G., Note su alcune iscrizioni del Pretorio di Dositeo, in Di Vita A. (a cura di), Gortina, V/1. Lo scavo del Pretorio (1989-1995), Padova 2000, 384-388</bibl>
+                    <bibl>Di Vita A., Gortina di Creta. Quindici secoli di vita urbana, Roma 2010</bibl>
+                    <bibl>Di Vita A. (a cura di), Gortina, V/1. Lo scavo del Pretorio (1989-1995), Padova 2000</bibl>
+                    <bibl>Di Vita A., La Rosa V., Rizzo M.A., Creta antica. Cento anni di archeologia italiana (1884-1984), Roma 1984</bibl>
+                    <bibl>Eck W., Über die prätorischen Prokonsulate in der Kaiserzeit. Eine quellenkritische Uberlegung, Zephyrus, 23-24, 1972/73, 233-260</bibl>
+                    <bibl>Gruterus J., Inscriptiones antiquae totius orbis Romani in absolutissimum corpus redactae, Amstelaedami (Franciscus Halma) 1707</bibl>
                     <bibl>Guarducci M., Le iscrizioni del Pretorio di Gortina, in Rivista dell’Istituto Nazionale di Archeologia e Storia dell’Arte, 1, 1929, 143-184</bibl>
-                    <bibl>Porena P., Appendice. Selezione di fonti sulla carriera prefettizia di Sex. Petronius Probus, in Bigi F., Tantillo I. (edd.), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa forthcoming, 211-212</bibl>
-                    <bibl>Porena P., Catalogo, in Bigi F., Tantillo I. (edd.), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa forthcoming, 193-194</bibl>
+                    <bibl>Lippolis E., Roman Gortyn: from Greek polis to provincial capital, in J.E. Francis, A. Kouremenos (eds), Roman Crete: new perspectives, Oxford-Philadelphia 2016, 155-174</bibl>
+                    <bibl>Lippolis E., Caliò L.M., Giatti C., Gortina, VIII/1. L’isolato del Ninfeo. La topografia, i monumenti e lo scavo (campagne 2003-2008), Athiniai 2019</bibl>
+                    <bibl>Pautasso A., Ἀνθύπατοι Κρήτης και Κυρήνης. Osservazioni sull’attività dei proconsoli nella provincia nei primi secoli dell’impero, ASAA, 56-57, 1994/95, 75-108</bibl>
+                    <bibl>Porena P., Appendice. Selezione di fonti sulla carriera prefettizia di Sex. Petronius Probus, in Bigi F., Tantillo I. (edd.), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020, 211-212</bibl>
+                    <bibl>Rémy B., L’activité des proconsuls et des représentants du Prince dans la province de Crète-Cyrénaïque au Haut-Empire d’après les inscriptions, in A. Laronde, J.-J. Maffre (éd.), Cités, ports et campagnes de la Cyrénaïque gréco-romaine, Paris 1999, 165-186</bibl>
+                    <bibl>Rolfe J.C., Ammianus Marcellinus, Rerum gestarum libri qui supersunt, in three volumes, with an English translation, London-Cambridge Mass. 1939</bibl>
+                    <bibl>Struffolino S., Proprietà imperiali in Cirenaica. Alcune considerazioni, SCO, 60, 2014, 349-380</bibl>
+                    <bibl>Tougher S., Ammianus Marcellinus on the Empress Eusebia: A Split Personality ?, G&amp;R, 47, 2000, 94-101</bibl>
+                    <bibl>Vallarino G., Epigramma dedicatorio per uno hyparchos dall’area del Pretorio di Gortina, ZPE, 183, 2012, 59-66</bibl>
                 </p>
             </div>
             
@@ -158,12 +231,13 @@
                     <p n="2.a"></p>
                     <p n="2.2"></p>
                     <list n="2.11">
+                        <item n="2.11.d"></item>
                         <item n="2.11.i"></item>
                     </list>
                 </div>
                 
                 <div type="commentary" n="8">
-                    <p n="8.1">λαμπρότατον</p>
+                    <p n="8.1">τὸν λαμπρότατον</p>
                     <p n="8.2">ἀπὸ ἐπάρχων πραιτωρίου</p>
                     <p n="8.4"></p>
                     <p n="8.10"></p>

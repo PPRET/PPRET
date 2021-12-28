@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Inscription in honour of the praet. prefect Probus from Gortyna decreed by the Cretan <foreign>koinon</foreign> and made by the consular Aristides</title>
+                <title>Greek inscription in honour of the praet. prefect Petronius Probus from Gortyn decreed by the Cretan koinòn and made by the consularis Aristides</title>
                 <editor role="edition">Pierfrancesco Porena</editor>
                 <editor role="encoding">Irene Vagionakis</editor>
             </titleStmt>
@@ -26,11 +26,11 @@
                 </listPerson>
                 <msDesc>
                     <msIdentifier>
-                        <repository ref="#Gortyna">Gortyna, Praetorium area</repository>
+                        <repository ref="#Gortyna">still in its original find spot on the archaeological site of Gortyna</repository>
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect Probus</term>
+                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect Petronius Probus</term>
                             <term type="rhythm" ref="#prose">prose</term>
                         </summary>
                         <textLang mainLang="grc">Greek</textLang>
@@ -39,29 +39,29 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#limestone">limestone</material>
-                                    <objectType ref="#base">statue base</objectType>
+                                    <material ref="#limestone">Gortynian limestone</material>
+                                    <objectType ref="#base">high parallelepiped base (troncopyramidal)</objectType>
                                     <dimensions>
-                                        <height>145</height>
-                                        <width>70 / 74</width>
+                                        <height>123</height>
+                                        <width>50.5 / 46</width>
                                         <depth>53</depth>
                                     </dimensions>
-                                    <rs type="inscribed_field_reuse">yes: there are some traces of a previous inscription</rs>
-                                    <rs type="monument_reuse">no</rs>
+                                    <rs type="inscribed_field_reuse">yes (there are some traces of a previous inscription)</rs>
+                                    <rs type="monument_reuse">yes, probably embedded in the masonry of the Byzantine monastery built in the area of the <foreign>Praetorium</foreign></rs>
                                     <rs type="opistographic">no</rs>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>One inscribed field (frons).</p>
+                                    <p>One inscribed field (<foreign>frons</foreign>).</p>
                                     <rs type="execution" ref="#chiselled">chiselled</rs>
-                                    <rs type="preservation" ref="#damaged">The letters of the top left corner of the inscription are slightly ruined; the upper part of the base is heavily damaged.</rs>
+                                    <rs type="preservation" ref="#damaged">The letters of the top left corner of the inscription are slightly damaged; the upper part of the base is heavily damaged.</rs>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <term ref="#lunate">lunate</term>
+                                <term ref="#lunate">Late antique irregular Greek capitals (lunate sigma and epsilon, alpha with diagonal crossbar, some reduced Η and ω)</term>
                                 <height>4 / 6</height>
                             </handNote>
                         </handDesc>
@@ -74,12 +74,11 @@
                                 <placeName type="province">Creta</placeName>
                                 <placeName type="diocese">Macedonia</placeName>
                                 <placeName type="prefecture">Italia Illyricum Africa</placeName>
-                                <placeName type="ancient_location" ref="#public">public space: Praetorium area</placeName>
+                                <placeName type="ancient_location" ref="#public">public space, <foreign>Praetorium</foreign> of Gortyna</placeName>
                             </origPlace>
-                            <origDate period="#p7" notBefore="0368" notAfter="0376" cert="low">368-371 AD or 376 AD?</origDate>
+                            <origDate period="#p7" notBefore="0372" notAfter="0375">372/375 AD</origDate>
                         </origin>
-                        <provenance type="found"><placeName ref="#">Gortyna</placeName>, Praetorium area</provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="found">the inscription was found at the end of the 19th Century outside the vestibulum of the of the apsidal hall of the <foreign>Praetorium</foreign> of <placeName ref="#">Gortyna</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -109,30 +108,89 @@
                     </ab>
             </div>
             <div type="apparatus">
-                <p>Edition based on ICret.</p>
+                <p>Edition based on ICret. 04, 312.</p>
             </div>
             <div type="translation" xml:lang="en">
-                <p>“For divine pronouncement and by decree (of the koinon) of the province of Cretans, (the statue of) Petronius Probus, of clarissimus rank and of eminentissimus rank, former consul, praetorian prefect, benefactor and saviour of the people, Flavius Fursidius Aristides, of clarissimus rank, consular of the province of Cretans has set up.”</p>
+                <p>“For divine pronouncement and by decree (of the Council) of the province of Cretans, (the statue of) Petronius Probus, of clarissimus rank and of eminentissimus rank, former consul, praetorian prefect, benefactor and saviour of the (provincial) people, Flavius Fursidius Aristides, of clarissimus rank, consular of the province of Cretans has set up”.</p>
             </div>
             <div type="translation" xml:lang="fr">
-                <p>“...”</p>
+                <p>“Par oracle divin et décret (du conseil) de la province de Crète, à Petronius Probus, clarissime et très éminent ancien consul et préfet du prétoire, bienfaiteur et sauveur de la population (provinciale), Flavius Fursidius Aristides, clarissime consulaire de la province de Crète, a placé”.</p>
             </div>
             <div type="translation" xml:lang="it">
-                <p>“Per pronunciamento divino e per decreto (del <foreign>koinon</foreign>) della provincia dei Cretesi, (la statua del) chiarissimo ed eminentissimo Petronio Probo, ex console, prefetto del pretorio, benefattore e salvatore della popolazione, Flavius Fursidius Aristides, il chiarissimo consolare della provincia dei Cretesi ha eretto.”</p>
+                <p>(Tantillo in Bigi, Tantillo 2020, p. 12, nt. 43)</p>
+                <p>“Per divino oracolo e per decreto (del concilio) della provincia di Creta, a Petronius Probus, clarissimo ed eminentissimo ex console e prefetto al pretorio, benefattore e salvatore della stirpe (provincia), Flavius Fursidius Aristides, clarissimo consolare della provincia di Creta, pose”.</p>
             </div>
             <div type="commentary">
-                <p>The inscription was set up when Probus was praetorian prefect for the first time.</p>
+                <p>The inscription was found in Gortyna in 1884/1889 during the excavations led by the Italian archaeologist F. Halbherr (1857-1930) and was published in 1929 by M. Guarducci (1902-1999) (Guarducci 1929, pp. 171-172, nr. 18; then in 1950 in <ref type="inscription">ICret 04, 312</ref>). The support of our inscription is «un’alta base di forma troncopiramidale, svasata in basso, con tre lati lisci e fronte ornata da un’incorniciatura sagomata a gola che racchiude uno specchio epigrafico dal profilo leggermente bombato» (Bigi in Bigi, Tantillo 2020, p. 40). 
+                    It was found and it is still located outside the <foreign>vestibulum</foreign> of the of the apsidal hall of the <foreign>Praetorium</foreign> of Gortyna, facing towards the ‘North Street’ (cf. Bigi, Tantillo 2016, p. 217, fig. 17.1, nr. 773; Bigi, Tantillo 2020, p. 16, fig. 12, <ref type="inscription">ICret. 04, 312</ref>). The inscribed base may have been reused in buildings from the time of the Emperor Heraclius (610-641 AD), inserted into the houses of craftsmen and farmers or incorporated into the small Byzantine monastery (late 7th Century AD), which was built upon the ancient <foreign>Praetorium</foreign> (Di Vita 2000, pp. LVII-LXXIV, 341-376, 775-800). 
+                    Originally the monument inscribed in honour of the praetorian prefect Petronius Probus was in the area of the <foreign>Praetorium</foreign>. It was placed there before the restoration of the <foreign>Praetorium</foreign> which was completed by the <foreign>consularis Cretae</foreign> Oecumenius Dositheus Asclepiodotus in 382/383 AD (see below and <ref type="ppret" corresp="ppret61">PPRET 61</ref>).</p>
+                <p>The base is reused and the inscription is engraved over an earlier inscription, the letters of which are still visible along the right margin of the epigraphic field. 
+                    On the upper side of the base, the housings for the feet of a bronze statue can still be seen (Bigi, Tantillo 2020, p. 41, fig. 52). Bronze statues, created by private individuals, dignitaries and public institutions could only be put up in public spaces with the emperor’s permission (see Feissel 1984, pp. 545-558; for bronze statues in honour of praetorian prefects with imperial permission, see <ref type="ppret" corresp="ppret24">PPRET 24</ref>, <ref type="ppret" corresp="ppret54">54</ref>, <ref type="ppret" corresp="ppret58">58</ref>; without explicit permission, see <ref type="ppret" corresp="ppret57">PPRET 57</ref>. 
+                    For references to gilded bronze statues in honour of praetorian prefects, erected in prestigious public spaces in this period [<foreign>sub auro</foreign>, <foreign>inaurata</foreign>, <foreign>auro condecorata</foreign>], see <ref type="ppret" corresp="ppret27">PPRET 27</ref>, <ref type="ppret" corresp="ppret28">28</ref>, <ref type="ppret" corresp="ppret31">31</ref>, <ref type="ppret" corresp="ppret46">46</ref>, <ref type="ppret" corresp="ppret48">48</ref>, <ref type="ppret" corresp="ppret51">51</ref>). In our inscription from Gortyna, the granting of imperial permission is explicitly mentioned (l. 1). 
+                    The θεῖον θέσπισμα is the “divine pronouncement”, i.e. a written authorisation issued directly by the Emperor (see for ex. <ref type="source">Hesych., Lex., Θ 399</ref>: θέσπισμα· θεῖον δόγμα; <ref type="source">Phot., Lex., Θ 138</ref>: θεσπίσματα· θεῖα δόγματα; <ref type="source">Nov. Iust. 113, 01-02</ref>; very frequent in the Acts of Councils, for ex. <ref type="source">ACO [Ephesus 431 AD] 01, 01, 04</ref>, p. 66). 
+                    The same expression in Latin is <foreign>sacrum oraculum</foreign> (see <ref type="source">CTh 11, 21, 03</ref>; <ref type="source">Nov. Theod. 17, 01, 02</ref>; <ref type="source">Inst. Iust. 01, 11, 11</ref>; <ref type="source">CI 01, 22, 05</ref>; <ref type="source">CI 01, 55, 10</ref>; <ref type="source">CI 06, 58, 13, 01</ref>; <ref type="source">CI 10, 49, 02</ref>), or <foreign>divinum oraculum</foreign> (see <ref type="source">Nov. Theod. 06, 04</ref>; <ref type="source">Nov. Theod. 17, 02, 05</ref>; <ref type="source">CI 07, 63, 05, 05</ref>; <ref type="source">CI 08, 33, 03, 03a</ref>; <ref type="source">CI 08, 48, 05</ref>; <ref type="source">CI 10, 12, 02, 02</ref>; <foreign>sacrae iussionis oracula</foreign> in Coll. Avell. 114). 
+                    Usually, the <foreign>concilium</foreign> / κοινὸν of the province or diocese would dispatch an embassy to the Emperor in order to ask for permission to honour the dignitary with a metalic statue before the official’s term of office was over. Consider for example the petition of the κοινὸν of the province of Phoenices for the prefect Domitius Leontius (<ref type="ppret" corresp="ppret24">PPRET 24</ref>, ll. 7-10): <foreign>decretis provinciae Phoenices</foreign>, <foreign>senten/tia divina firmatis dd(ominorum) nn(ostrorum) Constantii eṭ / Constantis, aeternorum princi/pum</foreign>. 
+                    Consider also the <foreign>concilium</foreign> of the diocese of Hispaniae for the prefect Sallustius (<ref type="ppret" corresp="ppret54">PPRET 54</ref>, ll. 11-12): <foreign>missis legat(is)</foreign>, <foreign>ius(sione) sac(ra)</foreign>, <foreign>Hispaniae dicaverunt</foreign>. Also consider the κοινὸν of the province of Crete to make our monument in honour of the prefect Probus in Gortyna.</p>
+                <p>The exceptional honour for Probus came with strings attatched. In order to get it, the praetorian prefect, had to use his high official powers to grant favours to the province of Crete (ll. 9-10: “benefactor and saviour of the provincial people”). 
+                    Although the traditional Greek formula σωτὴρ καὶ εὐεργέτης appears only in this one inscription among those in honour of Probus, all the numerous inscriptions in his honour (see below) are related to the many and continuous benefits he bestowed as a powerful patron on the city and provincial communities that were his clients (the contemporary historian Ammianus states this explicitly, see <ref type="source">Amm. 27, 11</ref>; the inscription for Probus at Capua extols his <foreign>munificentia</foreign>, <ref type="ppret" corresp="ppret60">PPRET 60</ref>, l. 6. For monuments in honour of praetorian prefects of the 4th Century who are called benefactors, see <ref type="ppret" corresp="ppret21">PPRET 21</ref>, <ref type="ppret" corresp="ppret29">29</ref>, <ref type="ppret" corresp="ppret35">35</ref>, <ref type="ppret" corresp="ppret43">43</ref>, <ref type="ppret" corresp="ppret47">47</ref>, <ref type="ppret" corresp="ppret52">52</ref>, <ref type="ppret" corresp="ppret97">97</ref>).</p>
+                <p>Our inscription from Gortyna represents the only 4th Century example of a praetorian prefect, who, besides λαμπρότατος, bears the traditional rank of ἐξοχώτατος (l. 5). More important still, is that this first monument in honour of Probus, decreed by the κοινὸν of Crete and created by the <foreign>consularis Cretae</foreign>, Fursidius Aristides, was actually built inside or in front of the <foreign>Praetorium</foreign> (PLRE I, p. 105, see below and <ref type="ppret" corresp="ppret76">PPRET 76</ref>). Its inscription celebrates Probus as a former ordinary consul and praetorian prefect without iterations (ll. 6-7). 
+                    The Greek text of our inscription is precise: the formula ἀπὸ ὑπάτων ἔπαρχον τοῦ πραιτωρίου (ll. 6-7) and not ἀπὸ ὑπάτων καὶ ἀπὸ ἐπάρχων πραιτωρίων (<ref type="ppret" corresp="ppret61">PPRET 61</ref>, ll. 3-4) clearly states that Petronius Probus was still the acting praetorian prefect when the monument in Gortyna was decreed by the provincial κοινὸν and made by the <foreign>consularis</foreign> Aristides. 
+                    This monument must therefore precede the other inscribed monument in honour of Probus, “styed as former consul and former praetorian prefect for the third time”, decreed by the βουλὴ of Gortyna and put up near the <foreign>Praetorium</foreign> as part of an extensive statuary cycle by the <foreign>consularis Cretae</foreign> Oecumenius Dositheus Asclepiodotus in 382/383 AD (PLRE I, p. 115, see <ref type="ppret" corresp="ppret61">PPRET 61</ref>, in part. at l. 5 see the numeral γʹ, i.e. τὸ τρίτον “three times” or “for the third time”).</p>
+                <p>Our inscription on the gortynian monument made by Aristides must be dated after December 31st 371 AD, when Probus stepped down from the consulship and became ἀπὸ ὑπάτων (see l. 6, cf. CLRE, pp. 276-277). The PLRE (I, p. 738-739) does not explain the contradiction of two inscriptions in Gortyna in honour of the praetorian prefect Probus that would have been made by the <foreign>consularis</foreign> Aristides, without iteration, and by the <foreign>consularis</foreign> Ascelpiodotus, with numeral γʹ “for the third time” (<ref type="ppret" corresp="ppret61">PPRET 61</ref>), which should indicate the same prefecture of our senator (i.e., according to the PLRE, the third one among the four attested). 
+                    According to De Tommaso (2000, pp. 386-387), the inscription for the prefect Probus without iteration made by the <foreign>consularis</foreign> Aristides was written after the end of 371 AD and before 375/377 AD; the inscription for the prefect Probus made by the <foreign>consularis</foreign> Asclepiodotus with iteration “three” was written before August 19th 383 AD, i.e. in the period May-August 383 AD. In fact, he lumps both inscriptions together in the same third praetorian prefecture of our senator. 
+                    Recently, U. Gehn in <ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-773">LSA 773</ref> thinks that the prefecture's absence of iteration allows us to refer Aristides' inscription in Gortyna to one of the four prefectures  of Probus after the consulship, i.e. between 372 and 388 AD. In our opinion, the presence of the numeral (l. 5: γʹ, i.e. τὸ τρίτον) to indicate the prefectorial mandate of Probus is crucial and not negligible for two monuments that were built at two different times in the same city and in the same architectural complex, the <foreign>Praetorium</foreign> of Gortyna. 
+                    In order to identify the praetorian prefecture indicated in the inscription made by the <foreign>consularis</foreign> Aristides, it is necessary to reflect on the prefectorial career of Petronius Probus.</p>
+                <p>Sex. Petronius Probus was the most important senator of the second half of the 4th Century AD. Born around 328/332 AD, after passing through the <foreign>quaestura</foreign> and the <foreign>praetura</foreign> in Rome, he was <foreign>proconsul</foreign> of Africa in 358 AD, ordinary consul in 371 AD and four times praetorian prefect of Italia-Illyricum-Africa, Illyricum and Gaul, in a maximum span of time of 364 AD to 387 AD (this is the most extensive chronology proposed by the modern historians); he died between 388 and 392 AD (see in brief, Jones 1964, p. 85-87, scheme pp. 88-89; similarly PLRE I, pp. 736-740, and scheme pp. 1050-1051; Pergami 1995, pp. 417-423; Lizzi Testa 2004, pp. 316-319. For an analysis of his career, see <ref type="ppret" corresp="ppret59">PPRET 59</ref>). 
+                    Petronius Probus is attested as praetorian prefect in 11 inscriptions both during and at the termination of his career (besides this one, see <ref type="ppret" corresp="ppret56">PPRET 56</ref>, <ref type="ppret" corresp="ppret57">57</ref>, <ref type="ppret" corresp="ppret59">59</ref>, <ref type="ppret" corresp="ppret60">60</ref>, <ref type="ppret" corresp="ppret61">61</ref>, <ref type="ppret" corresp="ppret62">62</ref>, <ref type="ppret" corresp="ppret63">63</ref>, <ref type="ppret" corresp="ppret64">64</ref>, <ref type="ppret" corresp="ppret65">65</ref>, <ref type="ppret" corresp="ppret66">66</ref>), as well as being cited in numerous literary texts and in as many as 46 constitutions from the Theodosian and Justinian Codes (source list in PLRE I, pp. 736-740; Porena 2020c). 
+                    Unfortunately, the data provided by this large number of sources does not always agree. While it is certain that Petronius Probus was proconsul of Africa in 358 AD (<ref type="source">CTh 11, 36, 13</ref>, on 23 June; CIL 08, 01783) and ordinary consul beside Gratianus Augustus (<foreign>iterum</foreign>) in 371 AD (CLRE, pp. 276-277), the chronology, sequence and administrative geography of his four praetorian prefectures is difficult to reconstruct and historians are divided.</p>
+                <p>To sum up, we can say that two chronologies and two extensions of the prefectures of Probus are possible: 1) a “backward-looking chronology” in an Empire divided into three major praetorian prefectures (Galliae, Italia-Illyricum-Africa, Oriens); 2) a “forward-looking chronology” in an Empire divided into four praetorian prefectures (Galliae, Italia-Illyricum-Africa, autonomous Illyricum, Oriens).</p>
+                
+                <p>The prevailing reconstruction today is the “backward-looking chronology” based on an Empire divided into three praetorian prefectures, that was proposed by Jones 1964 and PLRE. 
+                    According to this interpretation, in the second half of the 4th Century there was only one major praetorian prefecture of Italia-Illyricum-Africa, particularly in the years 381-392 AD, next to the praetorian prefecture of Gaul and the East. Thus Probus would have held a first short praetorian prefecture of Illyricum in 364 AD (<ref type="source">CTh 01, 29, 01</ref>), a second short praetorian prefecture of Gaul in 366 AD (CTh 11, 01, 15), and a long third praetorian prefecture of Italia-Illyricum-Africa in the years 368-375/376 AD. 
+                    The latter prefecture is attested by the Pincio inscription, which was dedicated on August 8th 378 AD (<ref type="ppret" corresp="ppret59">PPRET 59</ref>, but strangely the office is listed without iteration), and would have been followed with a fourth short praetorian prefecture of Italy-Illyricum-Africa in 383 AD. This series of offices is chronologically compatibile with the order of the four prefectures listed in the Verona inscription (<ref type="ppret" corresp="ppret63">PPRET 63</ref>) and obliges us to correct the dates of the constitutions of the Law Codes for the period 380-384 AD, in which Probus is reported to be in office as praetorian prefect overlapping with the six/seven other prefects of Italia-Illyricum-Africa. 
+                    It contradicts the account of Ammianus, who describes Probus holding the prefecture continuously from 368 AD owards (<foreign>intervallando potestates adsiduas</foreign>, <ref type="source">Amm. 27, 11</ref> and <ref type="source">Amm. 30, 05</ref>). Moving backwards, this chronology incorporates Probus’ first three praetorian prefectures, all held during the reign of Valentinianus I, and assumes only one short praetorian prefecture of two months in 383 AD in the last thirteen years of the senator’s career (376/388 AD).</p>
+                <p>Chronology:</p>
+                <p>1st praetorian prefecture over Illyricum in 364 AD, appointed by Valentinianus I</p>
+                <p>2nd praetorian prefecture over Galliae in 366 AD, appointed by Valentinianus I</p>
+                <p>3rd praetorian prefecture over Italia-Illyricum-Africa in 368-375/376 AD, appointed by Valentinianus I</p>
+                <p>[Gothic crisis 378/379 AD: Probus was never appointed praetorian prefect under Gratianus (378-383)] </p>
+                <p>[383-388 AD usurpation of Magnus Maximus] </p>
+                <p>4th praetorian prefecture limited to the period of August-October 383 AD over Italia-Illyricum-Africa, appointed by Valentinianus II</p>
+                
+                <p>The “forward-looking chronology” based on an Empire divided into four praetorian prefectures has been proposed recently by Porena (2020a-b). According to this interpretation, in the years 361-376 AD, there was only one large praetorian prefecture of Italia-Illyricum-Africa, next to the praetorian prefecture of Gaul and the East. However, from 376/377 AD, the praetorian prefecture of Italia-(Illyricum)-Africa was separated from the autonomous prefecture of Illyricum. 
+                    At the behest of Valentinianus I, Probus held a first long praetorian prefecture of Italia-Illyricum-Africa in the years 368-375/376 AD, which is attested by the Pincio inscription dedicated on August 8th 378 AD (<ref type="ppret" corresp="ppret59">PPRET 59</ref>, appropriately the office is listed without iteration). After this mandate, during the Gothic crisis and around the defeat of Hadrianopolis, Gratianus would have divided the prefecture of Italia-Africa (perhaps with a part of Illyricum) and made an autonomous praetorian prefecture out of Illyricum. In the years (379?) 380-382 AD, Emperor Gratianus would have given Probus a second praetorian prefecture in Italia-Africa. 
+                    In the Autumn of 381 AD, Gratianus also gave Probus a third praetorian prefecture of Illyricum alone, which was extended into 382 AD. Probus was appointed to a second and third prefecture with separate codicils (the two mandates on two locations would have overlapped for a few months). In 384-385 AD, after the usurpation of Maximus in Gaul and the assassination of Gratianus, Valentinianus II would have given Probus a fourth praetorian prefecture in Italia-Africa with a formal appointment in the same codicils to the praetorian prefecture of Gaul. Since the latter was controlled by the usurper Maximus, Probus never took possession of this prefecture, even though Valentinianus II claimed it as his own. 
+                    This reconstruction preserves the dates of the constitutions of the Law Codes for the period 380-384 AD, while agreeing with the account of Ammianus (<ref type="source">Amm. 27, 11</ref> and <ref type="source">Amm. 30, 05</ref>). It also concords with the data of the inscription for Probus from the Pincio (<ref type="ppret" corresp="ppret59">PPRET 59</ref>) and Capua (<ref type="ppret" corresp="ppret60">PPRET 60</ref>) and distributes the praetorian prefectures of Probus between the reigns of Valentinianus I, Gratianus and Valentinianus II.</p>
+                <p>Chronology:</p>
+                <p>1st praetorian prefecture in 368-375/376 AD over Italia-Illyricum-Africa, apponited by Valentinianus I</p>
+                <p>[378/379 AD Gothic crisis and creation of an autonomous praetorian praefecture of Illyricum]</p>
+                <p>2nd praetorian prefecture in (379?) 380-382 AD over Italia-(Illyricum)-Africa, appointed by Gratianus</p>
+                <p>3rd praetorian prefecture in 381-382 AD over autonomous Illyricum, appointed by Gratianus</p>
+                <p>[383-388 AD usurpation of Magnus Maximus]</p>
+                <p>4th praetorian prefecture in 384-385 AD over Italia-(Illirico)-Africa (and nominally Galliae), appointed by Valentinianus II</p>
+                
+                <p>In our opinion, the inscription in honour of Probus, former consul and serving praetorian prefect, without iteration, engraved in Crete by decree of the κοινὸν on the monument made by the <foreign>consularis</foreign> Aristides after December 31st 371 AD, extols the prefect’s evergetic measures in favour of the province of Crete. They were accomplished during his first praetorian prefecture, which lasted for almost eight years between 368 and early 376 AD (according to the “forward-looking chronology”). 
+                    Our inscription in honour of the prefect Probus from the <foreign>Praetorium</foreign> of Gortyna must be dated between 372 and 375 AD.</p>
+                <p>Perhaps during this same first praetorian prefecture, the <foreign>proconsul Achaiae</foreign> Anatolius dedicated the monument in honour of the praetorian prefect Probus in the Agora of Athens (<ref type="ppret" corresp="ppret57">PPRET 57</ref>). The identification of the dedicator of Probus’ Athenian epigram with the proconsul of Achaia, Anatolius, who engaged in restoring the city of Sparta probably after the earthquake of 375 AD, suggests a date for the Athenian inscription towards the end of the long praetorian prefecture of Italia-Illyricum-Africa, held by Probus in 368-375/376 AD. 
+                    That said, it could also have been made during the second praetorian prefecture held by Probus over an autonomous Illyricum, in 381-382 AD. Whatever it is, a date sometime during the period 376/382 AD can be assumed. Certainly the Roman inscription from the Pincian Hill in honour of Petronius Probus, praetorian prefect of Italia-Illyricum-Africa, without iteration, dedicated on August 8th 378 AD (<ref type="ppret" corresp="ppret59">PPRET 59</ref>) celebrates Probus’ first long praetorian prefecture. 
+                    It seems very likely that a few years after the inscription put up in the <foreign>Praetorium</foreign> of Gortyna by the <foreign>consularis</foreign> Aristides at the behest of the κοινὸν of Crete, the Cretans wanted to erect a new monument in honour of Petronius Probus in another area of the <foreign>Praetorium</foreign> that had been extensively restored by the <foreign>consularis</foreign> Asclepiodotus in 382/383 AD (<ref type="ppret" corresp="ppret61">PPRET 61</ref>). This monument rightly indicated Probus as a former praetorian prefect “for the third time” (l. 5 numeral γʹ i.e. τὸ τρίτον). It stood next to the monument of the senator who had been praetorian prefect responsible for the province of Crete immediately after Probus, Hypatius (<ref type="ppret" corresp="ppret73">PPRET 73</ref>) and the senator who would soon replace him, Praetextatus (ICret. 04, 316; LSA 777; Bigi, Tantillo 2020, pp. 192-193, nr. 3; concerning his praetorian prefecture, see <ref type="ppret" corresp="ppret77">PPRET 77</ref>, <ref type="ppret" corresp="ppret79">79</ref>, <ref type="ppret" corresp="ppret80">80</ref>). 
+                    In 382/383 AD, the βουλὴ of Gortyna, the <foreign>consularis</foreign> Asclepiodotus and the Cretans wanted to extoll the last recent prefectorial mandate of Probus – the third one, this time in the new autonomous praetorian prefecture of Illyricum that included the province of Crete – by means of a new monument in the renewed <foreign>Praetorium</foreign>. Their aim was to distinguish the mandate from the first long mandate of Italia-Illyricum-Africa that had been held until 376 AD by Probus and which was still exalted in Aristides’ monument in the <foreign>Praetorium</foreign>.</p>
+                <p>The dignitary responsible for executing the decree of the κοινὸν of Crete to put up a monument in honour of the praetorian prefect Probus was Fl. Fursidius Aristides, <foreign>consularis Cretae</foreign> in 372/376 AD (PLRE I, p. 105). Unfortunately, the chronology of his provincial appointment can only be reconstructed from the chronological data contained within the inscription itself. Recently Vallarino (2012) published a Greek epigram in honour of the ὕπαρχος Aphthonius that had been found in the area of the <foreign>Praetorium</foreign> of the city in 2005. Although the epigram was decreed by the βουλὴ of Gortyna, its date is uncertain. 
+                    The author has suggested that Aristides – in the epigram his name is unqualified and his position or rank is not indicated – who dedicated the verses for Aphthonius may be our <foreign>consularis</foreign> Fursidius Aristides in 376/377 AD (see <ref type="ppret" corresp="ppret76">PPRET 76</ref>). According to Vallarino, Aphthonius could be the praetorian prefect of Italia-Illyricum-Africa in 376/377 AD, while the <foreign>consularis Cretae</foreign> Fursidius Aristides would have dedicated two monuments to two praetorian prefects, one after the other in the period 371/377 AD. 
+                    In all probability, they were dedicated between 376 AD, the last possible year of the praetorian prefecture of Probus, and 377 AD, the year after which there would be no more room for a prefectorial office of Aphthonius. This hypothesis is by no means certain. We think that the monument with the epigram in honour of Aphthonius decreed by the βουλὴ of Gortyna at the behest of the <foreign>principales</foreign> of the city, may honour a praetorian prefect of Illyricum (the eastern Illyricum) in the 5th Century AD; it is possible that it was made by Aristides, not as the <foreign>consularis</foreign>, but as a city notable. 
+                    If the maker can be identified as the <foreign>consularis Cretae</foreign> Fursidius Aristides, then it is possible that the monument was put up by Aphthonius in honour of a <foreign>vicarius Macedoniae</foreign> of the late 4th Century AD, but it seems unlikely that Aphthonius was a praetorian prefect in 376/377 AD (discussion in <ref type="ppret" corresp="ppret76">PPRET 76</ref>).</p>
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
-                    <bibl><ref>ICret IV, 312</ref></bibl>
                     <bibl><ref>Guarducci 1929, pp. 171-172, nr. 18</ref> = <bibl><ref>AE 1933, 0197</ref></bibl></bibl>
-                    <bibl><ref>AE 2012, 1786</ref> = <bibl><ref>BE 2013, 513</ref></bibl></bibl>
-                    <bibl><ref>Porena forthcoming, pp. 211-212, nr. 3</ref></bibl>
+                    <bibl><ref>ICret 04, 312</ref> (with fac-simile)</bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="images">
-                <p></p>
+                <p>
+                    <bibl><ref>Bigi, Tantillo 2016, p. 222</ref>, fig. 17.3; p. 227, fig. 17.10</bibl>
+                    <bibl><ref>Bigi, Tantillo 2020, p. 6</ref>, fig. 8; p. 41, figg. 50-52</bibl>
+                </p>
             </div>
             <div type="bibliography" subtype="links">
                 <p>
@@ -143,8 +201,19 @@
             </div>
             <div type="bibliography" subtype="other">
                 <p>
+                    <bibl>Bigi F., Tantillo I., Gortyna, in R.R.R. Smith, B. Ward-Perkins (eds), The last Statues of Antiquity, Oxford 2016, 216-228</bibl>
+                    <bibl>Bigi F., Tantillo I. (edd.), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020</bibl>
+                    <bibl>De Tommaso G., Note su alcune iscrizioni del Pretorio di Dositeo, in Di Vita A. (a cura di), Gortina, V/1. Lo scavo del Pretorio (1989-1995), Padova 2000, 384-388</bibl>
+                    <bibl>Di Vita A. (a cura di), Gortina, V/1. Lo scavo del Pretorio (1989-1995), Padova 2000</bibl>
+                    <bibl>Feissel D., Notes d’épigraphie chrétienne (VII), BCH, 108, 1984, 545-579</bibl>
                     <bibl>Guarducci M., Le iscrizioni del Pretorio di Gortina, in Rivista dell’Istituto Nazionale di Archeologia e Storia dell’Arte, 1, 1929, 143-184</bibl>
-                    <bibl>Porena P., Appendice. Selezione di fonti sulla carriera prefettizia di Sex. Petronius Probus, in Bigi F., Tantillo I. (edd.), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa forthcoming, 211-212</bibl>
+                    <bibl>Jones A.H.M., Collegiate Prefectures, JRS, 54, 1964, 78-89 (= Id., The Roman Economy, Oxford 1974, 375-95)</bibl>
+                    <bibl>Lizzi Testa R., Senatori, popolo, papi. Il governo di Roma al tempo dei Valentiniani, Bari 2004</bibl>
+                    <bibl>Pergami F., Sulla istituzione del defensor civitatis, SDHI, 61, 1995, 413-431</bibl>
+                    <bibl>Porena P., Le iscrizioni del Pretorio di Gortyna e la carriera prefettizia di Sex. Petronius Probus, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020a, 87-141</bibl>
+                    <bibl>Porena P., Ipotesi sull’istituzione di una prefettura del pretorio autonoma d’Illirico nel decennio 378-387, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020b, 143-166</bibl>
+                    <bibl>Porena P., Appendice. Selezione di fonti sulla carriera prefettizia di Sex. Petronius Probus, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020c, 211-216</bibl>
+                    <bibl>Vallarino G., Epigramma dedicatorio per uno hyparchos dall’area del pretorio di Gortina, ZPE, 183, 2012, 59-66</bibl>
                 </p>
             </div>
             
@@ -156,15 +225,16 @@
                 <div type="commentary" n="2">
                     <p n="2.a"></p>
                     <p n="2.1"></p>
-                    <p n="2.8">Θείῳ θεσπίσματι</p>
-                    <p n="2.10">εὐεργέτην καὶ σωτῆρα τοῦ ἔθνους</p>
+                    <p n="2.8"></p>
+                    <p n="2.9">τὸν εὐεργέτην καὶ σωτῆρα τοῦ ἔθνους</p>
                     <list n="2.11">
-                        <item n="2.11.i">ὁ λ(αμπρότατος) · ὑπατικὸς τῆς Κρητῶν ἐπαρχείας</item>
+                        <item n="2.11.d"></item>
+                        <item n="2.11.i"></item>
                     </list>
                 </div>
                 
                 <div type="commentary" n="8">
-                    <p n="8.1">λαμπρ(ότατον) κ(αὶ) ἐξοχώτατον</p>
+                    <p n="8.1">τὸν λαμπρ(ότατον) κ(αὶ) ἐξοχώτατον</p>
                     <p n="8.2">ἔπαρχον τοῦ πραιτωρίου</p>
                     <p n="8.4"></p>
                     <p n="8.9"></p>

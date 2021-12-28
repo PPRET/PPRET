@@ -101,9 +101,9 @@
             <div type="apparatus">
                 <p>This epigram is preserved by the manuscript MS O: Cod. Bodleianus Baroccianus 182 (f. 1-321); the edition and interpretation of the text is based on Mitchell 2019, p. 181.</p>
                 <p>
-                    <app loc="1"><note>Κωνστάντιος: IGLSyr. III／1, nr. 832, Thurn 2000, p. 250, Woods 2005, p. 55, Agusta-Boularot 2006, p. 127; Κωνστάντειος: Agosti 2005, p. 23; ἐπήρατα: O, Müller 1839, p. 104, Preger 1891, nr. 111, SGO IV 20／03／03, Agosti 2005, p. 23; ἐπέραιστον οἶκον: IGLSyr. III／1, nr. 832; ἐπέραστον οἶκον: Thurn 2000, p. 250, Woods 2005, p. 55, Agusta-Boularot 2006, p. 127; ἐπήρατον οἶκον: Feissel 2016, p. 1229.</note></app>
-                    <app loc="3"><note>Κωνσταντείου: O, Müller 1839, p. 104, Preger 1891, nr. 111, SGO IV 20／03／03, Agosti 2005, p. 23; Κωνσταντίου: Thurn 2000, p. 250, Woods 2005, p. 55, Agusta-Boularot 2006, p. 127, Feissel 2016, p. 1229; ὑποδρήσσοντος: Müller 1838, p. 104, Preger 1891, nr. 111, SGO IV 20／03／03, Thurn 2000, p. 250, Woods 2005, p. 55, Agosti 2005, p. 23, Agusta-Boularot 2006, p. 127.</note></app>
-                    <app loc="4"><note>θαλαμηπόλον: Müller 1839, p. 104, Preger 1891, nr. 111, IGLSyr. III／1, nr. 832, SGO IV 20／03／03, Thurn 2000, p. 250, Woods 2005, p. 55, Agosti 2005, p. 23, Agusta-Boularot 2006, p. 127.</note></app>
+                    <app loc="1"><note>Κωνστάντιος: IGLSyr. III／1, nr. 832, Thurn 2000, p. 250, Woods 2005, p. 55, Agusta-Boularot 2006, p. 127; Κωνστάντειος: Agosti 2005, p. 23; ἐπήρατα: O, Müller 1839, p. 104, Preger 1891, nr. 111, SGO 04, 20／03／03, Agosti 2005, p. 23; ἐπέραιστον οἶκον: IGLSyr. III／1, nr. 832; ἐπέραστον οἶκον: Thurn 2000, p. 250, Woods 2005, p. 55, Agusta-Boularot 2006, p. 127; ἐπήρατον οἶκον: Feissel 2016, p. 1229.</note></app>
+                    <app loc="3"><note>Κωνσταντείου: O, Müller 1839, p. 104, Preger 1891, nr. 111, SGO 04, 20／03／03, Agosti 2005, p. 23; Κωνσταντίου: Thurn 2000, p. 250, Woods 2005, p. 55, Agusta-Boularot 2006, p. 127, Feissel 2016, p. 1229; ὑποδρήσσοντος: Müller 1838, p. 104, Preger 1891, nr. 111, SGO 04, 20／03／03, Thurn 2000, p. 250, Woods 2005, p. 55, Agosti 2005, p. 23, Agusta-Boularot 2006, p. 127.</note></app>
+                    <app loc="4"><note>θαλαμηπόλον: Müller 1839, p. 104, Preger 1891, nr. 111, IGLSyr. III／1, nr. 832, SGO 04, 20／03／03, Thurn 2000, p. 250, Woods 2005, p. 55, Agosti 2005, p. 23, Agusta-Boularot 2006, p. 127.</note></app>
                 </p>
             </div>
             <div type="translation" xml:lang="en">
@@ -136,9 +136,9 @@
                 <p>
                     <bibl><ref>Müller 1839, p. 104</ref></bibl>
                     <bibl><ref>Preger 1891, nr. 111</ref></bibl>
-                    <bibl><ref>IGLS III／1, 832</ref></bibl>
+                    <bibl><ref>IGLS 3,1, 832</ref></bibl>
                     <bibl><ref>Thurn 2000, p. 250</ref></bibl>
-                    <bibl><ref>SGO IV 20／03／03</ref></bibl>
+                    <bibl><ref>SGO 04, 20／03／03</ref></bibl>
                     <bibl><ref>Woods 2005, p. 55</ref></bibl>
                     <bibl><ref>Agosti 2005, p. 23</ref></bibl>
                     <bibl><ref>Agusta-Boularot 2006, pp. 127-129</ref></bibl>
