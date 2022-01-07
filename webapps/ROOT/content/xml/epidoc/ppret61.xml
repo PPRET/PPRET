@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Greek inscription in honour of the former praet. prefect Petronius Probus from Gortyn decreed by the <foreign>boulè</foreign> and made by the consular Asclepiodotus</title>
+                <title>Greek inscription in honour of the former praet. prefect Probus from Gortyn decreed by the <foreign>boulè</foreign> and made by the consular Asclepiodotus</title>
                 <editor role="edition">Pierfrancesco Porena</editor>
                 <editor role="encoding">Irene Vagionakis</editor>
             </titleStmt>
@@ -56,7 +56,7 @@
                                 <layout>
                                     <p>Two inscribed fields (<foreign>frons</foreign>, <foreign>retro</foreign>).</p>
                                     <rs type="execution" ref="#chiselled">chiselled</rs>
-                                    <rs type="preservation" ref="#undamaged">The epigraphic field is undamaged; the base edges are slightly damaged. Opistographic: on the opposite side of the base there is a dedication of the 2nd Century AD, ICret IV 302; the base was then turned upside down and reused for the dedication to Probus.</rs>
+                                    <rs type="preservation" ref="#undamaged">The epigraphic field is undamaged; the base edges are slightly damaged. Opistographic: on the opposite side of the base there is a dedication of the 2nd Century AD, ICret 04, 302; the base was then turned upside down and reused for the dedication to Probus.</rs>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
