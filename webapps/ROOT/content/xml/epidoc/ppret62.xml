@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Inscription in honour of the praet. prefect Probus from Rome</title>
+                <title>Fragmentary inscription in honour of the praet. prefect Probus from Trajan’s Forum in Rome</title>
                 <editor role="edition">Pierfrancesco Porena</editor>
                 <editor role="encoding">Irene Vagionakis</editor>
             </titleStmt>
@@ -35,7 +35,7 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect Probus</term>
+                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect Petronius Probus</term>
                             <term type="rhythm" ref="#prose">prose</term>
                         </summary>
                         <textLang mainLang="la">Latin</textLang>
@@ -46,10 +46,25 @@
                                 <support>
                                     <material ref="#marble">marble</material>
                                     <objectType ref="#base">statue base</objectType>
-                                    <dimensions>
+                                    <dimensions corresp="fr. a, now">
+                                        <height>25</height>
+                                        <width>77</width>
+                                        <depth>19</depth>
+                                    </dimensions>
+                                    <dimensions corresp="fr. a, according to Paribeni">
                                         <height>31</height>
                                         <width>78</width>
                                         <depth>18</depth>
+                                    </dimensions>
+                                    <dimensions corresp="fr. b, now">
+                                        <height>28</height>
+                                        <width>37</width>
+                                        <depth>18</depth>
+                                    </dimensions>
+                                    <dimensions corresp="fr. b with fr. c, according to Paribeni">
+                                        <height>48</height>
+                                        <width>33</width>
+                                        <depth>14</depth>
                                     </dimensions>
                                     <rs type="inscribed_field_reuse">no</rs>
                                     <rs type="monument_reuse">no</rs>
@@ -58,16 +73,16 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>One inscribed field (frons).</p>
+                                    <p>One inscribed field (<foreign>corona</foreign> and <foreign>frons</foreign>).</p>
                                     <rs type="execution" ref="#chiselled">chiselled</rs>
-                                    <rs type="preservation" ref="#fragmentary">The inscription consists of three fragments.</rs>
+                                    <rs type="preservation" ref="#fragmentary">The inscription consists of three fragments: ‘a’ is the <foreign>corona</foreign>; ‘b’ is the upper central fragment of the base; ‘c’ is the the upper left part of the base, lost (the central, right and lower part of the base are lost).</rs>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
                                 <term ref="#square_capitals">late Roman monumental capitals</term>
-                                <height>2.5 / 5</height>
+                                <height>2.5 (<foreign>frons</foreign>) / 5 (<foreign>corona</foreign>)</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -79,11 +94,11 @@
                                 <placeName type="province">Urbs</placeName>
                                 <placeName type="diocese">Italiciana</placeName>
                                 <placeName type="prefecture">Italia Illyricum Africa</placeName>
-                                <placeName type="ancient_location" ref="#public">public space: Trajan’s Forum</placeName>
+                                <placeName type="ancient_location" ref="#public">public space (Trajan’s Forum in Rome)</placeName>
                             </origPlace>
-                            <origDate period="#p8" notBefore="0384" notAfter="0390" cert="low">384/390 AD?</origDate>
+                            <origDate period="#p8" notBefore="0384" notAfter="0390">384/390 AD</origDate>
                         </origin>
-                        <provenance type="found">found in 1933 in <placeName ref="#TrajanForum">Rome, Trajan’s Forum</placeName></provenance>
+                        <provenance type="found">found in 1933 in <placeName ref="#TrajanForum">Trajan’s Forum in Rome</placeName></provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -110,21 +125,25 @@
                         <lb n="3"/><supplied reason="lost" evidence="previouseditor">praetorio qu</supplied><supplied reason="lost">ater, consuli ordinario</supplied>,
                         <lb n="4"/><supplied reason="lost" evidence="previouseditor">sublimi v</supplied><gap reason="lost" extent="unknown" unit="character"/>
                         <lb n="5"/><supplied reason="lost" evidence="previouseditor">ti pi</supplied><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
-                        <lb n="6"/><gap reason="lost" extent="unknown" unit="line" cert="low"/>
+                        <lb n="6"/><gap reason="lost" extent="unknown" unit="line"/>
                     </ab>
                 </div>
             </div>
             <div type="apparatus">
                 <p>Edition based on CIL.</p>
+                <p>
+                    <app loc="3"><note>qu<supplied reason="lost">ater Italiae, illyrici, Africae, Galliarum, co(n)s(uli) ord(inario)</supplied>, Paribeni 1933</note></app>
+                    <app loc="4-5"><note>sublimi v<supplied reason="lost">irtute bonitateq(ue) praestan</supplied>/ti pii<supplied reason="lost">ssimo</supplied> <gap reason="lost" extent="unknown" unit="character"/>, Niquet in CIL</note></app>
+                </p>
             </div>
             <div type="translation" xml:lang="en">
-                <p>“To Petronius Probus. To Petronius Probus, of clarissimus rank, candidate quaestor, urban praetor, proconsul of Africa, praetorian prefect for four times, ordinary consul, sublime ...”</p>
+                <p>“To Petronius Probus. To Petronius Probus, of clarissimus rank, candidate quaestor, urban praetor, proconsul of Africa, praetorian prefect four times, ordinary consul, sublime ...”.</p>
             </div>
             <div type="translation" xml:lang="fr">
-                <p>“...”</p>
+                <p>“À Petronius Probus. À Petronius Probus, clarissime, questeur candidat, préteur urbain, proconsul d’Afrique, préfet du prétoire quatre fois, consul ordinaire, sublime ...”.</p>
             </div>
             <div type="translation" xml:lang="it">
-                <p>“A Petronius Probus. Al chiarissimo Petronio Probo, questore candidato, pretore urbano, proconsole d’Africa, prefetto del pretorio quattro volte, console ordinario, sublime...”</p>
+                <p>“A Petronius Probus. Al chiarissimo Petronio Probo, questore candidato, pretore urbano, proconsole d’Africa, prefetto del pretorio quattro volte, console ordinario, sublime ...”.</p>
             </div>
             <div type="commentary">
                 <p>...</p>
@@ -132,8 +151,7 @@
             <div type="bibliography" subtype="editions">
                 <p>
                     <bibl>Paribeni 1933, p. 494, nrr. 168-169 = <bibl><ref>AE 1934, 0160</ref></bibl></bibl>
-                    <bibl><ref>CIL 06, 41342a</ref>, with photo</bibl>
-                    <bibl><ref>Porena forthcoming, pp. 211-212, nr. 6</ref></bibl>
+                    <bibl><ref>CIL 06, 41342a</ref> (with photo)</bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="images">
@@ -150,8 +168,34 @@
             </div>
             <div type="bibliography" subtype="other">
                 <p>
-                    <bibl>Paribeni R., Roma. Iscrizioni dei Fori imperiali, in Atti della Accademia Nazionale dei Lincei. Notizie degli Scavi di Antichità, 1933, 431-523</bibl> 
-                    <bibl>Porena P., Appendice. Selezione di fonti sulla carriera prefettizia di Sex. Petronius Probus, in Bigi F., Tantillo I. (edd.), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa forthcoming, 211-212</bibl>
+                    <bibl>Bauer F.A., Stadt, Platz und Denkmal in der Spätantike. Untersuchungen zur Ausstattung des öffentlichen Raums in den spätantiken Städten Rom, Konstantinopel und Ephesos, Mainz am Rhein 1996</bibl>
+                    <bibl>Cameron A., Polyonomy in the Late Roman Aristocracy: the Case of Petronius Probus, JRS, 75, 1985, 164-182</bibl>
+                    <bibl>Chastagnol A., Les Fastes de la Préfecture de Rome au Bas-Empire, Paris 1962</bibl>
+                    <bibl>Chenault R., Statues of Senators in the Forum of Trajan and the Roman Forum in Late Antiquity, JRS 102, 2012, 103-132</bibl>
+                    <bibl>Curran J., From Jovian to Theodosius, in Av. Cameron, P. Garnsey (eds), The Cambridge Ancient History, XIII/2. The Late Empire, AD 337-425, Cambridge 1998, 78-110</bibl>
+                    <bibl>Errington R.M., Roman Imperial Policy from Julian to Theodosius, Chapel Hill 2006</bibl>
+                    <bibl>Fleury Ph., Madeleine S., Le forum de Trajan au IVe s. p.C.: l’apport des technologies 3D et de l’interactivité, in Vergnieux R., Delevoie C. (édd.), Virtual Retrospect: 2013, Bordeaux 2015</bibl>
+                    <bibl>Hubeñak F., Valentiniano II: una víctima de tiempos confusos, SER, 14, 2008, 209-241</bibl>
+                    <bibl>Jones A.H.M., Collegiate Prefectures, JRS, 54, 1964, 78-89 (= Id., The Roman Economy, Oxford 1974, 375-395)</bibl>
+                    <bibl>Kalas G., Portraits of Poets and the Lecture Halls in the Forum of Trajan: Masking Cultural Tensions in Late Antique Rome, in Kalas G., van Dijk A. (eds), Urban Developments in Late Antique and Medieval Rome. Revising the Narrative of Renewal, Amsterdam 2021, 75-108</bibl>
+                    <bibl>Lizzi Testa R., Senatori, popolo, papi. Il governo di Roma al tempo dei Valentiniani, Bari 2004</bibl>
+                    <bibl>Machado C., Urban space and aristocratic power Late Antique Rome, AD 270-535, Oxford 2019</bibl>
+                    <bibl>Matthews J.F., Western Aristocracies and the Imperial Court, A.D. 364-425, Oxford 1975</bibl>
+                    <bibl>McEvoy M., Child Emperor Rule in the Late Roman West, AD 367-455, Oxford 2013</bibl>
+                    <bibl>Niquet H., Monumenta virtutum titulique. Senatorische Selbstdarstellung im spätantiken Rom im Spiegel der epigraphischen Denkmäler, Stuttgart 2000</bibl>
+                    <bibl>Omissi A., Emperors and Usurpers in the later Roman Empire. Civil war, panegyric, and the construction of legitimacy, Oxford 2018</bibl>
+                    <bibl>Palanque J.-R., L’Empereur Maxime, in Les Empereurs romains d’Espagne, Colloque International Madrid-Italica, 31 mars-6 avril 1964, Paris 1965, 255-267</bibl>
+                    <bibl>Paribeni R., Roma. Iscrizioni dei Fori imperiali, in Atti della Accademia Nazionale dei Lincei. Notizie degli Scavi di Antichità, 1933, 431-523</bibl>
+                    <bibl>Pergami F., Sulla istituzione del defensor civitatis, SDHI, 61, 1995, 413-431</bibl>
+                    <bibl>Porena P., Le iscrizioni del Pretorio di Gortyna e la carriera prefettizia di Sex. Petronius Probus, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020a, 87-141</bibl>
+                    <bibl>Porena P., Ipotesi sull’istituzione di una prefettura del pretorio autonoma d’Illirico nel decennio 378-387, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020b, 143-166</bibl>
+                    <bibl>Porena P., Appendice. Selezione di fonti sulla carriera prefettizia di Sex. Petronius Probus, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020c, 211-216</bibl>
+                    <bibl>Raimondi M., Valentiniano I e la scelta dell’Occidente, Alessandria 2001</bibl>
+                    <bibl>Salomies O., Réflexion sur le développement de l’onomastique de l’aristocratie romaine du Bas-Empire, in C. Badel, C. Settipani C. (éd.), Les Stratégies familiales dans l’Antiquité tardive, Paris 2012, 1-26</bibl>
+                    <bibl>Salway B., What’s in a Name ? A Survey of Roman Onomastic Practice from c. 700 B.C. to A.D. 700, JRS, 84, 1994, 124-145</bibl>
+                    <bibl>Szidat J., Gaul and the Roman Emperor in the Fourth Century, in J. Wienand (ed.), Contested Monarchy: Integrating the Roman Empire in the Fourth Century AD, Oxford-New York 2015, 119-134</bibl>
+                    <bibl>Vera D., I rapporti tra Magno Massimo, Teodosio e Valentiniano II nel 383-384, Athenaeum, 53, 1975, 267-301</bibl>
+                    <bibl>Vera D., Le statue del Senato di Roma in onore di Flavio Teodosio e l’equilibrio dei poteri imperiali in età teodosiana, Athenaeum, 57, 1979, 381-403</bibl>
                 </p>
             </div>
             
@@ -170,9 +214,10 @@
                     <p n="8.1">v(iro) c(larissimo)</p>
                     <p n="8.2">[praef(ecto)] praetorio qu[ater]</p>
                     <p n="8.3"></p>
-                    <p n="8.6">qu[ater]</p>
+                    <p n="8.6">quater</p>
                     <p n="8.11"></p>
                     <p n="8.13"></p>
+                    <p n="8.14"></p>
                 </div>
             </div>
         </body>

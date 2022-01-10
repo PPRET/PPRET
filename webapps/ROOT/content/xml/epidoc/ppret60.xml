@@ -26,12 +26,12 @@
                 </listPerson>
                 <msDesc>
                     <msIdentifier>
-                        <repository ref="#Capua">Museo Nazionale Campano di Capua</repository>
-                        <idno type="invNo">inv. 5</idno>
+                        <repository ref="#Capua">Museo Nazionale Campano di Capua (Palazzo Antignano)</repository>
+                        <idno type="invNo">Cortile secondario, inv. nr. 5</idno>
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect Probus</term>
+                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect Petronius Probus</term>
                             <term type="rhythm" ref="#prose">prose</term>
                         </summary>
                         <textLang mainLang="la">Latin</textLang>
@@ -44,26 +44,26 @@
                                     <objectType ref="#base">statue base</objectType>
                                     <dimensions>
                                         <height>111</height>
-                                        <width>65</width>
+                                        <width>66</width>
                                         <depth>67</depth>
                                     </dimensions>
-                                    <rs type="inscribed_field_reuse">no</rs>
-                                    <rs type="monument_reuse">no</rs>
+                                    <rs type="inscribed_field_reuse">yes</rs>
+                                    <rs type="monument_reuse">uncertain</rs>
                                     <rs type="opistographic">no</rs>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>One inscribed field (frons).</p>
+                                    <p>One inscribed field (<foreign>frons</foreign>).</p>
                                     <rs type="execution" ref="#chiselled">chiselled</rs>
-                                    <rs type="preservation" ref="#fragmentary">Fragmentary: the inscription is partially broken on the right.</rs>
+                                    <rs type="preservation" ref="#fragmentary">Fragmentary: the inscription is partially broken on the right side of the epigraphic field (lacuna on right-hand side of the first five lines).</rs>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
                                 <term ref="#square_capitals">late Roman monumental capitals</term>
-                                <height>5 / 5.3</height>
+                                <height>4.5 / 5</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -71,15 +71,15 @@
                         <origin>
                             <origPlace>
                                 <placeName type="ancient_city">Capua</placeName>
-                                <placeName type="modern_city">Capua (Italy)</placeName>
+                                <placeName type="modern_city">Santa Maria Capua Vetere (Caserta - Italy)</placeName>
                                 <placeName type="province">Campania</placeName>
                                 <placeName type="diocese">Italiciana</placeName>
                                 <placeName type="prefecture">Italia Illyricum Africa</placeName>
-                                <placeName type="ancient_location" ref="#public" cert="low">public space (?)</placeName>
+                                <placeName type="ancient_location" ref="#public">public space</placeName>
                             </origPlace>
                             <origDate period="#p8" notBefore="0381" notAfter="0383">381/383 AD</origDate>
                         </origin>
-                        <provenance type="found">found in 1955 in <placeName ref="#">Capua</placeName> along with the base for Anicius Paulinus</provenance>
+                        <provenance type="found">found in 1955 in modern <placeName ref="#">Capua</placeName> (ancient Casilinum), along with another base for Anicius Paulinus, in a private house facing the Cathedral of Santa Maria Assunta (formerly Santi Stefano e Agata)</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -106,36 +106,37 @@
                     </ab>
             </div>
             <div type="apparatus">
-                <p>Edition based on Chioffi 2005, with some original suggestions by Porena.</p>
+                <p>Edition based on Porena 2020a, p. 111.</p>
                 <p>
-                    <app loc="2"><note>et s<gap reason="lost" extent="unknown" unit="character"/>: Chioffi 2005</note></app>
-                    <app loc="2-5"><note>proconsuli Africae et s[imul] / uno eodemque tempor(e) et[iam] / praetorio prefectura pol[lenti], / consuli ordinario: Barbieri 1971; proconsuli Africae et s(acra) [v(ice) iud(icanti)], / uno eodemque tempore (e)t [inde ?] / praetorio prefectura pol[lenti], / consuli ordinario: Mazzarino 1974, p. 335, Giardina 1983, p. 171; proconsuli Africae et s(acra) [v(ice) iud(icanti)], / uno eodemque tempore et [in] / praetorio pr(a)efectura polle[nti et] / consuli ordinario: Chastagnol 1982; proconsuli Africae et s(acra) [v(ice) iud(icanti)], / uno eodemque tempore et[iam] / praetorio prefectura pol[lenti], / consuli ordinario: Cameron 1985</note></app>
-                    <app loc="3"><note>tempor(e) et <gap reason="lost" extent="unknown" unit="character"/>: Chioffi 2005</note></app>
-                    <app loc="4"><note>pr(a)efectura pol[lenti]: Chioffi 2005</note></app>
-                    <app loc="6"><note>praestanti: Chioffi 2005</note></app>
+                    <app loc="1"><note><unclear>Cl</unclear>audio, Mazzarino 1974</note></app>
+                    <app loc="2"><note>proconsuli Africae et s<supplied reason="lost">imul</supplied>, Barbieri 1971, LSA; proconsuli Africae et s(acra) <supplied reason="lost">v(ice) iud(icanti)</supplied>, Mazzarino 1974, Chastagnol 1982, Cameron 1985, EDR; et s<gap reason="lost" extent="unknown" unit="character"/>, Chioffi 2005</note></app>
+                    <app loc="3"><note>uno eodemque tempor(e) et<supplied reason="lost">iam</supplied>, Barbieri 1971, LSA, EDR; uno eodemque tempore (e)t <supplied reason="lost" cert="low">inde</supplied>, Mazzarino 1974; uno eodemque tempore et <supplied reason="lost">in</supplied>, Chastagnol 1982; uno eodemque tempore et<supplied reason="lost">iam</supplied>, Cameron 1985; uno eodemque tempor(e) et <gap reason="lost" extent="unknown" unit="character"/>, Chioffi 2005</note></app>
+                    <app loc="4"><note>praetorio prefectura pol<supplied reason="lost">lenti</supplied>, Barbieri 1971, Mazzarino 1974, Giardina 1983; praetorio pr(a)efectura polle<supplied reason="lost">nti et</supplied>, Chastagnol 1982; praetorio pr(a)efectura pol<supplied reason="lost">lenti</supplied>, Chioffi 2005</note></app>
+                    <app loc="6"><note>praestanti: Barbieri 1971, Mazzarino 1974, Chastagnol 1982, Cameron 1985, Chioffi 2005</note></app>
+                    <app loc="8"><note><supplied reason="lost">?et omnia</supplied> collegia, Cameron 1985</note></app>
                 </p>
             </div>
             <div type="translation" xml:lang="en">
-                <p>“To Claudius Petronius Probus, of clarissimus rank, proconsul of Africa and with jurisdiction on behalf of the emperor, at the same time in charge of his second and third praetorian prefecture, ordinary consul, superior for nobility and munificence, patron by origo, the regions and the colleges set up.”</p>
+                <p>“To Claudius Petronius Probus, of clarissimus rank, proconsul of Africa with jurisdiction on behalf of the Emperor, holding the second and third praetorian prefecture both at the same time, ordinary consul, prominent for his nobility and munificence, patron since his family origin, the regions ... and the colleges set up”.</p>
             </div>
             <div type="translation" xml:lang="fr">
-                <p>“...”</p>
+                <p>“À Claudius Petronius Probus, clarissime proconsul d’Afrique avec juridiction en lieu et place de l’Empereur, tenant en même temps la deuxième et troisième préfecture du prétoire, consul ordinaire, supérieur en noblesse et munificence, patron lié par l’origine familiale, les régions .... les collèges ont dressé”.</p>
             </div>
             <div type="translation" xml:lang="it">
-                <p>“Al chiarissimo Claudius Petronius Probus, proconsole d’Africa con giurisdizione in vece dell’imperatore, che si fregia nel medesimo periodo della seconda e terza prefettura del pretorio, console ordinario, superiore per nobiltà e per munificenza, patrono legato dall’<foreign>origo</foreign>, le regioni ... i collegi posero.”</p>
+                <p>“Al chiarissimo Claudius Petronius Probus, proconsole d’Africa con giurisdizione in vece dell’imperatore, che riveste nello stesso momento la seconda e la terza prefettura del pretorio, console ordinario, superiore per nobiltà e per munificenza, patrono legato dall’origine familiare, le regioni ... i collegi posero”.</p>
             </div>
             <div type="commentary">
                 <p>...</p>
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
-                    <bibl><ref>Barbieri 1971, p. 298</ref>, with photo = <bibl><ref>AE 1972, 0076</ref></bibl></bibl>
-                    <bibl><ref>Mazzarino 1974, p. 335</ref></bibl>
+                    <bibl><ref>Barbieri 1971, p. 298</ref> (with photo: Tav. III, fig. 4; Tav. IV, fig. 5; Tav. V, fig. 6; Tav. VI, fig. 7) = <bibl><ref>AE 1972, 0076</ref></bibl></bibl>
+                    <bibl><ref>Mazzarino 1974, p. 335</ref> (with photo: Tav. VII a-b)</bibl>
                     <bibl><ref>Chastagnol 1982, p. 549</ref></bibl>
-                    <bibl><ref>Giardina 1983, p. 171</ref></bibl>
-                    <bibl><ref>Cameron 1985, p. 164</ref> = <bibl><ref>AE 1985, 0076</ref></bibl>= <bibl><ref>AE 1985, 0273</ref></bibl></bibl>
-                    <bibl><ref>Chioffi 2005, nr. 111a</ref></bibl> 
-                    <bibl><ref>Porena forthcoming, pp. 211-212, nr. 5</ref></bibl>
+                    <bibl><ref>Giardina 1983, p. 171</ref> (with photo: Tav. 1)</bibl>
+                    <bibl><ref>Cameron 1985, p. 164</ref> = <bibl><ref>AE 1985, 0273</ref></bibl></bibl>
+                    <bibl><ref>Chioffi 2005, p. 110, nr. 111 bis</ref> (with photo: Fig. 107 bis, not legible)</bibl> 
+                    <bibl><ref>Porena 2020a, p. 111 and p. 214, nr. 5</ref> (with photo: p. 109, fig. 66-67; p. 111, fig. 68; reconstructive drawing and relief p. 112, fig. 69; diplomatic edition p. 110)</bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="images">
@@ -153,12 +154,19 @@
             <div type="bibliography" subtype="other">
                 <p>
                     <bibl>Barbieri G., Nuove iscrizioni di Capua, in Terza Miscellanea greca e romana, Roma 1971, 291-305</bibl>
+                    <bibl>F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020</bibl>
                     <bibl>Cameron A., Polyonomy in the Late Roman Aristocracy: the Case of Petronius Probus, JRS, 75, 1985, 164-182</bibl>
+                    <bibl>Camodeca G., Ricerche su Puteoli tardoromana (fine III-IV secolo), Puteoli, 4/5, 1980-1981, 59-128</bibl>
+                    <bibl>Chastagnol A., Les fastes de la préfecture de Rome au Bas-Empire, Paris 1962</bibl>
                     <bibl>Chastagnol A., L’iscription de Petronius Probus à Capoue, in Epigrafia e ordine senatorio, I (Tituli 4), Roma 1982, 547-551</bibl>
-                    <bibl>Chioffi L., Museo provinciale Campano di Capua. La raccolta epigrafica, Capua 2005, nr. 111a</bibl> 
+                    <bibl>Chioffi L., Museo provinciale Campano di Capua. La raccolta epigrafica, Capua 2005, nr. 111a</bibl>
+                    <bibl>Feissel D., Notes d’épigraphie chrétienne (VII), BCH, 108, 1984, 545-579</bibl>
                     <bibl>Giardina A., Lettura epigrafica e carriere aristocratiche. Il caso di Petronio Probo, RFIC, 111, 1983, 170-182</bibl>
                     <bibl>Mazzarino S., Sulla carriera prefettizia di Sex. Petronio Probo, in Id. Antico, tardoantico ed èra costantiniana, I, Bari 1974, 328-332</bibl>
-                    <bibl>Porena P., Appendice. Selezione di fonti sulla carriera prefettizia di Sex. Petronius Probus, in Bigi F., Tantillo I. (edd.), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa forthcoming, 211-212</bibl>
+                    <bibl>Olszaniec S., Prefektura praetorio Italii, Illyrikum i Afryki (312-425 n.e.), Toruń 2014</bibl>
+                    <bibl>Porena P., Le iscrizioni del Pretorio di Gortyna e la carriera prefettizia di Sex. Petronius Probus, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020a, 87-141</bibl>
+                    <bibl>Porena P., Ipotesi sull’istituzione di una prefettura del pretorio autonoma d’Illirico nel decennio 378-387, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020b, 143-166</bibl>
+                    <bibl>Porena P., Appendice. Selezione di fonti sulla carriera prefettizia di Sex. Petronius Probus, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020c, 211-216</bibl>
                 </p>
             </div>
             
@@ -170,18 +178,21 @@
                 <div type="commentary" n="2">
                     <p n="2.a"></p>
                     <p n="2.1"></p>
-                    <p n="2.10">nobilita[te] munificentiaque praestante</p>
+                    <p n="2.9">nobilita[te] munificentiaque praestante (<foreign>sic</foreign>), originali patrono</p>
+                    <p n="2.10">nobilita[te] munificentiaque praestante (<foreign>sic</foreign>), originali patrono</p>
                     <list n="2.11">
+                        <item n="2.11.a"></item>
+                        <item n="2.11.b"></item>
                         <item n="2.11.e"></item>
                     </list>
                 </div>
                 
                 <div type="commentary" n="8">
-                    <p n="8.1">v(iro) [c(larissimo)]</p>
-                    <p n="8.2">II [et III] praetorio prefectura pol[lent(i)]</p>
+                    <p n="8.1">vir clarissimus</p>
+                    <p n="8.2">uno eodemque tempore I̅Ị̅ [et I̅I̅I̅] / praetorio prefectura (<foreign>sic</foreign>) pol[lent(i)]</p>
                     <p n="8.3"></p>
-                    <p n="8.4"></p>
-                    <p n="8.6">II [et III]</p>
+                    <p n="8.6">II et III</p>
+                    <p n="8.9"></p>
                     <p n="8.11"></p>
                     <p n="8.13"></p>
                 </div>

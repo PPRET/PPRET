@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Inscription in honour of the praet. prefect Probus from Rome made by the council of Venetia and Histria</title>
+                <title>Inscription in honour of the praet. prefect Probus from Rome (Pincio) made by the council of Venetia and Histria</title>
                 <editor role="edition">Pierfrancesco Porena</editor>
                 <editor role="encoding">Irene Vagionakis</editor>
             </titleStmt>
@@ -31,7 +31,7 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect Probus</term>
+                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect Petronius Probus</term>
                             <term type="rhythm" ref="#prose">prose</term>
                         </summary>
                         <textLang mainLang="la">Latin</textLang>
@@ -44,28 +44,27 @@
                                     <objectType ref="#base">statue base</objectType>
                                     <dimensions>
                                         <height>82</height>
-                                        <width>74</width>
+                                        <width>74.5</width>
                                         <depth>43</depth>
                                     </dimensions>
-                                    <rs type="inscribed_field_reuse">no</rs>
-                                    <rs type="monument_reuse">yes</rs>
-                                    <rs type="opistographic">yes: later inscription on latus sin.</rs>
+                                    <rs type="inscribed_field_reuse">yes (the frontal epigraphic field is deeply recessed in relation to the moulding, which is possibly the result of the cancelling of an earlier inscription, so also LSA)</rs>
+                                    <rs type="monument_reuse">uncertain</rs>
+                                    <rs type="opistographic">no</rs>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                     <p>Two inscribed fields (frons + latus sin.).</p>
+                                     <p>Two inscribed fields: frontal field (<foreign>frons</foreign>) for the main inscription and left side (<foreign>latus sin</foreign>.) for engraving the date of dedication of the statue.</p>
                                     <rs type="execution" ref="#chiselled">chiselled</rs>
-                                    <rs type="preservation" ref="#undamaged">Undamaged.</rs>
-                                   <p n="opistographic">Opistographic: on the opposite field ILBulg I.2, 8b = AE 1927, 45 = AE 1995, 1328 = Lungarova 2012, 136b (discussion in LSA 2596); a sacred dedication in honour of Liber Pater, Conservator of two unnamed Augustus (Valentinian I and Valens), made by Flavius Zosimus, <foreign>officialis</foreign> of the province of Asia, promoted <foreign>primipilarius</foreign>; cfr. Bresson, Drew-Bear, Zuckemann 1995; Lungarova 2012, 136b. The monument for Diocletian made by the praetorian prefects in 290/291 was reused about 75 years later.</p>
+                                    <rs type="preservation" ref="#undamaged">Undamaged. The text is left-aligned (‘flagged’) with blanks on the right-hand side of the lines 2-3 and 5-12; the <foreign>gentilicium</foreign> of the honoree on line 8 and his role as <foreign>patronus</foreign> on line 15 are centred.</rs>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <term ref="#square_capitals">late Roman elegant square capitals</term>
                                 <height>Frons: 2.2 / 3.2</height>
-                                <height>Latus: 4 / 4.5</height>
+                                <height>Latus sin.: 4 / 4.5</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -77,12 +76,11 @@
                                 <placeName type="province">Urbs</placeName>
                                 <placeName type="diocese">Italiciana</placeName>
                                 <placeName type="prefecture">Italia Illyricum Africa</placeName>
-                                <placeName type="ancient_location" ref="#private" cert="low">private building (?): Pincio, <foreign>domus Pinciana</foreign></placeName>
+                                <placeName type="ancient_location" ref="#private">private building (very probably in the <foreign>domus Pinciana</foreign>)</placeName>
                             </origPlace>
                             <origDate period="#p7" when="0378-08-08" precision="high">August 8<hi rend="superscript">th</hi>, 378 AD</origDate>
                         </origin>
-                        <provenance type="found"><placeName ref="#Roma">Rome</placeName>, base of statue engraved on two sides, found in 1742 behind the apse of the church of Trinità de’ Monti.</provenance>
-                        <provenance type="observed">Seen and verified text by Angius 2020.</provenance>
+                        <provenance type="found"><placeName ref="#Roma">Rome</placeName>, statue base engraved on two sides, found in 1742 behind the apse of the church of the Trinità de’ Monti (Pincian Hill)</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -105,14 +103,14 @@
                         <lb n="5"/>humanitatis auctori,
                         <lb n="6"/>moderationis patrono,
                         <lb n="7"/>devotionis antistiti,
-                        <lb n="8"/>Petronio
+                        <lb n="8"/><space extent="unknown" unit="character"/> Petronio <space extent="unknown" unit="character"/>
                         <lb n="9"/>Probo <g ref="hedera"/> <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> <g ref="hedera"/>, proconsuli Africae,
                         <lb n="10"/>praefecto praetorio
                         <lb n="11"/>per Illyricum, Italiam et Africam,
                         <lb n="12"/>consuli ordinario,
                         <lb n="13"/>ob insignia erga se remediorum genera,
                         <lb n="14"/>Veneti adque Histri peculiares eius
-                        <lb n="15"/>patrono praestantissimo.
+                        <lb n="15"/><space extent="unknown" unit="character"/> patrono praestantissimo. <g ref="large hedera"/>
                     </ab>
                 </div>
                 <div type="textpart" subtype="face" n="latus sin.">
@@ -127,34 +125,52 @@
                 </div>
             </div>
             <div type="apparatus">
-                <p>Edition based on CIL.</p>
+                <p>Edition based on CIL and inspection of the original engraving. Text seen and verified by Porena 2018, Angius 2020.</p>
+                <p><foreign>frons</foreign></p>
+                <p>
+                    <app loc="11"><note>Illirycum, La Rocca, Parisi Presicce 2010 (transcr. by C. Corradetti)</note></app>
+                    <app loc="13"><note>CENERA, Gordon 1965</note></app>
+                    <app loc="14"><note>peculia Reseius, La Rocca, Parisi Presicce 2010  (transcr. by C. Corradetti)</note></app>
+                    </p>
+                <p><foreign>latus sin.</foreign></p>
+                <p>
+                    <app loc="6"><note>Augg(ustorum), LSA 272</note></app>
+                </p>
             </div>
+            
             <div type="translation" xml:lang="en">
-                <p>“To the summit of the nobility, light of letters and eloquence,example of authority, master of foresight and government, promoter of humanity, patron of moderation, high priest of devotion, Petronius Probus, of clarissimus rank, proconsul of Africa, Praetorian Prefect of Illyricum, Italy and Africa, ordinary consul. On account of the extraordinary types of relief shown towards them, by his own men in Venetia and Histria to their most outstanding patron.</p>
-                <p>Dedicated on August 8th in the sixth consulship of our master Valens Augustus and the second of our master Valentinian Augustus.”</p>
+                <p>“To the summit of the nobility, to the light of letters and eloquence, to the model of authority, to the master of provident administration, to the promoter of humanity, to the patron of moderation, to the champion of devotion, to Petronius Probus, of clarissimus rank, proconsul of Africa, praetorian prefect of Illyricum, Italia and Africa, ordinary consul, for the extraordinary forms of help towards them, the inhabitants of Venetia and Istria, his own particular clients, (dedicate) to their most generous patron.</p>
+                <p>Dedicated on the sixth day before the Ides of August, during the consulate of our masters the Augusti Valens for the sixth time and Valentinianus for the second time”.</p>
             </div>
             <div type="translation" xml:lang="fr">
-                <p>“Sommet de noblesse, phare des lettres et de l’éloquence, modèle d’autorité, maître des mesures et de l’organisation, promoteur du genre humain, champion de la modération, à Petronius Probus, homme très clair, proconsul d’Afrique, préfet du prétoire de l’Italie de illyricum et de l’Afrique, consul ordinaire, pour l’aide extraordinaire qu’il a apportée à eux, les Vénitiens et aux Histri, ses clients particuliers, à leur excellent patron.</p>
-                <p>Dédiée le sixième jour avant les Ides d’août, pendant le consulat de nos seigneurs Augusti Valens pour la sixième fois et Valentinien pour la deuxième fois.”</p>
+                <p>(élaboration de Chastagnol 19912, p. 141)</p>
+                <p>“Au sommet de la noblesse, à la lumière des lettres et de l’éloquence, à l’exemple d’autorité, au maître des dispositions prévoyantes, au promoteur de l’humanité, au champion de la modération, au ‘prêtre’ de la dévotion, à Petronius Probus, clarissime proncosul d’Afrique, préfet du prétoire pour l’Illyricum, l’Italie et l’Afrique, consul ordinaire, pour les formes extraordinaires d’aide qu’il leur a prodiguées, les Vénètes et les Istriens, ses clients particuliers, (dédient) à leur patron très remarquable.</p>
+                <p>Dédiée le sixième jour avant les ides d’Août, sous le consulat de nos seigneurs les Augustes Valens pour la sixième fois et Valentinien pour la deuxième fois”.</p>
             </div>
             <div type="translation" xml:lang="it">
-                <p>“Culmine della nobiltà, faro delle lettere e dell’eloquenza, modello di autorità, maestro dei provvedimenti e dell’organizzazione, promotore del genere umano, campione di moderazione, al chiarissimo Petronius Probus, proncosole d’Africa, prefetto del pretorio di Illirico Italia e Africa, console ordinario, per gli straordinari interventi di aiuto verso di loro, i Veneti e gli Istri, suoi clienti particolari, al loro eccellentissimo patrono.</p>
-                <p>Dedicata il sesto giorno prima delle idi di agosto, durante il consolato dei nostri signori Augusti Valente per la sesta volta e Valentiniano per la seconda volta.”</p>
+                <p>“Al culmine della nobiltà, al faro delle lettere e dell’eloquenza, al modello di autorità, al maestro dei provvedimenti e delle disposizioni (amministrative), al promotore del genere umano, al campione di moderazione, all’antesignano del doveroso affetto (verso i principi e verso i clienti), al chiarissimo Petronius Probus, proncosole d’Africa, prefetto del pretorio di Illyricum Italia e Africa, console ordinario, per le straordinarie forme di aiuto verso di loro, i Veneti e gli Istri, suoi clienti particolari, (dedicano) al loro disponibilissimo patrono.</p>
+                <p>Dedicata il sesto giorno prima delle idi di agosto, durante il consolato dei nostri signori Augusti Valente per la sesta volta e Valentiniano per la seconda volta”.</p>
             </div>
             <div type="commentary">
                  <p>The inscription was made by the provincial council of the province of venetia et Histria to their patron, the former praetorian prefect of Italy Illyricum Africa, the very powerful Petronius Probus. His family had extensive properties in the Venetia. The statue was placed by the clients in the atrium of the senator’s <foreign>domus Pinciana</foreign> in Rome, complete with the <foreign>cursus honorum</foreign> ruled and known up to that date. The explicit date (8<hi rend="superscript">th</hi> August 378) allows us to establish that at that date Probus had been praetorian prefect only once.</p>
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
+                    <bibl>(only significant for textual interpretation)</bibl>
+                    <bibl><ref>CIL 06, 01751</ref> (cf. pp. 3174, 3813, 4751)</bibl>
                     <bibl><ref>ILS 1265</ref></bibl>
-                    <bibl><ref>CIL 06, 1751</ref> (cfr. pp. 3174, 3813)</bibl>
-                    <bibl><ref>La Rocca, Parisi Presicce 2010, p. 515, nr. 20</ref></bibl>
+                    <bibl><ref>Gordon 1965, pp. 135-137, nr. 333</ref> (with photo, Pl. 159, a-b)</bibl>
+                    <bibl><ref>Almar 1990 p. 300, nr. 196</ref> (with photo)</bibl>
+                    <bibl><ref>La Rocca, Parisi Presicce 2010, p. 515, nr. 20</ref> (with photo)</bibl>
                     <bibl><ref>Porena forthcoming, pp. 211-212, nr. 4</ref></bibl>
+                    <bibl><ref>Wang 2020/21</ref> (with high quality photo)</bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="images">
                 <p>
-                    <bibl><ref>SupplIt Imagines - Roma I, 159</ref></bibl> 
+                    <bibl><ref>Gordon 1951, Pl. CVIII, IVa</ref></bibl>
+                    <bibl><ref>Mazzarino 1989, tab. XII</ref></bibl>
+                    <bibl><ref>SupplIt Imagines - Roma 01, p. 107, nr. 159 (1-2)</ref></bibl> 
                 </p>
             </div>
             <div type="bibliography" subtype="links">
@@ -166,8 +182,53 @@
             </div>
             <div type="bibliography" subtype="other">
                 <p>
-                    <bibl>La Rocca E., Parisi Presicce C. (edd.), Le sculture del Palazzo Nuovo. Musei Capitolini. I, Roma 2010</bibl>
-                    <bibl>Porena P., Appendice. Selezione di fonti sulla carriera prefettizia di Sex. Petronius Probus, in Bigi F., Tantillo I. (edd.), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa forthcoming, 211-212</bibl>
+                    <bibl>Almar K.P., Inscriptiones latinae. Eine illustrierte Einführung in die lateinische Epigraphik, Odense 1990</bibl>
+                    <bibl>Badel C., La «nobilitas» dans l’épigraphie latine impériale, MEFRA, 114, 2002, 969-1009</bibl>
+                    <bibl>Badel C., La noblesse de l’Empire romain. Les masques et la vertu, Paris 2005</bibl>
+                    <bibl>Bauer F.A., Stadt, Platz und Denkmal in der Spätantike. Untersuchungen zur Ausstattung des öffentlichen Raums in den spätantiken Städten Rom, Konstantinopel und Ephesos, Mainz 1996</bibl>
+                    <bibl>Bigi F., Tantillo I. (edd.), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020</bibl>
+                    <bibl>Bodnaruk M., Production of distinction: the representation of senatorial elites in the Later Roman Empire, 306-395 (PhD Dissertation), Budapest 2019</bibl>
+                    <bibl>Broise H., Dewailly M., Jolivet V., Horti Luculliani: un palazzo tardoantico a Villa Medici, in S. Ensoli, E. La Rocca (a cura di), Aurea Roma. Dalla città pagana alla città cristiana, Roma 2000, 113-115</bibl>
+                    <bibl>Cameron Al., Polyonomy in the late Roman aristocracy. The case of Petronius Probus, JRS, 75, 1985, 164-182</bibl>
+                    <bibl>Cameron Al., Petronius Probus, Aemilius Probus and the Transmission of Nepos: a Note on late Roman Calligraphers, in J.-M. Carrié, R. Lizzi Testa (éd.), Humana Sapit. Études d’Antiquité Tardive offertes à Lellia Cracco Ruggini, Turnhout 2002, 121-130</bibl>
+                    <bibl>Cameron Al., The Last Pagans of Rome, Oxford 2011</bibl>
+                    <bibl>Cameron Al., Anician Myths, JRS, 102, 2012, 133-171</bibl>
+                    <bibl>Chastagnol A., La Préfecture urbaine à Rome sous le Bas-Empire, Paris 1960</bibl>
+                    <bibl>Chastagnol A., Les fastes de la préfecture de Rome au Bas-Empire, Paris 1962</bibl>
+                    <bibl>Chastagnol A., Le Bas-Empire, Paris 1991 (2nd ed. - 1969)</bibl>
+                    <bibl>Chioffi L., Museo provinciale Campano di Capua. La raccolta epigrafica, Capua 2005</bibl>
+                    <bibl>Feissel D., Notes d’épigraphie chrétienne (VII), BCH, 108, 1984, 545-579</bibl>
+                    <bibl>Gehn U., Ehrenstatuen in spätantiken Häusern Roms, in S. Birk, B. Poulsen (eds), Patrons and Viewers in Late Antiquity, Aarhus 2012,15-30</bibl>
+                    <bibl>Gordon A.E., Seven Latin Inscriptions in Rome, G&amp;R, 20, 1951, 75-92</bibl>
+                    <bibl>Gordon A.E., Album of dated Latin Inscriptions, III/1, Rome and the neighborhood, A.D. 200-525, Berkeley 1965 (III/2, Plates, Berkeley 1965)</bibl>
+                    <bibl>Guidobaldi F., Jolivet V., Domus Pinciana, in LTUR, II (D-G), a cura di E.M. Steinby, Roma 1995, 156-157</bibl>
+                    <bibl>Jolivet V., Sotinel C., Die ‘Domus Pinciana’: eine kaiserliche Residenz in Rom, in Th. Fuhrer (hrsg.), Rom und Mailand in der Spätantike. Repräsentationen städtischer Räume in Literatur, Architektur und Kunst, Berlin-Boston 2012, 137-160; 445-448</bibl>
+                    <bibl>Jones A.H.M., Collegiate Prefectures, JRS, 54, 1964, 78-89 (= Id., The Roman Economy, Oxford 1974, 375-395)</bibl>
+                    <bibl>La Rocca C., Marano Y., Varie III, 10, in Cassiodoro, Varie, II (libri III-V), dir. da A. Giardina, a cura di I. Tantillo, G.A. Cecconi, F. Oppedisano, Roma 2014, 24-25, 217-218</bibl>
+                    <bibl>Lizzi Testa R., Senatori, popolo, papi. Il governo di Roma al tempo dei Valentiniani, Bari 2004</bibl>
+                    <bibl>Machado C., The City as stage. Aristocratic commemorations in Late Antique Rome, in C. Sotinel, E. Rébillard (éd.), Les frontières du profane dans l’Antiquité tardive, Roma 2010, 287-317</bibl>
+                    <bibl>Machado C., Urban space and aristocratic power Late Antique Rome, AD 270-535, Oxford 2019</bibl>
+                    <bibl>Mandray S., Ridolfino Venuti (1705-1763) Antiquaire romain des Lumiéres et fondateur de l’Académie étrusque de Cortone, thèse Paris, Université de la Sorbonne, 2015</bibl>
+                    <bibl>Mazzarino S., Storia sociale del vescovo Ambrogio, Roma 1989</bibl>
+                    <bibl>Näf B., Senatorisches Standesbewusstsein in spätrömischer Zeit, Freiburg (CH) 1995</bibl>
+                    <bibl>Neri V., L’elogio della cultura e l’elogio delle virtù politiche nell’epigrafia latina del IV secolo d.C., Epigraphica 43, 1982, 175-201</bibl>
+                    <bibl>Niquet H., «Monumenta virtutum titulique». Senatorische Selbstdarstellung im spätantiken Rom im Spiegel der epigraphischen Denkmäler, Stuttgart 2000</bibl>
+                    <bibl>Novak D., Anicianae domus culmen, nobilitatis culmen, Klio, 62, 1980, 473-493</bibl>
+                    <bibl>Oppedisano F., Senato e cariche pubbliche nelle «Res gestae» di Ammiano Marcellino, in T. Gnoli (a cura di), Aspetti di Tarda antichità Storici, storia e documenti del IV secolo d.C., Bologna 2019, 213-226</bibl>
+                    <bibl>Pergami F., Sulla istituzione del defensor civitatis, SDHI, 61, 1995, 413-431</bibl>
+                    <bibl>Porena P., Le iscrizioni del Pretorio di Gortyna e la carriera prefettizia di Sex. Petronius Probus, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020a, 87-141</bibl>
+                    <bibl>Porena P., Ipotesi sull’istituzione di una prefettura del pretorio autonoma d’Illirico nel decennio 378-387, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020b, 143-166</bibl>
+                    <bibl>Porena P., Appendice. Selezione di fonti sulla carriera prefettizia di Sex. Petronius Probus, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020c, 211-216</bibl>
+                    <bibl>Salomies O., Réflexion sur le développement de l’onomastique de l’aristocratie romaine du Bas-Empire, in C. Badel, C. Settipani C. (éd.), Les Stratégies familiales dans l’Antiquité tardive, Paris 2012, 1-26</bibl>
+                    <bibl>Salway B., What’s in a Name ? A Survey of Roman Onomastic Practice from c. 700 B.C. to A.D. 700, JRS, 84, 1994, 124-145</bibl>
+                    <bibl>Salzman M.R., Competing claims to «nobilitas» in the western Empire of the Fourth and Fifth Centuries, JECS, 9.3, 2001, 359-385</bibl>
+                    <bibl>Scheibelreiter-Gail V., Inscriptions in the late antique private house: some thoughts about their function and distribution, in S. Birk, B. Poulsen (eds), Patrons and Viewers in Late Antiquity, Aarhus 2012, 135-165</bibl>
+                    <bibl>Schlinkert D., «Ordo senatorius» und «nobilitas». Die Konstitution des Senatsadels in der Spätantike. Mit einem Appendix über den praepositus sacri cubiculi, den “allmächtigen” Eunuchen am kaiserliche Hof, Stuttgart 1996</bibl>
+                    <bibl>Schmidt-Hofner S., Die kaiserlichen Regesten der Jahre 364 bis 375 n. Chr., ZRG, 125, 2008, 498-600</bibl>
+                    <bibl>Settipani C., Continuité gentilice et continuité familiale dans les familles sénatoriales romaines à l’époque impériale: mythe et réalité, Oxford 2000</bibl>
+                    <bibl>SupplIt Imagines - Roma I: Roma, CIL, VI. 1, Musei Capitolini, a cura di G.L. Gregori, M. Mattei, Roma 1999 (Supplementa Italica-Imagines, 1)</bibl>
+                    <bibl>Wang B., Intriguing Career of a Late-antique Senator: Base for a statue honouring Sex. Petronius Probus (con. 371) by his own people, in Latin Epigraphy on location (Seminar Semester 2 2020 - 2021) Vrije Universiteit van Amsterdam (Academia.edu: https://www.academia.edu/39652305/Intriguing_Career_of_a_Late_antique_Senator_Base_for_a_statue_honouring_Sex_Petronius_Probus_con_371_by_his_own_people</bibl>
+                    <bibl>Weisweiler J., From equality to asymmetry: honorific statues, imperial power, and senatorial identity in late-antique Rome, JRA, 25, 2012, 319-350</bibl>
                 </p>
             </div>
             
@@ -192,7 +253,7 @@
                     <p n="8.3"></p>
                     <p n="8.4"></p>
                     <p n="8.9"></p>
-                    <p n="8.12"></p>
+                    <p n="8.11"></p>
                 </div>
             </div>
         </body>
