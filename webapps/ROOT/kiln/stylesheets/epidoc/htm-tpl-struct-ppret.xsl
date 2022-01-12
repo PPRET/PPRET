@@ -716,6 +716,8 @@
 
   <xsl:template match="t:div//t:space[@rend='space']">&#x2003;</xsl:template>
   
+  <xsl:template match="t:div[@type='commentary']//t:lb"><br/></xsl:template>
+  
   <xsl:template name="navigation">
     <xsl:variable name="filename"><xsl:value-of select="//t:idno[@type='filename']"/></xsl:variable>
     <xsl:variable name="list" select="document(concat('file:',system-property('user.dir'),'/all_inscriptions.xml'))//t:list"/>
