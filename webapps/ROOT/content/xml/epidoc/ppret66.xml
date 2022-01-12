@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Inscription in honour of the late praet. prefect Probus from Rome, made by his son Anicius Hermogenianus Olybrius and by his daughter-in-law Anicia Iuliana</title>
+                <title>Inscription in honour of the praet. prefect Probus from Rome by his son Anicius Hermogenianus Olybrius and by his daughter-in-law Anicia Iuliana</title>
                 <editor role="edition">Pierfrancesco Porena</editor>
                 <editor role="encoding">Irene Vagionakis</editor>
             </titleStmt>
@@ -27,11 +27,11 @@
                 <msDesc>
                     <msIdentifier>
                         <repository ref="#Roma">Roma, Musei Capitolini</repository>
-                        <idno type="invNo">NCE 2499</idno>
+                        <idno type="invNo">NCE 2499, ground floor second room to the right, built into the wall upper left-hand side</idno>
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textType" ref="#honorary">Honorary inscription for the late praetorian prefect Probus</term>
+                            <term type="textType" ref="#honorary">Honorary inscription for the praetorian prefect Petronius Probus</term>
                             <term type="rhythm" ref="#prose">prose</term>
                         </summary>
                         <textLang mainLang="la">Latin</textLang>
@@ -47,14 +47,14 @@
                                         <width>49</width>
                                         <depth>unknown</depth>
                                     </dimensions>
-                                    <rs type="inscribed_field_reuse">unknown</rs>
-                                    <rs type="monument_reuse">yes: the inscription has been built into a wall</rs>
+                                    <rs type="inscribed_field_reuse">uncertain</rs>
+                                    <rs type="monument_reuse">no</rs>
                                     <rs type="opistographic">no</rs>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>One inscribed field (frons).</p>
+                                    <p>One inscribed field (<foreign>frons</foreign>).</p>
                                     <rs type="execution" ref="#chiselled">chiselled</rs>
                                     <rs type="preservation" ref="#undamaged">The inscription is undamaged.</rs>
                                 </layout>
@@ -62,8 +62,8 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <term ref="#square_capitals">late Roman monumental capitals</term>
-                                <height>3.5</height>
+                                <term ref="#square_capitals">elegant Late Roman monumental capitals</term>
+                                <height>3.2 / 3.9</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -75,11 +75,11 @@
                                 <placeName type="province">Urbs</placeName>
                                 <placeName type="diocese">Italiciana</placeName>
                                 <placeName type="prefecture">Italia Illyricum Africa</placeName>
-                                <placeName type="ancient_location" ref="#private" cert="low">private space (?)</placeName>
+                                <placeName type="ancient_location" ref="#private">private space</placeName>
                             </origPlace>
-                            <origDate period="#p8" notBefore="0395-01-01" notAfter="0406">post January 1<hi rend="superscript">st</hi>, 395 AD</origDate>
+                            <origDate period="#p8" notBefore="0395" notAfter="0405">395/405 AD</origDate>
                         </origin>
-                        <provenance type="found"><placeName ref="#Roma">Rome</placeName>, Palazzo Cardinal Cesi</provenance>
+                        <provenance type="found"><placeName ref="#Roma">unknown</placeName>; since the 16th Century the inscription is recorded several times in the Cesi cardinal palace near St. Peter’s Basilica in Rome</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -99,45 +99,97 @@
                         <lb n="2"/>Anicianae domus
                         <lb n="3"/>culmini, proconsuli
                         <lb n="4"/>Africae, praefecto
-                        <lb n="5"/>praetorio quater
+                        <lb n="5"/>praetorio quater,
                         <lb n="6"/>Italiae, Illyrici, Afri<lb 
                             break="no" n="7"/>cae, Galliarum, con<lb 
                             break="no" n="8"/>suli ordinario, con<lb 
                             break="no" n="9"/>sulum patri, Anicius
                         <lb n="10"/>Hermogenianus
-                        <lb n="11"/>Olybrius <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan> consul
+                        <lb n="11"/>Olybrius <expan><abbr><hi rend="supraline">v</hi></abbr><ex>ir</ex></expan> <expan><abbr><hi rend="supraline">c</hi></abbr><ex>larissimus</ex></expan> consul
                         <lb n="12"/>ordinarius, et Ani<lb 
-                            break="no" n="13"/>cia Iuliana <expan><abbr>c</abbr><ex>larissima</ex></expan> <expan><abbr>f</abbr><ex>emina</ex></expan>, eius
+                            break="no" n="13"/>cia Iuliana <expan><abbr><hi rend="supraline">c</hi></abbr><ex>larissima</ex></expan> <expan><abbr><hi rend="supraline">f</hi></abbr><ex>emina</ex></expan>, eius
                         <lb n="14"/>devotissimi filii,
-                        <lb n="15"/>dedicarunt.
+                        <lb n="15"/>dedicarunt. <g ref="hedera"/>
                     </ab>
             </div>
             <div type="apparatus">
-                <p>Edition based on CIL.</p>
+                <p>Edition based on CIL and inspection of the original engraving. Text seen and verified by Porena 2018.</p>
                 <p></p>
             </div>
             <div type="translation" xml:lang="en">
-                <p>“To Sextus Petronius Probus, summit of the Anicia family, proconsul of Africa, praetorian prefect for four times, of Italy, Illyricum, Africa, Gauls, ordinary consul, father of consuls, Anicius Hermogenianus Olybrius, of clarissimus rank, ordinary consul, and Anicia Iuliana, of clarissima rank, his most devote children, have dedicated.”</p>
+                <p>“To Sextus Petronius Probus, the most prominent of the Anician House, proconsul of Africa, praetorian prefect four times, of Italy, of Illyricum, of Africa, of Gauls, ordinary consul, father of consuls, Anicius Hermogenianus Olybrius, of clarissimus rank, ordinary consul, and his (wife) Anicia Iuliana, of clarissimus rank, (their) most devoted children, dedicated (this monument)”.</p>
             </div>
             <div type="translation" xml:lang="fr">
-                <p>“...”</p>
+                <p>(Chastagnol 19912, p. 141)</p>
+                <p>“À Sextus Petronius Probus, personnage le plus prestigieux de la famille des Anicii, proconsul d’Afrique, préfet du prétoire quatre fois d’Ilatie, Illyricum, Afrique et Gaules, consul odinaire, père de consuls, Anicius Hermogenianus Olybrius, clarissime, consul ordinaire, et son épouse clarissime, Anicia Juliana, ses enfants très dévoués, ont dédié (ce monument)”.</p>
             </div>
             <div type="translation" xml:lang="it">
-                <p>“A Sextus Petronius Probus, culmine della casata Anicia, proconsole d’Africa, prefetto del pretorio quattro volte, d’Italia, d’Illirico, d’Africa, delle Gallie, console ordinario, padre di consoli, Anicius Hermogenianus Olybrius, chiarissimo, console ordinario, e Anicia Iuliana, chiarissima, suoi figli devotissimi, dedicarono.”</p>
+                <p>“A Sextus Petronius Probus, culmine della casata Anicia, proconsole d’Africa, prefetto del pretorio quattro volte, d’Italia, d’Illirico, d’Africa, delle Gallie, console ordinario, padre di consoli, Anicius Hermogenianus Olybrius, chiarissimo, console ordinario, e Anicia Iuliana, chiarissima e sua (sposa), figli devotissimi, dedicarono”.</p>
             </div>
             <div type="commentary">
-                <p>...</p>
+                <p>Although the inscribed base in honour of Petronius Probus was almost certainly found in Rome, the place and the circumstances of its discovery are unknown. Some 16th Century humanists (see CIL 06, p. 387) transcribed our inscription – and another four inscriptions chiselled for Probus and his wife Anicia Faltonia Proba (see below) – and they state that it was located in the collection of the Cardinals Paolo Emilio Cesi (1481-1537) and Federico Cesi (1500-1565), in their palace gardens near St. Peter’s Basilica in Rome (the collection was reorganised after the sack of Rome in 1527; see Hülsen, Duhn 1917, pp. 1-42, in part. pp. 10 and 14, nr. 19; Dodero 2016; on the Palace in Borgo Vecchio, see Santolini  2016). 
+                    The Cesi collection passed to Cardinal Pier Donato Cesi (1521-1586), but was dispersed after the death of Cardinal Bartolomeo Cesi (1566-1621). In the mid 17th Century, the construction of Bernini’s Colonnade in the new St Peter’s square led to the demolition of part of the Cesi palace and its gardens (West side). In 1703, our inscription was still in the Palazzo Cesi in Borgo Vecchio, as stated by Francesco Bianchini (1662-1729), at that time ‘Presidente delle antichità di Roma’ (see his “Inscriptiones veteres et alia monumenta ex lapidibus” in the Cod. Bibl. Capit. Verona CCCLXII [= 265], fasc. 2, f.° 47, then 348 f.° 28). 
+                    Later the inscribed base entered the collection of Cardinal Alessandro Albani (1692-1779, on his collection, see Hornsby, Bevilacqua 2021). As of 1733 Pope Clement XII (1730-1740) led a campaign to prevent the archaeological finds of the Albani collection from being sold abroad in order to settle the  cardinal’s debts. As a result, hundreds of sculptures together with 494 inscriptions were acquired by the pope and became the property of the Capitoline Museums (see Cacciotti 2017; Barron 2021; Dodero 2021). 
+                    Since 1775/1778, the inscription has, in fact, been exhibited in the Capitoline Museums. Inserted into the upper left-hand wall of the second hall on the right in the ground floor, only the front part of the base, supporting the epigraphic field, without any mouldings, can be seen.</p>
+                
+                <p>The letters and the chiselling of the inscription are elegant. The writing is of high quality and shows a classic geometric style (for a palaeographic analysis, see Gordon 1965, p. 152). The epigraphic field, detached from its base, has been stripped of its surrounding mouldings. The layout of our inscription is well balanced, but four times the words are broken between one line and the next. 
+                    It seems that the epigraphic field was too narrow to accommodate all the text. In l. 1 we can read the onomastics of Probus, complete with his praenomen, which we only find engraved in full in the two dedications made by the senator’s children (see <ref type="ppret" corresp="ppret56">PPRET 65</ref>; on his onomastics, see Cameron 1985, pp. 171-178; Salomies 2012, p. 5; in general Salway 1994). 
+                    Although in our inscriptions the abbreviations are limited to the rank <foreign>v</foreign>(<foreign>ir</foreign>) <foreign>c</foreign>(<foreign>larissimus</foreign>) of the dedicators, it is noticeable that Petronius Probus lacks the rank of <foreign>vir clarissimus</foreign>, and this is the only case in the extensive sequence of inscriptions in his honour (see <ref type="ppret" corresp="ppret58">PPRET 58</ref>, <ref type="ppret" corresp="ppret59">59</ref>, <ref type="ppret" corresp="ppret60">60</ref>, <ref type="ppret" corresp="ppret61">61</ref>, <ref type="ppret" corresp="ppret62">62</ref>, <ref type="ppret" corresp="ppret63">63</ref>, <ref type="ppret" corresp="ppret65">65</ref>). 
+                    In line 2 there would have been room to engrave the abbreviation <foreign>VC</foreign>, but this was not done. In ll. 2-3 and ll. 8-9 respectively, Probus’ role as head of the family is exalted as is the consulship obtained by his two sons, one of them the dedicant of our monument (see below). In ll. 3-8, Probus’ <foreign>cursus honorum</foreign> is detailed (see below), while ll. 9-15, gives us the names, office and the family relationship of the two dedicators.</p>
+                
+                <p>The monument with its inscription now in the Capitoline Museums was made in honour of Sex. Petronius Probus (concerning Probus’ life and career, see in brief, Jones 1964, p. 85-89; similarly PLRE I, pp. 736-740 and pp. 1050-1051; Pergami 1995, pp. 417-423; Lizzi Testa 2004, pp. 316-319; on his four praetorian prefectures, see below). 
+                    The monument was dedicated by his son Anicius Hermogenianus Olybrius, who is referred to as <foreign>consul ordinarius</foreign> (ll. 10-12, see PLRE I, pp. 639-640; on his life, see Dunn 2008; on its literary qualities, see Stover 2015) and by his daughter-in-law Anicia Iuliana, who was Olybrius’ wife (ll. 12-13, see PLRE I, p. 468; PChBE, 02, pp. 1169-1171; on her style of life, see Wilkinson 2015).</p>
+                <p>Anicius Hermogenianus Olybrius was born in 370/375 AD, and was the second son of Petronius Probus and Anicia Faltonia Proba (PLRE I, pp. 732-733; PChBE, 02, pp. 1831-1833). 
+                    He had an elder brother who died before 395 AD, whose name we do not know (PLRE I, p. 1029), and two younger brothers, Anicius Probinus (PLRE I, pp. 734-735) and Anicius Probus (PLRE II, pp. 913-914). Olybrius and Iuliana had a daughter, Demetrias, who became a consecrated virgin (PLRE II, pp. 351-352; PChBE 02, pp. 544-546; Wilkinson 2015). 
+                    Anicia Faltonia Proba, her daughter-in-law Anicia Iuliana and her grand-daughter Demetrias were renowned for their culture, their fervant Christian devotion and tendency towards asceticism. 
+                    They financed Christian communities and their bishops, and remained unmarried widows or consecrated virgins (see Sivan 1993; Laurence 2002; Kurdock 2007; Dunn 2009; Jenal 2010). 
+                    The male children of Petronius Probus soon disappeared from the political and social scene. Olybrius died young, probably shortly before the sack of Rome in 410 AD (see <ref type="source">Hier., Ep. 130, 03</ref>). Neither he nor his brothers held important positions or pursued civil careers unlike their father: a surprising fate. 
+                    However, the beginnings of their career were brilliant. In 395 AD Olybrius was ordinary consul with his brother Anicius Probinus (see CLRE, pp. 324-325). The consulship of two young brothers, sons of Petronius Probus, soon after the victory of the emperor Theodosius I over the usurpator Eugenius was exceptional. It was highly celebrated in a Latin panegyric by the poet Claudius Claudianus (on the circumstances of this consulate and on the poem <title>Panegyricus dictus Olybrio et Probino consulibus</title>, see <ref type="ppret" corresp="ppret65">PPRET 65</ref>). 
+                    The choice of the victorious emperor shows the political prestige still enjoyed by Petronius Probus, who had died a few years earlier, and attests to the family’s loyalty to the legitimate Augusti. Our monument was posthumous and would have supported a statue, now lost. 
+                    Petronius Probus was born around 328/332 AD end he died sometime between 388 and 392 AD (we think that the senator spent at least three years in Thessalonica and returned to Rome between October 388 and spring 389 AD; in 390 AD he was alive and resided in Rome, cf. <ref type="source">Paulin. Med., <title>V. Ambr.</title> 25</ref>; in 395 AD Claudianus in his <title>Cons. Ol. Prob.</title> celebrates the mother of the brother-consuls, Anicia Faltonia Proba, who, at that time, was still alive, vv. 177 and 192-194, while the praise of her husband Probus is entirely in the past tense, vv. 31-60. 
+                    Concerning the hypothesis on how long Probus actually lived, see Porena 2020a, pp. 132-133, nt. 36; on Probus’ political fidelity to the Valentinian dynasty, see Porena 2020a, pp. 118-130).</p>
+                <p>The monument in honour of Petronius Probus did not stand alone. Another similar inscribed statue base, now in Palazzo Albani del Drago alle Quattro Fontane (see <ref type="ppret" corresp="ppret65">PPRET 65</ref>), was dedicated to the great senator by his sons, Anicius Probinus (PLRE I, pp. 734-735 Probinus 1), who is referred to as <foreign>consul ordinarius</foreign>, and Anicius Probus (PLRE II, pp. 913-914 Probus 11), who is styled as <foreign>quaestor candidatus</foreign>. 
+                    The most likely date of construction for both monuments is 395 AD. In the two inscriptions, after outlining Probus’ career, the senator is extolled as <foreign>consulum patri</foreign> (our inscription, ll. 8-9) and <foreign>patri consulum</foreign> (inscription in Palazzo Albani, l. 7). Probably the monuments put up by his devoted sons were dedicated during the ceremonies relating to the consulate of 395 AD.</p>
+                <p>Olybrius and Iuliana are also attested on a small bronze plaque of unknown provenance (<ref type="inscription">CIL 15, 01705</ref>): Olybri / v(iri) c(larissimi) et Iul/ianae / c(larissimae) f(eminae) (concerning the father-in-law of Petronius Probus, Q. Clodius Hermogenianus Olybrius, maternal grandfather of Anicius Hermogenianus Olybrius, see <ref type="ppret" corresp="ppret70">PPRET 70</ref>; for similar objects like slave collars, see <ref type="ppret" corresp="ppret71">PPRET 71</ref>, <ref type="ppret" corresp="ppret72">72</ref>; for another similar small bronze plaque, see <ref type="ppret" corresp="ppret74">PPRET 74</ref>).</p>
+                
+                <p>The inscription made by Anicius Hermogenianus Olybrius and his wife Anicia Iuliana for their deceased father and father-in-law is not unique. 
+                    The couple dedicated two more monuments for Olybrius’ mother and Iuliana’s mother-in-law, Anicia Faltonia Proba, both of which were found in Rome (see above; on these inscriptions, see Niquet 2000, pp. 190-192 and 247): one statue base is now in the Vatican City (Musei Vaticani, Lapidario Cristiano ex Lateranense, 12, 37, inv. 32408, <ref type="inscription">CIL 06, 01755</ref> = <ref type="inscription">EDR 127595</ref> = <ref type="inscription">LSA 1462</ref>); another statue base is now lost (<ref type="inscription">CIL 06, 01756</ref> = <ref type="inscription">EDR 127594</ref> = <ref type="inscription">LSA 1463</ref>). 
+                    It is uncertain whether this last individual monument for Anicia Faltonia Proba had a counterpart for her husband Petronius Probus.</p>
+                <p>Olybrius’ brothers, Anicius Probinus and Anicius Probus, who made the monument in honour of Probus, on occasion of the consulate of 395 AD (now in Palazzo Albani, <ref type="ppret" corresp="ppret65">PPRET 65</ref>), also dedicated a monument to their mother, Anicia Faltonia Proba. 
+                    Significantly, the latter was dedicated by Probinus on the occasion of his ordinary consulate in 395 AD, and was completed with a verse inscription eleven years later by Anicius Probus during his consulate in 406 AD (the statue-base is lost; the crowning slab contains two elegiac dystichs side by side and was chiselled in 406 AD, when Anicius Probus became consul; this crowning slab is exposed now in Leiden - Nederland, Rijksmuseum van Oudheden, inv. Pb47; <ref type="inscription">CIL 06, 01754</ref> = <ref type="inscription">ILS 1269</ref> = <ref type="inscription">EDR 127599</ref> = <ref type="inscription">LSA 1461</ref>).</p>
+                <p>In sum, therefore, the three sons of Petronius Probus and Anicia Faltonia Proba had (at least) five elegant monuments built for their illustrious parents, all of which must have been put sometime after the beginning of 395 AD. In the mid-16th Century, the monuments would appear to have been preserved in the Cesi collection. 
+                    The fact that they were together suggests that they were discovered in the same (unknown) area of Rome. 
+                    Niquet (2000, pp. 27, 190, 247) argues that the monuments would have originated from a <foreign>domus</foreign>, e.g. the <foreign>domus Pinciana</foreign> owned by the couple, Petronius Probus and Anicia Faltonia Proba, near Trinità de’ Monti (see <ref type="ppret" corresp="ppret59">PPRET 59</ref>; for this type of monument in late antique Rome, see Gehn 2012; Scheibelreiter-Gail  2012; on the possibility that the monuments belonged to the <foreign>domus Pinciana</foreign>, see Hülsen, Duhn 1917, p. 6). 
+                    Family members and clients were free to put up statues to senators in their private <foreign>domus</foreign>, because no permission was required and the glory of the lineage would be enhanced by these honours (for statues in the <foreign>domus</foreign> of praetorian prefects in Rome who were great aristocrats, see <ref type="ppret" corresp="ppret32">PPRET 32</ref>, <ref type="ppret" corresp="ppret78">78</ref>, <ref type="ppret" corresp="ppret79">79</ref>, <ref type="ppret" corresp="ppret80">80</ref>, <ref type="ppret" corresp="ppret92">92</ref>, <ref type="ppret" corresp="ppret93">93</ref>). 
+                    As a possibility, Machado (<ref type="inscription">LSA 1459</ref>; Machado 2011, 511-512; Machado 2019, pp. 158-159) also suggests the great mausoleum of the Probi behind the apse of St. Peter’s Basilica in the Vatican (see <ref type="ppret" corresp="ppret64">PPRET 64</ref>).</p>
+                <p>Our inscription of Olybrius and Iuliana in honour of Probus from the Capitoline Museums and the other four inscriptions offered by the sons of Petronius Probus and Anicia Faltonia Proba to their parents show an obsessive exaltation of the ordinary consulship. 
+                    The ordinary consulship  – the eponymous ancient roman magistrature – was the highest civil post in the later Roman senatorial career, and Petronius Probus and his sons held the record of having had a consul in every generation since the age of Constantine (Probus’ grandfather, Probus’ father, the senator himself, three of his sons, from 322 to 395/406 AD; on this record and the epigraphical evidence for it, see <ref type="ppret" corresp="ppret65">PPRET 65</ref>).</p>
+                <p>The inscription made by Anicius Hermogenianus Olybrius and his wife Anicia Iuliana extols Probus as “the most prominent of the Anician House” (ll. 2-3, <foreign>Anicianae domus culmini</foreign>; on this expression and its epigraphic context, see Novak 1980). 
+                    Petronius Probus was not an Anicius, but married Anicia Faltonia Proba (above), who was the daughter of Tyrrania Anicia Iuliana (PLRE I, p. 468, see <ref type="ppret" corresp="ppret70">PPRET 70</ref>). 
+                    The latter was, in all probability, the daughter of Anicius Auchenius Bassus (Chastagnol 1962, p. 211-216; PLRE I, pp. 152-154), who was a descendant of the consul of 334 AD Amnius Manius Caesonius Nicomachus Anicius Paulinus (Chastagnol 1962, pp. 90-92; PLRE I, p. 679), the last Anician consul in 4th Century. 
+                    Since the end of Constantine’s reign, no member of the Anicii had succeeded attaining either the ordinary consulship or the urban prefecture. Only 46 years after the consulship of 334 AD, Anicius Paulinus became prefect of Rome in 380 AD (Chastagnol 1962, p. 207; PLRE I, p. 678). In 382 AD he was followed by Anicius Auchenius Bassus (above). Both appointments were brought about through the political intercession of Petronius Probus. 
+                    In 371 and 379 AD Petronius Probus and his father-in-law Q. Clodius Hermogenianus Olybrius, the husbands of their Anician wives, attained the ordinary consulship (CLRE, pp. 276-277 and 292-293). 
+                    Literary contemporary sources extol Probus as the restorer of the glory of the Anicii (<ref type="source">Auson., Ep. 16</ref> Pastorino/Schenkl vv. 31-34: <foreign>Quī vīncĭt aēvi ĭniūrĭām</foreign> | <foreign>stīrpīs nŏvātŏr Ānnĭaē</foreign> | <foreign>părĭbūsquĕ cōmĭt īnfŭlīs</foreign> | <foreign>Ănīcĭōrūm stēmmătă</foreign>; vv. 82-84: <foreign>ŭt hīnc ăvi āc pātrīs dĕcūs</foreign>, | <foreign>mīxtō rĕsūrgēns sānguĭnĕ</foreign>, | <foreign>Prŏbiānō‹que› ātque Ănīcĭō</foreign>; <ref type="source">Hier., Ep. 130, 03</ref>: <foreign>Scilicet nunc mihi Proborum et Olybriorum clara repetenda sunt nomina, et inlustre Anicii sanguinis genus, in quo aut nullus, aut rarus est, qui non meruerit consulatum</foreign>, see Consolino 1991; cf. <ref type="source">Prudent., C. Symm. 01</ref>, vv. 551-557; <ref type="source">Claudian., Pan. Olyb. Probin.</ref> vv. 8-21).
+                    Similarly the epigraphic texts concerning Anicia Faltonia Proba link the traditional female virtues with the glory and the nobility of the Anicii (<ref type="inscription">CIL 06, 01754</ref> = <ref type="inscription">ILS 1269</ref> = <ref type="inscription">EDR 127599</ref> = <ref type="inscription">LSA 1461</ref>, frons, ll. 3-4: <foreign>Amnios Pincios</foreign> / <foreign>Aniciosque decoranti</foreign>; <ref type="inscription">CIL 06, 01755</ref> = <ref type="inscription">EDR 127595</ref> = <ref type="inscription">LSA 1462</ref>, ll. 2-7: <foreign>fidei nobilita/tis antiquae orna/mento Anicianae</foreign> / <foreign>familiae servandae ac</foreign> / <foreign>docendae castitatis</foreign> / <foreign>exemplo</foreign>). 
+                    Thus, if the glory of the Anician family had been restored, according to both the senator’s family and Roman society, this was entirely due to the marriage with Probus (on the Anici between 4th and 6th Centuries, see the different interpretations of Zecchini 1981; Cracco Ruggini 1988; Cameron 2012; on the family of Petronius Probus and on the connection of Petronius Probus with the Anici, see Settipani 2000, pp. 373-380; Salzman 2002, pp. 53-58; Cameron 2012, pp. 136-140. 
+                    See the family tree in Chastagnol 1962, pp. 291-292; PLRE I, pp. 1133 and 1144; Settipani 2000, p. 375; Dunn 2008, p. 443; Cameron 2012, pp. 137 and 141; on the <foreign>nobilitas</foreign> of this family, see the epigraphic panegyric for Probus in <ref type="ppret" corresp="ppret59">PPRET 59</ref>).</p>
+                
+                <p>Probus’ <foreign>cursus honorum</foreign> is listed in ll. 3-8 of Olybrius and Iuliana’s inscription in the Capitoline Museums. As in the other inscriptions in honour of Probus, our inscription lists the offices in the chronological order in which the codicils of his appointments were issued: the proconsulate of Africa in 358 AD (<ref type="source">CTh 11, 36, 13</ref>, on  June 23rd; <ref type="inscription">CIL 08, 01783</ref>), the praetorian prefectures held four times in a maximum span of time of 364 AD to 387 AD; the ordinary consulate in 371 AD (CLRE, pp. 276-277). 
+                    In the second half of the 4th Century Petronius Probus achieved another illustrious record: the only Roman aristocrat to have been praetorian prefect four times. 
+                    In our inscription (l. 5) the adverb <foreign>quater</foreign> is followed by the list of regional prefectures, without any connection between the individual appointments and the single prefectures (this is also the case in the inscription made by the brothers Anicius Probinus and Anicius Probus, <ref type="ppret" corresp="ppret65">PPRET 65</ref>). 
+                    Probus’ sons recalled the four appointments and listed the districts administered: evidently the connection between the prefectures as offices and the prefectures as administered areas was difficult to explain in a short inscription (the difficulty is also revealed in other entries for Prefect Probus: in <ref type="ppret" corresp="ppret62">PPRET 62</ref> and <ref type="ppret" corresp="ppret64">PPRET 64</ref> the regional prefectures are not specified; on the contrary, in <ref type="ppret" corresp="ppret63">PPRET 63</ref> the four codicils are combined with the regional prefectures, but the combination is problematic). Concerning the different reconstructions of Probus’ career and his four praetorian prefectures proposed by scholars, see <ref type="ppret" corresp="ppret59">PPRET 59</ref>.</p>
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
-                    <bibl><ref>CIL 06, 1753</ref> (cfr. pp. 3174, 3813, 4751-4752)</bibl>
+                    <bibl><ref>CIL 06, 01753</ref> (cf. pp. 3174, 4751-4752)</bibl>
                     <bibl><ref>ILS 1267</ref></bibl>
-                    <bibl><ref>Porena forthcoming, pp. 211-212, nr. 10</ref></bibl>
+                    <bibl><ref>Gordon 1965, pp. 152-153, nr. 353</ref> (with photo, Pl. 166, b)</bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="images">
                 <p>
-                    <bibl><ref>SupplIt Imagines - Roma I, 219</ref></bibl> 
+                    <bibl><ref>SupplIt Imagines - Roma 01, p. 131, nr. 219</ref></bibl>
+                    <bibl><ref>Balistreri 2020, p. 123</ref> (Ligorio’s transcritpion)</bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="links">
@@ -149,7 +201,44 @@
             </div>
             <div type="bibliography" subtype="other">
                 <p>
-                    <bibl>Porena P., Appendice. Selezione di fonti sulla carriera prefettizia di Sex. Petronius Probus, in Bigi F., Tantillo I. (edd.), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa forthcoming, 211-212</bibl>
+                    <bibl>Balistreri N. (a cura di), Edizione Nazionale delle Opere di Pirro Ligorio. Libro dei vestimenti dei Romani e di diversi popoli (Biblioteca Nazionale di Napoli, Codici Ligoriani, 2), Roma 2020</bibl>
+                    <bibl>Barron C., Cardinal Alessandro Albani’s epigraphic collections and their influence on collecting in the eighteenth century, in C. Hornsby, M. Bevilacqua (a cura di), Il cardinale Alessandro Albani: collezionismo, diplomazia e mercato nell’Europa del Grand Tour / Collecting, dealing and diplomacy in Grand Tour Europe, Roma 2021, 185-199</bibl>
+                    <bibl>Cacciotti B., La collezione Albani nel Palazzo alle Quattro Fontane: «un affare glorioso per il Papa e di benefizio per Roma», in E. Dodero, C. Parisi Presicce (a cura di),  Il tesoro di antichità. Winckelmann e il Museo Capitolino nella Roma del Settecento, Roma 2017, 73-85</bibl>
+                    <bibl>Cameron A., Polyonomy in the late Roman aristocracy. The case of Petronius Probus, JRS, 75, 1985, 164-182</bibl>
+                    <bibl>Cameron Al., Anician Myths, JRS, 102, 2012, 133-171</bibl>
+                    <bibl>Chastagnol A., Les fastes de la préfecture de Rome au Bas-Empire, Paris 1962</bibl>
+                    <bibl>Chastagnol A., Le Bas-Empire. Textes choisis et présentés par l’auteur, Paris 1991 2nd ed. (1969)</bibl>
+                    <bibl>Cracco Ruggini L., Gli Anicii a Roma e in provincia, MEFRM, 100, 1988, 69-85</bibl>
+                    <bibl>Consolino F.E., Fra Pelagio e Claudiano: l’elogio degli Anicii nell’epistola di Girolamo a Demetriade, in Hestiasis. Studi offerti a Salvatore Calderone, III, Messina 1991, 65-83</bibl>
+                    <bibl>Dodero E., Un Paradiso perduto: il giardino di sculture Cesi in Borgo, in L.  Petacco, C. Parisi Presicce (a cura di), La Spina. Dall’Agro Vaticano a via della Conciliazione, Roma 2016, 1117-124</bibl>
+                    <bibl>Dodero E., Dal Palazzo alle Quattro Fontane al Museo Capitolino: la nuova vita della collezione del cardinale Alessandro Albani, in C. Hornsby, M. Bevilacqua (a cura di), Il cardinale Alessandro Albani: collezionismo, diplomazia e mercato nell’Europa del Grand Tour / Collecting, dealing and diplomacy in Grand Tour Europe, Roma 2021</bibl>
+                    <bibl>Dunn G.D., Anicius Hermogenianus Olybrius, in C. Deroux (ed.), Studies in Latin literature and Roman history, XIV, Bruxelles 2008, 429-444</bibl>
+                    <bibl>Dunn G., The Christian Networks of the Aniciae: the Example of the Letter of Innocent I to Anicia Juliana, REAug, 55, 2009, 53-72</bibl>
+                    <bibl>Gehn U., Ehrenstatuen in spätantiken Häusern Roms, in S. Birk, B. Poulsen (eds), Patrons and Viewers in Late Antiquity, Aarhus 2012,15-30</bibl>
+                    <bibl>Gordon A.E., Album of dated Latin Inscriptions, III/1, Rome and the neighborhood, A.D. 200-525, Berkeley 1965 (III/2, Plates, Berkeley 1965)</bibl>
+                    <bibl>Hülsen C., Duhn F. von, Römische Antikengärten des XVI. Jahrhunderts: mit 86 Textabbildungen, Heidelberg 1917</bibl>
+                    <bibl>Jenal G., Bildung und Wissen frommer Frauen in der Spätantike, in E. und H. Klueting (hrsg.), Fromme Frauen als gelehrte Frauen. Bildung, Wissenschaft und Kunst im weiblichen  Religiosentum des Mittelalters und der Neuzeit, Köln 2010, 23-42</bibl>
+                    <bibl>Jones A.H.M., Collegiate Prefectures, JRS, 54, 1964, 78-89 (= Id., The Roman Economy, Oxford 1974, 375-395)</bibl>
+                    <bibl>Kurdock A., «Demetrias ancilla dei»: Anicia Demetrias and the problem of the missing person, in K. Cooper, J. Hillner (eds), Religion, dynasty, and patronage in early Christian Rome, 300-900, Cambridge-New York 2007, 190-224</bibl>
+                    <bibl>Laurence P., Proba, Juliana et Démétrias: le christianisme des femmes de la « gens Anicia » dans la première moitié du 5e siècle, REAug, 48, 2002, 131-163</bibl>
+                    <bibl>Lizzi Testa R., Senatori, popolo, papi. Il governo di Roma al tempo dei Valentiniani, Bari 2004</bibl>
+                    <bibl>Machado, C., Roman Aristocrats and the Christianization of Rome, in P. Brown, R. Lizzi Testa (eds), Pagans and Christians in the Roman Empire: the Breaking of a Dialogue, Zürich-Münster 2011, 493-516</bibl>
+                    <bibl>Machado C., Urban space and aristocratic power Late Antique Rome, AD 270-535, Oxford 2019</bibl>
+                    <bibl>Niquet H., «Monumenta virtutum titulique». Senatorische Selbstdarstellung im spätantiken Rom im Spiegel der epigraphischen Denkmäler, Stuttgart 2000</bibl>
+                    <bibl>Novak D., Anicianae domus culmen, nobilitatis culmen, Klio, 62, 1980, 473-493</bibl>
+                    <bibl>Pergami F., Sulla istituzione del defensor civitatis, SDHI, 61, 1995, 413-431</bibl>
+                    <bibl>Porena P., Le iscrizioni del Pretorio di Gortyna e la carriera prefettizia di Sex. Petronius Probus, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020a, 87-141</bibl>
+                    <bibl>Salomies O., Réflexion sur le développement de l’onomastique de l’aristocratie romaine du Bas-Empire, in C. Badel, C. Settipani C. (éd.), Les Stratégies familiales dans l’Antiquité tardive, Paris 2012, 1-26</bibl>
+                    <bibl>Salway B., What’s in a Name ? A Survey of Roman Onomastic Practice from c. 700 B.C. to A.D. 700, JRS, 84, 1994, 124-145</bibl>
+                    <bibl>Salzman M.R., The making of a Christian Aristocracy. Social and religious change in the western Roman Empire, Cambridge Mass. 2002</bibl>
+                    <bibl>Santolini S., I Cesi a Roma. Il palazzo in Borgo Vecchio, in La Spina. Dall’Agro Vaticano a via della Conciliazione (Musei Capitolini, 22 luglio 2016-8 gennaio 2017), Roma 2016, 109-116</bibl>
+                    <bibl>Scheibelreiter-Gail V., Inscriptions in the late antique private house: some thoughts about their function and distribution, in S. Birk, B. Poulsen (eds), Patrons and Viewers in Late Antiquity, Aarhus 2012, 135-165</bibl>
+                    <bibl>Settipani C., Continuité gentilice et continuité familiale dans les familles sénatoriales romaines à l’époque impériale: mythe et réalité, Oxford 2000</bibl>
+                    <bibl>Sivan H.S., Anician women, the Cento of Proba, and aristocratic conversion in the fourth century, VChr, 47, 1993, 140-157</bibl>
+                    <bibl>Stover J., Olybrius and the Einsiedeln Eclogues, JRS, 105, 2015, 288-321</bibl>
+                    <bibl>SupplIt Imagines, Roma, CIL,VI. 1. Musei Capitolini, a cura di G.L. Gregori, M. Mattei, Roma 1999</bibl>
+                    <bibl>Wilkinson K., Women and Modesty in Late Antiquity, Cambridge-New York 2015</bibl>
+                    <bibl>Zecchini G., La politica degli Anicii nel v secolo, in Orbetello L (a cura di), Atti del Congresso internazionale di Studi Beoziani (Pavia 5-8 ottobre 1980), Roma 1981, 123-140</bibl>
                 </p>
             </div>
             
@@ -160,10 +249,11 @@
                 
                 <div type="commentary" n="2">
                     <p n="2.a"></p>
+                    <p n="2.2"></p>
                     <p n="2.3"></p>
                     <p n="2.10">Anicianae domus culmini</p>
                     <list n="2.11">
-                        <item n="2.11.h">his son Anicius Hermogenianus Olybrius and his daughter-in-law Anicia Iuliana</item>
+                        <item n="2.11.h"></item>
                     </list>
                 </div>
                 
@@ -171,6 +261,7 @@
                     <p n="8.2">praefecto praetorio quater Italiae, Illyrici, Africae, Galliarum</p>
                     <p n="8.3"></p>
                     <p n="8.6">quater</p>
+                    <p n="8.10"></p>
                     <p n="8.12"></p>
                     <p n="8.14"></p>
                 </div>
