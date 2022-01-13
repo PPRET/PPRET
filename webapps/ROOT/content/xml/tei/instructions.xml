@@ -23,21 +23,7 @@
     <text>
         <body>
             <div type="commentary">
-                <div type="section" xml:lang="en">
-                    <div type="section">
-                        <head>Text search</head>
-                        <p>If you want to perform a specific textual search (both in the ancient texts and in the rest of the editions, that is metadata, translations, commentary and bibliography), you can type your text in the ‘<emph>Text search</emph>’ box in the ‘Search’ page and then press ‘Enter’.</p>
-                        <p>If you want to search one or more words only in the Latin or Greek text, select the ‘<emph>Search only in the inscription text</emph>’ box.</p>
-                        <p>You can use the wildcard character * for looking for segments of words: for example, a search of <foreign>nobilita*</foreign> will return <foreign>nobilitas</foreign>, <foreign>nobilitatis</foreign>, <foreign>nobilitate</foreign> and so on.</p>
-                        <p>If your search includes a sequence of more words, surround them with double quotes (" "): for example, if you want to search <foreign>viro</foreign> followed by <foreign>clarissimo</foreign>, you have to type "<foreign>viro clarissimo</foreign>". Please note that if you want to perform a precise search of a sequence of more words, you cannot use the wildcard character *.</p>
-                        <p>If your search includes Greek text, you can type in Greek by using the virtual keyboard that appears below the search box after clicking on ‘Greek keyboard’.</p>
-                        <p>The results list will display the list of the PPRET inscriptions that include the word(s) that you have searched.</p>
-                        <p>If you want to reset your search, click on ‘Reset search’.</p>
-                        <p>If you want to remove specific search filters that you have selected, click on the ‘x’ on the right of the relevant filter in the ‘Current filters’ section.</p>
-                    </div>
-                </div>
-                
-                <div type="section" xml:lang="it">
+                <div type="section">
                     <div type="section">
                         <head>A) Inscriptions</head>
                         <div type="section">
@@ -71,6 +57,7 @@
                         </div>
                     </div>
                     
+                    
                     <div type="section">
                         <head>B) Search</head>
                         <div type="section">
@@ -88,35 +75,38 @@
                         <div type="section">
                             <p>La colonna di destra ospita l’elenco delle schede interessate dai risultati della ricerca effettuata (<emph>Results</emph>); per visualizzare i singoli risultati della ricerca è necessario cliccare sulle schede che compaiono in questa colonna. All’apertura della pagina ‘Search’, quando ancora nessun filtro è stato selezionato, l’elenco include la totalità delle schede PPRET Inscriptions in ordine numerico/cronologico.</p>
                         </div>
+                        
                         <div type="section">
                             <head type="subheading">Sezione Text search</head>
                             <div type="section">
-                                <!--<head>a) Come eseguire ricerche testuali nel database: Text search</head>-->
+                                <!-- SHORT ENGLISH VERSION
+                                <p>If you want to perform a specific textual search (both in the ancient texts and in the rest of the editions, that is metadata, translations, commentary and bibliography), you can type your text in the ‘<emph>Text search</emph>’ box in the ‘Search’ page and then press ‘Enter’.</p>
+                                <p>If you want to search one or more words only in the Latin or Greek text, select the ‘<emph>Search only in the inscription text</emph>’ box.</p>
+                                <p>You can use the wildcard character * for looking for segments of words: for example, a search of <foreign>nobilita*</foreign> will return <foreign>nobilitas</foreign>, <foreign>nobilitatis</foreign>, <foreign>nobilitate</foreign> and so on.</p>
+                                <p>If your search includes a sequence of more words, surround them with double quotes (" "): for example, if you want to search <foreign>viro</foreign> followed by <foreign>clarissimo</foreign>, you have to type "<foreign>viro clarissimo</foreign>". Please note that if you want to perform a precise search of a sequence of more words, you cannot use the wildcard character *.</p>
+                                <p>If your search includes Greek text, you can type in Greek by using the virtual keyboard that appears below the search box after clicking on ‘Greek keyboard’.</p>
+                                <p>The results list will display the list of the PPRET inscriptions that include the word(s) that you have searched.</p>
+                                <p>If you want to reset your search, click on ‘Reset search’.</p>
+                                <p>If you want to remove specific search filters that you have selected, click on the ‘x’ on the right of the relevant filter in the ‘Current filters’ section.</p> -->
                                 <p>Se si desidera effettuare una ricerca testuale specifica (sia nei testi antichi che nelle restanti parti della scheda), è possibile digitare il testo nella casella ‘Text search’ e poi premere ‘Invio’. Le schede PPRET Inscriptions che includono la parola o le parole che avete cercato (nome antico, autore moderno, luogo, fonte, data, e così via) verranno visualizzate nella lista dei risultati nella colonna di destra. Le ricerche testuali non distinguono fra maiuscole e minuscole.</p>
                                 <p>Selezionando la casella ‘<emph>Search only in the inscription text</emph>’ è possibile limitare la ricerca al solo testo latino o greco delle epigrafi. La ricerca ignora le convenzioni epigrafiche (come ad esempio le parentesi tonde e quadre).</p>
                                 <p>È possibile utilizzare il carattere jolly * per la ricerca di segmenti di parole: ad esempio, una ricerca di <foreign>nobilita</foreign>* restituirà <foreign>nobilitas</foreign>, <foreign>nobilitatis</foreign>, <foreign>nobilitate</foreign> e così via.</p>
                                 <p>Se la ricerca comprende una sequenza di più parole, occorre circondarle con doppie virgolette (" "): ad esempio, per cercare <foreign>viro</foreign> seguito da <foreign>clarissimo</foreign>, occorre digitare "<foreign>viro clarissimo</foreign>". Attenzione: quando si esegue una ricerca precisa di una sequenza di più parole non è possibile utilizzare il carattere jolly *.</p>
                                 <p>Se la ricerca comprende più parole non consecutive, occorre digitare l’operatore boolerano AND fra i termini da cercare (che non devono in questo caso essere circondati dalle doppie virgolette " ") affinché la lista dei risultati includa le schede epigrafiche in cui sono menzionati tutti i termini digitati: ad esempio, digitando <foreign>viro</foreign> AND <foreign>clarissimo</foreign> si otterrà una lista delle schede in cui compaiono entrambi i termini.
                                     Digitando invece <foreign>viro clarissimo</foreign> (oppure <foreign>viro</foreign> OR <foreign>clarissimo</foreign>) si otterrà una lista delle schede in cui compare almeno uno dei termini cercati.</p>
-                                <p>Per digitare testo in greco è possibile utilizzare la tastiera virtuale che compare sotto la casella di ricerca cliccando su ‘Greek keyboard’. Nella tastiera si trovano in basso a destra anche il carattere jolly *, le doppie virgolette "<!--, il tasto Maiuscolo ⇪ --> e il tasto Cancella ⇐. Per nascondere la tastiera occorre cliccare nuovamente su ‘Greek keyboard’.</p>
+                                <p>Per digitare testo in greco è possibile utilizzare la tastiera virtuale che compare sotto la casella di ricerca cliccando su ‘Greek keyboard’. Nella tastiera si trovano in basso a destra anche il carattere jolly *, le doppie virgolette " e il tasto Cancella ⇐. Per nascondere la tastiera occorre cliccare nuovamente su ‘Greek keyboard’.</p>
                                 <p>Se volete reimpostare la vostra ricerca, cliccate su ‘Reset search’.</p>
                                 <p>Attenzione: le seguenti sezioni ‘Date’ e ‘Filters’ consentono di impostare numerosi filtri di ricerca, i quali condizionano la ricerca testuale. Quando uno o più filtri selezionati dalle suddette sezioni sono attivi, al di sopra della sezione ‘Filters’ compare la dicitura ‘Current filters’. Se volete rimuovere i filtri di ricerca specifici che avete selezionato, cliccate sulla 'x' a destra del relativo filtro nella sezione ‘Current filters’.</p>
-                                
-                                <!--                                <p><emph>- Search only in the inscription text</emph>. Se volete cercare una o più parole comprese all’interno del testo latino o greco delle singole epigrafi, selezionate la casella ‘Search only in the inscription text’. Anche in questo caso nella lista dei risultati verrà visualizzato l'elenco delle schede PPRET Inscriptions che includono la parola o le parole che avete cercato. Attenzione: se l’opzione ‘Search only lemmatized text’, l’opzione ‘Search only in the inscription text’ non può essere selezionata.</p>
-                                    
-                                    <p><emph>- Search only lemmatised text</emph>. Se volete cercare una o più parole comprese all’interno del testo latino o greco delle singole epigrafi, selezionate la casella ‘Search only lemmatized text’. In questo caso, dovete digitare la forma base del termine (che per i nomi e per gli aggettivi è la forma al nominativo singolare e per i verbi la prima persona singolare del presente indicativo). Anche in questo caso nella lista dei risultati verrà visualizzato l'elenco delle schede PPRET Inscriptions che includono la parola o le parole che avete cercato. Attenzione: se l’opzione ‘Search only in the inscription text’, l’opzione ‘Search only lemmatized text’ non può essere selezionata.</p>-->
                             </div>
-                            <!--<div type="section">
-                                <head>b) Come eseguire ricerche testuali nel database: Word index</head>
-                                <p>Se siete interessati a vedere quali parole greche e latine compaiono nei singoli testi antichi in latino e in greco delle PPRET Inscriptions, potete anche consultare la pagina dell'indice delle parole: <ref corresp="../indices/epidoc/lemma.html">Word index</ref>. In essa compare (a sinistra = Lemma) l’elenco in ordine alfabetico di sostantivi, aggettivi, verbi, avverbi, preposizioni, congiunzioni, seguito (a destra = References) dal riferimento alla scheda e alla linea del testo nel quale la parola compare. In questo lemmario sono stati esclusi i nomi propri e i nomi di luogo, che sono ricercabili da specifici campi di ricerca nella sezione Search / Filters.</p>
-                                </div>-->
                         </div> 
+                        
                         <div type="section">
                             <head type="subheading">Sezione Date</head>
                             <div type="section">
                                 <p>Per selezionare le schede PPRET Inscriptions comprese in un breve o lungo arco cronologico tra il 284 e il 450 AD (da un anno a 156 anni) spostare i cursori posti ai lati sinistro e destro della barra orizzontale. Nella colonna di destra compare l’elenco delle schede interessate dai risultati della ricerca, cioè comprese nell’arco cronologico scelto.</p>
                             </div>
                         </div>
+                        
                         <div type="section">
                             <head type="subheading">Sezione Filters</head>
                             <div type="section">
@@ -215,11 +205,17 @@
                         </div>
                     </div>
                 </div>
-                
+                <!--
+                <div type="section" xml:lang="en">
+                    <p>...</p>
+                </div>
+                <div type="section" xml:lang="it">
+                    <p>...</p>
+                </div>
                 <div type="section" xml:lang="fr">
                     <p>...</p>
                 </div>
-                
+                -->
             </div>
         </body>
     </text>

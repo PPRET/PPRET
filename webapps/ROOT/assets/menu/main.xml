@@ -10,7 +10,7 @@
   <menu label="Project" match="local-tei-display-html" params="introduction" i18n:key="menu-project">
     <item label="Introduction" match="local-tei-display-html" params="introduction" i18n:key="menu-introduction"/>
     <item label="Team" match="local-tei-display-html" params="team" i18n:key="menu-team"/>
-    <item label="Bibliography" match="local-tei-display-html" params="bibliography" i18n:key="menu-bibliography"/>
+    <!--<item label="Bibliography" match="local-tei-display-html" params="bibliography" i18n:key="menu-bibliography"/>-->
   </menu>
   <menu label="Instructions" match="local-tei-display-html" params="instructions" i18n:key="menu-instructions" />
   <menu label="Abbreviations" match="local-tei-display-html" params="abbreviations" i18n:key="menu-abbreviations" />
