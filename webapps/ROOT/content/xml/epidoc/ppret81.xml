@@ -5,84 +5,78 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>...</title>
-                <editor role="edition">...</editor>
-                <editor role="encoding">...</editor>
+                <title>Greek translation of a Valentinianus II’s constitution addressed to the praet. prefect Principius from Anaia (Asia)</title>
+                <editor role="edition">Andrea Bernier</editor>
+                <editor role="encoding">Irene Vagionakis</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>PPRET</authority>
-                <idno type="filename" n="plre/new/rev" corresp="p. ...">81</idno>
+                <idno type="filename" n="new">81</idno>
                 <date when="2021-11-08"/>
                 <availability><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <listPerson>
                     <person>
-                        <persName ref="#"><name type="praenomen"></name>
-                        <name type="gentilicium"></name>
-                        <name type="cognomen"></name>
-                        <name type="signum"></name></persName>
+                        <persName ref="#Principius"><name type="cognomen">Principius</name></persName>
                     </person>
                 </listPerson>
                 <msDesc>
                     <msIdentifier>
-                        <repository ref="#">...</repository>
-                        <idno type="invNo"></idno>
+                        <repository ref="#Anaia">still <foreign>in situ</foreign></repository>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textType" ref="#"></term>
-                            <term type="rhythm" ref="#"></term>
+                            <term type="textType" ref="#normative">Legislative inscription</term>
+                            <term type="rhythm" ref="#prose">prose</term>
                         </summary>
-                        <textLang mainLang="la" otherLangs="">Latin</textLang>
+                        <textLang mainLang="grc">Greek</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#"></material>
-                                    <objectType ref="#"></objectType>
+                                    <material ref="#marble">marble</material>
+                                    <objectType ref="#stone_slab">stone slab</objectType>
                                     <dimensions>
-                                        <height></height>
-                                        <width></width>
-                                        <depth></depth>
-                                        <dim type="diameter"></dim>
+                                        <height>69</height>
+                                        <width>114</width>
+                                        <depth>unknown</depth>
                                     </dimensions>
-                                    <rs type="inscribed_field_reuse"></rs>
-                                    <rs type="monument_reuse"></rs>
-                                    <rs type="opistographic"></rs>
+                                    <rs type="inscribed_field_reuse">yes, on the block was an earlier inscription, almost completed erased when the surface was reworked and given the form of a <foreign>tabula ansata</foreign>, in which our inscription was engraved</rs>
+                                    <rs type="monument_reuse">uncertain</rs>
+                                    <rs type="opistographic">no</rs>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p></p>
-                                    <rs type="execution" ref="#"></rs>
-                                    <rs type="preservation" ref="#"></rs>
-                                    <p n="opistographic"></p>
+                                    <p>One field (<foreign>frons</foreign>).</p>
+                                    <rs type="execution" ref="#chiselled">chiselled</rs>
+                                    <rs type="preservation" ref="#undamaged">Undamaged. The field was given the form of a tabula ansata (almost completely erasing an earlier text), in which our inscription is engraved.</rs>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <term ref="#"></term>
-                                <height></height>
+                                <term ref="#square_capitals">late Greek squared capitals</term>
+                                <height>unknown</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient_city"></placeName>
-                                <placeName type="modern_city"></placeName>
-                                <placeName type="province"></placeName>
-                                <placeName type="diocese"></placeName>
-                                <placeName type="prefecture"></placeName>
-                                <placeName type="ancient_location" ref="#"></placeName>
+                                <placeName type="ancient_city">Anaia</placeName>
+                                <placeName type="modern_city">Kadikalesi, Kuşadası (Turkey)</placeName>
+                                <placeName type="province">Asia</placeName>
+                                <placeName type="diocese">Asiana</placeName>
+                                <placeName type="prefecture">Oriens</placeName>
+                                <placeName type="ancient_location" ref="#public">public space (church)</placeName>
                             </origPlace>
-                            <origDate period="#" notBefore="0001" notAfter="0400"></origDate>
+                            <origDate period="#p8" notBefore="0386" notAfter="0438">386/438 AD</origDate>
                         </origin>
-                        <provenance type="found"><placeName ref="#"></placeName></provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="found"><placeName ref="#">Anaia</placeName> (Kadikalesi), the inscription was found in 2019 during excavations in a Byzantine church, built in a wall (see Malay 2020)</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -95,121 +89,134 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la">
+            <div type="edition" xml:space="preserve" xml:lang="grc">
                     <ab>
-                        <lb n="1"/>
+                        <lb n="1"/><g ref="crux"/> <expan><abbr>Φλ.Φλ</abbr><ex>άουιοι</ex></expan> Θεοδόσιος καὶ Οὐαλλεντι<lb break="no" n="2"/>νιανὸς Αὔγουστοι πρὸς Πριν<lb break="no" n="3"/>κήπιον ἔπαρχον <expan><abbr>π</abbr><ex>ραιτωρί</ex><abbr>ο</abbr><ex>υ</ex></expan>. <space extent="unknown" unit="character"/> ἐν τῇ φαιδρᾷ
+                        <lb n="4"/>ἡμέρᾳ, ἣν κυριακὴν κυρίως οἱ πρόγο<lb break="no" n="5"/>νοι εἰρήκασιν, πασῶν τὸ καθόλου
+                        <lb n="6"/>δικῶν, πραγμάτων τε καὶ μεθοδιῶν
+                        <lb n="7"/>ἐπίτασις ἡσυχαζέτω· ὄφλημα δη<lb break="no" n="8"/>μόσιον ἢ ἰδιωτικὸν μηδεὶς ἀνυέ<lb break="no" n="9"/>τω, μήτε δὲ ἐπὶ μεσιτῶν αὐτῶν, αἰτη<lb break="no" n="10"/>θέντων ἢ ἑκουσίως αἱρηθέντων,
+                        <lb n="11"/>ἐπίτασις ἁψιμαχιῶν τις συν<lb break="no" n="12"/>κροτίσθω· οὐ μόνον γὰρ ἄτιμος
+                        <lb n="13"/>καὶ ἱερόσυλος κληθήσεται
+                        <lb n="14"/>ὁ τοιοῦτος, ἀλλὰ καὶ κεφαλι<lb break="no" n="15"/>κὴν ὑποστήσεται τιμωρίαν. <g ref="crux - leaf"/>
                     </ab>
             </div>
             <div type="apparatus">
-                <p></p>
+                <p>Edition based on Malay 2020, with different integration at l. 3.</p>
+                <p>
+                    <app loc="1-2"><note>Οὐαλλεντινιανός: Οὐαλεντινιανός</note></app>
+                    <app loc="2-3"><note>Πρινκήπιον: Πριγκίπιον</note></app>
+                    <app loc="3"><note>ἔπαρχον π͜ό(λεως), Malay 2020</note></app>
+                    <app loc="10"><note>αἱρηθέντων: αἱρεθέντων</note></app>
+                    <app loc="11-12"><note>συνκροτίσθω: συνκροτείσθω</note></app>
+                </p>
             </div>
             <div type="translation" xml:lang="en">
-                <p></p>
+                <p>(based on Malay 2020, p. 176, with different reading of the office of the addressee)</p>
+                <p>“Flavii Theodosius and Valentinianus Augusti, to Principius, praetorian prefect. On the Bright Day,
+which our ancestors properly called The Lord’s Day, the persecution of all litigation, court business,
+and suits, shall be entirely suspended. No person shall demand the payment of a public or
+a private debt, nor shall there be any cognizance of controversies before arbitrators, whether
+they have been requested or chosen voluntarily. Such a person (i.e. not observing this) shall be
+adjudged not only infamous and sacrilegious, but shall also be the subject of a sentence of capital
+punishment”.</p>
             </div>
             <div type="translation" xml:lang="fr">
-                <p></p>
+                <p>(based on the french translation of CTh 08, 08, 03, by Rougé, Delmaire 2009, p. 121)</p>
+                <p>“Fl. Theodosius e Fl. Valentinianus Augusti à Principius, préfet du prétoire. Que le jour du Soleil appelé à juste titre par nos pères jour du Seigneur, s’arrête la poursuite d’absolument tous les procès, affaires et citations en justice ; que personne n’exige le paiement d’une dette publique ou privée et que même les arbitres demandés ou choisis spontanément n’aient connaissance d’aucun affaire. Quiconque (ne respecte pas ce précepte) sera non seulement reconnu coupable d’infamie et de sacrilège, mais sera également soumis à la peine capitale”.</p>
             </div>
             <div type="translation" xml:lang="it">
-                <p></p>
+                <p>“Fl. Theodosius e Fl. Valentinianus Augusti a Principius, prefetto del pretorio. Nel giorno luminoso, che gli avi legittimamente chiamarono (il giorno) del Signore, sia completamente sospeso lo svolgimento di tutte le liti giudiziarie, delle cause e delle citazioni in tribunale. Nessuno esiga un debito pubblico o privato, né si svolga alcuna cognizione delle dispute presso arbitri, siano stati questi richiesti o scelti spontaneamente. Chi (non rispetta questo precetto) sia giudicato non soltanto colpevole di infamia e sacrilego, ma sia anche soggetto alla pena capitale”.</p>
             </div>
             <div type="commentary">
-                <p></p>
+                <p>The inscription was found in 2019 during excavations on the ancient site of Anaia (today Kadikalesi), a small settlement on the Aegean coast of Turkey, located few kilometres south of Ephesus. The text is on a marble block, which was built in a Byzantine church in the «West Wall near the Entrance of the Lower Construction» (information provided by Z. Mercangöz, director of the excavations, to H. Malay: Malay 2020, p. 174; the final report of the excavation in the church is not available yet). On this block was an earlier inscription, that was almost completely erased. Only few remains, in Latin and Greek, survive (edition in Malay 2020, p. 175): they refer to members of the gens Safinia, a Roman family that is attested in the area, especially in Samos but also in Ephesus, in inscriptions dating from the High Empire (see Lazzarini 1984, pp. 327-330; Heil, Mitthof forthcoming). It is possible that our stone was brought to Anaia from one of these two places (Heil, Mitthof forthcoming).
+
+Probably in the 4th Century AD the surface of the block was carefully reworked and given the shape of a tabula ansata, in which a new inscription was engraved. This inscription is the Greek translation of a law of the emperor Valentinianus II on Sunday rest, whose Latin version is preserved in the Theodosian Code, exceptionally under three different headings: in De Feriis as CTh 02, 08, 18 (only the second part of the text survived in the lost manuscript of Turin), in De executoribus et exactionibus as CTh 08, 08, 03 and in De exactionibus as CTh 11, 07, 13. The law, addressed to the praetorian prefect Principius, establishes the suspension on the Lord’s Day of all trials and collections, public and private, and prescribes severe sanctions for offenders (with difference in penalties recorded in the Latin and Greek versions, see below; on the rise of the Christian calendar and the gradual emergence in Late Antiquity of Sunday rest, first attested in a law of Constantine, see, among others, Bianchini 1986; Hunt 1993; Heil forthcoming).
+
+This extraordinary finding, edited by H. Malay in 2020, enriches our dossier of late antique imperial constitutions survived through epigraphy (the list in Feissel 2009, complemented by Corcoran 2000 for the Tetrarchic period; cf. here PPRET 53, 56; see also PPRET 28, 31). Remarkably, this constitution has been found in a part of the Empire that was not under the control of the emperor who issued it, and thus in a praetorian prefecture other than the one administered by the addressee of the text. Moreover, the new inscription offers the possibility of a comparison with the edited version of the same text in the Theodosian Code. But unlike the others 4th-Century laws that have survived in both versions (the law of Julian on iudices pedanei = PPRET 53, and the so-called Edictum de accusationibus, on which see Corcoran 2007; Matthews 2000, pp. 254-270; for the relation between the inscription found at Trinitapolis and CTh 01, 16, 11 and CTh 01, 16, 12, see PPRET 56), this inscription gives a Greek translation of the constitution, that was no doubt originally written and circulated in Latin, the language of the imperial chancelleries.
+
+There is little information about Anaia in Late Antiquity (cf. Malay 2020, p. 173, nt. 1). The city is attested as an episcopal seat from the 5th century AD, and perhaps as early as the 4th (cf. PChBE 03, Paulos 1, pp. 766-767, Modestos 1, p. 701, Zôtikos 2, p. 980). Pending the publication of the excavation report, not much can be said about the location of the document in the church and the chronology of its arrival in Anaia. However, the (problematic) comparison with the Theodosian version of the text offers elements for developing some hypotheses about the transmission of the document from the western to the eastern part of the empire and then to the province of Asia, in which Anaia was located. 
+
+The inscription preserves the Greek translation from Latin of CTh 08, 08, 03 (as already said, only the second part of CTh 02, 08, 18 survived, while CTh 11, 07, 13 has a shortened subscriptio; but apart from minimal variations, the three Theodosian texts all come from the same copy of the law; on the “doublets” in the Theodosian compilation cf. Gaudemet 1957, García Garrido 2005, Sirks 2007, pp. 157-163): 
+
+Idem AAA(ugusti) (i.e., Gratianus, Valentinianus et Theodosius, according to CTh 08, 08, 02) ad Principium p(raefectum) p(raetori)o. 
+Solis die, quem dominicum rite dixere maiores, omnium omnino litium, negotiorum, conventionum quiescat intentio; debitum publicum privatumque nullus efflagitet; ne apud ipsos quidem arbitros vel in iudiciis flagitatos vel sponte delectos ulla sit agnitio iurgiorum. Et non modo notabilis, verum etiam sacrilegus iudicetur, qui a sanctae religionis instinctu rituve deflexerit. 
+P(ro)p(osita) III Non(as) Nov(embres) Aquileiae, acc(epta) VIII Kal(endas) Dec(embres) Romae, Honorio nobilissimo puero et Evodio v(iro) c(larissimo) conss(ulibus). 
+
+Despite the extreme similarity of the two texts, (apart from the language) there are three main differences between the Theodosian version and our inscription: 1) the latter lacks the subscriptio with the date; 2) the Latin and Greek versions record different imperial colleges; 3) a final clause threatening the death penalty for transgressors, engraved in the Anaia inscription, is missing in the Theodosian copy.
+
+Before commenting briefly upon these differences, a premise is needed: the copy(ies) in the Theodosian Code should not be regarded as the original text of the law. It is a version of the text whose accuracy to the original is conditioned by the state of the copy that the commissioners managed to recover and the interventions they made on the text (on these, see now Riedlberger 2020, pp. 219-225). There is therefore no reason why we should give preliminary preference to the Latin over the Greek version of the text when we find a variant. This of course does not apply to the subscriptio, which survives only in the Theodosian copy and whose reliability must be assessed according to prosopographical criteria.
+
+The chronology and the recipient of the text: the praetorian prefect Principius
+
+The three copies in the Theodosian Code all bear the subscriptio with the date of publication (proposita) of the law, at Aquileia on November 3rd, 386 AD; CTh 02, 08, 18 and CTh 11, 07, 13 also register the receiving (accepta) of the constitution at Rome three weeks later, on November 24th, 386 AD. None records the date of issue. The sequence date of publication – date of receiving can be found only in this law in the Theodosian Code. Th. Mommsen, considering the registration of the public posting (in Aquileia) and the (later) reception by an official (in Rome) as mutually exclusive, thought of a corruption of the subscriptio (Mommsen 1900, p. 165, nt. 1). However, as suggested by P. Porena, the constitution might have been first addressed from the comitatus of Valentinian II in Milan to the praetorian prefect in Aquileia, posted there by the official and finally transmitted by his office to (among other places) Rome (Porena 2020, pp. 156-157). This solution is supported by the evidence provided by another constitution in the Theodosian Code addressed to the same Principius, that is registered as given from Aquileia in April 386 AD, while the imperial court was, also then, located in Milan. Clearly, Aquileia was in 386 AD the seat of the official, who transmitted from there the constitutions he had received from the comitatus in Milan. We also have other evidence of Aquileia as the seat of the praetorian prefect in Italy in this period (see PPRET 69). 
+
+The recipient of the constitution is the praetorian prefect Principius. The versions in the Theodosian Code read, after the imperial college, ad Principium p(raefectum) p(raetori)o, while the Greek text has πρὸς Πρινκήπιον ἔπαρχον πό, with omicron superimposed above pi. This abbreviation has been read by the editor as ἔπαρχον πό(λεως), urban prefect (Malay 2020, p. 176); but, as the same Malay states, there is no doubt that the addressee of the text was praetorian prefect at the time, nor is any urban prefect (of Constantinople or Rome) called Principius attested under Valentinianus II or Theodosius I. The indication p(raefectus) u(rbis) in another constitution addressed to Principius (CI 01, 48, 02) is found only in the Justinian Code and can be discarded as a late corruption of an original p(raefectus) p(raetori)o (possibly by the compilers of the collection or by a later copist: see Jones 1964, p. 86, nt. 2; different proposal, vicarius?, in PLRE I, Principius 2, p. 726). Because of this reason, the reading ἔπαρχον π(ραιτωρί)ο(υ) is to be preferred, even if in the 4th-Century Greek inscriptions the office of praetorian prefect, when complete, is always written in full (PPRET 30, 35, 43, 44, 58, 61, 68, 73, 82; 83; 84; 85; 86; 87; 88; 90). This unusual abbreviation may depend on the form in which the text was transmitted to the East: it is possible that the Latin copy of the law used for the Greek translation recorded the office of the addressee in abbreviated form, such as praefectus p.o or even p. p.o, as we find in the Theodosian Code, and that the translators decided to keep “po / πο” without writing πραιτωρίου in full (see below).
+
+Principius is only known through the imperial constitutions that were addressed to him by Valentinianus II, and even this inscription adds nothing about his social background. The lack of any other evidence, his absence among the correspondents of Q. Aurelius Symmachus, suggest that he was not a member of an aristocratic family, but rather an official who had made his way through the ranks of the bureaucracy. Attested as magister officiorum of the young emperor, probably in 383/385 AD (the only clear evidence on this office is a constitution that, however, registers a publication in Africa in 386 AD: CTh 01, 09, 02; cf. Clauss 1980, pp. 184-186; Olszasniec 2013, pp. 328-332), Principius was then promoted to the position of praetorian prefect (possibly replacing Petronius Probus: see PPRET 59; on the palatine officials raised to the praetorian prefecture in this period see Porena 2019). His tenure is attested by eleven constitutions survived in the Theodosian Code, dated between June 385 AD and November 386 AD (the list in Porena 2020, pp. 156-157, revising PLRE I, Principius 2, p. 726). The places of issue clearly indicates that Principius was praetorian prefect of Valentinianus II, who ruled in this period over Italy, Africa and Illyricum (being the praetorian prefecture of the Gauls under the control of Magnus Maximus). A.H.M. Jones (1964, pp. 85-86; followed by PLRE I) considered Principius praetorian prefect of Italy, Africa and Illyricum; because the chronology of his constitutions partially overlaps with that of the laws addressed to another praetorian prefect of Valentinianus II, Eusignius, Jones proposed to pre-date to the year 385 AD CTh 13, 05, 17 (given on April 20th 386 AD, according to the Vatican manuscript) and our constitution trigemina, and to consider Eusignius the successor of Principius (cf. Jones 1964, pp. 85-86; PLRE I, Principius 2, p. 726; PLRE I, Eusignius, pp. 309-310). But the evidence collected by P. Porena on the existence in these years of an independent praetorian prefecture of Illyricum under the control of Valentinianus II, suggest rather another possibility: that Principius was praetorian prefect of Italy (and Africa) in 385-386 AD, while Eusignius was praetorian prefect in Illyricum (at least since January 386: see Porena 2020). This solution makes unnecessary any emendation of the chronology of the laws registered in our source. Therefore, we can keep the date preserved in the Theodosian Code for our constitution and consider it given by Valentinianus II in Milan few days before November 3rd 386 AD, when it was published by the prefect Principius in Aquileia (to give an example of the time needed, two constitutions of the emperor Gratianus given in Milan in 379 AD where received by the prefect Hilarianus Hesperius, very likely in Aquileia, after 18 and 29 days: CTh 08, 18, 06 and CTh 16, 05, 05, cf. PPRET 69).
+
+The imperial college and the transmission of the law to the East
+
+Confirmed the chronology (386 AD) and the office of the recipients (praetorian prefect), we can look at the imperial colleges recorded in the two texts. When the constitution was issued, emperors were Valentinianus II, who had control over Italy, Africa and Illyricum, Theodosius I and Arcadius in the East, and the “usurper” Magnus Maximus in Gaul. The memory of Maximus was later erased but he got some recognition in this period and one of the two consuls of 386 AD was his praetorian prefect, Evodius (see PLRE I, Evodius 2, p. 297; Omissi 2016). Apart from the uncertainty as to Maximus’ position, neither text retains the correct college: the Theodosian Code registers Gratianus, Valentinianus (II) and Theodosius (I); in the inscription of Anaia the issuing emperors are Theodosius and Valentinianus. 
+The editor of the Anaia inscription has proposed to identify these rulers as Theodosius II and Valentinianus III, the emperors “under whose joint reign (425-450) the Codex was published in 438, which is thus a terminus post quem for the inscription” (Malay 2020, p. 176). But this solution can’t be accepted. If the translation was made after the publication of the Code, we wouldn’t find the variant with the different sanction at the end of the Greek text. Moreover, a publication after the promulgation of the Code would have not implied the changing of the names of the issuing emperors (cf. Heil, Mitthof forthcoming). They are therefore to be identified with Theodosius I and Valentinianus II, listed in an order that does not reflect their seniority as Augusti (respectively, since 379 and 375 AD). 
+The missing registration of the name of Gratianus at Anaia needs no explanation. This emperor was killed in August 383 AD, while the constitution was issued in October 386 AD, three years later: there is no reason why Valentinianus II should have registered the name of his deceased brother as author of this constitution. If we find the name of Gratianus in the Theodosian Code’s copies, this is simply because the imperial colleges in this collection are not transcription of the originals but were written, or interpolated, by the compilers of the same Code (on this problem see Bernier 2018). The compilers composed the colleges on the basis of the chronology of the texts and, in several cases, made mistakes: such was the case with Gratianus, whose name replaces that of Arcadius in dozens of constitutions included in the collection that are dated after his death to the end of 386 AD (Bernier 2018, pp. 293-302). Being a mistake of the Theodosian compilers, there is no need to find an explanation for the omission of Gratianus in the inscription of Anaia. Less clear are the reasons for the omission of Arcadius and the inversion of the order between Theodosius I and Valentinianus II. It may be supposed that the dissemination of the communication in the Eastern part of the Empire was accompanied by the registration of the precedence of the Eastern ruler, Theodosius I, even if this contradicted the real seniority of the Augusti (and also the paternity of the law). But this solution makes even harder to explain why the name of Arcadius is missing. The son of Theodosius I was raised to the position of Augustus by his father on January 19th 383 AD (MGH AA 09, Chron. Min. 01, p. 244 = Cons. Const. s.a. 383). Even if this decision did not encounter the favour of the Western court of Gratianus (and, at least initially, of Valentinianus II, as the numismatic evidence suggest, see RIC IX, pp. XIX-XXI, 72-73, 87-89), the omission of Arcadius in an inscription made after November 386 AD is difficult to explain, even more if we suppose an interpolation of the college after the reception of the text in the Eastern empire.
+
+If we look at the contents of the law, the two texts are striking similar. Only an important difference can be found: while the constitution in the Theodosian Code concludes with a reference to iniuria and sacrilegium as sanction for the offenders (et non modo notabilis, verum etiam sacrilegus iudicetur, qui a sanctae religionis instinctu rituve deflexerit), the Greek copy adds the threat of capital punishment (οὐ μόνον γὰρ ἄτιμος καὶ ἱερόσυλος κληθήσεται ὁ τοιοῦτος, ἀλλὰ καὶ κεφαλικὴν ὑποστήσεται τιμωρίαν). There are two possibilities to explain this difference: 1) this threat was in the original text but was not included in the Theodosian Code (either because the compilers excluded it or because it was already missing in the copy they used); 2) the Greek translation falsified the imperial text (a different proposal in Heil, Mitthof forthcoming, where also a discussion on the offence of sacrilegium in the imperial constitutions in the second part of the 4th Century AD; for iniuria in Late Antiquity, see Atzeri 2016, 2021; Riedlberger 2020, pp. 353-393). Although capital punishment may appear an excessive sanction for failure to observe Sunday rest, the second possibility, namely the falsification of the text of an imperial law displayed in a frequented place, is even more unlikely. This sanction must have been recorded in the law and for this part the inscription of Anaia can be considered a more faithful testimony of the imperial law than the version in the Theodosian Code. This difference also implies that the law was probably engraved before January 439 AD, when with the promulgation of the Theodosian Code the editions of the laws included in the collection were made the standard ones (at least, to cite in courts or in the functions of a lawyer: see Sirks 2007, pp. 188-189). Therefore, the inscription must have been made somehow between the issue of the law (around October 386 AD) and the promulgation of the Theodosian Code (January 439 AD).
+
+There is one last point that remains unclear and it concerns, mainly, our inscription of Anaia. This law is in the form of a letter addressed to an official, like most late imperial constitutions. The Greek inscription contains the rule, with the sanction, but it lacks all the formal aspects that we usually find in the non-abridged versions of these imperial pronouncements (the extensive and rhetorical introduction, the order to disseminate the text, the references to the addressee: cf. here PPRET 53: Secunde pareṇ[s cari]ss[ime ad]qu[e] amạ[ntissime]; PPRET 56: Probe parens carissime adq(ue) amantissime; PPRET 28: Marine carissime ac iucundissime). While it is normal that these parts are missing in the Theodosian version, from which the compilers of the Code were told to remove all “superfluous words”, it is more surprising not to find them in the inscription of Anaia. Epigraphic documentation usually reproduces a document that is closer to the original text of the imperial constitution than the version in the Theodosian Code; in this case, however, with the exception of the clause on the death penalty, our document presents a form that is extremely similar to that, already edited, we read in the Code. How can we explain this peculiarity?
+
+The derivation of the Greek inscription from the specimen recorded in the Code has already been ruled out, because of the different text regarding the death penalty clause. A more likely hypothesis is that this constitution was transmitted to the East in an abridged form: by the imperial court or by the praetorian prefect Principius who, having received the constitution of Valentinianus II in Aquileia, might have taken care to communicate it in the territories under his jurisdiction (like the copy received in Rome on which the version in the Theodosian Code depends), but also to transmit the text to his colleagues in other prefectures: the praetorian prefects Eusignius, in Illyricum, Maternus Cynegius in the East (on this prefect see PPRET 75), possibly also Evodius in Gaul. The text might have been transmitted in an abbreviated form, which simply communicated the rule with the penalties (and in an abbreviated form might also have been the office of the addressee). Having found favour within the eastern court, this form of the law was disseminated in the territories of the eastern prefecture (whether this required an official confirmation by Theodosius I and Arcadius is unclear: the thesis of the geographically limited validity of constitutions in a partitioned empire has now been challenged by Riedlberger 2020, pp. 77-112; a first reply in Sirks 2021). Another possibility is that the constitution, communicated in the original form, was abridged in the East, before its dissemination.
+Whether the text was circulated in the provinces of Theodosius (and Arcadius) already in a Greek translation is difficult to say. However, it should be noted that near Anaia, in Ephesus, a constitution of Emperor Valens, issued around 10 years before the law to Principius, has survived (IK 11, Ephesus, 01a, 41; on the chronology Schmidt-Hofner 2008, pp. 583-585): it was engraved in its original, Latin form, followed by a Greek translation, presumably made in Ephesus. The translation does not include the inscriptio with the issuing emperors and the addressee, which was therefore only legible in the Latin version. One might guess that a similar fate had befallen our inscription: circulated in its Latin, abridged, version in the East, the constitution was publicly displayed in Ephesus, where it was supplemented by a Greek translation of the content. Our inscription from Anaia could have been made based on this Greek copy and completed with the inscriptio, which was only available in the Latin version. If this version had recorded the office of the recipient in an abbreviated form (ad Principium p(raefectum) p.o), then this would explain the ambiguous Greek translation in our epigraphic document (πρὸς Πρινκήπιον ἔπαρχον πό).</p>
             </div>
             <div type="bibliography" subtype="editions">
-                <p></p>
-            </div>
-            <div type="bibliography" subtype="images">
-                <p></p>
-            </div>
-            <div type="bibliography" subtype="links">
-                <p></p>
+                <p>
+                    <bibl><ref>Malay 2020</ref> (with photo)</bibl>
+                </p>
             </div>
             <div type="bibliography" subtype="other">
-                <p></p>
+                <p>
+                    <bibl>Atzeri L., Il lessico dell'infamia nella legislazione imperiale tardoantica (secc. IV-V d.C.), in Pira I. (a cura di), Scritti per Alessandro Corbino, I, Roma 2016, 123-155</bibl>
+                    <bibl>Atzeri L., La sanzione dell’infamia e il contrasto alla corruzione e al malgoverno nell’amministrazione tardoantica, in Atti del XXIV Convegno Internazionale dell’Accademia Romanistica Costantiniana, Perugia 2021, 605-631</bibl>
+                    <bibl>Bernier A., Il problema delle inscriptiones del Codice Teodosiano, Koinonia, 42, 2018, 269-303</bibl>
+                    <bibl>Bianchini M., Cadenze liturgiche e calendario civile fra IV e V secolo. Alcune considerazioni, in Atti del VI Convegno Internazionale dell’Accademia Romanistica Costantiniana, Perugia 1986, 241-263 (= Ead., Temi e tecniche della legislazione tardoimperiale, Torino 2008, 234-256)</bibl>
+                    <bibl>Clauss M., Der magister officiorum in der Spätantike (4.-6. Jahrhundert). Das Amt und sein Einfluss auf die kaiserliche Politik, München 1980</bibl>
+                    <bibl>Corcoran S., The Empire of the Tetrarchs. Imperial Pronouncements and Government AD 284-324, Oxford 2000 (rev. ed.)</bibl>
+                    <bibl>Corcoran S., Galerius’s Jigsaw Puzzle: the Caesariani Dossier, AntTard, 15, 2007, 221-250</bibl>
+                    <bibl>Delmaire R. (éd. par), Les lois religieuses des empereurs romains de Constantin a Theodose II (312-438), II. Code Theodosien I-XV, Code Justinien, Constitutions sirmondiennes (traduction J. Rougé, R. Delmaire, Paris 2009</bibl>
+                    <bibl>Feissel D., Les actes de l’Etat impérial dans l’épigraphie tardive (324–610): prolégomènes à un inventaire, in Haensch R. (hrsg.), Selbstdarstellung und Kommunikation. Die Veröffentlichung staatlicher Urkunden auf Stein und Bronze in der römischen Welt, München 2009, 97-128 (= Feissel D., Documents, droit, diplomatique de l’Empire romain tardif, Paris 2010, 43-68)</bibl>
+                    <bibl>García Garrido M.J., Similitudines codicum (las geminaciones y similitudes textuales en el Código Teodosiano y las coincidencias con el Código de Justiniano), in Atti del XV Convegno Internazionale dell’Accademia Romanistica Costantiniana, Napoli 2005, 463-492</bibl>
+                    <bibl>Gaudemet J., Un problème de la codification théodosienne: les constitutions géminées, RIDA (III s.), 4, 1957, 253-267 (= Id., Études de droit romain, I. Sources et théorie générale du droit, Napoli 1979, 301-317)</bibl>
+                    <bibl>Heil U. (ed. by), From Sun-Day to the Day of the Lord. The Career of a Special Day in Late Antiquity and the Early Middle Ages (International Conference, Vienna 2019), forthcoming</bibl>
+                    <bibl>Heil U., Mitthof F., Missachtung der Sonntagsruhe als Kapitalverbrechen. Einige Bemerkungen zu dem Neufund einer spätantiken Kaiserkonstitution aus Anaia, forthcoming</bibl>
+                    <bibl>Hunt D., Christianising the Roman Empire: the Evidence of the Code, in Harries J., Wood I. (edd. by), The Theodosian Code. Studies in the Imperial Law of Late Antiquity, London 1993, 143-158</bibl>
+                    <bibl>Jones A.H.M., Collegiate Prefecture, JRS, 54, 1964, 78-89</bibl>
+                    <bibl>Lazzarini M.L., Note onomastiche e prosopografiche, RFIC, 112, 1984, 327-337</bibl>
+                    <bibl>Malay H., A New Inscription from Anaia: Greek Translation of Codex Theod. 2.8.18 (On Stopping Litigation on Sunday), EA, 53, 2020, 173–177</bibl>
+                    <bibl>Matthews J.F., Laying down the Law. A Study of the Theodosian Code, New Haven-London 2000</bibl>
+                    <bibl>Mommsen Th., Das theodosische Gesetzbuch, ZRG, 21, 1900, 149-190 (= Id., Gesammelte Schriften, II, Juristische Schriften, Berlin 1905, 371-405)</bibl>
+                    <bibl>Olszaniec S., Prosopographical Studies on the Court Elite in the Roman Empire (4th Century AD), Toruń 2013</bibl>
+                <bibl>Omissi A., Damnatio memoriae or creatio memoriae? Memory Sanctions as Creative Processes in the Fourth Century AD, Cambridge Classical Journal, 62, 2016, 170-199</bibl>
+                <bibl>Porena P., “Rebus prosopografico”: considerazioni sui due Syagri, consoli ordinari nel 381 e nel 382, ZPE, 211, 2019, 279-292</bibl>
+                <bibl>Porena P., Ipotesi sull’istituzione di una prefettura del pretorio autonoma d’Illirico nel decennio 378-87, in Bigi F., Tantillo I. (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Roma 2020, 143-166</bibl>
+                <bibl>Riedlberger P., Prolegomena zu den spätantiken Konstitutionen Nebst einer Analyse der erbrechtlichen und verwandten Sanktionen gegen Heterodoxe, Stuttgart 2020</bibl>
+                <bibl>Schmidt-Hofner S., Die Regesten der Kaiser Valentinian und Valens in den Jahren 364 bis 375 n. Chr, ZRG, 125, 2008, 498-602</bibl>
+                <bibl>Sirks A.J.B., The Theodosian Code. A Study, Friedrichsdorf 2007</bibl>
+                <bibl>Sirks A.J.B., Could after the Division of Administration in 364 an Emperor Issue a Law for the Entire Empire?, ZRG, 138, 2021, 555-567</bibl>
+            </p>
             </div>
             
             <div type="commentary" subtype="prefects">
                 <div type="commentary" n="1">
-                    <p n="1.1"></p>
-                    <p n="1.2"></p>
-                    <p n="1.3"></p>
-                    <p n="1.4"></p>
-                </div>
-                
-                <div type="commentary" n="2">
-                    <p n="2.a"></p>
-                    <p n="2.b"></p>
-                    <p n="2.1"></p>
-                    <p n="2.2"></p>
-                    <p n="2.3"></p>
-                    <p n="2.4"></p>
-                    <p n="2.5"></p>
-                    <p n="2.6"></p>
-                    <p n="2.7"></p>
-                    <p n="2.8"></p>
-                    <p n="2.9"></p>
-                    <p n="2.10"></p>
-                    <list n="2.11">
-                        <item n="2.11.a"></item>
-                        <item n="2.11.b"></item>
-                        <item n="2.11.c"></item>
-                        <item n="2.11.d"></item>
-                        <item n="2.11.e"></item>
-                        <item n="2.11.f"></item>
-                        <item n="2.11.g"></item>
-                        <item n="2.11.h"></item>
-                        <item n="2.11.i"></item>
-                    </list>
-                </div>
-                
-                <div type="commentary" n="3">
-                    <p n="3"></p>
-                    <p n="3.a"></p>
-                    <p n="3.b"></p>
-                </div>
-                
-                <div type="commentary" n="4">
-                    <p n="4"></p>
+                    <p n="1.1"/>
                 </div>
                 
                 <div type="commentary" n="5">
-                    <p n="5"></p>
-                </div>
-                
-                <div type="commentary" n="6">
-                    <p n="6.a"></p>
-                    <p n="6.b"></p>
-                </div>
-                
-                <div type="commentary" n="7">
-                    <p n="7.1"></p>
-                    <p n="7.2"></p>
-                    <p n="7.y"></p>
-                    <p n="7.z"></p>
-                    <p n="7.3"></p>
-                    <p n="7.4"></p>
-                    <p n="7.5"></p>
-                    <p n="7.6"></p>
-                    <p n="7.7"></p>
-                    <p n="7.8"></p>
+                    <p n="5"/>
                 </div>
                 
                 <div type="commentary" n="8">
-                    <p n="8.1">...</p>
-                    <p n="8.2">...</p>
-                    <p n="8.3"></p>
-                    <p n="8.4"></p>
-                    <p n="8.5"></p>
-                    <p n="8.6"></p>
-                    <p n="8.7"></p>
-                    <p n="8.8"></p>
-                    <p n="8.9"></p>
-                    <p n="8.10"></p>
-                    <p n="8.11"></p>
-                    <p n="8.12"></p>
-                    <p n="8.13"></p>
-                    <p n="8.14"></p>
-                    <p n="8.15"></p>
+                    <p n="8.2">ἔπαρχον π(ραιτωρί)ο(υ)</p>
+                    <p n="8.5"/>
+                    <p n="8.6"/>
                 </div>
             </div>
         </body>

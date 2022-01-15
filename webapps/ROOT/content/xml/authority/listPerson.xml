@@ -160,6 +160,10 @@
                         <persName>Postumianus</persName>
                     </person>
                     
+                    <person xml:id="Principius">
+                        <persName>Principius</persName>
+                    </person>
+                    
                     <person xml:id="Olybrius">
                         <persName>Quintus Clodius Hermogenianus Olybrius</persName>
                     </person>

@@ -278,6 +278,10 @@
                 </place>
 
 
+                <place xml:id="Anaia">
+                    <placeName xml:lang="it">Anaia</placeName>
+                    <placeName xml:lang="en">Anaia</placeName>
+                </place>
                 <place xml:id="Andriake">
                     <placeName xml:lang="it">Andriakè</placeName>
                     <placeName xml:lang="en">Andriakè</placeName>

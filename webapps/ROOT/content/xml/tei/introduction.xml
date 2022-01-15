@@ -71,7 +71,7 @@
                         <lb/>EDITION: Strasbourg (MISHA) 2022
                         <lb/>WEB ADDRESS: <ref corresp="http://ppret-inscriptions.huma-num.fr">http://ppret-inscriptions.huma-num.fr</ref>
                     </p>
-                    <p>The database is a digital publication identified by the following ISSN code:  ............</p>
+                    <p>The database is a digital publication identified by the following ISSN code:  ...</p>
                 </div>
                 
                 <div type="textpart" subtype="section" n="4">
@@ -84,7 +84,7 @@
                 <div type="textpart" subtype="section" n="5">
                     <head>License</head>
                         <p>All the XML, HTML and PDF contents of the database<!--, which is hosted on a server provided by the <ref corresp="https://www.huma-num.fr/">Huma-Num</ref> Digital Humanities research infrastructure thanks to an agreement with <ref corresp="https://www.misha.fr/">MISHA</ref> / <ref corresp="https://www.unistra.fr/">Université de Strasbourg</ref>,--> are released in open access mode under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (<ref corresp="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</ref>).
-                            According to the license terms, access is free to all scholars, but the reuse of the materials is subject to explicitly giving appropriate credit (including the following statement: <quote>This material is derived from the PPRET Inscriptions database, by Porena et al., hosted at <ref corresp="http://ppret-inscriptions.huma-num.fr">ppret-inscriptions.huma-num.fr</ref>, ISSN ....</quote>), providing a link to the same CC license and indicating if changes were made. 
+                            According to the license terms, access is free to all scholars, but the reuse of the materials is subject to explicitly giving appropriate credit (including the following statement: <quote>This material is derived from the PPRET Inscriptions database, by Porena et al., hosted at <ref corresp="http://ppret-inscriptions.huma-num.fr">ppret-inscriptions.huma-num.fr</ref>, ISSN ...</quote>), providing a link to the same CC license and indicating if changes were made. 
                             The materials cannot be reused for commercial purposes.</p>
                 </div>
                 
@@ -120,16 +120,17 @@
                     
                     <div>
                         <head type="subheading">Encodage des inscriptions en EpiDoc XML</head>
-                        <!-- <p><ref corresp="https://epidoc.stoa.org/gl/latest/">EpiDoc</ref> is the international standard for the digital edition of ancient documents, especially inscriptions. It is a subset of the <ref corresp="https://tei-c.org/">Text Encoding Initiative</ref> (TEI) standard for the digital edition of literary and historical documents. 
-                            It is based on XML (eXtensible Markup Language), a widely spread and highly compatible semantic markup language, which is based on the meaning of the text instead of on its appearance and which is currently the most advanced and spread approach for the creation of digital scholarly editions.</p>
-                        <p>Among the many benefits of a semantic markup there are its high compatibility, interoperability and flexibility, which imply a long term sustainability and a low risk of obsolescence, and the fact that it allows the creation of enriched online publications with considerable usability benefits in terms of searching and browsing of the encoded materials.</p>
-                        <p>The adaptation of the EpiDoc XML template to fit the PPRET specific needs led to the creation of a PPRET EpiDoc XML template, which was used for the encoding of all the documents included in the PPRET Inscriptions database, carried out by Irene Vagionakis, Eleonora Angius and Giordana Franceschini.</p> -->
+                        <p><ref corresp="https://epidoc.stoa.org/gl/latest/">EpiDoc</ref> est le standard international pour l’édition numérique de documents anciens, en particulier les inscriptions. Il s’agit d’un sous-ensemble de le standard <ref corresp="https://tei-c.org/">Text Encoding Initiative</ref> (TEI) pour l’édition numérique de documents littéraires et historiques. 
+                            Elle est basée sur le langage XML (eXtensible Markup Language), un langage de balisage sémantique largement répandu et hautement compatible, qui se fonde sur la signification du texte plutôt que sur son apparence et qui constitue actuellement l’approche la plus avancée et la plus répandue pour la création d’éditions savantes numériques.</p>
+                        <p>Parmi les nombreux avantages d'un balisage sémantique, citons sa grande compatibilité, son interopérabilité et sa flexibilité, qui impliquent une durabilité à long terme et un faible risque d’obsolescence, ainsi que le fait qu’il permet la création de publications en ligne enrichies, avec des avantages considérables en termes de facilité d’utilisation pour la recherche et la navigation dans les matériaux encodés.</p>
+                        <p>L’adaptation du modèle EpiDoc XML aux besoins spécifiques de la PPRET a conduit à la création d’un modèle PPRET XML EpiDoc, qui a été utilisé pour l’encodage de tous les documents inclus dans la base de données PPRET Inscriptions, réalisé par Irene Vagionakis, Eleonora Angius et Giordana Franceschini.</p> 
                     </div>
                     <div>
-                        <!--<head type="subheading">Creation of the database with EFES (EpiDoc Front-End Services)</head>
-                        <p><ref corresp="https://github.com/EpiDoc/EFES/wiki">EpiDoc Front-End Services</ref> is an open-source tool for the online publication of texts encoded specifically in EpiDoc, developed in 2017 by the Institute of Classical Studies of the University of London. It is the epigraphic specialisation of <ref corresp="https://kcl-ddh.github.io/kiln/">Kiln</ref>, a similar tool for the online publication of texts in TEI, developed in 2012 by the Department of Digital Humanities of the King’s College London.</p>
-                        <p>The main points of strength of EFES that led to its adoption are the fact that is was specifically designed to be used with EpiDoc ancient documents, that it is easily customisable and that it is not just a publishing tool, but also a useful tool for testing and analysis purposes during construction.</p>
-                        <p>The customisation of EFES for PPRET purposes was made by Irene Vagionakis and involved, in particular, the adaptation of graphics, the creation of a dedicated XSLT template to display the PPRET XML template properly and the enhancement of EFES search facilities, including especially the addition of very specific browse filters and of a facility to perform searches limited to the inscription texts only.</p>-->
+                        <head type="subheading">Création de la base de données avec EFES (EpiDoc Front-End Services)</head>
+                        <p><ref corresp="https://github.com/EpiDoc/EFES/wiki">EpiDoc Front-End Services</ref> est un outil open-source pour la publication en ligne de textes encodés spécifiquement en EpiDoc, développé en 2017 par l’Institute of Classical Studies - University of London. 
+                            Il s’agit de la spécialisation épigraphique de <ref corresp="https://kcl-ddh.github.io/kiln/">Kiln</ref>, un outil similaire pour la publication en ligne de textes en TEI, développé en 2012 par le Department of Digital Humanities du King’s College London.</p>
+                        <p>Les principaux points forts d’EFES qui ont conduit à son adoption sont le fait qu’il a été spécifiquement conçu pour être utilisé avec les documents anciens EpiDoc, qu’il est facilement personnalisable et qu’il ne s’agit pas seulement d’un outil de publication, mais aussi d’un outil utile à des fins de test et d’analyse pendant la construction.</p>
+                        <p>La personnalisation d’EFES pour PPRET a été réalisée par Irene Vagionakis et a impliqué, en particulier, l’adaptation des graphiques, la création d’un modèle XSLT dédié pour afficher correctement le modèle XML PPRET et le développement des fonctions de recherche d’EFES, notamment l’ajout de filtres de navigation très spécifiques et d’une fonction permettant d’effectuer des recherches limitées aux seuls textes d’inscription.</p>
                     </div>
                 </div>
                 
@@ -144,7 +145,7 @@
                         <lb/>ÉDITION: Strasbourg (MISHA) 2022
                         <lb/>ADRESSE WEB: <ref corresp="http://ppret-inscriptions.huma-num.fr">http://ppret-inscriptions.huma-num.fr</ref>
                     </p>
-                    <p>La base de données est une publication numérique identifiée par le code ISSN suivant: ............</p>
+                    <p>La base de données est une publication numérique identifiée par le code ISSN suivant: ...</p>
                 </div>
                 
                 <div type="textpart" subtype="section" n="4">
@@ -156,17 +157,17 @@
                 
                 <div type="textpart" subtype="section" n="5">
                     <head>Licence</head>
-                    <!--<p>All the XML, HTML and PDF contents of the database<!-\-, which is hosted on a server provided by the <ref corresp="https://www.huma-num.fr/">Huma-Num</ref> Digital Humanities research infrastructure thanks to an agreement with <ref corresp="https://www.misha.fr/">MISHA</ref> / <ref corresp="https://www.unistra.fr/">Université de Strasbourg</ref>,-\-> are released in open access mode under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (<ref corresp="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</ref>).
-                        According to the license terms, access is free to all scholars, but the reuse of the materials is subject to explicitly giving appropriate credit (including the following statement: <quote>This material is derived from the PPRET Inscriptions database, by Porena et al., hosted at <ref corresp="http://ppret-inscriptions.huma-num.fr">ppret-inscriptions.huma-num.fr</ref>, ISSN ....</quote>), providing a link to the same CC license and indicating if changes were made. 
-                        The materials cannot be reused for commercial purposes.</p>-->
+                    <p>Tous les contenus XML, HTML et PDF de la base de données sont publiés en accès libre une licence Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (<ref corresp="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</ref>).
+                        Selon les termes de la licence, l'accès est libre pour tous les chercheurs, mais la réutilisation du matériel est soumise à la mention explicite de la source (y compris la déclaration suivante): <quote>Ce matériel est dérivé de la base de données PPRET Inscriptions, par Porena et al., hébergée à <ref corresp="http://ppret-inscriptions.huma-num.fr">ppret-inscriptions.huma-num.fr</ref>, ISSN ...</quote>), en fournissant un lien vers la même licence CC et en indiquant si des modifications ont été apportées.
+                        Les matériaux ne peuvent pas être réutilisés à des fins commerciales.</p>
                 </div>
                 
                 <div type="textpart" subtype="section" n="6">
                     <head>Linked Open Data</head>
-                    <!--<p>According to the Linked Open Data principles, links to other open access online resources (like <ref corresp="https://insaph.kcl.ac.uk/ala2004/">ALA</ref>, <ref corresp="https://census.bbaw.de/">Census</ref>, <ref corresp="https://www.epigraphik.uni-hamburg.de/">EDAK</ref>, <ref corresp="https://www.edb.uniba.it/">EDB</ref>, <ref corresp="http://db.edcs.eu/">EDCS</ref>, <ref corresp="https://edh-www.adw.uni-heidelberg.de/">EDH</ref>, <ref corresp="http://www.edr-edr.it/">EDR</ref>, 
-                        <ref corresp="https://insaph.kcl.ac.uk/insaph/iaph2007/">IAph</ref>, <ref corresp="http://telota.bbaw.de/ig/">IG Online</ref>, <ref corresp="https://iospe.kcl.ac.uk/">IOSPE<hi rend="superscript">³</hi></ref>, <ref corresp="http://inslib.kcl.ac.uk/irt2009/">IRT</ref>, <ref corresp="http://sicily.classics.ox.ac.uk/">I.Sicily</ref>, <ref corresp="http://laststatues.classics.ox.ac.uk/">LSA</ref>, <ref corresp="http://mizar.unive.it/mqdq/public/">MQDQ</ref>, <ref corresp="https://epigraphy.packhum.org/">PHI</ref>, <ref corresp="https://www.trismegistos.org/">Trismegistos</ref>, <ref corresp="https://www.ubi-erat-lupa.org/">Ubi Erat Lupa</ref>) have been inserted systematically.
-                        The inclusion of links to PPRET Inscriptions resources in other open online resources is warmly encouraged.
-                    </p>-->
+                    <p>Conformément aux principes des Linked Open Data, des liens vers d’autres ressources en ligne en libre accès (comme <ref corresp="https://insaph.kcl.ac.uk/ala2004/">ALA</ref>, <ref corresp="https://census.bbaw.de/">Census</ref>, <ref corresp="https://www.epigraphik.uni-hamburg.de/">EDAK</ref>, <ref corresp="https://www.edb.uniba.it/">EDB</ref>, <ref corresp="http://db.edcs.eu/">EDCS</ref>, <ref corresp="https://edh-www.adw.uni-heidelberg.de/">EDH</ref>, <ref corresp="http://www.edr-edr.it/">EDR</ref>, 
+                        <ref corresp="https://insaph.kcl.ac.uk/insaph/iaph2007/">IAph</ref>, <ref corresp="http://telota.bbaw.de/ig/">IG Online</ref>, <ref corresp="https://iospe.kcl.ac.uk/">IOSPE<hi rend="superscript">³</hi></ref>, <ref corresp="http://inslib.kcl.ac.uk/irt2009/">IRT</ref>, <ref corresp="http://sicily.classics.ox.ac.uk/">I.Sicily</ref>, <ref corresp="http://laststatues.classics.ox.ac.uk/">LSA</ref>, <ref corresp="http://mizar.unive.it/mqdq/public/">MQDQ</ref>, <ref corresp="https://epigraphy.packhum.org/">PHI</ref>, <ref corresp="https://www.trismegistos.org/">Trismegistos</ref>, <ref corresp="https://www.ubi-erat-lupa.org/">Ubi Erat Lupa</ref>) ont été insérés systématiquement.
+                        L’inclusion de liens vers les ressources du PPRET Inscriptions dans d’autres ressources en ligne ouvertes est vivement encouragée.
+                    </p>
                 </div>
             </div>
             
@@ -219,7 +220,7 @@
                         <lb/>EDITION: Strasbourg (MISHA) 2022
                         <lb/>WEB ADDRESS: <ref corresp="http://ppret-inscriptions.huma-num.fr">http://ppret-inscriptions.huma-num.fr</ref>
                     </p>
-                    <p>The database is a digital publication identified by the following ISSN code:  ............</p>
+                    <p>The database is a digital publication identified by the following ISSN code:  ...</p>
                 </div>
                 
                 <div type="textpart" subtype="section" n="4">
@@ -232,7 +233,7 @@
                 <div type="textpart" subtype="section" n="5">
                     <head>License</head>
                     <p>All the XML, HTML and PDF contents of the database<!--, which is hosted on a server provided by the <ref corresp="https://www.huma-num.fr/">Huma-Num</ref> Digital Humanities research infrastructure thanks to an agreement with <ref corresp="https://www.misha.fr/">MISHA</ref> / <ref corresp="https://www.unistra.fr/">Université de Strasbourg</ref>,--> are released in open access mode under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (<ref corresp="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</ref>).
-                        According to the license terms, access is free to all scholars, but the reuse of the materials is subject to explicitly giving appropriate credit (including the following statement: <quote>This material is derived from the PPRET Inscriptions database, by Porena et al., hosted at <ref corresp="http://ppret-inscriptions.huma-num.fr">ppret-inscriptions.huma-num.fr</ref>, ISSN ....</quote>), providing a link to the same CC license and indicating if changes were made. 
+                        According to the license terms, access is free to all scholars, but the reuse of the materials is subject to explicitly giving appropriate credit (including the following statement: <quote>This material is derived from the PPRET Inscriptions database, by Porena et al., hosted at <ref corresp="http://ppret-inscriptions.huma-num.fr">ppret-inscriptions.huma-num.fr</ref>, ISSN ...</quote>), providing a link to the same CC license and indicating if changes were made. 
                         The materials cannot be reused for commercial purposes.</p>
                 </div>
                 
