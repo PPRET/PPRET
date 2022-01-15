@@ -300,8 +300,8 @@
             <div type="bibliography" subtype="links">
                 <p>
                     <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-20900052">EDCS 20900052</ref></bibl>
-                    <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD047957">HD 047957</ref></bibl>
-                    <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD047958">HD 047958</ref></bibl>
+                    <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD047957">EDH 047957</ref></bibl>
+                    <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD047958">EDH 047958</ref></bibl>
                     <bibl><ref corresp="https://www.trismegistos.org/text/176207">TM 176207</ref></bibl>
                  </p>
             </div>

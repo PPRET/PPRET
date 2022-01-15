@@ -28,70 +28,71 @@
                 <div type="section">
                     <head>Latin and Greek Epigraphic Corpora</head>
                     <listBibl>
-                        <bibl>AE: L’Année Epigraphique, Paris 1888 ff.</bibl>
-                        <bibl>ALA: Roueché C., Aphrodisias in Late Antiquity. The Late Roman and Byzantine Inscriptions Including Texts from the Excavations at Aphrodisias Conducted by Kenan T. Erim, London 1989</bibl>
-                        <bibl>BE: Bulletin épigraphique in Revue des études grecques, Paris 1888 ff.</bibl>
-                        <bibl>CIG: Corpus inscriptionum Graecarum, Berlin 1828-1877</bibl>
-                        <bibl>CIL: Corpus Inscriptionum Latinarum, Berlin 1863 ff.</bibl>
-                        <bibl>CLE: Bücheler, F., Lommatzsch, E., Carmina Latina Epigraphica, Leipzig 1930</bibl>
-                        <bibl>GLIA II: Mitchell S., French D., The Greek and Latin Inscriptions of Ankara (Ancyra), II, München 2019</bibl>
-                        <bibl>ICret: M. Guarducci, Inscriptiones Creticae I-IV, Roma 1935-1950</bibl>
-                        <bibl>ICUR: Inscriptiones christianae urbis Romae septimo saeculo antiquiores, novae series, Roma 1922 ff.</bibl>
-                        <bibl>IG: Inscriptiones Graecae, Berlin 1873 ff.</bibl>
-                        <bibl>IGLFRPal: Panciera S. (ed.), Iscrizioni greche e latine del Foro Romano e del Palatino, Roma 1996</bibl> <!-- * -->
-                        <bibl>IGLS: Inscriptions grecques et latines de la Syrie, Paris 1929 ff.</bibl>
-                        <bibl>IGUR: L. Moretti, Inscriptiones Graecae Urbis Romae, Roma 1968-1990</bibl>
-                        <bibl>IIFDR: Popescu E., Inscriptiones intra fines Dacoromaniae repertae Graecae et Latinae anno CCLXXXIV recentiores, Bucaresti 1976</bibl>
-                        <bibl>IK: Inschriften griechischer Städte aus Kleinasien, Bonn 1972 ff.</bibl>
-                        <bibl>ILBulg: Gerov B., Inscriptiones Latinae in Bulgaria repertae, Sofia 1989</bibl>
-                        <bibl>ILS:  H. Dessau, Inscriptiones Latinae selectae, Berlin 1892-1916</bibl>
-                        <bibl>InscrIt: Inscriptiones Italiae, Roma 1931- </bibl>
-                        <bibl>IosPE I<hi rend="superscript">²</hi>: Latyshev B. (ed.), Inscriptiones antiquae orae septentrionalis Ponti Euxini graecae et latinae. Vol. 1: Inscriptiones Tyriae, Olbiae, Chersonesi Tauricae. Editio altera, Petropoli 1916</bibl> <!-- * -->
-                        <bibl>IScM: Inscriptions de Scythie mineure / Inscriptiones Scythiae Minoris graecae et latinae, Bucuresti 1980 ff.</bibl>
-                        <bibl>McCabe, Aphrodisias: McCabe D.F., Aphrodisias Inscriptions. Texts and List, Princeton 1991</bibl> <!-- * -->
-                        <bibl>OGIS: W. Dittenberger, Orientis graeci inscriptiones selectae, Leipzig 1903-1905</bibl>
-                        <bibl>PChBE II: Prosopographie chrétienne du Bas-Empire, II. Prosopographie de l’Italie chrétienne (313-604), sous la direction de Charles Pietri et Luce Pietri, 2 voll., Roma 1999-2000</bibl>
-                        <bibl>RIU: Die römischen Inschriften Ungarns, amsterdam-Budapest 1972 ff.</bibl>
-                        <bibl>SB: Sammelbuch griechischer Urkunden aus Ägypten, Straßburg 1915 ff.</bibl>
-                        <bibl>SEG: Supplementum Epigraphicum Graecum, Leiden 1923 ff.</bibl>
-                        <bibl>SGO: R. Merkelbach, J. Stauber, Steinepigramme aus dem griechischen Osten, I-V, München 1998-2004</bibl>
-                        <bibl>SupplIt: Supplementa italica, nuova serie, Roma 1981 ff.</bibl>
-                        <bibl>SupplIt-Imagines: Supplementa italica – Imagines. Supplementi fotografici ai volumi italiani del CIL, Roma 1999 ff.</bibl>
-                        <bibl>TAM: Tituli Asiae Minoris, Wien 1901 ff.</bibl>
+                        <bibl><emph>AE</emph>: L’Année Epigraphique, Paris 1888 ff.</bibl>
+                        <bibl><emph>ALA</emph>: Roueché C., Aphrodisias in Late Antiquity. The Late Roman and Byzantine Inscriptions Including Texts from the Excavations at Aphrodisias Conducted by Kenan T. Erim, London 1989</bibl>
+                        <bibl><emph>BE</emph>: Bulletin épigraphique in Revue des études grecques, Paris 1888 ff.</bibl>
+                        <bibl><emph>CIG</emph>: Corpus inscriptionum Graecarum, Berlin 1828-1877</bibl>
+                        <bibl><emph>CIL</emph>: Corpus Inscriptionum Latinarum, Berlin 1863 ff.</bibl>
+                        <bibl><emph>CLE</emph>: Bücheler, F., Lommatzsch, E., Carmina Latina Epigraphica, Leipzig 1930</bibl>
+                        <bibl><emph>GLIA II</emph>: Mitchell S., French D., The Greek and Latin Inscriptions of Ankara (Ancyra), II, München 2019</bibl>
+                        <bibl><emph>ICret</emph>: M. Guarducci, Inscriptiones Creticae I-IV, Roma 1935-1950</bibl>
+                        <bibl><emph>ICUR</emph>: Inscriptiones christianae urbis Romae septimo saeculo antiquiores, novae series, Roma 1922 ff.</bibl>
+                        <bibl><emph>IG</emph>: Inscriptiones Graecae, Berlin 1873 ff.</bibl>
+                        <bibl><emph>IGLS</emph>: Inscriptions grecques et latines de la Syrie, Paris 1929 ff.</bibl>
+                        <bibl><emph>IGUR</emph>: L. Moretti, Inscriptiones Graecae Urbis Romae, Roma 1968-1990</bibl>
+                        <bibl><emph>IIFDR</emph>: Popescu E., Inscriptiones intra fines Dacoromaniae repertae Graecae et Latinae anno CCLXXXIV recentiores, Bucaresti 1976</bibl>
+                        <bibl><emph>IK</emph>: Inschriften griechischer Städte aus Kleinasien, Bonn 1972 ff.</bibl>
+                        <bibl><emph>ILBulg</emph>: Gerov B., Inscriptiones Latinae in Bulgaria repertae, Sofia 1989</bibl>
+                        <bibl><emph>ILS</emph>:  H. Dessau, Inscriptiones Latinae selectae, Berlin 1892-1916</bibl>
+                        <bibl><emph>InscrIt</emph>: Inscriptiones Italiae, Roma 1931- </bibl>
+                        <bibl><emph>IosPE I<hi rend="superscript">²</hi></emph>: Latyshev B. (ed.), Inscriptiones antiquae orae septentrionalis Ponti Euxini graecae et latinae. Vol. 1: Inscriptiones Tyriae, Olbiae, Chersonesi Tauricae. Editio altera, Petropoli 1916</bibl> <!-- * -->
+                        <bibl><emph>IScM</emph>: Inscriptions de Scythie mineure / Inscriptiones Scythiae Minoris graecae et latinae, Bucuresti 1980 ff.</bibl>
+                        <bibl><emph>OGIS</emph>: W. Dittenberger, Orientis graeci inscriptiones selectae, Leipzig 1903-1905</bibl>
+                        <bibl><emph>PChBE</emph> II: Prosopographie chrétienne du Bas-Empire, II. Prosopographie de l’Italie chrétienne (313-604), sous la direction de Charles Pietri et Luce Pietri, 2 voll., Roma 1999-2000</bibl>
+                        <bibl><emph>RIU</emph>: Die römischen Inschriften Ungarns, amsterdam-Budapest 1972 ff.</bibl>
+                        <bibl><emph>SB</emph>: Sammelbuch griechischer Urkunden aus Ägypten, Straßburg 1915 ff.</bibl>
+                        <bibl><emph>SEG</emph>: Supplementum Epigraphicum Graecum, Leiden 1923 ff.</bibl>
+                        <bibl><emph>SGO</emph>: R. Merkelbach, J. Stauber, Steinepigramme aus dem griechischen Osten, I-V, München 1998-2004</bibl>
+                        <bibl><emph>SupplIt</emph>: Supplementa italica, nuova serie, Roma 1981 ff.</bibl>
+                        <bibl><emph>SupplIt-Imagines</emph>: Supplementa italica – Imagines. Supplementi fotografici ai volumi italiani del CIL, Roma 1999 ff.</bibl>
+                        <bibl><emph>TAM</emph>: Tituli Asiae Minoris, Wien 1901 ff.</bibl>
                     </listBibl>
                 </div>
                 
                 <div type="section">
-                    <head>Epigraphic Databases Online</head>
+                    <head>Online Epigraphic Corpora and Databases</head>
                     <listBibl>
-                        <bibl>ALA: Aphrodisias in Late Antiquity</bibl>
-                        <bibl>EDCS: Epigraphic Database Clauss-Slaby</bibl>
-                        <bibl>EDR: Epigraphic Database Roma</bibl>
-                        <bibl>HD: Heidelberg Epigraphic Database</bibl>
-                        <bibl>LSA: Last Statues of Antiquity</bibl>
-                        <bibl>MQDQ: Musisque Deoque</bibl>
-                        <bibl>Ubi erat Lupa: Ubi erat Lupa</bibl>
-                        <bibl>TM: Trismegistos</bibl>
+                        <bibl><ref corresp="https://insaph.kcl.ac.uk/ala2004/"><emph>ALA2004</emph></ref>: Aphrodisias in Late Antiquity</bibl>
+                        <bibl><ref corresp="https://census.bbaw.de/"><emph>Census</emph></ref>: Census</bibl>
+                        <bibl><ref corresp="https://www.epigraphik.uni-hamburg.de/"><emph>EDAK</emph></ref>: Epigraphische Datenbank zum antiken Kleinasien</bibl>
+                        <bibl><ref corresp="https://www.edb.uniba.it/"><emph>EDB</emph></ref>: Epigraphic Database Bari</bibl>
+                        <bibl><ref corresp="http://db.edcs.eu/"><emph>EDCS</emph></ref>: Epigraphic Database Clauss-Slaby</bibl>
+                        <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/"><emph>EDH</emph></ref>: Heidelberg Epigraphic Database</bibl>
+                        <bibl><ref corresp="http://www.edr-edr.it/"><emph>EDR</emph></ref>: Epigraphic Database Roma</bibl>
+                        <bibl><ref corresp="https://insaph.kcl.ac.uk/insaph/iaph2007/"><emph>IAph2007</emph></ref>: Inscriptions of Aphrodisias</bibl>
+                        <bibl><ref corresp="http://inslib.kcl.ac.uk/irt2009/"><emph>IRT</emph></ref>: Inscriptions of Roman Tripolitania</bibl>
+                        <bibl><ref corresp="https://iospe.kcl.ac.uk/"><emph>IOSPE<hi rend="superscript">³</hi></emph></ref>: Ancient Inscriptions of the Northern Black Sea</bibl>
+                        <bibl><ref corresp="http://sicily.classics.ox.ac.uk/"><emph>I.Sicily</emph></ref>: Inscriptions of Sicily</bibl>
+                        <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/"><emph>LSA</emph></ref>: Last Statues of Antiquity</bibl>
+                        <bibl><ref corresp="http://mizar.unive.it/mqdq/public/"><emph>MQDQ</emph></ref>: Musisque Deoque</bibl>
+                        <bibl><ref corresp="https://epigraphy.packhum.org/"><emph>PHI</emph></ref>: Packard Humanities Institute Searchable Greek Inscriptions</bibl>
+                        <bibl><ref corresp="https://www.trismegistos.org/"><emph>Trismegistos</emph></ref>: Trismegistos</bibl>
+                        <bibl><ref corresp="https://www.ubi-erat-lupa.org/"><emph>Ubi Erat Lupa</emph></ref>: Ubi erat Lupa</bibl>
                     </listBibl>
                 </div>
                 <div type="section">
                     <head>Reference Works</head>
                     <listBibl>
-                        <bibl>CLRE: Bagnall R.S., Cameron Al., Schwartz S.R., Worp K.A., Consuls in the Later Roman Empire, Atlanta 1987</bibl>
-                        <bibl>PLRE I: Jones A.H.M., Martindale J.R., Morris J., The Prosopography of the Later Roman Empire, I, A.D. 260-395, Cambridge 1971</bibl>
-                        <bibl>PLRE II: Martindale J.R., The Prosopography of the Later Roman Empire, II, A.D. 395-527, Cambridge 1980</bibl>
-                        <lb/>
-                        <bibl>Besevliev 1964: V. Beševliev, Spätgriechische und spätlateinische Inschriften aus Bulgarien, Berlin 1964</bibl>
-                        <bibl>Conti 2004: S. Conti, Die Inschriften Kaiser Julians, Stuttgart 2004</bibl>
-                        <bibl>Grünewald 1990: T. Grünewald, Constantinus Maximus Augustus. Herrschaftspropagan-da in der zeitgenössischen Überlieferung, Stuttgart 1990</bibl>
-                        <bibl>Robert 1948: L. Robert, Hellenica. Recueil d’épigraphie, de numismatique et d’antiquités grecques, IV, Epigrammes du Bas-Empire, Paris 1948</bibl>
+                        <bibl><emph>CLRE</emph>: Bagnall R.S., Cameron Al., Schwartz S.R., Worp K.A., Consuls in the Later Roman Empire, Atlanta 1987</bibl>
+                        <bibl><emph>PLRE I</emph>: Jones A.H.M., Martindale J.R., Morris J., The Prosopography of the Later Roman Empire, I, A.D. 260-395, Cambridge 1971</bibl>
+                        <bibl><emph>PLRE II</emph>: Martindale J.R., The Prosopography of the Later Roman Empire, II, A.D. 395-527, Cambridge 1980</bibl>
                     </listBibl>
                 </div>
                 
                 <div type="section">
                     <head>Journals</head>
                     <listBibl>
-                        <bibl>JLA: Journal of Late Antiquity</bibl>
+                        <bibl><emph>JLA</emph>: Journal of Late Antiquity</bibl>
                     </listBibl>
                 </div>
             </div>

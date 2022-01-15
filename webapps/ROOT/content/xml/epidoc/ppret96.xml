@@ -102,7 +102,7 @@
             <div type="apparatus">
                 <p>Edition based on CIL, with modifications.</p>
                 <p>
-                    <app loc="1"><note><gap reason="lost" extent="unknown" unit="character"/>I<gap reason="lost" extent="unknown" unit="character"/>: HD 032699</note></app>
+                    <app loc="1"><note><gap reason="lost" extent="unknown" unit="character"/>I<gap reason="lost" extent="unknown" unit="character"/>: EDH 032699</note></app>
                 <app loc="4"><note><supplied reason="lost" cert="low">ob insignem</supplied> <supplied reason="lost">e</supplied>r<unclear>ga</unclear> <supplied reason="lost" cert="low">se benevolentiam</supplied>: Panciera 1996a, CIL 06, 41346 (see commentary)</note></app></p>
             </div>
             <div type="translation" xml:lang="en">
@@ -167,7 +167,7 @@ The sequence and separate registration of three praetorian prefectures of Illyri
                     <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-01000479">EDCS 01000479</ref> (= CIL 06, 41346)</bibl>
                     <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-07700030">EDCS 07700030</ref> (= Panciera 1996a)</bibl>
                     <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR093578">EDR 093578</ref></bibl>
-                    <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD032699">HD 032699</ref></bibl>
+                    <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD032699">EDH 032699</ref></bibl>
                     <bibl><ref corresp="https://www.trismegistos.org/text/262840">TM 262840</ref></bibl>
                  </p>
             </div>

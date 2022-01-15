@@ -185,6 +185,11 @@ li.arrow a {
  border: solid 1px black;
 }
 
+#team div {
+    min-height:13em;
+    margin-top:1em;
+}
+
 
 /*Keyboard*/
 #keyboard_box {

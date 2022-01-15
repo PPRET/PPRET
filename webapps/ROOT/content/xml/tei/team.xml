@@ -22,26 +22,36 @@
     </teiHeader>
     <text>
         <body>
-            <div type="commentary">
+            <div xml:id="team" type="commentary">
                 <div>
-                    <p><emph><ref corresp="mailto:pierfrancesco.porena@uniroma3.it">Pierfrancesco Porena</ref></emph></p>
-                <p>...</p>
+                    <p><emph><ref corresp="mailto:pierfrancesco.porena@uniroma3.it">Pierfrancesco Porena (P.I.)</ref></emph></p>
+                    <figure corresp="/images/Porena.jpg"/>
+                    <p>I am currently Full Professor of Roman History and Latin Epigraphy at the Department of Studi Umanistici, University “Roma Tre” [<ref corresp="https://studiumanistici.uniroma3.it/persone/RDQwSlJZOU1kc1RVckNoRlo2R1NWUnU3dFJoMDNuK3dZc2xJNVZYaGdOST0=/">website</ref>] and in the “European Master in Classical Cultures” [<ref corresp="https://emccs.uni-muenster.de/index.php/fr/emcc-professors/prof-pierfrancesco-porena">website</ref>]. 
+                        Visiting Professor in European Universities (École Normale Supérieure Paris, Westfälische Wilhelms-Universität Münster, École des Hautes Études en Sciences Sociales Paris), my research cores are the administration of the late Roman Empire (3rd-6th centuries AD), with particular attention to the praetorian prefecture (and its prosopography), the political and social context of Italy, the relationship between the administration and the cities, and the epigraphic production mainly concerning late antique dignitaries and members of the senatorial order; the barbarian presence in the western part of the later Roman Empire [<ref corresp="https://dicospe.academia.edu/PierfrancescoPorena">Academia.edu</ref>]. 
+                        I directed and participated in Italian and international research projects (PRIN, EDR, École Française de Rome, Istituto Italiano per la Storia Antica, ERC Rhedis, etc.). Since 2020 I am Associate member of UMR 7044 “Archaeology and Ancient History: Mediterranean-Europe” (ARCHIMEDE), dir. prof. M. Humm, University of Strasbourg [<ref corresp="https://archimede.unistra.fr/laboratoire/membres/membres-associes/pierfrancesco-porena/">website</ref>]. 
+                        I am Lauréat “Chaires Gutenberg 2019”, international prize awarded by the “Cercle Gutenberg” (Strasbourg) for competitive research calls [<ref corresp="http://www.cercle-gutenberg.fr/titulaires-et-laureats/titulaires-chaires-gutenberg/biographie-des-laureats/chaires-2019/pierfrancesco-porena/">website</ref>], and thus Principal Investigator of the PPRET Project “Les Préfets du prétoire de l’Empire tardif: une élite face à la crise / The Praetorian Prefects in the Later Roman Empire: an Elite in a Crisis Context”, project hosted by the UMR 7044.</p>
                 </div>
                 <div>
                     <p><emph><ref corresp="mailto:eleonora.angius93@gmail.com">Eleonora Angius</ref></emph></p>
-                <p>...</p>
+                    <figure corresp="/images/Angius.jpg"/>
+                    <p>I obtained my BA in Classics (2018) and MA (2020) with honours in Philology, Literature and History of Antiquity at the University "Roma Tre". My research and dissertation focuse on the late Roman epigraphy, in Latin and Greek, in particular pertaining the praetorian prefects from Diocletian to Constantius II (284-361 AD).</p>
                 </div>
                 <div>
                     <p><emph><ref corresp="mailto:andrea.bernier85@gmail.com">Andrea Bernier</ref></emph></p>
-                    <figure corresp="/images/Bernier.jpg"></figure>
+                    <figure corresp="/images/Bernier.jpg"/>
                     <p>I studied ancient history at the University of Parma, where I obtained a MA (2013) and a PhD (2017) with a dissertation on the legislation of the emperor Valentinian I. In 2017/2018 I held a fellowship at the Istituto Italiano per gli Studi Storici Benedetto Croce (Napoli) and in 2020 I was granted a DAAD scholarship for a research period at the University of Tübingen. My researches have focused on the administrative system of the later Roman empire, on the ancient law codes as sources for the history of 4th and 5th Centuries and on the agrarian history of late and post-Roman Europe.</p>
                 </div>
                 <div>
                     <p><emph><ref corresp="mailto:giordana.franceschini@uniroma3.it">Giordana Franceschini</ref></emph></p>
-                <p>...</p>
+                    <figure corresp="/images/Franceschini.jpg"/>
+                    <p>I obtained my BA (2015) with distinction in Ancient and Christian Literatures and my MA (2017) with distinction in Philology, Literatures and History of Antiquity at the University "Roma Tre". 
+                        My research and dissertation in Latin Epigraphy on trial documents, in particular on the title "Lis fullonum" (CIL VI, 226). 
+                        I deepened my study of classical languages at the Scuola di Alta Formazione in Lingue Classiche dell'Istituto Italiano di Studi Classici in Rome (2017). I obtained a diploma in Archivistics, Palaeography and Diplomatics at the State Archives of Rome (2019). 
+                        I am currently a PhD doctorate in “Greek and Roman Civilizations and Traditions” at the University "Roma Tre" (2019/2022); my Dissertation is centered on the translation and the commentary of the third book of “De Magistratibus” by John Lydus.</p>
                 </div>
                 <div>
                     <p><emph><ref corresp="mailto:irene.vagionakis2@unibo.it">Irene Vagionakis</ref></emph></p>
+                    <figure corresp="/images/Vagionakis.jpg"/>
                     <p>I graduated in Classics (BA, 2013) and Ancient History (MA, 2015) at the University of Bologna and I obtained a PhD at the University of Venice Ca’ Foscari (2020) with a dissertation in Greek epigraphy / Digital epigraphy. 
                         I have been working on digital epigraphy projects since 2014, collaborating with AIO, Axon, EDV, GIO, IGCyr, IRCyr, IRT, MedCyprus.
                         Since 2020 I am a research fellow in Digital Humanities at the Department of History and Cultures of the University of Bologna.</p>

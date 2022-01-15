@@ -128,13 +128,13 @@
             <div type="apparatus">
                 <p>The editions are based on Porena 2003, pp. 321-322, 327.</p>
                 <p>
-                    <app loc="2-3"><note><supplied reason="lost">aequita</supplied>te: IK 12, Ephesus, 02, 312, Grünewald 1990, nr. 444, HD 022125</note></app>
+                    <app loc="2-3"><note><supplied reason="lost">aequita</supplied>te: IK 12, Ephesus, 02, 312, Grünewald 1990, nr. 444, EDH 022125</note></app>
                     <app loc="3-4"><note><supplied reason="lost">rei pu/b</supplied>l<supplied reason="lost">i</supplied>cae: Keil 1937, p. 206, nr. 12, IK 12, Ephesus, 02, 312, Grünewald 1990, nr. 444</note></app>
                     <app loc="4"><note>re<supplied reason="lost">ctori et</supplied>: Keil 1937, p. 206, nr. 12, AE 1938, 0085, IK 12, Ephesus, 02, 312, Grünewald 1990, nr. 444</note></app>
                     <app loc="5"><note>Cri<supplied reason="lost">spo</supplied> was replaced by <add place="overstrike">Con</add><supplied reason="lost"><add place="overstrike">stantio</add></supplied> after Crispus’ <foreign>damnatio memoriae</foreign> in 326 AD</note></app>
                     <app loc="6"><note>Caesar<supplied reason="lost">i</supplied>: AE 1938, 0085</note></app>
                     <app loc="9-10"><note><supplied reason="lost"><expan><abbr>n</abbr><ex>umini</ex></expan></supplied> <expan><abbr><supplied reason="lost">e</supplied>or</abbr><ex>um</ex></expan> was replaced with: <supplied reason="lost">nu</supplied>/<add place="above">m</add><add place="overstrike">ini eius</add> after Crispus’ <foreign>damnatio memoriae</foreign>; numinibus <expan><abbr>eor</abbr><ex>um</ex></expan> in 317 AD, Keil 1937, p. 206, nr. 12  (see commentary)</note></app>
-                    <app loc="11-12"><note><supplied reason="lost">dica</supplied>tissi<supplied reason="lost">mi</supplied>: Keil 1937, p. 206, nr. 12, AE 1938, 0085; IK 12, Ephesus, 02, 312; Grünewald 1990, nr. 444, HD 022125</note></app>
+                    <app loc="11-12"><note><supplied reason="lost">dica</supplied>tissi<supplied reason="lost">mi</supplied>: Keil 1937, p. 206, nr. 12, AE 1938, 0085; IK 12, Ephesus, 02, 312; Grünewald 1990, nr. 444, EDH 022125</note></app>
                 </p>
             </div>
             <div type="translation" xml:lang="en">
@@ -172,7 +172,7 @@
             <div type="bibliography" subtype="links">
                 <p>
                     <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-30100022">EDCS 30100022</ref></bibl>
-                    <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD022125">HD 022125</ref></bibl>
+                    <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD022125">EDH 022125</ref></bibl>
                     <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-241">LSA 241</ref></bibl>
                     <bibl><ref corresp="https://inscriptions.packhum.org/text/250724?hs=79-108">PH 250724</ref></bibl>
                     <bibl><ref corresp="https://www.trismegistos.org/text/176029">TM 176029</ref></bibl>

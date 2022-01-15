@@ -14,6 +14,10 @@
     <i><xsl:apply-templates/></i>
   </xsl:template>
   
+  <xsl:template match="//tei:quote" priority="10">
+    <i><xsl:apply-templates/></i>
+  </xsl:template>
+  
   <xsl:template match="//tei:head[not(@type)]">
     <h2><xsl:apply-templates/></h2>
   </xsl:template>

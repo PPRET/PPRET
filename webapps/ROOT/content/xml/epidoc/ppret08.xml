@@ -113,7 +113,7 @@
                 <p>
                     <app loc="1"><note>D(ominus) n(ostris duobus): AE 1894, 0111; [v]indicibus: Tocilescu 1894, p. 108, nr. 52, AE 1894, 0111</note></app>
                     <app loc="2"><note>et <del rend="erasure">Liciniano Licinio</del>: AE 1894, 0111, Popescu 1976, p. 184, nr. 170, Popescu 2015, nr. 16; <del rend="erasure">et Liciniano Licinio</del>: Tocilescu 1894, p. 109, nr. 52; et V[al(erio) Licin]ia[no]: CIL 03, 13734, Grünewald 1990, nr. 402; et V<del rend="erasure">al Liciniano Licinio</del>: ILS 8938; <del rend="erasure">et Val(erio) Liciniano Licinio</del>: LSA 1120</note></app>
-                    <app loc="9"><note>e[o]rum: Tocilescu 1894, p. 109, nr. 52, AE 1894, 0111 and HD 028858</note></app>
+                    <app loc="9"><note>e[o]rum: Tocilescu 1894, p. 109, nr. 52, AE 1894, 0111 and EDH 028858</note></app>
                 </p>
             </div>
             <div type="translation" xml:lang="en">
@@ -161,7 +161,7 @@
             <div type="bibliography" subtype="links">
                 <p>
                     <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-29601665">EDCS 29601665</ref></bibl>
-                    <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD028858">HD 028858</ref></bibl>
+                    <bibl><ref corresp="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD028858">EDH 028858</ref></bibl>
                     <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-1120">LSA 1120</ref></bibl>
                     <bibl><ref corresp="http://lupa.at/22059">Ubi erat Lupa 22059</ref></bibl>
                     <bibl><ref corresp="https://www.trismegistos.org/text/191319">TM 191319</ref></bibl>
