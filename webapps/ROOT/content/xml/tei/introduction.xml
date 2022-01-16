@@ -24,7 +24,7 @@
         <body>
             <div type="commentary" xml:lang="en">
                 <div type="textpart" subtype="section" n="1">
-                    <head>The epigraphic database PPRET Inscriptions</head>
+                    <head>The epigraphic database <title>PPRET Inscriptions</title></head>
                     <p>The database “PPRET Inscriptions. The Inscriptions pertaining to the Praetorian Prefects from 284 to 395 AD” is an open access research tool developed by the team of the <ref corresp="team.html">Projet PPRET</ref> “Les préfets du prétoire de l’Empire romain tardif. Une élite face à la crise” / “The Praetorian Prefects in the Later Roman Empire: An elite in a crisis context”, created and directed by prof. Pierfrancesco Porena (Università Roma Tre - UMR 7044 “Archéologie et histoire ancienne: Méditerranée – Europe” ARCHIMÈDE, Université de Strasbourg).</p>
                     <p>The prosopographical approach to the praetorian prefects of the Late Empire, as implemented within the framework of the PPRET Project, makes it possible to characterise these dignitarries as an ‘elite’, an aristocracy by virtue of its control over the civil administration, whose culture, religious orientations and behaviours can be studied in a comprehensive manner. 
                         The social origins of the members of this leading group, as well as the modalities of access within it, can also be examined in the light of this procedure, as well as the evolution of all these parameters over time, in particular with regard to the evolutions of the administration and the political and military changes of Late Antiquity (hence the notion of ‘crisis’, introduced in the subtitle of the PPRET project).</p>
@@ -62,16 +62,18 @@
                 
                 <div type="textpart" subtype="section" n="3">
                     <head>How to cite the database PPRET Inscriptions</head>
-                    <p>In paper publications, please quote the individual entry: PPRET 01.</p>
-                    <p>In electronic publications, please insert a link to the entry directly (the author of each entry is indicated in the top right-hand corner).</p>
-                    <p>If you want to quote the whole database PPRET Inscriptions:
-                        <lb/>AUTHORS: P. Porena (dir.), E. Angius, A. Bernier, G. Franceschini, P. Porena, I. Vagionakis, 
-                        <lb/>TITLE: PPRET Inscriptions. The Inscriptions pertaining to the praetorian prefects from 284 to 395 AD. Edition and study directed by P. Porena, realised by the authors, with digital edition performed by I. Vagionakis 
-                        <lb/>PROJECT: Projet Chaire Gutenberg 2019 "Les Préfets du prétoire de l'Empire tardif: une élite face à la crise"
-                        <lb/>EDITION: Strasbourg (MISHA) 2022
-                        <lb/>WEB ADDRESS: <ref corresp="http://ppret-inscriptions.huma-num.fr">http://ppret-inscriptions.huma-num.fr</ref>
-                    </p>
-                    <p>The database is a digital publication identified by the following ISSN code:  ...</p>
+                    <p>In paper publications, please quote the individual entry: e.g. « PPRET 01 ».</p>
+                    <p>In electronic publications, please insert a link to the entry directly.</p>
+                    <p>The author of each entry is indicated in the top right-hand corner.</p>
+                </div>
+                
+                <div type="textpart" subtype="section" n="3a">
+                    <head>If you want to quote the whole database PPRET Inscriptions:</head>
+                    <p>AUTHORS: P. Porena (dir.), E. Angius, A. Bernier, G. Franceschini, P. Porena, I. Vagionakis,</p>
+                    <p>TITLE: PPRET Inscriptions. The Inscriptions pertaining to the praetorian prefects from 284 to 395 AD.</p>
+                    <p>PROJECT: Chaire Gutenberg 2019 <title>Les Préfets du prétoire de l'Empire tardif: une élite face à la crise</title></p>
+                    <p>EDITION: Strasbourg (MISHA) 2022</p>
+                    <p>WEB ADDRESS: <ref corresp="http://ppret-inscriptions.huma-num.fr">http://ppret-inscriptions.huma-num.fr</ref></p>
                 </div>
                 
                 <div type="textpart" subtype="section" n="4">
@@ -83,15 +85,16 @@
                 
                 <div type="textpart" subtype="section" n="5">
                     <head>License</head>
-                        <p>All the XML, HTML and PDF contents of the database<!--, which is hosted on a server provided by the <ref corresp="https://www.huma-num.fr/">Huma-Num</ref> Digital Humanities research infrastructure thanks to an agreement with <ref corresp="https://www.misha.fr/">MISHA</ref> / <ref corresp="https://www.unistra.fr/">Université de Strasbourg</ref>,--> are released in open access mode under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (<ref corresp="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</ref>).
-                            According to the license terms, access is free to all scholars, but the reuse of the materials is subject to explicitly giving appropriate credit (including the following statement: <quote>This material is derived from the PPRET Inscriptions database, by Porena et al., hosted at <ref corresp="http://ppret-inscriptions.huma-num.fr">ppret-inscriptions.huma-num.fr</ref>, ISSN ...</quote>), providing a link to the same CC license and indicating if changes were made. 
-                            The materials cannot be reused for commercial purposes.</p>
+                        <p>All the XML, HTML and PDF contents of the database are released in open access mode under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (<ref corresp="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</ref>).
+                            Access is free to all scholars, but the product is legally protected against any improper use by the specific European Directives on databases and their transposition into national law. 
+                            The reuse of the materials is subject to explicit mention of the author(s) and the work.</p>
+                    <p>The database is a digital publication identified by the following ISSN code:  ...</p>
                 </div>
                 
                 <div type="textpart" subtype="section" n="6">
                     <head>Linked Open Data</head>
                     <p>According to the Linked Open Data principles, links to other open access online resources (like <ref corresp="https://insaph.kcl.ac.uk/ala2004/">ALA</ref>, <ref corresp="https://census.bbaw.de/">Census</ref>, <ref corresp="https://www.epigraphik.uni-hamburg.de/">EDAK</ref>, <ref corresp="https://www.edb.uniba.it/">EDB</ref>, <ref corresp="http://db.edcs.eu/">EDCS</ref>, <ref corresp="https://edh-www.adw.uni-heidelberg.de/">EDH</ref>, <ref corresp="http://www.edr-edr.it/">EDR</ref>, 
-                        <ref corresp="https://insaph.kcl.ac.uk/insaph/iaph2007/">IAph</ref>, <ref corresp="http://telota.bbaw.de/ig/">IG Online</ref>, <ref corresp="https://iospe.kcl.ac.uk/">IOSPE<hi rend="superscript">³</hi></ref>, <ref corresp="http://inslib.kcl.ac.uk/irt2009/">IRT</ref>, <ref corresp="http://sicily.classics.ox.ac.uk/">I.Sicily</ref>, <ref corresp="http://laststatues.classics.ox.ac.uk/">LSA</ref>, <ref corresp="http://mizar.unive.it/mqdq/public/">MQDQ</ref>, <ref corresp="https://epigraphy.packhum.org/">PHI</ref>, <ref corresp="https://www.trismegistos.org/">Trismegistos</ref>, <ref corresp="https://www.ubi-erat-lupa.org/">Ubi Erat Lupa</ref>) have been inserted systematically.
+                        <ref corresp="https://insaph.kcl.ac.uk/insaph/iaph2007/">IAph</ref>, <ref corresp="http://telota.bbaw.de/ig/">IG Online</ref>, <ref corresp="https://iospe.kcl.ac.uk/">IOSPE<hi rend="superscript">³</hi></ref>, <ref corresp="http://inslib.kcl.ac.uk/irt2009/">IRT</ref>, <ref corresp="http://sicily.classics.ox.ac.uk/">I.Sicily</ref>, <ref corresp="http://laststatues.classics.ox.ac.uk/">LSA</ref>, <ref corresp="http://mizar.unive.it/mqdq/public/">MQDQ</ref>, <ref corresp="https://epigraphy.packhum.org/">PHI</ref>, <ref corresp="https://www.trismegistos.org/">Trismegistos</ref>, <ref corresp="https://www.ubi-erat-lupa.org/">Ubi Erat Lupa</ref>) have been inserted.
                         The inclusion of links to PPRET Inscriptions resources in other open online resources is warmly encouraged.
                     </p>
                 </div>
@@ -99,17 +102,16 @@
             
             <div type="commentary" xml:lang="fr">
                 <div type="textpart" subtype="section" n="1">
-                    <head>La base de données épigraphiques PPRET Inscriptions</head>
-                    <p>La base de données “PPRET Inscriptions. The Inscriptions pertaining to the Praetorian Prefects from 284 to 395 AD” est un outil de recherche en libre accès développé par le Team du <ref corresp="team.html">Projet PPRET</ref> “Les préfets du prétoire de l’Empire romain tardif. Une élite face à la crise” / “The Praetorian Prefects in the Later Roman Empire: An elite in a crisis context”, créé et dirigé par le prof. Pierfrancesco Porena (Università Roma Tre - UMR 7044 “Archéologie et histoire ancienne: Méditerranée – Europe” ARCHIMÈDE, Université de Strasbourg).</p>
-                    <p>L’approche prosopographique des préfets du prétoire de l’empire tardif, telle qu’elle est mise en oeuvre dans le cadre du Projet PPRET, permet de caractériser les préfets du prétoire comme une «élite», une «aristocratie de fonction» dont la culture, les orientations religieuses, et les pratiques caractéristiques peuvent être envisagées par le moyen de mises en séries. Les origines sociales des membres de ce groupe dirigeant, ainsi que les modalités d’accès en son sein peuvent, elles aussi, être examinées à la lumière de ce procédé, de même que l’évolution de l’ensemble de ces paramètres au fil du temps, en particulier au regard des évolutions de l’administration et des bouleversements politiques et militaires de l’Antiquité tardive (d’où la notion de «crise», introduite dans le sous-titre du projet PPRET).</p>
-                    <p>Le Projet PPRET est entièrement financé par le prix “<ref corresp="http://www.cercle-gutenberg.fr/chaires-gutenberg/presentation/">Chaire Gutenberg</ref> 2019”, prix scientifique international remporté par le professeur Porena. Sur un plan scientifique et administratif le Projet PPRET s’inscrit dans le cadre du programme transversal «Aristocraties et interculturalité» de l’UMR 7044 ARCHIMÈDE (Université de Strasbourg), dirigé par le prof. Michel Humm.</p>
-                    <p>Dans le cadre du Projet PPRET, la publication d'une partie des résultats prévoit des éditions imprimées traditionnelles (monographies et les actes du Colloque International de Strasbourg “La préfecture du prétoire tardo-antique et ses titulaires - IV<hi rend="superscript">e</hi>-VI<hi rend="superscript">e</hi> siècle”, tenu en Mai 2021). Ces oeuvres sont consacrés à des études thématiques sur la préfecture du prétoire tardo-antique en tant qu'institution et instrument politico-administratif. Les préfets y sont examinés en relation avec le contexte politique et social de la période et de l'espace dans lesquels ils étaient actifs.</p>
-                    <p>Mais un objectif fondamental du Projet est mettre à jour les sources épigraphiques sur les préfets du prétoire de l’Antiquité tardive et relire les sources connues. Le premier volume de la “Prosopography of the Later Roman Empire”, couvrant l'ensemble du IVe siècle, est paru en 1971, il y a cinquante ans. Le projet PPRET vise à faciliter la mise à jour des sources épigraphiques sur la prosopographie des préfets du prétoire de la période 284-395 ap. J.-C. 
-                        Cette période est riche en préfets du prétoire, elle connaît la transformation régionale de la fonction, et possède un patrimoine épigraphique qui a été élargi ou qui a été réexaminé au cours des dernières décennies. Les textes épigraphiques sont souvent décisifs pour reconstituer la chronologie de la carrière des sénateurs titulaires, l'évolution de la préfecture du prétoire régionale au IV<hi rend="superscript">e</hi> siècle de notre ère, et fournissent, en tant que monuments, une série d'informations essentielles de nature politique, administrative, sociale et culturelle, ce qui appelle un réexamen précis de ces textes. Afin de mettre à disposition les inscriptions latines et grecques actualisées relatives aux préfets de cette période, l'<ref corresp="team.html">équipe du projet</ref> a créé et mis en œuvre la base de données PPRET Inscriptions.</p>
-                    <p>La base de données en libre accès publie l'ensemble de l'épigraphie en grec et en latin qui subsiste concernant les préfets du prétoire de la période 284-395 ap. J.-C. Elle rassemble par ordre chronologique 98 inscriptions (parmi celles-ci, 30 n'apparaissent pas dans la “PLRE” I; les textes latins et grecs de plusieurs inscriptions ont été relus de manière critique).</p>
-                    <p>Chaque fiche contient: des coordonnées prosopographiques et chronologiques (en relation avec la “PLRE” I), une édition du texte latin ou grec, avec un appareil critique, les informations relatives à la forme de l’inscription, à sa provenance et à sa conservation, à son auteur, au(x) préfet(s) du prétoire mentionné(s), des traductions (en anglais, français, italien), un commentaire substantiel et une bibliographie à jour. 
-                        Un cadre de recherches simples ou combinées, assez articulé, permet d’interroger par le biais de moteurs de recherche les inscriptions grecques et latines concernant les préfets du prétoire de la période visée. Il fournit un large éventail d'informations sur l'origine et l'aspect matériel des monuments inscrits, sur le contenu des textes inscrits en latin et en grec, sur les préfets du prétoire mentionnés (onomastique, titulature, relation dédicateur-dédié, etc.).</p>
-                    <p>Le travail, commencé en mars 2020, sera suivi par une mise à jour régulière de la base de données (bibliographie, découverte de nouvelles inscriptions, etc.). La mise en ligne de la base de données est en ligne de <emph>février 2022</emph>. Elle est située sur un serveur de la plateforme “Huma-Num”, et fait partie de l'offre numérique de la “MISHA” Strasbourg. </p>
+                    <head>La base de données épigraphiques <title>PPRET Inscriptions</title></head>
+                    <p>La base de données <title>PPRET Inscriptions. The Inscriptions pertaining to the Praetorian Prefects from 284 to 395 AD</title> est un outil de recherche en libre accès, développé dans le cadre du <ref corresp="https://archimede.unistra.fr/activites-de-recherche/programmes-de-recherche/chaire-gutenberg-projet-ppret/">projet PPRET <title>Les préfets du prétoire de l’Empire romain tardif. Une élite face à la crise</title></ref>.</p>
+                    <p>Le <title>Projet PPRET</title> s’inscrit dans le cadre du <ref corresp="https://archimede.unistra.fr/fr/activites-de-recherche/programmes-de-recherche/programmes-transversaux/aristocraties-et-interculturalite/">programme transversal <title>Aristocraties et interculturalité</title></ref> de l’UMR 7044 ARCHIMEDE. Il est intégralement financé par la dotation associée à la <ref corresp="http://www.cercle-gutenberg.fr/chaires-gutenberg/presentation/">Chaire Gutenberg</ref> 2019, prix scientifique international remporté par le Prof. Porena (Università Roma Tre / membre associé UMR 7044 ARCHIMEDE - P.I. du Projet PPRET).</p>
+                    
+                    <p>Le projet PPRET repose sur une approche prosopographique des préfets du prétoire de l’empire tardif. Ceux-ci sont envisagés comme une « élite », une « aristocratie de fonction » dont la culture, les orientations religieuses, et les pratiques caractéristiques peuvent être appréhendées par le moyen de mises en séries. Les origines sociales des membres de ce groupe dirigeant, ainsi que les modalités d’accès en son sein peuvent, elles aussi, être examinées, de même que l’évolution de l’ensemble de ces paramètres au fil du temps, en particulier au regard des évolutions de l’administration et des bouleversements politiques et militaires de l’Antiquité tardive (d’où la notion de « crise », introduite dans le sous-titre du projet PPRET).</p>
+                    <p>Une partie des résultats du projet PPRET est diffusée sous la forme d’éditions imprimées traditionnelles (monographies et actes du colloque international <title>La préfecture du prétoire tardo-antique et ses titulaires IV<hi rend="superscript">e</hi>-VI<hi rend="superscript">e</hi> s.</title>, Strasbourg, 26-28 mai 2021). Celles-ci rendent compte d’études thématiques envisageant la préfecture du prétoire tardo-antique comme une institution et un instrument politico-administratif de l’Empire romain tardif. Les préfets y sont également examinés en relation avec le contexte politique et social de leur temps.</p>
+                    <p>Cependant, au-delà de ces approches « ponctuelles », l’aspect le plus essentiel du projet PPRET consiste en la mise à jour des sources épigraphiques relatives aux préfets du prétoire de l’Empire tardif. En effet : le premier volume de la <title>Prosopography of the Later Roman Empire</title> (couvrant le IV<hi rend="superscript">e</hi> siècle), est paru en 1971, il y a donc plus de cinquante ans désormais. Depuis lors, des découvertes sont intervenues, et de nouvelles lectures de sources connues ont été proposées, en particulier dans le domaine de l’épigraphie. Les textes épigraphiques sont souvent décisifs pour reconstituer la chronologie de la carrière des sénateurs titulaires, l’évolution de la préfecture du prétoire régionale au IVe siècle de notre ère, et fournissent, en tant que monuments, une série d’informations essentielles de nature politique, administrative, sociale et culturelle : autant d’aspects qui rendaient indispensable un réexamen précis de cette documentation. Afin de répondre à ce besoin d’actualisation, <ref corresp="team.html">une équipe rassemblée sous la direction du Prof. Porena</ref> a créé et mis en œuvre la base de données <title>PPRET Inscriptions</title>.</p>
+                    <p>Celle-ci reprend l’ensemble de l’épigraphie latine et grecque relative aux préfets du prétoire de la période 284-395 ap. J.-C. Elle rassemble par ordre chronologique 98 inscriptions. Parmi celles-ci, 30 n’apparaissent pas dans la PLRE I. Par ailleurs, les textes latins et grecs de plusieurs inscriptions ont fait l’objet d’une relecture critique. 
+                        Chaque fiche (relative à une inscription) contient : des coordonnées prosopographiques et chronologiques (incluant, le cas échéant, des renvois à la PLRE I) ; une édition du texte latin ou grec de l’inscription (pourvue d’un apparat critique) ; des informations relatives à la forme de l’inscription, à sa provenance, à sa conservation, à son auteur, et au(x) préfet(s) du prétoire mentionné(s) ; des traductions (en anglais, français, italien) ; un commentaire substantiel ; une bibliographie à jour. Soit un nombre considérable d’informations susceptibles, par ailleurs, d’être mobilisées dans le cadre de recherches simples ou combinées.</p>
+                    <p>En ligne depuis le mois de <emph>février 2022</emph>, la base de données PPRET Inscriptions fait l’objet d’un suivi et de mises à jour régulières (veille bibliographique, notamment). Elle est située sur un serveur de la plateforme <title>Huma-Num</title>, et fait partie de l’offre numérique de la MISHA (Strasbourg).</p>
                 </div>
                 
                 <div type="textpart" subtype="section" n="2">
@@ -135,45 +137,49 @@
                 </div>
                 
                 <div type="textpart" subtype="section" n="3">
-                    <head>Comment citer la base de données PPRET Inscriptions</head>
-                    <p>Publication papier, veuillez citer la fiche: PPRET 01.</p>
-                    <p>Publication électronique, veuillez ouvrir un lien vers l'adresse de la fiche directement (l'auteur de chaque fiche est indiqué dans le coin supérieur droit).</p>
-                    <p>Si vous souhaitez citer l'ensemble de la base de données Inscriptions PPRET:
-                        <lb/>AUTEURS: P. Porena (dir.), E. Angius, A. Bernier, G. Franceschini, P. Porena, I. Vagionakis, 
-                        <lb/>TITRE: Inscriptions du PPRET. Les inscriptions relatives aux préfets prétoriens de 284 à 395 ap. Edition et étude dirigées par P. Porena, réalisées par les auteurs, avec édition numérique réalisée par I. Vagionakis.
-                        <lb/>PROJET: Projet Chaire Gutenberg 2019 "Les Préfets du prétoire de l'Empire tardif : une élite face à la crise".
-                        <lb/>ÉDITION: Strasbourg (MISHA) 2022
-                        <lb/>ADRESSE WEB: <ref corresp="http://ppret-inscriptions.huma-num.fr">http://ppret-inscriptions.huma-num.fr</ref>
+                    <head>Comment citer la base de données PPRET Inscriptions?</head>
+                    <p>Publication papier, veuillez citer la ou les fiche(s) utilisées : p. ex. « PPRET 01 ».</p>
+                    <p>Publication électronique, veuillez ouvrir un lien directement vers l’adresse de la fiche (des fiches) concernée(s).</p>
+                    <p>L’auteur de chaque fiche est indiqué dans le coin supérieur droit.</p>
+                </div>
+                
+                <div type="textpart" subtype="section" n="3a">
+                    <head>Si vous souhaitez citer l'ensemble de la base de données Inscriptions PPRET:</head>
+                    <p>AUTEURS: P. Porena (dir.), E. Angius, A. Bernier, G. Franceschini, P. Porena, I. Vagionakis,</p>
+                    <p>TITRE: PPRET Inscriptions. The Inscriptions pertaining to the praetorian prefects from 284 to 395 AD.</p>
+                    <p>PROJET: Chaire Gutenberg 2019 <title>Les Préfets du prétoire de l'Empire tardif: une élite face à la crise</title></p>
+                    <p>ÉDITION: Strasbourg (MISHA) 2022</p>
+                    <p>ADRESSE WEB: <ref corresp="http://ppret-inscriptions.huma-num.fr">http://ppret-inscriptions.huma-num.fr</ref>
                     </p>
-                    <p>La base de données est une publication numérique identifiée par le code ISSN suivant: ...</p>
                 </div>
                 
                 <div type="textpart" subtype="section" n="4">
                     <head>Remerciements</head>
-                    <p>Le financement du projet PPRET "Les Préfets du prétoire de l'Empire tardif : une élite face à la crise" et de sa base de données PPRET Inscriptions a été assuré par le “<ref corresp="http://www.cercle-gutenberg.fr/chaires-gutenberg/presentation/">Cercle Gutenberg</ref>”, qui a décerné en 2019 un prix “<ref corresp="http://www.cercle-gutenberg.fr/chaires-gutenberg/presentation/">Chaires Gutenberg</ref>” à P. Porena (P.I.).</p>
-                    <p>Un grand merci au Prof. <ref corresp="https://archimede.unistra.fr/laboratoire/membres/membres-titulaires/michel-humm/">Michel Humm</ref> pour avoir accueilli le Projet PPRET au sein de l'Unité de recherche <ref corresp="https://archimede.unistra.fr/">UMR 7044 (Archimède)</ref> (Université de Strasbourg) et à la <ref corresp="https://www.misha.fr/">MISHA of Strasbourg</ref> pour avoir accepté la base de données Inscriptions PPRET dans sa plateforme numérique en libre accès.</p>
-                    <p>Remerciements particuliers au Prof. <ref corresp="https://archimede.unistra.fr/laboratoire/membres/membres-titulaires/olivier-huck/">Olivier Huck</ref> (UMR 7044 ARCHIMÈDE, Université de Strasbourg) pour son soutien constant et irremplaçable au Projet PPRET.</p>
+                    <p>Le projet <title>PPRET Les Préfets du prétoire de l’Empire tardif. Une élite face à la crise</title> et la base de données <title>PPRET Inscriptions</title> ont été financés par le <ref corresp="http://www.cercle-gutenberg.fr/chaires-gutenberg/presentation/">Cercle Gutenberg</ref>, via la dotation associée à la <ref corresp="http://www.cercle-gutenberg.fr/chaires-gutenberg/presentation/">Chaires Gutenberg</ref> 2019 de Pierfrancesco Porena.</p>
+                    <p>Merci au Prof. <ref corresp="https://archimede.unistra.fr/laboratoire/membres/membres-titulaires/michel-humm/">Michel Humm</ref> d’avoir bien voulu accueillir le <title>Projet PPRET</title> au sein de l’<ref corresp="https://archimede.unistra.fr/">UMR 7044 ARCHIMÈDE</ref>.</p>
+                    <p>Merci à la <ref corresp="https://www.misha.fr/">MISHA</ref> d’avoir accepté d’héberger la base de données <title>PPRET Inscriptions</title>.</p>
+                    <p>Des remerciements particuliers vont au Prof. <ref corresp="https://archimede.unistra.fr/laboratoire/membres/membres-titulaires/olivier-huck/">Olivier Huck</ref> pour son soutien constant et irremplaçable au <title>Projet PPRET</title>.</p>
                 </div>
                 
                 <div type="textpart" subtype="section" n="5">
                     <head>Licence</head>
                     <p>Tous les contenus XML, HTML et PDF de la base de données sont publiés en accès libre une licence Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (<ref corresp="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</ref>).
-                        Selon les termes de la licence, l'accès est libre pour tous les chercheurs, mais la réutilisation du matériel est soumise à la mention explicite de la source (y compris la déclaration suivante): <quote>Ce matériel est dérivé de la base de données PPRET Inscriptions, par Porena et al., hébergée à <ref corresp="http://ppret-inscriptions.huma-num.fr">ppret-inscriptions.huma-num.fr</ref>, ISSN ...</quote>), en fournissant un lien vers la même licence CC et en indiquant si des modifications ont été apportées.
-                        Les matériaux ne peuvent pas être réutilisés à des fins commerciales.</p>
+                        L’accès est libre pour tous les chercheurs, mais le produit est légalement protégé contre toute utilisation abusive par les directives européennes spécifiques sur les bases de données et leur transposition en droit national.
+                        La réutilisation du matériel est soumise à la mention explicite de l’auteur(s) et de l’œuvre.</p>
+                    <p>La base de données est une publication numérique identifiée par le code ISSN suivant: ...</p>
                 </div>
                 
                 <div type="textpart" subtype="section" n="6">
                     <head>Linked Open Data</head>
                     <p>Conformément aux principes des Linked Open Data, des liens vers d’autres ressources en ligne en libre accès (comme <ref corresp="https://insaph.kcl.ac.uk/ala2004/">ALA</ref>, <ref corresp="https://census.bbaw.de/">Census</ref>, <ref corresp="https://www.epigraphik.uni-hamburg.de/">EDAK</ref>, <ref corresp="https://www.edb.uniba.it/">EDB</ref>, <ref corresp="http://db.edcs.eu/">EDCS</ref>, <ref corresp="https://edh-www.adw.uni-heidelberg.de/">EDH</ref>, <ref corresp="http://www.edr-edr.it/">EDR</ref>, 
-                        <ref corresp="https://insaph.kcl.ac.uk/insaph/iaph2007/">IAph</ref>, <ref corresp="http://telota.bbaw.de/ig/">IG Online</ref>, <ref corresp="https://iospe.kcl.ac.uk/">IOSPE<hi rend="superscript">³</hi></ref>, <ref corresp="http://inslib.kcl.ac.uk/irt2009/">IRT</ref>, <ref corresp="http://sicily.classics.ox.ac.uk/">I.Sicily</ref>, <ref corresp="http://laststatues.classics.ox.ac.uk/">LSA</ref>, <ref corresp="http://mizar.unive.it/mqdq/public/">MQDQ</ref>, <ref corresp="https://epigraphy.packhum.org/">PHI</ref>, <ref corresp="https://www.trismegistos.org/">Trismegistos</ref>, <ref corresp="https://www.ubi-erat-lupa.org/">Ubi Erat Lupa</ref>) ont été insérés systématiquement.
-                        L’inclusion de liens vers les ressources du PPRET Inscriptions dans d’autres ressources en ligne ouvertes est vivement encouragée.
-                    </p>
+                        <ref corresp="https://insaph.kcl.ac.uk/insaph/iaph2007/">IAph</ref>, <ref corresp="http://telota.bbaw.de/ig/">IG Online</ref>, <ref corresp="https://iospe.kcl.ac.uk/">IOSPE<hi rend="superscript">³</hi></ref>, <ref corresp="http://inslib.kcl.ac.uk/irt2009/">IRT</ref>, <ref corresp="http://sicily.classics.ox.ac.uk/">I.Sicily</ref>, <ref corresp="http://laststatues.classics.ox.ac.uk/">LSA</ref>, <ref corresp="http://mizar.unive.it/mqdq/public/">MQDQ</ref>, <ref corresp="https://epigraphy.packhum.org/">PHI</ref>, <ref corresp="https://www.trismegistos.org/">Trismegistos</ref>, <ref corresp="https://www.ubi-erat-lupa.org/">Ubi Erat Lupa</ref>) ont été insérés.
+                        L’inclusion de liens vers les ressources du PPRET Inscriptions dans d’autres ressources en ligne ouvertes est vivement encouragée.</p>
                 </div>
             </div>
             
             <div type="commentary" xml:lang="it">
                 <div type="textpart" subtype="section" n="1">
-                    <head>The epigraphic database PPRET Inscriptions</head>
+                    <head>The epigraphic database <title>PPRET Inscriptions</title></head>
                     <p>The database “PPRET Inscriptions. The Inscriptions pertaining to the Praetorian Prefects from 284 to 395 AD” is an open access research tool developed by the team of the <ref corresp="team.html">Projet PPRET</ref> “Les préfets du prétoire de l’Empire romain tardif. Une élite face à la crise” / “The Praetorian Prefects in the Later Roman Empire: An elite in a crisis context”, created and directed by prof. Pierfrancesco Porena (Università Roma Tre - UMR 7044 “Archéologie et histoire ancienne: Méditerranée – Europe” ARCHIMÈDE, Université de Strasbourg).</p>
                     <p>The prosopographical approach to the praetorian prefects of the Late Empire, as implemented within the framework of the PPRET Project, makes it possible to characterise these dignitarries as an ‘elite’, an aristocracy by virtue of its control over the civil administration, whose culture, religious orientations and behaviours can be studied in a comprehensive manner. 
                         The social origins of the members of this leading group, as well as the modalities of access within it, can also be examined in the light of this procedure, as well as the evolution of all these parameters over time, in particular with regard to the evolutions of the administration and the political and military changes of Late Antiquity (hence the notion of ‘crisis’, introduced in the subtitle of the PPRET project).</p>
@@ -211,16 +217,18 @@
                 
                 <div type="textpart" subtype="section" n="3">
                     <head>How to cite the database PPRET Inscriptions</head>
-                    <p>In paper publications, please quote the individual entry: PPRET 01.</p>
-                    <p>In electronic publications, please insert a link to the entry directly (the author of each entry is indicated in the top right-hand corner).</p>
-                    <p>If you want to quote the whole database PPRET Inscriptions:
-                        <lb/>AUTHORS: P. Porena (dir.), E. Angius, A. Bernier, G. Franceschini, P. Porena, I. Vagionakis, 
-                        <lb/>TITLE: PPRET Inscriptions. The Inscriptions pertaining to the praetorian prefects from 284 to 395 AD. Edition and study directed by P. Porena, realised by the authors, with digital edition performed by I. Vagionakis 
-                        <lb/>PROJECT: Projet Chaire Gutenberg 2019 "Les Préfets du prétoire de l'Empire tardif: une élite face à la crise"
-                        <lb/>EDITION: Strasbourg (MISHA) 2022
-                        <lb/>WEB ADDRESS: <ref corresp="http://ppret-inscriptions.huma-num.fr">http://ppret-inscriptions.huma-num.fr</ref>
-                    </p>
-                    <p>The database is a digital publication identified by the following ISSN code:  ...</p>
+                    <p>In paper publications, please quote the individual entry: e.g. « PPRET 01 ».</p>
+                    <p>In electronic publications, please insert a link to the entry directly.</p>
+                    <p>The author of each entry is indicated in the top right-hand corner.</p>
+                </div>
+                
+                <div type="textpart" subtype="section" n="3a">
+                    <head>If you want to quote the whole database PPRET Inscriptions:</head>
+                    <p>AUTHORS: P. Porena (dir.), E. Angius, A. Bernier, G. Franceschini, P. Porena, I. Vagionakis,</p>
+                    <p>TITLE: PPRET Inscriptions. The Inscriptions pertaining to the praetorian prefects from 284 to 395 AD.</p>
+                    <p>PROJECT: Chaire Gutenberg 2019 <title>Les Préfets du prétoire de l'Empire tardif: une élite face à la crise</title></p>
+                    <p>EDITION: Strasbourg (MISHA) 2022</p>
+                    <p>WEB ADDRESS: <ref corresp="http://ppret-inscriptions.huma-num.fr">http://ppret-inscriptions.huma-num.fr</ref></p>
                 </div>
                 
                 <div type="textpart" subtype="section" n="4">
@@ -232,15 +240,16 @@
                 
                 <div type="textpart" subtype="section" n="5">
                     <head>License</head>
-                    <p>All the XML, HTML and PDF contents of the database<!--, which is hosted on a server provided by the <ref corresp="https://www.huma-num.fr/">Huma-Num</ref> Digital Humanities research infrastructure thanks to an agreement with <ref corresp="https://www.misha.fr/">MISHA</ref> / <ref corresp="https://www.unistra.fr/">Université de Strasbourg</ref>,--> are released in open access mode under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (<ref corresp="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</ref>).
-                        According to the license terms, access is free to all scholars, but the reuse of the materials is subject to explicitly giving appropriate credit (including the following statement: <quote>This material is derived from the PPRET Inscriptions database, by Porena et al., hosted at <ref corresp="http://ppret-inscriptions.huma-num.fr">ppret-inscriptions.huma-num.fr</ref>, ISSN ...</quote>), providing a link to the same CC license and indicating if changes were made. 
-                        The materials cannot be reused for commercial purposes.</p>
+                    <p>All the XML, HTML and PDF contents of the database are released in open access mode under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (<ref corresp="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</ref>).
+                        Access is free to all scholars, but the product is legally protected against any improper use by the specific European Directives on databases and their transposition into national law. 
+                        The reuse of the materials is subject to explicit mention of the author(s) and the work.</p>
+                    <p>The database is a digital publication identified by the following ISSN code:  ...</p>
                 </div>
                 
                 <div type="textpart" subtype="section" n="6">
                     <head>Linked Open Data</head>
                     <p>According to the Linked Open Data principles, links to other open access online resources (like <ref corresp="https://insaph.kcl.ac.uk/ala2004/">ALA</ref>, <ref corresp="https://census.bbaw.de/">Census</ref>, <ref corresp="https://www.epigraphik.uni-hamburg.de/">EDAK</ref>, <ref corresp="https://www.edb.uniba.it/">EDB</ref>, <ref corresp="http://db.edcs.eu/">EDCS</ref>, <ref corresp="https://edh-www.adw.uni-heidelberg.de/">EDH</ref>, <ref corresp="http://www.edr-edr.it/">EDR</ref>, 
-                        <ref corresp="https://insaph.kcl.ac.uk/insaph/iaph2007/">IAph</ref>, <ref corresp="http://telota.bbaw.de/ig/">IG Online</ref>, <ref corresp="https://iospe.kcl.ac.uk/">IOSPE<hi rend="superscript">³</hi></ref>, <ref corresp="http://inslib.kcl.ac.uk/irt2009/">IRT</ref>, <ref corresp="http://sicily.classics.ox.ac.uk/">I.Sicily</ref>, <ref corresp="http://laststatues.classics.ox.ac.uk/">LSA</ref>, <ref corresp="http://mizar.unive.it/mqdq/public/">MQDQ</ref>, <ref corresp="https://epigraphy.packhum.org/">PHI</ref>, <ref corresp="https://www.trismegistos.org/">Trismegistos</ref>, <ref corresp="https://www.ubi-erat-lupa.org/">Ubi Erat Lupa</ref>) have been inserted systematically.
+                        <ref corresp="https://insaph.kcl.ac.uk/insaph/iaph2007/">IAph</ref>, <ref corresp="http://telota.bbaw.de/ig/">IG Online</ref>, <ref corresp="https://iospe.kcl.ac.uk/">IOSPE<hi rend="superscript">³</hi></ref>, <ref corresp="http://inslib.kcl.ac.uk/irt2009/">IRT</ref>, <ref corresp="http://sicily.classics.ox.ac.uk/">I.Sicily</ref>, <ref corresp="http://laststatues.classics.ox.ac.uk/">LSA</ref>, <ref corresp="http://mizar.unive.it/mqdq/public/">MQDQ</ref>, <ref corresp="https://epigraphy.packhum.org/">PHI</ref>, <ref corresp="https://www.trismegistos.org/">Trismegistos</ref>, <ref corresp="https://www.ubi-erat-lupa.org/">Ubi Erat Lupa</ref>) have been inserted.
                         The inclusion of links to PPRET Inscriptions resources in other open online resources is warmly encouraged.
                     </p>
                 </div>
