@@ -45,7 +45,7 @@
   </xsl:template>
 
   <xsl:template match="response/result">
-    <table class="index">
+    <table class="index tablesorter">
       <xsl:apply-templates select="/aggregation/index_metadata/tei:div/tei:div[@type='headings']" />
       <tbody>
         <xsl:apply-templates select="doc" />
