@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Burial inscription of the praet. prefect Probus from Rome</title>
+                <title>Burial verse inscription of the praet. prefect Probus from Rome (St. Peter’s basilica)</title>
                 <editor role="edition">Pierfrancesco Porena</editor>
                 <editor role="encoding">Irene Vagionakis</editor>
             </titleStmt>
@@ -26,13 +26,13 @@
                 </listPerson>
                 <msDesc>
                     <msIdentifier>
-                        <repository ref="#lost">lost; the inscription was destoyed during the reconstruction works of St. Peter’s Basilica</repository>
+                        <repository ref="#lost">lost (the inscription was destroyed during the re-construction of the St. Peter’s Basilica in the mid 15th century)</repository>
                         <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textType" ref="#burial">burial inscription</term>
-                            <term type="rhythm" ref="#poetry">poetry (elegiac distichs)</term>
+                            <term type="textType" ref="#burial">burial inscription (epitaph of Petronius Probus)</term>
+                            <term type="rhythm" ref="#poetry">poetry (9 + 15 elegiac distichs)</term>
                         </summary>
                         <textLang mainLang="la">Latin</textLang>
                     </msContents>
@@ -41,22 +41,22 @@
                             <supportDesc>
                                 <support>
                                     <material ref="#marble">marble</material>
-                                    <objectType ref="#architectural_element">architectural element: epistyle of the Probii funerary monument</objectType>
+                                    <objectType ref="#architectural_element">architectural element: epistyle inside the sepulchre of Petronius Probus </objectType>
                                     <dimensions>
                                         <height>unknown</height>
                                         <width>unknown</width>
                                         <depth>unknown</depth>
                                     </dimensions>
                                     <rs type="inscribed_field_reuse">no</rs>
-                                    <rs type="monument_reuse">uncertain</rs>
+                                    <rs type="monument_reuse">yes</rs>
                                     <rs type="opistographic">no</rs>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>One inscribed field (frons of the epistyle), in two columns.</p>
+                                    <p>More than one inscribed field, united in two principal epigraphic fields.</p>
                                     <rs type="execution" ref="#chiselled">chiselled</rs>
-                                    <rs type="preservation" ref="#undamaged">The text, at the time of its transcription, was almost undamaged.</rs>
+                                    <rs type="preservation" ref="#undamaged">At the time of its transcription the text was undamaged.</rs>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -75,12 +75,11 @@
                                 <placeName type="province">Urbs</placeName>
                                 <placeName type="diocese">Italiciana</placeName>
                                 <placeName type="prefecture">Italia Illyricum Africa</placeName>
-                                <placeName type="ancient_location" ref="#burial">burial space: Mausoleo dei Probi in Vaticano</placeName>
+                                <placeName type="ancient_location" ref="#burial">tomb (within the sepulchre of Petronius Probus and Anicia Faltonia Proba  near St. Peter’s basilica in Vatican)</placeName>
                             </origPlace>
                             <origDate period="#p8" notBefore="0390" notAfter="0394">390/394 AD</origDate>
                         </origin>
-                        <provenance type="found">found in 1452 near the transept of St. Peter’s Basilica in <placeName ref="#Vatican">Vatican City</placeName>; copied only by Maffeo Vegio</provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="found">found in Rome in 1452, near the transept of St. Peter’s Basilica in <placeName ref="#Vatican">Vatican</placeName>; copied only by the humanist Maffeo Vegio (1407-1458)</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -96,24 +95,24 @@
             <div type="edition" xml:space="preserve" xml:lang="la">
                 <div type="textpart" subtype="column" n="a">
                     <ab>
-                        <lb n="1"/>Sublimis quisquis tumuli miraberis arces,
-                        <lb n="2"/>dicis: quantus erat qui Probus hic situs est,
-                        <lb n="3"/>consulibus proavis socerisque et consule maior,
-                        <lb n="4"/>quod geminas consul reddidit ipse domos;
-                        <lb n="5"/>praefectus quarto, totum dilectus in orbem,
-                        <lb n="6"/>sed fama emensus quicquid in orbe hominum est.
-                        <lb n="7"/>Aeternos heu, Roma, tibi qui posceret annos,
-                        <lb n="8"/>cur non vota tui vixit adusque boni?
-                        <lb n="9"/>Nam cum sex denos mensis suspenderet annos,
-                        <lb n="10"/>dilectae gremio raptus in aethra Probae.
-                        <lb n="11"/>Sed periisse Probum meritis pro talibus absit
-                        <lb n="12"/>credas, Roma, tuum: vivit et astra tenet,
-                        <lb n="13"/>virtutis, fidei, pietatis, honoris amicus,
-                        <lb n="14"/>parcus opum nulli, largus at ipse fuit.
-                        <lb n="15"/>Solamen tanti coniux tamen optima luctus
-                        <lb n="16"/>hoc Proba sortita est, iungat et urna pares.
-                        <lb n="17"/>Felix, heu nimium felix, dum vita maneret,
-                        <lb n="18"/>digno iuncta viro, digna simul tumulo.
+                        <lb n="1"/>Sublimes quisquis tumuli miraberis arces, 
+                        <lb n="2"/>dices: quantus erat qui Probus hic situs est,  
+                        <lb n="3"/>consulibus proavis socerisque et consule maior, 
+                        <lb n="4"/>quod geminas consul reddidit ipse domos; 
+                        <lb n="5"/>praefectus quarto, totum dilectus in orbem, 
+                        <lb n="6"/>sed fama emensus quicquid in orbe hominum est. 
+                        <lb n="7"/>Aeternos heu, Roma, tibi qui posceret annos, 
+                        <lb n="8"/>cur non vota tui vixit adusque boni ? 
+                        <lb n="9"/>Nam cum sex denos mensis suspenderet annos, 
+                        <lb n="10"/> dilectae gremio raptus in aethra Probae. 
+                        <lb n="11"/>Sed periisse Probum meritis pro talibus absit 
+                        <lb n="12"/>credas, Roma, tuum: vivit et astra tenet, 
+                        <lb n="13"/>virtutis, fidei, pietatis, honoris amicus, 
+                        <lb n="14"/>parcus opum nulli, largus et ipse sui. 
+                        <lb n="15"/>Solamen tanti coniux tamen optima luctus 
+                        <lb n="16"/>hoc Proba sortita est, iungat ut urna pares. 
+                        <lb n="17"/>Felix, heu nimium felix, dum vita maneret, 
+                        <lb n="18"/>digno iuncta viro, digna simul tumulo. 
                     </ab>
                 </div>
                 <div type="textpart" subtype="column" n="b">
@@ -124,7 +123,7 @@
                         <lb n="4"/>Iordane ablutus, nunc Probus es melior.
                         <lb n="5"/>Dives opum clarusque genus, praecelsus honore,
                         <lb n="6"/>fascibus inlustris, consule dignus avo,
-                        <lb n="7"/>Bconsis gemina populos praefectus sede gubernans,
+                        <lb n="7"/>Bis gemina populos praefectus sede gubernans,
                         <lb n="8"/>has mundi phaleras, hos procerum titulos
                         <lb n="9"/>transcendis senior donatus munere Christi:
                         <lb n="10"/>hic est verus honos, haec tua nobilitas.
@@ -138,13 +137,13 @@
                         <lb n="18"/>nunc renovatus habes perpetuam requiem,
                         <lb n="19"/>candida fuscatus nulla velamina culpa
                         <lb n="20"/>et novus insuetis incola liminibus.
-                        <lb n="21"/>His solare tuos, quamquam sola<supplied reason="lost">c</supplied>ia m<supplied reason="lost">o</supplied>esta (?)
+                        <lb n="21"/>His solare tuos, quamquam sola<supplied reason="lost">c</supplied>ia m<supplied reason="lost">a</supplied>esta
                         <lb n="22"/>gratia non quaerat, gratia, Christe, tua.
                         <lb n="23"/>Vivit in aeterna paradisi sede beatus,
                         <lb n="24"/>qui nova decedens muneris aetherii
                         <lb n="25"/>vestimenta tulit, quo denigrante Belial
                         <lb n="26"/>cessit et ingemuit hic nihil esse suum.
-                        <lb n="27"/>Hunc tu, Christe, choris iungas c<supplied reason="lost">o</supplied>elestibus oro,
+                        <lb n="27"/>Hunc tu, Christe, choris iungas c<supplied reason="lost">a</supplied>elestibus oro,
                         <lb n="28"/>te canat et placidum iugiter aspiciat,
                         <lb n="29"/>eque tuo semper dilectus pendeat ore,
                         <lb n="30"/>auxilium s<supplied reason="lost">u</supplied>boli coniugioque fer<supplied reason="lost">en</supplied>s.
@@ -153,33 +152,204 @@
             </div>
             <div type="apparatus">
                 <p>Edition based on CIL.</p>
+                <p>
+                    <app loc="a 1"><note>sublimes, MSS Ottob. lat. 1863 and Ottob. lat. 731; sublimis EDR</note></app>
+                    <app loc="a 2"><note>dicis, EDR; disces, MSS Ottob. lat. 1863 and Ottob. lat. 731</note></app>
+                    <app loc="a 3"><note>soceroque, Löfstedt (1913, p. 82 nt 1), Schmidt, Trout</note></app>
+                    <app loc="a 7"><note>cui posceres, suggested by Mommsen (CIL 06, p. 389), Zwierlein (1978, p. 48 nt 10)</note></app>
+                    <app loc="a 11"><note>periise, ILCV</note></app>
+                    <app loc="a 14"><note>at ipse fuit, EDR</note></app>
+                    <app loc="a 16"><note>et urna, EDR</note></app>
+                    <app loc="b 1"><note>eximiis, MSS Ottob. lat. 1863 and Ottob. lat. 731 (see Della Schiava 2009, pp. 30, 111, 276)</note></app>
+                    <app loc="b 3"><note>resonans, Colafrancesco</note></app>
+                    <app loc="b 15"><note>nunquam, MSS Ottob. lat. 1863 and Ottob. lat. 731, Trout, Bruggisser</note></app>
+                    <app loc="b 21"><note>quanquam, CIL, CLE, Trout, Bruggisser; maesta, ILCV, Löfstedt; solatia moesta, MSS Ottob. lat. 1863 and Ottob. lat. 731, ICUR</note></app>
+                    <app loc="b 25"><note>denigrante, ICUR, EDB, EDR</note></app>
+                    <app loc="b 26"><note>cessi, Colafrancesco</note></app>
+                    <app loc="b 27"><note>caelestibus, MSS Ottob. lat. 1863 and Ottob. lat. 731, CLE, ILCV, ICUR, Löfstedt; coelestibus, EDR</note></app>
+                    <app loc="b 28"><note>adspiciat, ICUR, Schmidt</note></app>
+                    <app loc="b 29"><note>sempre, Colafrancesco</note></app>
+                    <app loc="b 30"><note>soboli ... feras, MSS Ottob. lat. 1863 and Ottob. lat. 731, Bruggisser, Colafrancesco; soboli, CLE, ILCV, ICUR, Löfstedt; feras, CLE, ILCV, Löfstedt, Bruggisser; ferat, Schmidt</note></app>
+                </p>
             </div>
             <div type="translation" xml:lang="en">
-                <p>“...”</p>
+                <p>(Trout 2001, pp. 162 and 164)</p>
+                <p>a</p>
+                <p>“Whoever you are who will wonder at the lofty heights of this tomb,
+                    <lb/>will say: how great was the Probus who lies here.
+                    <lb/>Greater than his consular forefathers and father-in-law, and greater than a (mere) consul,
+                    <lb/>because a consul himself he restored twin households. 
+                    <lb/>Prefect for the fourth time, beloved throughout the world,
+                    <lb/>but surpassing in his glory every mortal in the world. 
+                    <lb/>Alas, Roma, why has he, who would demand years for you without end, 
+                    <lb/>not lived as long as his prayers for your prosperity ?
+                    <lb/>For when a month forestalled his sixty years, 
+                    <lb/>he was snatched up to heaven from the bosom of his beloved Proba. 
+                    <lb/>But be it far from you, Roma, to think that for such services your Probus
+                    <lb/>has died; he lives and possesses the stars.
+                    <lb/>The friend of excellence, trust, duty, and honor, 
+                    <lb/>not sparing of his riches to anyone, giving abundantly of himself.
+                    <lb/>Proba, however, best of wives, has obtained this consolation
+                    <lb/>for such great grief, that the urn may join them as equals.
+                    <lb/>Happy, alas too happy, while he lived,
+                    <lb/>joined to a worthy husband, worthy of a tomb together”. 
+                    <lb/> <lb/></p>
+                
+                <p>b</p>
+                <p>“Released from the garment of your body, you run your safe course
+                    <lb/>in the expanse of heaven, free from all errors.
+                    <lb/>Having equally expressed in your character what you echo in your name,
+                    <lb/>washed clean by the Jordan, you are now “Probus” better than before. 
+                    <lb/>Rich in wealth, of noble birth, lofty in honor, 
+                    <lb/>distinguished by the fasces, worthy of a consular grandfather, 
+                    <lb/>a prefect twice governing the people in your twofold office, 
+                    <lb/>these ornaments of the world, these nobles’ titles, 
+                    <lb/>you surpass, having been given Christ’s gift in you later years.
+                    <lb/>This is true honor, this is your nobility. 
+                    <lb/>Before you rejoiced in the honor of a royal table, 
+                    <lb/>in the conversation of the emperor, the friendship of a king:
+                    <lb/>now nearer to Christ, having gained the abode of the saints, 
+                    <lb/>you enjoy a new light: Christ is present as your light.
+                    <lb/>O Probus, never to be lamented by your kin: while you lived
+                    <lb/>and your spirit governed these limbs
+                    <lb/>you were foremost, and second in virtue to none of the senators; 
+                    <lb/>now, made new, you have eternal rest. 
+                    <lb/>Wearing bright robes, darkened by no fault. 
+                    <lb/>and a new dweller on unfamiliar thresholds: 
+                    <lb/>console your people with these thoughts, Christ, although grace, 
+                    <lb/>your grace, does not seek the comforts of grief. 
+                    <lb/>Blessed, he lives in the eternal abode of paradise, 
+                    <lb/>he who departing from view has put on the new garments
+                    <lb/>of his heavenly post, at whose departure Belial (i.e., Satan)
+                    <lb/>retired and groaned that there was nothing here of his. 
+                    <lb/>Him, Christ, I pray, may You join to the heavenly choirs; 
+                    <lb/>let him sing of You and ever behold You gentle, 
+                    <lb/>and beloved let him hang always upon Your world, 
+                    <lb/>bringing (<foreign>ferens</foreign>) aid to his children and wife”.</p>
+                <p>(for an alternate English translation, see Crocke 1982, p. 117)</p>
             </div>
             <div type="translation" xml:lang="fr">
-                <p>“...”</p>
+                <p>a (Porena)</p>
+                <p>“Qui que tu sois qui admireras les sommets du tombeau qui s’élevent vers le ciel
+                    <lb/>tu diras: comme il était grand ce Probus qui est déposé ici, 
+                    <lb/>plus grand que ses ancêtres et beaux-parents (?) consuls et que tout autre consul, 
+                    <lb/>car lui, consul à son tour, a fait renaître deux familles unies. 
+                    <lb/>Préfet (du prétoire) à quatre reprises, aimé dans le monde entier, 
+                    <lb/>mais fameux sans limite dans tout ce qui est humain dans le monde. 
+                    <lb/>Ah, pourquoi, ô Rome, celui qui a prié avec insistance pour ton éternité 
+                    <lb/>n’a pas vécu aussi longtemps que les vœux qu’il a implorés pour toi ? 
+                    <lb/>Quand un mois manquait à ses soixante ans, 
+                    <lb/>il a été enlevé au ciel du sein de la bien-aimée Proba. 
+                    <lb/>Mais loin de toi, Rome, de croire que ton Probus, pleine de tels mérites, 
+                    <lb/>est mort: il vit, et a atteint les étoiles ! 
+                    <lb/>Lui, l’ami de la vertu, de la foi, de la piété, de l’honneur, 
+                    <lb/>jamais avare envers quiconque, mais généreux en s’offrant lui-même. 
+                    <lb/>Ce soulagement à un deuil si profond a été réservé à son excellente épouse 
+                    <lb/>Proba, qu’une urne les unisse dans un destin commun:
+                    <lb/>elle était heureuse, oui vraiment heureuse, tant qu’il était encore en vie, 
+                    <lb/>liée à un homme digne d’elle, digne qu’elle partage la tombe avec lui”.
+                    <lb/><lb/></p>
+                <p>b (Bruggisser 2003, pp. 81-82)</p>
+                <p>“Délivré de ta  dépouille, dans l’étendue de l’éther,
+                    <lb/>tu parcours, indemne de tous les vices, un chemin sûr:
+                    <lb/>ce qu’en ton nom tu illustres, après l’avoir imité dans ta conduite pareillement, 
+                    <lb/>lavé par le Jourdain, tu es maintenant un Probus meilleur. 
+                    <lb/>Riche en biens, célèbre par ta naissance, éminent par tes honneurs, 
+                    <lb/>éclatant par tes faisceaux, digne d’un aïeul consul,
+                    <lb/>préfet gouvernant deux fois les peuples en un siège deux fois accordé, 
+                    <lb/>ces distinctions du monde, ces titres de nobles,
+                    <lb/>plus âgé, tu les dépasses, comblé du don du Christ:
+                    <lb/>tel est ton véritable honneur, telle ta noblesse. 
+                    <lb/>Tu prenais auparavant ton plaisir dans l’honneur de la table du souverain,
+                    <lb/>dans la conversation avec le prince, dans l’amitié du souverain.
+                    <lb/>Maintenant plus proche du Christ, en possession de la demeure des saints,
+                    <lb/>d’une lumière nouvelle tu jouis, lumière pour toi le Christ est à tes côtés. 
+                    <lb/>O toi qui n’as en aucun moment à être pleuré par les tiens: alors que subsistait la vie
+                    <lb/>du corps te que l’esprit dirigeait ces membres,
+                    <lb/>tu étais le premier et n’étais second en vertu par rapport à aucun de nos pères
+                    <lb/>maintenant régénéré tu possèdes un repos éternel,
+                    <lb/>entaché d’aucune faute sur tes blancs vêtements, 
+                    <lb/>et tu es nouvel habitant en des demeures inaccoutumées. 
+                    <lb/>(au Christ)  Par ces biens console les tiens, quoique la grâce, 
+                    <lb/>ta grâce, ô Christ, ne requière pas de consolation dans le chagrin.
+                    <lb/>Il vit, bienheureux dans le séjour éternel du paradis, 
+                    <lb/>lui qui en s’en allant a revêtu les vêtements, 
+                    <lb/>nouveaux du don céleste; à son passage Bélial
+                    <lb/>s’est retiré et a déploré que rien ici n’était à lui. 
+                    <lb/>Puisses-tu, ô Christ, l’unir aux choeurs célestes, je t’en prie, 
+                    <lb/>qu’il te chante et te contemple éternellement dans ta sérénité
+                    <lb/>et que toujours aimé il soit suspendu à tes lèvres: 
+                    <lb/>puisses-tu apporter (<foreign>feras</foreign>) de l’aide à sa descendance et à son épouse ! </p>
             </div>
             <div type="translation" xml:lang="it">
-                <p>“Chiunque tu sia che ammiri le sommità della tomba che svetta verso il cielo, puoi dire: quanto era grande quel Probo che è sepolto qui, più grande dei suoi antenati consoli, del suocero (console) e di qualunque console, perché egli, console a sua volta, restaurò due casate. Prefetto (del pretorio) per quattro volte, amato in tutto il mondo, ma smisurato nella fama ovunque vi sia nel mondo un essere umano. Ah, perché, o Roma, colui che pregò per la tua eternità non visse quanto i voti impetrati per il tuo bene ? Quando giunse alla misura di sei volte dieci anni, fu rapito verso i cieli dal grembo della diletta Proba. Ma non sia mai che tu creda, Roma, che il tuo Probo, ricolmo di tali meriti, sia morto: vive e ha raggiunto gli astri, lui, l’amico della virtù, della fede, della pietà, dell’onore, non fu mai avaro verso alcuno, ma fu generoso anche di se stesso. L’ottima moglie Proba ha ottenuto questo sollievo per tanto profondo lutto, che una sola urna li unisca alla pari. Felice, sì davvero felice, finché egli restava in vita, legata a un uomo degno di lei, degna lei di condividere insieme la tomba.</p>
-                <p>Liberato dalle tue spoglie, nella distesa dell’etere tu percorri, libero da tutti i vizi, un cammino sicuro; quanto celebri con il tuo nome hai imitato con i tuoi costumi, e ugualmente lavato dal Giordano, sei adesso un Probo migliore. Ricco di beni, luminoso per nascita, primo fra tutti per la carriera, reso illustre dai fasci (consolari), degno dell’avo console; prefetto (del pretorio) che governò due volte popoli in una duplice sede, questi ornamenti mondani, questi titoli aristocratici tu, maturo, oltrepassi, ricolmo dei beni di Cristo: questo è vero onore, questa la tua nobiltà. Ti allietavi un tempo del privilegio di cenare con l’imperatore, della conversazione con il principe, dell’amicizia del sovrano: ora davvero vicino a Cristo, insediato nella dimora dei santi, godi di una luce nuova, luce per Te è il Cristo che ti sta accanto. Oh Tu, che mai i Tuoi devono piangere, finché c’era vita nel corpo e lo spirito governava quelle membra, eri il primo, e non fosti secondo a nessuno dei padri per virtù; ora, rigenerato, sei nella pace perpetua, e nessuna colpa imbratta le tue candide vesti, e sei un neo-cittadino sulle soglie di dimore inconsuete.  (Al Cristo) Con queste (certezze) consola i Tuoi, benché la Grazia, la Tua Grazia, o Cristo, non cerca tristi consolazioni. Egli vive, beato, nella sede eterna del Paradiso, lui che lasciando il mondo indossò le vesti nuove del dono celeste; lui al cui passaggio Belial si è scansato e ha rimpianto che nulla lì fosse suo. Ti prego, o Cristo, di unirlo ai cori celesti, che egli canti Te e Ti contempli in eterno nella Tua serenità, e sempre da Te prediletto, sia appeso alle tue labbra, mentre Tu sostieni la sua discendenza e la sua sposa.”</p>
+                <p>a</p>
+                <p>Chiunque sia tu che ammirerai le sommità della tomba che svettano verso il cielo
+                    <lb/>dirai: quanto era grande quel Probus che è sepolto qui, 
+                    <lb/>più grande dei suoi antenati e dei suoceri (?) consoli e di qualunque console, 
+                    <lb/>perché egli, console a sua volta, restaurò due casate congiunte. 
+                    <lb/>Prefetto (del pretorio) per quattro volte, amato in tutto il mondo, 
+                    <lb/>ma smisurato nella fama in qualunque cosa nel mondo vi sia di umano. 
+                    <lb/>Ah, perché, o Roma, colui che pregò insistentemente per la tua eternità 
+                    <lb/>non visse quanto i voti impetrati per il tuo bene ? 
+                    <lb/>Quando un mese mancava ai suoi sessanta anni, 
+                    <lb/>fu rapito verso i cieli dal grembo della diletta Proba. 
+                    <lb/>Ma lungi da te, Roma, credere che il tuo Probus, ricolmo di tali meriti, 
+                    <lb/>sia morto: egli vive e ha raggiunto gli astri ! 
+                    <lb/>Lui, l’amico della virtù, della fede, della pietà, dell’onore, 
+                    <lb/>mai avaro verso alcuno, ma generoso anche di se stesso. 
+                    <lb/>Questo sollievo a tanto profondo lutto ha ricevuto in sorte
+                    <lb/>l’ottima moglie Proba, che una sola urna li unisca nell’identico destino:
+                    <lb/>lei felice, sì davvero felice, finché egli restava in vita, 
+                    <lb/>legata a un uomo degno di lei, degna lei di condividere insieme con lui la tomba.
+                    <lb/><lb/></p>
+                
+                <p>b</p>
+                <p>Liberato dalle tue spoglie, nella distesa dell’etere 
+                    <lb/>tu percorri, libero da tutti i vizi, un cammino sicuro; 
+                    <lb/>quanto celebri con il tuo nome con equilibrio hai imitato con i tuoi costumi, 
+                    <lb/>e, lavato dal Giordano, sei adesso un Probus migliore. 
+                    <lb/>Ricco di beni e luminoso per nascita, primo fra tutti per la carriera, 
+                    <lb/>reso illustre dai fasci (consolari), degno dell’avo console,
+                    <lb/>prefetto (del pretorio) che governò due volte popoli in una duplice sede, 
+                    <lb/>questi ornamenti mondani, questi titoli aristocratici 
+                    <lb/>tu, maturo, trascendi, ricolmo del dono di Cristo: 
+                    <lb/>questo è vero onore, questa è la tua nobiltà. 
+                    <lb/>Ti allietavi un tempo del privilegio di cenare con l’imperatore, 
+                    <lb/>della conversazione con il principe, dell’amicizia del sovrano: 
+                    <lb/>ora davvero vicino a Cristo, insediato nella dimora dei santi, 
+                    <lb/>godi di una luce nuova: luce per Te è Cristo presente. 
+                    <lb/>Oh Tu, che mai i Tuoi devono piangere, finché c’era vita 
+                    <lb/>nel corpo e lo spirito governava quelle membra, 
+                    <lb/>eri il primo, e non fosti secondo a nessuno dei padri per virtù; 
+                    <lb/>ora, rigenerato, sei nella pace perpetua, 
+                    <lb/>nessuna colpa oscura le tue candide vesti, 
+                    <lb/>e sei un neo-cittadino sulle soglie di dimore inconsuete.  
+                    <lb/>(Al Cristo) Con queste (certezze) consola i Tuoi, benché la Grazia, 
+                    <lb/>la Tua Grazia, o Cristo, non va in cerca di mestizie da consolare. 
+                    <lb/>Egli vive, beato, nella sede eterna del Paradiso, 
+                    <lb/>lui che lasciando il mondo indossò le vesti nuove 
+                    <lb/>del dono celeste; lui al cui passaggio Belial 
+                    <lb/>si è scansato e ha rimpianto che nulla lì fosse suo. 
+                    <lb/>Ti prego, o Cristo, di unirlo ai cori celesti, 
+                    <lb/>che egli canti Te e Ti contempli continuamente nella Tua serenità, 
+                    <lb/>e sempre da Te prediletto, sia appeso alle tue labbra, 
+                    <lb/>mentre Tu sostieni la sua discendenza e la sua sposa.</p>
+                <p>(an alternate Italian translation of ‘b’ vv. 1-26 edited by M. Miceli, can be found in Janssens 1981, p. 31)</p>
             </div>
             <div type="commentary">
                 <p>...</p>
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
-                    <bibl><ref>CIL 06, 1756a-b</ref> (pp. 855, 389, 4752-4753)</bibl>
+                    <bibl><ref>CIL 06, p. 389, ad 1756a-b</ref> (p. 855 ad nr. 1756; p. 3176 nr. 31922; pp. 4752-4753)</bibl>
+                    <bibl><ref>Löfstedt 1913, pp. 79-80</ref></bibl>
                     <bibl><ref>CLE 1347a-b</ref></bibl>
-                    <bibl><ref>ILCV 63a-b</ref></bibl>
-                    <bibl><ref>ICUR n.s. 02, 4219a-b</ref></bibl> 
-                    <bibl><ref>Janssens 1981, p. 30</ref></bibl> 
-                    <bibl><ref>Schmidt 1999</ref> = <bibl><ref>AE 1999, 0198</ref></bibl></bibl>
-                    <bibl><ref>Trout 2001</ref></bibl>
-                    <bibl><ref>Bruggisser 2003</ref> = <bibl><ref>AE 2004, 0192</ref></bibl></bibl>
-                    <bibl><ref>Cugusi 2007, p. 123</ref></bibl> 
-                    <bibl><ref>Colafrancesco 2008a</ref></bibl> 
-                    <bibl><ref>Porena forthcoming, pp. 211-212, nr. 8</ref></bibl>
+                    <bibl><ref>ILCV 0063a-b</ref></bibl>
+                    <bibl><ref>ICUR n.s., 02, 4219 a-b</ref></bibl>
+                    <bibl><ref>Schmidt 1999, pp. 103-104</ref></bibl>
+                    <bibl><ref>Trout 2001, pp. 161-164</ref></bibl>
+                    <bibl><ref>Bruggisser 2003, pp. 81-82</ref> (only b)</bibl>
+                    <bibl><ref>Colafrancesco 2008, pp. 39-40</ref></bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="images">
@@ -188,28 +358,92 @@
             <div type="bibliography" subtype="links">
                 <p>
                     <bibl><ref corresp="http://www.edb.uniba.it/epigraph/17058">EDB 17058</ref></bibl>
-                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR118258">EDR 118258</ref></bibl>
-                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR118260">EDR 118260</ref></bibl>
-                    <bibl><ref corresp="http://www.mqdq.it/textsce/CE|ce|1347a">MQDQ 1347a</ref></bibl>
-                    <bibl><ref corresp="http://www.mqdq.it/textsce/CE|ce|1347b">MQDQ 1347b</ref></bibl>
-                    <bibl><ref corresp="https://www.trismegistos.org/text/279483">TM 279483</ref></bibl>
-                    <bibl><ref corresp="https://www.trismegistos.org/text/265175">TM 265175</ref></bibl>
+                    <bibl><ref corresp="https://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-18100576">EDCS 18100576</ref></bibl>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR118258">EDR 118258</ref> (col. a)</bibl>
+                    <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR118260">EDR 118260</ref> (col. b)</bibl>
+                    <bibl><ref corresp="http://www.mqdq.it/textsce/CE|ce|1347a">MQDQ 1347a</ref> (col. a)</bibl>
+                    <bibl><ref corresp="http://www.mqdq.it/textsce/CE|ce|1347b">MQDQ 1347b</ref> (col. b)</bibl>
+                    <bibl><ref corresp="https://www.trismegistos.org/text/279483">TM 279483</ref> (col. a)</bibl>
+                    <bibl><ref corresp="https://www.trismegistos.org/text/265175">TM 265175</ref> (col. b)</bibl>
                  </p>
             </div>
             <div type="bibliography" subtype="other">
                 <p>
-                    <bibl>Bruggisser P., Ambroise lapicide: l’évêque de Milan a-t-il composé le second poème de l’épitaphe de Probus et Proba ?, in Guillaumin J.-Y., Ratti S. (éds.), Autour de Lactance. Hommages à Pierre Monat, Paris 2003, 79-97</bibl>
-                    <bibl>Colafrancesco P., L’epitaffio di Sesto Petronio Probo (ICUR II 4219 a): un manifesto ideologico, in Literatura epigráfica. Estudios dedicados a Gabriel Sanders. Actas de la III Reunión Internacional de Poesìa Epigráfica Latina, Zaragoza 2008, 37-52 (Colafrancesco 2008a)</bibl> 
-                    <bibl>Colafrancesco P., Un caso editoriale: il cosiddetto «ciclo dei Probi» (ICUR II 4220-4221-4222), in Studia Philologica Valentina, 11, 2008, 27-42 (Colafrancesco 2008b)</bibl>
-                    <bibl>Cugusi P., Per un nuovo Corpus dei Carmina Latina Epigraphica. Materiali e discussioni, Roma 2007 (123)</bibl>
-                    <bibl>Dresken-Weiland J., Sarkophagbestattungen des 4.–6. Jahrhunderts im Westen des römischen Reiches, Rom Freiburg Wien 2003 (118-121)</bibl>
-                    <bibl>Dresken-Weiland J., Angerstorfer A., Merkt A., Himmel, Paradies, Schalom: Tod und Jenseits in antiken christlichen und jüdischen Grabinschriften, Regensburg 2012 (119-126, nr. I.17)</bibl> 
-                    <bibl>Dunn G.D., Anicius Hermogenianus Olybrius, in Deroux C. (ed.), Studies in Latin literature and Roman history. 14, Bruxelles 2008, 429-444 = <bibl><ref>AE 2008, 0091</ref></bibl></bibl>
-                    <bibl>Janssens J., Vita e morte del cristiano negli epitaffi di Roma anteriori al sec. VII, Roma 1981 (30)</bibl> 
-                    <bibl>Piccioni F., Qualche osservazione sulla struttura del CLE 1347, in BSL 36, 2006, 489-496</bibl>
-                    <bibl>Porena P., Appendice. Selezione di fonti sulla carriera prefettizia di Sex. Petronius Probus, in Bigi F., Tantillo I. (edd.), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa forthcoming, 211-212</bibl>
-                    <bibl>Schmidt M.G., Ambrosii carmen de obitu Probi: ein Gedicht des Mailänder Bischofs in epigraphischer Überlieferung, in Hermes, 127.1, 1999, 99-116</bibl>
-                    <bibl>Trout D., The verse epitaph(s) of Petronius Probus. Competitive commemoration in late-fourth-Century Rome, NECJ 28, 2001, 157-176</bibl>
+                    <bibl>Alchermes J.D., Petrine Politics: Pope Symmachus and the Rotunda of St. Andrew at Old St. Peter’s, CHR, 81, 1995, 1-40</bibl>
+                    <bibl>Baratte F. et alii, Catalogue des sarcophages en pierre d'époques romaine et paléochrétienne du Musée du Louvre, Paris 1985</bibl>
+                    <bibl>Bartolozzi Casti G., La Basilica Vaticana tra Medioevo e Rinascimento: la distruzione del mausoleo degli Anici, RPAA, 83, 2010-2011, 427-455</bibl>
+                    <bibl>Bauer F.A., Saint Peter’s as a place of collective memory in Late Antiquity, in R. Behrwald, C. Witschel (hrsg.), Rom in der Spätantike. Historische Erinnerung im städtischen Raum, Stuttgart 2012, 155-170</bibl>
+                    <bibl>Berlincourt V., «Dea Roma» and Mars: intertext and structure in Claudian’s Panegyric for the consuls Olybrius and Probinus, HSCPh, 110, 2019, 453-482</bibl>
+                    <bibl>Bernstein N.W., Rome’s arms and breast: Claudian, «Panegyricus dictus Olybrio et Probino consulibus» 83-90 and its tradition, CQ, n.s., 66, 2016, 417-419</bibl>
+                    <bibl>Biering R., von Hesberg H., zur Bau- und Kultgeschichte von St. Andreas apud S. Petrum. Vom Phrygianum zum Kenotaph Theodosius’ d. Gr. ?, RQA, 82, 1987, 145-182</bibl>
+                    <bibl>Bonatti F., Manfredi A. (a cura di), Niccolò V nel sesto centenario della nascita (Atti del convegno internazionale di studi, Sarzana, 8-10 ottobre 1998), La Spezia-Città del Vaticano 2000</bibl>
+                    <bibl>Borsi S., Nicolò V e Roma: Alberti, Angelico, Manetti e un grande piano urbano, Firenze 2009</bibl>
+                    <bibl>Brandenburg H., Die konstantinische Petersbasilika am Vatikan in Rom. Anmerkungen zu ihrer Chronologie, Architektur und Ausstattung, Regensburg 2017</bibl>
+                    <bibl>Bruggisser Ph., Ambroise lapicide. L’évêque de Milan a-t-il composé le second poème de l’épitaphe de Probus et Proba ?, in J.-Y. Guillaumin, S. Ratti (édd.), Autour de Lactance. Hommages à Pierre Monat, Besançon 2003, 79-97</bibl>
+                    <bibl>Cameron Al., The Last Pagans of Rome, Oxford 2011</bibl>
+                    <bibl>Cameron Al., Anician Myths, JRS, 102, 2012, 133-171</bibl>
+                    <bibl>Cameron Al., City personifications and consular diptychs, JRS, 105, 2015, 250-287</bibl>
+                    <bibl>Cecconi G.A., Commento storico al libro II dell’epistolario di Q. Aurelio Simmaco, Pisa 2002</bibl>
+                    <bibl>Cerrati M. (a cura di), Tiberii Alpharani “De Basilicae Vaticanae antiquissima et nova structura”, Roma 1914</bibl>
+                    <bibl>Charlet J.-L., Claudien, Œuvres. 3, Poèmes politiques (393-404). Texte établi et traduit, Paris (Les Belles Lettres) 2017</bibl>
+                    <bibl>Chastagnol A., Les fastes de la préfecture de Rome au Bas-Empire, Paris 1962</bibl>
+                    <bibl>Colafrancesco P., L’epitaffio di Sesto Petronio Probo (ICUR II 4219 a): un manifesto ideologico, in X.G. Font, C.F. Martinez, J.G. Pallarès (ed.), Literatura epigráfica. Estudios dedicados a Gabriel Sanders, Actas de la III Reunión Internacional de Poesìa Epigráfica Latina, Zaragoza 2008, 37-52</bibl>
+                    <bibl>Consolino F.E., Le epistole di Claudiano a Olibrio e Probino (Carm. min. 40 e 41), in G. Herbert de La Portbarré-Viard, A. Stoehr-Monjou (édd.), Studium in libris. Mélanges en l’honneur de Jean-Louis Charlet, Paris 2016, 15-33</bibl>
+                    <bibl>Crocke B., Harries J. (eds), Religious Conflict in Fourth-Century Rome. A documentary study, Sydney 1982</bibl>
+                    <bibl>D’Arcangelo M., Della Schiava F., Dall’antiquaria umanistica alla modellazione 3D: una proposta di lavoro tra testo e immagine, in M. Arnaud, M. Diliberto, M. Lucciano, (édd.), La représentation: enjeux littéraires, artistiques et philosophiques, de l’Antiquité au XIXe siècle, Paris 2012 (= Camenae, 10, 2012), 1-23</bibl>
+                    <bibl>Deichmann F.W. (hrsg.), Repertorium der christlich-antiken Sarkophage I. Rom und Ostia, Wiesbaden 1967</bibl>
+                    <bibl>Della Schiava F., Per la storia della Basilica Vaticana nel ‘500: una nuova silloge di Tiberio Alfarano a Catania, IMU, 48, 2007, 257-282</bibl>
+                    <bibl>Della Schiava F., Il “De rebus antiquis memorabilibus basilicae S. Petri Romae” di Maffeo Vegio. Edizione critica e commento (Ph Diss. Università degli Studi di Firenze) 2009</bibl>
+                    <bibl>Della Schiava F., «Sicuti traditum est a maioribus»: Maffeo Vegio antiquario tra fonti classiche e medievali, Aevum, 84, 2010, 617-639</bibl>
+                    <bibl>Della Schiava F., Il ‘De rebus antiquis memorabilibus’ di Maffeo Vegio tra i secoli XV-XVII: la ricezione e i testimoni Della Schiava, IMU, 52, 2011, 139-196</bibl>
+                    <bibl>Della Schiava F., Roma pagana e Roma cristiana nel primo libro del ‘De rebus antiquis memorabilibus’ di Maffeo Vegio (1407-58), in L. Rotondi Secchi Tarugi (a cura di), Roma pagana e Roma cristiana nel Rinascimento, Firenze 2014, 39-50</bibl>
+                    <bibl>De Rossi G.B., Inscriptiones christianae urbis Romae septimo saeculo antiquiores, II/l, Roma 1888</bibl>
+                    <bibl>Di Fruscia, Miglio M., Percezione e trasformazione di San Pietro nel Quattrocento, in G. Morello (a cura di), La Basilica di San Pietro. Fortuna e immagine, Roma 2012, 123-135</bibl>
+                    <bibl>Dresken-Weiland I., Sarkophagbestattungen des 4. - 6. Jahrhunderts im Westen des Römischen Reiches, Freiburg 2003</bibl>
+                    <bibl>Fraschetti A., La conversione. Da Roma pagana a Roma cristiana, Roma-Bari 1999</bibl>
+                    <bibl>Galletier É., Étude sur la poésie funéraire romaine d’après les inscriptions, Paris 1922</bibl>
+                    <bibl>Guastella G., Word of mouth. «Fama» and its personifications in art and literature from ancient Rome to the Middle Ages, Oxford 2017</bibl>
+                    <bibl>Janssens J., Vita e morte del cristiano negli epitaffi di Roma anteriori al sec. VII, Roma 1981</bibl>
+                    <bibl>Klíma O., Bahrām IV, in Encyclopaedia Iranica, III/5, New York 1989, 514-522</bibl>
+                    <bibl>Krautheimer R., The crypt of Sta. Maria in Cosmedin and the mausoleum of Probus Anicius, in Essays in Memory of Karl Lehmann, New York 1964, 171-174</bibl>
+                    <bibl>Laurence P., Proba, Juliana et Démétrias: le christianisme des femmes de la «gens Anicia» dans la première moitié du 5e siècle, REAug, 48, 2002, 131-163</bibl>
+                    <bibl>Liverani P., La topografia antica del Vaticano, Città del Vaticano 1999</bibl>
+                    <bibl>Liverani P., L’agro Vaticano, in Ph. Pergola, R. Santangeli Valenzani, R. Volpe (a cura di), Suburbium. Il suburbio di Roma dalla crisi del sistema delle ville a Gregorio Magno, Roma 2003, 399-413</bibl>
+                    <bibl>Liverani P., Saint Peter’s and the City of Rome between Late Antiquity and Early Middle Ages, in R. Mckitterick, J. Osborne (eds), Old Saint Peter’s, Rome, Cambridge-New York 2013, 21-34</bibl>
+                    <bibl>Machado C., Roman Aristocrats and the Christianization of Rome, in Pagans and Christians in the Roman Empire: the Breaking of a Dialogue (IVth-VIth Century A.D.), ed. by P. Brown, R. Lizzi Testa, München 2011, 493-516</bibl>
+                    <bibl>Machado C., Urban space and aristocratic power Late Antique Rome, AD 270-535, Oxford 2019</bibl>
+                    <bibl>Matthews J.F., Symmachus and his Enemies, in F. Paschoud (éd.), Colloque Genevois sur Symmaque, à l'occasion du mille six centième anniversaire du conflit de l'autel de la Victoire, Paris 1986, 163-175</bibl>
+                    <bibl>Matthews J.F., Western Aristocracies and Imperial Court, A.D. 364-425, Oxford 1990 2nd ed. (1975)</bibl>
+                    <bibl>Matthews J.F., Four Funerals and a Wedding. This World and the Next in Fourth-Century Rome, in Ph. Rousseau, M. Papoutsakis (eds), Transformations of Late Antiquity. Essays for Peter Brown, Farnham-Burlington 2009, 129-146</bibl>
+                    <bibl>Mazzarino S., Storia sociale del vescovo Ambrogio, Roma 1989</bibl>
+                    <bibl>McEvoy M., The Mausoleum of Honorius: Late imperial Christianity and the city of Rome in the fifth century, in R. Mckitterick, J. Osborne (eds), Old Saint Peter’s, Rome, Cambridge-New York 2013, 119-136</bibl>
+                    <bibl>Meunier D., Claudien. Une poétique de l’épopée, Paris 2021</bibl>
+                    <bibl>Miglio M., Niccolò V, in Enciclopedia dei Papi, II, Roma 2000, 644-658</bibl>
+                    <bibl>Niquet H., «Monumenta virtutum titulique». Senatorische Selbstdarstellung im spätantiken Rom im Spiegel der epigraphischen Denkmäler, Stuttgart 2000</bibl>
+                    <bibl>Paolucci F., La tomba dell’imperatrice Maria e altre sepolture di rango in età tardoantica a San Pietro, Temporis signa, 3, 2008, 225-252</bibl>
+                    <bibl>Piccioni F., Qualche osservazione sulla struttura di CLE 1347, BSL, 36, 2006, 489-496</bibl>
+                    <bibl>Piétri Ch., Épigraphie et culture: l’évolution de l’éloge funéraire dans les textes de l’Occident chrétien (IIIe-VIe siècle), in Le trasformazioni della cultura nella tarda antichità, Roma 1985, 157-183 (= Christiana respublica. Éléments d’une enquête sur le christianisme antique, III, Roma 1997, 1491-1517)</bibl>
+                    <bibl>Poglio F.A., Una lite giudiziaria tra Aurelio Simmaco e Petronio Probo: a proposito di Symm., Epp. 2, 28; 30[-31] e 3, 4, MEFRA, 120, 2008, 149-161</bibl>
+                    <bibl>Porena P., Le iscrizioni del Pretorio di Gortyna e la carriera prefettizia di Sex. Petronius Probus, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020, 87-141</bibl>
+                    <bibl>Roberts M, Rome personified, Rome epitomized: representations of Rome in the poetry of the early Fifth Century, AJPh, 122, 2001, 533-565</bibl>
+                    <bibl>Sanders G., «Lapides memores». Païens et chrétiens face à la mort. Le témoignage de l’épigraphie funéraire latine, Faenza  1991</bibl>
+                    <bibl>Schmidt M.G., Ambrosii carmen de obitu Probi, Hermes, 127, 1999, 99-116</bibl>
+                    <bibl>Seeck O., Q. Aurelii Symmachi quae supersunt (MGH, AA, VI/1), Berolini 1883</bibl>
+                    <bibl>Settipani C., Continuité gentilice et continuité familiale dans les familles sénatoriales romaines à l’époque impériale: mythe et réalité, Oxford 2000</bibl>
+                    <bibl>Seyfarth W., Sextus Petronius Probus. Legende und Wirklichkeit, Klio, 52, 1970, 411-425</bibl>
+                    <bibl>Silvan P., Le origini della pianta di Tiberio Alfarano, RPAA, 62, 1989-1990, 4-22</bibl>
+                    <bibl>Taegert W. (hrsg.), Claudius Claudianus, Panegyricus dictus Olybrio et Probino consulibus. Text, Übersetzung, Kommentar, München 1988</bibl>
+                    <bibl>Thacker A., Popes, Emperors and Clergy at Old St Peter’s from the Fourth to the Eighth centuries, in R. Mckitterick, J. Osborne (eds), Old Saint Peter’s, Rome, Cambridge-New York 2013, 137-156</bibl>
+                    <bibl>Thoenes C., Renaissance St. Peter’s, in W. Tronzo (ed.), St. Peter’s in the Vatican, Cambridge 2005, 64-92</bibl>
+                    <bibl>Trout D., The verse epitaph(s) of Petronius Probus, NECJ, 28, 2001, 157-176</bibl>
+                    <bibl>Trout D., «Fecit ad astra viam»: Daughters, Wives, and the Metrical Epitaphs of Late Ancient Rome, JECS, 21, 2013, 1-25</bibl>
+                    <bibl>Trout D., Poetry on stone: epigram and audience in Rome, in S.C. McGill, J. Pucci (eds), Classics renewed. Reception and innovation in the Latin Poetry of Late Antiquity, Heidelberg 2016, 77-95</bibl>
+                    <bibl>Valentini R., Zucchetti G., Codice topografico della città di Roma, III, Roma 1946</bibl>
+                    <bibl>Vollmer C., Von Elagabals solarem Grabtempel zum Mausoleum Konstantins ?: zu Datierung und Funktion der St.-Andreas-Rotunde an der Südseite von Alt-St. Peter, JDAI, 134, 2019, 311-349</bibl>
+                    <bibl>Wagner H., Die ‚Aristokratisierung‘ des Christentums und die Genese eines christlichen Adels in der ersten Hälfte des 5. Jahrhunderts n. Chr., in M. Friesen, C.L. Hesse (hrsg.), Antike Kanonisierungsprozesse und Identitätsbildung in Zeiten des Umbruchs, Münster 2019, 283-312</bibl>
+                    <bibl>Witschel C., Alte und neue Erinnerungsmodi in den spätantiken Inschriften Roms, in R. Behrwald, C. Witschel (hrsg.), Rom in der Spätantike. Historische Erinnerung im städtischen Raum, Stuttgart 2012, 357-406</bibl>
+                    <bibl>Wolff É., La Poésie funéraire épigraphique à Rome, Rennes 2000</bibl>
+                    <bibl>Zwierlein O., Der Fall Roms im Spiegel der Kirchenvater, ZPE, 32, 1978, 45-80</bibl>
                 </p>
             </div>
 
@@ -218,15 +452,25 @@
                     <p n="1.1"></p>
                 </div>
 
+                <div type="commentary" n="2">
+                    <list n="2.11">
+                        <item n="2.11.h"></item>
+                    </list>
+                </div>
+                
                 <div type="commentary" n="3">
                     <p n="3.a"></p>
+                    <p n="3.b">wife and sons</p>
+                </div>
+                
+                <div type="commentary" n="4">
+                    <p n="4"></p>
                 </div>
 
                 <div type="commentary" n="8">
-                    <p n="8.2">praefectus quarto; bis gemina populos praefectus sede gubernans</p>
-                    <p n="8.4"></p>
-                    <p n="8.6">quarto</p>
-                    <p n="8.11"></p>
+                    <p n="8.2">praefectus; bis gemina populos praefectus sede gubernans</p>
+                    <p n="8.5"></p>
+                    <p n="8.6">quarto; bis gemina sede</p>
                     <p n="8.13"></p>
                 </div>
             </div>
