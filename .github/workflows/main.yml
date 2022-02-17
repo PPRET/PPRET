@@ -18,4 +18,4 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          script: cd /var/www/html/PPRET && sudo git pull && sudo curl http://${{ secrets.ADMINUSERNAME }}:${{ secrets.ADMINPW }}@ppret-inscriptions.huma-num.fr/admin/rdf/harvest/all.html && sudo curl http://ppret-inscriptions.huma-num.fr/admin/solr/index/all.html
+          script: cd /var/www/html/PPRET && sudo git pull && sudo curl http://${{ secrets.ADMINUSERNAME }}:${{ secrets.ADMINPW }}@ppret-inscriptions.huma-num.fr/admin/rdf/harvest/all.html && sudo curl http://${{ secrets.ADMINUSERNAME }}:${{ secrets.ADMINPW }}@ppret-inscriptions.huma-num.fr/admin/solr/index/all.html
