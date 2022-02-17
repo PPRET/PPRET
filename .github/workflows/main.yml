@@ -10,7 +10,7 @@ on:
 jobs:
   build:
     name: Build
-    runs-on: ubuntu-latest
+    runs-on: debian-latest
     steps:
       - name: Update site and reindex
         uses: appleboy/ssh-action@master
