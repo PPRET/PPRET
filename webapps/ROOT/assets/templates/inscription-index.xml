@@ -34,6 +34,8 @@
 
           <xsl:apply-templates mode="text-index"
                                select="/aggregation/response" />
+          
+          <p>All the EpiDoc XML files of the inscriptions are available <a href="{kiln:url-for-match('local-epidoc-zip', ($language), 0)}">here</a>.</p>
         </div>
       </div>
     </kiln:block>

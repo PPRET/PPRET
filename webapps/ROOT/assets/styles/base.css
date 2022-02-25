@@ -10,7 +10,7 @@ ul.index-instances { }
 
 #name-header {
     font-weight: lighter;
-    font-family: Papyrus, "Palatino Linotype", serif; 
+    font-family: "Forum", "Palatino Linotype", serif; 
     color: #F8F8F8;
     font-size: 25px;
     letter-spacing: 0.05em;
@@ -104,7 +104,14 @@ html {
 a, a:link, a:visited, a:active, a:hover { color: #3c7e8e; }
 
 #banner {
-    padding-top: 20px;
+    padding: 3em 0 1em 0;
+}
+
+#publication {
+    font-size: 14px;
+    margin: 1em 11em 0 11em;
+    border: 1px solid black;
+    padding: 1.5em 2em 1em 2em;
 }
 
 .box {
@@ -126,7 +133,7 @@ a, a:link, a:visited, a:active, a:hover { color: #3c7e8e; }
 }
 
 #site_name {
-    font-family: Papyrus, "Palatino Linotype", serif; 
+    font-family: "Forum", "Palatino Linotype", serif; 
     font-size: 45px;
     color: white; 
     text-shadow: 2px 2px black;
@@ -245,4 +252,10 @@ li.arrow a {
     src: url('fonts/nauBoldItalic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
+}
+@font-face {
+  font-family: 'Forum';
+  src: url('fonts/forum.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
 }
