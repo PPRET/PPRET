@@ -42,7 +42,7 @@
         <body>
           <kiln:block name="navigation">
             <div class="text-center">
-              <h1 id="name-header"><a href="{kiln:url-for-match('local-language-home-page', ($language), 0)}">PPRET Inscriptions. Les Préfets du Prétoire de l’Empire Tardif</a></h1>
+              <h1 id="name-header"><a href="{kiln:url-for-match('local-language-home-page', ($language), 0)}">PPRET Les Préfets du Prétoire de l’Empire Tardif</a></h1>
             </div>
             <nav class="top-bar">
               <kiln:block name="main-navigation">
