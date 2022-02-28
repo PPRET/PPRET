@@ -76,7 +76,7 @@
                             </origPlace>
                             <origDate period="#p4" notBefore="0325" notAfter="0327">325/327 AD</origDate>
                         </origin>
-                        <provenance type="found">The inscription was preserved by Malalas (<ref type="source">Mal., Chron., 13, 17</ref>) and lost when the <placeName ref="#Antakya">Church</placeName> was destroyed by an earthquake in 526 AD</provenance>
+                        <provenance type="found">The inscription was preserved by Malalas (<ref type="source">Mal., Chron., 13, 17, p. 250 Thurn</ref>) and lost when the <placeName ref="#Antakya">Church</placeName> was destroyed by an earthquake in 526 AD</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
