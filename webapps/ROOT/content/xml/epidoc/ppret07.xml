@@ -70,7 +70,7 @@
                                 <placeName type="modern_city">Beaurains (Arras – Pas-de-Calais, France)</placeName>
                                 <placeName type="province">Belgica Secunda</placeName>
                                 <placeName type="diocese">Galliae</placeName>
-                                <placeName type="prefecture">Galliae</placeName>
+                                <placeName type="prefecture">(not regional before 326 AD)</placeName>
                                 <placeName type="ancient_location" ref="#private">private building</placeName>
                             </origPlace>
                             <origDate period="#p2" when="0310" precision="high">310 AD</origDate>
