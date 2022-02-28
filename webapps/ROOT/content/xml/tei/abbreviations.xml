@@ -23,7 +23,7 @@
     <text>
         <body>
             <div type="commentary">
-                <p>PPRET uses the abbreviations suggested by L’<title>Année Philologique</title> for the journals and by the <title>Guide de l’épigraphiste</title> (2010) for the epigraphic corpora. The additional abbreviations that are used in PPRET are listed below.</p>
+                <p>PPRET uses the abbreviations suggested by L’<title>Année Philologique</title> for the journals and by the <title>Guide de l’épigraphiste</title> (2010) for the epigraphic corpora. The most frequently used abbreviations in PPRET are listed below.</p>
                 
                 <div type="section">
                     <head>Latin and Greek Epigraphic Corpora</head>
@@ -33,26 +33,28 @@
                         <bibl><emph>BE</emph>: Bulletin épigraphique in Revue des études grecques, Paris 1888 ff.</bibl>
                         <bibl><emph>CIG</emph>: Corpus inscriptionum Graecarum, Berlin 1828-1877</bibl>
                         <bibl><emph>CIL</emph>: Corpus Inscriptionum Latinarum, Berlin 1863 ff.</bibl>
-                        <bibl><emph>CLE</emph>: Bücheler, F., Lommatzsch, E., Carmina Latina Epigraphica, Leipzig 1930</bibl>
+                        <bibl><emph>CLE</emph>: Bücheler F., Lommatzsch E., Carmina Latina Epigraphica, Leipzig 1930</bibl>
+                        <bibl><emph>ERC</emph>: Chelotti M., Gaeta R., Morizio V., Silvestrini M. (a cura di), Le epigrafi romane di Canosa. I, coordinatori F. Grelle, M. Pani, Bari 1985</bibl>
                         <bibl><emph>GLIA II</emph>: Mitchell S., French D., The Greek and Latin Inscriptions of Ankara (Ancyra), II, München 2019</bibl>
-                        <bibl><emph>ICret</emph>: M. Guarducci, Inscriptiones Creticae I-IV, Roma 1935-1950</bibl>
+                        <bibl><emph>ICret</emph>: Guarducci M., Inscriptiones Creticae I-IV, Roma 1935-1950</bibl>
                         <bibl><emph>ICUR</emph>: Inscriptiones christianae urbis Romae septimo saeculo antiquiores, novae series, Roma 1922 ff.</bibl>
                         <bibl><emph>IG</emph>: Inscriptiones Graecae, Berlin 1873 ff.</bibl>
                         <bibl><emph>IGLS</emph>: Inscriptions grecques et latines de la Syrie, Paris 1929 ff.</bibl>
-                        <bibl><emph>IGUR</emph>: L. Moretti, Inscriptiones Graecae Urbis Romae, Roma 1968-1990</bibl>
-                        <bibl><emph>IIFDR</emph>: Popescu E., Inscriptiones intra fines Dacoromaniae repertae Graecae et Latinae anno CCLXXXIV recentiores, Bucaresti 1976</bibl>
+                        <bibl><emph>IGR</emph>: Cagnat R. et collaborateurs, Inscriptiones Graecae ad res Romanas pertinentes, Paris 1906-1927</bibl>
+                        <bibl><emph>IGUR</emph>: Moretti L., Inscriptiones Graecae Urbis Romae, Roma 1968-1990</bibl>
                         <bibl><emph>IK</emph>: Inschriften griechischer Städte aus Kleinasien, Bonn 1972 ff.</bibl>
                         <bibl><emph>ILBulg</emph>: Gerov B., Inscriptiones Latinae in Bulgaria repertae, Sofia 1989</bibl>
-                        <bibl><emph>ILS</emph>:  H. Dessau, Inscriptiones Latinae selectae, Berlin 1892-1916</bibl>
+                        <bibl><emph>ILCV</emph>: Diehl E., Inscriptiones Latinae Christianae Veteres, Berlin 1925-1967</bibl>
+                        <bibl><emph>ILS</emph>: Dessau H., Inscriptiones Latinae selectae, Berlin 1892-1916</bibl>
+                        <bibl><emph>ILTun</emph>: Merlin A., Inscriptions latines de la Tunisie, Paris 1944</bibl>
                         <bibl><emph>InscrIt</emph>: Inscriptiones Italiae, Roma 1931- </bibl>
                         <bibl><emph>IosPE I<hi rend="superscript">²</hi></emph>: Latyshev B. (ed.), Inscriptiones antiquae orae septentrionalis Ponti Euxini graecae et latinae. Vol. 1: Inscriptiones Tyriae, Olbiae, Chersonesi Tauricae. Editio altera, Petropoli 1916</bibl> <!-- * -->
-                        <bibl><emph>IScM</emph>: Inscriptions de Scythie mineure / Inscriptiones Scythiae Minoris graecae et latinae, Bucuresti 1980 ff.</bibl>
-                        <bibl><emph>OGIS</emph>: W. Dittenberger, Orientis graeci inscriptiones selectae, Leipzig 1903-1905</bibl>
-                        <bibl><emph>PChBE</emph> II: Prosopographie chrétienne du Bas-Empire, II. Prosopographie de l’Italie chrétienne (313-604), sous la direction de Charles Pietri et Luce Pietri, 2 voll., Roma 1999-2000</bibl>
-                        <bibl><emph>RIU</emph>: Die römischen Inschriften Ungarns, amsterdam-Budapest 1972 ff.</bibl>
+                        <bibl><emph>IRT</emph>: Reynolds J.M., Ward-Perkins J.B., The Inscriptions of Roman Tripolitania, Rome 1952</bibl>
+                        <bibl><emph>OGIS</emph>: Dittenberger W., Orientis graeci inscriptiones selectae, Leipzig 1903-1905</bibl>
+                        <bibl><emph>RIU</emph>: Die römischen Inschriften Ungarns, Amsterdam-Budapest 1972 ff.</bibl>
                         <bibl><emph>SB</emph>: Sammelbuch griechischer Urkunden aus Ägypten, Straßburg 1915 ff.</bibl>
                         <bibl><emph>SEG</emph>: Supplementum Epigraphicum Graecum, Leiden 1923 ff.</bibl>
-                        <bibl><emph>SGO</emph>: R. Merkelbach, J. Stauber, Steinepigramme aus dem griechischen Osten, I-V, München 1998-2004</bibl>
+                        <bibl><emph>SGO</emph>: Merkelbach R., Stauber J., Steinepigramme aus dem griechischen Osten, I-V, München 1998-2004</bibl>
                         <bibl><emph>SupplIt</emph>: Supplementa italica, nuova serie, Roma 1981 ff.</bibl>
                         <bibl><emph>SupplIt-Imagines</emph>: Supplementa italica – Imagines. Supplementi fotografici ai volumi italiani del CIL, Roma 1999 ff.</bibl>
                         <bibl><emph>TAM</emph>: Tituli Asiae Minoris, Wien 1901 ff.</bibl>
@@ -75,7 +77,7 @@
                         <bibl><ref corresp="http://sicily.classics.ox.ac.uk/"><emph>I.Sicily</emph></ref>: Inscriptions of Sicily</bibl>
                         <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/"><emph>LSA</emph></ref>: Last Statues of Antiquity</bibl>
                         <bibl><ref corresp="http://mizar.unive.it/mqdq/public/"><emph>MQDQ</emph></ref>: Musisque Deoque</bibl>
-                        <bibl><ref corresp="https://epigraphy.packhum.org/"><emph>PHI</emph></ref>: Packard Humanities Institute Searchable Greek Inscriptions</bibl>
+                        <bibl><ref corresp="https://epigraphy.packhum.org/"><emph>PH</emph></ref>: Packard Humanities Institute Searchable Greek Inscriptions</bibl>
                         <bibl><ref corresp="https://www.trismegistos.org/"><emph>Trismegistos</emph></ref>: Trismegistos</bibl>
                         <bibl><ref corresp="https://www.ubi-erat-lupa.org/"><emph>Ubi Erat Lupa</emph></ref>: Ubi erat Lupa</bibl>
                     </listBibl>
@@ -83,7 +85,9 @@
                 <div type="section">
                     <head>Reference Works</head>
                     <listBibl>
-                        <bibl><emph>CLRE</emph>: Bagnall R.S., Cameron Al., Schwartz S.R., Worp K.A., Consuls in the Later Roman Empire, Atlanta 1987</bibl>
+                        <bibl><emph>CLRE</emph>: Bagnall R.S., Cameron Al., Schwartz S.R., Worp K.A., Consuls of the Later Roman Empire, Atlanta 1987</bibl>
+                        <bibl><emph>PChBE II</emph>: Prosopographie chrétienne du Bas-Empire, II. Prosopographie de l’Italie chrétienne (313-604), sous la direction de Charles Pietri et Luce Pietri, 2 voll., Roma 1999-2000</bibl>
+                        <bibl><emph>PChBE III</emph>: Prosopographie chrétienne du Bas-Empire, III. Diocèse d'Asie (325-641). Sylvain Destephen, Paris 2008</bibl>
                         <bibl><emph>PLRE I</emph>: Jones A.H.M., Martindale J.R., Morris J., The Prosopography of the Later Roman Empire, I, A.D. 260-395, Cambridge 1971</bibl>
                         <bibl><emph>PLRE II</emph>: Martindale J.R., The Prosopography of the Later Roman Empire, II, A.D. 395-527, Cambridge 1980</bibl>
                     </listBibl>
