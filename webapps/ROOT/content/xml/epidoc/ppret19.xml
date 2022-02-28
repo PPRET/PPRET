@@ -141,6 +141,7 @@
             </div>
             <div type="bibliography" subtype="links">
                 <p>
+                  <bibl><ref corresp="http://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-17900065">EDCS 17900065</ref></bibl>
                     <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR127938">EDR 127938</ref></bibl>
                     <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail.php?record=1412">LSA 1412</ref></bibl>
                     <bibl><ref corresp="https://www.trismegistos.org/text/281625">TM 281625</ref></bibl>
