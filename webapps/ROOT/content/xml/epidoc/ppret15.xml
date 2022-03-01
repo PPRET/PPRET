@@ -91,19 +91,32 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="grc">
-                <ab>
-                    <lb n="1"/>Χριστῷ Κωνσταντῖνος ἐπήπατα οἱκί’ ἔτευξεν
-                    <lb n="2"/>Οὐρανίαις ἀψῖσι πανείκελα παμφανοῶντα,
-                    <lb n="3"/>Κονσταντίου ἄνακτος ὑποδρήσοντος ἐφετμαῖς,
-                    <lb n="4"/>Γοργόνιος δὲ κόμης θαλαμηπόλος ἔργον ὕφανε.
-                </ab>
+                <div type="textpart" subtype="edition">
+                    <head>Malalas’ text (Chron. 13, 17, p. 250 Thurn)</head>
+                    <ab>
+                        <lb n="1"/>Χριστῷ Κωνστάντιος ἐπέραστον οἶκον ἔτευξεν,
+                        <lb n="2"/>Οὐρανίαις ἁψῖσι πανείκελα, πανφανόωντα,
+                        <lb n="3"/>Κωνσταντίου ἄνακτος ὑποδρήσσοντος ἐφετμαῖς· 
+                        <lb n="4"/>Γοργόνιος δὲ κόμης θαλαμηπόλον ἔργον ὕφανε.
+                    </ab>
+                </div>
+                <div type="textpart" subtype="edition">
+                    <head>Text emended by Mitchell 2019 (see commentary below)</head>
+                    <ab>
+                        <lb n="1"/>Χριστῷ Κωνσταντῖνος ἐπήρατα οἱκί’ ἔτευξεν
+                        <lb n="2"/>Οὐρανίαις ἀψῖσι πανείκελα παμφανοῶντα,
+                        <lb n="3"/>Κονσταντίου ἄνακτος ὑποδρήσοντος ἐφετμαῖς,
+                        <lb n="4"/>Γοργόνιος δὲ κόμης θαλαμηπόλος ἔργον ὕφανε.
+                    </ab>
+                </div>
             </div>
             <div type="apparatus">
-                <p>This epigram is preserved by the manuscript MS O: Cod. Bodleianus Baroccianus 182 (f. 1-321); the edition and interpretation of the text is based on Mitchell 2019, p. 181.</p>
+                <p>This epigram, preserved by the manuscript O, Cod. Bodleianus Baroccianus 182, presents a series of philological problems: we propose the text of Malalas, according to Thurn 2000, and the edition proposed by Mitchell 2019.</p>
                 <p>
-                    <app loc="1"><note>Κωνστάντιος: IGLSyr. III／1, nr. 832, Thurn 2000, p. 250, Woods 2005, p. 55, Agusta-Boularot 2006, p. 127; Κωνστάντειος: Agosti 2005, p. 23; ἐπήρατα: O, Müller 1839, p. 104, Preger 1891, nr. 111, SGO 04, 20／03／03, Agosti 2005, p. 23; ἐπέραιστον οἶκον: IGLSyr. III／1, nr. 832; ἐπέραστον οἶκον: Thurn 2000, p. 250, Woods 2005, p. 55, Agusta-Boularot 2006, p. 127; ἐπήρατον οἶκον: Feissel 2016, p. 1229.</note></app>
-                    <app loc="3"><note>Κωνσταντείου: O, Müller 1839, p. 104, Preger 1891, nr. 111, SGO 04, 20／03／03, Agosti 2005, p. 23; Κωνσταντίου: Thurn 2000, p. 250, Woods 2005, p. 55, Agusta-Boularot 2006, p. 127, Feissel 2016, p. 1229; ὑποδρήσσοντος: Müller 1838, p. 104, Preger 1891, nr. 111, SGO 04, 20／03／03, Thurn 2000, p. 250, Woods 2005, p. 55, Agosti 2005, p. 23, Agusta-Boularot 2006, p. 127.</note></app>
-                    <app loc="4"><note>θαλαμηπόλον: Müller 1839, p. 104, Preger 1891, nr. 111, IGLSyr. III／1, nr. 832, SGO 04, 20／03／03, Thurn 2000, p. 250, Woods 2005, p. 55, Agosti 2005, p. 23, Agusta-Boularot 2006, p. 127.</note></app>
+                    <app loc="1"><note>Κωνστάντιος: IGLSyr. III／1, nr. 832, Woods 2005; Κωνσταντῖνος: Müller 1839, Preger 1891, SGO 04, 20／03／03; Κωνστάντειος: Agosti 2005, p. 23; ἐπήρατα: O, Müller 1839, p. 104, Preger 1891, nr. 111, SGO 04, 20／03／03, Agosti 2005, p. 23; ἐπέραιστον οἶκον: IGLSyr. III／1, nr. 832; ἐπέραιστον οἶκον: O, IGLSyr. III／1, nr. 832; ἐπήρατα οἱκί’: Müller 1839, Preger 1891, SGO 04, 20／03／03, Agosti 2005.</note></app>
+                    <app loc="2"><note>ἀψῖσιν: O; πανφανόεντα: O.</note></app>
+                    <app loc="3"><note>Κωνσταντίου: IGLSyr. III／1, nr. 832, Woods 2005; Κωνσταντείου: Müller 1839, Preger 1891, SGO 04, 20／03／03, Agosti 2005; ύποδρήσοντος: O.</note></app>
+                    <app loc="4"><note>θαλάμη πόλον: O; θαλαμηπόλον: Müller 1839, Preger 1891, IGLSyr. III／1, nr. 832, SGO 04, 20／03／03, Woods 2005, Agosti 2005.</note></app>
                 </p>
             </div>
             <div type="translation" xml:lang="en">
