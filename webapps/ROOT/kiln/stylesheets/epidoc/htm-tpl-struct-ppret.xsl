@@ -667,30 +667,34 @@
     <xsl:value-of select="//t:titleStmt/t:title"/>
   </xsl:template>
 
-  <xsl:template match="//t:div//t:title">
+  <xsl:template priority="10" match="//t:div//t:title">
     <i><xsl:value-of select="."/></i>
   </xsl:template>
 
-  <xsl:template match="//t:foreign">
+  <xsl:template priority="10" match="//t:foreign">
     <i><xsl:value-of select="."/></i>
   </xsl:template>
+  
+  <xsl:template priority="10" match="//t:hi[@rend='ligature']">
+    <span class="ligature"><xsl:apply-templates/></span>
+  </xsl:template>
 
-  <xsl:template match="//t:sic[not(ancestor::t:choice)]">
+  <xsl:template priority="10" match="//t:sic[not(ancestor::t:choice)]">
     <xsl:apply-templates/> <i><xsl:text> (sic)</xsl:text></i>
   </xsl:template>
-  <xsl:template match="//t:corr[not(ancestor::t:choice)]">
+  <xsl:template priority="10" match="//t:corr[not(ancestor::t:choice)]">
     <xsl:text>⌜</xsl:text><xsl:apply-templates/><xsl:text>⌝</xsl:text>
   </xsl:template>
 
-  <xsl:template match="//t:bibl//t:emph">
+  <xsl:template priority="10" match="//t:bibl//t:emph">
     <span class="bibl"><xsl:apply-templates/></span>
   </xsl:template>
 
-  <xsl:template match="//t:div[@type='commentary']//t:emph">
+  <xsl:template priority="10" match="//t:div[@type='commentary']//t:emph">
     <strong><xsl:apply-templates/></strong>
   </xsl:template>
 
-  <xsl:template match="//t:div//t:ref[@target][not(@corresp)]">
+  <xsl:template priority="10" match="//t:div//t:ref[@target][not(@corresp)]">
     <xsl:variable name="bibl-id" select="substring-after(@target,'#')"/>
     <xsl:choose>
       <xsl:when test="$bibl-id!=''"><a><xsl:attribute name="href"><xsl:value-of select="concat('../texts/bibliography.html#',$bibl-id)"/></xsl:attribute><xsl:attribute name="target"><xsl:value-of select="'_blank'"/></xsl:attribute><xsl:apply-templates/></a></xsl:when>
@@ -698,7 +702,7 @@
     </xsl:choose>
   </xsl:template>
 
-  <xsl:template match="t:div//t:ref[@corresp]">
+  <xsl:template priority="10" match="t:div//t:ref[@corresp]">
     <xsl:choose>
       <xsl:when test="@type='ppret'">
         <a><xsl:attribute name="href"><xsl:value-of select="concat('./',@corresp,'.html')"/></xsl:attribute><xsl:attribute name="target"><xsl:value-of select="'_blank'"/></xsl:attribute><xsl:apply-templates/></a>
@@ -712,11 +716,9 @@
     </xsl:choose>
   </xsl:template>
   
-  <xsl:template match="//t:div//t:ref[not(@target)][not(@corresp)]"><xsl:apply-templates/></xsl:template>
-
-  <xsl:template match="t:div//t:space[@rend='space']">&#x2003;</xsl:template>
-  
-  <xsl:template match="t:div[@type='commentary']//t:lb"><br/></xsl:template>
+  <xsl:template priority="10" match="//t:div//t:ref[not(@target)][not(@corresp)]"><xsl:apply-templates/></xsl:template>
+  <xsl:template priority="10" match="t:div//t:space[@rend='space']">&#x2003;</xsl:template>
+  <xsl:template priority="10" match="t:div[@type='commentary']//t:lb"><br/></xsl:template>
   
   <xsl:template name="navigation">
     <xsl:variable name="filename"><xsl:value-of select="//t:idno[@type='filename']"/></xsl:variable>
@@ -729,29 +731,10 @@
         <p>
         <ul class="pagination left">
           <xsl:if test="$prev">
-            <li class="arrow">
-              <a>
-                <xsl:attribute name="href">
-                  <xsl:text>./ppret</xsl:text>
-                  <xsl:value-of select="$prev"/>
-                  <xsl:text>.html</xsl:text>
-                </xsl:attribute>
-                <xsl:text>&#171;</xsl:text>
-              </a>
-            </li>
+            <li class="arrow"><a href="./ppret{$prev}.html"><xsl:text>&#171;</xsl:text></a></li>
           </xsl:if>
-          
           <xsl:if test="$next">
-            <li class="arrow">
-              <a>
-                <xsl:attribute name="href">
-                  <xsl:text>./ppret</xsl:text>
-                  <xsl:value-of select="$next"/>
-                  <xsl:text>.html</xsl:text>
-                </xsl:attribute>
-                <xsl:text>&#187;</xsl:text>
-              </a>
-            </li>
+            <li class="arrow"><a href="./ppret{$next}.html"><xsl:text>&#187;</xsl:text></a></li>
           </xsl:if>
         </ul>
         </p>
