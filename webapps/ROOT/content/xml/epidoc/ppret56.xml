@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Valentinian I’s constitution addressed to the praet. prefect Probus from Trinitapoli</title>
+                <title>Fragmentary constitution of Valentinianus I addressed to the praet. prefect Probus from Trinitapoli (Apulia, Italy)</title>
                 <editor role="edition">Pierfrancesco Porena</editor>
                 <editor role="encoding">Irene Vagionakis</editor>
             </titleStmt>
@@ -26,7 +26,7 @@
                 </listPerson>
                 <msDesc>
                     <msIdentifier>
-                        <repository ref="#Trinitapoli">Museo di Trinitapoli</repository>
+                        <repository ref="#Trinitapoli">Comune di Trinitapoli (prov. Barletta-Andria-Trani, Italy), currently in the deposit of the Museo Archeologico degli Ipogei di Trinitapoli</repository>
                     </msIdentifier>
                     <msContents>
                         <summary>
@@ -39,29 +39,29 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#marble">Proconnesian marble</material>
+                                    <material ref="#marble">marble (Proconnesian marble with blue veinings)</material>
                                     <objectType ref="#stone_slab">stone slab</objectType>
                                     <dimensions>
-                                        <height>120 / 140</height>
+                                        <height>140</height>
                                         <width>72</width>
                                         <depth>2.5 / 5</depth>
                                     </dimensions>
                                     <rs type="inscribed_field_reuse">no</rs>
-                                    <rs type="monument_reuse">yes: reused in a later tomb</rs>
+                                    <rs type="monument_reuse">yes</rs>
                                     <rs type="opistographic">no</rs>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>One inscribed field (frons).</p>
+                                    <p>An epigraphic field, split into four fragments, three of which constitute the left margin of the slab. The upper part of the epigraphic field is lost. Perhaps another epigraphic field was placed on another slab, similar to the one preserved, which is lost.</p>
                                     <rs type="execution" ref="#chiselled">chiselled</rs>
-                                    <rs type="preservation" ref="#fragmentary">Fragmentary: the inscription consists of four rejoined fragments.</rs>
+                                    <rs type="preservation" ref="#fragmentary">Fragmentary.</rs>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <term ref="#square_capitals">late Roman capitals</term>
                                 <height>2</height>
                             </handNote>
                         </handDesc>
@@ -70,15 +70,15 @@
                         <origin>
                             <origPlace>
                                 <placeName type="ancient_city">Canusium</placeName>
-                                <placeName type="modern_city">Trinitapoli, Canosa di Puglia (Italy)</placeName>
+                                <placeName type="modern_city">Canosa di Puglia (prov. Barletta-Andria-Trani - Italy)</placeName>
                                 <placeName type="province">Apulia et Calabria</placeName>
                                 <placeName type="diocese">Italiciana</placeName>
                                 <placeName type="prefecture">Italia Illyricum Africa</placeName>
-                                <placeName type="ancient_location" ref="#public" cert="low">public space (?)</placeName>
+                                <placeName type="ancient_location" ref="#public">public space</placeName>
                             </origPlace>
-                            <origDate period="#p7" when="0369" precision="high">369 AD</origDate>
+                            <origDate period="#p7" notBefore="0368" notAfter="0375">AD 368-375, probably 369 AD</origDate>
                         </origin>
-                        <provenance type="found">found in 1968 at <placeName ref="#">Trinitapoli</placeName>, locality of Chiavicella Grande, close to Candida station</provenance>
+                        <provenance type="found">slab found in 1968/1969 reused to cover a (medieval) ground burial at Chiavicella Grande, near the railway station of Candida, 4 km. East of <placeName ref="#">Trinitapoli</placeName>, 12 km. North of  Canosa di Puglia (ancient Canusium).</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -129,54 +129,255 @@
                         <lb n="32"/>eum severitate <supplied reason="lost">in</supplied>pl<supplied reason="lost">e</supplied>ctendum (est) qui vel <orig>erretam</orig> vel his pl<gap reason="lost" quantity="13" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>to</orig><gap reason="illegible" quantity="1" unit="character"/>
                         <lb n="33"/><orig>m</orig><gap reason="illegible" quantity="5" unit="character"/>. Adm<supplied reason="omitted">o</supplied>nien<supplied reason="lost">d</supplied>a damnatione dignissimus est qui <gap reason="lost" extent="unknown" unit="character"/>
                         <lb n="34"/>nec posse publi<supplied reason="lost">c</supplied>am admonitionem de<supplied reason="lost">fer</supplied>en<supplied reason="lost">d</supplied>am <gap reason="lost" extent="unknown" unit="character"/>. 
+                        
+                        <!-- 
+      - - - - - - 
+1    [- - -]+ru͡m s+[- - -]
+      [- - -]+NET nu͡m ageṛ[- - -]
+      [- - -]+ạe invidia reos in͡div+[- - -] 
+      [- - -]+s s<a>nction͡e ut intra provin[-c. 5-]
+5    [- - -]++n͡atim expona͡ntu͡r omn͡em reliqu͡am[..]
+      [- - - dei]ṇceps a{d} praepositis pagoru͡m, vel àb́ his quos 
+      [horreorum maxim]e cu͡ra con͡plectitu͡r, mestrui{s} brevẹs fideliter deligen͡terq(ue) 
+      [subdantur ? et offi]cio con͡petenti a p(rae)f(ato ?) tabu͡lario civitatis scribt͡ura tradatu͡r qu͡a praes[to] que=
+      [atur cog]ṇosci qu͡an͡tu͡m et in qu͡a specie dịẹbus singu͡lis singu͡li quiq(ue) dissolverin<t>, quid=
+10  ṿ͡e ab u͡noq̣uoq(ue) trahatu͡r in͡ reliquis. Tum u[niver]s[i] rectores provinciaru͡m, quibus form͡a 
+      stu͡dioq(ue) [p]ostul͡etu͡r nu͡llus {h}on͡erosus videri pro[u]t (?) excu͡rs{s}us, <h>ac instruction͡e percebta, 
+      ad certu͡m ạliqu͡em locu͡m, per litteras su͡per adṿen͡tus <s>ui [tempore] p̣ṛemiss⸢a⸣s posses<s>ori=
+      bus exvo[c]ạtis, ean͡t u͡ltro citroq(ue) per pagos et via[s] ++DE++S reru͡m cu͡m adnotation͡e 
+      concorḍ[e]ṣ adparean͡t, viritim u͡nu͡mquemque super ratiocin[iis ? -c. 3-] consulan͡t ++++ 
+15  secu͡rita[te]ṃ ab universis adq(ue) in͡dicia functionis ef̣f̣lagitent,͡ dein͡de ut, postqua͡ṃ 
+      praesent͡eṣ [in]quisition͡e conperere quid ab u͡noquoq(ue) fu͡erit ex[o]lutu͡m, adtentissim͡e 
+      mox reqụ[ira]nt utru͡m nụḷḷa{m} su͡mma specie<r>ụ͡m recondeta sit, qu͡id av͡ers{s}o⸢r⸣um fu͡erit 
+      su͡pput͡ent [ex]ạminibus, Probe parens carissim͡e adq(ue) amantissim͡e. Igitu͡r praecelsa 
+      su͡blim[itas t]u͡a continuo innotescere omnibus faciat tam salutare decretu͡m 
+20  quịp̣[pe c]ụ͡m ad perpetuitatem provisionis et gratiae celeberrimis [in] 
+      locis ụ[rbiu]m singularu͡m tabul͡is iḍ ẹṛis incidat. Ḥọc [t]ạ[nt]um ẹnịm remedio provi=
+      debitu͡ṛ [ill]arum frau͡dịu͡m qu͡ae <e>a{d}tenus con͡pulṣọ[ribus] p̣erfidis officiisq(ue) p̣[er]=
+      ṿersis ubẹ[r]rime prof̣ueru͡nt. Collubion͡e su͡ḅmota, E+S+++tạ͡ṇter accedat quidquid 
+      horrei[s p]ọssessor invexerit; nulla u͡mqua<m> reliqua ṣụ͡ḅtraha[n]ṭur; n͡emini 
+25  adeiciat gṛ[ava]men alienu͡m, su͡b nomin͡e a͡utem quid per singulos quosq(ue) v͡etẹr[is cuiusqu(ue)] 
+      [conlat]ịọṇis [per]solutu͡m sit, nominat⸢o⸣ri breves mera luce significent. Nullum 
+      +X[-c. 6-]EM+S[-c. 5-]geṛe quod non inultu͡m [sit], iuḍex autem concordia͡m habiṭẹṭ 
+      [et] gratia͡m +++ p̣ost ha͡nc nostrae m͡ansu͡etu͡dinis legem͡, pu͡blicis adq(ue) priv͡atis fo[rt]=
+      [unis] consuleṇ[t]ẹm, et [di]v͡a[l]ibus quoq(ue) titulis consecrata͡m, vel cohibent +++
+30  +A[-c. 9-]daverit, v͡el c̣u͡m aliqua ex hịṣ ++ i͡nproba+++++s fuerint ++++ prae=
+      ++ens [-c. 7-]+ sed nihilominus denun͡tiamus adq(ue) p[- - -] ultima 
+      eum severitate [in]pl[e]cten͡du͡m qui vel ++r+tum vel his pl[- - -] 
+      M+++++EN++ damnatione degnissimus est qui [- - -] 
+      nec p̣osse p̣ubli[c]ạṃ admonitionem de++++E+++R[- - -].
+                        -->
                     </ab>
             </div>
             <div type="apparatus">
-                <p>Edition by Pierfrancesco Porena.</p>
+                <p>Edition based on Giardina, Grelle 1983 and Ruggeri’s fac-simile.</p>
                 <p>
-                    <app loc="4"><note>s&lt;a&gt;ncito ne: Ruggeri</note></app>
-                    <app loc="6-7"><note>ab his quos / <supplied reason="lost">horreorum maxim</supplied>e cura conplectitur: già ipotesi in Giardina-Grelle</note></app>
-                    <app loc="7"><note><gap reason="lost" quantity="14" unit="character"/>e cura: Giardina-Grelle; mestrui<surplus>s</surplus>: Giardina-Grelle</note></app>
-                    <app loc="8"><note><gap reason="lost" quantity="10" unit="character"/> <supplied reason="lost">offi</supplied>cio: Giardina-Grelle; a <gap reason="illegible" quantity="2" unit="character"/> tabulario: Giardina-Grelle; praes<gap reason="illegible" quantity="2" unit="character"/>que / <gap reason="lost" quantity="4" unit="character"/> <supplied reason="lost">cog</supplied>nosci: Giardina-Grelle</note></app>
-                    <app loc="10"><note>V<gap reason="lost" quantity="4" unit="character"/>S<gap reason="illegible" quantity="1" unit="character"/>: Giardina-Grelle</note></app>
-                    <app loc="11"><note>videri <gap reason="lost" quantity="6" unit="character"/> excurssus: Giardina-Grelle</note></app>
-                    <app loc="12"><note>aliquem: Giardina-Grelle; super adventus s&gt;ui <supplied reason="lost">tempore</supplied> premiss<corr>a</corr>s: Giardina-Grelle, litteras super adventus VI <gap reason="lost" quantity="6" unit="character"/> premiss<corr>a</corr>s, Ruggeri, litteras super adventus VI <supplied reason="lost">die ante ?</supplied> premiss<corr>a</corr>s (Porena)</note></app>
-                    <app loc="13"><note>via<supplied reason="lost">s</supplied><gap reason="illegible" quantity="2" unit="character"/>DE<gap reason="illegible" quantity="2" unit="character"/>S rerum: Giardina-Grelle, vel DE<gap reason="illegible" quantity="3" unit="character"/>S rerum: Ruggeri, vel de<supplied reason="lost">gen</supplied>s. Rerum (Porena)</note></app>
-                    <app loc="16"><note>praesentes <supplied reason="lost">in</supplied>quisitione: Giardina-Grelle</note></app>
-                    <app loc="17"><note>req<supplied reason="lost">uira</supplied>nt utrumnam summa: Ruggeri; Quid aversorum fuerit: Ruggeri</note></app>
-                    <app loc="22"><note><supplied reason="lost">frau</supplied>deum: Ruggeri; eatenus: Giardina-Grelle; conpulso<supplied reason="lost">ribus</supplied>: Giardina-Grelle</note></app>
-                    <app loc="23"><note>quid: Giardina-Grelle</note></app>
-                    <app loc="24"><note>quid <supplied reason="lost">publi/cis</supplied> horreis: Giardina-Grelle, quidquid / horreis: Ruggeri; nemini super / 25 adeiciat: Giardina-Grelle, nemini super / 25 adeiciat: Ruggeri (dov’è super sulla pietra ? meglio nemini <supplied reason="lost">ne</supplied> / adeiciat)</note></app>
+                    <app loc="2"><note>[- - -]+N et nu͡m age[r], Ruggeri, EDR; [- - -]+NET nu͡m ageṛ[-c. 4-], ERCanosa 11</note></app>
+                    <app loc="3"><note>[- - -]++[a?]e, Ruggeri</note></app>
+                    <app loc="3-4"><note>in͡diu[ - - - / - - - ]s s(a)nctione, AE 1984, 250</note></app>
+                    <app loc="4"><note>[- - -]us s<corr>a</corr>ncito n͡e ut intra provin[cias], Ruggeri, EDR</note></app>
+                    <app loc="5"><note>[- - -nomi?]natim, AE 1984, 250; [- - - no]+rn͡atim, Ruggeri, EDR; riliqu͡am (sic), Ruggeri, EDR</note></app>
+                    <app loc="7"><note>[-c. 14-]e cu͡ra, the stone; [horreorum maxim]e cu͡ra, Giardina-Grelle 1983, p. 262, AE 1984, 250, EDR; [reliquorum maxim]e cu͡ra, Di Paola 2001, p. 300, Ruggeri;  mestrui{s}, Giardina Grelle; me(n)strui{s}, Ruggeri, AE 1984, 250</note></app>
+                    <app loc="8"><note>[-c. 10-]c̣io, the stone; [subdantur et offi]cio, Giardina Grelle 1983, p. 262, AE 1984, 250, EDR; subdantur / commeentur, Schmidt-Hofner 2008, p. 65 nt. 91; a ++ tabu͡lario: Giardina Grelle, AE 1984, 250; a p(rae)f(ato ?) tabu͡lario, Ruggeri (suggested by A. Mastino), EDR; l. 8 a [v(iro) p(erfectissimo)] Schmidt-Hofner 2008, p. 65 nt. 91</note></app>
+                    <app loc="8-9"><note>praes++QVE, the stone; praes[to] que/[atur cog]nosci, Giardina Grelle 1983, p. 262</note></app>
+                    <app loc="10"><note>tum V[-c. 4-]S+ rectores, the stone; tum u[niver]s[i]? rectores, Giardina Grelle 1983, p. 263, AE 1984, 250; vi(iri) il(lu)st(res) rectores, Ruggeri (2003, p. 806), EDR, then v(iri) il(lustr)es Ruggeri (2003, p. 808)</note></app>
+                    <app loc="11"><note>videri [-c. 6-] excu͡rssus, the stone, Giardina Grelle, AE 1984, 250, ERCanosa 11, Schmidt-Hofner 2008, p. 68; videri pro[u]t, Ruggeri, EDR; percebta, the stone; percepta, Ruggeri</note></app>
+                    <app loc="12"><note>[al]iquem, Ruggeri; adṿen͡tus VI [-c. 6-], stone, EDR; adṿen͡tus <corr>s</corr>ui [tempore], Giardina Grelle 1983, p. 263, AE 1984, 250, Schmidt-Hofner 2008, p. 68; pr(a)emissus, AE 1984, 250; premissus, Ruggeri, EDR</note></app>
+                    <app loc="12-13"><note>possesori/bus, Giardina Grelle, AE 1984, 250, ERCanosa 11, Ruggeri</note></app>
+                    <app loc="13"><note>exvo[ca]tis, Ruggeri, EDR; et via[s]++DE++S rerum, Giardina Grelle; et via[s..] DE[..]s reru͡m, AE 1984, 250, Schmidt-Hofner 2008, p. 68; et via(s) vel DE+++S reru͡m, Ruggeri, EDR; cu͡m adnotation͡eṣ, Giardina Grelle, AE 1984, 250; cu͡m adnotation͡e, Ruggeri, EDR, Schmidt-Hofner 2008, p. 68</note></app>
+                    <app loc="14"><note>concor[des], Ruggeri, EDR; ratiocin[-c. 6-], ERCanosa 11; ratiocin[iis], Ruggeri, EDR; consulant [- - -], AE 1984, 250</note></app>
+                    <app loc="15"><note>pos[t]quam, Ruggeri</note></app>
+                    <app loc="16"><note>praesentẹ, Ruggeri, EDR; ex[so]lutum, AE 1984, 250, Schmidt-Hofner 2008, p. 68; exolutu͡m, Ruggeri, EDR</note></app>
+                    <app loc="17"><note>req[uira]nt utrumnam su͡mma, Ruggeri; specielu͡m, EDR; av͡ersorum, Ruggeri, EDR</note></app>
+                    <app loc="18"><note>amanti[ssi]m͡e, Ruggeri, EDR; praecel[sa], Ruggeri, EDR</note></app>
+                    <app loc="19"><note>su͡bliṃ[itas tu]a, Ruggeri; decret[um], Ruggeri</note></app>
+                    <app loc="20"><note>quip̣[pe cu]m, Ruggeri</note></app>
+                    <app loc="21"><note>[urbium], Ruggeri; H[o]c [t]ạn[nt]um, Ruggeri (misprint)</note></app>
+                    <app loc="22"><note>[illa]rum [frau]deu͡m [q]u͡ae, Ruggeri; [illa]rum fraûdeûm, EDR; adtenus, the stone; <corr>ea</corr>tenus, Schmidt-Hofner 2008, p. 66; con͡pulsọṛibu{i}s, Ruggeri; con͡pulsọṛibuis, EDR</note></app>
+                    <app loc="23"><note>ub[er]rime p[ro]f̣ueru͡nt, Ruggeri, EDR</note></app>
+                    <app loc="23-24"><note>[publi/cis] horrei[s], Giardina Grelle, AE 1984, 250, ERCanosa 11, Schmidt-Hofner 2008, p. 66; E+S+++t[an]ter accedat quidquid / horrei[s], Ruggeri, EDR</note></app>
+                    <app loc="24-25"><note>n͡emini super/adeiciat, Giardina Grelle, AE 1984, 250, ERCanosa 11; n͡emini / adeiciat, Ruggeri, EDR; ad{e}iciat, Schmidt-Hofner 2008, p. 66; [grava]men, Ruggeri, EDR</note></app>
+                    <app loc="25-26"><note>v͡etẹr+[-c. 6- / -c. 6-]ịọṇis, the stone; veter[is cuiusqu(ue) / conlat]ionis, Giardina Grelle 1983, p. 265, AE 1984, 250; v͡eter+[- - - ]/IN[- - -]ionis, Ruggeri, EDR</note></app>
+                    <app loc="26"><note>nominatari(i), AE 1984, 250; nominatori, Ruggeri, EDR</note></app>
+                    <app loc="27"><note>+X+E[-c. 6-]M+[- - -]gere, Ruggeri, EDR</note></app>
+                    <app loc="28-29"><note>fo++/+++ consuleṇ[t]ẹm et ++v͡a+ibus, the stone; fo[rt/unis] consuleṇ[t]ẹm et [di]v͡a[l]ibus, Giardina Grelle 1983, p. 267, AE 1984, 250; fo++/[- - - cons]ulen[te]m et ++va+ibus, Ruggeri, EDR</note></app>
+                    <app loc="29"><note>[cons]ulen[te]m, Ruggeri; tituiìlis, EDR (misprint)</note></app>
+                    <app loc="30"><note>i͡nprobaḅimus, Ruggeri, EDR</note></app>
+                    <app loc="30-31"><note>fuerint ++++ prae/++ens: Giardina Grelle; fuerint ++++prae/[ - - - s]ed: Ruggeri, EDR</note></app>
+                    <app loc="31"><note>adq(ue) [- - -], Giardina Grelle, AE 1984, 250, ERCanosa 11; adq(ue) p[- - -], Ruggeri, EDR</note></app>
+                    <app loc="32"><note>[inple]ctendum, Ruggeri, EDR; vel ER[- - -]eta͡m, Ruggeri, EDR</note></app>
+                    <app loc="33"><note>M+++++AO+++EN++ damnatione degniṣṣịmus est qui [- - -], Ruggeri, EDR; dignissimus, AE 1984, 250</note></app>
+                    <app loc="34"><note>publicạṃ, Ruggeri, EDR</note></app>
+                    <lb/><lb/>
+                </p>
+                <p>Concerning some integrations</p>
+                <p>
+                    <app loc="4"><note>s<corr>a</corr>nction͡e, by Giardina Grelle 1983, and s<corr>a</corr>ncito ne, by Ruggeri 2003: the choice between the two readings is difficult.</note></app>
+                    <app loc="5"><note>[no]ṃịn͡atim, following Grelle’s suggestion (1983, p. 261) I think that this is the correct integration, because this adverb, which is very common in late antique legislative texts, is likely in this context.</note></app>
+                    <app loc="7"><note>reliquorum, proposed by Di Paola 2001, p. 300 and accepted by Ruggeri 2003, p. 806, is less credible, because a specific ‘cura reliquorum’ does not exist as a civic duty, while ‘cura horreorum’ is a civic duty (CTh 07, 04, 01; CTh 08, 01, 10; CTh 12, 06, 33; CTh 12, 10, 01). Also note that in this passage of the constitution the emperor was indicating the responsibles for recording the collection of taxes in kind in the rural areas of the city, where the taxes in kind were actually and physically deposited during the year. At this level of intervention, it was essential to record the entry of the fiscal product in the individual warehouse. Only warehouse managers, not the heads of the rural districts (pagi), could register tax paid but already legitimately taken from the warehouse. At that time it was recorded as a payment of the current fiscal cycle or as a back payment, but by the warehouse managers (similarly cf. Schmidt-Hofner 2008, p. 65, nt. 90).</note></app>
+                    <app loc="8"><note>p(rae)f(ato), is the best possible integration (but see Schmidt-Hofner p. 66, nt. 91).</note></app>
+                    <app loc="10"><note>vi(iri) il(lu)st(res) rectores, by Ruggeri 2003, is rejected, because the abbreviation of rank (usually v. i. or v. inl.) in this form is not attested, and provincial governors were never illustres.</note></app>
+                    <app loc="13"><note>f̣ide[m]͡ eis reru͡m, is our suggestion for integration on the basis of Ruggeri 2003, fac-simile p. 832.</note></app>
+                    <app loc="23"><note>E+S+++tạ͡ṇter, the adverb could be integrated ị[n]ḍ[ubi]tạ͡ṇter.</note></app>
+                    <app loc="23-24"><note>quidquid / horrei[s] seems to be the reading supported by the facsimile by Ruggeri 2003, p. 832, but the interpretation of the horrea as publica by Giardina Grelle 1983 is absolutely correct.</note></app>
+                <lb/><lb/></p>
+                <p>Orthographic peculiarities and engraving mistakes</p>
+                <p>
+                    <app loc="4"><note>snctione = sanctione</note></app>
+                    <app loc="6"><note>ad praepositis = a praepositis; a his = àb́ his (letter B was added by the stone cutter)</note></app>
+                    <app loc="7"><note>mestruis = menstrui; deligenterq(ue) = diligenterq(ue)</note></app>
+                    <app loc="8"><note>scribtura = scriptura</note></app>
+                    <app loc="9"><note>dissolverin = dissolverint</note></app>
+                    <app loc="11"><note>honerosus = onerosus; excurssus = excursus; percebta = percepta; ac = hac</note></app>
+                    <app loc="12"><note>adventus ui = adventus sui (haplography by the stone cutter); premissus = praemissas</note></app>
+                    <app loc="12-13"><note>possesoribus = possessoribus (haplography by the stone cutter)</note></app>
+                    <app loc="13"><note>exvocatis = evocatis</note></app>
+                    <app loc="17"><note>nullam = nulla; specieum = specierum; recondeta = recondita; averssosum = aversorum (dittography by the stone cutter)</note></app>
+                    <app loc="21"><note>eris = aeris</note></app>
+                    <app loc="22"><note>quae adtenus = quae eatenus (haplography by the stone cutter)</note></app>
+                    <app loc="23"><note>collubione = colluvione</note></app>
+                    <app loc="24"><note>umqua = umquam</note></app>
                     <app loc="25"><note>adeiciat = adiciat</note></app>
-                    <app loc="26"><note><gap reason="lost" quantity="6" unit="character"/>ionis <supplied reason="lost">per</supplied>solutum sit nominat<corr>o</corr>ri: Giardina-Grelle (forse: vetere <supplied reason="lost">modo</supplied> / in<supplied reason="lost">lat</supplied>ionis)</note></app>
-                    <app loc="28-29"><note>privatis fo<supplied reason="lost">rt/unis</supplied> consulen<supplied reason="lost">t</supplied>em: Giardina-Grelle</note></app>
-                    <app loc="29"><note>et <gap reason="illegible" quantity="2" unit="character"/>va<gap reason="illegible" quantity="1" unit="character"/>ibus quoq(ue) titulis consecratam, forse et divalibus quoq(ue) titulis: Giardina-Grelle</note></app>
-                    <app loc="30"><note>inproba <gap reason="illegible" quantity="5" unit="character"/>s: Giardina-Grelle, inprobabimus: Ruggeri; fuerint <gap reason="illegible" quantity="4" unit="character"/> prae/<gap reason="illegible" quantity="2" unit="character"/>ens: Giardina-Grelle, fuerint <gap reason="illegible" quantity="4" unit="character"/>prae/<gap reason="lost" extent="unknown" unit="character"/> sed: Ruggeri, fuerint <gap reason="illegible" quantity="3" unit="character"/>AE / N<gap reason="lost" quantity="12" unit="character"/>: lapis</note></app>
-                    <app loc="32-33"><note>vel <gap reason="illegible" quantity="2" unit="character"/>R<gap reason="illegible" quantity="1" unit="character"/>tum vel his pl<gap reason="lost" extent="unknown" unit="character"/> / M<gap reason="illegible" quantity="5" unit="character"/>EN<gap reason="illegible" quantity="2" unit="character"/>: Giardina-Grelle, vel ER<gap reason="lost" extent="unknown" unit="character"/>etam vel his pl<gap reason="lost" extent="unknown" unit="character"/> / M<gap reason="illegible" quantity="5" unit="character"/>AO<gap reason="illegible" quantity="3" unit="character"/>EN<gap reason="illegible" quantity="2" unit="character"/>: Ruggeri, forse: qui vel spretam vel his pl<gap reason="lost" quantity="13" unit="character"/> <supplied reason="lost">costitu ?</supplied>tion<supplied reason="lost">e</supplied>/m violet (Porena)</note></app>
-                    <app loc="33-34"><note>M<gap reason="illegible" quantity="5" unit="character"/>AO<gap reason="illegible" quantity="3" unit="character"/>EN<gap reason="illegible" quantity="2" unit="character"/> damnatione dignissimus est qui <gap reason="lost" extent="unknown" unit="character"/> / nec posse publicam admonitionem DE<gap reason="illegible" quantity="4" unit="character"/>E<gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>: Ruggeri, Adm&lt;o&gt;nien<supplied reason="lost">d</supplied>a damnatione dignissimus est qui <gap reason="lost" extent="unknown" unit="character"/> / nec posse publi<supplied reason="lost">c</supplied>am admonitionem de<supplied reason="lost">fer</supplied>en<supplied reason="lost">d</supplied>am <gap reason="lost" extent="unknown" unit="character"/> (Porena)</note></app>
+                    <app loc="26"><note>nominatari = nominatori</note></app>
+                    <app loc="33"><note>degnissimus = dignissimus</note></app>
                 </p>
             </div>
             <div type="translation" xml:lang="en">
-                <p>“...”</p>
+                <p>(ll. 6-34)</p>
+                <p>“... Then the monthly tax statements shall be faithfully and scrupulously transmitted by the heads of the rural districts, or by those who are especially charged with the control of the warehouses, and the report by the aforesaid archivist of the city shall be transmitted to the corresponding office (of the governor of the province), so that it may be immediately known how much and in what form, day by day, the individual taxpayers have paid, or what by any agent is collected in arrears. 
+                    Then all the governors of the provinces, who are required to ensure that no visit by them is onerous on account of its apparatus and organisation, having received these instructions, and having summoned the owners to a prearranged place by letters of summons, sent before the time of their arrival, shall travel to and from the place of meeting through the rural districts and along the roads. 
+                    Let the actual state of matters (?) appear in accordance with the record: (the governors) question and hear each one individually about the (tax) accounts; ... vigourously request from everyone the receipts and certificates for the payment of taxes, also for the purpose – after the verification in their presence has clarified what each person has paid – of examining with the utmost scruple and without delay whether a certain amount of taxes in kind has been concealed; and calculate through checks what has been embezzled, o Probus, most dear and beloved father. Therefore, let your highness at once make such a beneficial decree known to all, by having it engraved on bronze tablets in the most famous places in each city, as a guarantee of the perpetuity of the measure and its positive effects. 
+                    This is the only way to prevent the frauds that have hitherto enriched dishonest collectors and corrupt offices. Once this filth has been eliminated, let what the owner has transported into the granaries enter without a shadow of suspicion; let no one ever again be deprived of what he has paid in arrears; let no one be burdened with the tax burden of others, but let the nominal lists (of taxpayers) indicate quite clearly what has been paid by each one, even in the previous tax collection. 
+                    No one ... so that he does not go unpunished, but the judge uses concord and grace, so that (?) after this law, an expression of our goodness, which comes to the rescue of public and private assets, and also consecrated by the titles of previous emperors (?), we prevent ..., both with one of these ..., but not less we order and (?) ... with the utmost severity block those who either ..., or ... that those who ... are entirely worthy of being condemned ... nor be able to denounce publicly ...”.</p>
             </div>
             <div type="translation" xml:lang="fr">
-                <p>“...”</p>
+                <p>(ll. 6-34)</p>
+                <p>“... Ensuite, les relevés mensuels (des paiements d’impôts) seront fidèlement et scrupuleusement transmis par les responsables des districts ruraux, ou par ceux qui sont spécialement chargés du contrôle des entrepôts, et le rapport dudit archiviste de la ville sera transmis au bureau compétent (du gouverneur de province), d’où l’on saura immédiatement combien et sous quelle forme, jour par jour, les différents contribuables ont payé, ou ce qui, par quelque agent, est perçu comme montant des arriérés payés. 
+                    Ensuite, tous les gouverneurs des provinces, qui sont tenus de veiller à ce qu’aucune de leurs visites ne soit onéreuse en raison de son appareil et de son organisation, ayant reçu ces instructions, et ayant convoqué les propriétaires dans un lieu fixé à l’avance par des lettres de convocation envoyées avant l’heure de leur arrivée, se rendront au lieu de réunion et en reviendront en traversant les districts ruraux et en suivant les routes. 
+                    Que l’état réel des choses (?) apparaisse en accord avec le compte rendu : que (les gouverneurs) interrogent et écoutent chacun individuellement sur les comptes (fiscaux) ; ... qu’ils exigent de chacun les reçus et les certificats de paiement des impôts, également dans le but – après que la vérification en leur présence ait clarifié ce que chacun a payé – d’examiner avec le plus grand scrupule et sans délai si un certain montant d’impôts en nature a été dissimulé, et qu’ils calculent par des contrôles ce qui a été détourné, ô Probus, père très cher et bien-aimé. Aussi, que Votre Altesse fasse immédiatement connaître à tous un décret aussi bénéfique, en le faisant graver sur des tables de bronze dans les lieux les plus célèbres de chaque ville, comme garantie de la pérennité de la mesure et de ses effets positifs. 
+                    C’est le seul moyen d’empêcher les fraudes qui ont jusqu’à présent enrichi les collecteurs malhonnêtes et les bureaux corrompus. Une fois cette souillure éliminée, tout ce que le propriétaire a transporté dans les entrepôts peut y entrer sans l’ombre d’un soupçon ; que personne ne soit plus jamais privé de ce qu’il a payé comme montant des arriérés ; que personne ne soit accablé du fardeau fiscal d’autrui, mais que les listes nominatives (des contribuables) indiquent très clairement, nom par nom, ce qui a été payé par chacun même dans la précédente collecte d’impôts. 
+                    Personne ... pour qu’il ne reste pas impuni, mais le juge utilise la concorde et la grâce, de sorte que (?) après cette loi, expression de notre bonté, qui vient au secours des biens publics et privés, et aussi consacrée par les titres des empereurs précédents (?), qu’ils empêchent ..., tant avec l’un de ces ..., mais pas moins nous ordonnons et (?) .... avec la plus grande sévérité qu’il soit bloqué ce qui soit ..., soit ... que ce qui ... est digne d’être condamné ... ni povoir dénoncer publiquement ...”</p>
             </div>
             <div type="translation" xml:lang="it">
-                <p>“... affinché nelle province sia esposto tutto il conto degli arretrati. ... Successivamente i rendiconti mensili siano trasmessi fedelmente e scrupolosamente dai preposti dei pagi, o da quanti si curano principalmente del controllo sui versamenti arretrati / del controllo dei magazzini, e all’ufficio di pertinenza si trasmetta la relazione da parte del suddetto archivista della città, in base alla quale si possa sapere quanto e in quale forma e a chi ogni giorno i contribuenti abbiano versato, o che cosa da chiunque altro sia incassato in arretrati. Allora gli illustri governatori delle province, ai quali si richiede che nessuna visita risulti onerosa per apparato e per zelo, dopo aver dato disposizioni, convocati i possessori in un luogo predeterminato attraverso lettere di convocazione sul suo arrivo inviate sei giorni prima (?), viaggino al di qua e al di là del luogo d’incontro per i pagi e lungo le vie, anche sostando. Perché le dichiarazioni delle specie versate appaiano concordanti con la registrazione, (i governatori) sentano ciascuno individualmente circa i calcoli, ... e sollecitino vivamente le prove del pagamento delle imposte, anche allo scopo – dopo che dalla presente verifica sia stato chiarito che cosa da ciascuno sia stato versato – di esaminare con estremo scrupolo e immediatamente se nessun quantitativo di imposte in natura sia stato occultato; e (i governatori) calcolino attraverso controlli che cosa sia stato sottratto, o Probo padre carissimo e amatissimo. Pertanto la tua eccelsa altezza renda noto a tutti subito un decreto così favorevole, facendolo incidere su tavole di bronzo nei luoghi più celebri delle singole città a garanzia di durata perenne del provvedimento e della sua grazia. Soltanto con questo rimedio si potranno infatti prevenire quelle frodi che fino ad ora hanno arricchito abbondantemente perfidi esattori e funzionari perversi. Eliminata tale sconcezza, entri nei (pubblici) granai ciò che il possessore vi ha portato; non venga mai più sottratto ad alcuno quanto ha versato per arretrati; non sia addizionato a nessun titolo un gravame aggiuntivo, ma quanto nominalmente da ciascuno sia stato versato singolarmente secondo la regola antica (?) indichino chiaramente ‘comunicazioni brevi nominatorie’. Nessuno ... perché non rimanga impunito, e il giudice usi concordia e grazia, affinché (?) dopo questa legge, espressione della nostra benignità, che viene in soccorso dei patrimoni pubblici e privati, e consacrata anche dai precetti imperiali (?), e impediscano ..., e con una di queste disapproveremo sarano state ..., ma non di meno intimiamo e perseguiamo (?). Con massima severità sia bloccato chi o ..., o ..., &lt;violerà questa costituzione imperiale&gt;. Sia del tutto degno di essere minacciato di condanna chi ... né poter ..., la pubblica denunzia deve essere sottoposta ...”</p>
+                <p>(ll. 6-34)</p>
+                <p>(based on Ruggeri 2003, pp. 812-813)</p>
+                <p>“... successivamente i rendiconti mensili siano trasmessi fedelmente e scrupolosamente dai preposti dei pagi, o da quanti sono incaricati in particolare del controllo sui magazzini, e all’ufficio di pertinenza sia trasmessa da parte del suddetto archivista della città la relazione, in base alla quale si possa sapere immediatamente quanto e in quale forma giorno per giorno i singoli contribuenti abbiano versato, o che cosa da un qualsivoglia agente sia incassato in arretrati. 
+                    Allora tutti i governatori delle province, ai quali si richiede che nessuna visita risulti onerosa a causa del suo apparato e della sua organizzazione, recepite queste istruzioni, convocati i proprietari in un luogo prestabilito per mezzo di lettere di convocazione inviate prima del momento del proprio arrivo, viaggino al di qua e al di là del luogo d’incontro per i distretti rurali e lungo le vie. 
+                    Il reale stato dei fatti (?) appaia concordante con la registrazione: (i governatori) interroghino e ascoltino ciascuno individualmente circa la contabilità (fiscale); ... chiedano vivamente a tutti la ricevuta e le attestazioni del versamento delle imposte, anche allo scopo – dopo che dalla verifica alla loro presenza sia stato chiarito che cosa da ciascuno sia stato versato – di esaminare col massimo scrupolo e senza indugi se mai un certo quantitativo di imposte in natura sia stato occultato; e calcolino attraverso controlli che cosa sia stato sottratto, o Probus padre carissimo e amatissimo. 
+                    Pertanto la tua eccelsa altezza renda subito noto a tutti un decreto così benefico, facendolo incidere su tavole di bronzo nei luoghi più celebri delle singole città a garanzia di durata perenne del provvedimento e dei suoi effetti positivi. Soltanto con questo rimedio si potranno infatti prevenire quelle frodi che fino ad ora hanno arricchito abbondantemente esattori disonesti e uffici corrotti. 
+                    Eliminata questa sconcezza, entri senza ombra di sospetto nei magazzini quanto il proprietario ha trasportato al loro interno; non sia mai più sottratto ad alcuno quanto ha versato come arretrato; a nessuno sia accollato il gravame tributario di altri, ma nome per nome le liste nominali (dei contribuenti) indichino in modo del tutto chiaro che cosa da ciascuno sia stato versato singolarmente anche nella precedente collazione fiscale. 
+                    Nessuno ... perché non rimanga impunito, ma il giudice usi concordia e grazia, affinché (?) dopo questa legge, espressione della nostra benignità, che viene in soccorso dei patrimoni pubblici e privati, e consacrata anche dai titoli degli imperatori precedenti (?), e impediscano ..., e con una di queste ..., ma non di meno intimiamo e (?) ... con la massima severità sia bloccato chi o ..., o ... sia del tutto degno di essere condannato chi ... né potere la pubblica denunzia ...”.</p>
             </div>
             <div type="commentary">
-                <p>The inscription dates back to Probus’s first appointment as praetorian prefect.</p>
+                <p><emph>Discovery and preservation</emph></p>
+                <p>In 1968/1969 the inscribed slab was accidentally found in a rural locality called Chiavicella Grande, in the countryside 4 km East of Trinitapoli and 12 km North of Canosa di Puglia in South-Eastern Italy (Puglia, prov. Barletta-Andria-Trani). The slab was found buried on a private property (Mr Putignani’s) during the planting of a vineyard. 
+                    Its inscribed side was facing downwards and had been used to cover a burial. The burial would have contained grave goods (now lost) and had other graves around it that were also without grave goods. 
+                    As indicated in the text of the inscription (ll. 20-21), however, the slab was originally affixed in an important and central place in a town in the province of Apulia-Calabria. Almost certainly, the town was the nearby provincial capital of Canusium, which was the most important centre of Apulia in the 4th Century AD. 
+                    Also possible, but less likely is the smaller town of Salapia (Furfana near Cerignola, about 7 km north of Chiavicella Grande in Apulia). An imperial constitution is engraved on the slab (see ll. 19 and 28). It concerns fiscal matters, and it was issued by the emperor Valentinianus I and sent to Petronius Probus (on his onomastics, see Cameron 1985), praetorian prefect of Italia Illyricum Africa (368-375/376 AD) (see below). 
+                    When the content of the law became obsolete, the slab – which was intended to be posted in a public space, as mentioned, in Canusium or with less probability in Salapia – was dismantled. 
+                    At some point thereafter the slab was reused as the subterranean cover of a pit tomb in a small, certainly medieval, necropolis in the countryside between Canusium and Salapia. Unfortunately, the disappearance of the human and archaeological remains found in 1968/1969 makes it impossible to date the context and establish when the slab was reused.</p>
+                <p>The slab is intact in the lower part (70% of the total ?), but the upper part is missing. It is possible that the fractures and the splitting of the slab, (incomplete in the upper part where the text began) were produced when the slab was repurposed for a burial. It remains uncertain whether the text of the constitution was originally engraved on two parallel stone slabs. 
+                    On the basis of the content of the text that has come down to us, it has been hypothesised that our slab was one of two and that it contained the conclusion of the imperial constitution. This hypothesis was proposed by the editors, A. Giardina and F. Grelle, to whom we owe all the information regarding the support, the inscription itself and the detailed commentary of its text.</p>
+                <p>After the discovery, the four fragments of the slab came into the possession of the municipality of Trinitapoli and were incorrectly restored: an unsuitable synthetic glue was used to stick the fragments together, but it dripped onto the letters adjacent to the fractures, making them illegible. 
+                    In addition, the mineral concretions on the inscribed surface were improperly removed with the use of an electric sanding machine, which partially eroded the surface of the epigraphic field, making almost the entire inscription harder to read, especially the last four lines (due to this defective method of cleaning the words now appear rough and wavy). 
+                    The inscribed slab was displayed in the hallway of the Trinitapoli Town Hall (Comune) until the 1980 earthquake, after which it was moved temporarily to the Town Hall. In the 1990’s the inscription was displaed in the ‘Museo Civico di Trinitapoli’ (Palazzo De Biase), which became the ‘Museo Archeologico degli Ipogei di Trinitapoli’ in 2015. However, since 2017 it has been in the deposit of the Museum.<lb/><lb/></p>
+                
+                <p><emph>The slab and the inscription</emph></p>
+                <p>The slab, made of fine Proconnesian marble, has no frame and is mutilated at the top. It consists of a large cusped fragment, 140 cm high, that slopes to the right and left at 120/126 cm. The left margin consists of three vertically overlapping fragments. The slab was inscribed in its middle and upper portions: the present epigraphic field, which has no incised or relief margins, measures 85 x 72 cm and the band without writing in the lower part of the slab extends for 55 cm. 
+                    The slab currently contains 34 lines of writing and approximately 65/75 letters about 2 cm high on each line. It seems, therefore, that it was originally bricked into a wall and perhaps mounted on a plinth that would have been about 30/50 cm high off the floor. In such a way the text – in small letters – would have been positioned directly in front of the reader’s eyes.</p>
+                <p>The Latin text is chiselled with some mistakes and contains some phonetic forms that were in use in the 4th Century AD, and which were probably already present in the chancery draft issued by the <foreign>officium</foreign> of the governor of Apulia Calabria. 
+                    It was received by the city magistrates, who would have then transformed the text, written on papyrus, into an inscription in capital letters posted in a public space. 
+                    The writing is rich in ligatures. It differs from the Latin epigraphic writing of normative texts in the Greek-speaking East of the 4th Century, which used rounded capitals and uncial letters, imitating the chancellery handwriting of the minuta (see <ref type="ppret" corresp="ppret53">PPRET 53</ref>, Julian’s constitution to the praetorian prefect Salutius from Amorgos; for an inventory of known late antique legislative texts in epigraphic form, see Feissel 2009).</p>
+                <p>In ll. 19 and 28, the text defines itself both as a <foreign>lex</foreign> and a <foreign>decretum</foreign>. It is therefore an imperial constitution. Unlike the Greek translation of Valentinianus II’s constitution which was addressed to the praetorian prefect Principius from Anaia (see <ref type="ppret" corresp="ppret81">PPRET 81</ref>), and which has the «inscriptio» typical of the constitutions of the Theodosian and Justinian Codes, together with a reduced text, the constitution to the praetorian prefect Probus from Trinitapoli must have reproduced the full text of the original imperial letter. 
+                    The invocation to the addressee of the constitution in l. 18, <foreign>Probe parens carissime adq(ue) amantissime</foreign>, is characteristic of the original legal text that had not yet been reduced by compilers. In fact, it is repeated in full in the imperial epistles of Emperor Julian to prefect Secundus Salutius in Amorgos (see <ref type="ppret" corresp="ppret53">PPRET 53</ref>, ll. 25-27) and of Emperor Constantius II to vicarius Asiae Marinus in Ephesus (see <ref type="ppret" corresp="ppret28">PPRET 28</ref>, l. 32). 
+                    Both of these epigraphic constitutions lack the original «inscriptio» and «subscriptio», and are introduced by the formula <foreign>E(xemplum) s(acrarum) l(itterarum)</foreign> (see l. 1). 
+                    Since the Trinitapoli inscription is mutilated at the top, it does not allow us to understand whether the whole constitution was engraved in this one surviving slab, or how this legislative text was introduced. It is quite clear that our inscription ends with the «sanctio» of the emperor against the transgressors (ll. 26-34): thus the text chiselled on the slab ended at the last written line that has come down to us. 
+                    Through comparison with surviving inscriptions that preserve late antique legislative texts, it seems likely that the Trinitapoli stone slab was preceded by another twin slab, in which a short edict of the praetorian prefect Probus and/or the edict of the governor of Apulia et Calabria may have been engraved, perhaps with the date of issue, followed by the formula <foreign>E(xemplum) s(acrarum) l(itterarum)</foreign> that introduced the text of the original imperial epistle without the «inscriptio» and «subscriptio» of the original constitution. The law preserved on the Trinitapoli stone does not seem to have been included in the Late Antique Legislative Codes.<lb/><lb/></p>
+                
+                <p><emph>The content of the inscription</emph></p>
+                <p>The study by A. Giardina and F. Grelle 1983 is the most effective and complete interpretation of the Trinitapoli inscription (concerning the content and the context of the inscription see, in addition to Di Paola 2001 and Ruggeri 2003, also Ausbüttel 1988, pp. 143-145; Cecconi 1994, pp. 154-156; Volpe 1996, pp. 147-150; Schmidt-Hofner 2008, pp. 64-71).</p>
+                <p>ll. 1-5 are very fragmentary and the text of the constitution began much earlier. The reference to «the punishment of accused persons in the provinces» (ll. 3-4: <foreign>reos ... intra provin</foreign>[<foreign>cias</foreign> ?]) and to «all amounts in arrears» (l. 5. <foreign>omnem reliquam</foreign>) and the adverb of time <foreign>deinceps</foreign> (l. 6) imply that the emperor examined the case of the offence of tax arrears before moving on to the next topic. In l. 5 the adverb [- -]++<foreign>n͡atim</foreign> was probably [<foreign>no</foreign>]<foreign>ṃịn͡atim</foreign>, and would suggest a verification of the arrears paid by individual taxpayers listed in order of name.</p>
+                <p>In ll. 6-10 the emperor deals with the registration of taxes in kind paid by individual taxpayers. The heads of the rural districts (<foreign>praepositi pagorum</foreign>) and very likely the managers of the public warehouses had to prepare monthly reports of daily tax payments in kind (on <foreign>menstrui breves</foreign>, see Di Paola 2000; concerning the Italian warehouses and their management, see Vera 2008, in particular p. 335, nt. 10; Vera 2018). 
+                    These basic registrations were carried out in the numerous rural districts (<foreign>pagi</foreign>) that were included in the cities hinterland. These reports had to be transmitted to the archivist of the city (<foreign>tabularius civitatis</foreign>). 
+                    The archivist prepared a unified monthly report (<foreign>scribtura</foreign>) and transmitted it to the office of the provincial governor ([<foreign>offi</foreign>]<foreign>cio conpetenti</foreign>, on these administrative structures, see Palme 1999). 
+                    In his report the archivist specified how much tax in kind each taxpayer had paid on each day of the month, what type of product he had paid with, whether the individual payment in kind was counted in that year’s tax cycle or among the arrears (on these fiscal dynamics, see also Bransbourg 2008, pp. 275-276, 287, 291; Vera 2016, pp. 110-111; Carrié 2018, pp. 100-104).</p>
+                <p>In ll. 10-18 the emperor gives instructions about the checks to be carried out by the provincial governors in person in the rural territories of each city. This is the most innovative part of the imperial law. The governors have to get out of their offices and travel without burdening the city coffers (ll. 10-11). 
+                    First of all they have to write to the city authorities and summon the owners to meeting places predetermined in advance (l. 12; on the <foreign>adventus</foreign> of the late antique governor, see Porena 2005, pp. 20-51; Slootjes 2006, pp. 108-119; Lavan 2020, pp. 154-160). 
+                    Then, having arrived on the spot, they have to inspect the rural districts and question the individual owners and check that the actual tax payments by the taxpayers are in accordance with the archivist’s reports and the receipts in the possession of the taxpayers (ll. 13-15). 
+                    Then they must check that no taxes in kind have been concealed or misappropriated (ll. 16-18) (on the competences of the governor of late Antique Italy, see Cecconi 1994 and 1998; Roueché 1998; Di Paola 2007 and 2012).</p>
+                <p>In ll. 18-21, after the invocation of the dignitary to whom the constitution is addressed, that is to say Petronius Probus, praetorian prefect of Italia Illyricum Africa (368-375/376 AD) (see below), and expressed with epithets which were common in official epistles of the late Empire (ll. 18-19, see Giardina Grelle 1983, pp. 268-269; concerning <foreign>sublimitas</foreign> see Cecconi 2015, pp. 196-197; concerning 4th Century rank and honorific titulatures, see Mathisen 2000; Schmidt-Hofner 2010), the emperor orders the high ranking officer to publish the text of the law in the most distinguished public spaces of the cities (ll. 20-21), which were in all likelihood within whole his prefecture. 
+                    The text of the law would have been engraved on bronze tablets in order to be preserved, but our Tablet of Trinitapoli is in marble. Probably the praetorian prefect Probus sent the copy of the constitution addressed to him and his order of publication to the provincial governors of his prefecture and they, together with the city authorities, decided which epigraphic material to use and in which public spaces to place the inscription (on the diffusion of the constitutions from the imperial chancellery to the posting in the provinces, see Matthews 2000, pp. 168-199; Puliatti 2008; on the engraving of late Roman constitutions in bronze, see Kreuzsaler 2009; on the places of posting in late cities and the ideological and practical value of engraving important texts in bronze in Antiquity, see Feissel 1995 and 2009; Eck 2015; Caballos Rufino 2018).</p>
+                <p>In ll. 21-26 the emperor extols the beneficial effects he expects from the application of his law in the cities of the provinces. The law aims to protect taxpayers from the execrable collusion between the employees of provincial governors’ offices, the city collectors and the collectors of arrears (l. 22: <foreign>conpulso[ribus] p̣erfidis officiisq(ue) p̣[er]/versis</foreign>).
+The emperor calls this collusion “a sewer” (l. 23: <foreign>collubione</foreign>). The text regulates both the ordinary tax-levying in kind of the current year and the tax-levying in kind of arrears, which are linked.
+                    Then the emperor lists the virtuous mechanism of the law: the regular recording of monthly payments (l. 7: <foreign>menstrui breves</foreign>, l. 26: <foreign>nominatori breves</foreign>) makes it possible to know when, how much and what each taxpayer has paid as tax in kind. 
+                    The verification by the provincial governors who have to liaise with the owner-taxpayers is the procedure that ensures the regularity of the tax-levying.
+                    According to Valentinianus I, the procedure avoids fraud whereby one taxpayer had to pay the taxes of another in the present tax cycle (l. 15: <foreign>functio</foreign>), or has to pay the tax-arrears of another taxpayer for the previous tax cycle (l. 24: <foreign>reliqua</foreign>, ll. 25/26: <foreign>vetus collatio</foreign>). Corrupt administrators could receive bribes from dishonest taxpayers and attribute the corruptor’s tax burden to others, or they could appropriate part of the paid assets in kind and attribute the shortfall to an honest taxpayer.</p>
+                <p>In ll. 26-34, the last part of the constitution, the Emperor inserted the “punishment clause” (<foreign>sanction</foreign>). Unfortunately the text of these final lines is heavily damaged and restitution is difficult. Valentinianus I’s law took up elements of the previous legislation (l. 29: <foreign>divalibus titulis</foreign>), and threatened very severe penalties (l. 32: <foreign>severitate implectendum</foreign>; l. 33: <foreign>damnatione degnissimus</foreign>).</p>
+                <p>The most innovative aspect of the legislation provided by the Tablet of Trinitapoli is the order issued by the Emperor to his provincial governors to visit regularly in person the countryside of dozens of cities in the Italic provinces (but perhaps also in Africa, Illyricum, and perhaps Gaul see below) to verify on the spot the actual procedure of tax levies in kind. 
+                    On a practical level, this procedure was probably utopian. It obliged each provincial governor to meet hundreds of taxpayers in a few days and to check thousands of declarations, some of them contradicting the documents, and to verify the real storage and withdrawal of goods in public warehouses. A complex investigation, which was multiplied for each town in the single province.</p>
+                <p>The emperor Julian had given the entire control of the tax levy in kind to the city authorities. Valentinianus I returned control of taxation to the provincial governors and the employees of their <foreign>official</foreign> at the beginning of his reign (<ref type="source">CTh 12, 6, 7</ref>, August 4th 365 AD), but he realised that a contact was needed to mediate the needs of the imperial administration on the one hand and the needs of the citizen notables and landowning senators on the other. 
+                    He found this mediating role in the provincial governor who had to liaise with the city hinterlands and personally verify the dynamics of tax levies in order to control and inhibit the abuses of his <foreign>officiales</foreign>. 
+                    The problem of the abuses of the tax collectors coming from the provincial <foreign>officia</foreign> could not be solved, not even by the governors who were often in charge for only one, or at most two years. The weakness of the curials’ levying did not prevent fraud, tax injustice and collusion with the <foreign>officia</foreign>. 
+                    Moreover, as Giardina and Cecconi point out, the patronage of senators, who were often provincial governors or promoters of career governors and patrons of entire city communities, was a considerable factor of social solidarity. The network of social relations of the rich late-Roman landlords could resist the demands for transparency imposed and celebrated by Valentinianus I in the Tablet of Trinitapoli through established social dynamics, which were stronger than imperial constitutions. 
+                    The law of Valentinianus I from Trinitapoli aims to regulate the controls on the collection system, but it is addressed to a praetorian prefect whose tax administration was strongly criticised by that same Emperor as unfair because of the prefect’s clear favour towards his personal clientele (see <ref type="source">Amm. 30, 05, 01-11</ref>).<lb/><lb/></p>
+                
+                <p><emph>Date and addressee</emph></p>
+                <p>The dating of the constitution engraved on the Tablet of Trinitapoli depends on the name of the addressee, Probus, who is defined as a <foreign>parens</foreign> by the emperor in the text (l. 18: <foreign>Probe parens carissime adq(ue) amantissime</foreign>) and who was undoubtedly in charge of the provincial governors (l. 10). 
+                    This evidence, the Emperor’s apostrophe (l. 18) and the epithet <foreign>praecelsa sublimitas tua</foreign> (l. 19) qualify him as a praetorian prefect. The addressee is universally identified with Sex. Petronius Probus, who was the praetorian prefect of Italy Illyricum Africa in the years 368-375/376 AD (he is the only known praetorian prefect named Probus to have administered Italy in the 4th Century AD). The identification of this prefecture, among the four he held, is supported by a constitution sent by Valentinianus I to the same prefect Probus on April 1st 369 AD, which regulates the movements of provincial governors during tax investigations in <foreign>villae</foreign> and <foreign>vici</foreign> in the countryside (<ref type="source">CTh 01, 16, 11</ref>):<lb/><lb/></p>
+                <p>Imppp(eratores) Valentin(ianus) Valens et Grat(ianus) AAA(ugusti) ad Probum p(raefectum) p(raetori)o. Provinciis praesidentes per omnium villas sensim atque usitatim vicosque cunctos discurrant et ultro rimentur a singulis, quid unusquisque compulsor insolenter egisset aut cupide. Is enim, de quo aliqua ad nos querella pervenerit, ad ultimam poenam rapietur.</p>
+                <p>(transl. Pharr 1952, p. 29): “The same Augustuses and Gratian Augustus to Probus, Praetorian Prefect. The governors of the provinces shall journey through the villas of all persons and all the villages, unobtrusively and in the usual manner, and of their own accord they shall inquire from each and every person what any tax collector has exacted arrogantly or greedily. For the person concerning whom any complaint reaches Us shall be seized and hurried off to the extreme penalty”.<lb/><lb/></p>
+                <p>Although the subject of this constitution of the Theodosian Code is the same as the law in the Tablet of Trinitapoli, the textual comparison reveals divergences. Either the compilers of the Theodosian Codex reduced and modified the text of the same constitution issued by Valentinianus I, or what we have are two different laws that are similar in date and which deal the same argument issued by Valentinianus I. 
+                    A third constitution (<ref type="source">CTh 01, 16, 12</ref>) regulating the stay of the provincial governor during tax inspections, is also dated April 1st 369 AD, but is addressed to the praetorian prefect of Gaul Viventius (see PLRE I, p. 972, and <ref type="ppret" corresp="ppret55">PPRET 55</ref>). 
+                    Emperor Valentinianus I thus established in 369 AD the new system of inspection of provincial governors in all prefectures and provinces of his part of the empire. A final chronological clue confirming this dating can be found in constitution <ref type="source">CTh 13, 03, 07</ref>, which was issued on January 19th 369 AD, just before <ref type="source">CTh 01, 16, 11</ref> and 12. It is addressed to the praetorian prefect Probus himself and is the only constitution of the Theodosian Code to contain the rare noun <foreign>conluvio</foreign>, a noun which also appears in the Tablet of Trinitapoli (l. 23) (on these constitutions, see Pergami 1993, pp. 432, 443-444; Schmidt-Hofner 2008b, pp. 504, 565, 583, 593).<lb/><lb/></p>
+                <p>A remark is needed concerning the addressee of the constitution of Valentinianus I from Trinitapoli, Sex. Petronius Probus, who was the most important senator of the second half of the 4th Century AD. 
+                    Born around 328/332 AD, after being nominated to the <foreign>quaestura</foreign> and the <foreign>praetura</foreign> in Rome, he was made proconsul of Africa in 358 AD, ordinary consul in 371 AD and praetorian prefect of Italia-Illyricum-Africa, Illyricum, Gaul, attaining this position four times between 364 AD and 387 AD (this is the most extensive chronology proposed by modern historians). 
+                    He died sometime between 388 and 392 AD when he was sixty (see in brief, Jones 1964, p. 85-89; similarly PLRE I, pp. 736-740 and pp. 1050-1051; Pergami 1995, pp. 417-423; Lizzi Testa 2004, pp. 316-319; for an analysis of his career, see <ref type="ppret" corresp="ppret59">PPRET 59</ref>). 
+Petronius Probus is attested as praetorian prefect in 11 inscriptions; the citations occur both during and at the end of his career (besides this one, see <ref type="ppret" corresp="ppret57">PPRET 57</ref>, <ref type="ppret" corresp="ppret58">58</ref>, <ref type="ppret" corresp="ppret59">59</ref>, <ref type="ppret" corresp="ppret60">60</ref>, <ref type="ppret" corresp="ppret61">61</ref>, <ref type="ppret" corresp="ppret62">62</ref>, <ref type="ppret" corresp="ppret63">63</ref>, <ref type="ppret" corresp="ppret64">64</ref>, <ref type="ppret" corresp="ppret65">65</ref>, <ref type="ppret" corresp="ppret66">66</ref>). 
+He is also cited in numerous literary texts and in as many as 46 constitutions from the Theodosian and Justinian Codes (source list in PLRE I, pp. 736-740; Porena 2020c). 
+Unfortunately, the data provided from such a large number of sources does not always concord. 
+While it is certain that Petronius Probus was proconsul of Africa in 358 AD (<ref type="source">CTh 11, 36, 13</ref>, on the 23rd June; <ref type="inscription">CIL 08, 01783</ref>) and ordinary consul with Gratianus Augustus (iterum) in 371 AD (CLRE, pp. 276-277), the chronology, sequence and administrative geography of his four praetorian prefectures is difficult to reconstruct and opinions are divided.<lb/><lb/></p>
+                <p>To sum up, we can say that two chronologies and two extensions of the prefectures of Probus are possible: 1) a “backward-looking chronology” in an empire divided into three major praetorian prefectures (Galliae, Italia-Illyricum-Africa, Oriens); 2) a “forward-looking chronology” in an empire divided into four praetorian prefectures (Galliae, Italia-Illyricum-Africa, autonomous Illyricum, Oriens).<lb/><lb/></p>
+                <p>The prevailing reconstruction today is the “backward-looking chronology” based on an empire divided into three praetorian prefectures, that was proposed by Jones 1964 and PLRE. According to this interpretation, in the second half of the 4th Century there was only one major praetorian prefecture of Italia-Illyricum-Africa, particularly in the years 381-392 AD, next to the praetorian prefecture of Gaul and the East. 
+                    Thus Probus would have held a first short praetorian prefecture of Illyricum in 364 AD (<ref type="source">CTh 01, 29, 01</ref>), a second short praetorian prefecture of Gaul in 366 AD (<ref type="source">CTh 11, 01, 15</ref>), and a long third praetorian prefecture of Italia-Illyricum-Africa in the years 368-375/376 AD.
+                    The latter prefecture is attested by the Pincio inscription, which was dedicated on August 8th 378 AD (<ref type="ppret" corresp="ppret59">PPRET 59</ref>, but strangely the office is listed without iteration), and would have been followed with a fourth short praetorian prefecture of Italia-Illyricum-Africa in 383 AD.
+                    This series of offices is chronologically compatibile with the order of the four prefectures listed in the Verona inscription (<ref type="ppret" corresp="ppret63">PPRET 63</ref>), but obliges us to correct the dates of the constitutions of the Law Codes for the period 380-384 AD, in which Probus is reported to be in office as praetorian prefect, overlapping with the six/seven other prefects of Italia-Illyricum-Africa. 
+It contradicts the account of Ammianus, who describes Probus holding the prefecture continuously from 368 AD owards (<foreign>intervallando potestates adsiduas</foreign>, <ref type="source">Amm. 27, 11</ref> and <ref type="source">Amm. 30, 05</ref>). This chronology incorporates Probus’ first three praetorian prefectures during the reign of Valentinianus I, and assumes only one short praetorian prefecture of two months in 383 AD, in the last thirteen years of the senator’s career (376/388 AD).<lb/><lb/></p>
+                <p>Chronology:</p>
+                <p>- 1st praetorian prefecture over Illyricum in 364 AD, appointed by Valentinianus I</p>
+                <p>- 2nd praetorian prefecture over Galliae in 366 AD, appointed by Valentinianus I</p>
+                <p>- 3rd praetorian prefecture over Italia-Illyricum-Africa in 368-375/376 AD, appointed by Valentinianus I
+</p>
+                <p>- [Gothic crisis 376/379 AD: Probus was never appointed praetorian prefect under Gratianus (378-383)]
+</p>
+                <p>- [383-388 AD usurpation of Magnus Maximus]</p>
+                <p>- 4th praetorian prefecture limited to the period of August-October 383 AD over Italia-Illyricum-Africa, appointed by Valentinianus II<lb/><lb/></p>
+                <p>The “forward-looking chronology” based on an empire divided into four praetorian prefectures has been proposed recently by Porena (2020a-b). According to this interpretation, in the years 361-376 AD, there was only one large praetorian prefecture of Italia-Illyricum-Africa, next to the praetorian prefecture of Gaul and the East. 
+                    However, from 376/377 AD, the praetorian prefecture of Italia-(Illyricum)-Africa was separated from the autonomous prefecture of Illyricum. At the behest of Valentinianus I, Probus held a first long praetorian prefecture of Italia-Illyricum-Africa in the years 368-375/376 AD, which is attested by the Pincio inscription which was dedicated on August 8th 378 AD (<ref type="ppret" corresp="ppret59">PPRET 59</ref>, appropriately the office is listed without iteration). 
+                    After this mandate, during the Gothic crisis and around the defeat of Hadrianopolis, Gratianus would have divided the prefecture of Italia-Africa (perhaps with a part of Illyricum) and made an autonomous praetorian prefecture out of Illyricum. In the years (379?) 380-382 AD, Emperor Gratianus would have given Probus a second praetorian prefecture in Italia-Africa. 
+                    In the Autumn of 381 AD, Gratianus also gave Probus a third praetorian prefecture of Illyricum alone, which was extended into 382 AD. Probus was appointed to a second and third prefecture with separate codicils (the two mandates on two locations would have overlapped for a few months). 
+                    In 384-385 AD, after the usurpation of Maximus in Gaul and the assassination of Gratianus, Valentinianus II would have given Probus a fourth praetorian prefecture in Italia-Africa with a formal appointment in the same codicils to the praetorian prefecture of Gaul. Since the latter was controlled by the usurper Maximus, Probus never took possession of this prefecture, even though Valentinianus II claimed it as his own. 
+                    This reconstruction preserves the dates of the constitutions of the Law Codes for the period 380-384, while agreeing with the account of Ammianus (<ref type="source">Amm. 27, 11</ref> and <ref type="source">Amm. 30, 05</ref>). It also concords with the data of the inscription for Probus from the Pincio (<ref type="ppret" corresp="ppret59">PPRET 59</ref>) and Capua (<ref type="ppret" corresp="ppret60">PPRET 60</ref>) and distributes the praetorian prefectures of Probus between the reigns of Valentinianus I, Gratianus and Valentinianus II.<lb/><lb/></p>
+                <p>Chronology:</p>
+                <p>- 1st praetorian prefecture in 368-375/376 AD over Italia-Illyricum-Africa, appointed by Valentinianus I</p>
+                <p>- [376/379 AD Gothic crisis and creation of an autonomous praetorian praefecture of Illyricum]</p>
+                <p>- 2nd praetorian prefecture in (379?) 380-382 AD over Italia-(Illyricum)-Africa, appointed by Gratianus</p>
+                <p>- 3rd praetorian prefecture in 381-382 AD over autonomous Illyricum, appointed by Gratianus</p>
+                <p>- [383-388 AD usurpation of Magnus Maximus]</p>
+                <p>- 4th praetorian prefecture in 384-385 AD over Italia-(Illiricum)-Africa (and nominally Galliae), appointed by Valentinianus II<lb/><lb/></p>
+                <p>The constitution on the Tablet of Trinitapoli probably dates to 369 AD and was certainly sent to Probus during the long praetorian prefecture of 368-375/376 AD. According to the “backward-looking chronology” this is his third praetorian prefecture. According to the “forward-looking chronology” this is his first praetorian prefecture.</p>
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
-                    <bibl><ref>Giardina, Grelle 1983, pp. 249-303</ref>, with photo = <bibl><ref>AE 1984, 0250</ref></bibl></bibl>
-                    <bibl><ref>Chelotti et al., pp. 12-17, nr. 11</ref>, with photo</bibl> 
-                    <bibl><ref>Ruggeri 2003</ref>, with photo = <bibl><ref>AE 2003, 0359</ref></bibl></bibl>
+                    <bibl><ref>Giardina, Grelle 1983, pp. 259-260</ref> (with photo, pp. 250, fig. 1; 252, fig. 2; 253, fig. 3) [then republ. in <ref>Grelle 1993, pp. 206-207</ref> (with photo, pp. 194, fig. 1; 196, fig. 2; 197, fig. 3)] = <ref>AE 1984, 00250</ref> = <ref>Pergami 1993, pp. 379-380</ref></bibl>
+                    <bibl><ref>ERCanosa 11</ref> (with photo)</bibl>
+                    <bibl><ref>Ruggeri 2003, pp. 806-808</ref> (with fac-simile p. 832, and photos pp. 833-834) = <ref>AE 2003, 00359</ref></bibl>
+                    <bibl><ref>Schmidt-Hofner 2008, pp. 64-71</ref> (only ll. 10-17 and 21-30 with German translation) = <ref>AE 2008, 00417</ref></bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="images">
-                <p></p>
+                <p>
+                    <bibl><ref>Volpe 1996, p. 146, fig. 43</ref></bibl>
+                </p>
             </div>
             <div type="bibliography" subtype="links">
                 <p>
@@ -188,10 +389,47 @@
             </div>
             <div type="bibliography" subtype="other">
                 <p>
-                    <bibl>Chelotti M., Gaeta R., Morizio V., Silvestrini M., Grelle F., Pani M., Le epigrafi romane di Canosa, I. Documenti e Studi, Bari 1985</bibl> 
-                    <bibl>Giardina A., Grelle F., La Tavola di Trinitapoli. Una nuova costituzione di Valentiniano I, in MEFRA, 95, 1983, 249-303</bibl>
-                    <bibl>Ruggeri P., L’organizzazione paganica nel basso impero in Occidente: contributo per una rilettura della Tavola di Trinitapoli, in Corda A. M. (ed.), Cultus splendore. Studi in onore di Giovanna Sotgiu, 2, Senorbì 2003, 801-834</bibl>
-                    <bibl>Schmidt-Hofner S., Regieren und Gestalten. Der Regierungsstil des spätrömischen Kaisers am Beispiel der Gesetzgebung Valentinians I, Munich 2008, 64-71 = <bibl><ref>AE 2008, 0417</ref></bibl></bibl>
+                    <bibl>Ausbüttel F.M., Die Verwaltung der Städte und Provinzen im spätantiken Italien, Frankfurt am Main-Bern-New-York 1988</bibl>
+                    <bibl>Bransbourg G., Fiscalité impériale et finances municipales au IVe siècle, Ant Tard, 16, 2008, 255-296</bibl>
+                    <bibl>Caballos Rufino A., «Monumenta fatiscunt»: meaning and fate of legal inscriptions on bronze: the Baetica, in A. Kolb (ed.), Literacy in Ancient everyday Life, Berlin-Boston (Mass.) 2018, 289-317</bibl>
+                    <bibl>Cameron Al., Polyonomy in the late Roman aristocracy. The case of Petronius Probus, JRS, 75, 1985, 164-182</bibl>
+                    <bibl>Carrié J.-M., La législation impériale sur les gouvernements municipaux dans l’Antiquité tardive, Ant Tard, 26, 2018, 85-125</bibl>
+                    <bibl>Cecconi G.A., Governo imperiale e élites dirigenti nell’Italia tardoantica. Problemi di storia politico-amministrativa (270-476 d.C.), Como 1994</bibl>
+                    <bibl>Cecconi G.A., I governatori delle province italiche, Ant Tard, 6, 1998, 149-179</bibl>
+                    <bibl>Cecconi G.A., Variae VII, 3, in Flavio Magno Aurelio Cassiodoro Senatore, Varie, direzione di A. Giardina, a cura di A. Giardina, G.A. Cecconi, I. Tantillo, con la collaborazione di F. Oppedisano, vol. III, Libri VI-VII, Roma 2015, 56-59 and 189-198</bibl>
+                    <bibl>Di Paola L., Sul ruolo dei «breves» nell’amministrazione romana tardoantica, in Il Tardoantico alle soglie del Duemila. Diritto, Religione, Società, Genova 2000, 189-204</bibl>
+                    <bibl>Di Paola L., La tavola di Trinitapoli e il problema dei «reliqua» in età valentinianea, in G. Crifò (ed.), Atti dell’Accademia Romanistica Costantiniana, XIII (Convegno Internazionale in Memoria di André Chastagnol), Napoli 2001, 293-308</bibl>
+                    <bibl>Di Paola L., «Regere et gubernare provincias»: potere e poteri del governatore provinciale, in L. Di Paola, D. Minutoli (a cura di), Poteri centrali e poteri periferici nella tarda antichità. Confronti, conflitti, Firenze 2007, 93-108</bibl>
+                    <bibl>Di Paola L., Il governatore provinciale nel Codice Teodosiano. Contributo allo studio dell’amministrazione periferica, in S. Crogiez-Pétrequin, P. Jaillette (édd.), Société, économie, administration dans le Code Théodosien, Villeneuve d’Ascq 2012, 285-309</bibl>
+                    <bibl>Eck W., Documents on bronze: a phenomenon of the Roman West ?, in J. Bodel, N. Dimitrova (eds), Ancient Documents and their Contexts (First North American Congress of Greek and Latin epigraphy - 2011), Leiden-Boston (Mass.) 2015, 127-151</bibl>
+                    <bibl>Feissel D., Épigraphie et constitutions impériales: aspects de la publication du droit à Byzance, in G. Cavallo, C. Mango (a cura di), Epigrafia medievale greca e latina, ideologia e funzione, Spoleto 1995, 67-98 (= Feissel D., Documents, droit, diplomatique de l’Empire romain tardif, Paris 2010, 17-42)</bibl>
+                    <bibl>Feissel D., Les actes de l’État impérial dans l’épigraphie tardive (324-610): prolégomènes à un inventaire, in R. Haensch (hrsg.), Selbstdarstellung und Kommunikation. Die Veröffentlichung staatlicher Urkunden auf Stein und Bronze in der Römischen Welt, München 2009, 97-128 (= Feissel D., Documents, droit, diplomatique de l’Empire romain tardif, Paris 2010, 43-70)</bibl>
+                    <bibl>Giardina A., Grelle F., La Tavola di Trinitapoli : una nuova costituzione di Valentiniano I, MEFRA, 95, 1983, 249-303 (= Grelle F., Canosa romana, Roma 1993, 193-253)</bibl>
+                    <bibl>Jones A.H.M., Collegiate Prefectures, JRS, 54, 1964, 78-89 (= Id., The Roman Economy, Oxford 1974, 375-395)</bibl>
+                    <bibl>Kreuzsaler C., «Aeneis tabulis scripta proponatur lex». Zum Publikationserfordernis für Rechtsnormen am Beispiel der spätantiken Kaiserkonstitutionen, in R. Haensch (hrsg.), Selbstdarstellung und Kommunikation. Die Veröffentlichung staatlicher Urkunden auf Stein und Bronze in der römischen Welt, München 2009, 209-248</bibl>
+                    <bibl>Lavan L., Public Space in Late Antiquity, I, Leiden-Boston 2020</bibl>
+                    <bibl>Lizzi Testa R., Senatori, popolo, papi. Il governo di Roma al tempo dei Valentiniani, Bari 2004</bibl>
+                    <bibl>Mathisen R.W., Imperial Honorifics and Senatorial Status in Late Roman Legal Documents, in Id. (ed.), Law, Society, Authority in Late Antiquity, Oxford 2001, 179-207</bibl>
+                    <bibl>Matthews J.F., Layng down the Law. A Study on the Theodosian Code, New Haven 2000</bibl>
+                    <bibl>Palme B., Die «officia» der Statthalter in der Spätantike. Forschungsstand und Perspektiven, Ant Tard, 7, 1999, 85-133</bibl>
+                    <bibl>Pergami F., La legislazione di Valentiniano e Valente, 364-375, Milano 1993</bibl>
+                    <bibl>Pergami F., Sulla istituzione del defensor civitatis, SDHI, 61, 1995, 413-431</bibl>
+                    <bibl>Pharr C., The Theodosian Code and novels and the Sirmondian Constitutions. A Translation with commentary, glossary, and bibliography, Princeton 1952</bibl>
+                    <bibl>Porena P., Forme di partecipazione politica cittadina e contatti con il potere imperiale, in F. Amarelli (a cura di), Politica e partecipazione nelle città dell’impero romano, Roma 2005, 13-92</bibl>
+                    <bibl>Porena P., Le iscrizioni del Pretorio di Gortyna e la carriera prefettizia di Sex. Petronius Probus, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020a, 87-141</bibl>
+                    <bibl>Porena P., Ipotesi sull’istituzione di una prefettura del pretorio autonoma d’Illirico nel decennio 378-387, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020b, 143-166</bibl>
+                    <bibl>Porena P., Appendice. Selezione di fonti sulla carriera prefettizia di Sex. Petronius Probus, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020c, 211-216</bibl>
+                    <bibl>Puliatti S., Le costituzioni tardoantiche: diffusione e autenticazione, SDHI, 74, 2008, 99-133</bibl>
+                    <bibl>Roueché Ch., The Functions of the Governor in Late Antiquity: some observations, Ant Tard, 6, 1998, 31-36</bibl>
+                    <bibl>Ruggeri P., L’organizzazione paganica nel Basso Impero in Occidente: contributo per una rilettura della Tavola di Trinitapoli, in A.M. Corda (a cura di), «Cultus splendore». Studi in onore di G. Sotgiu, II, Senorbì 2003, 801-834</bibl>
+                    <bibl>Schmidt Hofner S., Reagieren und Gestalten. Der Regierungsstil des spätrömischen Kaisers am Beispiel der Gesetzgebung Valentinians I., München 2008</bibl>
+                    <bibl>Schmidt-Hofner S., Die kaiserlichen Regesten der Jahre 364 bis 375 n. Chr., ZRG, 125, 2008b, 498-600</bibl>
+                    <bibl>Schmidt-Hofner S., Ehrensachen: Ranggesetzgebung, Elitenkonkurrenz und die Funktionen des Rechts in der Spätantike, Chiron, 40, 2010, 209-243</bibl>
+                    <bibl>Slootjes D., The Governor and his Subjects in the Later Roman Empire, Leiden 2006</bibl>
+                    <bibl>Vera D., Gli horrea frumentari dell’Italia tardoantica: tipi, funzioni, personale, MEFRA, 120, 2008, 323-336 (= D. Vera, Fisco, annona, mercato. Studi sul tardo impero romano, Bari 2020, 225-244)</bibl>
+                    <bibl>Vera D., «Millena» o «modius» nel ‘catasto’ di Volcei ? Questioni di storia fiscale, in eds. L. De Salvo, E. Caliri, et alii (a cura di), Fra Costantino e i Vandali. Atti del Convegno internazionale di studi per Enzo Aiello (1957-2013), Bari 2016, 107-128 (= D. Vera, Fisco, annona, mercato. Studi sul tardo impero romano, Bari 2020, 379-397)</bibl>
+                    <bibl>Vera D., Horrea e trasporti annonari in Africa e a Roma fra Costantino e Genserico: una complessa organizzazione integrata, in V. Chankowski, X. Lafon, C. Virlouvet (dir.), Entrepôts et circuits de distribution en Méditerranée antique, Athènes 2018, 61-74 (= D. Vera, Fisco, annona, mercato. Studi sul tardo impero romano, Bari 2020, 419-429)</bibl>
+                    <bibl>Volpe G., Contadini, pastori e mercanti nell’Apulia tardoantica, Bari 1996</bibl>
                 </p>
             </div>
             
@@ -200,12 +438,24 @@
                     <p n="1.1"></p>
                 </div>
                 
+                <div type="commentary" n="2">
+                    <p n="2.a"></p>
+                    <p n="2.10">parens carissime adq(ue) amantissime</p>
+                </div>
+                
                 <div type="commentary" n="5">
                     <p n="5"></p>
                 </div>
                 
+                <div type="commentary" n="7">
+                    <p n="7.6"></p>
+                </div>
+                
                 <div type="commentary" n="8">
+                    <p n="8.2">sublimitas tua</p>
+                    <p n="8.3"></p>
                     <p n="8.5"></p>
+                    <p n="8.9"></p>
                     <p n="8.11"></p>
                 </div>
             </div>
