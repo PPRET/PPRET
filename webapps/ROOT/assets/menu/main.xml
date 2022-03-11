@@ -19,7 +19,7 @@
   <!--<menu label="Texts" match="local-tei-index-display" i18n:key="menu-texts"/>-->
   <!--<menu label="Indices" match="local-indices-type-display" params="epidoc" i18n:key="menu-indices">
     <item label="Personal names" match="local-index-display-html" params="epidoc person_name" i18n:key="menu-index-person_name"/>
-    <item label="Prosopography" match="local-index-display-html" params="epidoc person" i18n:key="menu-index-prosopography"/>
+    <item label="Prosopography" match="local-index-display-html" params="epidoc person" i18n:key="menu-index-persons"/>
     <item label="Places" match="local-index-display-html" params="epidoc place" i18n:key="menu-index-place"/>
     <item label="Topics" match="local-index-display-html" params="epidoc topic" i18n:key="menu-index-topic"/>
     <item label="Lemmata" match="local-index-display-html" params="epidoc lemma" i18n:key="menu-index-lemma"/>
