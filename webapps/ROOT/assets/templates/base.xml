@@ -82,11 +82,11 @@
                 Hosted by <a target="_blank" href="https://www.huma-num.fr/">Huma-Num</a>. 
                 Powered by <a target="_blank" href="https://github.com/EpiDoc/EFES/wiki">EFES</a>/<a href="http://kcl-ddh.github.io/kiln/">Kiln</a>. 
                 Theme by <a target="_blank" href="http://foundation.zurb.com/">Foundation</a>.</p>
-              <p><a target="_blank" href="http://www.unistra.fr/"><img alt="Université de Strasbourg" style="height:30px; padding-right:2em" src="{$kiln:assets-path}/images/logo-unistra.png" /></a>
-                <a target="_blank" href="https://archimede.unistra.fr/"><img alt="UMR Archimède" style="height:40px; padding-right:2em" src="{$kiln:assets-path}/images/logo-umr.png" /></a>
-                <a target="_blank" href="http://www.cercle-gutenberg.fr/chaires-gutenberg/presentation/"><img alt="Chaires Gutenberg" style="height:40px; padding-right:2em" src="{$kiln:assets-path}/images/logo-gutenberg.png" /></a>
-                <a target="_blank" href="https://www.huma-num.fr/"><img alt="Huma-Num" style="height:40px; padding-right:2em" src="{$kiln:assets-path}/images/logo-huma-num.png" /></a>
-                <a target="_blank" rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a></p>
+              <p id="logos"><a target="_blank" href="http://www.unistra.fr/"><img alt="Université de Strasbourg" style="height:30px; padding-right:1em" src="{$kiln:assets-path}/images/logo-unistra.png" /></a>
+                <a target="_blank" href="https://archimede.unistra.fr/"><img alt="UMR Archimède" style="height:40px; padding-right:1em" src="{$kiln:assets-path}/images/logo-umr.png" /></a>
+                <a target="_blank" href="http://www.cercle-gutenberg.fr/chaires-gutenberg/presentation/"><img alt="Chaires Gutenberg" style="height:40px; padding-right:1em" src="{$kiln:assets-path}/images/logo-gutenberg.png" /></a>
+                <a target="_blank" href="https://www.huma-num.fr/"><img alt="Huma-Num" style="height:40px; padding-right:1em" src="{$kiln:assets-path}/images/logo-huma-num.png" /></a>
+                <a target="_blank" rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="height:15px" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a></p>
             </footer>
           </kiln:block>
           <kiln:block name="end-js">

@@ -19,12 +19,13 @@
           <span class="box"><a href="{kiln:url-for-match('local-epidoc-index-display', ($language), 0)}"><img class="imagebox" src="{$kiln:assets-path}/images/CIL_XIII_001807_.jpg" alt="CIL XIII 001807. Arnaud Fafournoux / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0). https://commons.wikimedia.org/wiki/File:CIL_XIII_001807_(1).jpg" style="width:100%" /><span class="textbox">
           <!--<h3 class="site_name_subheading">Projet<br/>Les Préfets du Prétoire de l’Empire Tardif</h3>
           <br/>-->
-          <h1 id="site_name"><i18n:text i18n:key="home-title">PPRET INSCRIPTIONS</i18n:text></h1>
+          <h1 id="site_name">PPRET Inscriptions</h1>
           <h3 class="site_name_subheading"><i18n:text i18n:key="description">The Inscriptions Pertaining to the Praetorian Prefects from 284 to 395 AD</i18n:text></h3>
             </span></a></span>
         </div>
       </div>
-      <div id="publication">
+      <div class="row">
+        <div class="large-12 columns text-center" id="publication">
         <p><b>Full bibliographic reference</b>: P. Porena (dir.), E. Angius, A. Bernier, G. Franceschini, P. Porena, I. Vagionakis, <i>PPRET Inscriptions. The Inscriptions Pertaining to the Praetorian Prefects from 284 to 395 AD</i>, Strasbourg (MISHA) 2022, http://ppret-inscriptions.huma-num.fr</p>
         <p><b>ISSN</b>: 2823-4197 (online)</p>
         <p><b>Editor</b>: Pierfrancesco Porena (all rights reserved)</p>
@@ -32,16 +33,8 @@
         <p><b>Funding</b>: Chaire Gutenberg 2019</p>
         <p><b>Project</b>: PPRET Les Préfets du Prétoire de l’Empire Tardif</p>
       </div>
+      </div>
     </kiln:block>
-
-    <kiln:block name="content-section">
-      <main>
-        <div class="row">
-          <div class="small-8 large-centered columns">
-            <p><br/><br/></p>
-          </div>
-        </div>
-      </main>
-    </kiln:block>
+    
   </kiln:child>
 </kiln:root>
