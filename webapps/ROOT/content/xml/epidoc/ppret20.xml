@@ -107,7 +107,11 @@
             </div>
             <div type="apparatus">
                 <p>Edition based on CIL. For the many variants in the transcriptions of the MSS see CIL 06, 01780 apparatus.</p>
-                <p></p>
+                <p>
+                    <app loc="2"><note>MSS Aconis, Aconi solo Alciatus e Pighi; Aconis, Vidman 1969, Vermaseren 1977, Bricault  2005, Dubosson-Sbriglione 2018, EDR; Aconi<supplied reason="omitted" cert="low">i</supplied>, Niquet 2000; Aconi, Kahlos 2002; Aconi<supplied reason="lost">i</supplied>, Martinez-Maza 2003; Aconii, LSA; ord(inarii), Martinez-Maza 2003</note></app>
+    <app loc="3"><note>praef. <supplied reason="omitted">urbi</supplied>, Niquet 2000</note></app>
+    <app loc="7"><note>hierophantriae deae Hecatae Graec<supplied reason="lost">ae</supplied> (vel Graiae), consacraneae deae Cereris, Mommsen (CIL 06, 01780 apparatus); hierophantriae Deae Cereris Graiae, consacraneae - vel co(n)sacraneae - Deae Hecatae, Mitthof in CIL 06, p. 4759; hirophantriae, Martinez-Maza; Graecosacraneae, ILS, Vidman 1969, Vermaseren 1977, Bricault 2005, LSA; Graeco (!) <supplied reason="omitted">con</supplied>sacraneae, Niquet 2000; Hecatae Graeco, sacfraneae, Kahlos 2002; graeco sacraneae, EDR, Martinez-Maza 2003; Hecatae Grae(cae) sacraneae, Dubosson-Sbriglione 2018</note></app>
+                </p>
             </div>
             <div type="translation" xml:lang="en">
                 <p>“To Fabia Aconia Paulina, of clarissimus rank, daughter of Aco Catullinus, of clarissimus rank, former prefect and consul ordinarius, wife of Vettius Praetextatus, of clarissimus rank, prefect and consul designate, consecrated at Eleusis to the god Iacchus, Ceres and Cora, consecrated at Lerna to the god Liber, Ceres and Cora, consecrated to the goddesses at Aegina, tauroboliate, initiated of Isis, hierophant of the goddess Hecate, consecrated to the Greek goddess Ceres [i.e. Demeter]”.</p>
