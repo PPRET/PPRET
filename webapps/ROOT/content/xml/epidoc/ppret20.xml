@@ -33,7 +33,7 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textType" ref="#burial">burial inscription</term>
+                            <term type="textType" ref="#honorary">honorary inscription (?)</term>
                             <term type="rhythm" ref="#prose">prose</term>
                         </summary>
                         <textLang mainLang="la">Latin</textLang>
@@ -58,7 +58,7 @@
                                 <layout>
                                     <p>One inscribed field (frons).</p>
                                     <rs type="execution" ref="#chiselled">chiselled</rs>
-                                    <rs type="preservation" ref="#undamaged">The text, at the time of its transcription, was undamaged.</rs>
+                                    <rs type="preservation" ref="#undamaged">The text, at the time of its transcription, was undamaged. The text of the inscription is known only from manuscript tradition. The transcriptions preserve different line divisions: the layout of the lines of writing is not certain. The letters of the first line containing the onomastics of the honoree appear to be larger.</rs>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -77,12 +77,11 @@
                                 <placeName type="province">Urbs</placeName>
                                 <placeName type="diocese">Italiciana</placeName>
                                 <placeName type="prefecture">Italia Illyricum Africa</placeName>
-                                <placeName type="ancient_location" ref="#burial" cert="low">burial space (?)</placeName>
+                                <placeName type="ancient_location" ref="#private">private space or building</placeName>
                             </origPlace>
                             <origDate period="#p5" notBefore="0384" notAfter="0387">December 384/387 AD</origDate>
                         </origin>
                         <provenance type="found"><placeName ref="#Roma">Rome</placeName>, first seen in the 15th Century in the church of the SS. Apostoli</provenance>
-                        <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -98,8 +97,8 @@
             <div type="edition" xml:space="preserve" xml:lang="la">
                     <ab>
                         <lb n="1"/>Fabiae Aconiae Paulinae, <expan><abbr>c</abbr><ex>larissimae</ex></expan> <expan><abbr>f</abbr><ex>eminae</ex></expan>,
-                        <lb n="2"/>filiae Aconis Catullini, <expan><abbr>v</abbr><ex>iri</ex></expan> <expan><abbr>c</abbr><ex>larissimi</ex></expan>, ex <expan><abbr>praef</abbr><ex>ecto</ex></expan> et consule <expan><abbr>ord</abbr><ex>inario</ex></expan>,
-                        <lb n="3"/>uxori Vetti Praetextati, <expan><abbr>v</abbr><ex>iri</ex></expan> <expan><abbr>c</abbr><ex>larissimi</ex></expan>, <expan><abbr>praef</abbr><ex>ecti</ex></expan> et consulis designati,
+                        <lb n="2"/>filiae Aconis Catullini <expan><abbr>v</abbr><ex>iri</ex></expan> <expan><abbr>c</abbr><ex>larissimi</ex></expan> ex <expan><abbr>praef</abbr><ex>ecto</ex></expan> et consule <expan><abbr>ord</abbr><ex>inario</ex></expan>,
+                        <lb n="3"/>uxori Vetti Praetextati <expan><abbr>v</abbr><ex>iri</ex></expan> <expan><abbr>c</abbr><ex>larissimi</ex></expan> <expan><abbr>praef</abbr><ex>ecti</ex></expan> et consulis designati,
                         <lb n="4"/>sacratae apud Eleusinam deo Iaccho Cereri et Corae,
                         <lb n="5"/>sacratae apud Laernam deo Libero et Cereri et Corae,
                         <lb n="6"/>sacratae apud Aeginam deabus, tauroboliatae, Isiacae,
@@ -107,38 +106,41 @@
                     </ab>
             </div>
             <div type="apparatus">
-                <p>Edition based on CIL.</p>
+                <p>Edition based on CIL. For the many variants in the transcriptions of the MSS see CIL 06, 01780 apparatus.</p>
                 <p></p>
             </div>
             <div type="translation" xml:lang="en">
-                <p>“To Fabia Aconia Paulina, of clarissimus rank, daughter of Aconius Catullinus, of clarissimus rank, former prefect and ordinary consul, wife of Vettius Praetextatus, of clarissimus rank, prefect and designated consul, initiated at Eleusis to the god Iacchus, Ceres and Cora, initiated at Laerna to the god Liber and Ceres and Cora, initiated in Aegina to the goddesses, tauroboliate, initiate to Isis, hierophant of the goddess Hecate, graecosacranea of the goddess Ceres.”</p>
+                <p>“To Fabia Aconia Paulina, of clarissimus rank, daughter of Aco Catullinus, of clarissimus rank, former prefect and consul ordinarius, wife of Vettius Praetextatus, of clarissimus rank, prefect and consul designate, consecrated at Eleusis to the god Iacchus, Ceres and Cora, consecrated at Lerna to the god Liber, Ceres and Cora, consecrated to the goddesses at Aegina, tauroboliate, initiated of Isis, hierophant of the goddess Hecate, consecrated to the Greek goddess Ceres [i.e. Demeter]”.</p>
             </div>
             <div type="translation" xml:lang="fr">
-                <p>“...”</p>
+                <p>(Bricault 2005, p. 564)</p>
+                <p>“Pour Fabia Aconia Paulina, clarissime, fille du clarissime Aconius Catullinus, ancien préfet et consul ordinaire, épouse du clarissime Vettius Praetextatus, préfet et consul désigné, consacrée à Éleusis au dieu Iacchos, à Cérès et à Corè, consacrée à Lerne au dieu Liber, à Cérès et à Corè, consacrée à Égine aux déesses, tauroboliée, isiaque, hiérophante de la déesse Hécate, Graecosacranea de la déesse Cérès”.<lb/></p>
+                <p>(Dubosson-Sbriglione 2018, p. 508)</p>
+                <p>“À Fabia Aconia Paulina, femme clarissime, fille d’Aconius Catullinus, clarissime, ancien préfet et consul ordinaire, épouse de Vettius Praetextatus, clarissime, préfet et consul désigné, consacrée à Éleusis au dieu Iacchos, à Cérès et à Coré, consacrée à Lerne au dieu Liber, à Cérès et à Coré, consacrée aux déesses qui sont à Égine, tauroboliée, isiaque, hiérophante de la déesse Hécate Grecque, prêtresse de la déesse Cérès”.</p>
             </div>
             <div type="translation" xml:lang="it">
-                <p>“A Fabia Aconia Paulina, chiarissima, figlia di Aconius Catullinus, chiarissimo, ex prefetto e console ordinario, moglie di Vettius Praetextatus, chiarissimo, prefetto e console designato, iniziata a Eleusi al dio Iacco, Cerere e Cora, iniziata a Lerna al dio Libero e Cerere e Cora, iniziata a Egina alle dee, tauroboliata, iniziata a Iside, ierofante della dea Hecate, grecosacranea della dea Cerere.”</p>
+                <p>“Per la chiarissima Fabia Aconia Paulina, figlia del chiarissimo Aconius Catullinus, già prefetto e console ordinario, moglie del chiarissimo Vettius Praetextatus, prefetto e console designato, consacrata a Eleusi al dio Iacchos, a Cerere e a Core, consacrata a Lerna al dio Libero, a Cerere e a Core, consacrata a Egina alle dee, tauroboliata, isiaca, ierofantria della dèa Ecate, graecosacranea della dèa Cerere”.</p>
             </div>
             <div type="commentary">
-                <p>Fabia Aconia Paulina was the daughter of Aconius Catullinus, who was praetorian prefect in 341 AD, and the wife of Vettius Agorius Praetextatus, who was praetorian prefect in 384 AD.</p>
+                <p>The critical edition and commentary of this inscription will be completed by the end of April 2022. We apologise for the delay.</p>
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
-                    <bibl><ref>CIL 06, 31930</ref> = <bibl><ref>CIL 06, 01780</ref></bibl> (cfr. pp. 3174, 3814, 4794); cfr. <bibl><ref>CIL 09, *223,6</ref></bibl>, <bibl><ref>CIL 09, *641,3</ref></bibl></bibl>
+                    <bibl><ref>CIL 06, 01780</ref> (pp. 4759-4760) = <bibl><ref>CIL 06, 31930</ref></bibl> [by mistake indicated in Benevento and Ancona, <bibl><ref>CIL 09, *0223,6</ref></bibl> and <bibl><ref>CIL 09, *0641,3</ref></bibl>]</bibl>
                     <bibl><ref>ILS 1260</ref></bibl>
-                    <bibl><ref>CCCA 03, 295</ref></bibl> 
-                    <bibl><ref>SIRIS 450</ref></bibl> 
-                    <bibl><ref>Niquet 2000, pp. 244-246</ref></bibl>
-                    <bibl><ref>Martínez-Maza 2003, p. 67</ref> = <bibl><ref>AE 2003, 0151</ref></bibl></bibl>
-                    <bibl><ref>RICIS 02, 501／210</ref></bibl> 
-                    <bibl><ref>Dubosson 2018, p. 109</ref></bibl> 
+                    <bibl><ref>Duthoy 1969, p. 21, nr. 29</ref></bibl> 
+                    <bibl><ref>Vidman 1969, p. 216, nr. 450</ref></bibl> 
+                    <bibl><ref>Vermaseren 1977, p. 79, nr. 295</ref></bibl> 
+                    <bibl><ref>Niquet 2000, p. 244</ref></bibl>
+                    <bibl><ref>Kahlos 2002, p. 223</ref></bibl>
+                    <bibl><ref>Martinez-Maza 2003, p. 67</ref></bibl>
+                    <bibl><ref>Bricault 2005, p. 564, nr. 501/0210</ref></bibl> 
+                    <bibl><ref>Dubosson-Sbriglione 2018, pp. 507-508, nr. 109</ref></bibl> 
                 </p>
-            </div>
-            <div type="bibliography" subtype="images">
-                <p></p>
             </div>
             <div type="bibliography" subtype="links">
                 <p>
+                    <bibl><ref corresp="https://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-18100595">EDCS 18100595</ref></bibl>
                     <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR138111">EDR 138111</ref></bibl>
                     <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-1474">LSA 1474</ref></bibl>
                     <bibl><ref corresp="https://www.trismegistos.org/text/570243">TM 570243</ref></bibl>
@@ -146,12 +148,16 @@
             </div>
             <div type="bibliography" subtype="other">
                 <p>
-                    <bibl>Consolino F. E., Tradizionalismo e trasgressione nell’élite senatoria romana: ritratti di signore fra la fine del IV e l’inizio del V secolo, in Lizzi Testa R. (ed.), Le trasformazioni delle élites in età tardoantica, Roma 2006, 65-139 (118-134)</bibl>
-                    <bibl>Dubosson L., Le culte de la Mère des dieux dans l’Empire romain, Stuttgart 2018 (109)</bibl>
-                    <bibl>Magister S., La collezione di antichità del cardinale Giuliano della Rovere. Anteprima di studio, in Xenia Antiqua, 9, 2000, 47-50 = AE 2000, 19</bibl> 
-                    <bibl>Martínez-Maza C., Devotas mistéricas en la Roma bajoimperial, in Aevum, 77, 2003, 53-68</bibl>
-                    <bibl>Niquet H., Monumenta virtutum titulique: senatorische Selbstdarstellung im spätantiken Rom im Spiegel der epigraphischen Denkmäler, Stuttgart 2000 (123, 195-196, 244-246)</bibl>
-                    <bibl>Rüpke J., Fasti sacerdotum: die Mitglieder der Priesterschaften und das sakrale Funktionspersonal römischer, griechischer, orientalischer und jüdisch-christlicher Kulte in der Stadt Rom von 300 v. Chr. bis 499 n. Chr., Stuttgart 2005 (966-977, nr. 1578)</bibl> 
+                    <bibl>Bricault L., Receuil des inscriptions concernant les cultes Isiaques (RICIS), II, Corpus, Paris 2005</bibl>
+                    <bibl>Dubosson-Sbriglione L., Le culte de la Mère des dieux dans l’Empire romain, Stuttgart 2018</bibl>
+                    <bibl>Duthoy R., The Taurobolium: its evolution and terminology, Leiden 1969</bibl>
+                    <bibl>Finocchi Ghersi L., Le residenze dei Colonna ai Santi Apostoli, in M. Chiabò et alii (a cura di), Alle origini della nuova Roma. Martino V (1417-1431), Roma 1992, 61-75</bibl>
+                    <bibl>Jacques F., L’ordine senatorio attraverso la crisi del III secolo, in A. Giadrina (a cura di), Società romana e impero tardoantico, 1, Istituzioni, ceti, economie, Roma-Bari 1986, 81-225</bibl>
+                    <bibl>Kahlos M., Vettius Agorius Praetextatus. A senatorial life in between, Roma 2002</bibl>
+                    <bibl>Martínez-Maza C., Devotas mistéricas en la Roma bajoimperial, Aevum, 77, 2003, 53-68</bibl>
+                    <bibl>Niquet H., Monumenta virtutum titulique. Senatorische Selbstdarstellung im spätantiken Rom im Spiegel der epigraphischen Denkmäler, Stuttgart 2000</bibl>
+                    <bibl>Vermaseren M.J., Corpus cultus Cybelae Attidisque (CCCA), III, Italia-Latium, Leiden 1977</bibl>
+                    <bibl>Vidman L., Sylloge inscriptionum religionis Isiacae et Sarapiacae (SIRIS), Berlin 1969</bibl> 
                 </p>
             </div>
             
