@@ -28,6 +28,8 @@
   <message key="ppret-translation-fr">Français</message>
   <message key="ppret-translation-it">Italien</message>
   <message key="description">Les inscriptions relatives aux préfets du prétoire de 284 à 395 après J.-C.</message>
+  <message key="request-info">Pour les suggestions et les communications, veuillez contacter</message>
+  
   
   <!-- <message key="facet-prefect_name"></message>
   <message key="facet-prefect_gentilicium"></message>

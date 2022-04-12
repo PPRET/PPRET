@@ -32,6 +32,7 @@
         <p><b>Editorial seat</b>: Strasbourg - France (Huma-Num - MISHA Maison Interuniversitaire des Sciences de l’Homme Alsace - UMR 7044 Archimède) 2022</p>
         <p><b>Funding</b>: Chaire Gutenberg 2019</p>
         <p><b>Project</b>: PPRET Les Préfets du Prétoire de l’Empire Tardif</p>
+          <p><i18n:text i18n:key="request-info">For suggestions and notifications please contact</i18n:text> pierfrancesco.porena@uniroma3.it</p>
       </div>
       </div>
     </kiln:block>
