@@ -25,13 +25,13 @@
                 </listPerson>
                 <msDesc>
                     <msIdentifier>
-                        <repository ref="#Roma">Musei Capitolini</repository>
-                        <idno type="invNo">inv. NCE 2543</idno>
+                        <repository ref="#Roma">Rome, Musei Capitolini, Palazzo Nuovo, ground floor 3rd room on the right</repository>
+                        <idno type="invNo">inv. S 208 and NCE 2543</idno>
                     </msIdentifier>
                     <msContents>
                         <summary>
                             <term type="textType" ref="#burial">burial inscription</term>
-                            <term type="rhythm" ref="#poetry">poetry (vv. 1-40, 57-59: iambs; vv. 41-56: elegiac distichs)</term>
+                            <term type="rhythm" ref="#poetry #prose">prose (frons); poetry (iambic senaries: latus sin., latus dex., retro)</term>
                         </summary>
                         <textLang mainLang="la">Latin</textLang>
                     </msContents>
@@ -48,14 +48,14 @@
                                     </dimensions>
                                     <rs type="inscribed_field_reuse">no</rs>
                                     <rs type="monument_reuse">no</rs>
-                                    <rs type="opistographic">no</rs>
+                                    <rs type="opistographic">no (below)</rs>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Four inscribed fields (frons, retro, latus sin., latus dex.).</p>
+                                    <p>Four inscribed fields (frons, latus sin., latus dex., retro).</p>
                                     <rs type="execution" ref="#chiselled">chiselled</rs>
-                                    <rs type="preservation" ref="#damaged">The altar is broken in two fragments; some of the letters along the break line are not legible.</rs>
+                                    <rs type="preservation" ref="#damaged">The altar is broken in two; some of the letters along the break are illegible.</rs>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -74,11 +74,11 @@
                                 <placeName type="province">Urbs</placeName>
                                 <placeName type="diocese">Italiciana</placeName>
                                 <placeName type="prefecture">Italia Illyricum Africa</placeName>
-                                <placeName type="ancient_location" ref="#burial" cert="low">burial space (?)</placeName>
+                                <placeName type="ancient_location" ref="#burial">burial space</placeName>
                             </origPlace>
                             <origDate period="#p8" notBefore="0384" notAfter="0385">384/385 AD</origDate>
                         </origin>
-                        <provenance type="found"><placeName ref="#Roma">Rome</placeName></provenance>
+                        <provenance type="found"><placeName ref="#Roma">Rome</placeName>, found in 1750, findspot unknown</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -93,83 +93,38 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la">
-                <div type="textpart" subtype="face" n="frons">
+                <div type="textpart" subtype="face" n="A: frons">
                     <ab>
-                        <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>.
+                        <lb n="1"/><space extent="unknown" unit="character"/> <expan><abbr>D</abbr><ex>is</ex></expan> <space extent="unknown" unit="character"/> <expan><abbr>M</abbr><ex>anibus</ex></expan>. <space extent="unknown" unit="character"/>
                         <lb n="2"/>Vettius Agorius Praetextatus,
                         <lb n="3"/>augur, p<supplied reason="lost">o</supplied>ntifex Vestae,
-                        <lb n="4"/>pontifex Sol<supplied reason="lost">is</supplied>, quindecemvir
-                        <lb n="5"/>curialis Herc<supplied reason="lost">u</supplied>lis, sacratus
-                        <lb n="6"/>Libero et Eleusi<unclear>nii</unclear>s hierophanta,
-                        <lb n="7"/>neocorus, tauroboliatus,
-                        <lb n="8"/>pater patrum; in <supplied reason="lost">r</supplied>e publica vero,
+                        <lb n="4"/>pontifex So<unclear>l</unclear><supplied reason="lost">is</supplied>, <g ref="hedera"/> quindecemvir
+                        <lb n="5"/>curialis Herc<supplied reason="lost">u</supplied><unclear>l</unclear>is, <g ref="hedera"/> sacratus
+                        <lb n="6"/>Libero et Eleusi<unclear>nii</unclear>s <g ref="hedera"/> hierophanta,
+                        <lb n="7"/>neocorus, <g ref="hedera"/> ta<unclear>u</unclear>roboliatus,
+                        <lb n="8"/>pater patrum; <g ref="hedera"/> in <supplied reason="lost">r</supplied>e publica vero,
                         <lb n="9"/>quaestor candidatus,
                         <lb n="10"/><sic>pretor</sic> urbanus,
-                        <lb n="11"/>corrector Tusciae et Umbriae,
+                        <lb n="11"/>corrector Tusciae et Um<supplied reason="lost">b</supplied><unclear>r</unclear>iae,
                         <lb n="12"/>consularis Lusitaniae,
-                        <lb n="13"/>proconsule Achaiae,
+                        <lb n="13"/><sic>proconsule</sic> Achaiae,
                         <lb n="14"/>praefectus urbi,
                         <lb n="15"/>legatus a senatu missus V,
                         <lb n="16"/>praefectus praetorio II Italiae
-                        <lb n="17"/>et Illyrici,
-                        <lb n="18"/>consul ordinarius
-                        <lb n="19"/>designatus,
-                        <lb n="20"/>et Aconia Fabia Paulina, <expan><abbr>c</abbr><ex>larissima</ex></expan> <expan><abbr>f</abbr><ex>emina</ex></expan>,
-                        <lb n="21"/>sacrata Cereri et Eleusiniis,
-                        <lb n="22"/>sacrata apud Eginam Hecatae,
-                        <lb n="23"/>tauroboliata, hierophantria,
-                        <lb n="24"/>hi coniuncti simul vixerunt <expan><abbr>ann</abbr><ex>is</ex></expan> XL.
+                        <lb n="17"/>et Illyrici, consul ordinarius
+                        <lb n="18"/>designatus, <space extent="unknown" unit="character"/>
+                        <lb n="19"/>et Aconia Fabia Paulina, <expan><abbr>c</abbr><ex>larissima</ex></expan> <expan><abbr>f</abbr><ex>emina</ex></expan>,
+                        <lb n="20"/>sacrata Cereri et Eleusiniis,
+                        <lb n="21"/>sacrata apud Eginam Hecatae,
+                        <lb n="22"/>tauroboliata, hierophantria,
+                        <lb n="23"/>hi coniuncti simul vixerunt <expan><abbr>ann</abbr><ex>is</ex></expan> XL.
                     </ab>
                 </div>
-                <div type="textpart" subtype="face" n="retro">
+                <div type="textpart" subtype="face" n="B: latus sin.">
                     <ab>
-                        <lb n="1"/><supplied reason="lost">Sple</supplied>ndor parentum nil mihi maius dedit,
-                        <lb n="2"/><supplied reason="lost">quam</supplied> quod marito digna iam tum visa sum.
-                        <lb n="3"/><supplied reason="lost">Se</supplied>d lumen omne vel decus nomen viri,
-                        <lb n="4"/>Agori, superbo qui creatus germine
-                        <lb n="5"/>patriam, senatum <expan><abbr>coniugemq</abbr><ex>ue</ex></expan> inluminas
-                        <lb n="6"/>probitate mentis, moribus, studiis simul
-                        <lb n="7"/>virtutis apicem quis supremum nanctus es.
-                        <lb n="8"/>Tu namque quidquid lingua <expan><abbr>utraq</abbr><ex>ue</ex></expan> est proditum
-                        <lb n="9"/>cura <sic>soforum</sic>, porta quis caeli patet,
-                        <lb n="10"/>vel quae periti condidere carmina
-                        <lb n="11"/>vel quae solutis vocibus sunt edita,
-                        <lb n="12"/>meliora reddis quam legendo sumpseras;
-                        <lb n="13"/>sed ista parva: tu pius <sic>movestes</sic> sacris
-                        <lb n="14"/>teletis reperta mentis arcano premis
-                        <lb n="15"/>divumque numen multiplex doctus colis,
-                        <lb n="16"/>sociam benigne coniuge nectens sacris
-                        <lb n="17"/>hominum deumque consciam ac fidam tibi.
-                        <lb n="18"/>Quid nunc honores aut potestates loquar
-                        <lb n="19"/>hominumque votis adpetita gaudia?
-                        <lb n="20"/>Quae tu caduca ac parva semper autumans
-                        <lb n="21"/>divum sacerdos infulis celsus clues.
-                        <lb n="22"/>Tu me, marite, disciplinarum bono
-                        <lb n="23"/>puram ac pudicam sorte mortis eximens
-                        <lb n="24"/>in templa ducis ac famulam divis dicas.
-                        <lb n="25"/>Te teste cunctis imbuor mysteriis
-                        <lb n="26"/>tu Dindymenes <sic>Atteosqui</sic> antistitem
-                        <lb n="27"/>teletis honoras taureis consors pius.
-                        <lb n="28"/>Hecates ministram trina secreta edoces
-                        <lb n="29"/>Cererisque Graiae tu sacris dignam paras.
-                        <lb n="30"/>Te propter omnis me beatam, me piam
-                        <lb n="31"/>celebrant, quod ipse bonam disseminas,
-                        <lb n="32"/>totum per orbem ignota noscor omnibus.
-                        <lb n="33"/>Nam te marito cur placere non queam?
-                        <lb n="34"/>Exempla de me Romulae matres petunt
-                        <lb n="35"/>subolemque pulchram, si tuae similis, putant.
-                        <lb n="36"/>Optant probantque nunc viri nunc feminae
-                        <lb n="37"/>quae tu magister indidisti insignia.
-                        <lb n="38"/>His nunc ademptis maesta coniunx maceror,
-                        <lb n="39"/>felix, maritum si superstitem mihi
-                        <lb n="40"/>divi dedissent, sed tamen felix, tua
-                        <lb n="41"/>quia sum fuique postque mortem mox ero.
-                    </ab>
-                </div>
-                <div type="textpart" subtype="face" n="latus sin.">
-                    <ab>
+                        <lb n="0"/><note>Under the urceus</note>
                         <lb n="1"/>Vettius Agorius Praetextatus
-                        <lb n="2"/>Paulinae coniugi.
+                        <lb n="2"/><space extent="unknown" unit="character"/> Paulinae <space extent="unknown" unit="character"/> coniugi. <space extent="unknown" unit="character"/>
                         <lb n="3"/>Paulina nostri pectoris consortio,
                         <lb n="4"/>fomes pudoris, castitatis vinculum
                         <lb n="5"/>amorque purus et fides caelo sata,
@@ -182,63 +137,193 @@
                         <lb n="12"/>aetatis usu, consecrandi foedere,
                         <lb n="13"/>iugi fideli simplici concordia
                         <lb n="14"/>iuvans maritum, diligens ornans
-                        <lb n="15"/>colens.
+                        <lb n="15"/>colens. <space extent="unknown" unit="character"/>
                     </ab>
                 </div>
-                <div type="textpart" subtype="face" n="latus dex.">
+                <div type="textpart" subtype="face" n=" C: latus dex.">
                     <ab>
+                        <lb n="0"/><note>Under the patera</note>
                         <lb n="1"/>Vettius Agorius Praetextatus
-                        <lb n="2"/>Paulinae coniugi.
+                        <lb n="2"/><space extent="unknown" unit="character"/> Paulinae <space extent="unknown" unit="character"/> coniugi. <space extent="unknown" unit="character"/>
                         <lb n="3"/>Paulina veri et castitatis conscia,
                         <lb n="4"/>dicata templis <expan><abbr>atq</abbr><ex>ue</ex></expan> amica numinum,
                         <lb n="5"/>sibi maritum praeferens, Romam viro,
                         <lb n="6"/>pudens fidelis pura mente et corpore,
                         <lb n="7"/>benigna cunctis, utilis penatibus
-                        <lb n="8"/>cae<supplied reason="lost">le</supplied>s<supplied reason="lost">tium iam sede semper mec</supplied>u<supplied reason="lost">m e</supplied>ri<supplied reason="lost">s</supplied>.
+                        <lb n="8"/><unclear>credas</unclear> <unclear>n</unclear><gap reason="illegible" quantity="5" unit="character"/><unclear>s</unclear><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" quantity="7" unit="character" precision="low"/><unclear>ussent</unclear>.
+                    </ab>
+                </div>
+                <div type="textpart" subtype="face" n="D: retro">
+                    <ab>
+                        <lb n="1"/><supplied reason="lost">Sple</supplied><unclear>n</unclear>dor parentum <sic>nil</sic> mihi maius dedit,
+                        <lb n="2"/><supplied reason="lost">ni</supplied> quod marito digna iam tum visa sum.
+                        <lb n="3"/><supplied reason="lost">Se</supplied>d lumen omne vel decus nomen viri,
+                        <lb n="4"/>Agori, superbo qui creatus germine
+                        <lb n="5"/>patriam, senatum <expan><abbr>coniugemq</abbr><ex>ue</ex></expan> inluminas
+                        <lb n="6"/>probitate mentis, moribus, studiis simul
+                        <lb n="7"/>virtutis apicem quis supremum nanctus es.
+                        <lb n="8"/>Tu namque quidquid lingua <expan><abbr>utraq</abbr><ex>ue</ex></expan> est proditum
+                        <lb n="9"/>cura <sic>soforum</sic>, porta quis caeli patet,
+                        <lb n="10"/>vel quae periti condidere carmina
+                        <lb n="11"/>vel quae solutis vocibus sunt edita,
+                        <lb n="12"/>meliora reddis quam legendo sumpseras;
+                        <lb n="13"/>sed ista parva: tu pius <sic>movestes</sic> sacris
+                        <lb n="14"/>teletis reperta mentis arcano pr<unclear>e</unclear>mi<unclear>s</unclear>
+                        <lb n="15"/>divumque numen multiplex doctus colis,
+                        <lb n="16"/>sociam benigne coniugem nectens sacris
+                        <lb n="17"/>hominum deumque consciam ac fidam tibi.
+                        <lb n="18"/>Quid nunc honores aut potestates loquar
+                        <lb n="19"/>hominumque votis adpetita gaudia?
+                        <lb n="20"/>Quae tu caduca ac parva semper autumans
+                        <lb n="21"/>divum sacerdos infulis celsus clues.
+                        <lb n="22"/>Tu me, marite, disciplinarum bono
+                        <lb n="23"/>puram ac pudicam sorte mortis eximens
+                        <lb n="24"/>in templa ducis ac famulam divis dicas.
+                        <lb n="25"/>Te teste cunctis imbuor mysteriis:
+                        <lb n="26"/>tu Dindymenes <sic>Atteosqui</sic> antistitem
+                        <lb n="27"/>teletis honoras taureis consors pius,
+                        <lb n="28"/>Hecates ministram trina secreta edoces,
+                        <lb n="29"/>Cererisque Graiae tu sacris dignam paras.
+                        <lb n="30"/>Te propter omnis me beatam, me piam
+                        <lb n="31"/>celebrant, quod ipse me bonam disseminas,
+                        <lb n="32"/>totum per orbem ignota noscor omnibus.
+                        <lb n="33"/>Nam te marito cur placere non queam?
+                        <lb n="34"/>Exempla de me Romulae matres petunt
+                        <lb n="35"/>subolemque pulchram, si tuae similis, putan<unclear>t</unclear>.
+                        <lb n="36"/>Optant probantque nunc viri nunc feminae
+                        <lb n="37"/>quae tu magister indidisti insignia.
+                        <lb n="38"/>His nunc ademptis maesta coniunx maceror,
+                        <lb n="39"/>felix, maritum si superstitem mihi
+                        <lb n="40"/>divi dedissent, sed tamen felix, tua
+                        <lb n="41"/>quia sum fuique postque mortem mox ero.
                     </ab>
                 </div>
             </div>
             <div type="apparatus">
-                <p>Edition based on CIL.</p>
+                <p>Edition based on CIL 06, 01779, EDR121930, Velestino 2016, Campedelli in print. Text was seen and verified by Porena 2018.</p>
+                <p>A (frons)</p>
                 <p>
-                    <app loc="frons 10"><note>praetor</note></app>
-                    <app loc="retro 9"><note>sophorum</note></app>
-                    <app loc="retro 13"><note>mystes</note></app>
-                    <app loc="retro 26"><note>Atteosque</note></app>
+                    <app loc="1"><note>line omitted, La Rocca Parisi Presicce 2010</note></app>
+                    <app loc="2"><note>Praetextatus augur, Lambrechts 1955</note></app>
+                    <app loc="3"><note>pontifex, Bricault 2005, La Rocca Parisi Presicce 2010; p<supplied reason="lost">o</supplied>nti<corr>f</corr>ex, Campedelli</note></app>
+                    <app loc="4"><note>Solis, Polara 2000; quindecimvir, Vermaseren 1977, Walser 1993, Courtney 1995, Henriksén 2008, Dubosson-Sbriglione 2018; ponti<corr>f</corr>ex So<unclear>l</unclear><supplied reason="lost">i</supplied>s, Campedelli in print</note></app>
+                    <app loc="5"><note>Herculis, Polara 2000; Herc(u)lis, La Rocca Parisi Presicce 2010; Herc<supplied reason="lost">ul</supplied>is, Velestino 2016, Campedelli in print</note></app>
+                    <app loc="6"><note>Eleusi<supplied reason="lost">ni</supplied>s, Lambrechts 1955, Vermaseren 1977, Kahlos 2002, Martínez-Maza 2003, Bricault 2005; Eleusinis, Walser 1993, Lassère 2005, Henriksén 2008, Kolb Fugmann 2008, Dubosson-Sbriglione 2018, Lorito 2019, HD; Eleusi(ni)s, La Rocca Parisi Presicce 2010; Eleusi<supplied reason="lost">ni</supplied>is, Velestino 2016</note></app>
+                    <app loc="7"><note>ta<supplied reason="lost">u</supplied>roboliatus, Campedelli in print</note></app>
+                    <app loc="8"><note>ver<supplied reason="lost">o</supplied>, Vermaseren 1977, Kahlos 2002, Martínez-Maza 2003, Bricault 2005, Henriksén 2008, Dubosson-Sbriglione 2018, Lorito 2019</note></app>
+                    <app loc="10"><note>praetor, La Rocca Parisi Presicce 2010</note></app>
+                    <app loc="11"><note>Umbriae, Lambrechts 1955, Vermaseren 1977, Polara 2000, Martínez-Maza 2003, Bricault 2005, Lassère 2005, Henriksén 2008, La Rocca Parisi Presicce 2010, Dubosson-Sbriglione 2018, Lorito 2019, HD, EDR; Um<unclear>br</unclear>iae, Velestino 2016</note></app>
+                    <app loc="13"><note>proconsul, Lambrechts 1955, Lassère 2005; proconsul<surplus>e</surplus>, Kolb Fugmann 2008</note></app>
+                    <app loc="13-14"><note>Achaiae urbi, Martínez-Maza 2003</note></app>
+                    <app loc="15"><note>senatus, La Rocca Parisi Presicce 2010; missu, Martínez-Maza 2003; V<supplied reason="lost">II</supplied>, Vermaseren 1977, Walser 1993, Kolb Fugmann 2008, Dubosson-Sbriglione 2018</note></app>
+                    <app loc="16"><note>pretorio, La Rocca Parisi Presicce 2010; <surplus>II</surplus>, Kolb Fugmann 2008; Italiane, La Rocca Parisi Presicce 2010</note></app>
+                    <app loc="17-18"><note>et Illyrici / consul ordinarius, Bricault 2005; Illirici, La Rocca Parisi Presicce 2010, HD</note></app>
+                    <app loc="20"><note>Eleusinis, Vermaseren 1977</note></app>
+                    <app loc="21"><note><supplied reason="lost">A</supplied>eginam, Vermaseren 1977, Dubosson-Sbriglione 2018, HD</note></app>
+                    <app loc="23"><note>annos, Polara 2000, Kahlos 2002</note></app>
+                </p>
+                <p>B (sin.)</p>
+                <p>
+                    <app loc="4"><note>atque, Polara 2000</note></app>
+                    <app loc="8"><note>pudicibus, Velestino 2016</note></app>
+                    <app loc="9"><note>pietati, Martínez-Maza 2003</note></app>
+                    <app loc="10"><note>sonoris, Lambrechts 1955, Martínez-Maza 2003</note></app>
+                    <app loc="14"><note>ornans colens, Lambrechts 1955, Vermaseren 1977, Polara 2000, Kahlos 2002</note></app>
+                    <app loc="1-15"><note>Kahlos 2002 places the inscription on the opposite side and omits the first two lines with the dedication</note></app>
+                </p>
+                <p>C (dex.)</p>
+                <p>
+                    <app loc="1"><note>Praetexstatus, La Rocca Parisi Presicce 2010</note></app>
+                    <app loc="8"><note>CALDAS<unclear>N</unclear>/////<unclear>S</unclear>///////VS//N<unclear>I</unclear>///, CIL 06 1779; 
+                        caldas n ......us s.n..., Lambrechts 1955, Vermaseren 1977, Polara 1967, Martínez-Maza 2003; 
+                        Calda <gap reason="lost" extent="unknown" unit="character"/>, Kahlos 2002; 
+                        caldas <gap reason="lost" extent="unknown" unit="character"/>, Henriksén 2008; 
+                        calda n<gap reason="lost" extent="unknown" unit="character"/>us<gap reason="lost" extent="unknown" unit="character"/>n, Dubosson-Sbriglione 2018; 
+                        caldas <gap reason="lost" extent="unknown" unit="character"/>us <gap reason="lost" extent="unknown" unit="character"/>n, Lorito 2019; 
+                        cre<supplied reason="lost">bri</supplied>s or cre<supplied reason="lost">den</supplied>s <gap reason="lost" extent="unknown" unit="character"/>VSS<gap reason="lost" extent="unknown" unit="character"/>NI, CLE 0111; 
+                        cre<supplied reason="lost">scen</supplied>s <supplied reason="lost">i</supplied>n <supplied reason="lost">aevum m</supplied>o<supplied reason="lost">rum laudib</supplied>us <supplied reason="lost">om</supplied>ni<supplied reason="lost">bus</supplied>, Cholodniak; 
+                        cae<supplied reason="lost">le</supplied>s<supplied reason="lost">tium iam sede semper mec</supplied>u<supplied reason="lost">m e</supplied>ri<supplied reason="lost">s</supplied>, Pighi 1944, p. 24, La Rocca Parisi Presicce 2010, HD; 
+                        credas n<unclear>ec</unclear> <gap reason="illegible" quantity="7" unit="character"/>us s<unclear>e</unclear>n<unclear>t</unclear>i<unclear>o</unclear>, M.G. Schmidt CIL 06, p. 4758; 
+                        credas n<gap reason="illegible" quantity="6" unit="character"/>s(?)<gap reason="illegible" quantity="4" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>uss<unclear>e</unclear>nt (?), EDR121930 (G. Crimi), Velestino 2016; 
+                        cr<unclear>e</unclear>d<unclear>a</unclear>s <gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="10" unit="character" cert="low"/>us [- 2? -]NT<gap reason="lost" extent="unknown" unit="character"/>, Campedelli in print</note></app>
+                    <app loc="1-8"><note>Kahlos 2002 places the inscription on the opposite side and omits the first two lines with the dedication</note></app>
+                </p>
+                <p>D (retro)</p>
+                <p>
+                    <app loc="1"><note>Splendor, Polara 2000</note></app>
+                    <app loc="2"><note><supplied reason="lost">quam</supplied> quod, all editors except Campedelli and Porena; quam, Polara 2000</note></app>
+                    <app loc="3"><note><supplied reason="lost">S</supplied>ed, Cholodniak; sed, Polara 2000</note></app>
+                    <app loc="5"><note>coniugemque, Polara 2000</note></app>
+                    <app loc="8"><note>utraque, Polara 2000</note></app>
+                    <app loc="9"><note>portas, Vermaseren 1977</note></app>
+                    <app loc="13"><note>mystes, CLE 0111, Lambrechts 1955, Courtney 1995; m<supplied reason="lost">y</supplied>stes, Cholodniak 1904, Vermaseren 1977, Kahlos 2002, Martínez-Maza 2003, Henriksén 2008, La Rocca Parisi Presicce 2010, Lorito 2019</note></app>
+                    <app loc="16"><note>coniuge, La Rocca Parisi Presicce 2010, Lorito 2019, HD, EDR
+26: Dyndimenes, Polara 2000; Atteosque, CLE 0111, Courtney 1995, Campedelli in print; Atteosqu<supplied reason="lost">e</supplied>, Cholodniak 1904, Lambrechts 1955, Vermaseren 1977, Kahlos 2002, Martínez-Maza 2003, Henriksén 2008, La Rocca Parisi Presicce 2010, Velestino 2016, Dubosson-Sbriglione 2018, Lorito 2019</note></app>
+                    <app loc="31"><note>ipse bonam, La Rocca Parisi Presicce 2010, Lorito 2019, HD</note></app>
+                    <app loc="34"><note>exemplum, CIL 06 1779, Lambrechts 1955, Polara 1967, Vermaseren 1977, Courtney 1995, Polara 2000, Kahlos 2002, Martínez-Maza 2003, Henriksén 2008, La Rocca Parisi Presicce 2010, Dubosson-Sbriglione 2018, Lorito 2019, HD</note></app>
+                    <app loc="35"><note>pulchrans, Martínez-Maza 2003</note></app>
+                    <app loc="37"><note>insignis, Martínez-Maza 2003</note></app>
                 </p>
             </div>
             <div type="translation" xml:lang="en">
-                <p>“...”</p>
+                <p><note>Croke, Harries 1982, pp. 106-108, nr. 67 = Kahlos 2002, pp. 216-219</note></p>
+                <p>A (front): “To the Divine Shades. Vettius Agorius Praetextatus, augur, priest of Vesta, priest of the Sun, <foreign>quindecemvir</foreign>, curial of Hercules, consecrated to Liber and the Eleusinian mysteries, high priest, temple overseer (<foreign>neocorus</foreign>), initiate of the taurobolium, Father of the Fathers [priest of Mithras]; but in public office: quaestor designate, urban praetor, governor (<foreign>corrector</foreign>) of Tuscia and Umbria, governor (<foreign>consularis</foreign>) of Lusitania, proconsul of Achaea, Prefect of the City, seven** times sent by the senate as ambassador, twice* Praetorian Prefect of Italy and Illyricum, designated <foreign>consul ordinarius</foreign>, and Aconia Fabia Paulina <foreign>c</foreign>(<foreign>larissima</foreign>) <foreign>f</foreign>(<foreign>emina</foreign>), consecrated to Ceres and the Eleusinian mysteries, consecrated at Aegina to Hecate, initiate of the taurobolium, high priestess. These two lived together for forty years”.</p>
+                <p>B (left): “Vettius Agorius Praetextatus to his wife Paulina. Paulina partner of my heart, nurse of modesty, bond of chastity, pure love and loyalty produced in heaven, to whom I have entrusted the deep hidden secrets of my heart, gift of the gods who bind our marriage couch with friendly and modest ties; by the devotion of a mother, the gratitude of a wife, the bond of a sister, the modesty of a daughter, and by all the loyalty friends show we are united by the custom of age, the pact of consecration, by the yoke of the marriage vow and perfect harmony, helpmate of your husband, loving, adoring, devoted”.</p>
+                <p>C (right): “Vettius Agorius Praetextatus to his wife Paulina. Paulina, associate of truth and chastity, dedicated in temples and friend of the divine powers, putting her husband before herself, Rome before her man, modest, faithful, pure in mind and body, kind to all, a blessing to her household”.</p>
+                <p>D (back): “The glory of my parents gave me nothing greater than to have seemed already worthy of my husband; but all light and glory is my husband’s name. Agorius, sprung of proud lineage, you illumine your country, the senate and your wife by your integrity of mind, your character and your scholarship all at once. By these you attained the highest peak of virtue, for by translating whatever is proclaimed in either tongue by the thought of the wise, to whom the gate of heaven lies open, both the poems which the learned have composed and the prose works recited aloud, you have improved upon what you have found written down. Yet these things are of little account. You, a holy man, and priest of the mysteries, conceal in the secret places of your heart what you discovered in the sacred initiations and with your manifold learning you worship the divine power, uniting with your kindness your wife as your associate with the sacred objects, confidante of men and gods, and in one mind with you as she was. What may I now say of the offices and powers, joys sought by men in their prayers, which you who regard yourself as a priest of the gods and are marked out by your priestly headbands, always consider transient and trivial ? You, O husband, deliver me pure and chaste from the lot of death by the goodness of your teaching, lead me into the temples and dedicate me to the gods as their handmaid. With you as witness I am initiated into all the mysteries. You, in your duty as husband, consecrate me as priestess of Didymenes [Cybele] and Attis through the rites of the bull. You instruct me, as a priestess of Hecate, in the threefold secrets and you prepare me for being worthy of the rites of Greek Ceres. Because of you everyone proclaims me holy and blessed, since it is you who spread my goodness throughout the world. Although unknown I am known to all. With you as my husband how could I fail to please ? The matrons of Romulus’ city seek me as a model and regard their offspring as beautiful if it resembles yours. Men and women alike both seek after and acclaim the honours which you, my teacher, have given me. Now, robbed of all this I, your grief-stricken wife, am wasting away. Happy would I have been had the gods granted that my husband had outlived me. Yet I am happy because I am yours, was yours and soon shall be yours after death”.</p>
+                <p><note>other English transl.: Glover 1901 pp. 163-164 [retro = Purdie 1935, pp. 28-32];  Lefkowitz, Fant 1992, pp. 305-306; Courtney 1995, pp. 56-61; Lorito 2019, pp. 194-196</note></p>
             </div>
             <div type="translation" xml:lang="fr">
-                <p>“...”</p>
+                <p><note>Dubosson-Sbriglione 2018, pp. 505-506</note></p>
+                <p>A (avers): “Aux dieux Mânes. Vettius Agorius Praetextatus, augure, pontife de Vesta, pontife de Sol, quindécemvir, curiale d’Hercule, hiérophoante consacré à Liber et aux déesses d’Eleusis, néocore, taurobolié, père des pères (de Mithra); et par ailleurs dans la vie publiqe: questeur candidat (de l’empereur), préteur urbain, correcteur de la Toscane et de l’Ombrie, consulaire de Lusitanie, proconsul d’Achaïe, préfet de la Ville, par sept fois ambassadeur envoyé par le Sénat, deux fois* préfet du prétoire en Italie et en IIlyrie, consul ordinaire désigné, et Aconia Fabia Paulina, femme clarissime, consacrée à Cérès et aux déesses d’Eleusis, consacrée à l’Hécate d’Egine, tauroboliée, hiérophante; ils ont vécu comme époux quarante ans ensemble”.</p>
+                <p>B (gauche): “Vettius Agorius Praetextatus à son épouse Paulina. Paulina, partenaire de notre cœur, flamme de pudeur, lien de chasteté et amour pur, loyauté engendrée par le ciel, toi à qui j’ai confié les secrets enfermés dans mon esprit, présent des dieux qui tissent le lit conjugal avec les liens de l’amitié et de la pudeur. C’est avec la pieuse affection d’une mère, la grâce d’une épouse, l’attachement d’une soeur, la docilité d’une fille, avec toute la confiance qui nous unit aux amis, avec l’expérience du temps de la vie, avec notre alliance dans les consécrations, avec l’harmonie simple et fidèle de l’union que tu aides, que tu aimes, que tu honores ton mari et que tu prends soin de lui”.</p>
+                <p>V (droite): “Vettius Agorius Praetextatus à son épouse Paulina. Paulina, consciente de la vérité et de la pudeur, consacrée aux temples et amie des divinités, faisant passer son époux avant elle et Rome avant son époux, réservée, fidèle, pure d’esprit et de corps, bienveillante envers tous, utile envers nos pénates, chaleureuse (?) ...”.</p>
+                <p>D (revers): “La magnificence de mes parents ne m’a rien donné de plus grand que d’avoir paru dès lors digne de mon mari, mais tout mon éclat et ma gloire se trouvent dans ton nom, mon époux Agorius, qui, né d’une fière souche, illumines ta patrie, le Sénat et ton épouse de ton intégrité, de tes moeurs autant que de tes études, conditions grâce auxquelles tu as atteint le sommet du mérite. Quelle que soit celle des deux langues dans laquelle (?) un ouvrage a été édité, par les soins des sages pour qui la porte du ciel reste ouverte, quels que soient les poèmes écrits par un homme d’expérience ou produits en rythmes libres, tu les rends dans un meilleur état que tu ne les avais pris au début de ta lecture. Mais tout cela n’est rien: toi, pieux myste, tu gardes dans le secret de ton âme les découvertes que tu as faites lors des initiations sacrées, et, en homme instruit, tu honores la puissance des dieux aux aspects multiples en associant avec bonté ton épouse aux cultes, ayant la connaissance des hommes et des dieux et confiante en toi. A quoi bon parler maintenant des honneurs, de ta puissance et des satisfactions que les hommes appellent de leurs voeux ? Tout cela, tu l’as toujours considéré comme caduc et infime. Prêtre des dieux, tu gagne de haute réputation par tes bandelettes. Toi, mon époux, tu m’as soustraite pure et vertueuse par le bien de ton enseignement au destin de mortelle; tu me conduis dans les temples et tu me consacres servante des dieux; en ta présence, je m’imprègne de tous les mystères; toi, mon pieux époux, tu m’honores en tant que prêtresse de la déesse du Dindyme et d’Attis au moyen des initiations taurines; tu enseignes à la prêtresse d’Hécate que je suis, ses trois secrets et tu me prépares à être digne du culte de Cérès la Grecque. Grâce à toi, tous me célèbrent comme une femme heureuse, comme une femme pieuse, parce que c’est toi-même qui répands une bonne image de moi dans le monde entier: bien qu’inconnue, je suis connue de tous. En effet pourquoi ne pourrais-je pas plaire par toi, mon époux ? Les matrones de Rome recherchent en moi un exemple et songent à une belle postérité, si elle ressemble à la tienne. Hommes et femmes choisissent et approuvent les marques de distinction que tu m’as délivrées en ta qualité d’enseignant. Maintenant que celles-ci ont été enlevées, je me consume en triste épouse; j’aurais  été heureuse si les dieux m’avaient donné un mari qui m’aurait survécu, et pourtant je suis heureuse parce que tienne, je le suis, je l’ai été et je le serai bientòt après la mort”.</p>
             </div>
             <div type="translation" xml:lang="it">
-                <p>“...”</p>
+                <p>A (fronte): “Agli dèi Mani. Vettius Agorius Praetextatus, augure, pontefice di Vesta, pontefice del Sole, quindecemviro, curiale di Ercole, consacrato a Libero e ai misteri Eleusini, ierofante, neocoro, tauroboliato, padre dei padri; e quanto alla repubblica: questore candidato, pretore urbano, correttore di Tuscia e Umbria, consolare di Lusitania, proconsole d’Acaia, prefetto urbano, legato inviato in missione dal senato 5 volte, prefetto del pretorio ‘doppio’* d’Italia e d’Illirico, console ordinario designato; e la chiarissima Aconia Fabia Paulina, consacrata a Cerere e ai misteri Eleusini, consacrata a Ecate ad Egina, tauroboliata, ierofantria; essi, sposati, vissero insieme 40 anni.”</p>
+                <p>B (sinistro): “Vettius Agorius Praetextatus alla moglie Paulina. Paulina, destino condiviso del nostro cuore, contegno che infiamma, purezza che frena gli istinti, amore incontaminato e fedeltà germogliata nel cielo, colei alla quale ho dischiuso con fiducia i segreti recessi della mia mente, regalo degli dèi, che vincolano il talamo matrimoniale con obblighi di amichevole purezza, lei, con l’amore devoto di una madre, con la delicatezza di una sposa, con l’attaccamento di una sorella, con la soggezione di una figlia e con quanta fiducia ci lega agli amici, aiuta, ama, impreziosisce, venera il marito nell’impegno consapevole del tempo, nella sintonìa nel servizio alle divinità, nella reciproca fedele e sincera concordia”.</p>
+                <p>C (destro): “Vettius Agorius Praetextatus alla moglie Paulina. Paulina, che conosce la verità e la purezza, votata ai templi e amica delle divinità, che antepone il marito a sé e Roma al marito, pudica, fedele, incorrotta nella mente e nel corpo, gentile verso tutti, al servizio dei Penati, crederesti ...”.</p>
+                <p>D (retro): “Lo splendore degli avi non mi ha dato nulla di più grande dell’apparire degna di mio marito allora (al tempo delle nozze), ma ogni luce e prestigio sono il nome di lui: tu, o Agorius, che, generato da un superbo germoglio, illumini all’unisono la patria, il senato e la tua sposa con la perfettta integrità del tuo pensiero, con i tuoi comportamenti, con gli studi, grazie ai quali hai raggiunto il culmine eccelso della virtù. Tu infatti rendi migliore di quando lo hai selezionato per la lettura qualunque testo sia pubblicato in entrambe le lingue dalla cura dei sapienti, per i quali è aperta la porta del cielo, sia i poemi che gli esperti del verso fissarono, sia quanto fu prodotto in parole sciolte. Ma questo è poca cosa: tu, devoto iniziato, trattieni nel segreto della tua mente quanto scoperto nelle sacre cerimonie iniziatiche, e, edotto, rendi culto al molteplice nume delle divinità, legando amabilmente la sposa, tua compagna, ai riti sacri, consapevole lei delle cose umane e delle cose divine, e a te fedele. Perché dovrei ora parlare delle cariche e dei poteri, traguardi cui gli uomini aspirano facendo voti ? Tu, che affermi essere queste cose caduche e insignificanti, sei celebre come sacerdote degli dèi, inarrivabile nei paramenti sacri. Tu, o marito, che mi strappi a un destino di morte purificata e immacolata grazie al buon esito dei percorsi iniziatici, mi guidi nei templi e mi dichiari serva delle divinità. Grazie alla tua testimonianza mi immergo in tutti i misteri: tu mi promuovi celebrante di Dindymenes e di Attis, devoto sodale delle consacrazioni taurine; tu insegni i triplici segreti a me ministra di Hecates; tu mi prepari a essere degna dei culti della Cerere Greca. Per merito tuo tutti mi celebrano come beata e devota, perché tu stesso diffondi la mia buona fama in tutto il mondo: ignota, sono conosciuta da tutti. Infatti essendo tu mio marito, come potrei non essere apprezzata ? Le madri romulee prendono esempi da me, e ritengono bella la loro prole se è simile alla tua. Tanto gli uomini quanto le donne scelgono e apprezzano le insegne che tu maestro mi hai fatto indossare. Ora che questa cose mi sono state tolte, desolata sposa mi consumo, felice se gli dèi avessero concesso che mio marito mi sopravvivesse, eppure felice, perché tua sono e fui e dopo la morte tra poco sarò”.</p>
+                <p><note>others Italian transl.: Polara 1967, pp. 43-46; Storoni Mazzolani 1969, pp. 61-62 only side d [= Ensoli, La Rocca 2000, pp. 507-508]; Velestino 2016, pp. 74-75</note></p>
+                <p> </p>
+                <p>*   “praetorian prefect at the same time over two seats”, concerning the iteration see Commentary</p>
+                <p>** five is the number chiselled on the stone</p>
             </div>
             <div type="commentary">
                 <p>The critical edition, translations and commentary of inscriptions 77-80 will be completed by the end of April 2022. We apologise for the delay.</p>
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
+                    <bibl><note>main editions only</note></bibl>
                     <bibl><ref>CIL 06, 01779</ref> (cfr. pp. 3174, 3814, 4757-4759)</bibl>
                     <bibl><ref>ILS 1259</ref></bibl>
                     <bibl><ref>CLE 0111</ref></bibl>
-                    <bibl><ref>Lambrechts 1955, pp. 55-56</ref> = <bibl><ref>AE 1958, 0152</ref></bibl></bibl> 
-                    <bibl><ref>Kahlos 1994</ref> = <bibl><ref>AE 1994, 0107</ref></bibl></bibl>
-                    <bibl><ref>Niquet 2000, pp. 237–252</ref> = <bibl><ref>AE 2000, 0102</ref></bibl></bibl>
-                    <bibl><ref>Ensoli, La Rocca 2000, pp. 507-508, nr. 130</ref> = <bibl><ref>AE 2000, 0136</ref></bibl></bibl> 
-                    <bibl><ref>Polara 2000</ref> = <bibl><ref>AE 2000, 0161</ref></bibl></bibl> 
+                    <bibl><ref>Cholodniak 1904, pp. 20-22, nr. 55</ref></bibl>
+                    <bibl><ref>Lambrechts 1955, pp. 4-6</ref> = <bibl><ref>AE 1958, 0152</ref></bibl> (with Dutch translation)</bibl> 
+                    <bibl><ref>Polara 1967, pp. 43-46</ref> (with Italian translation)</bibl>
+                    <bibl><ref>Vermaseren 1977, pp. 62-64, nr. 246</ref> (with photo, Tab. CXXXIII-CXXXV)</bibl>
+                    <bibl><ref>Walser 1993, pp. 62-63, nr. 20</ref> (only side a, with photo and German translation)</bibl>
+                    <bibl><ref>Courtney 1995, pp. 56-61</ref> (with English translation, commentary pp. 252-255)</bibl>
+                    <bibl><ref>Niquet 2000, p. 240</ref> = <bibl><ref>AE 2000, 0102</ref></bibl> (only side a, with photo, Taf. III-V)</bibl>
+                    <bibl><ref>Polara 2000, pp. 124-125</ref> = <bibl><ref>AE 2000, 0161</ref></bibl></bibl>
+                    <bibl><ref>Kahlos 2002, pp. 216-219</ref> (with English translation by Croke, Harries 1982, pp. 106-108, nr. 67) </bibl>
                     <bibl><ref>Martínez-Maza 2003, pp. 66-67</ref> = <bibl><ref>AE 2003, 0151</ref></bibl></bibl>
+                    <bibl><ref>Bricault 2005, pp. 551-552, nr. 501/018</ref> (only side a, with French translation) </bibl>
+                    <bibl><ref>Lassère 2005, pp. 735-740, nr. 413</ref> (only side a, with French translation)</bibl>
                     <bibl><ref>Henriksén 2008, pp. 723-724, nr. 5</ref> = <bibl><ref>AE 2008, 0150</ref></bibl></bibl>
-                    <bibl><ref>Kolb, Fugmann 2008, pp. 66-70, nr. 14</ref>, with photo</bibl>
-                    <bibl><ref>La Rocca, Parisi Presicce 2010, pp. 344-347, nr. 2</ref> with photo</bibl> 
-                    <bibl><ref>Cugusi 2007, pp. 98, 152</ref></bibl> 
+                    <bibl><ref>Kolb, Fugmann 2008, pp. 66-70, nr. 14</ref> (only side a, with photo and German translation) </bibl>
+                    <bibl><ref>La Rocca, Parisi Presicce 2010, pp. 344-347, nr. 2</ref> (ed. A. Danti, with photo)</bibl>
+                    <bibl><ref>Velestino 2016, pp. 72-76, nr. 22</ref> (with photo of sides a and d, with Italian translation) </bibl>
+                    <bibl><ref>Dubosson-Sbriglione 2018, pp. 505-506, nr. 508</ref> (with French translation)  </bibl>
+                    <bibl><ref>Lorito 2019, pp. 192-196</ref> (with English translation)</bibl>
+                    <bibl><ref>Campedelli in print</ref> (with photo and German translation)</bibl> 
                 </p>
             </div>
             <div type="bibliography" subtype="images">
                 <p>
-                    <bibl><ref>SupplIt Imagines - Roma I, 36</ref></bibl> 
+                    <bibl><ref>Stuart Jones 1912, p. 77, nr. 9, Pl. 15</ref></bibl>
+                    <bibl><ref>SupplIt Imagines, Roma (CIL, VI) 1: Musei Capitolini, p. 60, nr. 36, fig. 36</ref></bibl> 
                 </p>
             </div>
             <div type="bibliography" subtype="links">
@@ -252,23 +337,97 @@
             </div>
             <div type="bibliography" subtype="other">
                 <p>
-                    <bibl>Cugusi P., Per un nuovo Corpus dei Carmina Latina Epigraphica. Materiali e discussioni, Roma 2007 (98, 152)</bibl> 
-                    <bibl>Ensoli S., La Rocca E. (edd.), Aurea Roma. Dalla città pagana alla città cristiana, Roma 2000 (507-508, nr. 130)</bibl> 
+                    <bibl>Arata F.P., MUNIFICENTIA SS. D. N. BENEDICTI. PP. XIV: Le provvidenze di Papa Lambertini per il
+Museo Capitolino (1740-1758), BCAR, 114, 2013, 105-156</bibl>
+                    <bibl>Bigi F., Tantillo I. (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020</bibl>
+                    <bibl>Bjornebye J., Secrecy and Initiation in the Mithraic Communities of Fourth Century Rome, in Mystery and secrecy in the Nag Hammadi collection and other ancient literature: ideas and practices studies for Einar Thomassen at Sixty, Leiden 2012, 349-374</bibl>
+                    <bibl>Bricault L., Receuil des inscriptions concernant les cultes Isiaques (RICIS), II, Corpus, Paris 2005</bibl>
+                    <bibl>Bricault L., Les prêtres isiaques du monde romain, in V. Gasparini, R. Veymiers (eds), Individuals and materials in the Greco-Roman cults of Isis: agents, images, and practices, Leiden-Boston (Mass.) 2018, 155-197</bibl>
+                    <bibl>Cameron Al., The last Pagans of Rome, Oxford-New York 2011</bibl>
+                    <bibl>Campedelli C., Der Grabaltar von Praetextatus und Paulina: eine aristokratische Liebeserklärung über den Tod hinaus, Gymnasium, in print</bibl>
+                    <bibl>Cecconi G.A., Commento storico al libro II dell’epistolario di Q. Aurelio Simmaco, Pisa 2002</bibl>
+                    <bibl>Chastagnol A., Les fastes de la préfecture de Rome au Bas-empire, Paris 1962</bibl>
+                    <bibl>Cholodniak J., Carmina sepulcralia latina epigraphica, Petropolis 1904 (2nd ed. emendata et aucta; 1897)</bibl>
+                    <bibl>Consolino F.E., Tradizionalismo e trasgressione nell’élite senatoria romana: ritratti di signore fra la fine del IV e l’inizio del V secolo, in R. Lizzi (a cura di), Le trasformazioni delle élites in età tardoantica, Roma 2006, 65-139</bibl>
+                    <bibl>Consolino F.E., Macrobius’ «Saturnalia» and the «Carmen contra paganos», in R. Lizzi Testa (ed.), The strange Death of pagan Rome. Reflections on a historiographical controversy, Turnhout 2013, 85-107</bibl>
+                    <bibl>Courtney E., Musa Lapidaria. A selection of latin verse inscriptions, Atlanta 1995</bibl>
+                    <bibl>Croke B., Harries J., Religious Conflict in Fourth-Century Rome. A Documentary Study, Sidney 1982</bibl>
+                    <bibl>Cugusi P., Per un nuovo Corpus dei Carmina Latina Epigraphica. Materiali e discussioni, Roma 2007</bibl>
+                    <bibl>DiLuzio M., All Call Me Blessed: the Magnificat in Paulina’s Poem to Praetextatus, JLA, 10/2, 2017, 432-453</bibl>
+                    <bibl>Dubosson-Sbriglione L., Le culte de la Mère des dieux dans l'Empire romain, Stuttgart 2018</bibl>
+                    <bibl>Ensoli S., La Rocca E. (edd.), Aurea Roma. Dalla città pagana alla città cristiana, Roma 2000</bibl>
+                    <bibl>Ensslin W., Praetextatus 1, in RE XXII/2, Stuttgart 1954, coll. 1575-1579</bibl>
+                    <bibl>Eppinger A., Hercules in der Spätantike. Die Rolle des Heros im Spannungsfeld von Heidentum und Christentum. Wiesbaden 2015</bibl>
+                    <bibl>Glover T.R., Life and Letters in the Fourth Century, Cambridge 1901</bibl>
+                    <bibl>Granino Cecere M.G., Quindecemviri e sacra peregrina, in «Sacrum Facere». Atti del V Seminario di Archeologia del Sacro. Sacra peregrina. La gestione della pluralità religiosa nel mondo antico, Trieste 2019, 147-163</bibl>
+                    <bibl>Groag E., Die Reichsbeamten von Achaia in spätrömischer Zeit, Budapest 1946</bibl>
+                    <bibl>Helbig W., Grabinschrift auf dem Grabaltar des Vettius Agorius Praetextatus und seiner Gattin Fabia Aconia Paulina,384/5 nach Chr., in Führer durch die öffentlichen Sammlungen klassischer Altertümer in Rom, II. Die Städtischen Sammlungen: Kapitolinische Museen und Museo Barracco. Die Staatlichen Sammlungen : Ara Pacis, Galleria Borghese, Galleria Spada, Museo Pigorini. Antiquarien auf Forum und Palatin, bearb. von B. Andreae [et al.], 4 ed., Tübingen 1966, 76-79</bibl>
                     <bibl>Henriksén C., «Dignus maiori quem coleret titulo»: «epigrammata longa» in the «Carmina Latina epigrafica», in Morelli A.M. (ed.), Epigramma longum. Da Marziale alla tarda antichità. From Martial to Late Antiquity. Atti del Convegno Internazionale: Cassino, 29-31 maggio 2006, Cassino 2008, 693-724</bibl>
+                    <bibl>Hijmans S.E., Temples and priests of Sol in the city of Rome, Mouseion, 10, 2010, 381-427</bibl>
+                    <bibl>Iara K., Senatorial Aristocracy. How Individual is individual Religiosity ?, in E. Rebillard, J. Rüpke (eds), Group Identity and Religious Individuality in Late Antiquity, Washington 2015, 165-214</bibl>
                     <bibl>Kahlos M., Fabia Aconia Paulina and the death of Praetextatus: rhetoric and ideals in late antiquity: (CIL VI 1779), in Arctos, 28, 1994, 13-25</bibl>
-                    <bibl>Kolb A., Fugmann B., Tod in Rom. Grabinschriften als Spiegel roemischen Lebens, Mainz am Rhein 2008 (66-70, nr. 14)</bibl> 
-                    <bibl>La Rocca E., Parisi Presicce C. (edd.), Le sculture del Palazzo Nuovo. Musei Capitolini. I, Roma 2010 (344-347, nr. 2)</bibl> 
-                    <bibl>Lambrechts P., Op de grens van heidendom en christendom. Het grafschrift van Vettius Agorius Praetextatus en Fabia Aconia Paulina, Bruxelles 1955 (55-56)</bibl> 
-                    <bibl>Martínez-Maza C., Devotas mistéricas en la Roma bajoimperial, in Aevum, 77.1, 2003, 53-68</bibl>
-                    <bibl>Niquet H., Monumenta virtutum titulique: senatorische Selbstdarstellung im spätantiken Rom im Spiegel der epigraphischen Denkmäler, Stuttgart 2000 (237–252)</bibl>
-                    <bibl>Pighi G.B., Commentariolus electorum, in Aevum, 18, 1944, 14-51 (23-24, nr. 3) = <bibl><ref>AE 1954, 0002</ref></bibl></bibl>
-                    <bibl>Polara G., Iscrizioni e propaganda: il cippo tombale di Pretestato, in Consolino F.E. (ed.), Letteratura e propaganda nell’Occidente latino da Augusto ai regni romanobarbarici. Atti del Convegno Internazionale, Arcavacata di Rende 1998, Roma 2000, 107-126</bibl> 
+                    <bibl>Kahlos M., The restoration policy of Vettius Agorius Praetextatus, Arctos, 29, 1995, 39-47</bibl>
+                    <bibl>Kahlos M., Vettius Agorius Praetextatus and the rivalry between the bishops in Rome in 366-367, Arctos, 31, 1997, 41-54</bibl>
+                    <bibl>Kahlos M., Vettius Agorius Praetextatus. A senatorial life in between, Roma 2002</bibl>
+                    <bibl>Kolb A., Fugmann B., Tod in Rom. Grabinschriften als Spiegel römischen Lebens, Mainz am Rhein 2008</bibl>
+                    <bibl>Kuhoff W., s.v. Vettius Agorius Praetextatus, in Biographisch-Bibliographisches Kirchenlexikon, XII, Herzberg 1997, 1297-1309</bibl>
+                    <bibl>Lambrechts P., Op de grens van heidendom en christendom. Het grafschrift van Vettius Agorius Praetextatus en Fabia Aconia Paulina, Bruxelles 1955</bibl>
+                    <bibl>La Rocca E., Parisi Presicce C. (edd.), Le sculture del Palazzo Nuovo. Musei Capitolini. I, Roma 2010</bibl>
+                    <bibl>Lassère J.-M., Manuel d’épigraphie romaine, 2 voll., Paris 2005</bibl>
+                    <bibl>Lefkowitz M.R., Fant M.B., Women’s life in Greece &amp;s Rome. A source book in translation, London 1992 (2nd ed.)</bibl>
+                    <bibl>Lizzi Testa R., Senatori, popolo, papi. Il governo di Roma al tempo dei Valentiniani, Bari 2004</bibl>
+                    <bibl>Lizzi Testa R., Christian emperor, vestal virgins and priestly colleges: reconsidering the end of Roman paganism, Ant Tard, 15, 2007, 251-262</bibl>
+                    <bibl>Lizzi Testa R., «Augures et pontifices»: public sacral law in late antique Rome (fourth-fifth centuries A.D.), in A.J. Cain, N.E. Lenski (eds), The power of Religion in Late Antiquity, Farnham-Burlington 2009, 251-278</bibl>
+                    <bibl>Lorito R., Latin epigraphy and literary texts in 4th century AD Rome: the case of Vettius Agorius Praetextatus, in R. Berardi, N. Bruno, L. Fizzarotti (eds), On the track of the books. Scribes, libraries and textual transmission, Berlin-Boston (Mass.) 2019, 189-199</bibl>
+                    <bibl>Martínez-Maza C., Devotas mistéricas en la Roma bajoimperial,  Aevum, 77, 2003, 53-68</bibl>
+                    <bibl>Matthews J.F., Four Funerals and a Wedding. This World and the Next in Fourth-Century Rome, in Ph. Rousseau, M. Papoutsakis (eds), Transformations of Late Antiquity. Essays for Peter Brown, Farnham-Burlington 2009, 129-146</bibl>
+                    <bibl>Massa F., Vettio Agorio Pretestato: aristocrazia romana, “culti orientali” e cristianesimo, in C. Bonnet, E. Sanzi (a cura di), Roma città degli dèi. La capitale dell’impero come laboratorio religioso, Roma 2018, 63-76</bibl>
+                    <bibl>Massa F., Éleusis-Rome aller / retour: mobilités religieuses autour des mystères éleusiniens à l’époque impériale, in A. Bassir (dir.), Migrations et mobilité religieuse: espaces, contacts, dynamiques et interférences, Besançon 2020, 271-293</bibl>
+                    <bibl>Niquet H., Monumenta virtutum titulique: senatorische Selbstdarstellung im spätantiken Rom im Spiegel der epigraphischen Denkmäler, Stuttgart 2000</bibl>
+                    <bibl>Nistler J., Vettius Agorius Praetextatus, Klio, 10, 1910, 462-475</bibl>
+                    <bibl>Ogden D. (ed.), The Oxford Handbook of Heracles, Oxford 2021</bibl>
+                    <bibl>Olszaniec S., The two prefects of 384 – Symmachus and Praetextatus, in K. Twardowska (ed.), Within the Circle of Ancient Ideas and Virtues. Studies in Honour of Professor Maria Dzielska, Krakov 2014, 233-242</bibl>
+                    <bibl>Orlandi S., Gli ultimi sacerdoti pagani di Roma: analisi della documentazione epigrafica, in Brown P., Lizzi Testa R. (eds.), Pagans and Christians in the Roman Empire: the Breaking of a Dialogue (IVth-VIth Century A. D.). Proceedings of the International Conference at the Monastery of Bose (October 2008), Wien-Zurich-Münster 2011, 425-466</bibl>
+                    <bibl>Palanque J.-R., Une prétendue préfecture de Vettius Agorius Praetextatus, Byzantion, 9, 1934, 355-359</bibl>
+                    <bibl>Pighi G.B., Commentariolus electorum: ad Aurelium Iosephum Amatucci, Aevum, 18, 1944, 14-51</bibl>
+                    <bibl>Plassart A., Inscriptions de Thespies, BCH, 50, 1926, 383-462</bibl>
+                    <bibl>Polara G., Le iscrizioni sul cippo tombale di Vezzio Agorio Pretestato, Vichiana, 4, 1967, 264-289</bibl>
+                    <bibl>Polara G., Iscrizioni e propaganda: il cippo tombale di Pretestato, in Consolino F.E. (ed.), Letteratura e propaganda nell’Occidente latino da Augusto ai regni romanobarbarici. Atti del Convegno Internazionale, Arcavacata di Rende 1998, Roma 2000, 107-126</bibl>
+                    <bibl>Porena P., Le iscrizioni del Pretorio di Gortyna e la carriera prefettizia di Sex. Petronius Probus, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020a, 87-141</bibl>
+                    <bibl>Porena P., Ipotesi sull’istituzione di una prefettura del pretorio autonoma d’Illirico nel decennio 378-387, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020b, 143-166</bibl>
+                    <bibl>Purdie A.B., Some observations on latin verse inscriptions, London 1935</bibl>
+                    <bibl>Reutter U., Damasus, Bischof von Rom (366-384): Leben und Werk, Tübingen 2009</bibl>
+                    <bibl>Roesch P., Les Inscriptions de Thespies, VII, Inscriptions honorifiques (première partie). Ėdition électronique mise en forme par G. Argoud, A. Schachter, G. Vottéro, Lyon 2007, https://www.hisoma.mom.fr/sites/hisoma.mom.fr/files/img/production-scientifique/IT%20VII%20%282009%29.pdf</bibl>
+                    <bibl>Rüpke J., Fasti Sacerdotum. Die Mitglieder der Priesterschaften und das sakrale Funktionspersonal römischer, griechischer, orientalischer und jüdisch-christlicher Kulte in der Stadt Rom von 300 v. Chr. bis 499 n. Chr., 3 voll., Stuttgart 2005</bibl>
+                    <bibl>Salzman M.R., Religious Koine and Religious Dissent in the Fourth Century, in J. Rüpke (ed.), A Companion to Roman Religion, Malden Mass.-Oxford 2007, 109-125</bibl>
+                    <bibl>Salzman M.R., Aurelian and the cult of the Unconquered Sun: the institutionalization of Christmas, solar worship, and imperial cult, in O. Tal, Z. Weiss (eds), Expressions of cult in the southern Levant in the Greco-Roman period: manifestations in text and material culture, Turnhout 2017, 37-49</bibl>
+                    <bibl>Seeck O., Q. Aurelii Symmachi quae supersunt, (MGH AA, VI/1) Berlin 1883</bibl>
+                    <bibl>Storoni Mazzolani L., Sul mare della vita, Palermo 1969</bibl>
+                    <bibl>Stuart Jones H., A Catalogue of the Ancient Sculptures preserved in the Municipal Collections of Rome. The Sculptures of the Museo Capitolino, Oxford 1912</bibl>
+                    <bibl>Tantillo I., I monumenti del ciclo di Asclepiodotus: i testi, i personaggi, la datazione, in Bigi F., Tantillo I. (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020, 63-86</bibl>
+                    <bibl>Van Haeperen Fr., Le collège pontifical (3ème s.a. C.-4ème s.p. C.). Contribution à l’étude de la religion publique romaine, Brussels 2002</bibl>
+                    <bibl>Van Haeperen F., Cultes publics, agents cultuels et pouvoir à Rome, Pallas, 111, 2019a, 137-151</bibl>
+                    <bibl>Van Haeperen F., Étrangère et ancestrale. La mère des dieux dans le monde romain, Paris 2019b</bibl>
+                    <bibl>Velestino D., Ara di Vettio Agorio Pretestato e di Aconia Fabia Paolina 384-387 d.C., in C. Parisi Presicce, L. Petacco (a cura di), La Spina. Dall’agro Vaticano a via della Conciliazione, Roma 2016, 72-76</bibl>
+                    <bibl>Vera D., Lotta politica e antagonismi religiosi nella Roma tardoantica: la vittoria sarmatica di Valentiniano II, Koinonia, 7, 1983, 133-155</bibl>
+                    <bibl>Vermaseren M.J., Corpus cultus Cybelae Attidisque (CCCA), III, Italia-Latium, Leiden 1977</bibl>
+                    <bibl>Walsh D., The cult of Mithras in Late Antiquity development, decline and demise ca. A.D. 270-430, Leiden-Boston 2018</bibl>
+                    <bibl>Walser G., Römische Inschriftkunst. Römische Inschriften für den akademischen Unterricht und als Einführung in die lateinische Epigraphik, zweite verbesserte Auflage, Stuttgart 1993</bibl> 
                 </p>
             </div>
             
             <div type="commentary" subtype="prefects">
                 <div type="commentary" n="1">
                     <p n="1.1"></p>
+                </div>
+                
+                <div type="commentary" n="2">
+                    <p n="2.a"></p>
+                    <p n="2.2"></p>
+                    <p n="2.3"></p>
+                    <list n="2.11">
+                        <item n="2.11.h"></item>
+                    </list>
                 </div>
                 
                 <div type="commentary" n="3">
@@ -279,9 +438,10 @@
                 <div type="commentary" n="8">
                     <p n="8.2">praefectus praetorio II Italiae et Illyrici</p>
                     <p n="8.3"></p>
-                    <p n="8.6"></p>
+                    <p n="8.6">praefectus praetorio II Italiae et Illyrici</p>
                     <p n="8.10"></p>
                     <p n="8.12"></p>
+                    <p n="8.14"></p>
                 </div>
             </div>
         </body>

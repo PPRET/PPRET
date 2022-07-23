@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Inscription in honour of the late praet. prefect Praetextatus, from Rome</title>
+                <title>Inscription in honour of the deceased praet. prefect Praetextatus from Rome (Pal. Massimo alle Colonne)</title>
                 <editor role="edition">Pierfrancesco Porena</editor>
                 <editor role="encoding">Irene Vagionakis</editor>
             </titleStmt>
@@ -25,7 +25,7 @@
                 </listPerson>
                 <msDesc>
                     <msIdentifier>
-                        <repository ref="#Roma">Roma, Palazzo Massimo alle Colonne</repository>
+                        <repository ref="#Roma">Roma, Palazzo Massimo alle Colonne, Scala nobile</repository>
                         <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
@@ -46,7 +46,7 @@
                                         <width>61</width>
                                         <depth>unknown</depth>
                                     </dimensions>
-                                    <rs type="inscribed_field_reuse">no</rs>
+                                    <rs type="inscribed_field_reuse">yes</rs>
                                     <rs type="monument_reuse">no</rs>
                                     <rs type="opistographic">no</rs>
                                 </support>
@@ -61,7 +61,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <term ref="#square_capitals">Late Roman capitals</term>
                                 <height>2.5 / 3</height>
                             </handNote>
                         </handDesc>
@@ -74,11 +74,11 @@
                                 <placeName type="province">Urbs</placeName>
                                 <placeName type="diocese">Italiciana</placeName>
                                 <placeName type="prefecture">Italia Illyricum Africa</placeName>
-                                <placeName type="ancient_location" ref="#private">private building: Pretextatus’s <foreign>domus</foreign></placeName>
+                                <placeName type="ancient_location" ref="#private">private building: <foreign>domus</foreign></placeName>
                             </origPlace>
-                            <origDate period="#p8" notBefore="0384" notAfter="0400">384 AD or later?</origDate>
+                            <origDate period="#p8" notBefore="0384" notAfter="0450">384/450 AD</origDate>
                         </origin>
-                        <provenance type="found">found in the 16th Century in <placeName ref="#Roma">Rome</placeName> on the Aventine, near the church of S. Alessio</provenance>
+                        <provenance type="found">found in the 16th Century in <placeName ref="#Roma">Rome</placeName> on the Aventine hill, near the church of S. Alessio</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -94,52 +94,55 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la">
                     <ab>
-                        <lb n="1"/>Vettio Agorio Praetextato, <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> et <expan><abbr>inl</abbr><ex>ustri</ex></expan>,
-                        <lb n="2"/>correctori Tusciae et Umbriae,
-                        <lb n="3"/>consulari Lusitaniae, proconsuli
-                        <lb n="4"/>Achaiae, <expan><abbr><hi rend="supraline">praef</hi></abbr><ex>ecto</ex></expan> <expan><abbr><hi rend="supraline">urb</hi></abbr><ex>i</ex></expan>, <expan><abbr><hi rend="supraline">praef</hi></abbr><ex>ecto</ex></expan> praetorii
+                        <lb n="1"/><unclear>V</unclear>ettio Agorio Praetextato, <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> et <expan><abbr>inl</abbr><ex>ustri</ex></expan>,
+                        <lb n="2"/><unclear>c</unclear>orrectori Tusciae et Umbriae,
+                        <lb n="3"/><unclear>c</unclear>onsulari Lusitaniae, proconsuli
+                        <lb n="4"/><unclear>A</unclear>chaiae, <expan><abbr><hi rend="supraline">praef</hi></abbr><ex>ecto</ex></expan> <expan><abbr><hi rend="supraline">urb</hi></abbr><ex>i</ex></expan>, <expan><abbr><hi rend="supraline">praef</hi></abbr><ex>ecto</ex></expan> praetorii
                         <lb n="5"/>Illyrici Italiae et Africae, <expan><abbr><hi rend="supraline">cons</hi></abbr><ex>uli</ex></expan> designato,
-                        <lb n="6"/>legato amplissimi ordinis septies
+                        <lb n="6"/>legato amplissimi ordinis septie<unclear>s</unclear>
                         <lb n="7"/>et ad impetrandum <expan><abbr>reb</abbr><ex>us</ex></expan> arduis
-                        <lb n="8"/>semper opposito
-                        <lb n="9"/>parenti publice <expan><abbr>privatimq</abbr><ex>ue</ex></expan> reverendo,
+                        <lb n="8"/>semper opposito <space extent="unknown" unit="character"/>
+                        <lb n="9"/>parenti publice <expan><abbr>privatimq</abbr><ex>ue</ex></expan> reverend<unclear>o</unclear>,
                         <lb n="10"/>ut etiam <sic>statuae</sic> ipsius domus
-                        <lb n="11"/>honoraret, insignia constitui
-                        <lb n="12"/>locarique curavit.
+                        <lb n="11"/>honoraret insignia constitui
+                        <lb n="12"/><space extent="unknown" unit="character"/> locarique curavit. <space extent="unknown" unit="character"/>
                     </ab>
             </div>
             <div type="apparatus">
                 <p>Edition based on CIL.</p>
                 <p>
-                    <app loc="10"><note>statua</note></app>
+                    <app loc="1"><note>inl(ustrissimo), LSA</note></app>
+                    <app loc="6-7"><note>septies et, ILS</note></app>
                 </p>
             </div>
             <div type="translation" xml:lang="en">
-                <p>“To Vettius Agorius Praetextatus, of clarissimus and most illustrious rank, corrector of Tuscia and Umbria, consular of Lusitania, proconsul of Achaia, urban prefect, praetorian prefect of Illyricum, Italy and Africa, designated consul, legate of the widest rank seven times and always opposed to causing adversities, a parent revered publicly and privately, in order to honour his own <foreign>domus</foreign> also with a statue, he (?) took care that (this) honour were set up and placed.”</p>
+                <p>“To Vettius Agorius Praetextatus, of clarissimus and illustrious rank, corrector of Tuscia and Umbria, consular of Lusitania, proconsul of Achaia, urban prefect, praetorian prefect of Illyricum, Italy and Africa, designated consul, legate of the most ample order (= Senate of Rome) seven times and always confronted by very difficult questions to be submitted (to the emperors), a father worthy of veneration in public and in private, so that through his statue the <foreign>domus</foreign> would also honour the insignia (?) took care that (this)  was set up”.</p>
             </div>
             <div type="translation" xml:lang="fr">
-                <p>“...”</p>
+                <p>“Au clarissime et illustre Vettius Agorius Praetextatus, correcteur de Tuscie et dOmbrie, consulaire de Lusitanie, proconsul d’Achaïe, préfet urbain, préfet du prétoire d’Illyricum, d’Italie et d’Afrique, consul désigné, légat de l’ordre le plus ample (= Sénat de Rome) sept fois et toujours placé devant des questions très difficiles à poser (aux empereurs), père digne de vénération en public et en privé, de sorte que même de sa statue la <foreign>domus</foreign> honorait les insignes, (?) s’est chargé de réaliser et de placer”.</p>
             </div>
             <div type="translation" xml:lang="it">
-                <p>“A Vettius Agorius Praetextatus, chiarissimo e illustrissimo, correttore della Tuscia e dell’Umbria, consulare della Lusitania, proconsole d’Acaia, prefetto urbano, prefetto del pretorio dell’Illirico, d’Italia e d’Africa, console designato, legato della classe più ampia per sette volte e sempre contrario al causare avversità, un genitore riverito pubblicamente e privatamente, al fine di onorare la sua <foreign>domus</foreign> anche con una statua, ha curato che (questo) onore fosse realizzato e posto.”</p>
+                <p>“Al chiarissimo e illustre Vettius Agorius Praetextatus, correttore di Tuscia e Umbria, consolare di Lusitania, proconsole d’Acaia, prefetto urbano, prefetto del pretorio dell’Illirico, d’Italia e d’Africa, console designato, legato dell’amplissimo ordine (= Senato di Roma) per sette volte e sempre posto di fronte a questioni molto difficili da essere esaudite, padre degno di venerazione in pubblico e in privato, affinché anche di una statua dello stesso la <foreign>domus</foreign> onorasse le insegne, (?) curò di realizzare e di collocare”.</p>
             </div>
             <div type="commentary">
                 <p>The critical edition, translations and commentary of inscriptions 77-80 will be completed by the end of April 2022. We apologise for the delay.</p>
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
-                    <bibl><ref>CIL 06, 01777</ref> (pp. 855, 3174, 3814, 4757)</bibl>
+                    <bibl><ref>CIL 06, 01777</ref> (p. 4757)</bibl>
                     <bibl><ref>ILS 1258</ref></bibl>
-                    <bibl><ref>Niquet 2000, pp. 247-252 </ref>= <bibl><ref>AE 2000, 0102</ref></bibl></bibl>
+                    <bibl><ref>Niquet 2000, p. 248 </ref>= <bibl><ref>AE 2000, 0102</ref></bibl></bibl>
+                    <bibl><ref>Kahlos 2002, p. 221</ref></bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="images">
                 <p>
-                    <bibl><ref>SupplIt Imagines - Roma V, 5349</ref></bibl> 
+                    <bibl><ref>SupplIt Imagines - Roma 05, p. 334, nr. 5349</ref></bibl> 
                 </p>
             </div>
             <div type="bibliography" subtype="links">
                 <p>
+                    <bibl><ref corresp="https://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-18100591">EDCS 18100591</ref></bibl>
                     <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR128718">EDR 128718</ref></bibl>
                     <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-1472">LSA 1472</ref></bibl>
                     <bibl><ref corresp="https://www.trismegistos.org/text/570240">TM 570240</ref></bibl>
@@ -147,8 +150,61 @@
             </div>
             <div type="bibliography" subtype="other">
                 <p>
-                    <bibl>Niquet H., Monumenta virtutum titulique: senatorische Selbstdarstellung im spätantiken Rom im Spiegel der epigraphischen Denkmäler, Stuttgart 2000 (247-252)</bibl>
-                    <bibl>Rüpke J., Fasti sacerdotum: die Mitglieder der Priesterschaften und das sakrale Funktionspersonal römischer, griechischer, orientalischer und jüdisch-christlicher Kulte in der Stadt Rom von 300 v. Chr. bis 499 n. Chr., Stuttgart 2005 (1363-1364, nr. 3468)</bibl> 
+                    <bibl>Andreussi M., Aventinus Mons, in Steinby E.M. (ed.), Lexicon Topographicum Urbis Romae, vol. I, Roma 1993, 147-150</bibl>
+                    <bibl>Bätz, Alexander, Sacrae virgines. Studien zum religiösen und gesellschaftlichen Status der Vestalinnen, Paderborn-Wien 2012</bibl>
+                    <bibl>Bigi F., Tantillo I. (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020</bibl>
+                    <bibl>Buonocore M., La collezione epigrafica: le iscrizioni latine e greche dei Massimo nel codice 1684 della Biblioteca Angelica, in Camillo Massimo collezionista di antichità. Fonti e materiali, Roma 1996, 193-202</bibl>
+                    <bibl>Cafà V., Palazzo Massimo alle Colonne di Baldassarre Peruzzi. Storia di una famiglia romana e del suo palazzo in rione Parione, Venezia 2007</bibl>
+                    <bibl>Cameron Al., The Imperial Pontifex, HSCPh, 103, 2007, 341-384</bibl>
+                    <bibl>Cameron Al., The last Pagans of Rome, Oxford 2011</bibl>
+                    <bibl>Cameron  Al., Pontifex Maximus: from Augustus to Gratian - and Beyond, in M. Kahlos (ed.), Emperors and the Divine, Helsinki 2016, 139-159</bibl>
+                    <bibl>Capodiferro A., Mignone L.M., Quaranta P. (a cura di), Studi e scavi sull’Aventino, 2003-2015, Roma 2017</bibl>
+                    <bibl>Caprioli F., Vesta Aeterna. L’aedes Vestae e la sua decorazione architettonica, Roma 2007</bibl>
+                    <bibl>Cecconi G.A., Commento storico al libro II dell’epistolario di Q. Aurelio Simmaco, Pisa 2002</bibl>
+                    <bibl>Cerrone F., Crimi G., Palazzo Massimo alle Colonne Corso Vittorio Emanuele II, 141 / Rione VI Parione, in SupplIt Imagines, Roma, CIL,VI. 5. Collezioni urbane dei palazzi storici, a cura di M. Bertinetti, Roma 2016, 325-326</bibl>
+                    <bibl>Chastagnol A., Les fastes de la préfecture de Rome au Bas-empire, Paris 1962</bibl>
+                    <bibl>Chastagnol A., Le Sénat romain à l’époque impériale, Paris 1992</bibl>
+                    <bibl>Conti S., Tra integrazione ed emarginazione: le ultime Vestali, SHHA, 21, 2003, 209-222</bibl>
+                    <bibl>Dey H., The Aurelian Wall and the Refashioning of Imperial Rome, A.D. 271-855, Cambridge-New York 2011</bibl>
+                    <bibl>Ensslin W., Praefectus praetorio, RE XXII, 1954a, coll. 2391-2502</bibl>
+                    <bibl>Ensslin W., Praetextatus 1, in RE XXII/2, Stuttgart 1954b, coll. 1575-1579</bibl>
+                    <bibl>R. Frei-Stolba, Coelia Concordia, la dernière Grand Vierge Vestale, et la partecipation des femmes au discours politique du IVe s. apr. J.-C., in R. Frei-Stolba, A. Bielman, O. Bianchi (édd.), Les femmes antiques entre sphère privée et sphère publique, Bern 2003, 281-315</bibl>
+                    <bibl>Goddard C.J., The Evolution of Pagan Sanctuaries in Late Antique Italy (fourth-sixth centuries A.D.). A new Administrative and Legal Framework. A Paradox, in M. Ghilardi, C.J. Goddard, P. Porena (édd.), Les cités de l’Italie tardo-antique (Ive-VIe siècle): institutions, économie, société, culture et religion, Roma 2006, 281-308</bibl>
+                    <bibl>Gordon A.E., Supralineate abbreviations in Latin inscriptions, in Id., The cults of Aricia, Berkeley 1948, 59-132</bibl>
+                    <bibl>Groag E., Die Reichsbeamten von Achaia in spätrömischer Zeit, Budapest 1946</bibl>
+                    <bibl>Hillner J., Domus, Family, and Inheritance: the Senatorial Family House in Late Antique Rome, JRS, 93, 2003, 129-145</bibl>
+                    <bibl>Kahlos M., The restoration policy of Vettius Agorius Praetextatus, Arctos, 29, 1995, 39-47</bibl>
+                    <bibl>Kahlos M., Vettius Agorius Praetextatus and the rivalry between the bishops in Rome in 366-367, Arctos, 31, 1997, 41-54</bibl>
+                    <bibl>Kahlos M., Vettius Agorius Praetextatus. A senatorial life in between, Roma 2002</bibl>
+                    <bibl>Kuhoff W., s.v. Vettius Agorius Praetextatus, in Biographisch-Bibliographisches Kirchenlexikon, XII, Herzberg 1997, 1297-1309</bibl>
+                    <bibl>Lizzi Testa R., Senatori, popolo, papi. Il governo di Roma al tempo dei Valentiniani, Bari 2004</bibl>
+                    <bibl>Lizzi Testa R., Christian emperor, vestal virgins and priestly colleges: reconsidering the end of Roman paganism, AntTard, 15, 2007, 251-262</bibl>
+                    <bibl>Lizzi Testa R., «Insula ipsa Libanus almae Veneris nuncupatur»: culti, celebrazioni, sacerdoti pagani a Roma, tra IV e VI secolo, in G. Bonamente, R. Lizzi Testa (a cura di), Istituzioni, carismi ed esercizio del potere (IV-VI secolo d.C.), Bari 2010, 273-303</bibl>
+                    <bibl>Lizzi Testa R., The Famous ‘Altar of Victory Controversy’ in Rome: the Impact of Christianity at the End of the Fourth Century, in J. Wienand (ed.), Contested Monarchy. Integrating the Roman Empire in the Fourth Century AD, Oxford 2015, 405-419</bibl>
+                    <bibl>Mahieu V., Acteurs, lieux et pratiques du culte de Vesta dans la Rome tardo-antique: vitalité et disparition d’une institution de la religion traditionnelle, in M. Cavalieri, R. Lebrun, N.L.J. Meunier (édd.), De la crise naquirent les cultes. Approches croisées de la religion, de la philosophie et des représentations antiques, Turnhout 2015, 233-249</bibl>
+                    <bibl>Matthews J.F., Four Funerals and a Wedding. This World and the Next in Fourth-Century Rome, in Ph. Rousseau, M. Papoutsakis (eds), Transformations of Late Antiquity. Essays for Peter Brown, Farnham-Burlington 2009, 129-146</bibl>
+                    <bibl>Mazzucco C., Donne e Bibbia nel cristianesimo tra II e V secolo, in A. Valerio (a cura di), Donne e Bibbia: storia ed esegesi, Napoli 2006, 23-49</bibl>
+                    <bibl>Näf B., Senatorisches Standesbewusstsein in spätrömischer Zeit, Freiburg 1995</bibl>
+                    <bibl>Niquet H., Monumenta virtutum titulique: senatorische Selbstdarstellung im spätantiken Rom im Spiegel der epigraphischen Denkmäler, Stuttgart 2000</bibl>
+                    <bibl>Nistler J., Vettius Agorius Praetextatus, Klio, 10, 1910, 462-475</bibl>
+                    <bibl>Oppedisano F., Senato e cariche pubbliche nelle Res gestae di Ammiano Marcellino, in T. Gnoli (a cura di), Aspetti di tarda antichità. Storici, storia e documenti del IV sec. d.C., Bologna 2019, 213-226</bibl>
+                    <bibl>Orlandi S., “Ipsa ruina docet”: paesaggi di abbandono e di devastazione nell’epigrafia dell’Italia tardoimperiale, in F. Russo (a cura di), L’attività edilizia a Roma e nelle città dell’impero romano, Roma 2021, pp. 127-138</bibl>
+                    <bibl>Palanque J.-R., Une prétendue préfecture de Vettius Agorius Praetextatus, Byzantion, 9, 1934, 355-359</bibl>
+                    <bibl>Palumbo S., Vestali pagane e vergini cristiane nell’epistola XVIII di Ambrogio, InvLuc, 31, 2009, 131-139</bibl>
+                    <bibl>Porena P., Le iscrizioni del Pretorio di Gortyna e la carriera prefettizia di Sex. Petronius Probus, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020a, 87-141</bibl>
+                    <bibl>Porena P., Ipotesi sull’istituzione di una prefettura del pretorio autonoma d’Illirico nel decennio 378-387, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020b, 143-166</bibl>
+                    <bibl>Rebaudo L., Melpomene e Numa: vicende antiche e moderne di due statue romane, in G. Fiaccadori, A. Gatti, S. Marotta (a cura di), «In partibus Clius». Scritti in onore di Giovanni Pugliese Carratelli, Napoli 2006, 19-112</bibl>
+                    <bibl>Reutter U., Damasus, Bischof von Rom (366-384): Leben und Werk, Tübingen 2009</bibl>
+                    <bibl>Rüpke J., Fasti Sacerdotum. Die Mitglieder der Priesterschaften und das sakrale Funktionspersonal römischer, griechischer, orientalischer und jüdisch-christlicher Kulte in der Stadt Rom von 300 v. Chr. bis 499 n. Chr., 3 voll., Stuttgart 2005</bibl>
+                    <bibl>Schmidt-Hofner S., Ehrensachen: Ranggesetzgebung, Elitenkonkurrenz und die Funktionen des Rechts in der Spätantike, Chiron, 40, 2010, 209-243</bibl>
+                    <bibl>Scott R.T., Atrium Vestae, in Steinby E.M. (ed.), Lexicon Topographicum Urbis Romae, vol. I, Roma 1993, 138-142</bibl>
+                    <bibl>Scott T.R., The later history of the Domus delle Vestali, in A. Leone, D. Palombi, S. Walker (eds), Res bene gestae. Ricerche di storia urbana su Roma antica in onore di Eva Margareta Steinby, Roma 2007, 397-402</bibl>
+                    <bibl>Seeck O., Q. Aurelii Symmachi quae supersunt, (MGH AA, VI/1) Berlin 1883</bibl>
+                    <bibl>SupplIt Imagines, Roma, CIL,VI. 5. Collezioni urbane dei palazzi storici, a cura di M. Bertinetti, Roma 2016</bibl>
+                    <bibl>Tantillo I., I monumenti del ciclo di Asclepiodotus: i testi, i personaggi, la datazione, in Bigi F., Tantillo I. (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020, 63-86</bibl>
+                    <bibl>Testard M., Les dames de l’Aventin, disciples de saint Jérôme, BSNAF, 1996 (1999), 39-63</bibl>
+                    <bibl>Van Haeperen Fr., Le collège pontifical (3ème s.a. C.-4ème s.p. C.). Contribution à l’étude de la religion publique romaine, Bruxelles 2002</bibl>
+                    <bibl>Vera D., Lotta politica e antagonismi religiosi nella Roma tardoantica: la vittoria sarmatica di Valentiniano II, Koinonia, 7, 1983, 133-155</bibl> 
                 </p>
             </div>
             
@@ -159,14 +215,25 @@
                 
                 <div type="commentary" n="2">
                     <p n="2.a"></p>
+                    <p n="2.2"></p>
                     <p n="2.3"></p>
+                    <p n="2.9">ut etiam statuae ipsius domus honoraret insignia</p>
+                    <p n="2.10">legato amplissimi ordinis septies et ad impetrandum reb(us) arduis semper opposito, parenti publice privatimq(ue) reverendo</p>
+                    <list n="2.11">
+                        <item n="2.11.f"></item>
+                        <item n="2.11.h"></item>
+                    </list>
+                </div>
+                
+                <div type="commentary" n="4">
+                    <p n="4"></p>
                 </div>
                 
                 <div type="commentary" n="8">
                     <p n="8.1">v(iro) c(larissimo) et inl(ustri)</p>
                     <p n="8.2">praef(ecto) praetorii Illyrici Italiae et Africae</p>
                     <p n="8.3"></p>
-                    <p n="8.6"></p>
+                    <p n="8.10"></p>
                     <p n="8.12"></p>
                     <p n="8.14"></p>
                 </div>

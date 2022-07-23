@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Inscription in honour of the late praet. prefect Praetextatus, from Rome</title>
+                <title>Inscription in honour of the deceased praet. prefect Praetextatus, from Rome (Pal. Altemps)</title>
                 <editor role="edition">Pierfrancesco Porena</editor>
                 <editor role="encoding">Irene Vagionakis</editor>
             </titleStmt>
@@ -25,7 +25,7 @@
                 </listPerson>
                 <msDesc>
                     <msIdentifier>
-                        <repository ref="#Roma">Roma, Museo Nazionale Romano, Palazzo Altemps</repository>
+                        <repository ref="#Roma">Rome, Museo Nazionale Romano, Palazzo Altemps, ground floor, portico of the courtyard next to the theatre entrance</repository>
                         <idno type="invNo">inv. 80733</idno>
                     </msIdentifier>
                     <msContents>
@@ -39,7 +39,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#limestone">limestone</material>
+                                    <material ref="#marble">marble</material>
                                     <objectType ref="#base">statue base</objectType>
                                     <dimensions>
                                         <height>141</height>
@@ -61,7 +61,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <term ref="#square_capitals">late Roman monumental capitals</term>
+                                <term ref="#square_capitals">Late Roman monumental capitals</term>
                                 <height>1.4 / 5</height>
                             </handNote>
                         </handDesc>
@@ -74,11 +74,11 @@
                                 <placeName type="province">Urbs</placeName>
                                 <placeName type="diocese">Italiciana</placeName>
                                 <placeName type="prefecture">Italia Illyricum Africa</placeName>
-                                <placeName type="ancient_location" ref="#public" cert="low">public space (?)</placeName>
+                                <placeName type="ancient_location" ref="#private">private space</placeName>
                             </origPlace>
                             <origDate period="#p8" when="0387-02-01" precision="high">1<hi rend="superscript">st</hi> February 387 AD</origDate>
                         </origin>
-                        <provenance type="found"><placeName ref="#Roma">Rome</placeName></provenance>
+                        <provenance type="found"><placeName ref="#Roma">Rome</placeName>, seen for the first time in the gardens of the Villa dei Mattei on the Caelian Hill</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -93,20 +93,21 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la">
-                <div type="textpart" subtype="part" n="cymatium">
+                <div type="textpart" subtype="part" n="corona">
                     <ab>
                         <lb n="1"/>Agorii.
                     </ab>
                 </div>
                 <div type="textpart" subtype="face" n="frons">
-                    <div type="textpart" subtype="column" n="I-II">
+                    <div type="textpart">
                         <ab>
+                            <lb n="0"/><note>in a line above the two columns of writing</note>
                             <lb n="1"/>Vettio Agorio Praetextato, <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan>
                         </ab>
                     </div>
-                    <div type="textpart" subtype="column" n="I">
+                    <div type="textpart" subtype="column" n="I (sin.)">
                         <ab>
-                            <lb n="1"/>pontifici Vestae,
+                            <lb n="1"/>pontifici Vestae, <g ref="hedera"/>
                             <lb n="2"/>pontifici <expan><abbr>Soli</abbr><ex>s</ex></expan>,
                             <lb n="3"/>quindecemviro,
                             <lb n="4"/>auguri,
@@ -117,22 +118,22 @@
                             <lb n="9"/>patri sacrorum.
                         </ab>
                     </div>
-                    <div type="textpart" subtype="column" n="II">
+                    <div type="textpart" subtype="column" n="II (dex.)">
                         <ab>
                             <lb n="1"/>quaestori
                             <lb n="2"/>candidato,
-                            <lb n="3"/>praetori urbano,
+                            <lb n="3"/>praetori <hi rend="ligature">ur</hi>bano,
                             <lb n="4"/>correctori Tus<lb 
-                                break="no" n="5"/>ciae et Umbriae,
+                                break="no" n="5"/>ciae et <hi rend="ligature">Um</hi>briae,
                             <lb n="6"/>consulari
                             <lb n="7"/>Lusitaniae,
                             <lb n="8"/>proconsuli
                             <lb n="9"/>Achaiae,
-                            <lb n="10"/>praefecto urbi,
-                            <lb n="11"/><sic><expan><abbr>praee</abbr><ex>ecto</ex></expan></sic> <expan><abbr>praet</abbr><ex>orio</ex></expan> II
+                            <lb n="10"/>praefecto <hi rend="ligature">ur</hi>bi,
+                            <lb n="11"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>praet</abbr><ex>orio</ex></expan> II
                             <lb n="12"/>Italiae et Illyrici,
                             <lb n="13"/>consuli
-                            <lb n="14"/>designato.
+                            <lb n="14"/>designato. <g ref="hedera"/>
                         </ab>
                     </div>
                 </div>
@@ -140,49 +141,74 @@
                     <ab>
                         <lb n="1"/>Dedicata <expan><abbr>Kal</abbr><ex>endis</ex></expan> <expan><abbr>Febr</abbr><ex>uariis</ex></expan>
                         <lb n="2"/><expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> <expan><abbr>Fl</abbr><ex>avio</ex></expan> Valentiniano <expan><abbr>Aug</abbr><ex>usto</ex></expan> III
-                        <lb n="3"/>et Eutropio <expan><abbr>cons</abbr><ex>ulibu</ex><abbr>s</abbr></expan>.
+                        <lb n="3"/>et Eutropio <expan><abbr>cons<am>s</am></abbr><ex>ulibus</ex></expan>.
                     </ab>
                 </div>
             </div>
             <div type="apparatus">
-                <p>Edition based on CIL.</p>
+                <p>Edition based on CIL 06, 01778, EDR126995. Text was seen and verified by Porena 2018.</p>
                 <p>
-                    <app loc="11"><note>praef(ecto)</note></app>
+                    <app loc="col.I 2"><note>Solis, Vermaseren 1956</note></app>
+                    <app loc="col.I 3"><note>quindecimviro, Vermaseren 1956</note></app>
+                    <app loc="col.I 8"><note>hierofante, Vermaseren 1956</note></app>
+                    <app loc="col.II 1-2"><note>quaestori candidato, Vermaseren 1956</note></app>
+                    <app loc="col.II 4"><note>conrectori, Duthoy 1969</note></app>
+                    <app loc="col.II 8-9"><note>proconsuli Achaiae, Duthoy 1969</note></app>
+                    <app loc="col.II 10"><note>PRAEEECTO, Gordon 1965, Gordon 1983</note></app>
+                    <app loc="col.II 11"><note>PRAEE, Gordon 1965, Gordon 1983, LSA; praefecto, Duthoy 1969; prae<corr>f</corr>(ecto), EDR, Dubosson-Sbriglione 2018</note></app>
+                    <app loc="col.II 12"><note>EI, Gordon 1965, Gordon 1983; YLLYRICI, Gordon 1965, Gordon 1983</note></app>
+                    <app loc="col.II 13-14"><note>consuli designato, Vermaseren 1956 </note></app>
+                    <app loc="lat.dex.1"><note>EEBR, Gordon 1965</note></app>
+                    <app loc="lat.dex.2-3"><note>a single line in Bricault 2005</note></app>
+                    <app loc="lat.dex.3"><note>cons(ulibus), Vermaseren 1956, De Angelis D’Ossat 2011</note></app>
                 </p>
             </div>
             <div type="translation" xml:lang="en">
                 <p>“Agorius’s (statue).</p>
-                <p>To Vettius Agorius Praetextatus, of clarissimus rank, pontifex of Vesta, pontifex of the Sun, quindecemvir, augur, tauroboliate, curialis, neocorus, hierophant, father of the sacred rites, candidate quaestor, urban praetor, corrector of Tuscia et Umbria, consularis of Lusitania, proconsul of Achaia, urban prefect, praetorian prefect twice of Italy and Illyricum, designated consul.</p>
-                <p>Dedicated on the Kalends of February, during the consulship of our master Flavius Valentinianus Augustus for the third time and of Eutropius.”</p>
+                <p>To Vettius Agorius Praetextatus, of clarissimus rank, pontifex of Vesta, pontifex of the Sun, quindecemvir, augur, tauroboliate, curialis, neocorus, hierophant, father of the sacred rites; candidate quaestor, urban praetor, corrector of Tuscia and Umbria, consularis of Lusitania, proconsul of Achaia, prefect of the City, praetorian prefect twice* of Italy and Illyricum, designated consul.</p>
+                <p>Dedicated on the Kalends of February, during the consulship of our master Flavius Valentinianus Augustus for the third time and of Eutropius”.</p>
             </div>
             <div type="translation" xml:lang="fr">
-                <p>“...”</p>
+                <p>“(Statue) d’Agorius.</p>
+                <p>Au clarissime Vettius Agorius Praetextatus, pontife de Vesta, pontife du Soleil, quindécemvir, augure, taurobolié, curiale, néocore, hiérophante, père des cérémonies sacrées; questeur candidat, préteur urbain, correcteur de Tuscie et d’Ombrie, consulaire de Lusitanie, proconsul d’Achaïe, préfet de la Ville, préfet du prétoire deux fois* d’Italie et d’Illyricum, consul désigné.</p>
+                <p>(Statue) dédiée le jour des calendes de février, sous le consulat de notre seigneur Flavius Valentinien Auguste, pour la troisième fois, et d’Eutropius”.</p>
+                <p><note>other French transl.: Chastagnol 1991 (2nd ed.), pp. 157-158, nr. 41C; Bricault 2005, pp. 552-553, nr. 501/0181; Dubosson-Sbriglione 2018, pp. 504-505, nr. 107</note></p>
             </div>
             <div type="translation" xml:lang="it">
                 <p>“(Statua) di Agorius.</p>
-                <p>A Vettius Agorius Praetextatus, chiarissimo, pontefice di Vesta, pontefice del Sole, quindecemviro, augure, tauroboliato, curiale, neocoro, ierofante, padre dei sacri riti, questore candidato, pretore urbano, correttore di Tuscia ed Umbria, consolare della Lusitania, proconsole d’Acaia, prefetto urbano, prefetto del pretorio due volte II, dell’Italia e dell’Illirico, console designato.</p>
-                <p>Dedicata alle Calende di febbraio durante il consolato del nostro signore Flavius Valentinianus Augustus per la terza volta e di Eutropio.”</p>
+                <p>Al chiarissimo Vettius Agorius Praetextatus, pontefice di Vesta, pontefice del Sole, quindecemviro, augure, tauroboliato, curiale, neocoro, ierofante, padre dei sacri riti; questore candidato, pretore urbano, correttore di Tuscia ed Umbria, consolare della Lusitania, proconsole d’Acaia, prefetto urbano, prefetto del pretorio ‘doppio’* dell’Italia e dell’Illirico, console designato.</p>
+                <p>Dedicata alle Calende di febbraio durante il consolato del nostro signore Flavius Valentinianus Augustus per la terza volta e di Eutropius”.</p>
+                <p> </p>
+                <p>* “praetorian prefect at the same time over two seats”, concerning the iteration see Commentary.</p>
+                <p><note>German transl.: Helbig 1969, pp. 53-54, nr. 2152</note></p>
             </div>
             <div type="commentary">
                 <p>The critical edition, translations and commentary of inscriptions 77-80 will be completed by the end of April 2022. We apologise for the delay.</p>
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
-                    <bibl><ref>CIL 06, 01778</ref> (cfr. pp. 3174, 4757)</bibl>
-                    <bibl><ref>RICIS 02, 501／181</ref></bibl> 
-                    <bibl><ref>CCCA 03, 263</ref></bibl> 
-                    <bibl><ref>CIMRM 01, 420</ref></bibl> 
-                    <bibl><ref>CIMRM 02, p. 28</ref></bibl> 
-                    <bibl><ref>Niquet 2000, pp. 241-224</ref>, with photo (tav. II)</bibl>
-                    <bibl><ref>Rüpke 2005, pp. 1363-1364, nr. 3468</ref></bibl> 
-                    <bibl><ref>Dubosson 2018, p. 107</ref></bibl> 
+                    <bibl><ref>CIL 06, 01778</ref> (p. 4757)</bibl>
+                    <bibl><ref>Vermaseren 1956, p. 178, nr. 420</ref></bibl>
+                    <bibl><ref>Gordon 1965, pp. 144-146, nr. 339</ref> (with photo Pl. 163)</bibl>
+                    <bibl><ref>Gordon 1983, p. 178, nr. 92</ref> (frons only, with English translation and photo Pl. 60)</bibl>
+                    <bibl><ref>Duthoy 1969, p. 20, nr. 27</ref></bibl>
+                    <bibl><ref>Vermaseren 1977, p. 70, nr. 263</ref> (with photo tab. CLII)</bibl>
+                    <bibl><ref>Wytzes 1977, pp. 360-361, nr. 2</ref> (with photo Taf. II)</bibl>
+                    <bibl><ref>Niquet 2000, p. 242</ref> (frons, with photo Taf. II)</bibl>
+                    <bibl><ref>Kahlos 2002, pp. 221-222</ref></bibl>
+                    <bibl><ref>Bricault 2005, pp. 552-553, nr. 501/0181</ref> (with French translation)</bibl>
+                    <bibl><ref>De Angelis D’Ossat 2011, p. 70</ref> (with photo)</bibl>
+                    <bibl><ref>Dubosson-Sbriglione 2018, pp. 504-505, nr. 107</ref> (with French translation)</bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="images">
-                <p></p>
+                <p>
+                    <bibl><ref corresp="https://kb.osu.edu/handle/1811/98962">Ohio State University</ref></bibl>
+                </p>
             </div>
             <div type="bibliography" subtype="links">
                 <p>
+                    <bibl><ref corresp="https://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-18100592">EDCS 18100592</ref></bibl>
                     <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR126995">EDR 126995</ref></bibl>
                     <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-1473">LSA 1473</ref></bibl>
                     <bibl><ref corresp="https://www.trismegistos.org/text/570241">TM 570241</ref></bibl>
@@ -190,9 +216,57 @@
             </div>
             <div type="bibliography" subtype="other">
                 <p>
-                    <bibl>Dubosson L., Le culte de la Mère des dieux dans l’Empire romain, Stuttgart 2018 (107)</bibl> 
-                    <bibl>Niquet H., Monumenta virtutum titulique: senatorische Selbstdarstellung im spätantiken Rom im Spiegel der epigraphischen Denkmäler, Stuttgart 2000 (241-224, tav. II)</bibl>
-                    <bibl>Rüpke J., Fasti sacerdotum: die Mitglieder der Priesterschaften und das sakrale Funktionspersonal römischer, griechischer, orientalischer und jüdisch-christlicher Kulte in der Stadt Rom von 300 v. Chr. bis 499 n. Chr., Stuttgart 2005 (1363-1364, nr. 3468)</bibl> 
+                    <bibl>Beard M., North J., Price S., Religions of Rome, II. A Sourcebook, Cambridge-New York 1998</bibl>
+                    <bibl>Benocci C., La Villa Matteidal XVI al XX secolo: il palazzetto, il parco, le collezioni, in Ead. (a cura di), Villa Celimontana, Torino 1991, 17-93</bibl>
+                    <bibl>Bigi F., Tantillo I. (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020</bibl>
+                    <bibl>Bjornebye J., Secrecy and Initiation in the Mithraic Communities of Fourth Century Rome, in Mystery and secrecy in the Nag Hammadi collection and other ancient literature: ideas and practices studies for Einar Thomassen at Sixty, Leiden 2012, 349-374</bibl>
+                    <bibl>Bricault L., Receuil des inscriptions concernant les cultes Isiaques (RICIS), II, Corpus, Paris 2005</bibl>
+                    <bibl>Bricault L., Les prêtres isiaques du monde romain, in V. Gasparini, R. Veymiers (eds), Individuals and materials in the Greco-Roman cults of Isis: agents, images, and practices, Leiden-Boston (Mass.) 2018, 155-197</bibl>
+                    <bibl>Carucci M., The Sette Sale Domus - A Proposal of Reading, in P.F. Biehl, J.J. Rassamakin (eds), Import and Imitation in Archeology, Langenweißbach 2008, 213-221</bibl>
+                    <bibl>Cecconi G.A., Commento storico al libro II dell’epistolario di Q. Aurelio Simmaco, Pisa 2002</bibl>
+                    <bibl>Chastagnol A., Les fastes de la préfecture de Rome au Bas-empire, Paris 1962</bibl>
+                    <bibl>Chastagnol A., Le Bas-Empire. Textes choisis et présentés, Paris 1991 (2nd ed.)</bibl>
+                    <bibl>Croke B., Harries J., Religious Conflict in Fourth-Century Rome. A Documentary Study, Sidney 1982</bibl>
+                    <bibl>De Angelis D’Ossat M., Base onoraria di Vettius Agorius Praetextatus, in AAVV., Palazzo Altemps. Le collezioni, Milano 2011, p. 70 (= Ead., Scultura antica in Palazzo Altemps, Milano 2002, p. 109)</bibl>
+                    <bibl>De Angelis D’Ossat M., La collezione Mattei in Villa Celimontana, in AAVV., Palazzo Altemps. Le collezioni, Milano 2011, pp. 34-36</bibl>
+                    <bibl>Dubosson-Sbriglione L., Le culte de la Mère des dieux dans l’Empire romain, Stuttgart 2018</bibl>
+                    <bibl>Duthoy R., The Taurobolium: its evolution and terminology, Leiden 1969</bibl>
+                    <bibl>Ensoli S., I santuari di Iside e Serapide a Roma e la resistenza pagana in età tardoantica, in S. Ensoli, E. La Rocca (a cura di), Aurea Roma. Dalla città pagana alla città cristiana, Roma 2000, 267-287</bibl>
+                    <bibl>Ensslin W., Praetextatus 1, in RE XXII/2, Stuttgart 1954, coll. 1575-1579</bibl>
+                    <bibl>Eppinger A., Hercules in der Spätantike. Die Rolle des Heros im Spannungsfeld von Heidentum und Christentum. Wiesbaden 2015</bibl>
+                    <bibl>Gordon A.E., Album of Dated Latin Inscriptions, vol. III (Rome and the Neighborhood, A.D. 200-525), Berkeley 1965</bibl>
+                    <bibl>Gordon A.E., Illustrated Introduction to Latin Epigraphy, Berkeley-Los Angeles-London 1983</bibl>
+                    <bibl>Granino Cecere M.G., Quindecemviri e sacra peregrina, in «Sacrum Facere». Atti del V Seminario di Archeologia del Sacro. Sacra peregrina. La gestione della pluralità religiosa nel mondo antico, Trieste 2019, 147-163</bibl>
+                    <bibl>Groag E., Die Reichsbeamten von Achaia in spätrömischer Zeit, Budapest 1946</bibl>
+                    <bibl>Guidobaldi F., Domus: Vettius Agorius Praetextatus, in E.M. Steinby (a cura di), Lexicon Topographicum Urbis Romae, II, Roma 1995, 164</bibl>
+                    <bibl>Helbig W., Ehreninschrift für Vettius Agorius Praetextatus auf einer Statuenbasis, 387 nach Chr., in </bibl>
+                    <bibl>Führer durch die öffentlichen Sammlungen klassischer Altertümer in Rom, III. Die staatlichen Sammlungen: Museo nazionale romano (Thermenmuseum), Museo nazionale di Villa Giulia, bearb. von B. Andreae [et al.], 4 ed., Tübingen 1969</bibl>
+                    <bibl>Hijmans S.E., Temples and priests of Sol in the city of Rome, Mouseion, 10, 2010, 381-427</bibl>
+                    <bibl>Kahlos M., The restoration policy of Vettius Agorius Praetextatus, Arctos, 29, 1995, 39-47</bibl>
+                    <bibl>Kahlos M., Vettius Agorius Praetextatus and the rivalry between the bishops in Rome in 366-367, Arctos, 31, 1997, 41-54</bibl>
+                    <bibl>Kahlos M., Vettius Agorius Praetextatus. A senatorial life in between, Roma 2002</bibl>
+                    <bibl>Kuhoff W., s.v. Vettius Agorius Praetextatus, in Biographisch-Bibliographisches Kirchenlexikon, XII, Herzberg 1997, 1297-1309</bibl>
+                    <bibl>Lizzi Testa R., Senatori, popolo, papi. Il governo di Roma al tempo dei Valentiniani, Bari 2004</bibl>
+                    <bibl>Lizzi Testa R., Christian emperor, vestal virgins and priestly colleges: reconsidering the end of Roman paganism, Ant Tard, 15, 2007, 251-262</bibl>
+                    <bibl>Lizzi Testa R., «Augures et pontifices»: public sacral law in late antique Rome (fourth-fifth centuries A.D.), in A.J. Cain, N.E. Lenski (eds), The power of Religion in Late Antiquity, Farnham-Burlington 2009, 251-278</bibl>
+                    <bibl>Massa F., Vettio Agorio Pretestato: aristocrazia romana, “culti orientali” e cristianesimo, in C. Bonnet, E. Sanzi (a cura di), Roma città degli dèi. La capitale dell’impero come laboratorio religioso, Roma 2018, 63-76</bibl>
+                    <bibl>Niquet H., Monumenta virtutum titulique. Senatorische Selbstdarstellung im spätantiken Rom im Spiegel der epigraphischen Denkmäler, Stuttgart 2000</bibl>
+                    <bibl>Nistler J., Vettius Agorius Praetextatus, Klio, 10, 1910, 462-475</bibl>
+                    <bibl>Palanque J.-R., Une prétendue préfecture de Vettius Agorius Praetextatus, Byzantion, 9, 1934, 355-359</bibl>
+                    <bibl>Plassart A., Inscriptions de Thespies, BCH, 50, 1926, 383-462</bibl>
+                    <bibl>Porena P., Le iscrizioni del Pretorio di Gortyna e la carriera prefettizia di Sex. Petronius Probus, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020a, 87-141</bibl>
+                    <bibl>Porena P., Ipotesi sull’istituzione di una prefettura del pretorio autonoma d’Illirico nel decennio 378-387, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020b, 143-166</bibl>
+                    <bibl>Reutter U., Damasus, Bischof von Rom (366-384): Leben und Werk, Tübingen 2009</bibl>
+                    <bibl>Rüpke J., Fasti Sacerdotum. Die Mitglieder der Priesterschaften und das sakrale Funktionspersonal römischer, griechischer, orientalischer und jüdisch-christlicher Kulte in der Stadt Rom von 300 v. Chr. bis 499 n. Chr., 3 voll., Stuttgart 2005</bibl>
+                    <bibl>Salzman M.R., Aurelian and the cult of the Unconquered Sun: the institutionalization of Christmas, solar worship, and imperial cult, in O. Tal, Z. Weiss (eds), Expressions of cult in the southern Levant in the Greco-Roman period: manifestations in text and material culture, Turnhout 2017, 37-49</bibl>
+                    <bibl>Seeck O., Q. Aurelii Symmachi quae supersunt, (MGH AA, VI/1) Berlin 1883</bibl>
+                    <bibl>Van Haeperen Fr., Le collège pontifical (3ème s.a. C.-4ème s.p. C.). Contribution à l’étude de la religion publique romaine, Brussels 2002</bibl>
+                    <bibl>Van Haeperen F., Cultes publics, agents cultuels et pouvoir à Rome, Pallas, 111, 2019a, 137-151</bibl>
+                    <bibl>Van Haeperen F., Étrangère et ancestrale. La mère des dieux dans le monde romain, Paris 2019b</bibl>
+                    <bibl>Vera D., Lotta politica e antagonismi religiosi nella Roma tardoantica: la vittoria sarmatica di Valentiniano II, Koinonia, 7, 1983, 133-155</bibl>
+                    <bibl>Vermaseren M.J., Corpus Inscriptionum et Monumentorum Religionis Mithriacae (CIMRM), I, The Hague 1956</bibl>
+                    <bibl>Vermaseren M.J., Corpus cultus Cybelae Attidisque (CCCA), III, Italia-Latium, Leiden 1977</bibl>
+                    <bibl>Walsh D., The cult of Mithras in Late Antiquity development, decline and demise ca. A.D. 270-430, Leiden-Boston 2018</bibl> 
                 </p>
             </div>
             
@@ -204,15 +278,19 @@
                 <div type="commentary" n="2">
                     <p n="2.a"></p>
                     <p n="2.3"></p>
+                    <list n="2.11">
+                        <item n="2.11.h"></item>
+                    </list>
                 </div>
                 
                 <div type="commentary" n="8">
                     <p n="8.1">v(iro) c(larissimo)</p>
                     <p n="8.2">praef(ecto) praet(orio) II Italiae et Illyrici</p>
                     <p n="8.3"></p>
-                    <p n="8.6"></p>
+                    <p n="8.6">II</p>
                     <p n="8.10"></p>
                     <p n="8.12"></p>
+                    <p n="8.14"></p>
                 </div>
             </div>
         </body>

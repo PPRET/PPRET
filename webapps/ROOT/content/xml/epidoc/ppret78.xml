@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Inscription in honour of the praet. prefect Praetextatus, from Rome</title>
+                <title>Fragmentary inscription in honour of the praet. prefect Praetextatus from the Roman Forum</title>
                 <editor role="edition">Pierfrancesco Porena</editor>
                 <editor role="encoding">Irene Vagionakis</editor>
             </titleStmt>
@@ -25,7 +25,7 @@
                 </listPerson>
                 <msDesc>
                     <msIdentifier>
-                        <repository ref="#Roma">Roma, Lapidario Forense</repository>
+                        <repository ref="#Roma">Rome, Lapidario Forense</repository>
                         <idno type="invNo">inv. 5133</idno>
                     </msIdentifier>
                     <msContents>
@@ -61,7 +61,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <term ref="#rustic_capitals">rustic capitals</term>
+                                <term ref="#rustic_capitals">Rustic capitals</term>
                                 <height>2.5 / 3.5</height>
                             </handNote>
                         </handDesc>
@@ -76,7 +76,7 @@
                                 <placeName type="prefecture">Italia Illyricum Africa</placeName>
                                 <placeName type="ancient_location" ref="#public">public space: Roman Forum</placeName>
                             </origPlace>
-                            <origDate period="#p8" when="0384" precision="high">384 AD</origDate>
+                            <origDate period="#p8" notBefore="0384" notAfter="0385">384/385 AD</origDate>
                         </origin>
                         <provenance type="found"><placeName ref="#RomanForum">Rome, Roman Forum</placeName>, close to the column of Phocas</provenance>
                         <provenance type="observed"></provenance>
@@ -97,37 +97,40 @@
                         <lb n="1"/><supplied reason="lost">Vettio Agorio Praet</supplied>extato,
                         <lb n="2"/><supplied reason="lost"><expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan>, correctori Tusciae et U</supplied>mbriae,
                         <lb n="3"/><supplied reason="lost">consulari Lusitaniae, proc</supplied>onsuli Achaiae,
-                        <lb n="4"/><supplied reason="lost"><expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>urb</abbr><ex>i</ex></expan>, <expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>praet</abbr><ex>orio</ex></expan> Il</supplied><unclear>lyr</unclear><supplied reason="lost">i</supplied><unclear>ci</unclear> <unclear>et</unclear> <unclear>Italia</unclear><supplied reason="lost">e</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="4"/><supplied reason="lost"><expan><abbr>praef</abbr><ex>ecto</ex></expan> urbi, <expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>praet</abbr><ex>orio</ex></expan></supplied> <supplied reason="lost" cert="low">II</supplied> <supplied reason="lost">Il</supplied><unclear>lyr</unclear><supplied reason="lost">i</supplied><unclear>ci</unclear> <unclear>et</unclear> <unclear>Italia</unclear><supplied reason="lost">e</supplied>
                         <lb n="5"/><gap reason="lost" extent="unknown" unit="line"/>
                     </ab>
             </div>
             <div type="apparatus">
                 <p>Edition based on CIL.</p>
-                <p></p>
             </div>
             <div type="translation" xml:lang="en">
-                <p>“To Vettius Agorius Praetextatus, of clarissimus rank, corrector of Tuscia and Umbria, consular of Lusitania, proconsul of Achaia, urban prefect, praetorian prefect of Illyricum and Italy ...”</p>
+                <p>“To Vettius Agorius Praetextatus, of clarissimus rank, corrector of Tuscia and Umbria, consular of Lusitania, proconsul of Achaia, urban prefect, (twice ?)* praetorian prefect of Illyricum and Italy ...”.</p>
             </div>
             <div type="translation" xml:lang="fr">
-                <p>“...”</p>
+                <p>“À Vettius Agorius Praetextatus, clarissime, correcteur de la Tuscie et de l’Ombrie, consulaire de la Lusitanie, proconsul d’Achaïe, préfet urbain, préfet du prétoire (double ?)* d’Illyrie et d’Italie ...”.</p>
             </div>
             <div type="translation" xml:lang="it">
-                <p>“A Vettius Agorius Praetextatus, chiarissimo, correttore di Tuscia e Umbria, consolare della Lusitania, proconsole d’Acaia, prefetto urbano, prefetto del pretorio dell’Illirico e d’Italia...”</p>
+                <p>“Al chiarissimo Vettius Agorius Praetextatus, correttore di Tuscia e Umbria, consolare della Lusitania, proconsole d’Acaia, prefetto urbano, prefetto del pretorio (doppio?)* dell’Illirico e d’Italia...”.</p>
+                <p> </p>
+                <p>*   “praetorian prefect at the same time over two seats”, concerning the iteration see Commentary</p>
             </div>
             <div type="commentary">
                 <p>The critical edition, translations and commentary of inscriptions 77-80 will be completed by the end of April 2022. We apologise for the delay.</p>
             </div>
             <div type="bibliography" subtype="editions">
                 <p>
-                    <bibl><ref>CIL 06, 01779a</ref> (cfr. p. 4759)</bibl>
+                    <bibl><ref>CIL 06, 01779a</ref> (p. 4759)</bibl>
                     <bibl><ref>CIL 06, 31929</ref></bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="images">
-                <p></p>
+                <p>
+                    <bibl><ref corresp="https://edh.ub.uni-heidelberg.de/edh/foto/F011338%20">EDH Photo Database F011338</ref></bibl></p>
             </div>
             <div type="bibliography" subtype="links">
                 <p>
+                    <bibl><ref corresp="https://db.edcs.eu/epigr/edcs_id.php?p_edcs_id=EDCS-18100594">EDCS 18100594</ref></bibl>
                     <bibl><ref corresp="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR128719">EDR 128719</ref></bibl>
                     <bibl><ref corresp="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-1409">LSA 1409</ref></bibl>
                     <bibl><ref corresp="https://www.trismegistos.org/text/570242">TM 570242</ref></bibl>
@@ -135,8 +138,33 @@
             </div>
             <div type="bibliography" subtype="other">
                 <p>
-                    <bibl>Niquet H., Monumenta virtutum titulique: senatorische Selbstdarstellung im spätantiken Rom im Spiegel der epigraphischen Denkmäler, Stuttgart 2000 (262)</bibl>
-                    <bibl>Rüpke J., Fasti sacerdotum: die Mitglieder der Priesterschaften und das sakrale Funktionspersonal römischer, griechischer, orientalischer und jüdisch-christlicher Kulte in der Stadt Rom von 300 v. Chr. bis 499 n. Chr., Stuttgart 2005 (1363-1364, nr. 3468)</bibl> 
+                    <bibl>Bauer F.A., Stadt, Platz und Denkmal in der Spätantike. Untersuchungen zur Ausstattung des öffentlichen Raums in den spätantiken Städten Rom, Konstantinopel und Ephesos, Mainz am Rhein 1996</bibl>
+                    <bibl>Bigi F., Tantillo I. (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020</bibl>
+                    <bibl>Cecconi G.A., Commento storico al libro II dell’epistolario di Q. Aurelio Simmaco, Pisa 2002</bibl>
+                    <bibl>Chastagnol A., Les fastes de la préfecture de Rome au Bas-empire, Paris 1962</bibl>
+                    <bibl>Chenault R., Statues of Senators in the Forum of Trajan and the Roman Forum in Late Antiquity, JRS 102, 2012, 103-132</bibl>
+                    <bibl>Ensslin W., Praetextatus 1, in RE XXII/2, Stuttgart 1954, coll. 1575-1579</bibl>
+                    <bibl>Groag E., Die Reichsbeamten von Achaia in spätrömischer Zeit, Budapest 1946</bibl>
+                    <bibl>Jordan H., Sylloge inscriptionum Fori Romani, in Ephemeris Epigraphica, 3, 1877, 237-310</bibl>
+                    <bibl>Kahlos M., The restoration policy of Vettius Agorius Praetextatus, Arctos, 29, 1995, 39-47</bibl>
+                    <bibl>Kahlos M., Vettius Agorius Praetextatus and the rivalry between the bishops in Rome in 366-367, Arctos, 31, 1997, 41-54</bibl>
+                    <bibl>Kahlos M., Vettius Agorius Praetextatus. A senatorial life in between, Roma 2002</bibl>
+                    <bibl>Kalas G., The Restoration of the Roman Forum in Late Antiquity. Transforming Public Space, Austin 2015</bibl>
+                    <bibl>Kalas G., Portraits of Poets and the Lecture Halls in the Forum of Trajan: Masking Cultural Tensions in Late Antique Rome, in Kalas G., van Dijk A. (eds), Urban Developments in Late Antique and Medieval Rome. Revising the Narrative of Renewal, Amsterdam 2021, 75-108</bibl>
+                    <bibl>Kuhoff W., s.v. Vettius Agorius Praetextatus, in Biographisch-Bibliographisches Kirchenlexikon, XII, Herzberg 1997, 1297-1309</bibl>
+                    <bibl>Lizzi Testa R., Senatori, popolo, papi. Il governo di Roma al tempo dei Valentiniani, Bari 2004</bibl>
+                    <bibl>Machado C., Building the Past: Monuments and Memory in the Forum Romanum, in W. Bowden, A. Gutteridge, L. Lavan, C. Machado (eds), Social and Political Life in Late Antiquity, Leiden 2006, 157-192</bibl>
+                    <bibl>Machado C., Urban space and aristocratic power Late Antique Rome, AD 270-535, Oxford 2019</bibl>
+                    <bibl>Niquet H., Monumenta virtutum titulique: senatorische Selbstdarstellung im spätantiken Rom im Spiegel der epigraphischen Denkmäler, Stuttgart 2000</bibl>
+                    <bibl>Nistler J., Vettius Agorius Praetextatus, Klio, 10, 1910, 462-475</bibl>
+                    <bibl>Olszaniec S., The two prefects of 384 – Symmachus and Praetextatus, in K. Twardowska (ed.), Within the Circle of Ancient Ideas and Virtues. Studies in Honour of Professor Maria Dzielska, Krakov 2014, 233-242</bibl>
+                    <bibl>Porena P., Le iscrizioni del Pretorio di Gortyna e la carriera prefettizia di Sex. Petronius Probus, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020a, 87-141</bibl>
+                    <bibl>Porena P., Ipotesi sull’istituzione di una prefettura del pretorio autonoma d’Illirico nel decennio 378-387, in F. Bigi, I. Tantillo (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020b, 143-166</bibl>
+                    <bibl>Reutter U., Damasus, Bischof von Rom (366-384): Leben und Werk, Tübingen 2009</bibl>
+                    <bibl>Seeck O., Q. Aurelii Symmachi quae supersunt, (MGH AA, VI/1) Berlin 1883</bibl>
+                    <bibl>Tantillo I., I monumenti del ciclo di Asclepiodotus: i testi, i personaggi, la datazione, in Bigi F., Tantillo I. (a cura di), Senatori romani nel Pretorio di Gortina. Le statue di Asclepiodotus e la politica di Graziano dopo Adrianopoli, Pisa 2020, 63-86</bibl>
+                    <bibl>Vera D., Commento storico alle Relationes di Quinto Aurelio Simmaco. Introduzione, commento, testo, traduzione, appendice sul libro X, 1-2, indici, Pisa 1981</bibl>
+                    <bibl>Vera D., Lotta politica e antagonismi religiosi nella Roma tardoantica: la vittoria sarmatica di Valentiniano II, Koinonia, 7, 1983, 133-155</bibl> 
                 </p>
             </div>
             
@@ -147,17 +175,20 @@
                 
                 <div type="commentary" n="2">
                     <p n="2.a"></p>
-                    <p n="2.1"></p>
+                    <p n="2.2"></p>
+                    <p n="2.3"></p>
+                    <list n="2.11">
+                        <item n="2.11.g">?</item>
+                    </list>
                 </div>
                 
                 <div type="commentary" n="8">
                     <p n="8.1">[v(iro) c(larissimo)]</p>
-                    <p n="8.2">[praef(ecto) praet(orio) Il]lyr[i]ci et Italia[e]</p>
+                    <p n="8.2">[praef(ecto) praet(orio) II Il]lyr[i]ci et Italia[e]</p>
                     <p n="8.3"></p>
-                    <p n="8.4"></p>
-                    <p n="8.6"></p>
                     <p n="8.10"></p>
                     <p n="8.12"></p>
+                    <p n="8.14"></p>
                 </div>
             </div>
         </body>
