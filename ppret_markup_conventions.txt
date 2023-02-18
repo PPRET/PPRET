@@ -1,0 +1,103 @@
+CORRISPONDENZA FRA CAMPI SCHEDA ED ELEMENTI XML
+Name: <title>
+Inscription number: <idno type="filename">
+NEW/In PLRE: <idno type="filename" n="new/plre">  (valori ammessi per @n: "new" o "plre")
+Editions: <div type="bibliography" subtype="editions">, con un <bibl> per ogni edizione; per data
+Photo: <div type="bibliography" subtype="images">, con un <bibl> per ogni edizione con immagini
+Link: <div type="bibliography" subtype="links">, con un <bibl> e un <ref target="#" corresp="URL"> per ogni edizione online, con uno spazio fra sigla e numero; in ordine alfabetico
+Praetorian Prefects: <listPerson>, con un <person> e un <persName ref="#"> per ogni individuo e un <name type="nomen/gentilicium/cognomen/signum"> per ogni elemento onomastico (i valori ammessi per @type sono nomen, gentilicium, cognomen, signum); nome completo esteso in latino al nominativo, in ordine gerarchico di precedenza nell’epigrafe
+Date: data con anno preciso: <origDate per="#" when="...">; data con intervallo di anni (no secoli): <origDate per="#" notBefore="..." notAfter="...">; si può aggiungere @precision con valore "high" se data precisa; se datazione dubbia si può aggiungere @cert con valore "low"
+Città antica: <placeName type="ancient_name">, in latino
+Città attuale: <placeName type="modern_name">, nome moderno in caratteri latini
+Provincia: <placeName type="province">, in latino; per Roma indicare ‘Urbs’
+Diocesi: <placeName type="diocese">, in latino
+Prefettura: <placeName type="prefecture">, in latino
+Luogo di rinvenimento: <provenance type="found"><placeName ref="#">
+Luogo di conservazione: <repository ref="#...">, con eventuale numero di inventario specificato in <idno type="invNo"> (in @ref specificare sempre il luogo collegandosi alla authority list delle località); se è necessario specificare più luoghi di conservazione, ad esempio per due frammenti diversi, dopo il <repository> e l’<idno type="invNo"> va aggiunto un <altIdentifier> con dentro un <repository> e un <idno type="invNo">, e va aggiunto un attributo @corresp ai due <repository>. Es.:
+<msIdentifier> 
+    <repository corresp="a" ref="#Athens">Athens, Epigraphic Museum</repository>
+    <idno type="invNo">EM 10401</idno>
+    <altIdentifier>
+        <repository corresp="b" ref="#lost">lost</repository>
+        <idno/>
+     </altIdentifier>
+</msIdentifier>
+
+Collocazione del monumento iscritto in antico: <placeName type="ancient_location" ref="#">
+Tipologia del supporto: <objectType>. Se occorre indicare separatamente il tipo del supporto di parti diverse del testo: <objectType ref="#stone_slab #block">slab (a), masonry blocks (b)</objectType>.
+Materiale del supporto: <material>. Se occorre indicare separatamente il materiale di parti diverse del testo: <material ref="#unknown #stone">unknown (a), basalt (b)</material>.
+Reimpiego specchio epigrafico: <rs type="inscribed_field_reuse"> (contenuto: yes/no/uncertain/unknown; possono seguire indicazioni sull'utilizzo anteriore)
+Reimpiego monumento: <rs type="monument_reuse"> (contenuto: yes/no/uncertain/unknown; possono seguire indicazioni sul riuso successivo)
+Iscrizione opistografa: <rs type="opistographic"> (contenuto: yes/no/uncertain/unknown; poi indicazioni su epoca e posizione delle altre iscrizioni presenti sul monumento)
+Misure supporto: Altezza. Larghezza. Profondità. Diametro. <dimensions><height> <width> <depth> <dim type="diameter"></dimensions> (in cm, unità separate con un punto; range separati da /). Se ci sono più frammenti di cui si vogliono indicare separatamente le misure, aggiungendo un @corresp a <dimensions>: [NB: se le misure sono ignote, scrivere ‘unknown’ o ‘not recorded’]
+<dimensions corresp="a"><height> <width> <depth> <dim type="diameter"></dimensions> 
+<dimensions corresp="b"><height> <width> <depth> <dim type="diameter"></dimensions>
+Altezza lettere: <handDesc><handNote><height> (in cm, unità separate con un punto; range separati da /) [NB: se le misure sono ignote, scrivere ‘unknown’ o ‘not recorded’]. Se occorre indicare separatamente le misure delle lettere di parti diverse del testo:
+<height corresp="a">...</height>
+<height corresp="b">...</height>
+Stato dello specchio epigrafico e dell’iscrizione: 
+- <layoutDesc><layout><p> (per descrizione estesa della distribuzione del testo sul supporto, incluse informazioni su interventi successivi nel testo, e.g. rasurae)
+- <layoutDesc><layout><rs type="preservation" key="#"> (per specificare lo stato di conservazione: undamaged / fragmentary / reduced by ** %, con eventuale specificazione specchio epigrafico / supporto)
+- <layoutDesc><layout><p n="opistographic"> (per dati su iscrizioni opistografe: edizione, contenuto e cronologia delle altre epigrafi. Opistographic: …)
+Tecnica di scrittura:  <layoutDesc><layout><rs type="execution" key="#"> 
+Lingua: <textLang mainLang="la/grc" otherLangs=""> (latino: la, greco: grc; @otherLangs da usare solo nel caso di iscrizioni con parti in lingue differenti)
+Ritmo: <msContents><summary><term type="rhythm" ref="#">
+Paleografia: <handDesc><handNote><term>
+Text Categories: <msContents><summary><term type="textType">
+TESTO ANTICO <div type="edition" xml:lang="la/grc">  (latino: la, greco: grc); se il testo è diviso in più parti: <div type="textpart" subtype="face" n="frons">, <div type="textpart" subtype="face" n="retro">, <div type="textpart" subtype="face" n="latus sin.">, <div type="textpart" subtype="face" n="latus dex.">, <div type="textpart" subtype="part" n="corona">. Parole spezzate fra più linee: =.
+APPARATO CRITICO <div type="apparatus">
+<p>Edition based on CIL, with different readings at the lines ...</p>
+<p><app loc="1"><note>[m(aiestati)q(ue) e(ius)]: ILS.</note></app></p>
+- Indicazione visione autoptica dell’iscrizione: <provenance type="observed">
+TRADUZIONE: it / en  / fr <div type="translation" subtype="en/it/fr">; traduzioni continue in tondo, senza numeri di linea (valori di @subtype: it, en, fr; @subtype dovrebbe essere in realtà sostituito da @xml:lang)
+COMMENTO: <div type="commentary">
+BIBLIOGRAFIA: <div type="bibliography" subtype="other">, con un <bibl> per ogni voce; bibliografia estesa, in tondo, in ordine alfabetico per cognome. Es.:
+<bibl>Jones A.H.M., The Later Roman Empire, Oxford 1964, 143-145</bibl>
+<bibl>Petit P., Les fonctionnaires dans l’œuvre de Libanius. Analyse prosopographique, Besançon 1994</bibl>
+<bibl>Woods D., Tatianus and the Basilica of Menas, Byzantion, 65, 1995, 467-474</bibl>
+
+L’EPIGRAFIA E I PREFETTI DEL PRETORIO: <div type="commentary" subtype="prefects">
+
+ELEMENTI XML PER LINK O PER L'INDICIZZAZIONE DELLE FONTI
+<ref type="source">Ephor. FGrHist 70 F 149</ref>: riferimenti a fonti letterarie
+<ref type="ppret" corresp="ppret08">PPRET 8</ref>: link a iscrizione del database
+<ref corresp="http://www.edr-edr.it/default/index.php">EDR</ref>: link esterno
+<bibl><ref target="#EDR" corresp="http://www.edr-edr.it/...">EDR</ref> 122122</bibl>: riferimento bibliografico con link (per ora senza @target)
+[<ref type="ppo" corresp="modello_ppo">PPO1</ref>: link a scheda prosopografica del database]
+[<bibl><ref target="#Macadam1989">Macadam 1989</ref></bibl>: riferimento bibliografico]
+
+ELEMENTI XML PER ASPETTI GRAFICI
+<foreign>: corsivo per parole in lingua straniera
+<hi rend="superscript">th</hi>: in apice, ad esempio per le date in inglese 1st, 2nd 3rd, 4th etc.
+[<title>: corsivo per titoli]
+[<emph>: per nomi autori in maiuscoletto]
+
+ELEMENTI XML ALL’INTERNO DEI TESTI DELLE ISCRIZIONI  (<text>)
+[Termini latini/greci: <w lemma="">]
+[Elementi onomastici: <name nymRef="">]
+[Luoghi: <placeName ref="#">]
+[Elementi prosopografici: <persName ref="#">]
+[Tematiche o espressioni latine/greche: <rs type="" key="">]
+
+CONVENZIONI PROPRIE DELLA TRASCRIZIONE EPIGRAFICA
+https://www.stoa.org/epidoc/gl/latest/app-alltrans.html
+- scioglimento abbreviazioni: <expan><abbr>praef</abbr><ex>ecto</ex></expan>
+- scioglimento abbreviazioni al plurale: <expan><abbr>d</abbr><am>d</am><ex>omini</ex></expan> (qui è usato <am>, abbreviation mark, per la seconda lettera che di fatto è una convenzione per indicare il plurale)
+- sottopunto: <unclear>a</unclear>
+- integrazione lacune: <supplied reason="lost">a</supplied>     [+ cert="low" per generare un ? alla fine]
+- simboli: <g ref="hedera"/>
+- rasura: <del rend="erasure">a</del>
+- lacuna di ampiezza non determinata di più caratteri [- - -]: <gap reason="lost" extent="unknown" unit="character"/>
+- lacuna di ampiezza non determinata di più linee: - - - - - -: <gap reason="lost" extent="unknown" unit="line"/>
+- lacuna di ampiezza determinata [.....]: <gap reason="lost" quantity="5" unit="character"/>
+- caratteri illeggibili +: <gap reason="illegible" quantity="1" unit="character"/>
+- testo errato: <sic>quius</sic>
+- vacat (vac.): <space extent="unknown" unit="character"/>
+- caratteri non interpretabili - in maiuscolo: <orig>io</orig>
+- versi: <lg><lb n="1"/><l>Ἑσπερίης πάσης χθονὸς <lb n="2"/>ὄβριμον ἰθυντῆρα</l></lg>
+- caratteri perduti ma leggibili in passato (sottolineati): <supplied reason="lost" evidence="previouseditor">aaa</supplied>
+- caratteri sopralineati: <hi rend="supraline">v</hi>
+- caratteri integrati poiché omessi per errore <a>: <supplied reason="omitted">a</supplied>
+- caratteri corretti ⌜a⌝: <corr>a</corr>
+- caratteri scritti sopra una rasura «a»: <add place="overstrike">a</add>
+- caratteri aggiunti in antico da una seconda mano `a  ́: <add place="above">a</add>
